@@ -27,10 +27,17 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
 
 3. Set up environment variables:
    Create a `.env` file in the project root and add your API keys:
+
    ```
    OPENAI_API_KEY=your_openai_key
    GEMINI_API_KEY=your_gemini_key
    # Add other API keys as needed
+   ```
+
+4. Download the GT4HistOCR dataset:
+
+   ```bash
+   python utils/download_dataset.py
    ```
 
 ## Usage
