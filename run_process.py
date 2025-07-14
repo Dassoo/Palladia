@@ -12,6 +12,8 @@ from rich.console import Console
 from rich.text import Text
 import asyncio
 import time
+import random
+import os
 
 load_dotenv()   
 console = Console()
@@ -119,15 +121,25 @@ def main():
         console.print(Text("No models configured for evaluation. Please check your models configuration.", style="bold red"))
         return
     
-    # List of image paths to process
     source = "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/"
-    image_paths = []
-    for i in range(1, 3):
-        image_paths.append(source + f"{i:05d}.bin.png")
+    images_to_process = 3
+    
+    all_images = [f for f in os.listdir(source) if f.endswith('.png')]
+    
+    if not all_images:
+        console.print(Text(f"No images found in {source}", style="bold red"))
+        return
+    
+    if len(all_images) < images_to_process:
+        console.print(Text(f"Warning: Only {len(all_images)} images available, processing all of them", style="yellow"))
+        images_to_process = len(all_images)
+    
+    # Select random non-repeating images
+    image_paths = [os.path.join(source, img) for img in random.sample(all_images, images_to_process)]
     
     console.print(Text(f"\nEvaluating {len(to_eval)} models across {len(image_paths)} images...", style="dim"))
     
-    # Run the evaluation
+    # Run the whole process
     asyncio.run(run_all(image_paths, source))
     console.print(Text("\nEvaluation completed. Results saved to results/\n", style="bold green"))
 
