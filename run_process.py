@@ -13,6 +13,7 @@ from rich.text import Text
 import asyncio
 import time
 import random
+import yaml
 import os
 
 load_dotenv()   
@@ -121,8 +122,10 @@ def main():
         console.print(Text("No models configured for evaluation. Please check your models configuration.", style="bold red"))
         return
     
-    source = "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/"
-    images_to_process = 3
+    with open("config/input_config.yaml", 'r') as f:
+        config = yaml.safe_load(f)
+        source = config['input'][0]['path']
+        images_to_process = config['input'][0]['images_to_process']
     
     all_images = [f for f in os.listdir(source) if f.endswith('.png')]
     
