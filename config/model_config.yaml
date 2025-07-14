@@ -11,6 +11,10 @@ models:
   id: gemini-2.5-pro
   enabled: false
   api_key_env: GOOGLE_API_KEY
+- provider: google
+  id: gemini-2.0-flash
+  enabled: false
+  api_key_env: GOOGLE_API_KEY
 - provider: mistral
   id: mistral-small-2506
   enabled: false
@@ -31,8 +35,24 @@ models:
   id: claude-opus-4-20250514
   enabled: false
   api_key_env: ANTHROPIC_API_KEY
+- provider: anthropic
+  id: claude-sonnet-4-20250514
+  enabled: false
+  api_key_env: ANTHROPIC_API_KEY
+- provider: anthropic
+  id: claude-3-7-sonnet-20250219
+  enabled: false
+  api_key_env: ANTHROPIC_API_KEY
+- provider: anthropic
+  id: claude-3-opus-20240229
+  enabled: false
+  api_key_env: ANTHROPIC_API_KEY
 - provider: xai
   id: grok-4-0709
+  enabled: false
+  api_key_env: XAI_API_KEY
+- provider: xai
+  id: grok-2-vision-1212
   enabled: false
   api_key_env: XAI_API_KEY
 - provider: openrouter
