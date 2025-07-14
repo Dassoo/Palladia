@@ -56,7 +56,7 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
 2. Run the app, from which you can set your models configuration and run the analysis and evaluation.
 
    ```bash
-   python main.py
+   python app.py
    ```
 
 3. View the results in the console and in the `results/` directory.

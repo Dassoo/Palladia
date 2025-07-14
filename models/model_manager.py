@@ -65,7 +65,7 @@ class ModelManager:
                            border='#333333')
                            
         self.style.configure('TLabelframe.Label',
-                           font=('Helvetica', 9, 'bold'),
+                           font=('Helvetica', 16, 'bold'),
                            foreground=accent_color,
                            background=bg_color)
         
@@ -73,7 +73,7 @@ class ModelManager:
         self.style.configure('TCheckbutton',
                            background=bg_color,
                            foreground=fg_color,
-                           font=('Helvetica', 9))
+                           font=('Helvetica', 12))
                            
         self.style.map('TCheckbutton',
                      background=[('active', '#2a2a2a')],
