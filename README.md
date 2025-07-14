@@ -26,7 +26,7 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
    ```
 
 3. Set up environment variables:
-   Create a `.env` file in the project root and add your API keys:
+   Create a `.env` file in the project root and add your API keys (see `.env.example`):
 
    ```
    OPENAI_API_KEY=your_openai_key
@@ -53,15 +53,13 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
    └── ...
    ```
 
-2. Configure the models you want to evaluate in `models/models.py` by uncommenting the desired models in the `to_eval` list.
-
-3. Run the evaluation:
+2. Run the app, from which you can set your models configuration and run the analysis and evaluation.
 
    ```bash
-   python app.py
+   python main.py
    ```
 
-4. View the results in the console and in the `results/` directory.
+3. View the results in the console and in the `results/` directory.
 
 ## Supported Models
 

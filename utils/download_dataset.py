@@ -3,7 +3,7 @@ import tarfile
 import requests
 from tqdm import tqdm
 
-def download_gt4hist():
+def download_gt4hist() -> bool:
     """
     Check if GT4HistOCR folder exists, if not, download and extract it.
     The dataset will be downloaded to the project root directory.

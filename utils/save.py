@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 
-def _save_to_json(file_path: str, data: Dict[str, Any]):
+def _save_to_json(file_path: str, data: Dict[str, Any]) -> None:
     """Helper function to save data to JSON file.
     
     Args:
@@ -23,7 +23,7 @@ def _save_to_json(file_path: str, data: Dict[str, Any]):
 
 
 def to_json(model, gt: str, response, wer: float, cer: float, 
-           accuracy: float, exec_time: float, image_path: str):
+           accuracy: float, exec_time: float, image_path: str) -> None:
     """Save individual image evaluation results.
     
     Args:
