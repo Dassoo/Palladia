@@ -59,7 +59,7 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
    python app.py
    ```
 
-3. View the results in the console and in the `results/` directory. A demo of the expected results is already contained into the folder, evaluating 3 models on 2 images of a dataset folder.
+3. View the results in the console and in the `results/` directory. A demo of the expected results is already contained into the `demo/` folder, evaluating 3 models on 2 images of a dataset folder.
 
 ## Supported Models
 
