@@ -13,9 +13,12 @@ dependencies = [
     "google-genai>=1.25.0",
     "groq>=0.29.0",
     "jiwer>=4.0.0",
+    "matplotlib>=3.10.3",
     "mistralai>=1.9.1",
     "openai>=1.93.3",
+    "pandas>=2.3.1",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
     "pyyaml>=6.0.2",
+    "seaborn>=0.13.2",
 ]

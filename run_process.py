@@ -1,7 +1,9 @@
 from models.model_utils import to_eval
 from models.agent import create_agent, create_image_obj
 from evaluation.metrics import get_diff, get_metrics
+from evaluation.graph import create_graph
 from utils.save import to_json, to_json_avg
+from config.loader import load_config
 
 from agno.agent import RunResponse
 from agno.utils.pprint import pprint_run_response
@@ -48,10 +50,10 @@ async def run_model(agent, model, executor, image_path: str):
     console.print(Text(f"\n(🤖) {model.id}", style="bold blue"))
     pprint_run_response(response)
     console.print(diff)
-    console.print(Text(f"Time: {exec_time:.2f} seconds", style="bold blue"))
     console.print(Text(f"WER: {wer:.2%}", style="bold cyan")) # Word error rate (Jiwer)
     console.print(Text(f"CER: {cer:.2%}", style="bold cyan")) # Character error rate (Jiwer)
     console.print(Text(f"Accuracy: {accuracy:.2%}", style="bold blue")) # Accuracy (diff match patch)
+    console.print(Text(f"Execution Time: {exec_time:.2f} seconds", style="bold yellow"))
     console.print(Text("_" * 80, style="dim"))
     
     to_json(model, gt, response, wer, cer, accuracy, exec_time, image_path)
@@ -114,6 +116,8 @@ async def run_all(image_paths: list[str], source: str):
             console.print(Text(f"Average Accuracy: {avg_accuracy:.2%}", style="bold blue"))
             console.print(Text(f"Average Execution Time: {avg_exec_time:.2f} seconds", style="bold yellow"))
             console.print(Text("_"*80, style="dim"))
+        
+    create_graph(source + ".json")
 
 
 def main():
@@ -122,10 +126,14 @@ def main():
         console.print(Text("No models configured for evaluation. Please check your models configuration.", style="bold red"))
         return
     
-    with open("config/input_config.yaml", 'r') as f:
-        config = yaml.safe_load(f)
-        source = config['input'][0]['path']
-        images_to_process = config['input'][0]['images_to_process']
+    try:
+        app_config = load_config(verbose=True)  # Show verbose output when running main process
+        input_cfg = app_config.input_config.input[0]  # Use first input config
+        source = input_cfg.path
+        images_to_process = input_cfg.images_to_process
+    except Exception as e:
+        console.print(f"❌ Configuration error: {e}", style="bold red")
+        return
     
     all_images = [f for f in os.listdir(source) if f.endswith('.png')]
     

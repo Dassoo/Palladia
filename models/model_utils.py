@@ -1,7 +1,6 @@
-import yaml
 import os
-from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Any
+from rich.console import Console
 
 from agno.models.openai import OpenAIChat
 from agno.models.google import Gemini
@@ -13,50 +12,57 @@ from agno.models.xai import xAI
 from agno.models.openrouter import OpenRouter
 from dotenv import load_dotenv
 
-load_dotenv()
+from config.loader import load_config
+from config.schemas import AppConfig
 
-def load_model_config() -> List[Dict[str, Any]]:
-    """Load model configuration from YAML file."""
-    config_path = Path(__file__).parent.parent / 'config/model_config.yaml'
-    with open(config_path, 'r') as f:
-        config = yaml.safe_load(f)
-    return config.get('models', [])
+load_dotenv()
+console = Console()
 
 def get_enabled_models() -> List[Any]:
-    """Get a list of initialized model instances based on the configuration."""
-    model_configs = load_model_config()
+    """Get a list of initialized model instances based on validated configuration."""
+    try:
+        app_config: AppConfig = load_config(verbose=False)  # Silent loading for module import
+    except Exception as e:
+        console.print(f"❌ Configuration error: {e}", style="bold red")
+        return []
+    
     enabled_models = []
     
-    # Map of class names to their actual classes
+    # Map of provider names to their actual classes
     model_classes = {
-        'openai': OpenAIChat,
-        'google': Gemini,
-        'anthropic': Claude,
-        'groq': Groq,
-        'mistral': MistralChat,
-        'nebius': Nebius,
-        'xai': xAI,
-        'openrouter': OpenRouter
+        'OpenAI': OpenAIChat,
+        'Google': Gemini,
+        'Anthropic': Claude,
+        'Groq': Groq,
+        'Mistral': MistralChat,
+        'Nebius': Nebius,
+        'xAI': xAI,
+        'OpenRouter': OpenRouter
     }
     
-    for model_cfg in model_configs:
-        if not model_cfg.get('enabled', False):
-            continue
-            
-        model_class = model_cfg['provider']
-        model_id = model_cfg['id']
+    for model_cfg in app_config.enabled_models:
+        provider = model_cfg.provider
+        model_id = model_cfg.id
         
-        # Prepare model arguments
-        kwargs = {}
-        if 'api_key_env' in model_cfg:
-            kwargs['api_key'] = os.getenv(model_cfg['api_key_env'])
+        # Check if API key is available
+        api_key = os.getenv(model_cfg.api_key_env)
+        if not api_key:
+            console.print(f"⚠ Skipping {model_id}: Missing API key {model_cfg.api_key_env}", style="yellow")
+            continue
         
         # Initialize the model
         try:
-            model_instance = model_classes[model_class](id=model_id, **kwargs)
+            model_class = model_classes[provider]
+            model_instance = model_class(id=model_id, api_key=api_key)
             enabled_models.append(model_instance)
+            console.print(f"Initialized {provider}/{model_id}", style="dim")
+        except KeyError:
+            console.print(f"❌ Unknown provider: {provider}", style="red")
         except Exception as e:
-            print(f"Error initializing {model_class} ({model_id}): {str(e)}")
+            console.print(f"❌ Error initializing {provider}/{model_id}: {str(e)}", style="red")
+    
+    if not enabled_models:
+        console.print("⚠️  No models available for evaluation", style="bold yellow")
     
     return enabled_models
 

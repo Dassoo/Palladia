@@ -3,7 +3,6 @@ import os
 from pathlib import Path
 from typing import Any, Dict
 
-
 def _save_to_json(file_path: str, data: Dict[str, Any]) -> None:
     """Helper function to save data to JSON file.
     
@@ -77,4 +76,5 @@ def to_json_avg(model_id: str, avg_wer: float, avg_cer: float,
             "avg_time": avg_exec_time
         }
     }
+    
     _save_to_json(file_path, data)

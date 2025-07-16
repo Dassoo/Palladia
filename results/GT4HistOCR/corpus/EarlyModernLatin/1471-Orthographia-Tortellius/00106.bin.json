@@ -1,0 +1,26 @@
+{
+    "mistral-small-2506": {
+        "gt": "illam uim uocalis amittere in \u017fequentibus o\u017ftendemus. Quid \ua757 pleraque eodem\n",
+        "response": "quam uim uocalis amittere in sequentibus ostendemus. Quid q pleraq\u0292 co\u0292em",
+        "wer": 54.54545454545454,
+        "cer": 13.333333333333334,
+        "accuracy": 89.04109589041096,
+        "time": 1.467102289199829
+    },
+    "meta-llama/llama-4-scout-17b-16e-instruct": {
+        "gt": "illam uim uocalis amittere in \u017fequentibus o\u017ftendemus. Quid \ua757 pleraque eodem\n",
+        "response": "\u0131llam uim uocais amittere in frequentibus offendemus. Quid quod pleraque codem",
+        "wer": 54.54545454545454,
+        "cer": 14.666666666666666,
+        "accuracy": 87.17948717948718,
+        "time": 1.9938302040100098
+    },
+    "qwen/qwen2.5-vl-72b-instruct:free": {
+        "gt": "illam uim uocalis amittere in \u017fequentibus o\u017ftendemus. Quid \ua757 pleraque eodem\n",
+        "response": "illam uim uocalis amittere in fequentibus o\u017ftendemus. Quid q, pleraque codem",
+        "wer": 27.27272727272727,
+        "cer": 5.333333333333334,
+        "accuracy": 94.73684210526315,
+        "time": 4.198920965194702
+    }
+}
