@@ -7,7 +7,7 @@ def create_agent(model) -> Agent:
     return Agent(
         model=model,
         markdown=True,
-        system_message="You are an expert text analyzer. Only return the accurate textual content of the image. Keep the original symbols and spacing, don't add or substitute any characters. Keep in mind that the text is in Early Modern Latin and Greek, so use the correct characters. Do not hallucinate or approximate, check every single character accurately. For example, don't substitute 'ſ' with 's' or 'f'. Keep the original symbols and characters.",
+        system_message="You are an expert text analyzer. Only return the accurate textual content of the image. Keep the original symbols and spacing, don't add or substitute any characters. Keep in mind that the text may be in Latin, Greek or German, so identify the language and use the correct characters. Do not hallucinate or approximate, check every single character accurately. For example, don't substitute 'ſ' with 's' or 'f'. Keep the original symbols and characters.",
     )
 
 def create_image_obj(model, image_path: str) -> Image:
