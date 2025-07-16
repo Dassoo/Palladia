@@ -15,18 +15,18 @@ class ModelManager:
         self.root.title("OCRacle")
         self.root.geometry("750x600")
         
-        # Configure styles
+        # Styles
         self.style = ttk.Style()
         self.style.theme_use('default')
         
-        # Configure colors - Dark theme
+        # Colors
         bg_color = '#1e1e1e'  # Dark background
         fg_color = '#e0e0e0'  # Light text
         accent_color = '#64b5f6'  # Bright blue
         tab_bg = '#2d2d2d'  # Slightly lighter than background for tabs
         tab_fg = '#b0b0b0'  # Muted text for tabs
         
-        # Configure styles
+        # Configs
         self.style.configure('.', 
                            background=bg_color, 
                            foreground=fg_color, 
@@ -35,13 +35,11 @@ class ModelManager:
         self.style.configure('TFrame', background=bg_color)
         self.style.configure('TNotebook', background=bg_color, borderwidth=0, tabposition='n')
         
-        # Configure notebook layout to center tabs
         self.style.layout('TNotebook', [
             ('Notebook.client', {'sticky': 'nswe'}),
             ('Notebook.tab', {'sticky': 'n'})
         ])
         
-        # Configure tabs
         self.style.configure('TNotebook.Tab', 
                            padding=[20, 6],
                            background=tab_bg,
@@ -52,7 +50,6 @@ class ModelManager:
                      background=[('selected', bg_color), ('active', tab_bg)],
                      foreground=[('selected', accent_color), ('active', fg_color)])
         
-        # Configure buttons
         self.style.configure('TButton', 
                            background='#2d2d2d',
                            foreground=fg_color,
@@ -65,7 +62,6 @@ class ModelManager:
                      foreground=[('active', accent_color)],
                      relief=[('active', 'flat')])
         
-        # Configure label frames
         self.style.configure('TLabelframe', 
                            background=bg_color,
                            borderwidth=1,
@@ -77,7 +73,6 @@ class ModelManager:
                            foreground=accent_color,
                            background=bg_color)
         
-        # Configure checkbuttons with subtle hover effect
         self.style.configure('TCheckbutton',
                            background=bg_color,
                            foreground=fg_color,
@@ -216,7 +211,7 @@ class ModelManager:
                         text=f"✓ Found {len(png_files)} PNG images",
                         foreground='#81c784'
                     )
-                # Suggest a reasonable default for images_to_process
+                # Suggest a reasonable default value for the images
                 if len(png_files) < self.images_count.get():
                     self.images_count.set(min(len(png_files), 5))
             else:
@@ -370,27 +365,25 @@ class ModelManager:
             messagebox.showerror("Error", f"Failed to start app: {str(e)}")
     
     def setup_ui(self):
-        # Create main container with subtle padding
+        # Main container
         main_frame = ttk.Frame(self.root, padding=15)
         main_frame.pack(fill=tk.BOTH, expand=True, padx=15, pady=10)
         
-        # Add Dataset Configuration section at the top
+        # Dataset Configuration section
         self.create_dataset_section(main_frame)
         
-        # Create a frame to center the notebook
         notebook_container = ttk.Frame(main_frame)
         notebook_container.pack(fill=tk.BOTH, expand=True, pady=(0, 10))
         
-        # Create notebook for model providers
+        # Notebook for model providers
         notebook = ttk.Notebook(notebook_container)
         notebook.pack(expand=True, pady=(0, 10))
         
-        # Create a tab for each provider
+        # Provider tabs
         for provider, models in sorted(self.providers.items()):
             tab = ttk.Frame(notebook, padding=10)
             notebook.add(tab, text=provider)
             
-            # Create a frame for the provider's models with clean styling
             frame = ttk.LabelFrame(
                 tab, 
                 text=f" {provider} ",
@@ -399,31 +392,29 @@ class ModelManager:
             )
             frame.pack(fill=tk.BOTH, expand=True, padx=0, pady=(15, 3))
             
-            # Add checkboxes for each model
+            # Models checkboxes
             for model in models:
                 var = tk.BooleanVar(value=model.get('enabled', False))
                 var.trace_add('write', lambda *args, m=model, v=var: self.toggle_model(m, v))
                 
-                # Create a frame for each model
                 model_frame = ttk.Frame(frame)
                 model_frame.pack(fill=tk.X, pady=2)
                 
-                # Add checkbox
                 cb = ttk.Checkbutton(
                     model_frame,
                     text=model['id'],
                     variable=var,
                     style='TCheckbutton',
-                    padding=(5, 2)  # Add some padding around the text
+                    padding=(5, 2)
                 )
                 cb.pack(side=tk.LEFT, anchor='w')
                 
-                # Add API key status with subtle styling
+                # API key status
                 api_key = model.get('api_key_env')
                 has_api_key = bool(os.getenv(api_key)) if api_key else False
                 
                 status_text = "API Key: Configured" if has_api_key else "API Key: Required"
-                status_color = '#81c784' if has_api_key else '#e57373'  # Softer green/red for dark theme
+                status_color = '#81c784' if has_api_key else '#e57373'
                 
                 status_label = ttk.Label(
                     model_frame,
@@ -437,11 +428,10 @@ class ModelManager:
         btn_container = ttk.Frame(main_frame, padding=(0, 15, 0, 5))
         btn_container.pack(fill=tk.X)
         
-        # Frame to center the buttons
         btn_frame = ttk.Frame(btn_container)
         btn_frame.pack(anchor='center')
         
-        # Configure primary button style
+        # Config primary button style
         self.style.configure('Primary.TButton',
                            background='#1976d2',
                            foreground='#ffffff',
@@ -453,7 +443,7 @@ class ModelManager:
                      background=[('active', '#1565c0')],
                      foreground=[('active', '#ffffff')])
         
-        # Add save button
+        # Save button
         btn_save = ttk.Button(
             btn_frame,
             text="Save Configuration",
@@ -463,7 +453,7 @@ class ModelManager:
         )
         btn_save.pack(side=tk.LEFT, padx=6)
         
-        # Add run app button
+        # Run app button
         btn_run = ttk.Button(
             btn_frame,
             text="Run OCRacle",
