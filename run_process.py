@@ -7,6 +7,7 @@ from config.loader import load_config
 
 from agno.agent import RunResponse
 from agno.utils.pprint import pprint_run_response
+from agno.exceptions import ModelProviderError
 from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
 from pathlib import Path
@@ -150,10 +151,19 @@ def main():
     
     console.print(Text(f"\nEvaluating {len(to_eval)} models across {len(image_paths)} images...", style="dim"))
     
-    # Run the whole process
-    asyncio.run(run_all(image_paths, source))
-    console.print(Text("\nEvaluation completed. Results saved to results/\n", style="bold green"))
-
+    try:
+        # Run the whole process
+        asyncio.run(run_all(image_paths, source))
+        console.print(Text("\nEvaluation completed. Results saved to results/\n", style="bold green"))
+    except ModelProviderError as e:
+        console.print(f"❌ Provider error: {e}", style="bold red")
+        return
+    except KeyboardInterrupt:
+        console.print("\n❌ Evaluation interrupted by user.", style="bold red")
+        return
+    except Exception as e:
+        console.print(f"❌ Unexpected error during evaluation: {e}", style="bold red")
+        return
 
 if __name__ == "__main__":
     main()
