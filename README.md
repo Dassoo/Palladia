@@ -5,8 +5,8 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
 ## Features
 
 - **Multiple Model Support**: Evaluate various SOTA multimodal LLM models.
-- **Comprehensive Metrics**: Calculate Word Error Rate (WER), Character Error Rate (CER), and accuracy using diff-match-patch.
-- **Visual Comparison**: Color-coded diff visualization between OCR output and ground truth.
+- **Comprehensive Metrics**: Calculate Word Error Rate (WER), Character Error Rate (CER), and overall accuracy.
+- **Visual Comparison**: Color-coded diff visualization between OCR output and ground truth, including a resume graph.
 - **Performance Tracking**: Measure and compare execution times across different models.
 - **Results Export**: Save evaluation results in JSON format for further analysis.
 
@@ -59,7 +59,7 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
    python app.py
    ```
 
-3. View the results in the console and in the `results/` directory.
+3. View the results in the console and in the `results/` directory. A demo of the expected results is already contained into the folder, evaluating 3 models on 2 images of a dataset folder.
 
 ## Supported Models
 
