@@ -157,15 +157,15 @@ def main():
         
         # Creating barcharts
         create_graph(output_folder + ".json")
-        console.print(Text("\nEvaluation completed. Results saved to results/\n", style="bold green"))
+        console.print(Text("\Benchmark completed. Results saved to results/\n", style="bold green"))
     except ModelProviderError as e:
         console.print(f"❌ Provider error: {e}", style="bold red")
         return
     except KeyboardInterrupt:
-        console.print("\n❌ Evaluation interrupted by user.", style="bold red")
+        console.print("\n❌ Benchmark interrupted by user.", style="bold red")
         return
     except Exception as e:
-        console.print(f"❌ Unexpected error during evaluation: {e}", style="bold red")
+        console.print(f"❌ Unexpected error during benchmark: {e}", style="bold red")
         return
 
 if __name__ == "__main__":
