@@ -71,6 +71,33 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
 - Anthropic
 - OpenRouter (Qwen, Spotlight, InternVL)
 
+## Error Handling & Reliability
+
+OCRacle includes robust error handling to ensure reliable evaluations:
+
+- **Automatic Retries**: Up to 3 attempts for each model call with exponential backoff (1s → 2s → 4s delays)
+- **Rate Limit Handling**: Automatically waits and retries when hitting API rate limits
+- **Transient Error Recovery**: Detects and retries temporary provider issues (overloads, timeouts, server errors)
+- **Authentication Error Detection**: Fails fast for permanent issues like invalid API keys
+
+Example retry behavior:
+```
+ERROR    API connection error from OpenAI API: Request timed out.                                                                 
+WARNING  Attempt 1/6 failed: Request timed out.                                                                                   
+ERROR    API connection error from OpenAI API: Request timed out.                                                                 
+WARNING  Attempt 2/6 failed: Request timed out.
+```
+
+## Supported Models
+
+- OpenAI
+- Google (Gemini)
+- Mistral
+- Groq (Meta Llama)
+- xAI (Grok)
+- Anthropic
+- OpenRouter (Qwen, Spotlight, InternVL)
+
 ## Metrics
 
 - **Word Error Rate (WER)**: The ratio of word-level errors to the total number of words.
@@ -82,8 +109,10 @@ A tool for evaluating and comparing the performance of various SOTA multimodal L
 
 The tool provides:
 
-1. Console output with color-coded diffs and metrics
-2. JSON files in the `results/` directory containing detailed evaluation data
+1. **Console output** with color-coded diffs and metrics for real-time monitoring
+2. **Individual JSON files** in the `results/` directory containing detailed evaluation data per image
+3. **Aggregated JSON files** with averaged metrics across entire datasets
+4. **Visual barcharts** showing comparative performance across models regarding the evaluated metrics
 
 ## Requirements
 
