@@ -1,7 +1,7 @@
 [project]
-name = "ocr-evaluator"
+name = "OCRacle"
 version = "0.1.0"
-description = "Add your description here"
+description = "A tool for evaluating and comparing the performance of various SOTA multimodal LLM models on historical image documents, based on the GT4HistOCR dataset."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
