@@ -1,5 +1,7 @@
 # OCRacle – A Benchmarking Tool for Vision LLMs
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo)
+
 A tool for evaluating and comparing the performance of various SOTA multimodal and vision LLM models on historical image documents, based on the GT4HistOCR dataset (https://zenodo.org/records/1344132#.XBdmGPZKg_U).
 
 ## Features
