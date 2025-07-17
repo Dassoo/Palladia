@@ -2,6 +2,7 @@ import json
 import os
 from pathlib import Path
 from typing import Any, Dict
+from collections import defaultdict
 
 def _save_to_json(file_path: str, data: Dict[str, Any]) -> None:
     """Helper function to save data to JSON file.
@@ -78,3 +79,89 @@ def to_json_avg(model_id: str, avg_wer: float, avg_cer: float,
     }
     
     _save_to_json(file_path, data)
+
+
+def aggregate_folder_results(folder_path: str, output_file: str = None) -> Dict[str, Any]:
+    """Manually aggregate results from all JSON files in a folder and calculate average metrics per model.
+    
+    Args:
+        folder_path: Path to folder containing JSON files (e.g., 'results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
+        output_file: Optional output file path. If None, saves to '{folder_path}.json'
+    
+    Returns:
+        Dictionary with aggregated results per model
+    """
+    folder_path = Path(folder_path)
+    
+    if not folder_path.exists():
+        raise FileNotFoundError(f"Folder not found: {folder_path}")
+    
+    # Collect all metrics per model
+    model_metrics = defaultdict(lambda: {
+        'wer': [],
+        'cer': [],
+        'accuracy': [],
+        'time': []
+    })
+    
+    # Read all JSON files in the folder
+    json_files = list(folder_path.glob("*.json"))
+    
+    if not json_files:
+        raise ValueError(f"No JSON files found in {folder_path}")
+    
+    for json_file in json_files:
+        try:
+            with open(json_file, 'r') as f:
+                data = json.load(f)
+            
+            # Extract metrics for each model in this file
+            for model_id, metrics in data.items():
+                if isinstance(metrics, dict) and all(key in metrics for key in ['wer', 'cer', 'accuracy', 'time']):
+                    model_metrics[model_id]['wer'].append(metrics['wer'])
+                    model_metrics[model_id]['cer'].append(metrics['cer'])
+                    model_metrics[model_id]['accuracy'].append(metrics['accuracy'])
+                    model_metrics[model_id]['time'].append(metrics['time'])
+        
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"Warning: Skipping invalid JSON file {json_file}: {e}")
+            continue
+    
+    if not model_metrics:
+        raise ValueError(f"No valid model metrics found in {folder_path}")
+    
+    # Calculate averages for each model
+    aggregated_results = {}
+    
+    # Extract source path from folder structure
+    source_path = str(folder_path)
+    if source_path.startswith('results/'):
+        source_path = source_path[8:]  # Remove 'results/' prefix
+    
+    for model_id, metrics in model_metrics.items():
+        if metrics['wer']:  # Ensure we have data
+            aggregated_results[model_id] = {
+                "source": source_path,
+                "images": len(metrics['wer']),
+                "avg_wer": sum(metrics['wer']) / len(metrics['wer']),
+                "avg_cer": sum(metrics['cer']) / len(metrics['cer']),
+                "avg_accuracy": sum(metrics['accuracy']) / len(metrics['accuracy']),
+                "avg_time": sum(metrics['time']) / len(metrics['time'])
+            }
+    
+    if output_file is None:
+        output_file = f"{folder_path}.json"
+    
+    os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
+    with open(output_file, 'w') as f:
+        json.dump(aggregated_results, f, indent=4)
+    
+    print(f"Aggregated results saved to: {output_file}")
+    print(f"Processed {len(json_files)} json files, found {len(aggregated_results)} models")
+    
+    return aggregated_results
+
+
+if __name__ == "__main__":
+    # Manual example usage if needed
+    aggregate_folder_results('results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
