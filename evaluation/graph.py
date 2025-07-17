@@ -69,3 +69,7 @@ def create_graph(path: str):
     plt.tight_layout()
     # plt.show()
     plt.savefig(f"results/{path}.png")
+
+
+# if  __name__ == "__main__":
+#     create_graph("custompath.json")

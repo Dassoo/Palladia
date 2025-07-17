@@ -7,7 +7,25 @@ def create_agent(model) -> Agent:
     return Agent(
         model=model,
         markdown=True,
-        system_message="You are an expert text analyzer. Only return the accurate textual content of the image. Keep the original symbols and spacing, don't add or substitute any characters. Keep in mind that the text may be in Latin, Greek or German, so identify the language and use the correct characters. Do not hallucinate or approximate, check every single character accurately. For example, don't substitute 'ſ' with 's' or 'f'. Keep the original symbols and characters.",
+        retries=5,
+        delay_between_retries=2,
+        exponential_backoff=True,
+        system_message="""
+        
+            You are an expert historical text analyst and character-preserving transcription specialist. Your task is to extract the exact textual content from the image, maintaining absolute fidelity to the source.
+            Carefully preserve all original symbols, characters, ligatures, diacritics, spacing, and punctuation. Do not modernize, normalize, or interpret characters in any way.
+            The text may include Early Modern Latin, Greek (using polytonic orthography), or Early Modern German, and may feature historical glyphs such as:
+            - Long s (ſ)
+            - Ligatures (e.g., æ, œ, ꝑ, ꝓ, Ͳ, ϗ)
+            - Tironian et (⁊)
+            - Greek breathing marks, iota subscripts, and accentuation (e.g., ᾽, ῾, ῳ, ἄ)
+            - Special punctuation (e.g., Greek question mark ';', ano teleia '·')
+            
+            Do not substitute or "correct" characters:
+            For example, do not replace ſ with s, or ϗ with και. Each glyph must be rendered exactly as seen.
+            Output only the precise textual content from the image — no explanations, metadata, translations, or summaries. Validate each character visually and contextually with scholarly-level accuracy.
+            
+        """,
     )
 
 def create_image_obj(model, image_path: str) -> Image:
