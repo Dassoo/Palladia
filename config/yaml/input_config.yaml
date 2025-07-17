@@ -1,3 +1,3 @@
 input:
-- path: GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius
-  images_to_process: 25
+- path: GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais
+  images_to_process: 3

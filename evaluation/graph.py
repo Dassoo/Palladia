@@ -9,7 +9,7 @@ def create_graph(path: str):
     Args:
         path (str): Path to the JSON file containing the data.
     """
-    with open(f"results/{path}", "r") as f:
+    with open(f"{path}", "r") as f:
         data = json.load(f)
 
     df = pd.DataFrame.from_dict(data, orient="index").reset_index()
@@ -68,7 +68,7 @@ def create_graph(path: str):
 
     plt.tight_layout()
     # plt.show()
-    plt.savefig(f"results/{path}.png")
+    plt.savefig(f"{path}.png")
 
 
 # if  __name__ == "__main__":

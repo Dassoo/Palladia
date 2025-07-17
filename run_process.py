@@ -2,7 +2,7 @@ from models.model_utils import to_eval
 from models.agent import create_agent, create_image_obj
 from evaluation.metrics import get_diff, get_metrics
 from evaluation.graph import create_graph
-from utils.save import to_json, to_json_avg
+from utils.save import to_json, aggregate_folder_results
 from config.loader import load_config
 
 from agno.agent import RunResponse
@@ -107,8 +107,6 @@ async def run_all(image_paths: list[str], source: str):
             avg_exec_time = sum(model_metrics['exec_time']) / len(model_metrics['exec_time'])
             tot_images = model_metrics['total_images']
             
-            to_json_avg(model_id, avg_wer, avg_cer, avg_accuracy, avg_exec_time, source, tot_images)
-            
             console.print(Text(f"\n(🤖) {model_id}", style="bold blue"))
             console.print(Text(f"Source: {source}", style="dim"))
             console.print(Text(f"Images processed: {tot_images}", style="dim"))
@@ -117,14 +115,12 @@ async def run_all(image_paths: list[str], source: str):
             console.print(Text(f"Average Accuracy: {avg_accuracy:.2%}", style="bold blue"))
             console.print(Text(f"Average Execution Time: {avg_exec_time:.2f} seconds", style="bold yellow"))
             console.print(Text("_"*80, style="dim"))
-        
-    create_graph(source + ".json")
 
 
 def main():
     # Check if we have any models to evaluate
     if not to_eval:
-        console.print(Text("No models configured for evaluation. Please check your models configuration.", style="bold red"))
+        console.print(Text("❌ No models configured for evaluation. Please check your models configuration.", style="bold red"))
         return
     
     try:
@@ -139,7 +135,7 @@ def main():
     all_images = [f for f in os.listdir(source) if f.endswith('.png')]
     
     if not all_images:
-        console.print(Text(f"No images found in {source}", style="bold red"))
+        console.print(Text(f"❌ No images found in {source}", style="bold red"))
         return
     
     if len(all_images) < images_to_process:
@@ -148,12 +144,19 @@ def main():
     
     # Select random non-repeating images
     image_paths = [os.path.join(source, img) for img in random.sample(all_images, images_to_process)]
+    output_folder = "results/" + source
     
     console.print(Text(f"\nEvaluating {len(to_eval)} models across {len(image_paths)} images...", style="dim"))
     
     try:
         # Run the whole process
         asyncio.run(run_all(image_paths, source))
+        
+        # Creating json report
+        aggregate_folder_results(output_folder)
+        
+        # Creating barcharts
+        create_graph(output_folder + ".json")
         console.print(Text("\nEvaluation completed. Results saved to results/\n", style="bold green"))
     except ModelProviderError as e:
         console.print(f"❌ Provider error: {e}", style="bold red")

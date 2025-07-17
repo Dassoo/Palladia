@@ -4,6 +4,9 @@ from pathlib import Path
 from typing import Any, Dict
 from collections import defaultdict
 
+from rich.console import Console
+console = Console()
+
 def _save_to_json(file_path: str, data: Dict[str, Any]) -> None:
     """Helper function to save data to JSON file.
     
@@ -52,41 +55,11 @@ def to_json(model, gt: str, response, wer: float, cer: float,
     _save_to_json(file_path, data)
 
 
-def to_json_avg(model_id: str, avg_wer: float, avg_cer: float, 
-               avg_accuracy: float, avg_exec_time: float, 
-               source: str, total_images: int):
-    """Save average metrics for a model across multiple images.
-    
-    Args:
-        model_id: Identifier for the model
-        avg_wer: Average Word Error Rate
-        avg_cer: Average Character Error Rate
-        avg_accuracy: Average accuracy
-        avg_exec_time: Average execution time in seconds
-        source: Source identifier for the evaluation
-        total_images: Total number of images processed
-    """
-    file_path = f"results/{source}.json"
-    data = {
-        model_id: {
-            "source": source,
-            "images": total_images,
-            "avg_wer": avg_wer * 100,
-            "avg_cer": avg_cer * 100,
-            "avg_accuracy": avg_accuracy * 100,
-            "avg_time": avg_exec_time
-        }
-    }
-    
-    _save_to_json(file_path, data)
-
-
-def aggregate_folder_results(folder_path: str, output_file: str = None) -> Dict[str, Any]:
+def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
     """Manually aggregate results from all JSON files in a folder and calculate average metrics per model.
     
     Args:
         folder_path: Path to folder containing JSON files (e.g., 'results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
-        output_file: Optional output file path. If None, saves to '{folder_path}.json'
     
     Returns:
         Dictionary with aggregated results per model
@@ -149,15 +122,13 @@ def aggregate_folder_results(folder_path: str, output_file: str = None) -> Dict[
                 "avg_time": sum(metrics['time']) / len(metrics['time'])
             }
     
-    if output_file is None:
-        output_file = f"{folder_path}.json"
-    
+    output_file = f"{folder_path}.json"
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
     with open(output_file, 'w') as f:
         json.dump(aggregated_results, f, indent=4)
     
-    print(f"Aggregated results saved to: {output_file}")
-    print(f"Processed {len(json_files)} json files, found {len(aggregated_results)} models")
+    console.print(f"\nAggregated results saved to: {output_file}", style="dim")
+    console.print(f"Processed {len(json_files)} json files, found {len(aggregated_results)} models", style="dim")
     
     return aggregated_results
 
