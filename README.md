@@ -1,6 +1,6 @@
-# OCRacle - Multimodal OCR Evaluation Tool
+# OCRacle – A Benchmarking Tool for Vision LLMs
 
-A tool for evaluating and comparing the performance of various SOTA multimodal LLM models on historical image documents, based on the GT4HistOCR dataset (https://zenodo.org/records/1344132#.XBdmGPZKg_U).
+A tool for evaluating and comparing the performance of various SOTA multimodal and vision LLM models on historical image documents, based on the GT4HistOCR dataset (https://zenodo.org/records/1344132#.XBdmGPZKg_U).
 
 ## Features
 
