@@ -31,8 +31,8 @@ def create_graph(path: str):
         y="model",
         x="avg_accuracy",
         order=model_order,
-        hue="model",
-        palette="rocket",
+        hue="avg_accuracy",
+        palette="flare",
         dodge=False,
         legend=False
     )
@@ -61,7 +61,7 @@ def create_graph(path: str):
     ax2.set_ylabel("")
     ax2.set_xlim(0, 100)
     ax2.set_xticks(range(0, 101, 10))
-    ax2.legend(title="Metric")
+    ax2.legend(title="Metrics")
     
     for container in ax2.containers:
         ax2.bar_label(container, fmt="%.2f", padding=3)
@@ -71,5 +71,5 @@ def create_graph(path: str):
     plt.savefig(f"{path}.png")
 
 
-# if  __name__ == "__main__":
-#     create_graph("custompath.json")
+if  __name__ == "__main__":
+    create_graph("results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json")

@@ -8,18 +8,28 @@ def get_diff(candidate: str, reference: str):
     dmp = diff_match_patch()
     diffs = dmp.diff_main(reference, candidate)
     
+    # Count matches, deletions, and insertions
     match_count = sum(len(text) for op, text in diffs if op == 0)
-    total_length = max(len(reference), 1)
-    accuracy = match_count / total_length
+    deletion_count = sum(len(text) for op, text in diffs if op == -1)  # missing from candidate
+    insertion_count = sum(len(text) for op, text in diffs if op == 1)   # extra in candidate
+    
+    # Calculate accuracy considering all operations
+    # Total possible operations = length of the longer string + insertions
+    total_operations = max(len(reference), len(candidate))
+    if total_operations == 0:
+        accuracy = 1.0
+    else:
+        # Accuracy = correct characters / total characters in alignment
+        accuracy = match_count / total_operations
     
     text = Text()
     for op, data in diffs:
         if op == 0:
             text.append(data, style="green")
         elif op == -1:
-            text.append(data, style="bold yellow")  # extra
+            text.append(data, style="bold yellow")  # missing from candidate
         elif op == 1:
-            text.append(data, style="bold red")  # missing
+            text.append(data, style="bold red")  # extra in candidate
     
     return text, accuracy
 

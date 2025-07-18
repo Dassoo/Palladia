@@ -42,7 +42,7 @@ async def run_model(agent, model, executor, image_path: str):
     
     gt_path = Path(image_path).with_suffix("").with_suffix(".gt.txt")
     with open(gt_path, "r") as f:
-        gt = f.read()
+        gt = f.read().rstrip('\n') # Fixed issue with /n impacting accuracy metrics...
 
     diff, accuracy = get_diff(gt, response.content)
     wer, cer = get_metrics(gt, response.content)
@@ -157,7 +157,7 @@ def main():
         
         # Creating barcharts
         create_graph(output_folder + ".json")
-        console.print(Text("\Benchmark completed. Results saved to results/\n", style="bold green"))
+        console.print(Text("\nBenchmark completed. Results saved to results/\n", style="bold green"))
     except ModelProviderError as e:
         console.print(f"❌ Provider error: {e}", style="bold red")
         return

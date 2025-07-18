@@ -13,7 +13,7 @@ class ModelManager:
     def __init__(self, root):
         self.root = root
         self.root.title("OCRacle")
-        self.root.geometry("750x600")
+        self.root.geometry("750x700")
         
         # Styles
         self.style = ttk.Style()

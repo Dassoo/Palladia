@@ -1,15 +1,31 @@
 models:
 - provider: OpenAI
+  id: gpt-4.1-2025-04-14
+  enabled: true
+  api_key_env: OPENAI_API_KEY
+- provider: OpenAI
+  id: o4-mini-2025-04-16
+  enabled: true
+  api_key_env: OPENAI_API_KEY
+- provider: OpenAI
+  id: o3-pro-2025-06-10
+  enabled: false
+  api_key_env: OPENAI_API_KEY
+- provider: OpenAI
+  id: o3-2025-04-16
+  enabled: false
+  api_key_env: OPENAI_API_KEY
+- provider: OpenAI
   id: gpt-4o
   enabled: true
   api_key_env: OPENAI_API_KEY
 - provider: Google
   id: gemini-2.5-flash
-  enabled: false
+  enabled: true
   api_key_env: GOOGLE_API_KEY
 - provider: Google
   id: gemini-2.5-pro
-  enabled: false
+  enabled: true
   api_key_env: GOOGLE_API_KEY
 - provider: Google
   id: gemini-2.0-flash
@@ -17,7 +33,7 @@ models:
   api_key_env: GOOGLE_API_KEY
 - provider: Mistral
   id: mistral-small-2506
-  enabled: false
+  enabled: true
   api_key_env: MISTRAL_API_KEY
 - provider: Groq
   id: meta-llama/llama-4-scout-17b-16e-instruct
@@ -25,15 +41,15 @@ models:
   api_key_env: GROQ_API_KEY
 - provider: Groq
   id: meta-llama/llama-4-maverick-17b-128e-instruct
-  enabled: false
+  enabled: true
   api_key_env: GROQ_API_KEY
 - provider: Anthropic
   id: claude-opus-4-20250514
-  enabled: false
+  enabled: true
   api_key_env: ANTHROPIC_API_KEY
 - provider: Anthropic
   id: claude-sonnet-4-20250514
-  enabled: false
+  enabled: true
   api_key_env: ANTHROPIC_API_KEY
 - provider: Anthropic
   id: claude-3-7-sonnet-20250219
@@ -45,7 +61,7 @@ models:
   api_key_env: ANTHROPIC_API_KEY
 - provider: xAI
   id: grok-4-0709
-  enabled: false
+  enabled: true
   api_key_env: XAI_API_KEY
 - provider: xAI
   id: grok-2-vision-1212
@@ -53,7 +69,7 @@ models:
   api_key_env: XAI_API_KEY
 - provider: OpenRouter
   id: arcee-ai/spotlight
-  enabled: false
+  enabled: true
   api_key_env: OPENROUTER_API_KEY
 - provider: OpenRouter
   id: qwen/qwen2.5-vl-72b-instruct:free
@@ -65,7 +81,7 @@ models:
   api_key_env: OPENROUTER_API_KEY
 - provider: Nebius
   id: Qwen/Qwen2.5-VL-72B-Instruct
-  enabled: false
+  enabled: true
   api_key_env: NEBIUS_API_KEY
 - provider: Nebius
   id: Qwen/Qwen2-VL-72B-Instruct
