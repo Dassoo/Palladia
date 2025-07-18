@@ -71,5 +71,5 @@ def create_graph(path: str):
     plt.savefig(f"{path}.png")
 
 
-if  __name__ == "__main__":
-    create_graph("results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json")
+# if  __name__ == "__main__":
+#     create_graph("results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json")
