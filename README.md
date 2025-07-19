@@ -64,7 +64,7 @@ A tool for evaluating and comparing the performance of various SOTA multimodal a
    Edit `.env` and add your API keys:
    ```env
    OPENAI_API_KEY=your_openai_key_here
-   GEMINI_API_KEY=your_gemini_key_here
+   GOOGLE_API_KEY=your_google_key_here
    ...
    ```
 
