@@ -14,64 +14,116 @@ A tool for evaluating and comparing the performance of various SOTA multimodal a
 
 ## Installation
 
-1. Clone the repository:
+### Prerequisites
+
+- Python 3.13+
+- pip or uv package manager
+
+### Setup
+
+1. **Clone the repository:**
 
    ```bash
    git clone <repository-url>
    cd ocr_evaluator
    ```
 
-2. Install dependencies:
+2. **Create and activate a virtual environment:**
 
+   Using venv:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+   Or using uv (recommended):
+   ```bash
+   uv venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+
+   Using pip:
    ```bash
    pip install .
    ```
 
-3. Set up environment variables:
-   Create a `.env` file in the project root and add your API keys (see `.env.example`):
-
-   ```
-   OPENAI_API_KEY=your_openai_key
-   GEMINI_API_KEY=your_gemini_key
-   # Add other API keys as needed
+   Or using uv:
+   ```bash
+   uv pip install .
    ```
 
-4. Download the GT4HistOCR dataset:
+4. **Set up environment variables:**
+   
+   Copy the example environment file and add your API keys:
+   ```bash
+   cp .env.example .env
+   ```
+   
+   Edit `.env` and add your API keys:
+   ```env
+   OPENAI_API_KEY=your_openai_key_here
+   GEMINI_API_KEY=your_gemini_key_here
+   ...
+   ```
+
+5. **Download the GT4HistOCR dataset:**
 
    ```bash
    python utils/download_dataset.py
    ```
 
+### Configuration
+
+The tool uses YAML configuration files located in `config/yaml/`. You can customize:
+
+- **Models to evaluate**: Edit model configurations to enable/disable specific models
+- **Input datasets**: Configure which dataset folders to process
+- **Evaluation parameters**: Set number of images to process, random sampling, etc.
+
+Run the configuration validation to ensure everything is set up correctly:
+```bash
+python -m pytest tests/test_config_validation.py -v
+```
+
 ## Usage
 
-1. The default benchmark dataset is `GT4HistOCR/corpus/` directory with the following structure:
+### Quick Start
 
-   ```
-   GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/
-   ├── 00001.bin.png
-   ├── 00001.gt.txt
-   ├── 00002.bin.png
-   ├── 00002.gt.txt
-   └── ...
+1. **Activate your virtual environment:**
+   ```bash
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
-2. Run the app, from which you can set your models configuration and run the analysis and evaluation.
-
+2. **Run the interactive app:**
    ```bash
    python app.py
    ```
+   This opens a GUI where you can configure models and run evaluations.
 
-3. View the results in the console and in the `results/` directory. A demo of the expected results is already contained into the `demo/` folder, evaluating 3 models on 2 images of a dataset folder.
 
-## Supported Models
+### Dataset Structure
 
-- OpenAI
-- Google (Gemini)
-- Mistral
-- Groq (Meta Llama)
-- xAI (Grok)
-- Anthropic
-- OpenRouter (Qwen, Spotlight, InternVL)
+The tool expects datasets in the GT4HistOCR format:
+
+```
+GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/
+├── 00001.bin.png  # Image file
+├── 00001.gt.txt   # Ground truth text
+├── 00002.bin.png
+├── 00002.gt.txt
+└── ...
+```
+
+### Results
+
+Results are saved in the `results/` directory:
+- Individual JSON files per image with detailed metrics
+- Aggregated JSON files with averaged performance across datasets  
+- PNG bar charts comparing model performance
+- Console output with real-time color-coded diffs
+
 
 ## Error Handling & Reliability
 
@@ -90,16 +142,6 @@ ERROR    API connection error from OpenAI API: Request timed out.
 WARNING  Attempt 2/6 failed: Request timed out.
 ```
 
-## Supported Models
-
-- OpenAI
-- Google (Gemini)
-- Mistral
-- Groq (Meta Llama)
-- xAI (Grok)
-- Anthropic
-- OpenRouter (Qwen, Spotlight, InternVL)
-
 ## Metrics
 
 - **Word Error Rate (WER)**: The ratio of word-level errors to the total number of words.
@@ -116,10 +158,6 @@ The tool provides:
 3. **Aggregated JSON files** with averaged metrics across entire datasets
 4. **Visual barcharts** showing comparative performance across models regarding the evaluated metrics
 
-## Requirements
-
-- Python 3.13+
-- Required Python packages (install via `pip install .`):
 
 ## Acknowledgements
 
