@@ -1,0 +1,66 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vnde hadden vo\u1e6bpoet na der prophe\u0227\u0113",
+        "wer": 28.57142857142857,
+        "cer": 11.904761904761903,
+        "accuracy": 88.09523809523809,
+        "time": 1.026249885559082
+    },
+    "mistral-small-2506": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vnde hadden vorspoet na der prophete",
+        "wer": 28.57142857142857,
+        "cer": 9.523809523809524,
+        "accuracy": 90.47619047619048,
+        "time": 1.2320079803466797
+    },
+    "arcee-ai/spotlight": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vnde hadden vorspoet na der proph\u00e9di",
+        "wer": 28.57142857142857,
+        "cer": 9.523809523809524,
+        "accuracy": 90.47619047619048,
+        "time": 1.8625741004943848
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vn\u1d6de hadden vorspoet na der propheci\u0113",
+        "wer": 42.857142857142854,
+        "cer": 7.142857142857142,
+        "accuracy": 92.85714285714286,
+        "time": 1.8841578960418701
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vnde hadden vor\u017fpoet na der prophedie",
+        "wer": 14.285714285714285,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 1.928511142730713
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "merr vnde hadden vor\u017fpoet na der prophec\u00ede",
+        "wer": 28.57142857142857,
+        "cer": 7.142857142857142,
+        "accuracy": 92.85714285714286,
+        "time": 3.0447888374328613
+    },
+    "claude-opus-4-20250514": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vnde hadden vor\u017fpoet na der propheci\u0113",
+        "wer": 14.285714285714285,
+        "cer": 2.380952380952381,
+        "accuracy": 97.61904761904762,
+        "time": 3.5257091522216797
+    },
+    "gemini-2.5-flash": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert ru\u0364de hadden von\u017fpoet na der prophed\u00e9",
+        "wer": 42.857142857142854,
+        "cer": 16.666666666666664,
+        "accuracy": 85.71428571428571,
+        "time": 8.544981956481934
+    }
+}

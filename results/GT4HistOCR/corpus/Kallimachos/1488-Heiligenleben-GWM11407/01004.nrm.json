@@ -1,0 +1,10 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "mach f\u00fcr Der feind in \u017fre Bertzogin Dy \u017fchrey",
+        "wer": 77.77777777777779,
+        "cer": 20.0,
+        "accuracy": 80.0,
+        "time": 2.0282769203186035
+    }
+}

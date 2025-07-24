@@ -1,0 +1,10 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfccht. Aber wer geler\u017ft i\u017ft vnd die lere mit ge",
+        "wer": 20.0,
+        "cer": 4.25531914893617,
+        "accuracy": 95.83333333333334,
+        "time": 1.977952003479004
+    }
+}

@@ -51,18 +51,87 @@ class BenchmarkDashboard {
 
     async loadData() {
         try {
-            // Load files with timeout
-            const [data1, data2] = await Promise.all([
-                this.fetchWithTimeout('json/1471-Orthographia-Tortellius.json'),
-                this.fetchWithTimeout('json/1476-SpeculumNaturale-Beauvais.json'),
-            ]);
+            console.log('Loading file manifest...');
 
-            this.data = {
-                'EarlyModernLatin': {
-                    '1471-Orthographia-Tortellius': data1,
-                    '1476-SpeculumNaturale-Beauvais': data2
+            // First, load the manifest file that lists all potential JSON files
+            const manifest = await this.fetchWithTimeout('json/manifest.json');
+            console.log(`Manifest loaded with ${manifest.files?.length || 0} potential files`);
+
+            if (!manifest.files || manifest.files.length === 0) {
+                throw new Error('No files listed in manifest');
+            }
+
+            // Try to load each file listed in the manifest
+            console.log('Checking which files are available...');
+            const loadPromises = manifest.files.map(async filename => {
+                try {
+                    const data = await this.fetchWithTimeout(`json/${filename}`);
+                    return { filename, data, success: true };
+                } catch (error) {
+                    console.log(`File not available: ${filename} (${error.message})`);
+                    return { filename, error: error.message, success: false };
                 }
-            };
+            });
+
+            const results = await Promise.all(loadPromises);
+            const successful = results.filter(r => r.success);
+            const failed = results.filter(r => !r.success);
+
+            if (successful.length === 0) {
+                throw new Error('No JSON files could be loaded from the manifest');
+            }
+
+            console.log(`Successfully loaded ${successful.length} files, ${failed.length} files not available`);
+
+            // Organize data using the manifest structure
+            this.data = {};
+
+            // Use the structure from manifest if available, otherwise organize by filename
+            if (manifest.structure) {
+                // Initialize categories from manifest
+                Object.keys(manifest.structure).forEach(categoryName => {
+                    this.data[categoryName] = {};
+                });
+
+                // Place loaded data into appropriate categories
+                successful.forEach(({ filename, data }) => {
+                    const nameWithoutExt = filename.replace('.json', '');
+                    let placed = false;
+
+                    // Try to find the right category from manifest structure
+                    Object.entries(manifest.structure).forEach(([categoryName, subcategories]) => {
+                        if (subcategories.includes(nameWithoutExt)) {
+                            this.data[categoryName][nameWithoutExt] = data;
+                            console.log(`✓ Placed ${filename} in ${categoryName}/${nameWithoutExt}`);
+                            placed = true;
+                        }
+                    });
+
+                    // If not found in manifest structure, use default category
+                    if (!placed) {
+                        const defaultCategory = 'EarlyModernLatin';
+                        if (!this.data[defaultCategory]) {
+                            this.data[defaultCategory] = {};
+                        }
+                        this.data[defaultCategory][nameWithoutExt] = data;
+                        console.log(`✓ Placed ${filename} in default category ${defaultCategory}/${nameWithoutExt}`);
+                    }
+                });
+            } else {
+                // Fallback: organize by filename
+                this.data['EarlyModernLatin'] = {};
+                successful.forEach(({ filename, data }) => {
+                    const nameWithoutExt = filename.replace('.json', '');
+                    this.data['EarlyModernLatin'][nameWithoutExt] = data;
+                    console.log(`✓ Loaded ${filename} as EarlyModernLatin/${nameWithoutExt}`);
+                });
+            }
+
+            const totalCategories = Object.keys(this.data).length;
+            const totalSubcategories = Object.values(this.data).reduce((sum, cat) => sum + Object.keys(cat).length, 0);
+
+            console.log(`Dashboard ready: ${totalCategories} categories, ${totalSubcategories} subcategories`);
+
         } catch (error) {
             throw new Error(`Failed to load benchmark data: ${error.message}`);
         }

@@ -3,6 +3,7 @@ from models.agent import create_agent, create_image_obj
 from evaluation.metrics import get_diff, get_metrics
 from evaluation.graph import create_graph
 from utils.save import to_json, aggregate_folder_results
+from utils.update_manifest import update_manifest
 from config.loader import load_config
 
 from agno.agent import RunResponse
@@ -157,6 +158,14 @@ def main():
         
         # Creating barcharts
         create_graph(output_folder + ".json")
+        
+        # Update dashboard manifest
+        try:
+            console.print(Text("Updating dashboard manifest...", style="dim"))
+            update_manifest(source)
+        except Exception as e:
+            console.print(Text(f"⚠️  Could not update dashboard manifest: {e}", style="yellow"))
+        
         console.print(Text("\nBenchmark completed. Results saved to results/\n", style="bold green"))
     except ModelProviderError as e:
         console.print(f"❌ Provider error: {e}", style="bold red")
