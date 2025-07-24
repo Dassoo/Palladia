@@ -1,4 +1,4 @@
-# <img src="dashboard/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle – A Benchmarking Tool for Vision LLMs
+# <img src="docs/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle – A Benchmarking Tool for Vision LLMs
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo) [![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://your-website-url.com)
 
@@ -102,7 +102,7 @@ A comprehensive tool for evaluating and comparing the performance of various SOT
 
 3. **View results in the web dashboard:**
    
-   After running evaluations, open `dashboard/index.html` in your browser to explore results through the interactive web interface. The dashboard provides:
+   After running evaluations, open `docs/index.html` in your browser to explore results through the interactive web interface. The dashboard provides:
    - Overall performance statistics
    - Model comparison tables with best score highlighting
    - Expandable category breakdowns
