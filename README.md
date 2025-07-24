@@ -1,6 +1,7 @@
 # <img src="docs/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle – A Benchmarking Tool for Vision LLMs
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo) [![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://your-website-url.com)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo) 
+<!-- [![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://your-website-url.com) -->
 
 A comprehensive tool for evaluating and comparing the performance of various SOTA multimodal and vision LLM models on historical image documents, based on the GT4HistOCR dataset (https://zenodo.org/records/1344132#.XBdmGPZKg_U).
 

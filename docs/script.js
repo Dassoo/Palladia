@@ -53,8 +53,8 @@ class BenchmarkDashboard {
         try {
             // Load files with timeout
             const [data1, data2] = await Promise.all([
-                this.fetchWithTimeout('../results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json'),
-                this.fetchWithTimeout('../results/GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais.json')
+                this.fetchWithTimeout('json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json'),
+                this.fetchWithTimeout('json/results/GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais.json'),
             ]);
 
             this.data = {

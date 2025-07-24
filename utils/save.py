@@ -123,9 +123,12 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
             }
     
     output_file = f"{folder_path}.json"
+    output_dashboard = f"docs/json/{os.path.basename(folder_path)}.json"
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
     with open(output_file, 'w') as f:
         json.dump(aggregated_results, f, indent=4)
+    with open(output_dashboard, 'w') as f:
+        json.dump(aggregated_results, f, indent=4) # Saving also for dashboard
     
     console.print(f"\nAggregated results saved to: {output_file}", style="dim")
     console.print(f"Processed {len(json_files)} json files, found {len(aggregated_results)} models", style="dim")

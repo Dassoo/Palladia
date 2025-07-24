@@ -1,0 +1,10 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "\ua759\u1dd3 vera \u017fui\u017f\u017fe miracl'a: \u017fed \ua753digio\u017fa indicia \u00b7 ip\u0303os",
+        "response": "\u0278 vera fuiffe miracla:\u017fen poigiofa moicia\u00b7 ipo",
+        "wer": 88.88888888888889,
+        "cer": 32.075471698113205,
+        "accuracy": 67.9245283018868,
+        "time": 1.661757230758667
+    }
+}

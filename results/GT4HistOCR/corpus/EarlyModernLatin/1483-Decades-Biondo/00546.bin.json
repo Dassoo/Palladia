@@ -1,0 +1,10 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "ri\u017f\u017fent. Nec erat apud eos ob\u017fcu\ua776 auxilia a chri\u017ftianis \u017fru\u017ftra expectari: aut peti po\u017f",
+        "response": "ri\u017f\u017fent. Ne cerat aptud eos ob\u017fcurg auxilia a chri\u017ftianis fru\u017ftra expcctari: aut p.ci \u017fol.",
+        "wer": 57.14285714285714,
+        "cer": 13.793103448275861,
+        "accuracy": 87.77777777777777,
+        "time": 1.1498539447784424
+    }
+}

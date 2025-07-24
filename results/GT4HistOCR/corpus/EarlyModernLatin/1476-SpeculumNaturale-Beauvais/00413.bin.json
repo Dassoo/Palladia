@@ -1,0 +1,10 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "medio rotar\u0169 &c\u1dd3 \u00b7 \u00b6 lxiiij \u00b7 \u00b6 de nominationib\ua770",
+        "response": "mer\u0303io rotar\u0169 &c\u0303. Anno. lxiiij.  De nominactionibz",
+        "wer": 90.0,
+        "cer": 31.25,
+        "accuracy": 74.50980392156863,
+        "time": 1.2299911975860596
+    }
+}
