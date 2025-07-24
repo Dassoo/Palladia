@@ -1,0 +1,26 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "vita: ita t\u00f1 vel in \u017fu\ua751na in\u017fili\u0169t: vel in yma de\u017fc\u1ebd",
+        "response": "vita : ica c\u00f1 vel im fupna infili\u016bt: vel im yma oefce\u0304",
+        "wer": 81.81818181818183,
+        "cer": 25.0,
+        "accuracy": 75.92592592592592,
+        "time": 0.9104878902435303
+    },
+    "mistral-small-2506": {
+        "gt": "vita: ita t\u00f1 vel in \u017fu\ua751na in\u017fili\u0169t: vel in yma de\u017fc\u1ebd",
+        "response": "vita : \u017fic\u0103 e\u017f vel in \u017fupna infili\u016dc : vel in \u017f\u017fma defc\u0113",
+        "wer": 81.81818181818183,
+        "cer": 28.846153846153843,
+        "accuracy": 73.21428571428571,
+        "time": 1.2358250617980957
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "vita: ita t\u00f1 vel in \u017fu\ua751na in\u017fili\u0169t: vel in yma de\u017fc\u1ebd",
+        "response": "vita : ica en vel m fupna infiliuit: vel in yma defce",
+        "wer": 72.72727272727273,
+        "cer": 25.0,
+        "accuracy": 77.35849056603774,
+        "time": 1.865361213684082
+    }
+}

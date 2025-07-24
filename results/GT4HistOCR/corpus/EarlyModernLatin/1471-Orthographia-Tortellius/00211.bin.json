@@ -1,0 +1,98 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penat: quia in fine \u017fyllab\u00e6 natare n\u014d poterat: ideo eius ip\u017fam b l\u012dam polu\u0115r. Id\u00e9q3",
+        "wer": 46.666666666666664,
+        "cer": 19.767441860465116,
+        "accuracy": 82.55813953488372,
+        "time": 1.4555330276489258
+    },
+    "mistral-small-2506": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "per\u017ft: quia in fine \u017fyllab\u00e6 \u017ftare no poterat: loco eius ip\u017fam b lram po\u017fuerunt. Id\u0113q;",
+        "wer": 33.33333333333333,
+        "cer": 8.13953488372093,
+        "accuracy": 93.02325581395348,
+        "time": 1.7276482582092285
+    },
+    "arcee-ai/spotlight": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penat:quia in fine syllab\u00e6 \u017ftare n\u00f3 poterat:loco eius ip\u017fam blam po\u017fuerit. Id\u00e9q;",
+        "wer": 66.66666666666666,
+        "cer": 13.953488372093023,
+        "accuracy": 87.20930232558139,
+        "time": 2.2734601497650146
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "perm\u03c4: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b\u017fram po\u017fuit. Ide\u00f5;",
+        "wer": 33.33333333333333,
+        "cer": 12.790697674418606,
+        "accuracy": 87.20930232558139,
+        "time": 2.3753859996795654
+    },
+    "gpt-4o": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "pennt: quia in fine \u017fyllab\u00e6 \u017ftare n\u014d pote\u1de3at: loco eius ip\u017fam b\u0304\u2090\u0304m po\u017fuerit. Ide\u1de3q;",
+        "wer": 46.666666666666664,
+        "cer": 13.953488372093023,
+        "accuracy": 87.20930232558139,
+        "time": 2.504791021347046
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "pertat: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b l\u017fam po\u017fuerit. Ideoq;",
+        "wer": 26.666666666666668,
+        "cer": 8.13953488372093,
+        "accuracy": 93.02325581395348,
+        "time": 4.009523868560791
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "pennat:quia in fine fyllaba \u017ftare n\u00f3 poterat:loco eius ip\u017fam b liram po\u017fuerit. Id\u00e9q;",
+        "wer": 60.0,
+        "cer": 13.953488372093023,
+        "accuracy": 88.37209302325581,
+        "time": 4.185842990875244
+    },
+    "gemini-2.5-flash": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penna: quia un fine \u017fyllab\u00e6 \u017ftare n\u014d poterat: loco eius ip\u017fam bl\u00edram po\u017fuer\u016bt. Id\u00e9q;",
+        "wer": 46.666666666666664,
+        "cer": 11.627906976744185,
+        "accuracy": 89.53488372093024,
+        "time": 9.909245014190674
+    },
+    "claude-opus-4-20250514": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "petunt: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b l\u0129am po\u017fuer\u0169t. Id\u00e9q;",
+        "wer": 26.666666666666668,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 13.097860097885132
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penult: quia in fine \u017fyllab\u00e6 \u017ftare n\u014d poterat: loco eius ip\u017fam b\u017firam po\u017fuerunt. Id\u00e9q;",
+        "wer": 40.0,
+        "cer": 11.627906976744185,
+        "accuracy": 90.69767441860465,
+        "time": 18.883657932281494
+    },
+    "grok-4-0709": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penant: qua in fine \u017fyllabae \u017ftare n\u014d poterat: loco eius ip\u017fam b \u017ftam po\u017fuerit. Idip:",
+        "wer": 46.666666666666664,
+        "cer": 15.11627906976744,
+        "accuracy": 86.04651162790698,
+        "time": 81.74519109725952
+    },
+    "gemini-2.5-pro": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penac:quuia un \u017fine \u017fyllab\u00e6 \u017ftare n\u014d poterat:loco eius ip\u017fam b l\u00edr\u00e1m po\u017fuerit. Id\u00e9q;",
+        "wer": 66.66666666666666,
+        "cer": 17.441860465116278,
+        "accuracy": 86.04651162790698,
+        "time": 124.59395790100098
+    }
+}

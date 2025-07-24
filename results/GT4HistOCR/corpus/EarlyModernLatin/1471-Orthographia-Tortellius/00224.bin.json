@@ -1,0 +1,98 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "DE Littera C.",
+        "response": "DE Litera C.",
+        "wer": 33.33333333333333,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 1.1342639923095703
+    },
+    "mistral-small-2506": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.1973841190338135
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.256587028503418
+    },
+    "arcee-ai/spotlight": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.7880480289459229
+    },
+    "gpt-4o": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.9269168376922607
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.9757890701293945
+    },
+    "gemini-2.5-flash": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.5446388721466064
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.7184019088745117
+    },
+    "claude-opus-4-20250514": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.408715009689331
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera G.",
+        "wer": 33.33333333333333,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 4.259609222412109
+    },
+    "gemini-2.5-pro": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 5.240396976470947
+    },
+    "grok-4-0709": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera G.",
+        "wer": 33.33333333333333,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 41.56432318687439
+    }
+}

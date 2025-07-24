@@ -1,0 +1,98 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeqt: & inep r\u016b qd refpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "wer": 38.46153846153847,
+        "cer": 9.876543209876543,
+        "accuracy": 91.35802469135803,
+        "time": 1.481445074081421
+    },
+    "mistral-small-2506": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfect: & inept\u016b qd respectu \u017foni quod apud illos ex dig\u0101ma re\u017fultabat: efflare",
+        "wer": 38.46153846153847,
+        "cer": 8.641975308641975,
+        "accuracy": 91.35802469135803,
+        "time": 1.7084770202636719
+    },
+    "arcee-ai/spotlight": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeqt:& inept\u0169 qd respectu \u017foni quod apud illos ex dig\u00e3ma resultabat:efflare",
+        "wer": 46.15384615384615,
+        "cer": 9.876543209876543,
+        "accuracy": 90.12345679012346,
+        "time": 2.118772029876709
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeqti:& inept\u016b qd respectu \u017foni quod apud illos ex dig\u0101ma re\u017fultabat:efflare",
+        "wer": 61.53846153846154,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 2.5198872089385986
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeqt:& inept\u0169 qd respectu foni quod apud illos ex dig\u0101ma resultabat:efflare",
+        "wer": 61.53846153846154,
+        "cer": 12.345679012345679,
+        "accuracy": 87.65432098765432,
+        "time": 3.136260747909546
+    },
+    "gpt-4o": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "per\u017fect\ua770 : & inept\u016b qd re\u017fpectu \u017foni quod apud illos ex dig\u0101ma re\u017fultabat : efflare",
+        "wer": 53.84615384615385,
+        "cer": 8.641975308641975,
+        "accuracy": 91.56626506024097,
+        "time": 3.8144588470458984
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "per\u017feq\u017f: & inept\u016b qd re\u017fpect\u016b \u017foni quod apud illos ex dig\u0101ma re\u017fultabat: e\u017f\u017flare",
+        "wer": 46.15384615384615,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 4.369351863861084
+    },
+    "claude-opus-4-20250514": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "per\u017feqt\u0303: & inept\u0169 qd\u0303 re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "wer": 15.384615384615385,
+        "cer": 4.938271604938271,
+        "accuracy": 95.1219512195122,
+        "time": 6.607983112335205
+    },
+    "gemini-2.5-flash": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "per\u017feq\u0303t: & in\ua751u q\u0303d re\u017fpectu \u017foni quod apud illos ex dig\u00e3 re\u017fultabat: efferlare",
+        "wer": 38.46153846153847,
+        "cer": 16.049382716049383,
+        "accuracy": 88.88888888888889,
+        "time": 10.826082229614258
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "per\u017feq\u0304t\u0304: & inept\u016b qd re\u017fpectu \u017foni quod apud illos ex digama resultabat: efflare",
+        "wer": 38.46153846153847,
+        "cer": 8.641975308641975,
+        "accuracy": 91.46341463414635,
+        "time": 28.050509929656982
+    },
+    "gemini-2.5-pro": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfect: & ineptu\u0303 qd re\u017fpectu \u017foni quod apud illos ex dig\u0101ma re\u017fultabat: efflare",
+        "wer": 30.76923076923077,
+        "cer": 8.641975308641975,
+        "accuracy": 92.5925925925926,
+        "time": 87.69776391983032
+    },
+    "grok-4-0709": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeq\u017f;& ineptiq\u017f;d refpechu foni quod apud illos ex digama refultabat: ceffare",
+        "wer": 69.23076923076923,
+        "cer": 20.98765432098765,
+        "accuracy": 81.48148148148148,
+        "time": 944.4841079711914
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "dem ordinis dignior extiti\u017f\u017fet \u00b7 Sicut ergo vn\ua770 \u1ebd",
+        "response": "Dem ozdimis dignius exticiffec. Sicut ergo rn\u00b2",
+        "wer": 77.77777777777779,
+        "cer": 30.612244897959183,
+        "accuracy": 69.38775510204081,
+        "time": 0.8296608924865723
+    },
+    "mistral-small-2506": {
+        "gt": "dem ordinis dignior extiti\u017f\u017fet \u00b7 Sicut ergo vn\ua770 \u1ebd",
+        "response": "\u017fem ornis dignior extiterit. Sicut ergo vn9 \u011b",
+        "wer": 66.66666666666666,
+        "cer": 22.448979591836736,
+        "accuracy": 79.59183673469387,
+        "time": 1.1163849830627441
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "dem ordinis dignior extiti\u017f\u017fet \u00b7 Sicut ergo vn\ua770 \u1ebd",
+        "response": "dem ordinis dignior extincter \u00b7 Sicvt ergo vn? \u00e9",
+        "wer": 44.44444444444444,
+        "cer": 16.3265306122449,
+        "accuracy": 85.71428571428571,
+        "time": 1.8400318622589111
+    }
+}

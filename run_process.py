@@ -125,7 +125,7 @@ def main():
     
     try:
         app_config = load_config(verbose=True)  # Show verbose output when running main process
-        input_cfg = app_config.input_config.input[0]  # Use first input config
+        input_cfg = app_config.input_config.input[0]
         source = input_cfg.path
         images_to_process = input_cfg.images_to_process
     except Exception as e:

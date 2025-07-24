@@ -1,0 +1,98 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "dux\u017fi noceo noxa noxius:in\u017f. ut parco par\u017fi:quin & peperci.",
+        "wer": 50.0,
+        "cer": 9.67741935483871,
+        "accuracy": 91.93548387096774,
+        "time": 1.2026331424713135
+    },
+    "mistral-small-2506": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in. s. ut parco pari: quin & peperci.",
+        "wer": 8.333333333333332,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 1.4998071193695068
+    },
+    "arcee-ai/spotlight": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius:in.s.ut parco parsi:quin & peperci.",
+        "wer": 50.0,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 1.799943208694458
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.002742052078247
+    },
+    "gpt-4o": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in. \u017f. ut parco par\u017fi: quin & peperci.",
+        "wer": 8.333333333333332,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 2.491569995880127
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius:in.s.ut parco par\u017fi:quin&peperci.",
+        "wer": 66.66666666666666,
+        "cer": 9.67741935483871,
+        "accuracy": 90.32258064516128,
+        "time": 2.9685380458831787
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in.s.ut parco par\u017fi: quun & peperci.",
+        "wer": 33.33333333333333,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 3.747633934020996
+    },
+    "gemini-2.5-flash": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in.\u017f. ut parco par\u017fi: quun & peperci.",
+        "wer": 25.0,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 3.9803988933563232
+    },
+    "claude-opus-4-20250514": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in.s.ut parco par\u017fi: quin & pep\u0119rci.",
+        "wer": 33.33333333333333,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 5.443154811859131
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in.s.ut parco par\u017fi: qu\u012bn & peperci.",
+        "wer": 33.33333333333333,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 22.596927881240845
+    },
+    "gemini-2.5-pro": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxiu\u017f: in \u017f.ut parco par\u017fi:quun & peperci.",
+        "wer": 50.0,
+        "cer": 9.67741935483871,
+        "accuracy": 90.32258064516128,
+        "time": 66.4888768196106
+    },
+    "grok-4-0709": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in. \u017f. ut parco par\u017fi: quin & peperci.duxi noceo noxa noxius: in. \u017f. ut parco par\u017fi: quin & peperci.",
+        "wer": 100.0,
+        "cer": 100.0,
+        "accuracy": 50.0,
+        "time": 398.7281951904297
+    }
+}
