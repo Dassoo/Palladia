@@ -271,13 +271,55 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 20px;
+}
+
+.image-result-header {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background 0.3s ease;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.image-result-header:hover {
+    background: rgba(152, 161, 188, 0.1);
+}
+
+.image-result-title {
+    display: flex;
+    align-items: center;
+    color: #98A1BC;
+    font-size: 16px;
+}
+
+.image-result-title::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid #98A1BC;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-result-header.expanded .image-result-title::before {
+    transform: rotate(90deg);
+}
+
+.image-result-content {
+    display: none;
     padding: 20px;
 }
 
-.image-result h3 {
-    color: #98A1BC;
-    margin-bottom: 15px;
-    font-size: 18px;
+.image-result-content.show {
+    display: block;
 }
 
 .ground-truth {

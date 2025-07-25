@@ -4,10 +4,10 @@ class DiffViewer {
         // Simple word-based diff implementation
         const words1 = text1.split(/(\s+)/);
         const words2 = text2.split(/(\s+)/);
-        
+
         const diff = [];
         let i = 0, j = 0;
-        
+
         while (i < words1.length || j < words2.length) {
             if (i >= words1.length) {
                 // Remaining words in text2 are additions
@@ -30,26 +30,26 @@ class DiffViewer {
                 j++;
             }
         }
-        
+
         return diff;
     }
-    
+
     static renderInlineDiff(diff) {
         return diff.map(part => {
-            const className = part.type === 'added' ? 'diff-added' : 
-                            part.type === 'removed' ? 'diff-removed' : '';
-            return className ? 
-                `<span class="${className}">${this.escapeHtml(part.value)}</span>` : 
+            const className = part.type === 'added' ? 'diff-added' :
+                part.type === 'removed' ? 'diff-removed' : '';
+            return className ?
+                `<span class="${className}">${this.escapeHtml(part.value)}</span>` :
                 this.escapeHtml(part.value);
         }).join('');
     }
-    
+
     static renderSideBySideDiff(text1, text2) {
         const diff = this.generateDiff(text1, text2);
-        
+
         let leftSide = '';
         let rightSide = '';
-        
+
         diff.forEach(part => {
             if (part.type === 'equal') {
                 leftSide += this.escapeHtml(part.value);
@@ -60,7 +60,7 @@ class DiffViewer {
                 rightSide += `<span class="diff-added">${this.escapeHtml(part.value)}</span>`;
             }
         });
-        
+
         return `
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
                 <div>
@@ -73,7 +73,7 @@ class DiffViewer {
                 </div>
             </div>`;
     }
-    
+
     static escapeHtml(text) {
         const div = document.createElement('div');
         div.textContent = text;
@@ -106,10 +106,10 @@ class IndividualFileLoader {
 
                 const data = await this.fetchWithTimeout(`json/${filePath}`);
                 const processedData = this.processImageData(data, filePath);
-                
+
                 // Cache the processed data
                 this.cache.set(filePath, processedData);
-                
+
                 return { filePath, data: processedData, success: true, cached: false };
             } catch (error) {
                 console.warn(`Failed to load ${filePath}:`, error.message);
@@ -129,14 +129,14 @@ class IndividualFileLoader {
         });
 
         console.log(`Loaded ${results.successful.length} files successfully, ${results.failed.length} failed`);
-        
+
         return results;
     }
 
     processImageData(rawData, filePath) {
         // Extract filename for display
         const filename = filePath.split('/').pop().replace('.json', '');
-        
+
         // Validate and normalize the data structure
         const processedData = {
             filename: filename,
@@ -165,18 +165,18 @@ class IndividualFileLoader {
 
     validateModelData(modelData) {
         const requiredKeys = ['gt', 'response', 'wer', 'cer', 'accuracy', 'time'];
-        return typeof modelData === 'object' && 
-               modelData !== null && 
-               requiredKeys.every(key => key in modelData);
+        return typeof modelData === 'object' &&
+            modelData !== null &&
+            requiredKeys.every(key => key in modelData);
     }
 
     handleLoadingErrors(errors) {
         if (errors.length === 0) return;
 
         console.error(`Failed to load ${errors.length} files:`, errors);
-        
+
         // Could implement retry logic here
-        const retryableErrors = errors.filter(error => 
+        const retryableErrors = errors.filter(error =>
             error.error.includes('timeout') || error.error.includes('network')
         );
 
@@ -231,13 +231,13 @@ class URLRouter {
         // Update URL without page reload
         const url = new URL(window.location);
         url.searchParams.set('view', view);
-        
+
         if (params.category) {
             url.searchParams.set('category', params.category);
         } else {
             url.searchParams.delete('category');
         }
-        
+
         if (params.subcategory) {
             url.searchParams.set('subcategory', params.subcategory);
         } else {
@@ -245,7 +245,7 @@ class URLRouter {
         }
 
         window.history.pushState({ view, params }, '', url);
-        
+
         // Trigger view change
         this.onViewChange(view, params);
     }
@@ -290,12 +290,12 @@ class BenchmarkDashboard {
         try {
             await this.loadData();
             console.log('Data loaded successfully');
-            
+
             // Handle initial view based on URL
             const currentView = this.router.getCurrentView();
             const params = this.router.getParams();
             this.handleViewChange(currentView, params);
-            
+
         } catch (error) {
             console.error('Error loading data:', error);
             document.getElementById('overall-stats').innerHTML = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
@@ -317,13 +317,13 @@ class BenchmarkDashboard {
         document.getElementById('overall-stats').style.display = 'block';
         document.getElementById('model-averages').style.display = 'block';
         document.getElementById('results-container').style.display = 'block';
-        
+
         // Hide details view (will be created later)
         const detailsView = document.getElementById('details-view');
         if (detailsView) {
             detailsView.style.display = 'none';
         }
-        
+
         // Render dashboard content
         this.renderOverallStats();
         this.renderModelAverages();
@@ -335,23 +335,23 @@ class BenchmarkDashboard {
         document.getElementById('overall-stats').style.display = 'none';
         document.getElementById('model-averages').style.display = 'none';
         document.getElementById('results-container').style.display = 'none';
-        
+
         // Show details view
         const detailsView = document.getElementById('details-view');
         detailsView.style.display = 'block';
-        
+
         // Update breadcrumb and title
         document.getElementById('breadcrumb-path').textContent = `${category} > ${subcategory}`;
         document.getElementById('details-title').textContent = `${subcategory} - Detailed Results`;
-        
+
         // Show loading state
         document.getElementById('details-content').innerHTML = '<div class="loading">Loading detailed results...</div>';
-        
+
         try {
             await this.loadAndRenderDetails(category, subcategory);
         } catch (error) {
             console.error('Error loading details:', error);
-            document.getElementById('details-content').innerHTML = 
+            document.getElementById('details-content').innerHTML =
                 `<div style="color: red; padding: 20px;">Error loading details: ${error.message}</div>`;
         }
     }
@@ -368,32 +368,32 @@ class BenchmarkDashboard {
 
         // Load individual files
         const loadResults = await this.fileLoader.loadIndividualFiles(individualFiles);
-        
+
         // Handle any loading errors
         this.fileLoader.handleLoadingErrors(loadResults.failed);
-        
+
         if (loadResults.successful.length === 0) {
             throw new Error('No individual files could be loaded');
         }
 
         // Render the details
         this.renderDetailsContent(loadResults.data, category, subcategory);
-        
+
         // Set up filtering and sorting
         this.setupDetailsControls(loadResults.data);
     }
 
     renderDetailsContent(imageData, category, subcategory) {
         const imageFiles = Object.values(imageData);
-        
+
         if (imageFiles.length === 0) {
-            document.getElementById('details-content').innerHTML = 
+            document.getElementById('details-content').innerHTML =
                 '<div class="no-data">No image data available</div>';
             return;
         }
 
         let html = '';
-        
+
         imageFiles.forEach(imageResult => {
             html += this.renderImageResult(imageResult);
         });
@@ -404,11 +404,17 @@ class BenchmarkDashboard {
     renderImageResult(imageResult) {
         const { filename, models } = imageResult;
         const modelNames = Object.keys(models);
-        
+
         if (modelNames.length === 0) {
             return `<div class="image-result">
-                <h3>${filename}</h3>
-                <p>No model results available</p>
+                <div class="image-result-header" onclick="this.nextElementSibling.classList.toggle('show'); this.classList.toggle('expanded')">
+                    <div class="image-result-title">
+                        ${filename}
+                    </div>
+                </div>
+                <div class="image-result-content">
+                    <p>No model results available</p>
+                </div>
             </div>`;
         }
 
@@ -417,17 +423,22 @@ class BenchmarkDashboard {
 
         let html = `
             <div class="image-result" data-filename="${filename}">
-                <h3>${filename}</h3>
-                
-                <div class="ground-truth">
-                    <h4>Ground Truth:</h4>
-                    <div class="ground-truth-text">${this.escapeHtml(groundTruth)}</div>
+                <div class="image-result-header" onclick="this.nextElementSibling.classList.toggle('show'); this.classList.toggle('expanded')">
+                    <div class="image-result-title">
+                        ${filename}
+                    </div>
                 </div>
                 
-                <div class="model-responses">`;
+                <div class="image-result-content">
+                    <div class="ground-truth">
+                        <h4>Ground Truth:</h4>
+                        <div class="ground-truth-text">${this.escapeHtml(groundTruth)}</div>
+                    </div>
+                    
+                    <div class="model-responses">`;
 
         // Sort models by accuracy (highest first)
-        const sortedModels = modelNames.sort((a, b) => 
+        const sortedModels = modelNames.sort((a, b) =>
             models[b].accuracy - models[a].accuracy
         );
 
@@ -437,6 +448,7 @@ class BenchmarkDashboard {
         });
 
         html += `
+                    </div>
                 </div>
             </div>`;
 
@@ -445,7 +457,7 @@ class BenchmarkDashboard {
 
     renderModelResponse(modelName, modelData, groundTruth) {
         const { response, wer, cer, accuracy, time } = modelData;
-        
+
         return `
             <div class="model-response" data-model="${modelName}">
                 <h5>
@@ -506,7 +518,7 @@ class BenchmarkDashboard {
             const manifest = await this.fetchWithTimeout('json/manifest.json');
             this.manifest = manifest; // Store for later use
             console.log(`Manifest loaded with ${manifest.files?.length || 0} files`);
-            
+
             // Update last update timestamp
             if (manifest.generated) {
                 console.log(manifest.generated)
@@ -558,10 +570,10 @@ class BenchmarkDashboard {
                     // Try to find the right category from manifest structure
                     Object.entries(manifest.structure).forEach(([categoryName, subcategories]) => {
                         // Handle both old format (array) and new format (object)
-                        const subcategoryNames = Array.isArray(subcategories) 
-                            ? subcategories 
+                        const subcategoryNames = Array.isArray(subcategories)
+                            ? subcategories
                             : Object.keys(subcategories);
-                        
+
                         if (subcategoryNames.includes(nameWithoutExt)) {
                             this.data[categoryName][nameWithoutExt] = data;
                             console.log(`✓ Placed ${filename} in ${categoryName}/${nameWithoutExt}`);
@@ -850,7 +862,7 @@ class BenchmarkDashboard {
     toggleDiff(button, groundTruth, response) {
         const diffContainer = button.closest('.model-response').querySelector('.diff-container');
         const responseText = button.closest('.model-response').querySelector('.model-response-text');
-        
+
         if (diffContainer.style.display === 'none') {
             // Show diff
             const diff = DiffViewer.generateDiff(groundTruth, response);
@@ -938,7 +950,7 @@ class BenchmarkDashboard {
 let dashboard;
 document.addEventListener('DOMContentLoaded', () => {
     dashboard = new BenchmarkDashboard();
-    
+
     // Set up back button handler
     document.getElementById('back-to-dashboard').addEventListener('click', (e) => {
         e.preventDefault();
