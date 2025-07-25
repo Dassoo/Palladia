@@ -598,6 +598,68 @@ h2 {
     font-weight: 600;
 }
 
+/* Metrics Explanation Section */
+.metrics-explanation {
+    background: linear-gradient(135deg, #F4EBD3, #DED3C4);
+    border: 1px solid #98A1BC;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 10px auto 75px auto;
+    max-width: 1000px;
+    box-shadow: 0 2px 8px rgba(85, 88, 121, 0.2);
+}
+
+.metrics-explanation h3 {
+    color: #555879;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.metric-item {
+    background: rgba(244, 235, 211, 0.6);
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #98A1BC;
+}
+
+.metric-item h4 {
+    color: #555879;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.metric-item p {
+    color: #555879;
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .metrics-explanation {
+        margin: 25px 10px 20px 10px;
+        padding: 20px;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .metric-item {
+        padding: 12px;
+    }
+}
+
 .simple-footer {
     text-align: center;
     padding: 30px 20px;
