@@ -127,7 +127,7 @@ GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/
 
 ### Results
 
-Results are saved in the `results/` directory:
+Results are saved in the `docs/json/` directory:
 - Individual JSON files per image with detailed metrics
 - Aggregated JSON files with averaged performance across datasets  
 - PNG bar charts comparing model performance
@@ -164,7 +164,7 @@ The tool provides multiple output formats:
 
 ### Command Line Interface
 1. **Console output** with color-coded diffs and metrics for real-time monitoring
-2. **Individual JSON files** in the `results/` directory containing detailed evaluation data per image
+2. **Individual JSON files** in the `docs/json/` directory containing detailed evaluation data per image
 3. **Aggregated JSON files** with averaged metrics across entire datasets
 4. **Visual barcharts** showing comparative performance across models regarding the evaluated metrics
 

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -182,6 +183,20 @@ h2 {
     gap: 15px;
 }
 
+.title-link {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: opacity 0.2s ease;
+}
+
+.title-link:hover {
+    opacity: 0.8;
+    color: inherit;
+}
+
 .logo {
     height: 1.5em;
     width: auto;
@@ -279,6 +294,12 @@ h2 {
     color: #98A1BC;
     font-size: 0.9em;
     margin-top: 40px;
+}
+
+.update {
+    padding: 20px;
+    color: #98A1BC;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {

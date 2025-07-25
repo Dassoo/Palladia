@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import json
 import os
 from pathlib import Path
@@ -32,31 +31,25 @@ def update_manifest(input_path):
             "files": []
         }
     
-    # Ensure structure exists
+    # Update and save new manifest
     if "structure" not in manifest:
         manifest["structure"] = {}
-    
-    # Ensure files exists
     if "files" not in manifest:
         manifest["files"] = []
-    
-    # Add second-last part to structure if not existing
+
     if second_last_part not in manifest["structure"]:
         manifest["structure"][second_last_part] = []
     
-    # Add final part (without .json) to structure array if not existing
     if final_part not in manifest["structure"][second_last_part]:
         manifest["structure"][second_last_part].append(final_part)
     
-    # Add final part (with .json) to files array if not existing
-    json_filename = f"{final_part}.json"
-    if json_filename not in manifest["files"]:
-        manifest["files"].append(json_filename)
+    # Create the full nested path for the JSON file
+    json_filepath = f"GT4HistOCR/corpus/{second_last_part}/{final_part}.json"
+    if json_filepath not in manifest["files"]:
+        manifest["files"].append(json_filepath)
     
-    # Update generated timestamp
     manifest["generated"] = datetime.now().isoformat()
     
-    # Save updated manifest
     os.makedirs(os.path.dirname(manifest_path), exist_ok=True)
     with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)

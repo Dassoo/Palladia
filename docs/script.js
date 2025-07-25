@@ -53,16 +53,22 @@ class BenchmarkDashboard {
         try {
             console.log('Loading file manifest...');
 
-            // First, load the manifest file that lists all potential JSON files
+            // Load the manifest file that lists JSON files
             const manifest = await this.fetchWithTimeout('json/manifest.json');
-            console.log(`Manifest loaded with ${manifest.files?.length || 0} potential files`);
+            console.log(`Manifest loaded with ${manifest.files?.length || 0} files`);
+            
+            // Update last update timestamp
+            if (manifest.generated) {
+                console.log(manifest.generated)
+                const date = new Date(manifest.generated);
+                document.getElementById('last-update').textContent = date.toLocaleString();
+            }
 
             if (!manifest.files || manifest.files.length === 0) {
                 throw new Error('No files listed in manifest');
             }
 
             // Try to load each file listed in the manifest
-            console.log('Checking which files are available...');
             const loadPromises = manifest.files.map(async filename => {
                 try {
                     const data = await this.fetchWithTimeout(`json/${filename}`);
@@ -95,7 +101,8 @@ class BenchmarkDashboard {
 
                 // Place loaded data into appropriate categories
                 successful.forEach(({ filename, data }) => {
-                    const nameWithoutExt = filename.replace('.json', '');
+                    // Extract just the final part of the path (e.g., "1471-Orthographia-Tortellius" from "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json")
+                    const nameWithoutExt = filename.split('/').pop().replace('.json', '');
                     let placed = false;
 
                     // Try to find the right category from manifest structure
@@ -121,7 +128,7 @@ class BenchmarkDashboard {
                 // Fallback: organize by filename
                 this.data['EarlyModernLatin'] = {};
                 successful.forEach(({ filename, data }) => {
-                    const nameWithoutExt = filename.replace('.json', '');
+                    const nameWithoutExt = filename.split('/').pop().replace('.json', '');
                     this.data['EarlyModernLatin'][nameWithoutExt] = data;
                     console.log(`✓ Loaded ${filename} as EarlyModernLatin/${nameWithoutExt}`);
                 });

@@ -145,7 +145,7 @@ def main():
     
     # Select random non-repeating images
     image_paths = [os.path.join(source, img) for img in random.sample(all_images, images_to_process)]
-    output_folder = "results/" + source
+    output_folder = "docs/json/" + source
     
     console.print(Text(f"\nEvaluating {len(to_eval)} models across {len(image_paths)} images...", style="dim"))
     
@@ -166,7 +166,7 @@ def main():
         except Exception as e:
             console.print(Text(f"⚠️  Could not update dashboard manifest: {e}", style="yellow"))
         
-        console.print(Text("\nBenchmark completed. Results saved to results/\n", style="bold green"))
+        console.print(Text("\nBenchmark completed. Results saved to docs/json/\n", style="bold green"))
     except ModelProviderError as e:
         console.print(f"❌ Provider error: {e}", style="bold red")
         return

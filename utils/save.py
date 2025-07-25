@@ -40,7 +40,7 @@ def to_json(model, gt: str, response, wer: float, cer: float,
         image_path: Path to the evaluated image (e.g., 'GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00001.bin.png')
     """
     path = Path(image_path)
-    file_path = Path("results") / path.parent / f"{path.stem}.json"
+    file_path = Path("docs/json") / path.parent / f"{path.stem}.json"
     
     data = {
         model.id: {
@@ -59,7 +59,7 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
     """Manually aggregate results from all JSON files in a folder and calculate average metrics per model.
     
     Args:
-        folder_path: Path to folder containing JSON files (e.g., 'results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
+        folder_path: Path to folder containing JSON files (e.g., 'docs/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
     
     Returns:
         Dictionary with aggregated results per model
@@ -108,8 +108,8 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
     
     # Extract source path from folder structure
     source_path = str(folder_path)
-    if source_path.startswith('results/'):
-        source_path = source_path[8:]  # Remove 'results/' prefix
+    if source_path.startswith('docs/json/'):
+        source_path = source_path[10:]  # Remove 'docs/json/' prefix
     
     for model_id, metrics in model_metrics.items():
         if metrics['wer']:  # Ensure we have data
@@ -123,12 +123,9 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
             }
     
     output_file = f"{folder_path}.json"
-    output_dashboard = f"docs/json/{os.path.basename(folder_path)}.json"
     os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
     with open(output_file, 'w') as f:
         json.dump(aggregated_results, f, indent=4)
-    with open(output_dashboard, 'w') as f:
-        json.dump(aggregated_results, f, indent=4) # Saving also for dashboard
     
     console.print(f"\nAggregated results saved to: {output_file}", style="dim")
     console.print(f"Processed {len(json_files)} json files, found {len(aggregated_results)} models", style="dim")
@@ -138,4 +135,4 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
 
 if __name__ == "__main__":
     # Manual example usage if needed
-    aggregate_folder_results('results/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
+    aggregate_folder_results('docs/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
