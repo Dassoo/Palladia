@@ -576,7 +576,6 @@ class BenchmarkDashboard {
 
                         if (subcategoryNames.includes(nameWithoutExt)) {
                             this.data[categoryName][nameWithoutExt] = data;
-                            console.log(`✓ Placed ${filename} in ${categoryName}/${nameWithoutExt}`);
                             placed = true;
                         }
                     });
@@ -588,7 +587,6 @@ class BenchmarkDashboard {
                             this.data[defaultCategory] = {};
                         }
                         this.data[defaultCategory][nameWithoutExt] = data;
-                        console.log(`✓ Placed ${filename} in default category ${defaultCategory}/${nameWithoutExt}`);
                     }
                 });
             } else {
@@ -597,14 +595,13 @@ class BenchmarkDashboard {
                 successful.forEach(({ filename, data }) => {
                     const nameWithoutExt = filename.split('/').pop().replace('.json', '');
                     this.data['EarlyModernLatin'][nameWithoutExt] = data;
-                    console.log(`✓ Loaded ${filename} as EarlyModernLatin/${nameWithoutExt}`);
                 });
             }
 
             const totalCategories = Object.keys(this.data).length;
             const totalSubcategories = Object.values(this.data).reduce((sum, cat) => sum + Object.keys(cat).length, 0);
 
-            console.log(`Dashboard ready: ${totalCategories} categories, ${totalSubcategories} subcategories`);
+            console.log(`Dashboard ready: ${totalCategories} categories, ${totalSubcategories} folders`);
 
         } catch (error) {
             throw new Error(`Failed to load benchmark data: ${error.message}`);
