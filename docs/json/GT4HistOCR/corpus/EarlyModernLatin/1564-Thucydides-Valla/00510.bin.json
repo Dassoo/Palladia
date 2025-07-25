@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, quam quantus unqu\u00e2 maximus uiguit, dum lynce-",
+        "wer": 33.33333333333333,
+        "cer": 5.172413793103448,
+        "accuracy": 94.82758620689656,
+        "time": 1.2288179397583008
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior,qu\u00e0m quantus unqu\u00e3 maximus uiguit,dum fynce.",
+        "wer": 55.55555555555556,
+        "cer": 6.896551724137931,
+        "accuracy": 93.10344827586206,
+        "time": 1.2330591678619385
+    },
+    "arcee-ai/spotlight": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus unqu\u0101 maximus uiguit, dum fynce-",
+        "wer": 22.22222222222222,
+        "cer": 3.4482758620689653,
+        "accuracy": 96.55172413793103,
+        "time": 1.2631709575653076
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus qu\u00e3 maximus uiguit, dum \u017fynce.",
+        "wer": 22.22222222222222,
+        "cer": 5.172413793103448,
+        "accuracy": 94.82758620689656,
+        "time": 2.100813865661621
+    },
+    "gpt-4o": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus unqu\u00e0m maximus uiguit, dum \u017fynce.",
+        "wer": 22.22222222222222,
+        "cer": 5.172413793103448,
+        "accuracy": 94.91525423728814,
+        "time": 2.3167078495025635
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior,quam quantus unqu\u00e2 maximus uiguit,dum \u017fynce-",
+        "wer": 55.55555555555556,
+        "cer": 6.896551724137931,
+        "accuracy": 93.10344827586206,
+        "time": 3.347135066986084
+    },
+    "gemini-2.5-flash": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus viguit, dum \u017fynce",
+        "wer": 22.22222222222222,
+        "cer": 3.4482758620689653,
+        "accuracy": 96.55172413793103,
+        "time": 4.129773139953613
+    },
+    "claude-opus-4-20250514": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fync\u1ebd",
+        "wer": 11.11111111111111,
+        "cer": 3.4482758620689653,
+        "accuracy": 96.55172413793103,
+        "time": 4.241533279418945
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior,qu\u00e0m quantus unqu\u00e3 maximus uiguit,dum fynce-",
+        "wer": 55.55555555555556,
+        "cer": 5.172413793103448,
+        "accuracy": 94.82758620689656,
+        "time": 6.9870240688323975
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus unqu\u00e0 maximus uiguit, dum \u017fynce-",
+        "wer": 11.11111111111111,
+        "cer": 1.7241379310344827,
+        "accuracy": 98.27586206896551,
+        "time": 7.1546311378479
+    },
+    "gemini-2.5-pro": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus mai\u00f2r, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "wer": 11.11111111111111,
+        "cer": 1.7241379310344827,
+        "accuracy": 98.27586206896551,
+        "time": 19.060578107833862
+    }
+}

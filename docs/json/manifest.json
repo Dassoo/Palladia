@@ -1,6 +1,6 @@
 {
   "description": "Auto-generated manifest of all available JSON files based on GT4HistOCR corpus structure",
-  "generated": "2025-07-25T12:18:14.354999",
+  "generated": "2025-07-25T15:21:15.252202",
   "structure": {
     "RefCorpus-ENHG-Incunabula": {
       "1478-Biblia": {
@@ -71,6 +71,32 @@
           "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais/01151.bin.json"
         ],
         "image_count": 5
+      },
+      "1564-Thucydides-Valla": {
+        "aggregated": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla.json",
+        "individual_files": [
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00329.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00431.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00510.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00592.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00710.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00786.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00796.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00803.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00847.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00863.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00873.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01508.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01584.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01632.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01674.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01741.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01787.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01841.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01883.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01912.bin.json"
+        ],
+        "image_count": 20
       }
     }
   },
@@ -79,6 +105,7 @@
     "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407.json",
     "GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo.json",
     "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json",
-    "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais.json"
+    "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais.json",
+    "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla.json"
   ]
 }

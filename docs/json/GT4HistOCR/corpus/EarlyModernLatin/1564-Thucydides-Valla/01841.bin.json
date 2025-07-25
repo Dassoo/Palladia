@@ -1,0 +1,90 @@
+{
+    "arcee-ai/spotlight": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus \u017fcdentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appct\u0113te\u00e7 iam hyc-",
+        "wer": 33.33333333333333,
+        "cer": 10.294117647058822,
+        "accuracy": 89.70588235294117,
+        "time": 1.423727035522461
+    },
+    "mistral-small-2506": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altr\u00edn\u017fecus \u017fed entibus, h\u00e6c \u00e6\u017ftas extract\u00e6 e\u017ft, appere\u017fq\u0301 iam hye-",
+        "wer": 55.55555555555556,
+        "cer": 11.76470588235294,
+        "accuracy": 91.17647058823529,
+        "time": 1.4351398944854736
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrinfecus fcdentibus, h\u00e6c \u00e6ftas extracta eft, appect\u0113te\u00f3\ua751 iam hyc-",
+        "wer": 66.66666666666666,
+        "cer": 16.176470588235293,
+        "accuracy": 85.29411764705883,
+        "time": 1.8676700592041016
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrinfecus \u017fcdentibus,h\u00e6c \u00e6\u017ftas extra\u00e9ta e\u017ft,appet\u00e9te\u03c6 iam hye-",
+        "wer": 66.66666666666666,
+        "cer": 13.23529411764706,
+        "accuracy": 86.76470588235294,
+        "time": 2.014401912689209
+    },
+    "gpt-4o": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus \u017fedentibus, h\u00e6c ar\u017ftas extracta e\u017ft, appet\u00e9t\u00ea\u03d5iam hye-",
+        "wer": 33.33333333333333,
+        "cer": 11.76470588235294,
+        "accuracy": 89.70588235294117,
+        "time": 2.4872758388519287
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus \u017fedentibus, h\u00e6c a\u017ftas extracta e\u017ft, appetiteq\ua76b iam hye-",
+        "wer": 22.22222222222222,
+        "cer": 5.88235294117647,
+        "accuracy": 94.11764705882352,
+        "time": 3.432433843612671
+    },
+    "claude-opus-4-20250514": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrinfecus fcdentibus, h\u00e6c \u00e6ftas extracta eft, appet\u1ebdteq\u0301; iam hye-",
+        "wer": 44.44444444444444,
+        "cer": 7.352941176470589,
+        "accuracy": 92.64705882352942,
+        "time": 4.478121995925903
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appetente iam hye-",
+        "wer": 11.11111111111111,
+        "cer": 7.352941176470589,
+        "accuracy": 94.11764705882352,
+        "time": 5.600971937179565
+    },
+    "gemini-2.5-flash": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6r\u017ftas extracta e\u017ft, appercr\u00e9\u017f\u00e7e\u0301q\u0301 iam hyc_",
+        "wer": 33.33333333333333,
+        "cer": 16.176470588235293,
+        "accuracy": 86.11111111111111,
+        "time": 11.021650075912476
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appc\u0304c\u0304q\u0304 iam hyc\u0304",
+        "wer": 22.22222222222222,
+        "cer": 13.23529411764706,
+        "accuracy": 86.76470588235294,
+        "time": 39.33309316635132
+    },
+    "gemini-2.5-pro": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, apperci\u017feq\u0301; iam hye-",
+        "wer": 11.11111111111111,
+        "cer": 5.88235294117647,
+        "accuracy": 94.20289855072464,
+        "time": 112.55902576446533
+    }
+}

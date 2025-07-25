@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dcra rupta uiderentur, accitis\u017fp focis dixerunt, fibi quidem uideri",
+        "wer": 44.44444444444444,
+        "cer": 10.144927536231885,
+        "accuracy": 89.85507246376811,
+        "time": 1.1260411739349365
+    },
+    "mistral-small-2506": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accitis \u017fociis dixerunt, sibi quidem uideri",
+        "wer": 33.33333333333333,
+        "cer": 7.246376811594203,
+        "accuracy": 92.7536231884058,
+        "time": 1.3466448783874512
+    },
+    "arcee-ai/spotlight": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accitis\u0153 sociis dixerunt, sibi quidem uideri",
+        "wer": 33.33333333333333,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 1.48146390914917
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uidere videntur, accitisq\ua76b \u017fociis dixerunt, \u017fibi quidem uideri",
+        "wer": 44.44444444444444,
+        "cer": 11.594202898550725,
+        "accuracy": 90.41095890410958,
+        "time": 1.670443058013916
+    },
+    "gpt-4o": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera ruptura uiderentur, accitisq\ua76b focijs dixerunt, sibi quidem uideri",
+        "wer": 44.44444444444444,
+        "cer": 8.695652173913043,
+        "accuracy": 92.85714285714286,
+        "time": 1.9151511192321777
+    },
+    "gemini-2.5-flash": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accitisq\u0301; \u017fociis dixerunt, \u017fibi quidem uideri",
+        "wer": 11.11111111111111,
+        "cer": 1.4492753623188406,
+        "accuracy": 98.55072463768117,
+        "time": 3.3744421005249023
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur,accitis& \u017foc\u0133s dixerunt,\u017fibi quidem uideri",
+        "wer": 55.55555555555556,
+        "cer": 10.144927536231885,
+        "accuracy": 89.85507246376811,
+        "time": 3.6034231185913086
+    },
+    "claude-opus-4-20250514": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accitisq\u0301; \u017fociis dixerunt, \u017fibi quidem uideri",
+        "wer": 11.11111111111111,
+        "cer": 1.4492753623188406,
+        "accuracy": 98.55072463768117,
+        "time": 4.387913942337036
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "deraruptionuiderentur,accitis\ua751locijsdixerunt,sibiquidemuideri",
+        "wer": 100.0,
+        "cer": 21.73913043478261,
+        "accuracy": 79.71014492753623,
+        "time": 4.804805755615234
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accisisq\u0307 \u017fociis dixerunt, sibi quidem uideri",
+        "wer": 33.33333333333333,
+        "cer": 7.246376811594203,
+        "accuracy": 92.7536231884058,
+        "time": 24.167645931243896
+    },
+    "gemini-2.5-pro": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur,acciti\u017fq\u0301 \u017foc\u0133s dixerunt,\u017fibi quidem uider\u00ed",
+        "wer": 66.66666666666666,
+        "cer": 10.144927536231885,
+        "accuracy": 89.85507246376811,
+        "time": 31.34213089942932
+    }
+}

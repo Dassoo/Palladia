@@ -1,0 +1,90 @@
+{
+    "arcee-ai/spotlight": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundederunt. Etenim cupiditate lucrandi,&qui",
+        "wer": 50.0,
+        "cer": 6.557377049180328,
+        "accuracy": 95.08196721311475,
+        "time": 1.2085859775543213
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circunderunt.Etenim cupiditate lucrandi,& qui",
+        "wer": 50.0,
+        "cer": 8.19672131147541,
+        "accuracy": 91.80327868852459,
+        "time": 1.3912849426269531
+    },
+    "mistral-small-2506": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundederunt. Etenim cupiditate lucrandi, & qui",
+        "wer": 12.5,
+        "cer": 3.278688524590164,
+        "accuracy": 98.36065573770492,
+        "time": 1.3908231258392334
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundederunt.Etenim cupiditate lucrandi,& qui",
+        "wer": 50.0,
+        "cer": 4.918032786885246,
+        "accuracy": 95.08196721311475,
+        "time": 1.7936058044433594
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circunded\u0113runt. Etenim cupiditate lucrandi, & qui",
+        "wer": 12.5,
+        "cer": 4.918032786885246,
+        "accuracy": 96.72131147540983,
+        "time": 2.356661081314087
+    },
+    "gpt-4o": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundederunt. Etenim cupiditate lucrandi, & qui",
+        "wer": 12.5,
+        "cer": 3.278688524590164,
+        "accuracy": 98.36065573770492,
+        "time": 2.9017417430877686
+    },
+    "claude-opus-4-20250514": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circumdederunt.Etenim cupiditate lucrandi,& qui",
+        "wer": 50.0,
+        "cer": 6.557377049180328,
+        "accuracy": 93.44262295081968,
+        "time": 3.9043257236480713
+    },
+    "gemini-2.5-flash": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundederunt.Etenim cupiditate lucrandi, & qui",
+        "wer": 25.0,
+        "cer": 3.278688524590164,
+        "accuracy": 96.72131147540983,
+        "time": 5.641618967056274
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circumdederunt.Etenim cupiditate lucrandi, & qui",
+        "wer": 25.0,
+        "cer": 4.918032786885246,
+        "accuracy": 95.08196721311475,
+        "time": 7.82725715637207
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muri\u017f urbem circumdederunt. Etenim cupiditate lucrandi, & qui",
+        "wer": 25.0,
+        "cer": 6.557377049180328,
+        "accuracy": 95.08196721311475,
+        "time": 12.688822031021118
+    },
+    "gemini-2.5-pro": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundederunt.Etenim cupiditate lucrandi, & qui",
+        "wer": 25.0,
+        "cer": 3.278688524590164,
+        "accuracy": 96.72131147540983,
+        "time": 74.28344225883484
+    }
+}

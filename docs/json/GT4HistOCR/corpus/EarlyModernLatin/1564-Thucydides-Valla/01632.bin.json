@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "palam legatione mi\u017f\u017fa, \u017fed clam non minim\u016b cum illis ad mouen.",
+        "wer": 36.36363636363637,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 1.3813698291778564
+    },
+    "arcee-ai/spotlight": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione missa, fed cl\u00e0m non minim\u0169 cum illis ad mouen,",
+        "wer": 27.27272727272727,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 1.4956631660461426
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen",
+        "wer": 9.090909090909092,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 1.9826679229736328
+    },
+    "gpt-4o": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u00f9m cum illis ad mouen.",
+        "wer": 18.181818181818183,
+        "cer": 4.838709677419355,
+        "accuracy": 95.23809523809523,
+        "time": 2.238477945327759
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa,fed cl\u00e0m non minim\u0169 cum illis ad mouen.",
+        "wer": 27.27272727272727,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 2.619615077972412
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "palam legatione mi\u017f\u017fa, \u017fed etiam non minimum cum illis ad mouen-",
+        "wer": 27.27272727272727,
+        "cer": 11.29032258064516,
+        "accuracy": 89.0625,
+        "time": 3.6715891361236572
+    },
+    "claude-opus-4-20250514": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mou\u1ebd-",
+        "wer": 9.090909090909092,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 4.4172608852386475
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione miffa, fed cl\u00e0m non minim\u00f9m cum illis ad mouen.",
+        "wer": 36.36363636363637,
+        "cer": 9.67741935483871,
+        "accuracy": 90.47619047619048,
+        "time": 5.0480451583862305
+    },
+    "gemini-2.5-flash": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed etiam non min\u00edm\u00fa cum illis ad mouen\u0303",
+        "wer": 27.27272727272727,
+        "cer": 11.29032258064516,
+        "accuracy": 88.88888888888889,
+        "time": 7.4376139640808105
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u00f9 cum illis ad mouen.",
+        "wer": 18.181818181818183,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 17.369736909866333
+    },
+    "gemini-2.5-pro": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legati\u00f3ne mi\u017f\u017fa, \u017fed cl\u00e0m non min\u00edm\u0169 cum illis ad mouev",
+        "wer": 27.27272727272727,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 26.5759539604187
+    }
+}

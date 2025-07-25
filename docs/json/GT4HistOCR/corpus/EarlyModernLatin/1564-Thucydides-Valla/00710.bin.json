@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis: deinde, quod",
+        "wer": 12.5,
+        "cer": 1.5873015873015872,
+        "accuracy": 98.4126984126984,
+        "time": 1.229048252105713
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis : deinde,qu\u00f2d",
+        "wer": 37.5,
+        "cer": 3.1746031746031744,
+        "accuracy": 98.4126984126984,
+        "time": 1.4561131000518799
+    },
+    "arcee-ai/spotlight": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.021947145462036
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "triam accipientibus, non facientibus,opem feretis : deinde,qu\u00f2d",
+        "wer": 75.0,
+        "cer": 6.349206349206349,
+        "accuracy": 96.82539682539682,
+        "time": 2.054535150527954
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis : deinde, qu\u00f2d",
+        "wer": 25.0,
+        "cer": 1.5873015873015872,
+        "accuracy": 98.4375,
+        "time": 2.3012218475341797
+    },
+    "gpt-4o": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.384444236755371
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.5400729179382324
+    },
+    "claude-opus-4-20250514": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis: deinde, quod",
+        "wer": 12.5,
+        "cer": 1.5873015873015872,
+        "accuracy": 98.4126984126984,
+        "time": 3.599069833755493
+    },
+    "gemini-2.5-flash": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "r\u00edam accipientibus, non facientibus opem feret\u00eds: deinde, qu\u00f2d",
+        "wer": 37.5,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 5.8123459815979
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis : deinde, qu\u00f2d",
+        "wer": 25.0,
+        "cer": 1.5873015873015872,
+        "accuracy": 98.4375,
+        "time": 17.23221516609192
+    },
+    "gemini-2.5-pro": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipi\u00e9ntibus, non faci\u00e9ntibus opem fer\u00e9tis : deinde, qu\u00f2d",
+        "wer": 50.0,
+        "cer": 7.936507936507936,
+        "accuracy": 93.65079365079364,
+        "time": 41.87418818473816
+    }
+}

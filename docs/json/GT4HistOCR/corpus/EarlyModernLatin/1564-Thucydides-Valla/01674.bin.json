@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "rationc uictori\u0101 in libi uindic\u0101tes: Corinthi\u00f1 quidem, quod ad no\u00b0",
+        "wer": 77.77777777777779,
+        "cer": 14.0625,
+        "accuracy": 86.36363636363636,
+        "time": 1.277662992477417
+    },
+    "mistral-small-2506": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictoriam ibi vindicates: Corinth\u012d quidem, quod ad no",
+        "wer": 44.44444444444444,
+        "cer": 9.375,
+        "accuracy": 90.625,
+        "time": 1.3568148612976074
+    },
+    "arcee-ai/spotlight": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione victori\u00e6m libi vindic\u0101tes: Corinthi quidem, quod ad no-",
+        "wer": 44.44444444444444,
+        "cer": 9.375,
+        "accuracy": 90.625,
+        "time": 1.7645337581634521
+    },
+    "gpt-4o": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictoriam \u017fibi uindicat\u0113s: Corinthi\u012b quidem, quod ad no-",
+        "wer": 22.22222222222222,
+        "cer": 4.6875,
+        "accuracy": 95.3125,
+        "time": 2.3421566486358643
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uiCTORiam libi uindicates: Corinthij quidem,quod ad no-",
+        "wer": 55.55555555555556,
+        "cer": 10.9375,
+        "accuracy": 89.0625,
+        "time": 3.4132778644561768
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictoriam \u017fibi uindicates: Corinthij quidem, quod ad no-",
+        "wer": 11.11111111111111,
+        "cer": 1.5625,
+        "accuracy": 98.4375,
+        "time": 3.9822049140930176
+    },
+    "claude-opus-4-20250514": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 4.716768026351929
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "rationcui\u017ftoriam \u017fibi uindic\u00e3tes: Corinthi\u00ef quidem, quod ad no-",
+        "wer": 33.33333333333333,
+        "cer": 6.25,
+        "accuracy": 93.75,
+        "time": 4.912569761276245
+    },
+    "gemini-2.5-flash": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "raci\u00f3ne uictoriam fibi uindic\u0101tes: Corinth\u00efj quidem, quod ad no\u00b4",
+        "wer": 55.55555555555556,
+        "cer": 9.375,
+        "accuracy": 90.625,
+        "time": 12.019789695739746
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "rationc uictoriam \u017fibi uindic\u0101tes:Corinthij quidem, quod ad no-",
+        "wer": 33.33333333333333,
+        "cer": 4.6875,
+        "accuracy": 95.3125,
+        "time": 28.721812963485718
+    },
+    "gemini-2.5-pro": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij\u0308 quidem, quod ad no\u017f",
+        "wer": 22.22222222222222,
+        "cer": 3.125,
+        "accuracy": 96.92307692307692,
+        "time": 88.65503191947937
+    }
+}

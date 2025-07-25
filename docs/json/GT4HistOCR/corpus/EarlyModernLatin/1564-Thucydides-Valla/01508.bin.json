@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "25",
+        "response": "\u017f",
+        "wer": 100.0,
+        "cer": 100.0,
+        "accuracy": 0.0,
+        "time": 1.261883020401001
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "25",
+        "response": "23",
+        "wer": 100.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 1.2524919509887695
+    },
+    "arcee-ai/spotlight": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.646704912185669
+    },
+    "gemini-2.5-flash": {
+        "gt": "25",
+        "response": "r\u017f",
+        "wer": 100.0,
+        "cer": 100.0,
+        "accuracy": 0.0,
+        "time": 2.199110984802246
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.361543893814087
+    },
+    "gpt-4o": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.519075870513916
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.9374752044677734
+    },
+    "claude-opus-4-20250514": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.1397511959075928
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.6091957092285156
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 4.712978839874268
+    },
+    "gemini-2.5-pro": {
+        "gt": "25",
+        "response": "2 5",
+        "wer": 200.0,
+        "cer": 50.0,
+        "accuracy": 66.66666666666666,
+        "time": 15.260806798934937
+    }
+}

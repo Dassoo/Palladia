@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "fuerunt.",
+        "response": "fuerunt",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 0.9622929096221924
+    },
+    "mistral-small-2506": {
+        "gt": "fuerunt.",
+        "response": "fuerunt.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.034377098083496
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "fuerunt.",
+        "response": "fuerung,",
+        "wer": 100.0,
+        "cer": 25.0,
+        "accuracy": 75.0,
+        "time": 1.1636929512023926
+    },
+    "arcee-ai/spotlight": {
+        "gt": "fuerunt.",
+        "response": "fuerung,",
+        "wer": 100.0,
+        "cer": 25.0,
+        "accuracy": 75.0,
+        "time": 1.2712817192077637
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "fuerunt.",
+        "response": "fuerunt.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.512619972229004
+    },
+    "gpt-4o": {
+        "gt": "fuerunt.",
+        "response": "\u017fuerunt",
+        "wer": 100.0,
+        "cer": 25.0,
+        "accuracy": 75.0,
+        "time": 1.8079752922058105
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "fuerunt.",
+        "response": "fuerunt",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 3.1626009941101074
+    },
+    "gemini-2.5-flash": {
+        "gt": "fuerunt.",
+        "response": "fuerunt",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 3.5138282775878906
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "fuerunt.",
+        "response": "fuerunt",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 9.256577968597412
+    },
+    "gemini-2.5-pro": {
+        "gt": "fuerunt.",
+        "response": "fuerunt,",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 10.972831010818481
+    },
+    "claude-opus-4-20250514": {
+        "gt": "fuerunt.",
+        "response": "fuerunt",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 10.949646949768066
+    }
+}

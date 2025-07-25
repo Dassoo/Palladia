@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 1.0039680004119873
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 1.1010420322418213
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 1.1985242366790771
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "13 4",
+        "response": "B  4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 1.308021068572998
+    },
+    "gpt-4o": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 1.448195219039917
+    },
+    "arcee-ai/spotlight": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 1.9164400100708008
+    },
+    "claude-opus-4-20250514": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 2.9127607345581055
+    },
+    "gemini-2.5-flash": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 3.184386730194092
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "13 4",
+        "response": "B    4",
+        "wer": 50.0,
+        "cer": 100.0,
+        "accuracy": 33.33333333333333,
+        "time": 3.8241848945617676
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 5.162793159484863
+    },
+    "gemini-2.5-pro": {
+        "gt": "13 4",
+        "response": "B       4",
+        "wer": 50.0,
+        "cer": 175.0,
+        "accuracy": 22.22222222222222,
+        "time": 13.544996976852417
+    }
+}

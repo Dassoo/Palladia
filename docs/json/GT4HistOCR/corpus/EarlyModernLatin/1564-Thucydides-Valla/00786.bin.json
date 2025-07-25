@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularunt itaquc ab eis, ne muros refi.",
+        "wer": 20.0,
+        "cer": 3.125,
+        "accuracy": 96.875,
+        "time": 1.0576679706573486
+    },
+    "mistral-small-2506": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Postularunque ab eis, ne muros refi",
+        "wer": 30.0,
+        "cer": 10.9375,
+        "accuracy": 89.0625,
+        "time": 1.309324026107788
+    },
+    "arcee-ai/spotlight": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Postularunt itaque ab eis, ne muros refi,",
+        "wer": 20.0,
+        "cer": 3.125,
+        "accuracy": 96.875,
+        "time": 1.4177031517028809
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros ref-",
+        "wer": 10.0,
+        "cer": 1.5625,
+        "accuracy": 98.4375,
+        "time": 1.749453067779541
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam.Postularunt itaque ab eis,ne muros refi.",
+        "wer": 50.0,
+        "cer": 6.25,
+        "accuracy": 93.75,
+        "time": 1.9792799949645996
+    },
+    "gemini-2.5-flash": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.02927303314209
+    },
+    "gpt-4o": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularunt ita\ua757 ab eis, ne muros refi-",
+        "wer": 10.0,
+        "cer": 4.6875,
+        "accuracy": 95.3125,
+        "time": 3.762662887573242
+    },
+    "claude-opus-4-20250514": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 4.356703996658325
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam, Postularunt itaque ab eis, ne muros re\u017fi-",
+        "wer": 30.0,
+        "cer": 4.6875,
+        "accuracy": 95.3125,
+        "time": 8.578405141830444
+    },
+    "gemini-2.5-pro": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularunt it\u00e1que ab eis, ne muros refi-",
+        "wer": 10.0,
+        "cer": 1.5625,
+        "accuracy": 98.4375,
+        "time": 36.42515182495117
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularuntunitiaque ab eis, ne muros re\u017fti-",
+        "wer": 30.0,
+        "cer": 7.8125,
+        "accuracy": 92.53731343283582,
+        "time": 55.991178035736084
+    }
+}

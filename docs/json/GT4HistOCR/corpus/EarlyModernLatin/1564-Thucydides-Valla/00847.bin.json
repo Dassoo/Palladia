@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 3.0303030303030303,
+        "accuracy": 96.96969696969697,
+        "time": 1.2329819202423096
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 3.0303030303030303,
+        "accuracy": 96.96969696969697,
+        "time": 1.8408310413360596
+    },
+    "arcee-ai/spotlight": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 3.0303030303030303,
+        "accuracy": 96.96969696969697,
+        "time": 1.998702049255371
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 3.0303030303030303,
+        "accuracy": 96.96969696969697,
+        "time": 2.0975818634033203
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phrycum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 9.090909090909092,
+        "accuracy": 93.93939393939394,
+        "time": 2.3787760734558105
+    },
+    "gpt-4o": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phrycum muros inferre.",
+        "wer": 33.33333333333333,
+        "cer": 15.151515151515152,
+        "accuracy": 87.87878787878788,
+        "time": 2.56319522857666
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 3.0303030303030303,
+        "accuracy": 96.96969696969697,
+        "time": 2.9794650077819824
+    },
+    "gemini-2.5-flash": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrrcum murtum in\u017ftre.",
+        "wer": 50.0,
+        "cer": 18.181818181818183,
+        "accuracy": 85.29411764705883,
+        "time": 3.304410219192505
+    },
+    "claude-opus-4-20250514": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyreum murum inferre.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.7254300117492676
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 3.0303030303030303,
+        "accuracy": 96.96969696969697,
+        "time": 8.954456090927124
+    },
+    "gemini-2.5-pro": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum in\u017ferre.",
+        "wer": 33.33333333333333,
+        "cer": 6.0606060606060606,
+        "accuracy": 93.93939393939394,
+        "time": 15.6024808883667
+    }
+}

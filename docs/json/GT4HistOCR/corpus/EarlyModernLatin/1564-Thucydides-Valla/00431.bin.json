@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "capellentes. Quippe uerebantur praefecti, Atheniensium prae-",
+        "wer": 66.66666666666666,
+        "cer": 11.666666666666666,
+        "accuracy": 90.0,
+        "time": 1.2203898429870605
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "cape\u017f\u017fentes. Quippe uerebantur praefecti, Athenien\u017fium pr\u00e6ce,",
+        "wer": 33.33333333333333,
+        "cer": 5.0,
+        "accuracy": 95.08196721311475,
+        "time": 1.4931859970092773
+    },
+    "arcee-ai/spotlight": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Atheniensium pr\u00e6-",
+        "wer": 33.33333333333333,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 1.554847240447998
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "capellentes. Quippe uerebantur pr\u00e6fecti, Atheniensium pr\u00e6ce-",
+        "wer": 33.33333333333333,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 1.7505640983581543
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.780282974243164
+    },
+    "gpt-4o": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "capes\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "wer": 16.666666666666664,
+        "cer": 1.6666666666666667,
+        "accuracy": 98.33333333333333,
+        "time": 2.740825891494751
+    },
+    "gemini-2.5-flash": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "capellentes. Qu\u00ecppe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce",
+        "wer": 50.0,
+        "cer": 6.666666666666667,
+        "accuracy": 93.33333333333333,
+        "time": 2.751810073852539
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.7436628341674805
+    },
+    "claude-opus-4-20250514": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 4.609673976898193
+    },
+    "gemini-2.5-pro": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "capellentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce,",
+        "wer": 33.33333333333333,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 12.976031064987183
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "cape\u017f\u017fentes. Quippe uetebantur pr\u00e6fecti, Athenien\u017f\u017fium pr\u00e6ce-",
+        "wer": 33.33333333333333,
+        "cer": 3.3333333333333335,
+        "accuracy": 96.72131147540983,
+        "time": 26.316234827041626
+    }
+}

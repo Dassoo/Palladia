@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberrant,non quando & nobis iniuria illata eft,",
+        "wer": 36.36363636363637,
+        "cer": 6.153846153846154,
+        "accuracy": 95.38461538461539,
+        "time": 1.179269790649414
+    },
+    "mistral-small-2506": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft.",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.2653348445892334
+    },
+    "arcee-ai/spotlight": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iuuri\u0101 illata est,",
+        "wer": 18.181818181818183,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 1.5904719829559326
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iniuria illata e\u017ft,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.7962689399719238
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant,non quando & nobis iuiuria illata e\u017ft,",
+        "wer": 18.181818181818183,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.8777990341186523
+    },
+    "gpt-4o": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.310468912124634
+    },
+    "claude-opus-4-20250514": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberrant, non quando & nobis iniuria illata e\u017ft,",
+        "wer": 18.181818181818183,
+        "cer": 3.076923076923077,
+        "accuracy": 96.96969696969697,
+        "time": 5.098550796508789
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberrant,non quando & nobis iniuria illata e\u017ft,",
+        "wer": 27.27272727272727,
+        "cer": 4.615384615384616,
+        "accuracy": 96.92307692307692,
+        "time": 5.247653245925903
+    },
+    "gemini-2.5-flash": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis \u00eduiuria illata e\u017ft,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 9.820584058761597
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant,non quando & nobis iuuiria illata e\u017ft,",
+        "wer": 27.27272727272727,
+        "cer": 4.615384615384616,
+        "accuracy": 96.92307692307692,
+        "time": 16.77370595932007
+    },
+    "gemini-2.5-pro": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iniuria illata e\u017ft,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 23.441839933395386
+    }
+}
