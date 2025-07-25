@@ -37,18 +37,65 @@ h2 {
     box-shadow: 0 2px 8px rgba(85, 88, 121, 0.1);
 }
 
+/* Stats Grid - Using Flexbox for better reliability */
 .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 15px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 15px !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+}
+
+/* Force horizontal layout for overall stats specifically */
+#overall-stats {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 15px !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
 }
 
 .stat-card {
+    flex: 1 1 calc(16.666% - 12px) !important; /* 6 cards per row on desktop */
+    min-width: 150px !important;
     background: #F4EBD3;
     padding: 15px;
     border-radius: 6px;
     border-left: 4px solid #98A1BC;
+    display: block !important;
 }
+
+/* More specific targeting for overall stats cards */
+#overall-stats .stat-card {
+    flex: 1 1 calc(16.666% - 12px) !important;
+    min-width: 150px !important;
+    max-width: none !important;
+    width: auto !important;
+}
+
+/* Responsive breakpoints for stats grid */
+@media (max-width: 1200px) {
+    .stat-card {
+        flex: 1 1 calc(33.333% - 10px); /* 3 cards per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .stat-card {
+        flex: 1 1 calc(50% - 8px); /* 2 cards per row */
+    }
+    .stats-grid {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stat-card {
+        flex: 1 1 100%; /* 1 card per row on mobile */
+    }
+}
+
+/* Stat card styling moved above with flexbox layout */
 
 .stat-label {
     font-size: 0.85em;
@@ -92,6 +139,7 @@ h2 {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     transition: background 0.3s ease;
 }
 
@@ -99,7 +147,12 @@ h2 {
     background: rgba(152, 161, 188, 0.2);
 }
 
-.subcategory-header::before {
+.subcategory-title {
+    display: flex;
+    align-items: center;
+}
+
+.subcategory-title::before {
     content: '';
     width: 0;
     height: 0;
@@ -110,7 +163,7 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.subcategory-header.expanded::before {
+.subcategory-header.expanded .subcategory-title::before {
     transform: rotate(90deg);
 }
 
@@ -145,6 +198,221 @@ h2 {
 
 .results-table tr:nth-child(even) {
     background: rgba(244, 235, 211, 0.5);
+}
+
+/* Details View Styles */
+.breadcrumb {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.breadcrumb a {
+    color: #98A1BC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #666;
+    margin-left: 10px;
+}
+
+#details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-controls label {
+    font-weight: bold;
+    color: #333;
+}
+
+.filter-controls select {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+
+.details-button {
+    background: #98A1BC;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+    flex-shrink: 0;
+}
+
+.details-button:hover {
+    background: #7a8399;
+}
+
+.image-result {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.image-result h3 {
+    color: #98A1BC;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.ground-truth {
+    background: #f8f9fa;
+    border-left: 4px solid #98A1BC;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.ground-truth h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.ground-truth-text {
+    font-family: monospace;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.model-responses {
+    display: grid;
+    gap: 15px;
+}
+
+.model-response {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.model-response h5 {
+    color: #98A1BC;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.model-metrics {
+    display: flex;
+    gap: 15px;
+    font-size: 12px;
+    color: #666;
+}
+
+.metric {
+    background: #f8f9fa;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.model-response-text {
+    font-family: monospace;
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.diff-button {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.diff-button:hover {
+    background: #5a6268;
+}
+
+.diff-view {
+    margin-top: 10px;
+    font-family: monospace;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.diff-added {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.diff-removed {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Mobile responsiveness for details view */
+@media (max-width: 768px) {
+    #details-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-controls {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .model-responses {
+        grid-template-columns: 1fr;
+    }
+    
+    .model-metrics {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .subcategory-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+    
+    .subcategory-title {
+        justify-content: flex-start;
+    }
+    
+    .details-button {
+        align-self: flex-end;
+        font-size: 10px;
+        padding: 4px 8px;
+    }
 }
 
 .model-name {

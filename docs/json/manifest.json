@@ -1,24 +1,84 @@
 {
   "description": "Auto-generated manifest of all available JSON files based on GT4HistOCR corpus structure",
-  "generated": "2025-07-25T12:00:00.000000",
+  "generated": "2025-07-25T12:18:14.354999",
   "structure": {
-    "EarlyModernLatin": [
-      "1471-Orthographia-Tortellius",
-      "1476-SpeculumNaturale-Beauvais",
-      "1483-Decades-Biondo"
-    ],
-    "Kallimachos": [
-      "1488-Heiligenleben-GWM11407"
-    ],
-    "RefCorpus-ENHG-Incunabula": [
-      "1478-Biblia"
-    ]
+    "RefCorpus-ENHG-Incunabula": {
+      "1478-Biblia": {
+        "aggregated": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia.json",
+        "individual_files": [
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00614.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02157.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02560.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02627.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02694.nrm.json"
+        ],
+        "image_count": 5
+      }
+    },
+    "Kallimachos": {
+      "1488-Heiligenleben-GWM11407": {
+        "aggregated": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407.json",
+        "individual_files": [
+          "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407/00283.nrm.json",
+          "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407/01004.nrm.json",
+          "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407/01524.nrm.json"
+        ],
+        "image_count": 3
+      }
+    },
+    "EarlyModernLatin": {
+      "1483-Decades-Biondo": {
+        "aggregated": "GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo.json",
+        "individual_files": [
+          "GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo/00546.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo/00711.bin.json"
+        ],
+        "image_count": 2
+      },
+      "1471-Orthographia-Tortellius": {
+        "aggregated": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json",
+        "individual_files": [
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00021.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00057.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00065.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00072.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00092.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00095.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00133.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00211.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00224.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00234.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00248.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00256.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00261.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00285.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00289.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00317.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00342.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00353.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00365.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00396.bin.json"
+        ],
+        "image_count": 20
+      },
+      "1476-SpeculumNaturale-Beauvais": {
+        "aggregated": "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais.json",
+        "individual_files": [
+          "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais/00182.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais/00413.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais/00641.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais/00728.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais/01151.bin.json"
+        ],
+        "image_count": 5
+      }
+    }
   },
   "files": [
-    "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json",
-    "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais.json",
-    "GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo.json",
+    "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia.json",
     "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407.json",
-    "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia.json"
+    "GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo.json",
+    "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json",
+    "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais.json"
   ]
 }

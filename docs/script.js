@@ -1,6 +1,283 @@
+// Simple Diff Viewer for text comparison
+class DiffViewer {
+    static generateDiff(text1, text2) {
+        // Simple word-based diff implementation
+        const words1 = text1.split(/(\s+)/);
+        const words2 = text2.split(/(\s+)/);
+        
+        const diff = [];
+        let i = 0, j = 0;
+        
+        while (i < words1.length || j < words2.length) {
+            if (i >= words1.length) {
+                // Remaining words in text2 are additions
+                diff.push({ type: 'added', value: words2[j] });
+                j++;
+            } else if (j >= words2.length) {
+                // Remaining words in text1 are deletions
+                diff.push({ type: 'removed', value: words1[i] });
+                i++;
+            } else if (words1[i] === words2[j]) {
+                // Words match
+                diff.push({ type: 'equal', value: words1[i] });
+                i++;
+                j++;
+            } else {
+                // Words differ - simple approach: mark as changed
+                diff.push({ type: 'removed', value: words1[i] });
+                diff.push({ type: 'added', value: words2[j] });
+                i++;
+                j++;
+            }
+        }
+        
+        return diff;
+    }
+    
+    static renderInlineDiff(diff) {
+        return diff.map(part => {
+            const className = part.type === 'added' ? 'diff-added' : 
+                            part.type === 'removed' ? 'diff-removed' : '';
+            return className ? 
+                `<span class="${className}">${this.escapeHtml(part.value)}</span>` : 
+                this.escapeHtml(part.value);
+        }).join('');
+    }
+    
+    static renderSideBySideDiff(text1, text2) {
+        const diff = this.generateDiff(text1, text2);
+        
+        let leftSide = '';
+        let rightSide = '';
+        
+        diff.forEach(part => {
+            if (part.type === 'equal') {
+                leftSide += this.escapeHtml(part.value);
+                rightSide += this.escapeHtml(part.value);
+            } else if (part.type === 'removed') {
+                leftSide += `<span class="diff-removed">${this.escapeHtml(part.value)}</span>`;
+            } else if (part.type === 'added') {
+                rightSide += `<span class="diff-added">${this.escapeHtml(part.value)}</span>`;
+            }
+        });
+        
+        return `
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <div>
+                    <h6>Ground Truth:</h6>
+                    <div class="diff-view">${leftSide}</div>
+                </div>
+                <div>
+                    <h6>Model Response:</h6>
+                    <div class="diff-view">${rightSide}</div>
+                </div>
+            </div>`;
+    }
+    
+    static escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+}
+
+// Individual File Loader for loading detailed image results
+class IndividualFileLoader {
+    constructor(fetchFunction) {
+        this.fetchWithTimeout = fetchFunction;
+        this.cache = new Map();
+    }
+
+    async loadIndividualFiles(filePaths) {
+        const results = {
+            successful: [],
+            failed: [],
+            data: {}
+        };
+
+        console.log(`Loading ${filePaths.length} individual files...`);
+
+        const loadPromises = filePaths.map(async (filePath) => {
+            try {
+                // Check cache first
+                if (this.cache.has(filePath)) {
+                    return { filePath, data: this.cache.get(filePath), success: true, cached: true };
+                }
+
+                const data = await this.fetchWithTimeout(`json/${filePath}`);
+                const processedData = this.processImageData(data, filePath);
+                
+                // Cache the processed data
+                this.cache.set(filePath, processedData);
+                
+                return { filePath, data: processedData, success: true, cached: false };
+            } catch (error) {
+                console.warn(`Failed to load ${filePath}:`, error.message);
+                return { filePath, error: error.message, success: false };
+            }
+        });
+
+        const loadResults = await Promise.all(loadPromises);
+
+        loadResults.forEach(result => {
+            if (result.success) {
+                results.successful.push(result);
+                results.data[result.filePath] = result.data;
+            } else {
+                results.failed.push(result);
+            }
+        });
+
+        console.log(`Loaded ${results.successful.length} files successfully, ${results.failed.length} failed`);
+        
+        return results;
+    }
+
+    processImageData(rawData, filePath) {
+        // Extract filename for display
+        const filename = filePath.split('/').pop().replace('.json', '');
+        
+        // Validate and normalize the data structure
+        const processedData = {
+            filename: filename,
+            filePath: filePath,
+            models: {}
+        };
+
+        // Process each model's data
+        Object.entries(rawData).forEach(([modelName, modelData]) => {
+            if (this.validateModelData(modelData)) {
+                processedData.models[modelName] = {
+                    groundTruth: modelData.gt || '',
+                    response: modelData.response || '',
+                    wer: modelData.wer || 0,
+                    cer: modelData.cer || 0,
+                    accuracy: modelData.accuracy || 0,
+                    time: modelData.time || 0
+                };
+            } else {
+                console.warn(`Invalid data structure for model ${modelName} in ${filePath}`);
+            }
+        });
+
+        return processedData;
+    }
+
+    validateModelData(modelData) {
+        const requiredKeys = ['gt', 'response', 'wer', 'cer', 'accuracy', 'time'];
+        return typeof modelData === 'object' && 
+               modelData !== null && 
+               requiredKeys.every(key => key in modelData);
+    }
+
+    handleLoadingErrors(errors) {
+        if (errors.length === 0) return;
+
+        console.error(`Failed to load ${errors.length} files:`, errors);
+        
+        // Could implement retry logic here
+        const retryableErrors = errors.filter(error => 
+            error.error.includes('timeout') || error.error.includes('network')
+        );
+
+        if (retryableErrors.length > 0) {
+            console.log(`${retryableErrors.length} errors might be retryable`);
+        }
+    }
+
+    clearCache() {
+        this.cache.clear();
+    }
+
+    getCacheSize() {
+        return this.cache.size;
+    }
+}
+
+// URL Router for handling navigation between dashboard and details view
+class URLRouter {
+    constructor() {
+        this.currentView = 'dashboard';
+        this.currentParams = {};
+        this.setupHistoryHandling();
+        this.parseCurrentURL();
+    }
+
+    parseCurrentURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const view = urlParams.get('view') || 'dashboard';
+        const category = urlParams.get('category');
+        const subcategory = urlParams.get('subcategory');
+
+        this.currentView = view;
+        this.currentParams = {
+            category: category,
+            subcategory: subcategory
+        };
+    }
+
+    getCurrentView() {
+        return this.currentView;
+    }
+
+    getParams() {
+        return { ...this.currentParams };
+    }
+
+    navigateTo(view, params = {}) {
+        this.currentView = view;
+        this.currentParams = { ...params };
+
+        // Update URL without page reload
+        const url = new URL(window.location);
+        url.searchParams.set('view', view);
+        
+        if (params.category) {
+            url.searchParams.set('category', params.category);
+        } else {
+            url.searchParams.delete('category');
+        }
+        
+        if (params.subcategory) {
+            url.searchParams.set('subcategory', params.subcategory);
+        } else {
+            url.searchParams.delete('subcategory');
+        }
+
+        window.history.pushState({ view, params }, '', url);
+        
+        // Trigger view change
+        this.onViewChange(view, params);
+    }
+
+    setupHistoryHandling() {
+        window.addEventListener('popstate', (event) => {
+            this.parseCurrentURL();
+            this.onViewChange(this.currentView, this.currentParams);
+        });
+    }
+
+    onViewChange(view, params) {
+        // This will be overridden by the dashboard
+        console.log(`View changed to: ${view}`, params);
+    }
+
+    validateParams(params) {
+        // Basic validation for required parameters
+        if (params.category && !params.subcategory) {
+            return false;
+        }
+        return true;
+    }
+}
+
 class BenchmarkDashboard {
     constructor() {
         this.data = {};
+        this.manifest = {};
+        this.router = new URLRouter();
+        this.router.onViewChange = (view, params) => this.handleViewChange(view, params);
+        this.fileLoader = new IndividualFileLoader((url, timeout) => this.fetchWithTimeout(url, timeout));
         this.init();
     }
 
@@ -13,15 +290,187 @@ class BenchmarkDashboard {
         try {
             await this.loadData();
             console.log('Data loaded successfully');
-            this.renderOverallStats();
-            this.renderModelAverages();
-            this.renderResults();
+            
+            // Handle initial view based on URL
+            const currentView = this.router.getCurrentView();
+            const params = this.router.getParams();
+            this.handleViewChange(currentView, params);
+            
         } catch (error) {
             console.error('Error loading data:', error);
             document.getElementById('overall-stats').innerHTML = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
             document.getElementById('model-averages').innerHTML = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
             document.getElementById('results-container').innerHTML = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
         }
+    }
+
+    handleViewChange(view, params) {
+        if (view === 'details' && params.category && params.subcategory) {
+            this.showDetailsView(params.category, params.subcategory);
+        } else {
+            this.showDashboardView();
+        }
+    }
+
+    showDashboardView() {
+        // Show main dashboard sections
+        document.getElementById('overall-stats').style.display = 'block';
+        document.getElementById('model-averages').style.display = 'block';
+        document.getElementById('results-container').style.display = 'block';
+        
+        // Hide details view (will be created later)
+        const detailsView = document.getElementById('details-view');
+        if (detailsView) {
+            detailsView.style.display = 'none';
+        }
+        
+        // Render dashboard content
+        this.renderOverallStats();
+        this.renderModelAverages();
+        this.renderResults();
+    }
+
+    async showDetailsView(category, subcategory) {
+        // Hide main dashboard sections
+        document.getElementById('overall-stats').style.display = 'none';
+        document.getElementById('model-averages').style.display = 'none';
+        document.getElementById('results-container').style.display = 'none';
+        
+        // Show details view
+        const detailsView = document.getElementById('details-view');
+        detailsView.style.display = 'block';
+        
+        // Update breadcrumb and title
+        document.getElementById('breadcrumb-path').textContent = `${category} > ${subcategory}`;
+        document.getElementById('details-title').textContent = `${subcategory} - Detailed Results`;
+        
+        // Show loading state
+        document.getElementById('details-content').innerHTML = '<div class="loading">Loading detailed results...</div>';
+        
+        try {
+            await this.loadAndRenderDetails(category, subcategory);
+        } catch (error) {
+            console.error('Error loading details:', error);
+            document.getElementById('details-content').innerHTML = 
+                `<div style="color: red; padding: 20px;">Error loading details: ${error.message}</div>`;
+        }
+    }
+
+    async loadAndRenderDetails(category, subcategory) {
+        // Get individual files from manifest
+        const subcategoryInfo = this.manifest.structure[category]?.[subcategory];
+        if (!subcategoryInfo || !subcategoryInfo.individual_files) {
+            throw new Error('No individual files found for this category');
+        }
+
+        const individualFiles = subcategoryInfo.individual_files;
+        console.log(`Loading ${individualFiles.length} individual files for ${category}/${subcategory}`);
+
+        // Load individual files
+        const loadResults = await this.fileLoader.loadIndividualFiles(individualFiles);
+        
+        // Handle any loading errors
+        this.fileLoader.handleLoadingErrors(loadResults.failed);
+        
+        if (loadResults.successful.length === 0) {
+            throw new Error('No individual files could be loaded');
+        }
+
+        // Render the details
+        this.renderDetailsContent(loadResults.data, category, subcategory);
+        
+        // Set up filtering and sorting
+        this.setupDetailsControls(loadResults.data);
+    }
+
+    renderDetailsContent(imageData, category, subcategory) {
+        const imageFiles = Object.values(imageData);
+        
+        if (imageFiles.length === 0) {
+            document.getElementById('details-content').innerHTML = 
+                '<div class="no-data">No image data available</div>';
+            return;
+        }
+
+        let html = '';
+        
+        imageFiles.forEach(imageResult => {
+            html += this.renderImageResult(imageResult);
+        });
+
+        document.getElementById('details-content').innerHTML = html;
+    }
+
+    renderImageResult(imageResult) {
+        const { filename, models } = imageResult;
+        const modelNames = Object.keys(models);
+        
+        if (modelNames.length === 0) {
+            return `<div class="image-result">
+                <h3>${filename}</h3>
+                <p>No model results available</p>
+            </div>`;
+        }
+
+        // Get ground truth from first model (should be same for all)
+        const groundTruth = models[modelNames[0]].groundTruth;
+
+        let html = `
+            <div class="image-result" data-filename="${filename}">
+                <h3>${filename}</h3>
+                
+                <div class="ground-truth">
+                    <h4>Ground Truth:</h4>
+                    <div class="ground-truth-text">${this.escapeHtml(groundTruth)}</div>
+                </div>
+                
+                <div class="model-responses">`;
+
+        // Sort models by accuracy (highest first)
+        const sortedModels = modelNames.sort((a, b) => 
+            models[b].accuracy - models[a].accuracy
+        );
+
+        sortedModels.forEach(modelName => {
+            const modelData = models[modelName];
+            html += this.renderModelResponse(modelName, modelData, groundTruth);
+        });
+
+        html += `
+                </div>
+            </div>`;
+
+        return html;
+    }
+
+    renderModelResponse(modelName, modelData, groundTruth) {
+        const { response, wer, cer, accuracy, time } = modelData;
+        
+        return `
+            <div class="model-response" data-model="${modelName}">
+                <h5>
+                    ${modelName}
+                    <button class="diff-button" onclick="dashboard.toggleDiff(this, '${this.escapeHtml(groundTruth)}', '${this.escapeHtml(response)}')">
+                        Show Diff
+                    </button>
+                </h5>
+                
+                <div class="model-metrics">
+                    <span class="metric">Accuracy: ${accuracy.toFixed(1)}%</span>
+                    <span class="metric">WER: ${wer.toFixed(1)}%</span>
+                    <span class="metric">CER: ${cer.toFixed(1)}%</span>
+                    <span class="metric">Time: ${time.toFixed(2)}s</span>
+                </div>
+                
+                <div class="model-response-text">${this.escapeHtml(response)}</div>
+                <div class="diff-container" style="display: none;"></div>
+            </div>`;
+    }
+
+    escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
     }
 
     async fetchWithTimeout(url, timeout = 5000) {
@@ -55,6 +504,7 @@ class BenchmarkDashboard {
 
             // Load the manifest file that lists JSON files
             const manifest = await this.fetchWithTimeout('json/manifest.json');
+            this.manifest = manifest; // Store for later use
             console.log(`Manifest loaded with ${manifest.files?.length || 0} files`);
             
             // Update last update timestamp
@@ -107,7 +557,12 @@ class BenchmarkDashboard {
 
                     // Try to find the right category from manifest structure
                     Object.entries(manifest.structure).forEach(([categoryName, subcategories]) => {
-                        if (subcategories.includes(nameWithoutExt)) {
+                        // Handle both old format (array) and new format (object)
+                        const subcategoryNames = Array.isArray(subcategories) 
+                            ? subcategories 
+                            : Object.keys(subcategories);
+                        
+                        if (subcategoryNames.includes(nameWithoutExt)) {
                             this.data[categoryName][nameWithoutExt] = data;
                             console.log(`✓ Placed ${filename} in ${categoryName}/${nameWithoutExt}`);
                             placed = true;
@@ -182,29 +637,25 @@ class BenchmarkDashboard {
         if (!stats) return;
 
         const html = `
-            <div class="stat-card">
+            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
                 <div class="stat-label">Average Accuracy</div>
                 <div class="stat-value">${stats.avg_accuracy}%</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
                 <div class="stat-label">Average CER</div>
                 <div class="stat-value">${stats.avg_cer}%</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
                 <div class="stat-label">Average WER</div>
                 <div class="stat-value">${stats.avg_wer}%</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
                 <div class="stat-label">Average Time</div>
                 <div class="stat-value">${stats.avg_time}s</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top;">
                 <div class="stat-label">Total Images</div>
                 <div class="stat-value">${stats.total_images}</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-label">Evaluated Models</div>
-                <div class="stat-value">${stats.total_models}</div>
             </div>
         `;
 
@@ -333,7 +784,10 @@ class BenchmarkDashboard {
                 html += `
                     <div class="subcategory">
                         <div class="subcategory-header" onclick="this.nextElementSibling.classList.toggle('show'); this.classList.toggle('expanded')">
-                            ${subcategoryName} (${Object.values(subcategoryData)[0].images} images)
+                            <span class="subcategory-title">${subcategoryName} (${Object.values(subcategoryData)[0].images} images)</span>
+                            <button class="details-button" onclick="event.stopPropagation(); dashboard.navigateToDetails('${categoryName}', '${subcategoryName}')">
+                                Details →
+                            </button>
                         </div>
                         <div class="model-results">
                             <table class="results-table">
@@ -379,9 +833,115 @@ class BenchmarkDashboard {
 
         document.getElementById('results-container').innerHTML = html;
     }
+
+    // Navigation methods for Details buttons
+    navigateToDetails(categoryName, subcategoryName) {
+        this.router.navigateTo('details', {
+            category: categoryName,
+            subcategory: subcategoryName
+        });
+    }
+
+    navigateBackToDashboard() {
+        this.router.navigateTo('dashboard');
+    }
+
+    // Diff functionality
+    toggleDiff(button, groundTruth, response) {
+        const diffContainer = button.closest('.model-response').querySelector('.diff-container');
+        const responseText = button.closest('.model-response').querySelector('.model-response-text');
+        
+        if (diffContainer.style.display === 'none') {
+            // Show diff
+            const diff = DiffViewer.generateDiff(groundTruth, response);
+            const diffHtml = DiffViewer.renderInlineDiff(diff);
+            diffContainer.innerHTML = `<div class="diff-view">${diffHtml}</div>`;
+            diffContainer.style.display = 'block';
+            responseText.style.display = 'none';
+            button.textContent = 'Hide Diff';
+        } else {
+            // Hide diff
+            diffContainer.style.display = 'none';
+            responseText.style.display = 'block';
+            button.textContent = 'Show Diff';
+        }
+    }
+
+    // Details controls setup
+    setupDetailsControls(imageData) {
+        const imageFiles = Object.values(imageData);
+        if (imageFiles.length === 0) return;
+
+        // Get all unique models
+        const allModels = new Set();
+        imageFiles.forEach(imageResult => {
+            Object.keys(imageResult.models).forEach(model => allModels.add(model));
+        });
+
+        // Populate model filter
+        const modelFilter = document.getElementById('model-filter');
+        modelFilter.innerHTML = '<option value="">All Models</option>';
+        Array.from(allModels).sort().forEach(model => {
+            modelFilter.innerHTML += `<option value="${model}">${model}</option>`;
+        });
+
+        // Set up event listeners
+        modelFilter.addEventListener('change', () => this.applyFilters());
+        document.getElementById('sort-by').addEventListener('change', () => this.applySorting());
+    }
+
+    applyFilters() {
+        const selectedModel = document.getElementById('model-filter').value;
+        const imageResults = document.querySelectorAll('.image-result');
+
+        imageResults.forEach(imageResult => {
+            if (!selectedModel) {
+                // Show all models
+                imageResult.querySelectorAll('.model-response').forEach(response => {
+                    response.style.display = 'block';
+                });
+            } else {
+                // Show only selected model
+                imageResult.querySelectorAll('.model-response').forEach(response => {
+                    const modelName = response.dataset.model;
+                    response.style.display = modelName === selectedModel ? 'block' : 'none';
+                });
+            }
+        });
+    }
+
+    applySorting() {
+        const sortBy = document.getElementById('sort-by').value;
+        const detailsContent = document.getElementById('details-content');
+        const imageResults = Array.from(detailsContent.querySelectorAll('.image-result'));
+
+        imageResults.sort((a, b) => {
+            const filenameA = a.dataset.filename;
+            const filenameB = b.dataset.filename;
+
+            if (sortBy === 'filename') {
+                return filenameA.localeCompare(filenameB);
+            }
+
+            // For metric sorting, we need to get the values from the data
+            // This is a simplified approach - in a real implementation, 
+            // you might want to store the data in a more accessible way
+            return filenameA.localeCompare(filenameB); // Fallback to filename
+        });
+
+        // Re-append sorted elements
+        imageResults.forEach(element => detailsContent.appendChild(element));
+    }
 }
 
 // Initialize dashboard when page loads
+let dashboard;
 document.addEventListener('DOMContentLoaded', () => {
-    new BenchmarkDashboard();
+    dashboard = new BenchmarkDashboard();
+    
+    // Set up back button handler
+    document.getElementById('back-to-dashboard').addEventListener('click', (e) => {
+        e.preventDefault();
+        dashboard.navigateBackToDashboard();
+    });
 });

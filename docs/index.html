@@ -82,6 +82,38 @@
                 <div class="loading">Loading...</div>
             </div>
         </div>
+
+        <!-- Details View (initially hidden) -->
+        <div id="details-view" class="section" style="display: none;">
+            <div id="details-breadcrumb" class="breadcrumb">
+                <a href="#" id="back-to-dashboard">← Back to Dashboard</a>
+                <span id="breadcrumb-path"></span>
+            </div>
+            
+            <div id="details-header">
+                <h2 id="details-title">Category Details</h2>
+                <div id="details-controls">
+                    <div class="filter-controls">
+                        <label for="model-filter">Filter by Model:</label>
+                        <select id="model-filter">
+                            <option value="">All Models</option>
+                        </select>
+                        
+                        <label for="sort-by">Sort by:</label>
+                        <select id="sort-by">
+                            <option value="filename">Filename</option>
+                            <option value="accuracy">Accuracy</option>
+                            <option value="wer">WER</option>
+                            <option value="cer">CER</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="details-content">
+                <div class="loading">Loading detailed results...</div>
+            </div>
+        </div>
     </div>
 
     <div class="simple-footer">
