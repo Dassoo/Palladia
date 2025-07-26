@@ -794,7 +794,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ocr-evaluator"
+name = "ocracle"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
@@ -805,6 +805,7 @@ dependencies = [
     { name = "filetype" },
     { name = "google-genai" },
     { name = "groq" },
+    { name = "huggingface-hub" },
     { name = "jiwer" },
     { name = "matplotlib" },
     { name = "mistralai" },
@@ -825,6 +826,7 @@ requires-dist = [
     { name = "filetype", specifier = ">=1.2.0" },
     { name = "google-genai", specifier = ">=1.25.0" },
     { name = "groq", specifier = ">=0.29.0" },
+    { name = "huggingface-hub", specifier = ">=0.33.4" },
     { name = "jiwer", specifier = ">=4.0.0" },
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "mistralai", specifier = ">=1.9.1" },

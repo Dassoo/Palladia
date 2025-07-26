@@ -10,6 +10,8 @@ from agno.models.mistral import MistralChat
 from agno.models.nebius import Nebius
 from agno.models.xai import xAI
 from agno.models.openrouter import OpenRouter
+from agno.models.huggingface import HuggingFace
+from agno.models.deepseek import DeepSeek
 from dotenv import load_dotenv
 
 from config.loader import load_config
@@ -37,7 +39,9 @@ def get_enabled_models() -> List[Any]:
         'Mistral': MistralChat,
         'Nebius': Nebius,
         'xAI': xAI,
-        'OpenRouter': OpenRouter
+        'OpenRouter': OpenRouter,
+        'HuggingFace': HuggingFace,
+        'DeepSeek': DeepSeek,
     }
     
     for model_cfg in app_config.enabled_models:
