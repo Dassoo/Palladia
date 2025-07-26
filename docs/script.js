@@ -95,8 +95,6 @@ class IndividualFileLoader {
             data: {}
         };
 
-        console.log(`Loading ${filePaths.length} individual files...`);
-
         const loadPromises = filePaths.map(async (filePath) => {
             try {
                 // Check cache first
@@ -128,7 +126,7 @@ class IndividualFileLoader {
             }
         });
 
-        console.log(`Loaded ${results.successful.length} files successfully, ${results.failed.length} failed`);
+
 
         return results;
     }
@@ -180,9 +178,7 @@ class IndividualFileLoader {
             error.error.includes('timeout') || error.error.includes('network')
         );
 
-        if (retryableErrors.length > 0) {
-            console.log(`${retryableErrors.length} errors might be retryable`);
-        }
+        // Could implement retry logic here if needed
     }
 
     clearCache() {
@@ -259,7 +255,6 @@ class URLRouter {
 
     onViewChange(view, params) {
         // This will be overridden by the dashboard
-        console.log(`View changed to: ${view}`, params);
     }
 
     validateParams(params) {
@@ -364,7 +359,7 @@ class BenchmarkDashboard {
         }
 
         const individualFiles = subcategoryInfo.individual_files;
-        console.log(`Loading ${individualFiles.length} individual files for ${category}/${subcategory}`);
+
 
         // Load individual files
         const loadResults = await this.fileLoader.loadIndividualFiles(individualFiles);
@@ -539,8 +534,17 @@ class BenchmarkDashboard {
         const timeoutId = setTimeout(() => controller.abort(), timeout);
 
         try {
-            console.log(`Fetching: ${url}`);
-            const response = await fetch(url, { signal: controller.signal });
+            // Add cache-busting parameter to ensure fresh data
+            const cacheBustUrl = url + (url.includes('?') ? '&' : '?') + '_t=' + Date.now();
+            const response = await fetch(cacheBustUrl, {
+                signal: controller.signal,
+                cache: 'no-cache',
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                    'Expires': '0'
+                }
+            });
             clearTimeout(timeoutId);
 
             if (!response.ok) {
@@ -548,7 +552,6 @@ class BenchmarkDashboard {
             }
 
             const data = await response.json();
-            console.log(`Successfully loaded: ${url}`);
             return data;
         } catch (error) {
             clearTimeout(timeoutId);
@@ -570,7 +573,6 @@ class BenchmarkDashboard {
 
             // Update last update timestamp
             if (manifest.generated) {
-                console.log(manifest.generated)
                 const date = new Date(manifest.generated);
                 document.getElementById('last-update').textContent = date.toLocaleString();
             }
@@ -585,7 +587,6 @@ class BenchmarkDashboard {
                     const data = await this.fetchWithTimeout(`json/${filename}`);
                     return { filename, data, success: true };
                 } catch (error) {
-                    console.log(`File not available: ${filename} (${error.message})`);
                     return { filename, error: error.message, success: false };
                 }
             });
@@ -598,7 +599,7 @@ class BenchmarkDashboard {
                 throw new Error('No JSON files could be loaded from the manifest');
             }
 
-            console.log(`Successfully loaded ${successful.length} files, ${failed.length} files not available`);
+
 
             // Organize data using the manifest structure
             this.data = {};
@@ -650,7 +651,7 @@ class BenchmarkDashboard {
             const totalCategories = Object.keys(this.data).length;
             const totalSubcategories = Object.values(this.data).reduce((sum, cat) => sum + Object.keys(cat).length, 0);
 
-            console.log(`Dashboard ready: ${totalCategories} categories, ${totalSubcategories} folders`);
+
 
         } catch (error) {
             throw new Error(`Failed to load benchmark data: ${error.message}`);
@@ -746,23 +747,46 @@ class BenchmarkDashboard {
             });
         });
 
-        // Calculate averages for each model
+        // Calculate weighted averages for each model
         const modelAverages = {};
         Object.entries(modelStats).forEach(([modelName, stats]) => {
             const count = stats.results.length;
-            const totals = stats.results.reduce((acc, result) => {
-                acc.wer += result.avg_wer;
-                acc.cer += result.avg_cer;
-                acc.accuracy += result.avg_accuracy;
-                acc.time += result.avg_time;
+
+            // Calculate weighted averages based on image count
+            const weightedTotals = stats.results.reduce((acc, result, index) => {
+                // Get the corresponding category/subcategory for this result
+                const resultIndex = index;
+                const categoryEntries = Object.entries(this.data);
+                let imageCount = 0;
+                let found = false;
+
+                // Find the image count for this specific result
+                for (const [categoryName, categoryData] of categoryEntries) {
+                    for (const [subcategoryName, subcategoryData] of Object.entries(categoryData)) {
+                        if (subcategoryData[modelName] === result) {
+                            imageCount = this.getImageCount(categoryName, subcategoryName);
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (found) break;
+                }
+
+                // Weight each metric by the number of images in that dataset
+                acc.wer += result.avg_wer * imageCount;
+                acc.cer += result.avg_cer * imageCount;
+                acc.accuracy += result.avg_accuracy * imageCount;
+                acc.time += result.avg_time * imageCount;
+                acc.totalWeight += imageCount;
+
                 return acc;
-            }, { wer: 0, cer: 0, accuracy: 0, time: 0 });
+            }, { wer: 0, cer: 0, accuracy: 0, time: 0, totalWeight: 0 });
 
             modelAverages[modelName] = {
-                avg_wer: totals.wer / count,
-                avg_cer: totals.cer / count,
-                avg_accuracy: totals.accuracy / count,
-                avg_time: totals.time / count,
+                avg_wer: weightedTotals.totalWeight > 0 ? weightedTotals.wer / weightedTotals.totalWeight : 0,
+                avg_cer: weightedTotals.totalWeight > 0 ? weightedTotals.cer / weightedTotals.totalWeight : 0,
+                avg_accuracy: weightedTotals.totalWeight > 0 ? weightedTotals.accuracy / weightedTotals.totalWeight : 0,
+                avg_time: weightedTotals.totalWeight > 0 ? weightedTotals.time / weightedTotals.totalWeight : 0,
                 totalImages: stats.totalImages,
                 benchmarkCount: count
             };

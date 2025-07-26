@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Nece\u017f\u017fe hoc in probrum Laurentij Val",
+        "wer": 25.0,
+        "cer": 8.16326530612245,
+        "accuracy": 93.87755102040816,
+        "time": 1.536566972732544
+    },
+    "arcee-ai/spotlight": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Necego hoc in probrum Laurentij Val",
+        "wer": 25.0,
+        "cer": 2.0408163265306123,
+        "accuracy": 97.95918367346938,
+        "time": 1.6791322231292725
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis.Necego hoc in probrum Laurentij Val",
+        "wer": 37.5,
+        "cer": 4.081632653061225,
+        "accuracy": 95.91836734693877,
+        "time": 1.8796958923339844
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. NecegohocinprobrumLaurencijVal",
+        "wer": 87.5,
+        "cer": 14.285714285714285,
+        "accuracy": 85.71428571428571,
+        "time": 1.9012839794158936
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis, Necego hoc in probrum Laurentij Val.",
+        "wer": 50.0,
+        "cer": 6.122448979591836,
+        "accuracy": 95.91836734693877,
+        "time": 1.958716869354248
+    },
+    "gpt-4o": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpreti\u017f, Necego hoc in probrum Laurentij Val.",
+        "wer": 50.0,
+        "cer": 8.16326530612245,
+        "accuracy": 93.87755102040816,
+        "time": 2.0394859313964844
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis, Nec ego hoc in probrum Laurentij Val",
+        "wer": 12.5,
+        "cer": 2.0408163265306123,
+        "accuracy": 97.95918367346938,
+        "time": 3.5472500324249268
+    },
+    "claude-opus-4-20250514": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interprecis. Nec ego hoc in probrum Laurentij Val-",
+        "wer": 25.0,
+        "cer": 4.081632653061225,
+        "accuracy": 96.0,
+        "time": 4.238056898117065
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpreti\u017f,Nec ego hoc in probrum Laurentij Val",
+        "wer": 25.0,
+        "cer": 6.122448979591836,
+        "accuracy": 93.87755102040816,
+        "time": 6.06197190284729
+    },
+    "gemini-2.5-flash": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Nec ego hoc in probrum Laurenci\u00ef Val.",
+        "wer": 25.0,
+        "cer": 6.122448979591836,
+        "accuracy": 94.0,
+        "time": 28.79334807395935
+    },
+    "gemini-2.5-pro": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Nec ego hoc in probrum Laurent\u00efj Val.",
+        "wer": 25.0,
+        "cer": 4.081632653061225,
+        "accuracy": 96.0,
+        "time": 30.014796018600464
+    }
+}

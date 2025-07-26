@@ -25,6 +25,7 @@ def create_agent(model) -> Agent:
             
             Spacing & Lineation:
             - If not already present, leave an automatic empty space after ':'
+            - Only use single empty spacing when there's some space, even if it looks like the empty space is bigger than the single one
             
             Accuracy Rules:
             - No character substitution (e.g., never ſ → s, or u → v)

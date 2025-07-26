@@ -135,4 +135,4 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
 
 if __name__ == "__main__":
     # Manual example usage if needed
-    aggregate_folder_results('docs/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
+    aggregate_folder_results('docs/json/GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla')

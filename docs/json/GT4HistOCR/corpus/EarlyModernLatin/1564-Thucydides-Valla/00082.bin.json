@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "ximi\u00e8 ucr\u00f2 optima qu\u00e6q\ua753 tellus pr\u00e6cipu\u00e8 patiebatur af\u017fidu\u00e0s in:",
+        "wer": 55.55555555555556,
+        "cer": 11.29032258064516,
+        "accuracy": 90.47619047619048,
+        "time": 1.1885638236999512
+    },
+    "mistral-small-2506": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8ucr\u00f2 optima quaq tellus praecipu\u00e8 patiebatur afsiduas in:",
+        "wer": 66.66666666666666,
+        "cer": 12.903225806451612,
+        "accuracy": 88.70967741935483,
+        "time": 1.4539687633514404
+    },
+    "arcee-ai/spotlight": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e9 ucr\u00f2 optima qu\u00e6\u0153 tellus pr\u00e6cipue patiebatur a\u017fsiduas in",
+        "wer": 55.55555555555556,
+        "cer": 9.67741935483871,
+        "accuracy": 90.32258064516128,
+        "time": 1.449444055557251
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8ucr\u00f2 optima qu\u00e6\u017ftellus pr\u00e6cipu\u00e9patiebatur afsiduas in-",
+        "wer": 77.77777777777779,
+        "cer": 12.903225806451612,
+        "accuracy": 87.09677419354838,
+        "time": 1.8475868701934814
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8 uer\u00f2 optima qu\u00e6q\ua76b tellus pr\u00e6cipu\u00e8 patiebatur a\u017f\u017fiduas in",
+        "wer": 33.33333333333333,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 1.988757848739624
+    },
+    "gpt-4o": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8 ucro\u0300 optima qu\u00e6q\ua76b tellus pr\u00e6cipu\u00e8 patiebatur a\u017f\u017fiduas in\u1fbd",
+        "wer": 44.44444444444444,
+        "cer": 9.67741935483871,
+        "accuracy": 90.47619047619048,
+        "time": 2.168316125869751
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xime uero optima qu\u00e6c\u0328 tellus pr\u00e6cipue patiebatur a\u017fiduas in-",
+        "wer": 55.55555555555556,
+        "cer": 9.67741935483871,
+        "accuracy": 90.32258064516128,
+        "time": 3.6578378677368164
+    },
+    "claude-opus-4-20250514": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8 uero optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "wer": 11.11111111111111,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 4.1303627490997314
+    },
+    "gemini-2.5-flash": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8 ucr\u00f2 optima qu\u00e6q tellus pr\u00e6cipu\u00e8 patiebatur afsidua\u017f in",
+        "wer": 44.44444444444444,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 6.23237419128418
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "\u00b7 xim\u00e8 ucro optima quaq\u00b0 tellus pr\u00e6cipu\u00e8 patiebatur af\u017fiduas in-",
+        "wer": 44.44444444444444,
+        "cer": 12.903225806451612,
+        "accuracy": 89.0625,
+        "time": 20.63865089416504
+    },
+    "gemini-2.5-pro": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8 uer\u00f2 optima qu\u00e6q\u0301 tellus pr\u00e6cipu\u00e9 patiebatur a\u017fsiduas in",
+        "wer": 33.33333333333333,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 43.25813007354736
+    }
+}

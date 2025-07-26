@@ -1,90 +1,90 @@
 {
     "mistral-small-2506": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 32.05563572230239,
-        "avg_cer": 9.2976175118042,
-        "avg_accuracy": 91.07847971365673,
-        "avg_time": 1.401171498828464
+        "images": 58,
+        "avg_wer": 32.248594317559835,
+        "avg_cer": 8.362065842702526,
+        "avg_accuracy": 91.99533595687504,
+        "avg_time": 1.548311759685648
     },
     "arcee-ai/spotlight": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 34.51483084816418,
-        "avg_cer": 7.6292259827338365,
-        "avg_accuracy": 92.49082646445736,
-        "avg_time": 1.6172298007541233
+        "images": 58,
+        "avg_wer": 36.79479524307111,
+        "avg_cer": 7.59310851551401,
+        "avg_accuracy": 92.57680442489867,
+        "avg_time": 1.5661354887074437
     },
     "gpt-4.1-2025-04-14": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 16.759098925765592,
-        "avg_cer": 4.745712407385109,
-        "avg_accuracy": 95.6525402544306,
-        "avg_time": 1.9746390130784777
+        "images": 58,
+        "avg_wer": 20.385194307608103,
+        "avg_cer": 6.342830606282259,
+        "avg_accuracy": 95.19287089218138,
+        "avg_time": 1.9312105302152962
     },
     "meta-llama/llama-4-maverick-17b-128e-instruct": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 41.49502966169633,
-        "avg_cer": 9.328249501012854,
-        "avg_accuracy": 91.08691910127892,
-        "avg_time": 1.4577491336398654
+        "images": 58,
+        "avg_wer": 42.1545504304125,
+        "avg_cer": 9.169200633715327,
+        "avg_accuracy": 91.19374617380679,
+        "avg_time": 1.8778129774948646
     },
     "gpt-4o": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 20.984287317620648,
-        "avg_cer": 6.783723670738862,
-        "avg_accuracy": 94.35630740838795,
-        "avg_time": 2.23408645523919
+        "images": 58,
+        "avg_wer": 23.552644673334324,
+        "avg_cer": 6.657395406188142,
+        "avg_accuracy": 94.38891326390166,
+        "avg_time": 2.1399007583486624
     },
     "Qwen/Qwen2.5-VL-72B-Instruct": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 41.63139329805996,
-        "avg_cer": 7.429006733615094,
-        "avg_accuracy": 92.80666418820186,
-        "avg_time": 2.694529167811076
+        "images": 58,
+        "avg_wer": 43.356533313429864,
+        "avg_cer": 7.251765932653142,
+        "avg_accuracy": 92.99767501812111,
+        "avg_time": 2.49991198243766
     },
     "claude-sonnet-4-20250514": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 21.61391694725028,
-        "avg_cer": 7.304481786933797,
-        "avg_accuracy": 94.02037054392177,
-        "avg_time": 4.746180131700304
+        "images": 58,
+        "avg_wer": 23.54885057471264,
+        "avg_cer": 6.302971117155867,
+        "avg_accuracy": 94.34656131400865,
+        "avg_time": 4.372178439436288
     },
     "gemini-2.5-flash": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 32.246753246753244,
-        "avg_cer": 10.11544558324125,
-        "avg_accuracy": 90.42130226673359,
-        "avg_time": 5.311310370763143
+        "images": 58,
+        "avg_wer": 33.97148828183311,
+        "avg_cer": 9.51109480952774,
+        "avg_accuracy": 90.84362854741678,
+        "avg_time": 5.5190565051703615
     },
     "claude-opus-4-20250514": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 18.899230399230397,
-        "avg_cer": 8.817482808825508,
-        "avg_accuracy": 94.680944689602,
-        "avg_time": 5.025606102413601
+        "images": 58,
+        "avg_wer": 19.89743494053839,
+        "avg_cer": 4.551116298126804,
+        "avg_accuracy": 95.48109623879336,
+        "avg_time": 4.883004093992299
     },
     "o4-mini-2025-04-16": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 28.433702100368766,
-        "avg_cer": 7.4024515937599356,
-        "avg_accuracy": 93.37119368408526,
-        "avg_time": 18.479842874738907
+        "images": 58,
+        "avg_wer": 31.565905359008806,
+        "avg_cer": 7.896694591266165,
+        "avg_accuracy": 93.3553619519647,
+        "avg_time": 17.533803985036652
     },
     "gemini-2.5-pro": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 45,
-        "avg_wer": 31.973865640532306,
-        "avg_cer": 10.617079873370155,
-        "avg_accuracy": 92.32721304521439,
-        "avg_time": 32.7386807653639
+        "images": 58,
+        "avg_wer": 33.67343384584764,
+        "avg_cer": 11.321243603332109,
+        "avg_accuracy": 92.15736167941729,
+        "avg_time": 33.30566581775402
     }
 }

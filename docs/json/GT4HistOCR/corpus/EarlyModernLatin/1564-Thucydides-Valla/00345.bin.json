@@ -1,0 +1,90 @@
+{
+    "arcee-ai/spotlight": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficient. At Potid\u00e6enses miffis ad Athenienses legatis, fi fortf",
+        "wer": 66.66666666666666,
+        "cer": 10.76923076923077,
+        "accuracy": 89.23076923076924,
+        "time": 1.2759881019592285
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6en\u017fes mi\u017f\u017fis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 11.11111111111111,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.4751150608062744
+    },
+    "mistral-small-2506": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6enses missis ad Athenienses legatis, fi forte",
+        "wer": 55.55555555555556,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 1.5310049057006836
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficient.At Potid\u00e6n\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi forte",
+        "wer": 44.44444444444444,
+        "cer": 6.153846153846154,
+        "accuracy": 93.84615384615384,
+        "time": 1.7316479682922363
+    },
+    "gpt-4o": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6en\u017fes mi\u017f\u017fis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 11.11111111111111,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.9861502647399902
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6enses mil\u017fis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 22.22222222222222,
+        "cer": 4.615384615384616,
+        "accuracy": 96.92307692307692,
+        "time": 2.1955130100250244
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6en\u017fes mi\u017f\u017fis ad Athenien\u017fes legatis, \u017fi forte",
+        "wer": 22.22222222222222,
+        "cer": 3.076923076923077,
+        "accuracy": 96.92307692307692,
+        "time": 3.6607489585876465
+    },
+    "gemini-2.5-flash": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "de\u017ficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 11.11111111111111,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 4.755835771560669
+    },
+    "claude-opus-4-20250514": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant.At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis,\u017fi forte",
+        "wer": 55.55555555555556,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 11.29216980934143
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant.At Potid\u00e6n\u017fes mi\u017fsis ad Athenien\u017fes legatis,\u017fi fort\u00e8",
+        "wer": 55.55555555555556,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 12.097837209701538
+    },
+    "gemini-2.5-pro": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 12.803050994873047
+    }
+}

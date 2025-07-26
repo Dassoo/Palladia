@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "21 artabazus quis",
+        "response": "21 art\u017fbazus quis",
+        "wer": 33.33333333333333,
+        "cer": 5.88235294117647,
+        "accuracy": 94.11764705882352,
+        "time": 1.0284600257873535
+    },
+    "mistral-small-2506": {
+        "gt": "21 artabazus quis",
+        "response": "21 artabazus quis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.07850980758667
+    },
+    "arcee-ai/spotlight": {
+        "gt": "21 artabazus quis",
+        "response": "21 artabazus quis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.2293469905853271
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "21 artabazus quis",
+        "response": "2 1 artabazus quis",
+        "wer": 66.66666666666666,
+        "cer": 5.88235294117647,
+        "accuracy": 94.44444444444444,
+        "time": 1.2322030067443848
+    },
+    "gpt-4o": {
+        "gt": "21 artabazus quis",
+        "response": "2 1 artabazus quis",
+        "wer": 66.66666666666666,
+        "cer": 5.88235294117647,
+        "accuracy": 94.44444444444444,
+        "time": 1.3000741004943848
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "21 artabazus quis",
+        "response": "21 artabazus quis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.4696922302246094
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "21 artabazus quis",
+        "response": "21 artabazus quis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.544628858566284
+    },
+    "claude-opus-4-20250514": {
+        "gt": "21 artabazus quis",
+        "response": "artabazus quis",
+        "wer": 33.33333333333333,
+        "cer": 17.647058823529413,
+        "accuracy": 82.35294117647058,
+        "time": 3.0189409255981445
+    },
+    "gemini-2.5-flash": {
+        "gt": "21 artabazus quis",
+        "response": "2 1 : artabazus quis",
+        "wer": 100.0,
+        "cer": 17.647058823529413,
+        "accuracy": 85.0,
+        "time": 4.172143220901489
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "21 artabazus quis",
+        "response": "21 artubazus quis",
+        "wer": 33.33333333333333,
+        "cer": 5.88235294117647,
+        "accuracy": 94.11764705882352,
+        "time": 7.4867730140686035
+    },
+    "gemini-2.5-pro": {
+        "gt": "21 artabazus quis",
+        "response": "21 artabazus quis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 10.915503025054932
+    }
+}
