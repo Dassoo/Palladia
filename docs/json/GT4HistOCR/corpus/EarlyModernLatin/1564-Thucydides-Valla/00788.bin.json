@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefaci\u0113ntes illi quidem Atheni\u0113nsibus, pr\u00e6tendent\u0113s",
+        "wer": 42.857142857142854,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 1.501121997833252
+    },
+    "arcee-ai/spotlight": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefacientes illi quidem Atheniensibus, pr\u00e6tendentcs",
+        "wer": 28.57142857142857,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 1.4811477661132812
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6\u00adtendentes",
+        "wer": 14.285714285714285,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.4126984126984,
+        "time": 1.6061737537384033
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patefacientes illi quidcm Athenien\u017fibus, pr\u00e6tendentes",
+        "wer": 42.857142857142854,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 1.6291000843048096
+    },
+    "gpt-4o": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.76674485206604
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patefacientes illi quidem Atheniensibus, pr\u00e6tendentes",
+        "wer": 42.857142857142854,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 1.7485952377319336
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.2027230262756348
+    },
+    "gemini-2.5-flash": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefacientes illi quidem Atheniensibus, pr\u00e6tendentes",
+        "wer": 14.285714285714285,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 3.2066140174865723
+    },
+    "claude-opus-4-20250514": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "wer": 28.57142857142857,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 4.509160041809082
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendent es",
+        "wer": 57.14285714285714,
+        "cer": 3.225806451612903,
+        "accuracy": 98.38709677419355,
+        "time": 11.760715007781982
+    },
+    "gemini-2.5-pro": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "wer": 28.57142857142857,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 18.389294862747192
+    }
+}

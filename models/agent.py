@@ -25,7 +25,6 @@ def create_agent(model) -> Agent:
             
             Spacing & Lineation:
             - If not already present, leave an automatic empty space after ':'
-            - Leave line breaks and other punctuation exactly as seen
             
             Accuracy Rules:
             - No character substitution (e.g., never ſ → s, or u → v)

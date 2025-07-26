@@ -1,6 +1,6 @@
 {
   "description": "Auto-generated manifest of all available JSON files based on GT4HistOCR corpus structure",
-  "generated": "2025-07-25T15:21:15.252202",
+  "generated": "2025-07-26T10:38:17.853204",
   "structure": {
     "RefCorpus-ENHG-Incunabula": {
       "1478-Biblia": {
@@ -75,28 +75,53 @@
       "1564-Thucydides-Valla": {
         "aggregated": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla.json",
         "individual_files": [
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00294.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00329.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00363.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00431.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00477.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00486.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00510.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00516.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00559.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00592.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00685.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00710.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00723.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00786.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00788.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00796.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00803.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00847.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00863.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00873.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00915.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00968.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00997.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01178.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01300.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01318.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01416.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01455.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01464.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01508.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01526.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01553.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01570.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01584.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01609.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01632.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01674.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01690.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01692.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01741.bin.json",
+          "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01748.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01787.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01841.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01883.bin.json",
           "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/01912.bin.json"
         ],
-        "image_count": 20
+        "image_count": 45
       }
     }
   },

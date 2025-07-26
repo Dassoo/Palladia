@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnefiaci",
+        "wer": 50.0,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 1.0128960609436035
+    },
+    "mistral-small-2506": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnesiaci",
+        "wer": 50.0,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 1.0826051235198975
+    },
+    "arcee-ai/spotlight": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnesiacti",
+        "wer": 50.0,
+        "cer": 10.0,
+        "accuracy": 90.47619047619048,
+        "time": 1.2214241027832031
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnesiaci",
+        "wer": 50.0,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 1.229383945465088
+    },
+    "gpt-4o": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.30104398727417
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.3475608825683594
+    },
+    "gemini-2.5-flash": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.498504161834717
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.7258591651916504
+    },
+    "claude-opus-4-20250514": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 7.602694034576416
+    },
+    "gemini-2.5-pro": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 7.9095070362091064
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnes\u017fiact",
+        "wer": 50.0,
+        "cer": 10.0,
+        "accuracy": 90.47619047619048,
+        "time": 11.486573934555054
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Qui e\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 9.090909090909092,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 1.283785104751587
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.4329030513763428
+    },
+    "arcee-ai/spotlight": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "neso. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 9.090909090909092,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 1.7377901077270508
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.8740670680999756
+    },
+    "gpt-4o": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.0141289234161377
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo.Quiet\u017fi contra Medos tunc boni fuerunt,nunc quod erga",
+        "wer": 45.45454545454545,
+        "cer": 4.918032786885246,
+        "accuracy": 95.08196721311475,
+        "time": 2.71671199798584
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.450366973876953
+    },
+    "gemini-2.5-flash": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Quie\u017ft\u00ed contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 18.181818181818183,
+        "cer": 6.557377049180328,
+        "accuracy": 95.08196721311475,
+        "time": 4.326786041259766
+    },
+    "claude-opus-4-20250514": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 4.603754997253418
+    },
+    "gemini-2.5-pro": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Qu\u00ed et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "wer": 9.090909090909092,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 16.083280086517334
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo. Quie\u017fti contra Medos nunc boni fuerunt,nunc quod erga",
+        "wer": 45.45454545454545,
+        "cer": 8.19672131147541,
+        "accuracy": 93.44262295081968,
+        "time": 20.09964895248413
+    }
+}

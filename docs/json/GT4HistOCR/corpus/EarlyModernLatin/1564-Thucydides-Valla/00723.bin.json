@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: nec \u047f co.",
+        "wer": 33.33333333333333,
+        "cer": 7.936507936507936,
+        "accuracy": 92.1875,
+        "time": 1.3587052822113037
+    },
+    "mistral-small-2506": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumeliosum e\u017ft, tamen litigiosi putamur: neq; co-",
+        "wer": 33.33333333333333,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 1.3607120513916016
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: nec\ua757\u0301 co-",
+        "wer": 22.22222222222222,
+        "cer": 6.349206349206349,
+        "accuracy": 93.75,
+        "time": 1.650007963180542
+    },
+    "arcee-ai/spotlight": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum c\u017ft, tamen litigiosi putamur: neq co,",
+        "wer": 44.44444444444444,
+        "cer": 7.936507936507936,
+        "accuracy": 92.06349206349206,
+        "time": 1.6701340675354004
+    },
+    "gpt-4o": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: necq; co,",
+        "wer": 22.22222222222222,
+        "cer": 4.761904761904762,
+        "accuracy": 95.3125,
+        "time": 2.233376979827881
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft,tamen litigio\u017fi putamur:ne\ua76b co-",
+        "wer": 55.55555555555556,
+        "cer": 7.936507936507936,
+        "accuracy": 92.06349206349206,
+        "time": 2.2285029888153076
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamus: necp co-",
+        "wer": 33.33333333333333,
+        "cer": 6.349206349206349,
+        "accuracy": 93.65079365079364,
+        "time": 2.9497361183166504
+    },
+    "claude-opus-4-20250514": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft,tamen litigio\u017fi putamur:neq; co-",
+        "wer": 55.55555555555556,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 4.297828912734985
+    },
+    "gemini-2.5-flash": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft,tamen litigio\u017fi putamur:n\u0113q co,",
+        "wer": 55.55555555555556,
+        "cer": 9.523809523809524,
+        "accuracy": 90.47619047619048,
+        "time": 5.350121974945068
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: necq\u0303 co,",
+        "wer": 22.22222222222222,
+        "cer": 6.349206349206349,
+        "accuracy": 93.75,
+        "time": 31.02221393585205
+    },
+    "gemini-2.5-pro": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft,tamen litigio\u017fi putamur:necq co",
+        "wer": 55.55555555555556,
+        "cer": 9.523809523809524,
+        "accuracy": 92.06349206349206,
+        "time": 48.78163123130798
+    }
+}

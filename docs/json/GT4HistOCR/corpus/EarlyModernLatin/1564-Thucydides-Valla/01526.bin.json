@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantem, exaduro faciem & ipsi instruunt, nec mult\u00f2 p\u00f2st confis-",
+        "wer": 63.63636363636363,
+        "cer": 15.384615384615385,
+        "accuracy": 87.6923076923077,
+        "time": 1.2912750244140625
+    },
+    "arcee-ai/spotlight": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm, ex aduerto aciem & ipfi instruunt, nec mult\u00f2 p\u00f2st confi-",
+        "wer": 54.54545454545454,
+        "cer": 10.76923076923077,
+        "accuracy": 89.23076923076924,
+        "time": 1.5189847946166992
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm, ex aduer\u017fo aciem & ip\u017fi in\u017ftruuut, nec mult\u00f2 p\u00f2\u017ft con\u017fli-",
+        "wer": 36.36363636363637,
+        "cer": 6.153846153846154,
+        "accuracy": 93.84615384615384,
+        "time": 1.8986220359802246
+    },
+    "gpt-4o": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 p\u00f2\u017ft confi-",
+        "wer": 18.181818181818183,
+        "cer": 3.076923076923077,
+        "accuracy": 96.92307692307692,
+        "time": 1.9554197788238525
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm,cxaducerfo aciem & ip\u017fi in\u017ftruunt,nec mult\u00f2 po\u017ft confi-",
+        "wer": 54.54545454545454,
+        "cer": 12.307692307692308,
+        "accuracy": 89.23076923076924,
+        "time": 2.1776130199432373
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm,ex aducr\u017fo aciem & ip\u017fi in\u017ftruant,nec mult\u00f2 po\u017ft con\u017fi.",
+        "wer": 54.54545454545454,
+        "cer": 12.307692307692308,
+        "accuracy": 87.6923076923077,
+        "time": 2.7299251556396484
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm,cx aduer\u017fo aciem & ip\u017fi in\u017ftruunt,nec multo po\u017ft con\u017fli-",
+        "wer": 54.54545454545454,
+        "cer": 9.230769230769232,
+        "accuracy": 90.76923076923077,
+        "time": 3.283963918685913
+    },
+    "gemini-2.5-flash": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm, cx aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 p\u00f2\u017ft confi",
+        "wer": 36.36363636363637,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 4.33145809173584
+    },
+    "claude-opus-4-20250514": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec multo p\u00f2\u017ft con\u017fti-",
+        "wer": 27.27272727272727,
+        "cer": 6.153846153846154,
+        "accuracy": 93.84615384615384,
+        "time": 4.334589958190918
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec multo po\u017ft con\u017fli",
+        "wer": 18.181818181818183,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 14.849764823913574
+    },
+    "gemini-2.5-pro": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantem, ex aduer\u017fo aciem \u204a ip\u017fi in\u017ftruunt, nec mult\u00f2 p\u00f2\u017ft con\u017fi:",
+        "wer": 27.27272727272727,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 30.852056980133057
+    }
+}

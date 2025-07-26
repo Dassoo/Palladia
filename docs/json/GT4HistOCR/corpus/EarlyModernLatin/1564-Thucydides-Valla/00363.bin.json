@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017f\u017fitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien\u017f",
+        "wer": 22.22222222222222,
+        "cer": 3.1746031746031744,
+        "accuracy": 96.875,
+        "time": 1.4165229797363281
+    },
+    "mistral-small-2506": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "Cum eo necessitatis uentum effet, ut inuicem Corinthij Atheni",
+        "wer": 44.44444444444444,
+        "cer": 9.523809523809524,
+        "accuracy": 90.47619047619048,
+        "time": 1.4999477863311768
+    },
+    "arcee-ai/spotlight": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9me eo necessitatis uentum es\u017fet, ut inuicem Corinthi\u0101 Atheni\u0113n",
+        "wer": 55.55555555555556,
+        "cer": 7.936507936507936,
+        "accuracy": 92.1875,
+        "time": 1.7902519702911377
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo necelfitatis uentum e\u017f\u017fet,ut inuicem Corinthij Athenien",
+        "wer": 33.33333333333333,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 1.9255831241607666
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuiicem Corinthij Athenien",
+        "wer": 11.11111111111111,
+        "cer": 1.5873015873015872,
+        "accuracy": 98.4375,
+        "time": 2.280642032623291
+    },
+    "gpt-4o": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo neces\u017fitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "wer": 11.11111111111111,
+        "cer": 3.1746031746031744,
+        "accuracy": 98.4126984126984,
+        "time": 2.3366010189056396
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "Cum eo nece\u017f\u017fitatis uentum e\u017f\u017fet, ut inuicem Corinth\u00ff Athenien",
+        "wer": 33.33333333333333,
+        "cer": 6.349206349206349,
+        "accuracy": 93.65079365079364,
+        "time": 3.5652899742126465
+    },
+    "claude-opus-4-20250514": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthii Athenien",
+        "wer": 11.11111111111111,
+        "cer": 1.5873015873015872,
+        "accuracy": 98.4126984126984,
+        "time": 5.38426399230957
+    },
+    "gemini-2.5-flash": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017fs\u00ectatis uentum e\u017f\u017fet, ut inu\u00edcem Corinth\u00edj Athen\u00eden",
+        "wer": 44.44444444444444,
+        "cer": 6.349206349206349,
+        "accuracy": 93.65079365079364,
+        "time": 9.106391191482544
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u016bm e\u014d nece\u017f\u017fitatis uentum e\u017f\u017fet, ut inuicem Corinthij Atheni\u0113n",
+        "wer": 44.44444444444444,
+        "cer": 6.349206349206349,
+        "accuracy": 93.65079365079364,
+        "time": 18.712591886520386
+    },
+    "gemini-2.5-pro": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017f\u017fitatis uentum e\u017f\u017fet, ut \u00ednu\u00edcem Corinth\u00edj Athen\u00eden",
+        "wer": 44.44444444444444,
+        "cer": 7.936507936507936,
+        "accuracy": 92.06349206349206,
+        "time": 56.507683992385864
+    }
+}

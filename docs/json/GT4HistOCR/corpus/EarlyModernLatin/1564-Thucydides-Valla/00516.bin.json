@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum c\u017f\u017fe manifeltifsimis fignis ita \u017fe ueter a habuif\u017fe. Et licet homi. 40.",
+        "wer": 66.66666666666666,
+        "cer": 10.95890410958904,
+        "accuracy": 89.33333333333333,
+        "time": 1.192255973815918
+    },
+    "mistral-small-2506": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum \u017f\u017fe manifestiffimis \u017fignis ita \u017fe vetera habuiffe. Et licet homi: 40.",
+        "wer": 50.0,
+        "cer": 12.32876712328767,
+        "accuracy": 89.04109589041096,
+        "time": 1.3224999904632568
+    },
+    "arcee-ai/spotlight": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum c\u017f\u017fe manifestiffimis \u017fignis ita \u017fe uetera habuiffe. Et licet homi, 40.",
+        "wer": 41.66666666666667,
+        "cer": 10.95890410958904,
+        "accuracy": 89.1891891891892,
+        "time": 1.4259519577026367
+    },
+    "gpt-4o": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017feuetera habui\u017f\u017fe. Et licet homi\u204e 4o\u204e",
+        "wer": 33.33333333333333,
+        "cer": 5.47945205479452,
+        "accuracy": 95.8904109589041,
+        "time": 1.8463809490203857
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum e\u017f\u017fe manifes\u017fi\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi. 40.",
+        "wer": 25.0,
+        "cer": 5.47945205479452,
+        "accuracy": 95.94594594594594,
+        "time": 1.850924015045166
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum c\u017f\u017fe manifesti\u017f\u017fimis \u017fignis ita \u017fe vetera habui\u017f\u017fe.Et licet homi\u00b7 40\u00b7",
+        "wer": 58.333333333333336,
+        "cer": 9.58904109589041,
+        "accuracy": 91.78082191780823,
+        "time": 2.1353001594543457
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum e\u017f\u017fe manife\u017fti\u017f\u017fimis \u017fignis ita \u017fe uetera habui\u017f\u017fe.Et licet homi- 4\u00b0.",
+        "wer": 33.33333333333333,
+        "cer": 5.47945205479452,
+        "accuracy": 95.8904109589041,
+        "time": 3.682476043701172
+    },
+    "claude-opus-4-20250514": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi-",
+        "wer": 8.333333333333332,
+        "cer": 4.10958904109589,
+        "accuracy": 95.8904109589041,
+        "time": 4.151652812957764
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum e\u017f\u017fe manifesti\u017f\u017fimis \u017fignis ita \u017fe uetera habuiffe. Et licet homi\u00b7 4\u00b0.",
+        "wer": 33.33333333333333,
+        "cer": 9.58904109589041,
+        "accuracy": 90.54054054054053,
+        "time": 7.852725982666016
+    },
+    "gemini-2.5-flash": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum c\u017f\u017fe manife\u017ftifsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi. 40.",
+        "wer": 33.33333333333333,
+        "cer": 5.47945205479452,
+        "accuracy": 94.5945945945946,
+        "time": 8.487167119979858
+    },
+    "gemini-2.5-pro": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum e\u017f\u017fe manife\u017fti\u017f\u017fimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi, 40.",
+        "wer": 25.0,
+        "cer": 4.10958904109589,
+        "accuracy": 95.94594594594594,
+        "time": 16.03812313079834
+    }
+}

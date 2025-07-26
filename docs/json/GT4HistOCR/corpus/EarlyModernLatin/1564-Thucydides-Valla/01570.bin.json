@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet modesti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 10.0,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 1.3678898811340332
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "fet mode\u017fti\u00e6 ip\u017forum uim a\u017f\u017ferre. Sed fretis diuitijs c\u00f9m alia",
+        "wer": 30.0,
+        "cer": 6.557377049180328,
+        "accuracy": 93.54838709677419,
+        "time": 1.384066104888916
+    },
+    "arcee-ai/spotlight": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet modesti\u00e6 ipforum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 20.0,
+        "cer": 3.278688524590164,
+        "accuracy": 96.72131147540983,
+        "time": 1.675097942352295
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "fet modesti\u00e6 ipforum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 30.0,
+        "cer": 4.918032786885246,
+        "accuracy": 95.08196721311475,
+        "time": 1.7434990406036377
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.7854018211364746
+    },
+    "gpt-4o": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.498059034347534
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017fti\u00e6 ip\u017forum uim a\u017f\u017ferre. Sed \u017freti diuitijs cum alia",
+        "wer": 30.0,
+        "cer": 6.557377049180328,
+        "accuracy": 93.44262295081968,
+        "time": 3.3294689655303955
+    },
+    "claude-opus-4-20250514": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 10.0,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 3.8153560161590576
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017fti\u00e6 ip\u017forum uim a\ufb00erre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 10.0,
+        "cer": 3.278688524590164,
+        "accuracy": 96.72131147540983,
+        "time": 6.6436169147491455
+    },
+    "gemini-2.5-pro": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 15.260003805160522
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017fti\u00e6 ip\u017forum uim af\u017ferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 10.0,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 23.61086893081665
+    }
+}

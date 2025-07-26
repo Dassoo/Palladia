@@ -485,6 +485,55 @@ class BenchmarkDashboard {
         return div.innerHTML;
     }
 
+    getImageCount(categoryName, subcategoryName) {
+        // Try to get image count from manifest first (most up-to-date)
+        if (this.manifest &&
+            this.manifest.structure &&
+            this.manifest.structure[categoryName] &&
+            this.manifest.structure[categoryName][subcategoryName] &&
+            this.manifest.structure[categoryName][subcategoryName].image_count) {
+            return this.manifest.structure[categoryName][subcategoryName].image_count;
+        }
+
+        // Fallback to aggregated data if manifest doesn't have it
+        if (this.data[categoryName] &&
+            this.data[categoryName][subcategoryName] &&
+            Object.values(this.data[categoryName][subcategoryName]).length > 0) {
+            return Object.values(this.data[categoryName][subcategoryName])[0].images;
+        }
+
+        // Default fallback
+        return 0;
+    }
+
+    getTotalImagesFromManifest() {
+        let totalImages = 0;
+
+        if (this.manifest && this.manifest.structure) {
+            // Sum up all image counts from manifest
+            Object.values(this.manifest.structure).forEach(category => {
+                Object.values(category).forEach(subcategory => {
+                    if (subcategory.image_count) {
+                        totalImages += subcategory.image_count;
+                    }
+                });
+            });
+        }
+
+        // Fallback to aggregated data if manifest doesn't have counts
+        if (totalImages === 0) {
+            Object.values(this.data).forEach(category => {
+                Object.values(category).forEach(subcategory => {
+                    if (Object.values(subcategory).length > 0) {
+                        totalImages += Object.values(subcategory)[0].images;
+                    }
+                });
+            });
+        }
+
+        return totalImages;
+    }
+
     async fetchWithTimeout(url, timeout = 5000) {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), timeout);
@@ -626,9 +675,11 @@ class BenchmarkDashboard {
             acc.cer += result.avg_cer;
             acc.accuracy += result.avg_accuracy;
             acc.time += result.avg_time;
-            acc.images += result.images;
             return acc;
-        }, { wer: 0, cer: 0, accuracy: 0, time: 0, images: 0 });
+        }, { wer: 0, cer: 0, accuracy: 0, time: 0 });
+
+        // Calculate total images from manifest (most up-to-date)
+        const totalImages = this.getTotalImagesFromManifest();
 
         const count = allResults.length;
         return {
@@ -636,7 +687,7 @@ class BenchmarkDashboard {
             avg_cer: (totals.cer / count).toFixed(2),
             avg_accuracy: (totals.accuracy / count).toFixed(2),
             avg_time: (totals.time / count).toFixed(2),
-            total_images: totals.images,
+            total_images: totalImages,
             total_models: count
         };
     }
@@ -675,17 +726,22 @@ class BenchmarkDashboard {
         const modelStats = {};
 
         // Collect all results for each model
-        Object.values(this.data).forEach(category => {
-            Object.values(category).forEach(subcategory => {
-                Object.entries(subcategory).forEach(([modelName, modelData]) => {
+        Object.entries(this.data).forEach(([categoryName, categoryData]) => {
+            Object.entries(categoryData).forEach(([subcategoryName, subcategoryData]) => {
+                Object.entries(subcategoryData).forEach(([modelName, modelData]) => {
                     if (!modelStats[modelName]) {
                         modelStats[modelName] = {
                             results: [],
-                            totalImages: 0
+                            totalImages: 0,
+                            categories: new Set()
                         };
                     }
                     modelStats[modelName].results.push(modelData);
-                    modelStats[modelName].totalImages += modelData.images;
+                    modelStats[modelName].categories.add(`${categoryName}/${subcategoryName}`);
+
+                    // Get current image count from manifest
+                    const imageCount = this.getImageCount(categoryName, subcategoryName);
+                    modelStats[modelName].totalImages += imageCount;
                 });
             });
         });
@@ -793,7 +849,7 @@ class BenchmarkDashboard {
                 html += `
                     <div class="subcategory">
                         <div class="subcategory-header" onclick="this.nextElementSibling.classList.toggle('show'); this.classList.toggle('expanded')">
-                            <span class="subcategory-title">${subcategoryName} (${Object.values(subcategoryData)[0].images} images)</span>
+                            <span class="subcategory-title">${subcategoryName} (${this.getImageCount(categoryName, subcategoryName)} images)</span>
                             <button class="details-button" onclick="event.stopPropagation(); dashboard.navigateToDetails('${categoryName}', '${subcategoryName}')">
                                 Details →
                             </button>
@@ -931,10 +987,6 @@ class BenchmarkDashboard {
             if (sortBy === 'filename') {
                 return filenameA.localeCompare(filenameB);
             }
-
-            // For metric sorting, we need to get the values from the data
-            // This is a simplified approach - in a real implementation, 
-            // you might want to store the data in a more accessible way
             return filenameA.localeCompare(filenameB); // Fallback to filename
         });
 
