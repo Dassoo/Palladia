@@ -1,13 +1,13 @@
-# <img src="docs/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle – A Benchmarking Tool for Vision LLMs
+# <img src="docs/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle – A Benchmarking Tool for Vision LMs
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo) 
 [![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/OCRacle)
 
-Evaluate and compare SOTA multimodal and vision LLM models on historical image documents using the GT4HistOCR dataset.
+Evaluate and compare SOTA VLM models on historical image documents using the GT4HistOCR dataset.
 
 ## Features
 
-- **Multiple Model Support**: Test various SOTA multimodal LLM models
+- **Multiple Model Support**: Test various SOTA VLM models
 - **Comprehensive Metrics**: WER, CER, accuracy, and execution time
 - **Interactive Dashboard**: Web interface with detailed results and diff visualization
 - **Individual Image Analysis**: Explore ground truth vs model responses for each image
