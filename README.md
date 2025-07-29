@@ -1,4 +1,4 @@
-# <img src="docs/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle – A Benchmarking Tool for Vision LMs
+# <img src="docs/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle – A Benchmarking Tool for Vision LLMs
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo) 
 [![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/OCRacle)
