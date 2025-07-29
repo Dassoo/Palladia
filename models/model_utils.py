@@ -12,6 +12,7 @@ from agno.models.xai import xAI
 from agno.models.openrouter import OpenRouter
 from agno.models.huggingface import HuggingFace
 from agno.models.deepseek import DeepSeek
+from agno.models.cohere import Cohere
 from dotenv import load_dotenv
 
 from config.loader import load_config
@@ -42,6 +43,7 @@ def get_enabled_models() -> List[Any]:
         'OpenRouter': OpenRouter,
         'HuggingFace': HuggingFace,
         'DeepSeek': DeepSeek,
+        'Cohere': Cohere
     }
     
     for model_cfg in app_config.enabled_models:

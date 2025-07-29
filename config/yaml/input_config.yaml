@@ -1,3 +1,3 @@
 input:
-- path: GT4HistOCR/corpus/EarlyModernLatin/1553-Carmina-Pigna
-  images_to_process: 1
+- path: GT4HistOCR/corpus/EarlyModernLatin/1557-Methodus-Clenardus
+  images_to_process: 5

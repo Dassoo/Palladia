@@ -24,7 +24,7 @@ class ModelConfig(BaseModel):
         """Validate that provider is supported."""
         supported_providers = {
             'OpenAI', 'Google', 'Mistral', 'Groq', 'Nebius', 
-            'Anthropic', 'xAI', 'OpenRouter', 'HuggingFace', 'DeepSeek'
+            'Anthropic', 'xAI', 'OpenRouter', 'HuggingFace', 'DeepSeek', 'Cohere'
         }
         if v not in supported_providers:
             raise ValueError(f"Unsupported provider: {v}. Supported: {supported_providers}")

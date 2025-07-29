@@ -8,6 +8,7 @@ dependencies = [
     "agno>=1.7.1",
     "anthropic>=0.57.1",
     "bert-score>=0.3.13",
+    "cohere>=5.16.1",
     "diff-match-patch>=20241021",
     "filetype>=1.2.0",
     "google-genai>=1.25.0",
