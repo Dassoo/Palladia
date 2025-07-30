@@ -1,0 +1,90 @@
+{
+    "arcee-ai/spotlight": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "syllabis nominetur: apud nos uero uocales omnes pſe prolatæ nomé ſuũ oſtédũ.",
+        "wer": 46.15384615384615,
+        "cer": 8.974358974358974,
+        "accuracy": 91.02564102564102,
+        "time": 2.070605754852295
+    },
+    "mistral-small-2506": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominétur: apud nos vero vocales omnes pſe prolatae nomé ſui ſtēdút.",
+        "wer": 69.23076923076923,
+        "cer": 15.384615384615385,
+        "accuracy": 85.8974358974359,
+        "time": 2.1148290634155273
+    },
+    "gpt-4o": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolatae nomé ſuiu oſténdūt;",
+        "wer": 53.84615384615385,
+        "cer": 15.384615384615385,
+        "accuracy": 86.25,
+        "time": 2.535281181335449
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolata nomé ſuũ oſtéduṛ.",
+        "wer": 46.15384615384615,
+        "cer": 10.256410256410255,
+        "accuracy": 89.74358974358975,
+        "time": 2.6690540313720703
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolatæ nomé ſuũ obtinēt.",
+        "wer": 38.46153846153847,
+        "cer": 10.256410256410255,
+        "accuracy": 89.74358974358975,
+        "time": 2.7682149410247803
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolatae nomé ſuū oſténdūt,",
+        "wer": 53.84615384615385,
+        "cer": 14.102564102564102,
+        "accuracy": 87.34177215189874,
+        "time": 3.311976909637451
+    },
+    "gemini-2.5-flash": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominétur: apud nos uero uocales omnes ꝑ ſe prolatæ nomé ſuū oſtēdīt.",
+        "wer": 30.76923076923077,
+        "cer": 6.41025641025641,
+        "accuracy": 93.58974358974359,
+        "time": 3.9972760677337646
+    },
+    "claude-opus-4-20250514": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominẽtur: apud nos uero uocales omnes p ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "wer": 7.6923076923076925,
+        "cer": 1.282051282051282,
+        "accuracy": 98.71794871794873,
+        "time": 4.934718132019043
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominetur: apud nos uero uocales omnes p ſe prolatæ nome ſuũ oſtendũt.",
+        "wer": 30.76923076923077,
+        "cer": 6.41025641025641,
+        "accuracy": 93.67088607594937,
+        "time": 8.797353029251099
+    },
+    "gemini-2.5-pro": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nomínétur: apud nos uero uocales omnes p̄ ſe prolatæ nomē ſuū oſtédūnt.",
+        "wer": 38.46153846153847,
+        "cer": 14.102564102564102,
+        "accuracy": 86.58536585365853,
+        "time": 34.411232709884644
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+        "response": "ſyllabis nominētur: apud nos uero uocales omnes p ſe prolatæ nomé ſuū oſtēdūnt,",
+        "wer": 38.46153846153847,
+        "cer": 10.256410256410255,
+        "accuracy": 89.87341772151899,
+        "time": 49.50760102272034
+    }
+}

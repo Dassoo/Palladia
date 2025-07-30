@@ -2,6 +2,7 @@ from models.model_utils import to_eval
 from models.agent import create_agent, create_image_obj
 from evaluation.metrics import get_diff, get_metrics
 from evaluation.graph import create_graph
+from utils.custom_trim import trim_response
 from utils.save import to_json, aggregate_folder_results
 from utils.update_manifest import update_manifest
 from config.loader import load_config
@@ -45,6 +46,11 @@ async def run_model(agent, model, executor, image_path: str):
     with open(gt_path, "r") as f:
         gt = f.read().rstrip('\n') # Fixed issue with /n impacting accuracy metrics...
 
+    # Fix for silly specific model behaviour
+    if model.id == "thudm/glm-4.1v-9b-thinking":
+        response = trim_response(response)
+    
+    # Metrics calc
     diff, accuracy = get_diff(gt, response.content)
     wer, cer = get_metrics(gt, response.content)
     

@@ -1,0 +1,90 @@
+{
+    "mistral-small-2506": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum ſoles ſpiritus ſpirantatem effugiēres ſibi; loco ſpirationis ipſi",
+        "wer": 54.54545454545454,
+        "cer": 14.814814814814813,
+        "accuracy": 87.65432098765432,
+        "time": 1.6925039291381836
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare.Sane cum xoles ſpiritus asperitatem effugiétes ubiq; loco aspirationis ipſú",
+        "wer": 63.63636363636363,
+        "cer": 7.4074074074074066,
+        "accuracy": 92.5925925925926,
+        "time": 2.045527935028076
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum aoles ſpiritus aſperitatem effugietes ubiq; loco aſpirationis ipſu",
+        "wer": 27.27272727272727,
+        "cer": 3.7037037037037033,
+        "accuracy": 96.29629629629629,
+        "time": 2.2647039890289307
+    },
+    "gpt-4o": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum æoles ſpiritus aſperitatem effugiét es ubiq; loco aſpirationis ipſu",
+        "wer": 27.27272727272727,
+        "cer": 3.7037037037037033,
+        "accuracy": 96.34146341463415,
+        "time": 2.4140427112579346
+    },
+    "arcee-ai/spotlight": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare.Sanecum æoles ſpiritus asperitatem effugiétes ubiq; loco aspirationis ipſu",
+        "wer": 63.63636363636363,
+        "cer": 7.4074074074074066,
+        "accuracy": 92.5925925925926,
+        "time": 2.7326250076293945
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum ætoles ſpintus aſpertatem effugiétes ubiq; loco aſpirationis ipfū",
+        "wer": 45.45454545454545,
+        "cer": 8.641975308641975,
+        "accuracy": 92.5925925925926,
+        "time": 3.2817039489746094
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare.Sane cum æoles ſpiritus aſperitatem effugietes ubiq; loco aſpirationis ipſu",
+        "wer": 36.36363636363637,
+        "cer": 3.7037037037037033,
+        "accuracy": 96.29629629629629,
+        "time": 3.8750548362731934
+    },
+    "claude-opus-4-20250514": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum æoles ſpiritus aſpiritatem effugiẽtes ubicꝙ loco aſpirationis ipſũ",
+        "wer": 18.181818181818183,
+        "cer": 3.7037037037037033,
+        "accuracy": 96.29629629629629,
+        "time": 5.4448158740997314
+    },
+    "gemini-2.5-flash": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum æoles ſpiritus afperitatem effugietes ubiq; loco afpirationis ipſiū",
+        "wer": 36.36363636363637,
+        "cer": 6.172839506172839,
+        "accuracy": 93.90243902439023,
+        "time": 6.932272911071777
+    },
+    "gemini-2.5-pro": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum æoles ſpiritus aſperitatem effugiétes ubiq; loco aſpirationis ipſū",
+        "wer": 18.181818181818183,
+        "cer": 2.4691358024691357,
+        "accuracy": 97.53086419753086,
+        "time": 12.18848204612732
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "response": "nare. Sane cum voles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "wer": 9.090909090909092,
+        "cer": 1.2345679012345678,
+        "accuracy": 98.76543209876543,
+        "time": 26.781651973724365
+    }
+}

@@ -1,98 +1,90 @@
 {
     "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "penat: quia in fine \u017fyllab\u00e6 natare n\u014d poterat: ideo eius ip\u017fam b l\u012dam polu\u0115r. Id\u00e9q3",
-        "wer": 46.666666666666664,
-        "cer": 19.767441860465116,
-        "accuracy": 82.55813953488372,
-        "time": 1.4555330276489258
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "penat: quia in fine ſyllabæ notare nõ poterat: ideo eius ipſam b líam poluerit. Idéq3",
+        "wer": 40.0,
+        "cer": 16.27906976744186,
+        "accuracy": 86.04651162790698,
+        "time": 1.2934160232543945
     },
     "mistral-small-2506": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "per\u017ft: quia in fine \u017fyllab\u00e6 \u017ftare no poterat: loco eius ip\u017fam b lram po\u017fuerunt. Id\u0113q;",
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "perſt: quia in fine ſyllabæ ſtare no poterat: loco eius ipſam b lĭam poſuerunt. Idĕq",
         "wer": 33.33333333333333,
-        "cer": 8.13953488372093,
-        "accuracy": 93.02325581395348,
-        "time": 1.7276482582092285
+        "cer": 10.465116279069768,
+        "accuracy": 90.69767441860465,
+        "time": 8.389389038085938
     },
     "arcee-ai/spotlight": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "penat:quia in fine syllab\u00e6 \u017ftare n\u00f3 poterat:loco eius ip\u017fam blam po\u017fuerit. Id\u00e9q;",
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "penat:quia in fine syllabæ ſtare nó poterat:loco eius ipſam blam poſuerit. Idéq;",
         "wer": 66.66666666666666,
         "cer": 13.953488372093023,
         "accuracy": 87.20930232558139,
-        "time": 2.2734601497650146
+        "time": 1.7198388576507568
     },
     "gpt-4.1-2025-04-14": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "perm\u03c4: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b\u017fram po\u017fuit. Ide\u00f5;",
-        "wer": 33.33333333333333,
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "permt: quia in fine ſyllabæ ſtare nō poterat: loco eius ipſam bſram poſuit. Ideōq;",
+        "wer": 40.0,
         "cer": 12.790697674418606,
-        "accuracy": 87.20930232558139,
-        "time": 2.3753859996795654
+        "accuracy": 88.37209302325581,
+        "time": 2.52639102935791
     },
     "gpt-4o": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "pennt: quia in fine \u017fyllab\u00e6 \u017ftare n\u014d pote\u1de3at: loco eius ip\u017fam b\u0304\u2090\u0304m po\u017fuerit. Ide\u1de3q;",
-        "wer": 46.666666666666664,
-        "cer": 13.953488372093023,
-        "accuracy": 87.20930232558139,
-        "time": 2.504791021347046
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "pernſe: quia in fine ȝyllabae ſtare nō poteꝛat: loco eius ipſam īram poſuerit. Ideǫ;",
+        "wer": 53.333333333333336,
+        "cer": 17.441860465116278,
+        "accuracy": 84.88372093023256,
+        "time": 2.8936803340911865
     },
     "claude-sonnet-4-20250514": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "pertat: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b l\u017fam po\u017fuerit. Ideoq;",
-        "wer": 26.666666666666668,
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "pertat: quia in fine ſyllabæ ſtare nō poterat: loco eius ipſam b lſam poſuerit. Ideq;",
+        "wer": 33.33333333333333,
         "cer": 8.13953488372093,
-        "accuracy": 93.02325581395348,
-        "time": 4.009523868560791
+        "accuracy": 91.86046511627907,
+        "time": 4.459128141403198
     },
     "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "pennat:quia in fine fyllaba \u017ftare n\u00f3 poterat:loco eius ip\u017fam b liram po\u017fuerit. Id\u00e9q;",
-        "wer": 60.0,
-        "cer": 13.953488372093023,
-        "accuracy": 88.37209302325581,
-        "time": 4.185842990875244
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "pennt:quia in fine fyllaba ſtare nó poterat:loco eius iplam b lram poſuerit. Idéq;",
+        "wer": 66.66666666666666,
+        "cer": 12.790697674418606,
+        "accuracy": 87.20930232558139,
+        "time": 2.2271201610565186
     },
     "gemini-2.5-flash": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "penna: quia un fine \u017fyllab\u00e6 \u017ftare n\u014d poterat: loco eius ip\u017fam bl\u00edram po\u017fuer\u016bt. Id\u00e9q;",
-        "wer": 46.666666666666664,
-        "cer": 11.627906976744185,
-        "accuracy": 89.53488372093024,
-        "time": 9.909245014190674
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "penac: quia un fine ſyllabæ ſtabare nō poterat: loco eiufipſam bĺram poſuerit. Idéoꝓ",
+        "wer": 66.66666666666666,
+        "cer": 19.767441860465116,
+        "accuracy": 83.72093023255815,
+        "time": 18.399044036865234
     },
     "claude-opus-4-20250514": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "petunt: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b l\u0129am po\u017fuer\u0169t. Id\u00e9q;",
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "pennt: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lrãm poſuerit. Idẽqʒ",
         "wer": 26.666666666666668,
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
-        "time": 13.097860097885132
+        "time": 7.453365087509155
     },
     "o4-mini-2025-04-16": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "penult: quia in fine \u017fyllab\u00e6 \u017ftare n\u014d poterat: loco eius ip\u017fam b\u017firam po\u017fuerunt. Id\u00e9q;",
-        "wer": 40.0,
-        "cer": 11.627906976744185,
-        "accuracy": 90.69767441860465,
-        "time": 18.883657932281494
-    },
-    "grok-4-0709": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "penant: qua in fine \u017fyllabae \u017ftare n\u014d poterat: loco eius ip\u017fam b \u017ftam po\u017fuerit. Idip:",
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "penit: quia in fine ſyllabæ ſtare nō poterāt: loco eius ipſam bſiram poſuērt. Idēoq̄",
         "wer": 46.666666666666664,
-        "cer": 15.11627906976744,
-        "accuracy": 86.04651162790698,
-        "time": 81.74519109725952
+        "cer": 13.953488372093023,
+        "accuracy": 87.20930232558139,
+        "time": 21.67585277557373
     },
     "gemini-2.5-pro": {
-        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
-        "response": "penac:quuia un \u017fine \u017fyllab\u00e6 \u017ftare n\u014d poterat:loco eius ip\u017fam b l\u00edr\u00e1m po\u017fuerit. Id\u00e9q;",
+        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+        "response": "penat:quia un ſine ſyllabæ ſtare nõ poterat:loco eius ipſam bírám poſuerit. Idéq;",
         "wer": 66.66666666666666,
-        "cer": 17.441860465116278,
+        "cer": 15.11627906976744,
         "accuracy": 86.04651162790698,
-        "time": 124.59395790100098
+        "time": 46.09720540046692
     }
 }

@@ -1,0 +1,90 @@
+{
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipfir:ac dicebant βpήτωρ pro rhetoris βpoaδooς pro rhodos: & non pFh'tac?",
+        "wer": 50.0,
+        "cer": 24.675324675324674,
+        "accuracy": 78.75,
+        "time": 1.2734463214874268
+    },
+    "arcee-ai/spotlight": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipſi r:ac dicebant βριτωρ pto rhetor: βρολοσ pro rhodos: & non pFιτορ",
+        "wer": 42.857142857142854,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 1.82676100730896
+    },
+    "gpt-4o": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "ne­bant ipſi r: ac dice­bant βρ῏ῆτωρ pro rhetor: βροΔοσ pro rhodos: Ȣ non ρῖητωρ",
+        "wer": 42.857142857142854,
+        "cer": 10.38961038961039,
+        "accuracy": 90.0,
+        "time": 2.267833709716797
+    },
+    "Qwen/Qwen2.5-VL-72B-Instruct": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipſi r:ac dicebant βριτωρ pro rhetor: βρολοσ pro rhodos: & non ρητωρ",
+        "wer": 35.714285714285715,
+        "cer": 6.493506493506493,
+        "accuracy": 93.5064935064935,
+        "time": 2.28487491607666
+    },
+    "gpt-4.1-2025-04-14": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipſi r:ac dicebant ρῥήτωρ pro rhetor: βροΔος pro rhodos: & non ρῥήτωρ",
+        "wer": 35.714285714285715,
+        "cer": 7.792207792207792,
+        "accuracy": 93.5064935064935,
+        "time": 2.2701830863952637
+    },
+    "mistral-small-2506": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebaſt ipsi ra:c dicebant ϕritor pro rhetor: ϕro200 pro rhodos: & non ϕritor.",
+        "wer": 50.0,
+        "cer": 31.16883116883117,
+        "accuracy": 71.42857142857143,
+        "time": 3.544713020324707
+    },
+    "gemini-2.5-flash": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebanť ſupιr: ac dicebanť ῥήτωρ pro rhetor: ῥόδοσ pro rhodos: & non ῥῆτωρ",
+        "wer": 50.0,
+        "cer": 19.480519480519483,
+        "accuracy": 81.81818181818183,
+        "time": 3.556457042694092
+    },
+    "claude-sonnet-4-20250514": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipſi r: ac dicebant ῥητωρ pro rhetor: ῥοδοσ pro rhodos: & non ρῆτερ",
+        "wer": 21.428571428571427,
+        "cer": 10.38961038961039,
+        "accuracy": 89.6103896103896,
+        "time": 4.556442022323608
+    },
+    "claude-opus-4-20250514": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipſi r: ac dicebant θρήτωρ pro rhetor: θρόδιος pro rhodos: & non ῥῆτωρ",
+        "wer": 21.428571428571427,
+        "cer": 10.38961038961039,
+        "accuracy": 90.9090909090909,
+        "time": 4.899792909622192
+    },
+    "gemini-2.5-pro": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipſi r: ac dicebant ῥήτωρ pro rhetor: ῥοδος pro rhodos: & non ῥήτωρ",
+        "wer": 21.428571428571427,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 21.199223041534424
+    },
+    "o4-mini-2025-04-16": {
+        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+        "response": "nebant ipſi r:ac dicebant βρητωρ pro rhetor: βροδοσο pro rhodos: & non pρήτωρ",
+        "wer": 35.714285714285715,
+        "cer": 6.493506493506493,
+        "accuracy": 96.1038961038961,
+        "time": 27.112089157104492
+    }
+}

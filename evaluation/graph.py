@@ -72,4 +72,4 @@ def create_graph(path: str):
 
 
 if  __name__ == "__main__":
-    create_graph("docs/json/GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla.json")
+    create_graph("docs/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json")

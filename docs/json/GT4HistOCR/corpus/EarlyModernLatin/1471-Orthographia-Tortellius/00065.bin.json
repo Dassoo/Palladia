@@ -1,98 +1,90 @@
 {
     "mistral-small-2506": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "\u03bc\u1f72 \u1f40\u03bd\u1f73\u03c0\u03c9 \u03b4\u03b9\u03be\u03b5\u03c1\u03c5\u03bd\u03c4 \u1f73\u03c1\u03c0\u03bf:& \u03bd\u1f78 \u1f73\u03c1\u03c0\u03bf:\u1f40\u03be\u03b9 \u03c4\u03c1\u1f70\u03b4\u03c5\u03be\u03b5\u03c1\u03c5\u03bd\u03c4 \u1f73\u03be & \u03bd\u1f78 \u1f11\u03be:\u1f40\u03bd\u1f73\u03c0\u03c4\u03b1 \u1f73\u03c0\u03c4\u03b5",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "μὲ ὀνέπω διξερυντ έρπο:& νὸ έρπο:ὀξι τρὰδυξερυντ έξ & νὸ ἑξ:ὀνέπτα έπτε",
         "wer": 93.33333333333333,
         "cer": 73.07692307692307,
         "accuracy": 28.205128205128204,
         "time": 2.025254964828491
     },
     "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d \u03c3\u025b\u0301p\u03c4\u03c9 dixerunt \u017ferpo:& m\u014d herpo:\u03c3\u025b{\u03be} traduxerunt \u017fex & n\u00f5 hex:\u03c3\u025b\u03c0\u03c4\u03b1. \u017fepre\u0301",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σɛ́pτω dixerunt ſerpo:& mō herpo:σɛ{ξ} traduxerunt ſex & nõ hex:σɛπτα. ſepré",
         "wer": 66.66666666666666,
         "cer": 23.076923076923077,
         "accuracy": 81.25,
         "time": 2.383941888809204
     },
     "arcee-ai/spotlight": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d\u03c3\u03b5\u03c1\u03c0\u03c9 dixerunt serpo:& n\u014dherpo:\u03c3\u03b5\u03be traduxerunt sex & n\u014dhex:\u03c3\u03b5\u03c0\u03c4\u03b1 sept\u00e9",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mōσερπω dixerunt serpo:& nōherpo:σεξ traduxerunt sex & nōhex:σεπτα septé",
         "wer": 80.0,
         "cer": 19.230769230769234,
         "accuracy": 80.76923076923077,
         "time": 2.3960330486297607
     },
     "gpt-4o": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d \u03c3\u1f73\u03c1\u03c0\u03c9 dixerunt \u017fe\u03c1o: & n\u014d herpo: \u03c3\u03be traduxerunt \u017fe\u03c7 & n\u014d he\u03c7: \u03c3\u1f73\u03c1\u03c0\u03b1 \u017fer\u03c1\u1f73",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σέρπω dixerunt ſeρo: & nō herpo: σξ traduxerunt ſeχ & nō heχ: σέρπα ſerρέ",
         "wer": 66.66666666666666,
         "cer": 19.230769230769234,
         "accuracy": 82.05128205128204,
         "time": 3.0458381175994873
     },
     "claude-sonnet-4-20250514": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u00f5 \u03c3\u03c4\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03b5\u03c0\u03c4\u03b1 \u017fept\u00e9",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mõ στέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σεπτα ſepté",
         "wer": 20.0,
         "cer": 3.8461538461538463,
         "accuracy": 96.20253164556962,
         "time": 4.419825077056885
     },
     "gpt-4.1-2025-04-14": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d \u03c3\u1f73\u03c1\u03c0\u03c4\u03c9 dixerunt \u017ferpo: & n\u014d herpo: \u1f43\u03be traduxerunt \u017fex & n\u014d hex: \u03c3\u03c4\u1f73\u03bc\u03bc\u03b1\u03c4\u03b1 \u017fept\u0113",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σέρπτω dixerunt ſerpo: & nō herpo: ὃξ traduxerunt ſex & nō hex: στέμματα ſeptē",
         "wer": 46.666666666666664,
         "cer": 16.666666666666664,
         "accuracy": 85.18518518518519,
         "time": 4.487298011779785
     },
     "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d \u03c3\u03b5\u03c1\u03c0\u03c9 dixerunt \u017ferpo:& n\u00f5 herpo:\u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex:\u03c3\u03b5\u03c0\u03c4\u03b1 \u017fept\u1ebd",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σερπω dixerunt ſerpo:& nõ herpo:σεξ traduxerunt ſex & nõ hex:σεπτα ſeptẽ",
         "wer": 53.333333333333336,
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 5.233850002288818
     },
     "claude-opus-4-20250514": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u014d herpo: \u03c3\u03ad\u03be traduxerunt \u017fex & n\u014d hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fepte",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σέρπω dixerunt ſerpo: & nō herpo: σέξ traduxerunt ſex & nō hex: σέπτα ſepte",
         "wer": 33.33333333333333,
         "cer": 6.41025641025641,
         "accuracy": 93.58974358974359,
         "time": 6.106054782867432
     },
     "gemini-2.5-flash": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d \u03c3\u03ad\u03c0\u03c4\u03c9 dixerunt \u017ferpo:d n\u014d herpo:\u03c3\u03c2 traduxerunt \u017fex & n\u014d hex:\u03c3\u03ad\u03c0\u03c4\u03b1 \u03c3\u03b5\u03c0\u03c4\u03ad",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σέπτω dixerunt ſerpo:d nō herpo:σς traduxerunt ſex & nō hex:σέπτα σεπτέ",
         "wer": 73.33333333333333,
         "cer": 20.51282051282051,
         "accuracy": 80.76923076923077,
         "time": 10.070387840270996
     },
     "o4-mini-2025-04-16": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "m\u014d \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u014d herpo: \u03c3\u03ad\u03be traduxerunt \u017fex & n\u014d hex: \u03c3\u03ad\u03c0\u03c4\u03c1\u03b1 sept\u0113",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σέρπω dixerunt ſerpo: & nō herpo: σέξ traduxerunt ſex & nō hex: σέπτρα septē",
         "wer": 40.0,
         "cer": 8.974358974358974,
         "accuracy": 91.13924050632912,
         "time": 28.672998905181885
     },
     "gemini-2.5-pro": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "mo\u0304 \u03c3\u03ad\u03c0\u03c4\u03c9 dixerunt \u017ferpo: no\u0304 herpo: \u03c3\u03c2 traduxerunt \u017fex & no\u0304 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u00e9",
+        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
+        "response": "mō σέπτω dixerunt ſerpo: nō herpo: σς traduxerunt ſex & nō hex: σέπτα ſepté",
         "wer": 46.666666666666664,
         "cer": 16.666666666666664,
         "accuracy": 88.46153846153845,
         "time": 43.10011100769043
-    },
-    "grok-4-0709": {
-        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
-        "response": "\u1f41\u03b9 \u03c0\u03c1\u1ff6\u03c4\u03bf\u03b9 \u03b4\u03c5\u03be\u1f73\u03c1\u03bf\u03c5\u03bd\u03c4 \u017f\u03b5\u03c1\u03c0\u03bf: \u017f\u03b4 \u1f21\u03b5\u03c1\u03c0\u03bf: \u017f\u1f73\u03c4 \u03c4\u03c1\u1f71\u03b4\u03c5\u03be\u1f73\u03c1\u03bf\u03c5\u03bd\u03c4 \u03c6\u1f73\u03be & \u03bd\u1f73 \u1f25\u03be \u03bf\u1f50\u1f77\u03c4\u03b1 \u017f\u03b5\u03c0\u03c4\u1f73\u03bc",
-        "wer": 93.33333333333333,
-        "cer": 79.48717948717949,
-        "accuracy": 26.923076923076923,
-        "time": 199.34688591957092
     }
 }

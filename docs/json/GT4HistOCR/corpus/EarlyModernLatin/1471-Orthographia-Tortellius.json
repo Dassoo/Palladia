@@ -1,98 +1,90 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 53.81643356643357,
-        "avg_cer": 12.497136732070308,
-        "avg_accuracy": 89.38575340552866,
-        "avg_time": 1.7437366127967835
-    },
     "mistral-small-2506": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 41.675740925740925,
-        "avg_cer": 11.45631308805788,
-        "avg_accuracy": 89.38563159915232,
-        "avg_time": 1.8354534745216369
-    },
-    "arcee-ai/spotlight": {
-        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 56.19447219447219,
-        "avg_cer": 10.553698358888575,
-        "avg_accuracy": 90.08134013240296,
-        "avg_time": 2.2861772418022155
-    },
-    "gpt-4.1-2025-04-14": {
-        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 31.211205461205463,
-        "avg_cer": 6.620343057461969,
-        "avg_accuracy": 94.00703505604748,
-        "avg_time": 2.6993126392364504
+        "images": 44,
+        "avg_wer": 47.515416846967646,
+        "avg_cer": 12.561022485822354,
+        "avg_accuracy": 88.50566483668904,
+        "avg_time": 2.142414065924558
     },
     "Qwen/Qwen2.5-VL-72B-Instruct": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 55.29728604728605,
-        "avg_cer": 9.949086883067528,
-        "avg_accuracy": 90.66793300811902,
-        "avg_time": 3.813544762134552
+        "images": 44,
+        "avg_wer": 52.308117461860775,
+        "avg_cer": 9.878584940008214,
+        "avg_accuracy": 90.58474452444946,
+        "avg_time": 2.904888938773762
     },
     "gpt-4o": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 31.466450216450216,
-        "avg_cer": 7.744813690988371,
-        "avg_accuracy": 92.91907722137941,
-        "avg_time": 3.1430760622024536
+        "images": 44,
+        "avg_wer": 33.73318081205782,
+        "avg_cer": 8.619343127373838,
+        "avg_accuracy": 92.04418752699627,
+        "avg_time": 2.8888890905813738
     },
-    "claude-sonnet-4-20250514": {
+    "gpt-4.1-2025-04-14": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 32.9454711954712,
-        "avg_cer": 6.836564159545318,
-        "avg_accuracy": 93.67407330238316,
-        "avg_time": 4.1230298519134525
+        "images": 44,
+        "avg_wer": 32.39074650839357,
+        "avg_cer": 7.2622955892259,
+        "avg_accuracy": 93.32411613782824,
+        "avg_time": 2.537465187636289
     },
-    "claude-opus-4-20250514": {
+    "arcee-ai/spotlight": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 23.611138861138862,
-        "avg_cer": 5.198368523418972,
-        "avg_accuracy": 95.23476777121813,
-        "avg_time": 6.808881866931915
+        "images": 44,
+        "avg_wer": 53.56670958275236,
+        "avg_cer": 10.873990323334038,
+        "avg_accuracy": 89.64995054003533,
+        "avg_time": 1.9801103635267778
+    },
+    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 49.69436757538362,
+        "avg_cer": 12.33663092350608,
+        "avg_accuracy": 89.34610620678534,
+        "avg_time": 1.7587679461999373
     },
     "gemini-2.5-flash": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 40.07742257742258,
-        "avg_cer": 9.430530719160382,
-        "avg_accuracy": 92.24075644664626,
-        "avg_time": 7.118276524543762
+        "images": 44,
+        "avg_wer": 39.9790138560192,
+        "avg_cer": 9.950511022759171,
+        "avg_accuracy": 91.41919152520735,
+        "avg_time": 7.50046691569415
+    },
+    "claude-sonnet-4-20250514": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 32.436970338039856,
+        "avg_cer": 6.848393910021008,
+        "avg_accuracy": 93.50729841878237,
+        "avg_time": 4.288106067614122
+    },
+    "claude-opus-4-20250514": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 22.685721141603494,
+        "avg_cer": 5.342688322286581,
+        "avg_accuracy": 95.01518689255369,
+        "avg_time": 5.787005906755274
     },
     "o4-mini-2025-04-16": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 38.854312354312356,
-        "avg_cer": 8.301335684556353,
-        "avg_accuracy": 92.80112312040374,
-        "avg_time": 26.83725497722626
+        "images": 44,
+        "avg_wer": 37.4272830556253,
+        "avg_cer": 8.256605950128641,
+        "avg_accuracy": 92.50260280412482,
+        "avg_time": 25.730232190002095
     },
     "gemini-2.5-pro": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 40.88011988011988,
-        "avg_cer": 9.178210857106828,
-        "avg_accuracy": 92.05773092937073,
-        "avg_time": 57.561409902572635
-    },
-    "grok-4-0709": {
-        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 20,
-        "avg_wer": 61.52081252081253,
-        "avg_cer": 27.50389781728407,
-        "avg_accuracy": 79.4621535552456,
-        "avg_time": 269.2883255600929
+        "images": 44,
+        "avg_wer": 37.32401956332438,
+        "avg_cer": 8.919314196884965,
+        "avg_accuracy": 92.04199561934642,
+        "avg_time": 51.45145735415545
     }
 }

@@ -1,14 +1,14 @@
 {
     "mistral-small-2506": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caii.c.littera \u017fignari compemerimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caii.c.littera ſignari compemerimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
         "wer": 71.42857142857143,
         "cer": 12.82051282051282,
         "accuracy": 89.74358974358975,
         "time": 1.7612559795379639
     },
     "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
         "response": "ut Caii.c.littera fignari comperimus ut alio in loco. C.ENNIAE.P.RVBRIVS",
         "wer": 64.28571428571429,
         "cer": 10.256410256410255,
@@ -16,83 +16,75 @@
         "time": 2.3177459239959717
     },
     "arcee-ai/spotlight": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Cai\u00fa.c.littera signari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caiú.c.littera signari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
         "wer": 78.57142857142857,
         "cer": 11.538461538461538,
         "accuracy": 88.46153846153845,
         "time": 2.3204879760742188
     },
     "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caiu.c.littera \u017fignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caiu.c.littera ſignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
         "wer": 57.14285714285714,
         "cer": 8.974358974358974,
         "accuracy": 91.02564102564102,
         "time": 2.910982131958008
     },
     "gpt-4o": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caiu\u0342.c.littera \u017fignari compen\u017fimus: ut\n\nalio in loco. C.ENNIAE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caiu͂.c.littera ſignari compenſimus: ut\n\nalio in loco. C.ENNIAE.P.RVBRIVS",
         "wer": 57.14285714285714,
         "cer": 14.102564102564102,
         "accuracy": 89.74358974358975,
         "time": 3.7689857482910156
     },
     "gpt-4.1-2025-04-14": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caiu\u0304.c.littera \u017fignari comperimus: ut alio in loco. C.ENNIAE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caiū.c.littera ſignari comperimus: ut alio in loco. C.ENNIAE.P.RVBRIVS",
         "wer": 50.0,
         "cer": 8.974358974358974,
         "accuracy": 92.3076923076923,
         "time": 3.9030869007110596
     },
     "claude-sonnet-4-20250514": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut C21u.c.littera \u017fignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut C21u.c.littera ſignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
         "wer": 57.14285714285714,
         "cer": 11.538461538461538,
         "accuracy": 88.46153846153845,
         "time": 4.078812122344971
     },
     "gemini-2.5-flash": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut C\u0101u.c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Cāu.c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
         "wer": 14.285714285714285,
         "cer": 5.128205128205128,
         "accuracy": 94.87179487179486,
         "time": 4.908212184906006
     },
     "claude-opus-4-20250514": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caiu\u0342.c.littera \u017fignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caiu͂.c.littera ſignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
         "wer": 57.14285714285714,
         "cer": 10.256410256410255,
         "accuracy": 91.02564102564102,
         "time": 6.173499822616577
     },
     "o4-mini-2025-04-16": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caiu. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caiu. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
         "wer": 7.142857142857142,
         "cer": 1.282051282051282,
         "accuracy": 98.71794871794873,
         "time": 20.63515019416809
     },
     "gemini-2.5-pro": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Cau\u017fa c. littera \u017fignari comperimus:ut alio in loco. C.ENNI.AE.P.RVBRIVS",
+        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Cauſa c. littera ſignari comperimus:ut alio in loco. C.ENNI.AE.P.RVBRIVS",
         "wer": 50.0,
         "cer": 10.256410256410255,
         "accuracy": 91.02564102564102,
         "time": 98.32602500915527
-    },
-    "grok-4-0709": {
-        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caji.c litter\u00e6 \u017fignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
-        "wer": 57.14285714285714,
-        "cer": 11.538461538461538,
-        "accuracy": 89.74358974358975,
-        "time": 157.23831915855408
     }
 }

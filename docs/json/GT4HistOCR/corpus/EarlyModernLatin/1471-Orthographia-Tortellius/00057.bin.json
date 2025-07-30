@@ -1,98 +1,90 @@
 {
     "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio littera:q\u0303 compofitio defignentur f\u00e6piffime ponunt  fupra locum:\u0169 de talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio littera:q̃ compofitio defignentur fæpiffime ponunt  fupra locum:ũ de talis",
         "wer": 81.81818181818183,
         "cer": 16.867469879518072,
         "accuracy": 85.54216867469879,
         "time": 1.2635829448699951
     },
     "mistral-small-2506": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio litterar: q\u0303 compositio designetur \u017fapissime ponunt \u017fupra locum: \u016bde talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio litterar: q̃ compositio designetur ſapissime ponunt ſupra locum: ūde talis",
         "wer": 63.63636363636363,
         "cer": 13.253012048192772,
         "accuracy": 87.95180722891565,
         "time": 1.4151921272277832
     },
     "arcee-ai/spotlight": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio litter\u00e6: \u0163 compositio designetur sapissime ponunt supra locum: \u016bde talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio litteræ: ţ compositio designetur sapissime ponunt supra locum: ūde talis",
         "wer": 63.63636363636363,
         "cer": 13.253012048192772,
         "accuracy": 86.74698795180723,
         "time": 2.5061309337615967
     },
     "gpt-4.1-2025-04-14": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio litter\u00e6:\ua757 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt \u017fupra locum:\u016bde talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio litteræ:ꝗ compoſitio deſignetur ſæpiſſime ponunt ſupra locum:ūde talis",
         "wer": 45.45454545454545,
         "cer": 6.024096385542169,
         "accuracy": 93.97590361445783,
         "time": 2.9575440883636475
     },
     "gpt-4o": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio litter\u00e6:\ua757 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt \u017fupra locum: unde talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio litteræ:ꝗ compoſitio deſignetur ſæpiſſime ponunt ſupra locum: unde talis",
         "wer": 36.36363636363637,
         "cer": 6.024096385542169,
         "accuracy": 95.18072289156626,
         "time": 3.1025197505950928
     },
     "claude-sonnet-4-20250514": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio litter\u00e6: q compofitio defignetur f\u00e6pi\u017f\u017fime ponunt fupra locum: ude talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio litteræ: q compofitio defignetur fæpiſſime ponunt fupra locum: ude talis",
         "wer": 63.63636363636363,
         "cer": 9.63855421686747,
         "accuracy": 90.36144578313254,
         "time": 3.49359393119812
     },
     "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiection littera:q compositio designetur fapiffime ponunt fupra locum:\u016bde talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiection littera:q compositio designetur fapiffime ponunt fupra locum:ūde talis",
         "wer": 90.9090909090909,
         "cer": 18.072289156626507,
         "accuracy": 83.13253012048193,
         "time": 4.629188060760498
     },
     "gemini-2.5-flash": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio litter\u00e6:q\u0304 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt \u017fupra locum:u\u0304de talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio litteræ:q̄ compoſitio deſignetur ſæpiſſime ponunt ſupra locum:ūde talis",
         "wer": 45.45454545454545,
         "cer": 7.228915662650602,
         "accuracy": 92.7710843373494,
         "time": 5.171489000320435
     },
     "claude-opus-4-20250514": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio littera: q\u0303 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt \u017fupra locum: \u0169 de talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio littera: q̃ compoſitio deſignetur ſæpiſſime ponunt ſupra locum: ũ de talis",
         "wer": 45.45454545454545,
         "cer": 6.024096385542169,
         "accuracy": 95.18072289156626,
         "time": 5.574551105499268
     },
     "o4-mini-2025-04-16": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio litter\u00e6: q\u0292 compositio designetur \u017fapi\u017f\u017fime ponunt \u017fupra locum: u\u0303de talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio litteræ: qʒ compositio designetur ſapiſſime ponunt ſupra locum: ũde talis",
         "wer": 54.54545454545454,
         "cer": 9.63855421686747,
         "accuracy": 91.56626506024097,
         "time": 25.892397165298462
     },
     "gemini-2.5-pro": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "abiectio littera:q\u0303 compo\u017fitio de\u017fignetur \u017fapi\u017f\u017fime ponunt, \u017fupra locum: u\u0304de talis",
+        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+        "response": "abiectio littera:q̃ compoſitio deſignetur ſapiſſime ponunt, ſupra locum: ūde talis",
         "wer": 45.45454545454545,
         "cer": 9.63855421686747,
         "accuracy": 91.56626506024097,
         "time": 130.47055292129517
-    },
-    "grok-4-0709": {
-        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
-        "response": "habet io littera:\u00a0\u016b compo\u017fitio de\u017fignetur \u017faxi\u017f\u017fime ponun\u0107 \u017fupra locum:\u00a0vide talis",
-        "wer": 63.63636363636363,
-        "cer": 18.072289156626507,
-        "accuracy": 85.54216867469879,
-        "time": 274.5201790332794
     }
 }
