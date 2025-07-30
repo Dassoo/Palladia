@@ -1,5 +1,6 @@
 from config.loader import ConfigLoader
 from utils.update_manifest import regenerate_full_manifest
+from utils.webserver.dashboard_ws import start_dashboard, is_dashboard_running
 
 import yaml
 import tkinter as tk
@@ -14,8 +15,12 @@ load_dotenv()
 class ModelManager:
     def __init__(self, root):
         self.root = root
-        self.root.title("OCRacle")
-        self.root.geometry("850x750")
+        self.root.title("OCRacle - Model Manager")
+        self.root.geometry("900x800")
+        self.root.configure(bg='#555879')
+        
+        # Set up cleanup on window close
+        self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
         
         self.title_font = tkFont.Font(family="Segoe UI", size=12, weight="bold")
         self.header_font = tkFont.Font(family="Segoe UI", size=10, weight="bold")
@@ -26,14 +31,17 @@ class ModelManager:
         self.style = ttk.Style()
         self.style.theme_use('default')
         
-        # Enhanced color scheme
-        bg_color = '#1e1e1e'  # Dark background
-        fg_color = '#e0e0e0'  # Light text
-        accent_color = '#64b5f6'  # Bright blue
-        tab_bg = '#2d2d2d'  # Slightly lighter than background for tabs
-        tab_fg = '#b0b0b0'  # Muted text for tabs
-        container_bg = '#252525'  # Container background
-        status_bg = '#1a1a1a'  # Status bar background
+        # Color scheme - matching web dashboard
+        bg_color = '#555879'  # Dark background
+        fg_color = '#F4EBD3'  # Cream text
+        accent_color = '#F4EBD3'  # Cream accent
+        tab_bg = '#555879'  # Dark tabs
+        tab_fg = '#F4EBD3'  # Dark text for tabs
+        container_bg = '#555879'  # Container background
+        
+        status_bg = '#1A1A1A'  # Status bar background
+        button_primary = '#555879'  # Primary button color
+        button_secondary = '#98A1BC'  # Secondary button color
         
         # Configure styles with modern fonts
         self.style.configure('.', 
@@ -47,12 +55,14 @@ class ModelManager:
         self.style.configure('Container.TFrame', 
                            background=container_bg,
                            relief='solid',
-                           borderwidth=1)
+                           borderwidth=0,
+                           bordercolor=accent_color)
         
         self.style.configure('TNotebook', 
                            background=bg_color, 
-                           borderwidth=0, 
-                           tabposition='n')
+                           borderwidth=1, 
+                           tabposition='n',
+                           bordercolor=accent_color)
         
         self.style.layout('TNotebook', [
             ('Notebook.client', {'sticky': 'nswe'}),
@@ -60,32 +70,34 @@ class ModelManager:
         ])
         
         self.style.configure('TNotebook.Tab', 
-                           padding=[20, 8],
+                           padding=[20, 10],
                            background=tab_bg,
                            foreground=tab_fg,
-                           font=self.body_font)
+                           font=self.body_font,
+                           borderwidth=1)
                            
         self.style.map('TNotebook.Tab',
-                     background=[('selected', bg_color), ('active', tab_bg)],
-                     foreground=[('selected', accent_color), ('active', fg_color)])
+                     background=[('selected', '#37394f'), ('active', '#E8DCC6')],
+                     foreground=[('selected', accent_color), ('active', '#37394f')])
         
         self.style.configure('TButton', 
-                           background='#2d2d2d',
-                           foreground=fg_color,
+                           background=button_secondary,
+                           foreground='#F4EBD3',
                            borderwidth=1,
-                           padding=8,
-                           font=self.body_font)
+                           padding=10,
+                           font=self.body_font,
+                           bordercolor=button_secondary)
                            
         self.style.map('TButton',
-                     background=[('active', '#3d3d3d')],
-                     foreground=[('active', accent_color)],
+                     background=[('active', '#7A8399')],
+                     foreground=[('active', '#F4EBD3')],
                      relief=[('active', 'flat')])
         
         self.style.configure('TLabelframe', 
                            background=bg_color,
                            borderwidth=2,
-                           relief='ridge',
-                           border='#404040')
+                           relief='solid',
+                           bordercolor='#98A1BC')
                            
         self.style.configure('TLabelframe.Label',
                            font=self.header_font,
@@ -95,17 +107,19 @@ class ModelManager:
         self.style.configure('TCheckbutton',
                            background=bg_color,
                            foreground=fg_color,
-                           font=self.body_font)
+                           font=self.body_font,
+                           focuscolor='none')
                            
         self.style.map('TCheckbutton',
-                     background=[('active', '#2a2a2a')],
-                     foreground=[('active', accent_color)])
+                     background=[('active', '#E8DCC6')],
+                     foreground=[('active', '#37394f')])
         
         # Status bar style
         self.style.configure('Status.TFrame',
                            background=status_bg,
-                           relief='sunken',
-                           borderwidth=1)
+                           relief='solid',
+                           borderwidth=1,
+                           bordercolor='#98A1BC')
         
         # Load configuration
         self.config_path = Path(__file__).parent / '../config/yaml/model_config.yaml'
@@ -276,7 +290,7 @@ class ModelManager:
             path_section,
             text="Folder:",
             font=self.header_font,
-            foreground='#e0e0e0'
+            foreground='#F4EBD3'
         )
         path_label.pack(anchor='w', pady=(0, 5))
         
@@ -316,7 +330,7 @@ class ModelManager:
             path_section,
             text="Select a folder containing PNG images",
             font=self.small_font,
-            foreground='#b0b0b0'
+            foreground='#98A1BC'
         )
         self.dataset_status_label.pack(anchor='w')
         
@@ -329,7 +343,7 @@ class ModelManager:
             count_section,
             text="Number of Images to Process:",
             font=self.header_font,
-            foreground='#e0e0e0'
+            foreground='#F4EBD3'
         )
         count_label.pack(anchor='w', pady=(0, 5))
         
@@ -394,6 +408,17 @@ class ModelManager:
             messagebox.showinfo("Success", "App is starting in a new window!")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to start app: {str(e)}")
+    
+    def open_dashboard(self):
+        """Open the dashboard in browser."""
+        try:
+            start_dashboard()
+            # Update button text to reflect dashboard status
+            if hasattr(self, 'dashboard_btn'):
+                self.dashboard_btn.config(text="Dashboard Running")
+            messagebox.showinfo("Dashboard", "Dashboard is opening in your browser!")
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to start dashboard: {str(e)}")
     
     def setup_ui(self):
         # Main container
@@ -470,35 +495,58 @@ class ModelManager:
         
         # Config primary button style
         self.style.configure('Primary.TButton',
-                           background='#1976d2',
-                           foreground='#ffffff',
+                           background='#37394f',
+                           foreground='#F4EBD3',
                            font=self.body_font,
                            borderwidth=1,
                            padding=8)
                            
         self.style.map('Primary.TButton',
-                     background=[('active', '#1565c0')],
-                     foreground=[('active', '#ffffff')])
+                     background=[('active', '#252636')],
+                     foreground=[('active', '#F4EBD3')])
+        
+        # Config dashboard button style
+        self.style.configure('Dash.TButton',
+                           background='#F4EBD3',
+                           foreground='#1A1A1A',
+                           font=self.body_font,
+                           borderwidth=1,
+                           padding=8)
+                           
+        self.style.map('Dash.TButton',
+                     background=[('active', '#b3ac9a')],
+                     foreground=[('active', '#1A1A1A')])
         
         # Manifest refresh button
-        btn_save = ttk.Button(
+        btn_manifest = ttk.Button(
             btn_frame,
             text="Update Manifest",
             command=regenerate_full_manifest(),
             style='TButton',
             width=18
         )
-        btn_save.pack(side=tk.LEFT, padx=8)
+        btn_manifest.pack(side=tk.LEFT, padx=8)
         
         # Save button
         btn_save = ttk.Button(
             btn_frame,
-            text="Save Configuration",
+            text="Save Config",
             command=self.save_config,
             style='TButton',
-            width=18
+            width=12
         )
         btn_save.pack(side=tk.LEFT, padx=8)
+        
+        # Dashboard button
+        dashboard_text = "Dashboard Running..." if is_dashboard_running() else "Open Dashboard"
+        self.dashboard_btn = ttk.Button(
+            btn_frame,
+            text=dashboard_text,
+            command=self.open_dashboard,
+            style='Dash.TButton',
+            width=18
+        )
+        self.dashboard_btn.pack(side=tk.LEFT, padx=8)
         
         # Run app button
         btn_run = ttk.Button(
@@ -536,7 +584,7 @@ class ModelManager:
             self.status_bar,
             text="OCRacle v1.0",
             font=self.small_font,
-            foreground='#64b5f6',
+            foreground='#F4EBD3',
             background='#1a1a1a'
         )
         self.info_label.pack(side=tk.RIGHT)
@@ -581,3 +629,12 @@ class ModelManager:
         except Exception as e:
             self.status_label.config(text="Status update error")
             self.info_label.config(text="OCRacle v1.0")
+    
+    def on_closing(self):
+        """Handle application closing and cleanup dashboard server."""
+        from utils.webserver.dashboard_ws import stop_dashboard
+        try:
+            stop_dashboard()
+        except:
+            pass
+        self.root.destroy()
