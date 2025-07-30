@@ -1,4 +1,5 @@
 from config.loader import ConfigLoader
+from utils.update_manifest import regenerate_full_manifest
 
 import yaml
 import tkinter as tk
@@ -478,6 +479,16 @@ class ModelManager:
         self.style.map('Primary.TButton',
                      background=[('active', '#1565c0')],
                      foreground=[('active', '#ffffff')])
+        
+        # Manifest refresh button
+        btn_save = ttk.Button(
+            btn_frame,
+            text="Update Manifest",
+            command=regenerate_full_manifest(),
+            style='TButton',
+            width=18
+        )
+        btn_save.pack(side=tk.LEFT, padx=8)
         
         # Save button
         btn_save = ttk.Button(

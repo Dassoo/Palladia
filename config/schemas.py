@@ -15,7 +15,7 @@ class ModelConfig(BaseModel):
     def validate_api_key_exists(cls, v):
         """Warn if API key environment variable is not set."""
         if not os.getenv(v):
-            # Don't fail validation, just warn - user might set it later
+            # Leave for now
             pass
         return v
     
@@ -40,7 +40,7 @@ class ModelsConfig(BaseModel):
         """Ensure at least one model is enabled for evaluation."""
         enabled_models = [m for m in v if m.enabled]
         if not enabled_models:
-            # Don't fail - user might enable models later via UI
+            # Leave for now
             pass
         return v
 
