@@ -3,7 +3,7 @@
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo) 
 [![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/OCRacle)
 
-Evaluate and compare SOTA VLM models on historical image documents using the GT4HistOCR dataset.
+Introducing a benchmark tool for Vision LLMs on historical image documents, based on the GT4HistOCR dataset. 
 
 ## Features
 
