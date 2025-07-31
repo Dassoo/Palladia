@@ -144,12 +144,18 @@ class ModelManager:
             # Convert back to dict format for compatibility with existing UI code
             self.config = {'models': []}
             for model in app_config.models_config.models:
-                self.config['models'].append({
+                model_dict = {
                     'provider': model.provider,
                     'id': model.id,
                     'enabled': model.enabled,
                     'api_key_env': model.api_key_env
-                })
+                }
+                # Preserve optional fields if they exist
+                if model.standard_name:
+                    model_dict['standard_name'] = model.standard_name
+                if model.link:
+                    model_dict['link'] = model.link
+                self.config['models'].append(model_dict)
             
             # Group models by provider
             self.providers = {}
