@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "Erichthonius. At nulla \u017fyllaba plus duabus mutis iuxta \u017fe po\u017fitis hr\u0303e p\u00f5t: nec plus",
+        "response": "Erichthonius. At nulla syllaba plus duabus mutis iuxta \u017fe po\u017fitis h\u00eec pot: nec plus",
+        "wer": 21.428571428571427,
+        "cer": 5.952380952380952,
+        "accuracy": 94.04761904761905,
+        "time": 2.549149990081787
+    }
+}

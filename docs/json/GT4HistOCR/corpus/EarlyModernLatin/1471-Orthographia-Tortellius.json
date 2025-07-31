@@ -1,4 +1,12 @@
 {
+    "openrouter/horizon-alpha": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 50,
+        "avg_wer": 37.4359932551109,
+        "avg_cer": 8.86238657045182,
+        "avg_accuracy": 92.05782139556337,
+        "avg_time": 9.32106592655182
+    },
     "mistral-small-2506": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
         "images": 44,

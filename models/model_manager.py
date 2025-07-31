@@ -521,7 +521,7 @@ class ModelManager:
         btn_manifest = ttk.Button(
             btn_frame,
             text="Update Manifest",
-            command=regenerate_full_manifest(),
+            command=regenerate_full_manifest,
             style='TButton',
             width=18
         )

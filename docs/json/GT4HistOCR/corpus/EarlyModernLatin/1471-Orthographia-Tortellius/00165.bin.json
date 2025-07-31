@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "\u017fecundum eius \u00e6tatis con\u017fuetudinem e littera finiuit: c\u0169 in tertia \u017fatyra ait. Res",
+        "response": "\u017fecundum eius a\u017ftantis con\u017fuetudinem e littera finiu\u00edt : c\u016b in tertia \u017fatyra ait .Re\u017f",
+        "wer": 46.15384615384615,
+        "cer": 10.975609756097562,
+        "accuracy": 90.58823529411765,
+        "time": 2.599731922149658
+    }
+}

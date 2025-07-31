@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "Vt te\u017ftis \u1ebd Cloatius Verus in libris quos in\u017fcrip\u017fit uerbo\ua776 e gr\u00e6cis tracto\ua776: quem-",
+        "response": "Vt testis e\u017ft Cl\u0153\u0304tius Verus in libris quos in\u017fcrip\u017fit uerbor\u016b e gr\u00e6cis tractog: quem,",
+        "wer": 42.857142857142854,
+        "cer": 12.048192771084338,
+        "accuracy": 88.37209302325581,
+        "time": 2.141763210296631
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "eodem Quintiliano e quoq; in aliis \ua757\u1dd3multis dictionibus. i. loco fuit: & \u017fcribebat\u1dd1:",
+        "response": "eolem Quintiliano e quo\ua759 in aliis q\u0303 multis dictionibus. i. loco fuit: & \u017fcribebat:",
+        "wer": 38.46153846153847,
+        "cer": 8.333333333333332,
+        "accuracy": 92.85714285714286,
+        "time": 2.411309003829956
+    }
+}

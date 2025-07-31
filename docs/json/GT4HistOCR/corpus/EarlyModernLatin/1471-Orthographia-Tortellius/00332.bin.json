@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "nem \u017fubtraxeris \u017fignificat\u0169 mutabis: \ua757a tunc quoq; a uerbo cremo declinatum c\u0169",
+        "response": "nem \u017fubtraxeris \u017fignificat\u016b mutabis: \u03d9a nunc quoq; a uerbo remo declinatum c\u016b",
+        "wer": 41.66666666666667,
+        "cer": 6.41025641025641,
+        "accuracy": 93.58974358974359,
+        "time": 2.6811091899871826
+    }
+}

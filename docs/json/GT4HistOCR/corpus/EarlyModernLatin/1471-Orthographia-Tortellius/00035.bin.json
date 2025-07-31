@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "qu\u00e6d\u00e3 pote\u017ftatem litterarum detinr\u1ebdt. Pr\u00e6ter hoc autem nec uocalis nec c\u00f5\u017fon\u00e3s",
+        "response": "qurd\u0101 pote\u017ftatem litterarum detiner\u0113t. Pr\u00e6ter hoc autem nec uocalis nec co\u017fonas",
+        "wer": 27.27272727272727,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.40506329113924,
+        "time": 2.4417901039123535
+    }
+}

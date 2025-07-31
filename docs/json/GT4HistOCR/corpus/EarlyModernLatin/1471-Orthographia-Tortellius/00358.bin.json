@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "nos haberemus. Sed ut in \u017fequentibus o\u017ftendemus nulli au\u017fi \u017f\u0169t \u00e3tiqu\u00e3 \u017fcriptur\u00e3",
+        "response": "nos haberemus: Sed ut in sequentibus ostendemus nullu ausi \u017fut antiqua \u017fcriptura\u017f",
+        "wer": 66.66666666666666,
+        "cer": 13.924050632911392,
+        "accuracy": 86.41975308641975,
+        "time": 2.5021090507507324
+    }
+}

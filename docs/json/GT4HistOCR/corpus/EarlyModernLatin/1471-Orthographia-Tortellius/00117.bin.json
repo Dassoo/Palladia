@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "cadit. At illi. n. iucundam & in fine pr\u00e6cipue qua\u017fi tinnientem illius loco ponunt:",
+        "response": "cadit. At illi .n. iucundam & in fine pr\u00e6cipue quasi tinnientem illius loco ponunt:",
+        "wer": 21.428571428571427,
+        "cer": 3.614457831325301,
+        "accuracy": 97.59036144578313,
+        "time": 2.1491198539733887
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "ante c\u00f5\u017fon\u00e3tem in eadem \u017fyllaba poni mutatum fuit nonnun\ua757\u1dd3: te\u017fte Pri\u017fciano \u1ebdt",
+        "response": "ante confeonaterm in eadem \u017fyllaba poni mutatum fuit nonnunq\u0303; te\u017fte Pri\u017fciano et",
+        "wer": 25.0,
+        "cer": 12.82051282051282,
+        "accuracy": 87.65432098765432,
+        "time": 2.18058705329895
+    }
+}

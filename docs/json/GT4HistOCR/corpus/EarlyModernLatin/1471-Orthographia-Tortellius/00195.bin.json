@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "qu\u00e6 \u017femper \u017folent a\u017fpirari: n\u00f5 c\u0169. f. digamma po\u017ft r: \u017fed cum b loco digammi \u00e3te r",
+        "response": "qu\u00e6 \u017femper \u017folent a\u017fpirari: n\u014d c\u016b. \u017f. digamma po\u017ft r: \u017fed cum loco digammi \u00e3re r",
+        "wer": 29.411764705882355,
+        "cer": 7.317073170731707,
+        "accuracy": 92.6829268292683,
+        "time": 62.40801000595093
+    }
+}

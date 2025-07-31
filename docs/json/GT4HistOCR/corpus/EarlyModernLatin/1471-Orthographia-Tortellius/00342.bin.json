@@ -1,22 +1,22 @@
 {
     "mistral-small-2506": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpiratiōne adinunit: quæ quodámodo mollióre q.ps. uolubiliórem ſonũ habĕā:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpirati\u014dne adinunit: qu\u00e6 quod\u00e1modo molli\u00f3re q.ps. uolubili\u00f3rem \u017fon\u0169 hab\u0115\u0101:",
         "wer": 80.0,
         "cer": 17.94871794871795,
         "accuracy": 84.61538461538461,
         "time": 2.3508830070495605
     },
     "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "afpirarōe adinlicnit:quæ quoda mod o molliorē qu.ps.uolubılıoremq; fonū haıſ:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "afpirar\u014de adinlicnit:qu\u00e6 quoda\u200amod\u200ao molliore\u0304 qu.ps.uolub\u0131l\u0131oremq; fon\u016b ha\u0131\u017f:",
         "wer": 100.0,
         "cer": 29.48717948717949,
         "accuracy": 75.64102564102564,
         "time": 2.9923598766326904
     },
     "arcee-ai/spotlight": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
         "response": "aspiratioe adiunctit: qua quodammodo molliore q.ps.uolubilioremq; sonu habat:",
         "wer": 100.0,
         "cer": 23.076923076923077,
@@ -24,67 +24,75 @@
         "time": 3.193323850631714
     },
     "gpt-4.1-2025-04-14": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aspiratione adinueniēt: quæ quodãmodo molliore ũ̄. ps. uolubilioremq; sonũ habẽ:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "aspiratione adinueni\u0113t: qu\u00e6 quod\u00e3modo molliore \u0169\u0304. ps. uolubilioremq; son\u0169 hab\u1ebd:",
         "wer": 60.0,
         "cer": 11.538461538461538,
         "accuracy": 88.75,
         "time": 3.606165885925293
     },
     "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpiratiõe adiunçit:quæ quodámodo mollioreq.ps.uolubilioremq; ſonũ habã:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpirati\u00f5e adiun\u00e7it:qu\u00e6 quod\u00e1modo mollioreq.ps.uolubilioremq; \u017fon\u0169 hab\u00e3:",
         "wer": 80.0,
         "cer": 15.384615384615385,
         "accuracy": 85.8974358974359,
         "time": 4.424170017242432
     },
     "claude-sonnet-4-20250514": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpirationẽ adiuuẽt: quæ quodãmodo molliores q̃.ps.uolubilioresq̃ ſonu habẽt:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpiration\u1ebd adiuu\u1ebdt: qu\u00e6 quod\u00e3modo molliores q\u0303.ps.uolubilioresq\u0303 \u017fonu hab\u1ebdt:",
         "wer": 80.0,
         "cer": 23.076923076923077,
         "accuracy": 80.76923076923077,
         "time": 5.046285152435303
     },
     "gpt-4o": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpiratione adinuenit: quæ quodámodo molliore ẏ. ps. uolubilioremqꝯ ſonu habit:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpiratione adinuenit: qu\u00e6 quod\u00e1modo molliore \u1e8f. ps. uolubilioremq\ua76f \u017fonu habit:",
         "wer": 70.0,
         "cer": 12.82051282051282,
         "accuracy": 88.60759493670885,
         "time": 6.392491102218628
     },
     "claude-opus-4-20250514": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpiratiōe adinuenit: quæ quodāmodo molliorem̃ q̃. ps. uolubilioremq̃ ſonũ habẽt.",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpirati\u014de adinuenit: qu\u00e6 quod\u0101modo molliorem\u0303 q\u0303. ps. uolubilioremq\u0303 \u017fon\u0169 hab\u1ebdt.",
         "wer": 60.0,
         "cer": 14.102564102564102,
         "accuracy": 86.41975308641975,
         "time": 7.406173944473267
     },
     "gemini-2.5-flash": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpiratiõe adiunctü: quod quodamodo molliorē: q̃. ps. uolubilioremq; ſonū habē:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpiratio\u0303e adiunct\u00fc: quod quodamodo mollior\u0113: q\u0303. ps. uolubilioremq; \u017fonu\u0304 habe\u0304:",
         "wer": 80.0,
         "cer": 21.794871794871796,
         "accuracy": 81.70731707317073,
         "time": 12.699846744537354
     },
     "gemini-2.5-pro": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpiratiöe adiuuerit: quæ quodámodo mollioréq́; ps.uolubilioremq́; ſonũ habet:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpirati\u00f6e adiuuerit: qu\u00e6 quod\u00e1modo mollior\u00e9q\u0301; ps.uolubilioremq\u0301; \u017fonu\u0303 habet:",
         "wer": 90.0,
         "cer": 19.230769230769234,
         "accuracy": 83.54430379746836,
         "time": 31.684182167053223
     },
     "o4-mini-2025-04-16": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aſpiratiōe adiunctionerit:quæ quodāmodo molliore q̄.ps.uolubiliorēmq̄, sonū habīs:",
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpirati\u014de adiunctionerit:qu\u00e6 quod\u0101modo molliore q\u0304.ps.uolubilior\u0113mq\u0304, son\u016b habi\u0304s:",
         "wer": 100.0,
         "cer": 29.48717948717949,
         "accuracy": 75.90361445783132,
         "time": 74.39470624923706
+    },
+    "openrouter/horizon-alpha": {
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "aspiratione adinueni\u0169t: qu\u00e6 quodamodo molliore \u0169ps. uolubilioremq; son\u0169 hab\u1ebd:",
+        "wer": 80.0,
+        "cer": 15.384615384615385,
+        "accuracy": 87.17948717948718,
+        "time": 2.295447587966919
     }
 }

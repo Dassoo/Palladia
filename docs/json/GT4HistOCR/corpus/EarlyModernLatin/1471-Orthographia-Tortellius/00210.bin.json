@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "\u017fit etiam. b. in. r. ut \u017furripio arripio: in. s. ut iubeo iu\u017f\u017fi. At \u017fub\u017fequor c\u0169. b. \u017fcribit\u1dd1:",
+        "response": "\u017fit etiam. b. in. r. ut \u017furripio arripio: in. s. ut iubeo iu\u017f\u017fi. At \u017fub\u017fequor c\u016b. b. \u017fcribit:",
+        "wer": 11.11111111111111,
+        "cer": 2.127659574468085,
+        "accuracy": 97.87234042553192,
+        "time": 3.5337140560150146
+    }
+}

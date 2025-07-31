@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "hanc gr\u00e6ci beta nominant. Geritq; uirtut\u1ebd & pote\u017ftat\u1ebd mediam inter. p. &. ph.",
+        "response": "hanc gr\u00e6ci beta nominant. Geritq; virtute & potestate mediam inter. p, &. ph.",
+        "wer": 23.076923076923077,
+        "cer": 6.493506493506493,
+        "accuracy": 93.5064935064935,
+        "time": 2.164619207382202
+    }
+}

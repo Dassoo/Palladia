@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "\u017femicircul\u0169 de\u017fcriberent: uel quia forte propinquior ad form\u00e3 digamm\u00e6 e\u017f\u017fe uide-",
+        "response": "\u017femicircul\u016b de\u017fcriberent: uel quia \u017forte propinquior ad form\u0101 digamm\u00e6 e\u017f\u017fe uide\u1fbd",
+        "wer": 36.36363636363637,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 2.6150808334350586
+    }
+}

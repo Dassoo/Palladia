@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "ut & nunc detinet: digamma a pleri\u017fque ex no\u017ftris cognominata fuit: a nonnullis",
+        "response": "ur & nunc de\u017finet: digamma a pleni\u017fque ex no\u017ftris cognominata fuit: a nonnullis",
+        "wer": 23.076923076923077,
+        "cer": 3.79746835443038,
+        "accuracy": 96.20253164556962,
+        "time": 7.20351505279541
+    }
+}

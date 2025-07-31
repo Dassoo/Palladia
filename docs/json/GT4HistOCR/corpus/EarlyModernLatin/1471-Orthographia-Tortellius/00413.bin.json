@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "tria \u017funt nomen. s. figura & pote\u017ftas. nomen ut apud gr\u00e6cos alpha beta gamma",
+        "response": "tria \u017funt nomen . figura & potestas . nomen ut apud gr\u00e6cos alpha beta gamma .",
+        "wer": 35.714285714285715,
+        "cer": 7.894736842105263,
+        "accuracy": 94.8051948051948,
+        "time": 2.0227198600769043
+    }
+}

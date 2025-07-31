@@ -659,37 +659,30 @@ class BenchmarkDashboard {
     }
 
     calculateOverallStats() {
-        const allResults = [];
+        const modelAverages = this.calculateModelAverages();
+        if (!modelAverages || Object.keys(modelAverages).length === 0) return null;
 
-        Object.values(this.data).forEach(category => {
-            Object.values(category).forEach(subcategory => {
-                Object.values(subcategory).forEach(modelData => {
-                    allResults.push(modelData);
-                });
-            });
-        });
+        const modelValues = Object.values(modelAverages);
+        const modelCount = modelValues.length;
 
-        if (allResults.length === 0) return null;
-
-        const totals = allResults.reduce((acc, result) => {
-            acc.wer += result.avg_wer;
-            acc.cer += result.avg_cer;
-            acc.accuracy += result.avg_accuracy;
-            acc.time += result.avg_time;
+        const totals = modelValues.reduce((acc, model) => {
+            acc.wer += model.avg_wer;
+            acc.cer += model.avg_cer;
+            acc.accuracy += model.avg_accuracy;
+            acc.time += model.avg_time;
             return acc;
         }, { wer: 0, cer: 0, accuracy: 0, time: 0 });
 
-        // Calculate total images from manifest (most up-to-date)
+        // Get total unique images from manifest (not sum of model totals)
         const totalImages = this.getTotalImagesFromManifest();
 
-        const count = allResults.length;
         return {
-            avg_wer: (totals.wer / count).toFixed(2),
-            avg_cer: (totals.cer / count).toFixed(2),
-            avg_accuracy: (totals.accuracy / count).toFixed(2),
-            avg_time: (totals.time / count).toFixed(2),
+            avg_wer: (totals.wer / modelCount).toFixed(2),
+            avg_cer: (totals.cer / modelCount).toFixed(2),
+            avg_accuracy: (totals.accuracy / modelCount).toFixed(2),
+            avg_time: (totals.time / modelCount).toFixed(2),
             total_images: totalImages,
-            total_models: count
+            total_models: modelCount
         };
     }
 
@@ -740,8 +733,8 @@ class BenchmarkDashboard {
                     modelStats[modelName].results.push(modelData);
                     modelStats[modelName].categories.add(`${categoryName}/${subcategoryName}`);
 
-                    // Get current image count from manifest
-                    const imageCount = this.getImageCount(categoryName, subcategoryName);
+                    // Use actual image count for this model (from the processed data)
+                    const imageCount = modelData.images || 0;
                     modelStats[modelName].totalImages += imageCount;
                 });
             });

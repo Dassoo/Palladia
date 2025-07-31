@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "orthographia latinos no\u017ftros figur\u00e3 plen\u00e3 cuiu\u017fdam gr\u00e6c\u00e6 lr\u0303\u00e6 ad nos \ua753 a\u017fpiratione",
+        "response": "orthographia latinos no\u017ftros figur\u0101 plena inuit\u017fdam graecar\u016b ad nos, p a\u017fpiratione",
+        "wer": 58.333333333333336,
+        "cer": 17.073170731707318,
+        "accuracy": 86.58536585365853,
+        "time": 17.462831020355225
+    }
+}

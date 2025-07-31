@@ -1,0 +1,10 @@
+{
+    "openrouter/horizon-alpha": {
+        "gt": "origine lingu\u00e6 latin\u00e6 perduelles inquit dicunt ho\u017ftes: ut \ua751fecit \u017fic perduellum &",
+        "response": "origine lingu\u00e6 Latin\u00e6 perduelles inqui dicunt ho\u017ftes: ut p\u017fc\u00e6nt \u017fic perduellum &",
+        "wer": 25.0,
+        "cer": 8.641975308641975,
+        "accuracy": 92.5925925925926,
+        "time": 2.1475939750671387
+    }
+}
