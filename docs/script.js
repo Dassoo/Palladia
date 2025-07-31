@@ -44,35 +44,7 @@ class DiffViewer {
         }).join('');
     }
 
-    static renderSideBySideDiff(text1, text2) {
-        const diff = this.generateDiff(text1, text2);
 
-        let leftSide = '';
-        let rightSide = '';
-
-        diff.forEach(part => {
-            if (part.type === 'equal') {
-                leftSide += this.escapeHtml(part.value);
-                rightSide += this.escapeHtml(part.value);
-            } else if (part.type === 'removed') {
-                leftSide += `<span class="diff-removed">${this.escapeHtml(part.value)}</span>`;
-            } else if (part.type === 'added') {
-                rightSide += `<span class="diff-added">${this.escapeHtml(part.value)}</span>`;
-            }
-        });
-
-        return `
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                <div>
-                    <h6>Ground Truth:</h6>
-                    <div class="diff-view">${leftSide}</div>
-                </div>
-                <div>
-                    <h6>Model Response:</h6>
-                    <div class="diff-view">${rightSide}</div>
-                </div>
-            </div>`;
-    }
 
     static escapeHtml(text) {
         const div = document.createElement('div');
@@ -126,8 +98,6 @@ class IndividualFileLoader {
             }
         });
 
-
-
         return results;
     }
 
@@ -170,23 +140,7 @@ class IndividualFileLoader {
 
     handleLoadingErrors(errors) {
         if (errors.length === 0) return;
-
         console.error(`Failed to load ${errors.length} files:`, errors);
-
-        // Could implement retry logic here
-        const retryableErrors = errors.filter(error =>
-            error.error.includes('timeout') || error.error.includes('network')
-        );
-
-        // Could implement retry logic here if needed
-    }
-
-    clearCache() {
-        this.cache.clear();
-    }
-
-    getCacheSize() {
-        return this.cache.size;
     }
 }
 
@@ -257,13 +211,7 @@ class URLRouter {
         // This will be overridden by the dashboard
     }
 
-    validateParams(params) {
-        // Basic validation for required parameters
-        if (params.category && !params.subcategory) {
-            return false;
-        }
-        return true;
-    }
+
 }
 
 class BenchmarkDashboard {
@@ -278,15 +226,14 @@ class BenchmarkDashboard {
     }
 
     async init() {
-        console.log('Starting to load data...');
-        document.getElementById('overall-stats').innerHTML = '<div class="loading">Loading data...</div>';
-        document.getElementById('model-averages').innerHTML = '<div class="loading">Loading data...</div>';
-        document.getElementById('results-container').innerHTML = '<div class="loading">Loading data...</div>';
+        const loadingHtml = '<div class="loading">Loading data...</div>';
+        document.getElementById('overall-stats').innerHTML = loadingHtml;
+        document.getElementById('model-averages').innerHTML = loadingHtml;
+        document.getElementById('results-container').innerHTML = loadingHtml;
 
         try {
             await this.loadData();
             await this.loadModelLinks();
-            console.log('Data loaded successfully');
 
             // Handle initial view based on URL
             const currentView = this.router.getCurrentView();
@@ -295,9 +242,10 @@ class BenchmarkDashboard {
 
         } catch (error) {
             console.error('Error loading data:', error);
-            document.getElementById('overall-stats').innerHTML = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
-            document.getElementById('model-averages').innerHTML = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
-            document.getElementById('results-container').innerHTML = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
+            const errorHtml = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
+            document.getElementById('overall-stats').innerHTML = errorHtml;
+            document.getElementById('model-averages').innerHTML = errorHtml;
+            document.getElementById('results-container').innerHTML = errorHtml;
         }
     }
 
@@ -310,6 +258,9 @@ class BenchmarkDashboard {
     }
 
     showDashboardView() {
+        // Clean up any sticky headers from details view
+        this.cleanupStickyHeaders();
+
         // Show main dashboard sections
         document.getElementById('overall-stats').style.display = 'block';
         document.getElementById('model-averages').style.display = 'block';
@@ -362,7 +313,6 @@ class BenchmarkDashboard {
 
         const individualFiles = subcategoryInfo.individual_files;
 
-
         // Load individual files
         const loadResults = await this.fileLoader.loadIndividualFiles(individualFiles);
 
@@ -404,7 +354,7 @@ class BenchmarkDashboard {
 
         if (modelNames.length === 0) {
             return `<div class="image-result">
-                <div class="image-result-header" onclick="this.nextElementSibling.classList.toggle('show'); this.classList.toggle('expanded')">
+                <div class="image-result-header" onclick="dashboard.toggleImageResult(this)">
                     <div class="image-result-title">
                         ${filename}
                     </div>
@@ -420,7 +370,7 @@ class BenchmarkDashboard {
 
         let html = `
             <div class="image-result" data-filename="${filename}">
-                <div class="image-result-header" onclick="this.nextElementSibling.classList.toggle('show'); this.classList.toggle('expanded')">
+                <div class="image-result-header" onclick="dashboard.toggleImageResult(this)">
                     <div class="image-result-title">
                         ${filename}
                     </div>
@@ -566,12 +516,9 @@ class BenchmarkDashboard {
 
     async loadData() {
         try {
-            console.log('Loading file manifest...');
-
             // Load the manifest file that lists JSON files
             const manifest = await this.fetchWithTimeout('json/manifest.json');
-            this.manifest = manifest; // Store for later use
-            console.log(`Manifest loaded with ${manifest.files?.length || 0} files`);
+            this.manifest = manifest;
 
             // Update last update timestamp
             if (manifest.generated) {
@@ -600,8 +547,6 @@ class BenchmarkDashboard {
             if (successful.length === 0) {
                 throw new Error('No JSON files could be loaded from the manifest');
             }
-
-
 
             // Organize data using the manifest structure
             this.data = {};
@@ -650,11 +595,6 @@ class BenchmarkDashboard {
                 });
             }
 
-            const totalCategories = Object.keys(this.data).length;
-            const totalSubcategories = Object.values(this.data).reduce((sum, cat) => sum + Object.keys(cat).length, 0);
-
-
-
         } catch (error) {
             throw new Error(`Failed to load benchmark data: ${error.message}`);
         }
@@ -664,7 +604,6 @@ class BenchmarkDashboard {
         try {
             const modelLinks = await this.fetchWithTimeout('model_links.json');
             this.modelLinks = modelLinks;
-            console.log(`Loaded ${Object.keys(modelLinks).length} model links`);
         } catch (error) {
             console.warn('Could not load model links:', error.message);
             this.modelLinks = {};
@@ -711,23 +650,23 @@ class BenchmarkDashboard {
         if (!stats) return;
 
         const html = `
-            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
+            <div class="stat-card">
                 <div class="stat-label">Average Accuracy</div>
                 <div class="stat-value">${stats.avg_accuracy}%</div>
             </div>
-            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
+            <div class="stat-card">
                 <div class="stat-label">Average CER</div>
                 <div class="stat-value">${stats.avg_cer}%</div>
             </div>
-            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
+            <div class="stat-card">
                 <div class="stat-label">Average WER</div>
                 <div class="stat-value">${stats.avg_wer}%</div>
             </div>
-            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top; margin-right: 15px;">
+            <div class="stat-card">
                 <div class="stat-label">Average Time</div>
                 <div class="stat-value">${stats.avg_time}s</div>
             </div>
-            <div class="stat-card" style="display: inline-block; width: calc(20% - 12px); min-width: 150px; vertical-align: top;">
+            <div class="stat-card">
                 <div class="stat-label">Total Images</div>
                 <div class="stat-value">${stats.total_images}</div>
             </div>
@@ -1020,15 +959,72 @@ class BenchmarkDashboard {
         imageResults.sort((a, b) => {
             const filenameA = a.dataset.filename;
             const filenameB = b.dataset.filename;
-
-            if (sortBy === 'filename') {
-                return filenameA.localeCompare(filenameB);
-            }
-            return filenameA.localeCompare(filenameB); // Fallback to filename
+            return filenameA.localeCompare(filenameB);
         });
 
-        // Re-append sorted elements
         imageResults.forEach(element => detailsContent.appendChild(element));
+    }
+
+    // Toggle image result expansion with sticky header functionality
+    toggleImageResult(header) {
+        const content = header.nextElementSibling;
+        const isExpanded = content.classList.contains('show');
+
+        // Toggle the content visibility
+        content.classList.toggle('show');
+        header.classList.toggle('expanded');
+
+        if (!isExpanded) {
+            // Content is being expanded - set up sticky behavior
+            this.setupStickyHeader(header);
+        } else {
+            // Content is being collapsed - remove sticky behavior
+            this.removeStickyHeader(header);
+        }
+    }
+
+    // Set up sticky header behavior for expanded image results
+    setupStickyHeader(header) {
+        // Add scroll listener to make header sticky when it reaches the top
+        const scrollHandler = () => {
+            const headerRect = header.getBoundingClientRect();
+            const content = header.nextElementSibling;
+
+            // Only apply sticky if the content is still expanded
+            if (content.classList.contains('show')) {
+                if (headerRect.top <= 0 && headerRect.bottom > 0) {
+                    header.classList.add('sticky');
+                } else {
+                    header.classList.remove('sticky');
+                }
+            }
+        };
+
+        // Store the scroll handler on the header element for later removal
+        header._scrollHandler = scrollHandler;
+        window.addEventListener('scroll', scrollHandler);
+
+        // Initial check
+        scrollHandler();
+    }
+
+    // Remove sticky header behavior
+    removeStickyHeader(header) {
+        header.classList.remove('sticky');
+
+        // Remove the scroll event listener
+        if (header._scrollHandler) {
+            window.removeEventListener('scroll', header._scrollHandler);
+            delete header._scrollHandler;
+        }
+    }
+
+    // Clean up all sticky headers when navigating away from details view
+    cleanupStickyHeaders() {
+        const stickyHeaders = document.querySelectorAll('.image-result-header.sticky');
+        stickyHeaders.forEach(header => {
+            this.removeStickyHeader(header);
+        });
     }
 }
 

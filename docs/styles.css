@@ -37,65 +37,51 @@ h2 {
     box-shadow: 0 2px 8px rgba(85, 88, 121, 0.1);
 }
 
-/* Stats Grid - Using Flexbox for better reliability */
-.stats-grid {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 15px !important;
-    justify-content: space-between !important;
-    flex-direction: row !important;
-}
-
-/* Force horizontal layout for overall stats specifically */
-#overall-stats {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 15px !important;
-    justify-content: space-between !important;
-    flex-direction: row !important;
+/* Stats Grid - Horizontal layout */
+.stats-grid, #overall-stats {
+    display: block;
+    white-space: nowrap;
 }
 
 .stat-card {
-    flex: 1 1 calc(16.666% - 12px) !important;
-    min-width: 150px !important;
+    display: inline-block;
+    width: calc(19% - 2px);
+    min-width: 130px;
+    margin-right: 12px;
+    vertical-align: top;
     background: #F4EBD3;
     padding: 15px;
     border-radius: 6px;
     border-left: 4px solid #98A1BC;
-    display: block !important;
 }
 
-/* More specific targeting for overall stats cards */
-#overall-stats .stat-card {
-    flex: 1 1 calc(16.666% - 12px) !important;
-    min-width: 150px !important;
-    max-width: none !important;
-    width: auto !important;
+.stat-card:last-child {
+    margin-right: 0;
 }
+
+
 
 /* Responsive breakpoints for stats grid */
 @media (max-width: 1200px) {
     .stat-card {
-        flex: 1 1 calc(33.333% - 10px); /* 3 cards per row */
+        width: calc(33.333% - 10px);
     }
 }
 
 @media (max-width: 768px) {
-    .stat-card {
-        flex: 1 1 calc(50% - 8px); /* 2 cards per row */
+    .stats-grid, #overall-stats {
+        white-space: normal;
     }
-    .stats-grid {
-        gap: 10px;
+    .stat-card {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .stat-card:last-child {
+        margin-bottom: 0;
     }
 }
-
-@media (max-width: 480px) {
-    .stat-card {
-        flex: 1 1 100%; /* 1 card per row on mobile */
-    }
-}
-
-/* Stat card styling moved above with flexbox layout */
 
 .stat-label {
     font-size: 0.85em;
@@ -287,6 +273,17 @@ h2 {
     border-bottom: 1px solid #ddd;
 }
 
+/* Sticky header when expanded */
+.image-result-header.expanded.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #f8f9fa;
+    border-radius: 0;
+    box-shadow: 0 2px 8px rgba(85, 88, 121, 0.15);
+    border-bottom: 2px solid #98A1BC;
+}
+
 .image-result-header:hover {
     background: rgba(152, 161, 188, 0.1);
 }
@@ -474,7 +471,7 @@ h2 {
     text-decoration: underline;
 }
 
-.loading {
+.loading, .no-data {
     text-align: center;
     padding: 40px;
     color: #98A1BC;
@@ -805,42 +802,7 @@ h2 {
     color: #555879;
 }
 
-/* Legacy grid styles for backward compatibility */
-.metrics-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
 
-.metric-item {
-    background: rgba(244, 235, 211, 0.6);
-    padding: 15px;
-    border-radius: 6px;
-    border-left: 4px solid #98A1BC;
-}
-
-.metric-item h4 {
-    color: #555879;
-    font-size: 1em;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.metric-item p {
-    color: #555879;
-    font-size: 0.8em;
-    line-height: 1.5;
-    margin: 0;
-}
-
-.metrics-extra {
-    padding-top: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 0.8rem;
-    font-weight: 300;
-}
 
 @media (max-width: 768px) {
     .metrics-explanation {
@@ -889,15 +851,7 @@ h2 {
         font-size: 0.65em;
     }
     
-    /* Legacy grid styles for backward compatibility */
-    .metrics-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-    
-    .metric-item {
-        padding: 12px;
-    }
+
 }
 
 .simple-footer {
