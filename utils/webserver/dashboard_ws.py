@@ -22,7 +22,7 @@ class DashboardServer:
             Handler = http.server.SimpleHTTPRequestHandler
             self.httpd = socketserver.TCPServer(("", PORT), Handler)
             self.is_running = True
-            print(f"Dashboard server started on port {PORT}")
+            # print(f"Dashboard server started on port {PORT}")
             self.httpd.serve_forever()
         except OSError as e:
             if e.errno == 48:  # Address already in use

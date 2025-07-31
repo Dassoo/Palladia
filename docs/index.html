@@ -63,25 +63,76 @@
 
         <div class="metrics-explanation">
             <h3>Evaluation Metrics</h3>
-            <div class="metrics-grid">
-                <div class="metric-item">
-                    <h4>Accuracy</h4>
-                    <p>Percentage of characters that match exactly between the OCR output and ground truth text. Higher values indicate better performance.</p>
+            <div class="metrics-steps">
+                <div class="metric-step">
+                    <div class="step-header">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Accuracy</h4>
+                            <p>Percentage of characters that match exactly between the OCR output and ground truth text. Higher values indicate better performance.</p>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <div class="accuracy-bar">
+                            <div class="accuracy-fill" style="width: 85%"></div>
+                        </div>
+                        <span class="visual-label">85% match rate</span>
+                    </div>
                 </div>
-                <div class="metric-item">
-                    <h4>Character Error Rate (CER)</h4>
-                    <p>Ratio of character-level errors (insertions, deletions, substitutions) to the total number of characters in the ground truth. Lower values indicate better performance.</p>
+                
+                <div class="metric-step">
+                    <div class="step-header">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Character Error Rate (CER)</h4>
+                            <p>Ratio of character-level errors (insertions, deletions, substitutions) to the total number of characters in the ground truth. Lower values indicate better performance.</p>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <div class="error-indicators">
+                            <span class="error-type insertion">+</span>
+                            <span class="error-type deletion">-</span>
+                            <span class="error-type substitution">~</span>
+                        </div>
+                        <span class="visual-label">Character-level errors</span>
+                    </div>
                 </div>
-                <div class="metric-item">
-                    <h4>Word Error Rate (WER)</h4>
-                    <p>Ratio of word-level errors (insertions, deletions, substitutions) to the total number of words in the ground truth. Lower values indicate better performance.</p>
+                
+                <div class="metric-step">
+                    <div class="step-header">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Word Error Rate (WER)</h4>
+                            <p>Ratio of word-level errors (insertions, deletions, substitutions) to the total number of words in the ground truth. Lower values indicate better performance.</p>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <div class="word-comparison">
+                            <span class="word correct">the</span>
+                            <span class="word error">quik</span>
+                            <span class="word correct">brown</span>
+                        </div>
+                        <span class="visual-label">Word-level comparison</span>
+                    </div>
                 </div>
-                <div class="metric-item">
-                    <h4>Execution Time</h4>
-                    <p>Average time taken by each model to process and transcribe an image, measured in seconds. Lower values indicate faster processing.</p>
+                
+                <div class="metric-step">
+                    <div class="step-header">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Execution Time</h4>
+                            <p>Average time taken by each model to process and transcribe an image, measured in seconds. Lower values indicate faster processing.</p>
+                        </div>
+                    </div>
+                    <div class="step-visual">
+                        <div class="time-indicator">
+                            <div class="clock-icon">⏱️</div>
+                            <span class="time-value">2.3s</span>
+                        </div>
+                        <span class="visual-label">Processing time</span>
+                    </div>
                 </div>
             </div>
-            <div class="metrics-extra">⚠️ Some recent SOTA models, such as Grok-4, GLM-4.1 and UI-TARS-1.5 have been temporarily excluded given their extremely volatile performance. They will be tested further internally for future updates.</div>
         </div>
 
         <div class="section">
