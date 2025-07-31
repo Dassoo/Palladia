@@ -1,5 +1,5 @@
 {
-    "mistral-small-2506": {
+    "mistral-small": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 5,
         "avg_wer": 50.729437229437224,
@@ -7,7 +7,7 @@
         "avg_accuracy": 86.77987166497806,
         "avg_time": 2.019568347930908
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 5,
         "avg_wer": 41.37229437229438,
@@ -15,7 +15,7 @@
         "avg_accuracy": 89.91187866507015,
         "avg_time": 1.7007936477661132
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 5,
         "avg_wer": 48.04761904761905,
@@ -23,7 +23,7 @@
         "avg_accuracy": 88.0450769089067,
         "avg_time": 1.7680243015289308
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 5,
         "avg_wer": 49.896103896103895,
@@ -31,7 +31,7 @@
         "avg_accuracy": 83.73690706456664,
         "avg_time": 1.7139928340911865
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 5,
         "avg_wer": 42.6017316017316,
@@ -39,7 +39,7 @@
         "avg_accuracy": 90.22816616008106,
         "avg_time": 3.960871362686157
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 5,
         "avg_wer": 41.22943722943723,
@@ -47,7 +47,7 @@
         "avg_accuracy": 86.18055592264658,
         "avg_time": 3.743660259246826
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 5,
         "avg_wer": 33.93290043290043,

@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
         "images": 3,
         "avg_wer": 62.22222222222223,

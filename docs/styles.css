@@ -463,6 +463,17 @@ h2 {
     font-weight: 500;
 }
 
+.model-link {
+    color: #555879;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.model-link:hover {
+    color: #98A1BC;
+    text-decoration: underline;
+}
+
 .loading {
     text-align: center;
     padding: 40px;

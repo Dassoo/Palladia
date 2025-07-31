@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo",
         "images": 2,
         "avg_wer": 55.23809523809524,

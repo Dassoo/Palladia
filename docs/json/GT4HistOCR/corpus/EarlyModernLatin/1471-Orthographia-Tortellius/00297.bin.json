@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "&amp; abſqꝑ compoſitione præpoſitionis fuit.d.nutatum in.l.m̃ a ſedeo olim ſedda",
         "wer": 57.14285714285714,
@@ -7,7 +7,7 @@
         "accuracy": 90.0,
         "time": 1.3534929752349854
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "& abſq compositione praepositionis fuit.d.mutatum in.l.nā aſedeo olim ſedda",
         "wer": 78.57142857142857,
@@ -15,7 +15,7 @@
         "accuracy": 87.5,
         "time": 1.5068941116333008
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "& abfq compositione praepositionis fuit.d.mutatum in.l.nā a fedeo olim fedda",
         "wer": 78.57142857142857,
@@ -23,7 +23,7 @@
         "accuracy": 85.0,
         "time": 1.5058979988098145
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "& abſq; compositione præpositionis fuit.d.mutatum in.l.nā a ſedeo olim ſedda",
         "wer": 57.14285714285714,
@@ -31,7 +31,7 @@
         "accuracy": 91.25,
         "time": 2.0620648860931396
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "& abſqꝫ compoſitione præpoſitionis fuit.d.mutatum in.l.na a ſedeo olim ſedda",
         "wer": 50.0,
@@ -55,7 +55,7 @@
         "accuracy": 92.5,
         "time": 3.43833327293396
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "& abſcp compoſitione præpoſitionis fuit.d.mutatum in.l.nã a ſedeo olim ſedda",
         "wer": 50.0,
@@ -63,7 +63,7 @@
         "accuracy": 92.5,
         "time": 4.540748119354248
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "& abſq; compoſitione præpoſitionis fuit.d.mutatum in.l.nã a ſedeo olim ſedda",
         "wer": 42.857142857142854,
@@ -71,7 +71,7 @@
         "accuracy": 95.0,
         "time": 5.035430192947388
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
         "response": "& abſq̄ compoſitione præpositionis fuit.d.mutatum in.l.nā a ſedeo olim ſedda",
         "wer": 57.14285714285714,
@@ -86,5 +86,13 @@
         "cer": 8.75,
         "accuracy": 91.25,
         "time": 134.2729868888855
+    },
+    "horizon-alpha": {
+        "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
+        "response": "& abſcq compoſitione prae poſitionis fuit.d.mutatum in.l.nā a ſedeo olim ſedda",
+        "wer": 57.14285714285714,
+        "cer": 12.5,
+        "accuracy": 91.25,
+        "time": 2.3912839889526367
     }
 }

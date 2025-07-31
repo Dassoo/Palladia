@@ -270,6 +270,7 @@ class BenchmarkDashboard {
     constructor() {
         this.data = {};
         this.manifest = {};
+        this.modelLinks = {};
         this.router = new URLRouter();
         this.router.onViewChange = (view, params) => this.handleViewChange(view, params);
         this.fileLoader = new IndividualFileLoader((url, timeout) => this.fetchWithTimeout(url, timeout));
@@ -284,6 +285,7 @@ class BenchmarkDashboard {
 
         try {
             await this.loadData();
+            await this.loadModelLinks();
             console.log('Data loaded successfully');
 
             // Handle initial view based on URL
@@ -456,7 +458,7 @@ class BenchmarkDashboard {
         return `
             <div class="model-response" data-model="${modelName}">
                 <h5>
-                    ${modelName}
+                    ${this.formatModelName(modelName)}
                     <button class="diff-button" onclick="dashboard.toggleDiff(this, '${this.escapeHtml(groundTruth)}', '${this.escapeHtml(response)}')">
                         Show Diff
                     </button>
@@ -658,6 +660,24 @@ class BenchmarkDashboard {
         }
     }
 
+    async loadModelLinks() {
+        try {
+            const modelLinks = await this.fetchWithTimeout('model_links.json');
+            this.modelLinks = modelLinks;
+            console.log(`Loaded ${Object.keys(modelLinks).length} model links`);
+        } catch (error) {
+            console.warn('Could not load model links:', error.message);
+            this.modelLinks = {};
+        }
+    }
+
+    formatModelName(modelName) {
+        if (this.modelLinks[modelName]) {
+            return `<a href="${this.modelLinks[modelName]}" target="_blank" rel="noopener noreferrer" class="model-link">${this.escapeHtml(modelName)}</a>`;
+        }
+        return this.escapeHtml(modelName);
+    }
+
     calculateOverallStats() {
         const modelAverages = this.calculateModelAverages();
         if (!modelAverages || Object.keys(modelAverages).length === 0) return null;
@@ -826,7 +846,7 @@ class BenchmarkDashboard {
 
             html += `
                 <tr>
-                    <td class="model-name">${modelName}</td>
+                    <td class="model-name">${this.formatModelName(modelName)}</td>
                     <td class="${accClass}">${modelData.avg_accuracy.toFixed(2)}</td>
                     <td class="${cerClass}">${modelData.avg_cer.toFixed(2)}</td>
                     <td class="${werClass}">${modelData.avg_wer.toFixed(2)}</td>
@@ -895,7 +915,7 @@ class BenchmarkDashboard {
 
                     html += `
                         <tr>
-                            <td class="model-name">${modelName}</td>
+                            <td class="model-name">${this.formatModelName(modelName)}</td>
                             <td class="${accClass}">${modelData.avg_accuracy.toFixed(2)}</td>
                             <td class="${cerClass}">${modelData.avg_cer.toFixed(2)}</td>
                             <td class="${werClass}">${modelData.avg_wer.toFixed(2)}</td>

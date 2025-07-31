@@ -1,23 +1,23 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "r\u0169 tran\u017fferendis o\u0129no r\u1ebdnui\u017f\u017fe cognoui \u00b7 Verum",
-        "response": "r\u016b tran\u017fferend\u0292 o\u0129o r\u0113nuilTe co\u0292noui. Verum",
+    "llama-4-maverick-17b": {
+        "gt": "rũ tranſferendis oĩno rẽnuiſſe cognoui · Verum",
+        "response": "rū tranſferendʒ oĩo rēnuilTe coʒnoui. Verum",
         "wer": 85.71428571428571,
         "cer": 21.73913043478261,
         "accuracy": 78.26086956521739,
         "time": 2.011122941970825
     },
-    "mistral-small-2506": {
-        "gt": "r\u0169 tran\u017fferendis o\u0129no r\u1ebdnui\u017f\u017fe cognoui \u00b7 Verum",
-        "response": "r\u00fa tran\u017fferen\u017fis o\u00edno r\u00e9nu\u00edlle cognou\u00ed. Verum",
+    "mistral-small": {
+        "gt": "rũ tranſferendis oĩno rẽnuiſſe cognoui · Verum",
+        "response": "rú tranſferenſis oíno rénuílle cognouí. Verum",
         "wer": 85.71428571428571,
         "cer": 21.73913043478261,
         "accuracy": 78.26086956521739,
         "time": 2.2023658752441406
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "r\u0169 tran\u017fferendis o\u0129no r\u1ebdnui\u017f\u017fe cognoui \u00b7 Verum",
-        "response": "r\u00fa transferendis oino r\u00e9nuiffe cognoui\u00b7 Verum",
+    "qwen-2.5-vl-72b": {
+        "gt": "rũ tranſferendis oĩno rẽnuiſſe cognoui · Verum",
+        "response": "rú transferendis oino rénuiffe cognoui· Verum",
         "wer": 85.71428571428571,
         "cer": 15.217391304347828,
         "accuracy": 84.78260869565217,

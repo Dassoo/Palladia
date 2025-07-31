@@ -1,7 +1,7 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "ri\u017f\u017fent. Nec erat apud eos ob\u017fcu\ua776 auxilia a chri\u017ftianis \u017fru\u017ftra expectari: aut peti po\u017f",
-        "response": "ri\u017f\u017fent. Ne cerat aptud eos ob\u017fcurg auxilia a chri\u017ftianis fru\u017ftra expcctari: aut p.ci \u017fol.",
+    "llama-4-maverick-17b": {
+        "gt": "riſſent. Nec erat apud eos obſcuꝶ auxilia a chriſtianis ſruſtra expectari: aut peti poſ",
+        "response": "riſſent. Ne cerat aptud eos obſcurg auxilia a chriſtianis fruſtra expcctari: aut p.ci ſol.",
         "wer": 57.14285714285714,
         "cer": 13.793103448275861,
         "accuracy": 87.77777777777777,

@@ -1,90 +1,98 @@
 {
-    "mistral-small-2506": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inept\u00e8 non fecimus, id nunc contrario au-",
+    "mistral-small": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, id nunc contrario au-",
         "wer": 10.0,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 1.3445849418640137
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius incept\u00e8 non fecimus, id nunc contrario au-",
+    "llama-4-maverick-17b": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius inceptè non fecimus, id nunc contrario au-",
         "wer": 20.0,
         "cer": 3.225806451612903,
         "accuracy": 96.82539682539682,
         "time": 1.3484759330749512
     },
-    "arcee-ai/spotlight": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au",
+    "spotlight": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, id nunc contrariò au",
         "wer": 10.0,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 1.6054918766021729
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inepte non fecimus,id nunc contrari\u00f2 au-",
+    "qwen-2.5-vl-72b": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius inepte non fecimus,id nunc contrariò au-",
         "wer": 30.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 1.6322271823883057
     },
     "gpt-4o": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.6748261451721191
     },
-    "gpt-4.1-2025-04-14": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore poti\u00f9s inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
+    "gpt-4.1": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potiùs ineptè non fecimus, id nunc contrariò au-",
         "wer": 10.0,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 1.735779047012329
     },
-    "claude-sonnet-4-20250514": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "n\u00edonis errore potius inepte non fecimus, id nunc contrario au-",
+    "claude-4-sonnet": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "níonis errore potius inepte non fecimus, id nunc contrario au-",
         "wer": 30.0,
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 2.9804880619049072
     },
-    "claude-opus-4-20250514": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inept\u00e8 non fecimus, id nunc contrario au-",
+    "claude-4-opus": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, id nunc contrario au-",
         "wer": 10.0,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 3.82450008392334
     },
     "gemini-2.5-flash": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inept\u00e8 non fecimus, jd nunc contrari\u00f2 au,",
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, jd nunc contrariò au,",
         "wer": 20.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 3.9302866458892822
     },
-    "o4-mini-2025-04-16": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inept\u00e8 non fecimus, id nunc contrar\u00eco au-",
+    "o4-mini": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, id nunc contrarìo au-",
         "wer": 10.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 12.821946144104004
     },
     "gemini-2.5-pro": {
-        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
-        "response": "nionis errore potius inepte\u0300 non fecimus, id nunc contrario\u0300 au",
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, id nunc contrariò au",
         "wer": 30.0,
         "cer": 8.064516129032258,
         "accuracy": 93.65079365079364,
         "time": 25.802139043807983
+    },
+    "horizon-alpha": {
+        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "response": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.313093900680542
     }
 }

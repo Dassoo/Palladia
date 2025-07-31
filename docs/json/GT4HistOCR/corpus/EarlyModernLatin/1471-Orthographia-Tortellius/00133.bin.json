@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "noſtrā tranſiermus illam fere femper fua t: iura &amp; noie ac poteltate coleruamus.",
         "wer": 83.33333333333334,
@@ -7,7 +7,7 @@
         "accuracy": 82.14285714285714,
         "time": 1.1908023357391357
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "noſtra tranſferimus illam fere ſemper ſua figura & noie ac potestate coleruamus.",
         "wer": 33.33333333333333,
@@ -15,7 +15,7 @@
         "accuracy": 93.75,
         "time": 1.663546085357666
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "nostrā tranſterimus illam fere ſemper ſua tigura & noie ac poteflate cōferuainus.",
         "wer": 50.0,
@@ -23,7 +23,7 @@
         "accuracy": 86.41975308641975,
         "time": 1.799126148223877
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "noſtrā tranſferimus nullam fere ſemper ſua figura & noie ac potestate coſeruamus.",
         "wer": 41.66666666666667,
@@ -39,7 +39,7 @@
         "accuracy": 95.0,
         "time": 2.8615291118621826
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "noſtrā tranſcenmus illam fere ſemper ſua figura & noie ac poteſtate cōſeruamus.",
         "wer": 33.33333333333333,
@@ -47,7 +47,7 @@
         "accuracy": 92.5,
         "time": 3.7041079998016357
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "nostrá tranſferimus illam fere femper ſua figura & noſie ac potellate coleruamus.",
         "wer": 41.66666666666667,
@@ -63,7 +63,7 @@
         "accuracy": 95.0,
         "time": 4.770859718322754
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "wer": 0.0,
@@ -71,7 +71,7 @@
         "accuracy": 100.0,
         "time": 5.13065505027771
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
         "response": "noſtra tranſferimus illam fere ſemper ſua figura & noiſe ac potestate coſeruānus.",
         "wer": 33.33333333333333,
@@ -86,5 +86,13 @@
         "cer": 10.0,
         "accuracy": 91.25,
         "time": 39.52072310447693
+    },
+    "horizon-alpha": {
+        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
+        "response": "noſtra tranſferimus ullam fere ſemper ſua figura &̄ noie ac poteſtate coſervamus.",
+        "wer": 41.66666666666667,
+        "cer": 7.5,
+        "accuracy": 92.5925925925926,
+        "time": 2.4519500732421875
     }
 }

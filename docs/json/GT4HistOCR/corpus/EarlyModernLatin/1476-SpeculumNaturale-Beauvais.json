@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais",
         "images": 5,
         "avg_wer": 84.83982683982684,
@@ -7,7 +7,7 @@
         "avg_accuracy": 73.20177656332791,
         "avg_time": 1.328604030609131
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais",
         "images": 3,
         "avg_wer": 78.06637806637806,
@@ -15,7 +15,7 @@
         "avg_accuracy": 77.02233067139899,
         "avg_time": 1.518191973368327
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1476-SpeculumNaturale-Beauvais",
         "images": 3,
         "avg_wer": 67.62866762866763,

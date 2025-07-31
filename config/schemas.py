@@ -8,6 +8,8 @@ class ModelConfig(BaseModel):
     """Configuration for a single model."""
     provider: str = Field(..., description="Model provider (e.g., openai, google)")
     id: str = Field(..., description="Model identifier")
+    standard_name: Optional[str] = Field(None, description="Standardized display name for the model")
+    link: Optional[str] = Field(None, description="URL link to model information or documentation")
     enabled: bool = Field(default=False, description="Whether the model is enabled")
     api_key_env: str = Field(..., description="Environment variable name for API key")
     
@@ -29,6 +31,11 @@ class ModelConfig(BaseModel):
         if v not in supported_providers:
             raise ValueError(f"Unsupported provider: {v}. Supported: {supported_providers}")
         return v
+    
+    @property
+    def display_name(self) -> str:
+        """Get the display name for the model (standard_name if available, otherwise id)."""
+        return self.standard_name if self.standard_name else self.id
 
 
 class ModelsConfig(BaseModel):
@@ -49,6 +56,7 @@ class InputPathConfig(BaseModel):
     """Configuration for a single input path."""
     path: str = Field(..., description="Path to the dataset directory")
     images_to_process: int = Field(default=1, ge=1, description="Number of images to process")
+    prioritize_scanned: bool = Field(default=False, description="Prioritize images that have already been scanned")
     
     @field_validator('path')
     def validate_path_exists(cls, v):

@@ -1,90 +1,98 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "20 iu\u017ftam habere altitudinem murum. Timucrat enim ne \u00e0 Laced\u00e6x.",
+    "llama-4-maverick-17b": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Lacedæx.",
         "wer": 30.0,
         "cer": 6.451612903225806,
         "accuracy": 93.65079365079364,
         "time": 1.1856930255889893
     },
-    "arcee-ai/spotlight": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "iustam habere altitudinem murum. Timucrat enim ne \u00e0 Laccdx",
+    "spotlight": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "iustam habere altitudinem murum. Timucrat enim ne à Laccdx",
         "wer": 40.0,
         "cer": 12.903225806451612,
         "accuracy": 87.09677419354838,
         "time": 1.3032639026641846
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "20 iu\u017ftam habere altitudinem murum.Timucrat enim ne \u00e0 Lacedx-",
+    "qwen-2.5-vl-72b": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "20 iuſtam habere altitudinem murum.Timucrat enim ne à Lacedx-",
         "wer": 40.0,
         "cer": 6.451612903225806,
         "accuracy": 93.54838709677419,
         "time": 1.670015811920166
     },
-    "gpt-4.1-2025-04-14": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "20 iu\u017ftam habere altitudinem murum. Timucrat enim ne \u00e0 Laced\u00e6-",
+    "gpt-4.1": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Lacedæ-",
         "wer": 20.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 1.8117940425872803
     },
     "gpt-4o": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "20 iu\u017ftam habere altitudinem murum. Timucrat enim ne \u00e0 Laced\u00e6-",
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Lacedæ-",
         "wer": 20.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 3.5570390224456787
     },
-    "claude-sonnet-4-20250514": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "20 iu\u017ftam habere altitudinem murum, Timucrat enim ne \u00e0 Laced\u00e6-",
+    "claude-4-sonnet": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "20 iuſtam habere altitudinem murum, Timucrat enim ne à Lacedæ-",
         "wer": 30.0,
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 3.572059154510498
     },
-    "mistral-small-2506": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "iustam habere altitudinem murum. Timucrat enim ne \u00e0 Laced\u00e6",
+    "mistral-small": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "iustam habere altitudinem murum. Timucrat enim ne à Lacedæ",
         "wer": 40.0,
         "cer": 9.67741935483871,
         "accuracy": 90.32258064516128,
         "time": 4.132702112197876
     },
-    "claude-opus-4-20250514": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
+    "claude-4-opus": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
         "wer": 10.0,
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 4.1321632862091064
     },
     "gemini-2.5-flash": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "to iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6",
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "to iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ",
         "wer": 20.0,
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 6.704621076583862
     },
-    "o4-mini-2025-04-16": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "20 iu\u017ftam habere altitudinem m\u0304urum. Timucrat enim ne \u00e0 Laccda-",
+    "o4-mini": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "20 iuſtam habere altitudinem m̄urum. Timucrat enim ne à Laccda-",
         "wer": 40.0,
         "cer": 8.064516129032258,
         "accuracy": 92.06349206349206,
         "time": 22.78380584716797
     },
     "gemini-2.5-pro": {
-        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
-        "response": "to i\u00fa\u017ftam habere altitudinem m\u00farum. Tim\u00faerat enim ne \u00e0 Laced\u00e6",
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "to iúſtam habere altitudinem múrum. Timúerat enim ne à Lacedæ",
         "wer": 50.0,
         "cer": 9.67741935483871,
         "accuracy": 90.32258064516128,
         "time": 34.26889896392822
+    },
+    "horizon-alpha": {
+        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+        "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Lacedæ-",
+        "wer": 20.0,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 2.2744932174682617
     }
 }

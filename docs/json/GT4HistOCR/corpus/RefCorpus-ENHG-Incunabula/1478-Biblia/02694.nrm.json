@@ -1,54 +1,54 @@
 {
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
-        "response": "in \u00e9ren leue-vnde oek nv in deme dode en fint",
+    "qwen-2.5-vl-72b": {
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "response": "in éren leue-vnde oek nv in deme dode en fint",
         "wer": 41.66666666666667,
         "cer": 10.638297872340425,
         "accuracy": 89.36170212765957,
         "time": 1.707792043685913
     },
-    "mistral-small-2506": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
-        "response": "In \u00earen leue-vnde oek nu in deme d\u00f4de en fint.",
+    "mistral-small": {
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "response": "In êren leue-vnde oek nu in deme dôde en fint.",
         "wer": 66.66666666666666,
         "cer": 19.148936170212767,
         "accuracy": 82.97872340425532,
         "time": 1.7424566745758057
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
-        "response": "in \u0113ren leue-vnde o\u0113k in \u0303eitle doxe en fint",
+    "llama-4-maverick-17b": {
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "response": "in ēren leue-vnde oēk in ̃eitle doxe en fint",
         "wer": 75.0,
         "cer": 29.78723404255319,
         "accuracy": 74.46808510638297,
         "time": 1.7420759201049805
     },
-    "arcee-ai/spotlight": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+    "spotlight": {
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
         "response": "in eren leue-unde oek nu in deme dode en fint",
         "wer": 41.66666666666667,
         "cer": 12.76595744680851,
         "accuracy": 87.2340425531915,
         "time": 2.1191768646240234
     },
-    "gpt-4.1-2025-04-14": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
-        "response": "in eren leue\u204a vnde oek nv in demme dode en sint",
+    "gpt-4.1": {
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "response": "in eren leue⁊ vnde oek nv in demme dode en sint",
         "wer": 33.33333333333333,
         "cer": 8.51063829787234,
         "accuracy": 93.61702127659575,
         "time": 2.4042298793792725
     },
-    "claude-sonnet-4-20250514": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
-        "response": "in eren leue-vnde oek ny m deme dode en \u017fint",
+    "claude-4-sonnet": {
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "response": "in eren leue-vnde oek ny m deme dode en ſint",
         "wer": 41.66666666666667,
         "cer": 12.76595744680851,
         "accuracy": 87.2340425531915,
         "time": 3.357267141342163
     },
-    "claude-opus-4-20250514": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+    "claude-4-opus": {
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
         "response": "in eren leue vnde ock nu in deme dode en fint",
         "wer": 33.33333333333333,
         "cer": 10.638297872340425,
@@ -56,8 +56,8 @@
         "time": 4.504442930221558
     },
     "gemini-2.5-flash": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
-        "response": "\u201din eren leue-rn\u017fc\u00eb ock no m denne dode en \u017fuit",
+        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "response": "”in eren leue-rnſcë ock no m denne dode en ſuit",
         "wer": 75.0,
         "cer": 34.04255319148936,
         "accuracy": 74.46808510638297,

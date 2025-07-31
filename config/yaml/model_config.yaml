@@ -76,6 +76,14 @@ models:
   enabled: false
   api_key_env: OPENROUTER_API_KEY
 - provider: OpenRouter
+  id: mistralai/mistral-small-3.2-24b-instruct:free
+  enabled: false
+  api_key_env: OPENROUTER_API_KEY
+- provider: OpenRouter
+  id: moonshotai/kimi-vl-a3b-thinking:free
+  enabled: false
+  api_key_env: OPENROUTER_API_KEY
+- provider: OpenRouter
   id: openrouter/horizon-alpha
   enabled: true
   api_key_env: OPENROUTER_API_KEY

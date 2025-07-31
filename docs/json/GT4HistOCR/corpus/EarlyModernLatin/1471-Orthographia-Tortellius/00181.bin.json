@@ -1,5 +1,5 @@
 {
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo nó momordi cum o:fed cúememordi dicebant.Q.Ennius in Satyris meú",
         "wer": 73.33333333333333,
@@ -7,7 +7,7 @@
         "accuracy": 86.8421052631579,
         "time": 1.643531084060669
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo no momordi cum o:fed cui ememordi dicebant.Q. Ennius in Satyrs mei",
         "wer": 66.66666666666666,
@@ -15,7 +15,7 @@
         "accuracy": 88.1578947368421,
         "time": 1.6713321208953857
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo nō momordi cum o:ſed cũ ememordi dicebant. Q. Ennius in ſatyris meū",
         "wer": 40.0,
@@ -31,7 +31,7 @@
         "accuracy": 92.10526315789474,
         "time": 2.2363719940185547
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo nō momordi cum o: ſed cū ememordi dicebant. Q. Ennius in ſatyris meū",
         "wer": 33.33333333333333,
@@ -39,7 +39,7 @@
         "accuracy": 94.73684210526315,
         "time": 2.3934590816497803
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo nó momordi cum o:sed cúememordi dicebant.Q.Ennius in fatyrıs meu",
         "wer": 73.33333333333333,
@@ -47,7 +47,7 @@
         "accuracy": 85.52631578947368,
         "time": 2.9701356887817383
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo nō momordi cum o: ſed cū e memordi dicebant. Q. Ennius in ſatyris meū",
         "wer": 20.0,
@@ -55,7 +55,7 @@
         "accuracy": 96.05263157894737,
         "time": 4.088431119918823
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris metrũ",
         "wer": 6.666666666666667,
@@ -71,7 +71,7 @@
         "accuracy": 88.1578947368421,
         "time": 6.679020166397095
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
         "response": "mordeo nō momordi cum o:ſed cū ememordi dicebant. Q. Ennius in ſatyris meui",
         "wer": 46.666666666666664,
@@ -86,5 +86,13 @@
         "cer": 6.578947368421052,
         "accuracy": 93.42105263157895,
         "time": 42.712069034576416
+    },
+    "horizon-alpha": {
+        "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+        "response": "mordeo nō momordi cum o: ſed cũ ememordi dicebant. Q. Ennius in ſatyris meũ",
+        "wer": 20.0,
+        "cer": 2.631578947368421,
+        "accuracy": 97.36842105263158,
+        "time": 2.4737870693206787
     }
 }

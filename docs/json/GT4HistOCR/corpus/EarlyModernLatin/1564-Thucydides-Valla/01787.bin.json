@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "fuerunt.",
         "response": "fuerunt",
         "wer": 100.0,
@@ -7,7 +7,7 @@
         "accuracy": 87.5,
         "time": 0.9622929096221924
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "fuerunt.",
         "response": "fuerunt.",
         "wer": 0.0,
@@ -15,7 +15,7 @@
         "accuracy": 100.0,
         "time": 1.034377098083496
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "fuerunt.",
         "response": "fuerung,",
         "wer": 100.0,
@@ -23,7 +23,7 @@
         "accuracy": 75.0,
         "time": 1.1636929512023926
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "fuerunt.",
         "response": "fuerung,",
         "wer": 100.0,
@@ -31,7 +31,7 @@
         "accuracy": 75.0,
         "time": 1.2712817192077637
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "fuerunt.",
         "response": "fuerunt.",
         "wer": 0.0,
@@ -41,13 +41,13 @@
     },
     "gpt-4o": {
         "gt": "fuerunt.",
-        "response": "\u017fuerunt",
+        "response": "ſuerunt",
         "wer": 100.0,
         "cer": 25.0,
         "accuracy": 75.0,
         "time": 1.8079752922058105
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "fuerunt.",
         "response": "fuerunt",
         "wer": 100.0,
@@ -63,7 +63,7 @@
         "accuracy": 87.5,
         "time": 3.5138282775878906
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "fuerunt.",
         "response": "fuerunt",
         "wer": 100.0,
@@ -79,12 +79,20 @@
         "accuracy": 87.5,
         "time": 10.972831010818481
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "fuerunt.",
         "response": "fuerunt",
         "wer": 100.0,
         "cer": 12.5,
         "accuracy": 87.5,
         "time": 10.949646949768066
+    },
+    "horizon-alpha": {
+        "gt": "fuerunt.",
+        "response": "ſucrunt,",
+        "wer": 100.0,
+        "cer": 37.5,
+        "accuracy": 62.5,
+        "time": 1.8181180953979492
     }
 }

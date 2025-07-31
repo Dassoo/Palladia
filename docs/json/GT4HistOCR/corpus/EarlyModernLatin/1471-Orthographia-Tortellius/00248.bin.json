@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "uero ſibi hoc nomen datum fuit:quod apud æoles prius habebat:uidelicet .uau.",
         "wer": 38.46153846153847,
@@ -7,7 +7,7 @@
         "accuracy": 96.15384615384616,
         "time": 1.4260296821594238
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "vero ſibi hoc nomen datum fuit: quod apud æthiopes prius habebat: videlicet. vau.",
         "wer": 30.76923076923077,
@@ -15,7 +15,7 @@
         "accuracy": 91.35802469135803,
         "time": 1.5519301891326904
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "uero sibi hoc nomen datum fuit:quod apudæoles prius habebat:uidelicit.uau.",
         "wer": 61.53846153846154,
@@ -23,7 +23,7 @@
         "accuracy": 92.3076923076923,
         "time": 1.7024760246276855
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habear: uidelicet .uau.",
         "wer": 23.076923076923077,
@@ -39,7 +39,7 @@
         "accuracy": 98.73417721518987,
         "time": 2.716597080230713
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "uero ſibi hoc nomen datum fuit:quod apud xoles prius habebat:uidelicet.uau.",
         "wer": 46.15384615384615,
@@ -47,7 +47,7 @@
         "accuracy": 94.87179487179486,
         "time": 3.6143181324005127
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet .uau.",
         "wer": 15.384615384615385,
@@ -63,7 +63,7 @@
         "accuracy": 93.58974358974359,
         "time": 4.189067125320435
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet .uau.",
         "wer": 15.384615384615385,
@@ -71,7 +71,7 @@
         "accuracy": 98.71794871794873,
         "time": 4.881493091583252
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
         "response": "uero ſibi hoc nomen datum fuit: quod apudæoles prius habebatur: udelicet . uau.",
         "wer": 38.46153846153847,
@@ -86,5 +86,13 @@
         "cer": 3.8461538461538463,
         "accuracy": 96.15384615384616,
         "time": 45.327152252197266
+    },
+    "horizon-alpha": {
+        "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
+        "response": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet .uau.",
+        "wer": 15.384615384615385,
+        "cer": 2.564102564102564,
+        "accuracy": 98.71794871794873,
+        "time": 2.4242238998413086
     }
 }

@@ -55,7 +55,9 @@ async def run_model(agent, model, executor, image_path: str):
     wer, cer = get_metrics(gt, response.content)
     
     # Print results for each image
-    console.print(Text(f"\n(🤖) {model.id}", style="bold blue"))
+    from models.model_utils import get_model_display_name
+    display_name = get_model_display_name(model.id)
+    console.print(Text(f"\n(🤖) {display_name}", style="bold blue"))
     pprint_run_response(response)
     console.print(diff)
     console.print(Text(f"WER: {wer:.2%}", style="bold cyan")) # Word error rate (Jiwer)
@@ -66,13 +68,15 @@ async def run_model(agent, model, executor, image_path: str):
     
     to_json(model, gt, response, wer, cer, accuracy, exec_time, image_path)
     
-    return (model.id, wer, cer, accuracy, exec_time)
+    from models.model_utils import get_model_display_name
+    return (get_model_display_name(model.id), wer, cer, accuracy, exec_time)
     
 
 async def run_all(image_paths: list[str], source: str):
     """Run all models on a list of images and calculate average metrics."""
     # Create all agents once at startup
-    agents = {model.id: create_agent(model) for model in to_eval}
+    from models.model_utils import get_model_display_name
+    agents = {get_model_display_name(model.id): create_agent(model) for model in to_eval}
     
     # Initialize metrics tracking
     metrics = {
@@ -89,7 +93,7 @@ async def run_all(image_paths: list[str], source: str):
     for image_path in image_paths:
         console.print(Text(f"\nProcessing image: {image_path}", style="dim"))
         executor = ThreadPoolExecutor()
-        tasks = [run_model(agents[model.id], model, executor, image_path) for model in to_eval]
+        tasks = [run_model(agents[get_model_display_name(model.id)], model, executor, image_path) for model in to_eval]
         for task in asyncio.as_completed(tasks):
             model_id, wer, cer, accuracy, exec_time = await task
             # Update metrics
@@ -124,6 +128,45 @@ async def run_all(image_paths: list[str], source: str):
             console.print(Text("_"*80, style="dim"))
 
 
+def select_images_with_priority(source: str, all_images: list[str], images_to_process: int, prioritize_scanned: bool) -> list[str]:
+    """Select images with optional prioritization for already scanned images."""
+    if not prioritize_scanned:
+        # Random selection
+        return random.sample(all_images, images_to_process)
+    
+    # Find images that have already been scanned (with existing JSON results)
+    output_folder = Path("docs/json") / source
+    scanned_images = []
+    unscanned_images = []
+    
+    for img in all_images:
+        img_name = Path(img).stem
+        json_file = output_folder / f"{img_name}.json"
+        
+        if json_file.exists():
+            scanned_images.append(img)
+        else:
+            unscanned_images.append(img)
+    
+    # Images with priority
+    selected_images = []
+    
+    # Add scanned images up to the requested count
+    if scanned_images:
+        scanned_to_add = min(len(scanned_images), images_to_process)
+        selected_images.extend(random.sample(scanned_images, scanned_to_add))
+        console.print(Text(f"Selected {scanned_to_add} previously scanned images", style="dim cyan"))
+    
+    # If exceeding the requested count, add unscanned images
+    remaining_needed = images_to_process - len(selected_images)
+    if remaining_needed > 0 and unscanned_images:
+        unscanned_to_add = min(len(unscanned_images), remaining_needed)
+        selected_images.extend(random.sample(unscanned_images, unscanned_to_add))
+        console.print(Text(f"Selected {unscanned_to_add} unscanned images", style="dim cyan"))
+    
+    return selected_images
+
+
 def main():
     # Check if we have any models to evaluate
     if not to_eval:
@@ -135,6 +178,7 @@ def main():
         input_cfg = app_config.input_config.input[0]
         source = input_cfg.path
         images_to_process = input_cfg.images_to_process
+        prioritize_scanned = getattr(input_cfg, 'prioritize_scanned', False)
     except Exception as e:
         console.print(f"❌ Configuration error: {e}", style="bold red")
         return
@@ -149,14 +193,18 @@ def main():
         console.print(Text(f"Warning: Only {len(all_images)} images available, processing all of them", style="yellow"))
         images_to_process = len(all_images)
     
-    # Select random non-repeating images
-    image_paths = [os.path.join(source, img) for img in random.sample(all_images, images_to_process)]
+    # Select images with optional prioritization
+    selected_images = select_images_with_priority(source, all_images, images_to_process, prioritize_scanned)
+    image_paths = [os.path.join(source, img) for img in selected_images]
     output_folder = "docs/json/" + source
+    
+    if prioritize_scanned:
+        console.print(Text(f"\nPrioritization enabled: selecting scanned images first", style="dim cyan"))
     
     console.print(Text(f"\nEvaluating {len(to_eval)} models across {len(image_paths)} images...", style="dim"))
     
     try:
-        # Run the whole process
+        # Run the whole benchmark process
         asyncio.run(run_all(image_paths, source))
         
         # Creating json report

@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. xij. de",
         "wer": 7.142857142857142,
@@ -7,7 +7,7 @@
         "accuracy": 96.25,
         "time": 1.4033310413360596
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud græcos & nostros. Nam cum apud eos teſte Quintiliano libro.xii.de",
         "wer": 28.57142857142857,
@@ -15,7 +15,7 @@
         "accuracy": 92.5,
         "time": 1.537489891052246
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud graecos & nostros. Nam cum apud eos teste Quintiliano libro.xii.de",
         "wer": 42.857142857142854,
@@ -23,7 +23,7 @@
         "accuracy": 90.0,
         "time": 1.6853656768798828
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud graecos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii. de",
         "wer": 14.285714285714285,
@@ -39,7 +39,7 @@
         "accuracy": 93.75,
         "time": 2.031078815460205
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii. de",
         "wer": 7.142857142857142,
@@ -47,7 +47,7 @@
         "accuracy": 96.25,
         "time": 3.8708717823028564
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud graecos & nostros.Nam cum apud eos teſte Quintiliano libro.xii.de",
         "wer": 42.857142857142854,
@@ -55,7 +55,7 @@
         "accuracy": 90.0,
         "time": 4.159491062164307
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii. de",
         "wer": 7.142857142857142,
@@ -79,12 +79,20 @@
         "accuracy": 93.75,
         "time": 10.796375751495361
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
         "response": "ratione apud graecos & noſtros. Nam cum apud eos teſte Quintiliano libro.xii.de",
         "wer": 28.57142857142857,
         "cer": 8.75,
         "accuracy": 92.5,
         "time": 43.06023192405701
+    },
+    "horizon-alpha": {
+        "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+        "response": "ratione apud graecos & noſtros. Nam cum apud eos teſte Quintiliano libro.xii.de",
+        "wer": 28.57142857142857,
+        "cer": 8.75,
+        "accuracy": 92.5,
+        "time": 2.3989691734313965
     }
 }

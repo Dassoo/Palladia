@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus afpiratione: nec eam plenam poffidet: ut ſimili modo de b & d eſſe",
         "wer": 14.285714285714285,
@@ -7,7 +7,7 @@
         "accuracy": 95.94594594594594,
         "time": 1.6270568370819092
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus aſpiratione: nec eam plenam poſsidet: ut ſimili modo deb & deſse",
         "wer": 35.714285714285715,
@@ -15,7 +15,7 @@
         "accuracy": 94.5945945945946,
         "time": 1.688425064086914
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus aspiratione:nec eam plenam possidet:ut simili modo deb & deſſe",
         "wer": 64.28571428571429,
@@ -31,7 +31,7 @@
         "accuracy": 100.0,
         "time": 3.0085880756378174
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus aſpiratione: nec eam plenam poſsidet: ut ſimili modo de b & d eſſe",
         "wer": 7.142857142857142,
@@ -39,7 +39,7 @@
         "accuracy": 98.64864864864865,
         "time": 3.1815030574798584
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus aspiratione:nec eam plenam possidet:ut simili modo de b & d esse",
         "wer": 42.857142857142854,
@@ -47,7 +47,7 @@
         "accuracy": 89.1891891891892,
         "time": 4.245202302932739
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "wer": 0.0,
@@ -63,7 +63,7 @@
         "accuracy": 100.0,
         "time": 6.7560529708862305
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "wer": 0.0,
@@ -71,7 +71,7 @@
         "accuracy": 100.0,
         "time": 7.4217259883880615
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
         "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & deſſe",
         "wer": 14.285714285714285,
@@ -86,5 +86,13 @@
         "cer": 2.7027027027027026,
         "accuracy": 97.2972972972973,
         "time": 34.44007420539856
+    },
+    "horizon-alpha": {
+        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+        "response": "penitus aſpiratione: nec eam plenam, poſſidet: ut ſimili modo de b & d eſſe",
+        "wer": 7.142857142857142,
+        "cer": 1.3513513513513513,
+        "accuracy": 98.66666666666667,
+        "time": 2.4665751457214355
     }
 }

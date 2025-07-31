@@ -85,7 +85,11 @@ class ConfigLoader:
         if enabled:
             console.print(Text(f"✅ {len(enabled)} model(s) enabled for evaluation:", style="bold green"))
             for model in enabled:
-                console.print(Text(f"  • {model.provider}/{model.id}", style="green"))
+                display_name = model.display_name
+                if display_name != model.id:
+                    console.print(Text(f"  • {model.provider}/{display_name} (ID: {model.id})", style="green"))
+                else:
+                    console.print(Text(f"  • {model.provider}/{model.id}", style="green"))
         else:
             console.print(Text("⚠️  No models enabled for evaluation", style="bold yellow"))
         

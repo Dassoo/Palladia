@@ -1,90 +1,98 @@
 {
-    "arcee-ai/spotlight": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur,tcnuit:&insularumCycladumdominus,primusinear\u00faple-",
+    "spotlight": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur,tcnuit:&insularumCycladumdominus,primusinearúple-",
         "wer": 100.0,
         "cer": 19.35483870967742,
         "accuracy": 80.64516129032258,
         "time": 1.5523228645324707
     },
-    "mistral-small-2506": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur, \u017fcnuuit: & in\u017fularum Cycladum dominus, primus in ear\u016d ple-",
+    "mistral-small": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur, ſcnuuit: & inſularum Cycladum dominus, primus in earŭ ple-",
         "wer": 20.0,
         "cer": 6.451612903225806,
         "accuracy": 93.65079365079364,
         "time": 1.582524299621582
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur,tenuit:& insularum Cycladum dominus,primus in ear\u0169 ple-",
+    "qwen-2.5-vl-72b": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur,tenuit:& insularum Cycladum dominus,primus in earũ ple-",
         "wer": 60.0,
         "cer": 6.451612903225806,
         "accuracy": 93.54838709677419,
         "time": 1.5908288955688477
     },
     "gpt-4o": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple.",
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple.",
         "wer": 10.0,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 1.6613588333129883
     },
-    "gpt-4.1-2025-04-14": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur, tenuit: & insularum Cycladum dominus, primus in ear\u016b ple,",
+    "gpt-4.1": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur, tenuit: & insularum Cycladum dominus, primus in earū ple,",
         "wer": 30.0,
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 1.721785068511963
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur,tcnuit:&X in\u017fularum Cycladum dominus,primus in ear\u016b ple-",
+    "llama-4-maverick-17b": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur,tcnuit:&X inſularum Cycladum dominus,primus in earū ple-",
         "wer": 60.0,
         "cer": 9.67741935483871,
         "accuracy": 91.93548387096774,
         "time": 1.835771083831787
     },
-    "claude-sonnet-4-20250514": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
+    "claude-4-sonnet": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.5820071697235107
     },
     "gemini-2.5-flash": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur, tenu\u00eft: & infular\u016b Cycladum dominus,primus in car\u0169 ple",
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur, tenuït: & infularū Cycladum dominus,primus in carũ ple",
         "wer": 60.0,
         "cer": 11.29032258064516,
         "accuracy": 88.70967741935483,
         "time": 6.548022031784058
     },
-    "claude-opus-4-20250514": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur,tenuit: & in\u017fularum Cycladum dominus,primus in ear\u0169 ple-",
+    "claude-4-opus": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur,tenuit: & inſularum Cycladum dominus,primus in earũ ple-",
         "wer": 40.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 10.873832941055298
     },
-    "o4-mini-2025-04-16": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur,tenuit: & in\u017fularium Cycladum dominus,primus in ear\u0169 ple-",
+    "o4-mini": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur,tenuit: & inſularium Cycladum dominus,primus in earũ ple-",
         "wer": 50.0,
         "cer": 4.838709677419355,
         "accuracy": 96.7741935483871,
         "time": 15.332464218139648
     },
     "gemini-2.5-pro": {
-        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
-        "response": "tur, tenuit: \u204a in\u017fularum Cycladum dominus, primus in caru\u0303 ple-",
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur, tenuit: ⁊ inſularum Cycladum dominus, primus in carũ ple-",
         "wer": 20.0,
         "cer": 6.451612903225806,
         "accuracy": 93.65079365079364,
         "time": 60.35723924636841
+    },
+    "horizon-alpha": {
+        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+        "response": "tur,tenuit: & insularum Cycladum dominus,primus in earū ple,",
+        "wer": 70.0,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 2.62925386428833
     }
 }

@@ -129,6 +129,7 @@ class ModelManager:
         # Initialize input configuration variables
         self.dataset_path = tk.StringVar()
         self.images_count = tk.IntVar()
+        self.prioritize_scanned = tk.BooleanVar()
         self.load_input_config()
         
         # Create UI
@@ -173,17 +174,21 @@ class ModelManager:
                     first_input = input_config['input'][0]
                     self.dataset_path.set(first_input.get('path', ''))
                     self.images_count.set(first_input.get('images_to_process', 3))
+                    self.prioritize_scanned.set(first_input.get('prioritize_scanned', False))
                 else:
                     self.dataset_path.set('')
                     self.images_count.set(3)
+                    self.prioritize_scanned.set(False)
         except FileNotFoundError:
             # Set defaults if file doesn't exist
             self.dataset_path.set('')
             self.images_count.set(3)
+            self.prioritize_scanned.set(False)
         except Exception as e:
             messagebox.showerror("Input Config Error", f"Failed to load input configuration:\n{str(e)}")
             self.dataset_path.set('')
             self.images_count.set(3)
+            self.prioritize_scanned.set(False)
 
     def save_config(self):
         """Save both model and input configurations."""
@@ -209,7 +214,8 @@ class ModelManager:
         input_config = {
             'input': [{
                 'path': self.dataset_path.get(),
-                'images_to_process': self.images_count.get()
+                'images_to_process': self.images_count.get(),
+                'prioritize_scanned': self.prioritize_scanned.get()
             }]
         }
         
@@ -265,6 +271,14 @@ class ModelManager:
                     text=f"✗ Error: {str(e)}",
                     foreground='#e57373'
                 )
+    
+    def update_selection_help_text(self):
+        """Update the help text based on prioritization setting."""
+        if hasattr(self, 'count_help'):
+            if self.prioritize_scanned.get():
+                self.count_help.config(text="(Prioritizes scanned images, then random)")
+            else:
+                self.count_help.config(text="(Random selection from available images)")
     
     def create_dataset_section(self, parent):
         """Create the dataset configuration section."""
@@ -371,13 +385,36 @@ class ModelManager:
         count_spinbox.pack(side=tk.LEFT, padx=(0, 10))
         
         # Count help text
-        count_help = ttk.Label(
+        self.count_help = ttk.Label(
             count_input_frame,
             text="(Random selection from available images)",
             font=self.small_font,
             foreground='#b0b0b0'
         )
-        count_help.pack(side=tk.LEFT)
+        self.count_help.pack(side=tk.LEFT)
+        
+        # Prioritization section
+        priority_section = ttk.Frame(dataset_frame)
+        priority_section.pack(fill=tk.X, pady=(15, 0))
+        
+        # Priority checkbox
+        priority_checkbox = ttk.Checkbutton(
+            priority_section,
+            text="Prioritize images that have already been scanned",
+            variable=self.prioritize_scanned,
+            style='TCheckbutton',
+            command=self.update_selection_help_text
+        )
+        priority_checkbox.pack(anchor='w')
+        
+        # Priority help text
+        priority_help = ttk.Label(
+            priority_section,
+            text="When enabled, images with existing JSON results will be selected first, then random images",
+            font=self.small_font,
+            foreground='#b0b0b0'
+        )
+        priority_help.pack(anchor='w', pady=(2, 0))
         
         # Validate initial dataset if path exists
         if self.dataset_path.get():

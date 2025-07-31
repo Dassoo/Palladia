@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "DE Littera C.",
         "response": "DE Litera C.",
         "wer": 33.33333333333333,
@@ -7,7 +7,7 @@
         "accuracy": 92.3076923076923,
         "time": 1.1342639923095703
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "DE Littera C.",
         "response": "DE Littera C.",
         "wer": 0.0,
@@ -15,7 +15,7 @@
         "accuracy": 100.0,
         "time": 1.1973841190338135
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "DE Littera C.",
         "response": "DE Littera C.",
         "wer": 0.0,
@@ -23,7 +23,7 @@
         "accuracy": 100.0,
         "time": 1.256587028503418
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "DE Littera C.",
         "response": "DE Littera C.",
         "wer": 0.0,
@@ -39,7 +39,7 @@
         "accuracy": 100.0,
         "time": 1.9269168376922607
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "DE Littera C.",
         "response": "DE Littera C.",
         "wer": 0.0,
@@ -55,7 +55,7 @@
         "accuracy": 100.0,
         "time": 2.5446388721466064
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "DE Littera C.",
         "response": "DE Littera C.",
         "wer": 0.0,
@@ -63,7 +63,7 @@
         "accuracy": 100.0,
         "time": 2.7184019088745117
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "DE Littera C.",
         "response": "DE Littera C.",
         "wer": 0.0,
@@ -71,7 +71,7 @@
         "accuracy": 100.0,
         "time": 3.408715009689331
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "DE Littera C.",
         "response": "DE Littera G.",
         "wer": 33.33333333333333,
@@ -87,12 +87,12 @@
         "accuracy": 100.0,
         "time": 5.240396976470947
     },
-    "openrouter/horizon-alpha": {
+    "horizon-alpha": {
         "gt": "DE Littera C.",
         "response": "DE Littera C.",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
-        "time": 1.8851063251495361
+        "time": 5.396496057510376
     }
 }

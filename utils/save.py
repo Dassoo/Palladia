@@ -1,3 +1,5 @@
+from models.model_utils import get_model_display_name
+
 import json
 import os
 from pathlib import Path
@@ -39,11 +41,15 @@ def to_json(model, gt: str, response, wer: float, cer: float,
         exec_time: Execution time in seconds
         image_path: Path to the evaluated image (e.g., 'GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00001.bin.png')
     """
+    
     path = Path(image_path)
     file_path = Path("docs/json") / path.parent / f"{path.stem}.json"
     
+    # Use standardized display name instead of raw model ID
+    display_name = get_model_display_name(model.id)
+    
     data = {
-        model.id: {
+        display_name: {
             "gt": gt,
             "response": response.content,
             "wer": wer * 100,
@@ -77,9 +83,7 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
         'time': []
     })
     
-    # Read all JSON files in the folder
     json_files = list(folder_path.glob("*.json"))
-    
     if not json_files:
         raise ValueError(f"No JSON files found in {folder_path}")
     

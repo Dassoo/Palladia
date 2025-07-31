@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "referente auctore nos .m.quaf mugiente littęra cludimus:qua nullū grace uerbū",
         "wer": 75.0,
@@ -7,7 +7,7 @@
         "accuracy": 90.0,
         "time": 1.3183872699737549
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "referente auctore nos .m. quasi mugiente littera cludimus : qua nullũ graece uerbũ",
         "wer": 50.0,
@@ -15,7 +15,7 @@
         "accuracy": 93.90243902439023,
         "time": 1.7163219451904297
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "referente auctore nos.m.quaſi mugiente,\nlittĕra cludimus: qua nullũ græce uerbū",
         "wer": 50.0,
@@ -23,7 +23,7 @@
         "accuracy": 93.75,
         "time": 2.0986499786376953
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "referente auctore nos m. quali mugiente littera cludimus: qua nullū græce uerbum",
         "wer": 33.33333333333333,
@@ -39,7 +39,7 @@
         "accuracy": 93.97590361445783,
         "time": 2.903266191482544
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "referente auctore nos .m. quaſi mugiente littera cludimus : qua nullū græcæ verbu",
         "wer": 58.333333333333336,
@@ -47,7 +47,7 @@
         "accuracy": 92.5925925925926,
         "time": 4.236459970474243
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "referente auctore nos .m. quaſi mugiente litteram cludimus : qua nullũ græce uerbũ",
         "wer": 41.66666666666667,
@@ -55,7 +55,7 @@
         "accuracy": 96.34146341463415,
         "time": 4.898844003677368
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "referente aućtore nos .m.quasi mugiente littéra cludimus :qua nullũ grace uerbũ",
         "wer": 66.66666666666666,
@@ -71,7 +71,7 @@
         "accuracy": 93.75,
         "time": 8.052352905273438
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
         "response": "reſferente auctore nos .m.quasi mugiente littera cludimus : qua nullū græce uerbi",
         "wer": 66.66666666666666,
@@ -86,5 +86,13 @@
         "cer": 6.25,
         "accuracy": 93.97590361445783,
         "time": 50.490626096725464
+    },
+    "horizon-alpha": {
+        "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
+        "response": "referente auctore nos·m·quaſi mugiente littera cludimus: quia nullū græce uerbú",
+        "wer": 50.0,
+        "cer": 8.75,
+        "accuracy": 92.5,
+        "time": 2.4645121097564697
     }
 }

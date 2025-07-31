@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perfeqt: & inep rū qd refpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "wer": 38.46153846153847,
@@ -7,7 +7,7 @@
         "accuracy": 91.35802469135803,
         "time": 1.481445074081421
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perfect: & ineptū qd respectu ſoni quod apud illos ex digāma reſultabat: efflare",
         "wer": 38.46153846153847,
@@ -15,7 +15,7 @@
         "accuracy": 91.35802469135803,
         "time": 1.7084770202636719
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perfeqt:& ineptũ qd respectu ſoni quod apud illos ex digãma resultabat:efflare",
         "wer": 46.15384615384615,
@@ -23,7 +23,7 @@
         "accuracy": 90.12345679012346,
         "time": 2.118772029876709
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perfeqti:& ineptū qd respectu ſoni quod apud illos ex digāma reſultabat:efflare",
         "wer": 61.53846153846154,
@@ -31,7 +31,7 @@
         "accuracy": 88.88888888888889,
         "time": 2.5198872089385986
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perfeqt:& ineptũ qd respectu foni quod apud illos ex digāma resultabat:efflare",
         "wer": 61.53846153846154,
@@ -47,7 +47,7 @@
         "accuracy": 91.56626506024097,
         "time": 3.8144588470458984
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perſeqſ: & ineptū qd reſpectū ſoni quod apud illos ex digāma reſultabat: eſſlare",
         "wer": 46.15384615384615,
@@ -55,7 +55,7 @@
         "accuracy": 88.88888888888889,
         "time": 4.369351863861084
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perſeqt̃: & ineptũ qd̃ reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "wer": 15.384615384615385,
@@ -71,7 +71,7 @@
         "accuracy": 88.88888888888889,
         "time": 10.826082229614258
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
         "response": "perſeq̄t̄: & ineptū qd reſpectu ſoni quod apud illos ex digama resultabat: efflare",
         "wer": 38.46153846153847,
@@ -86,5 +86,13 @@
         "cer": 8.641975308641975,
         "accuracy": 92.5925925925926,
         "time": 87.69776391983032
+    },
+    "horizon-alpha": {
+        "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+        "response": "perfect: & ineptū qd respectu ſoni quod apud illos ex digāmā reſultabat: efflare",
+        "wer": 38.46153846153847,
+        "cer": 9.876543209876543,
+        "accuracy": 90.12345679012346,
+        "time": 2.5023701190948486
     }
 }

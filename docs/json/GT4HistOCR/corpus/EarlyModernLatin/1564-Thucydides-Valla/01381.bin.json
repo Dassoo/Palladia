@@ -1,90 +1,98 @@
 {
-    "mistral-small-2506": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria, nec eos ultum ire differemus, cum ipforum non differatur ini\u016b",
+    "mistral-small": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria, nec eos ultum ire differemus, cum ipforum non differatur iniū",
         "wer": 27.27272727272727,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 1.3143599033355713
     },
-    "arcee-ai/spotlight": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria, nec cos ultum ire differemus, c\u00f9m \u00edpsorum non differatur ini\u00fa",
+    "spotlight": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria, nec cos ultum ire differemus, cùm ípsorum non differatur iniú",
         "wer": 27.27272727272727,
         "cer": 6.0606060606060606,
         "accuracy": 93.93939393939394,
         "time": 1.312363862991333
     },
     "gpt-4o": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniui-",
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniui-",
         "wer": 9.090909090909092,
         "cer": 3.0303030303030303,
         "accuracy": 97.05882352941177,
         "time": 1.588238000869751
     },
-    "gpt-4.1-2025-04-14": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
+    "gpt-4.1": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.6671087741851807
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria,nec eos ultum ire differemus,c\u00f9m \u00edpforum non differatur iniu",
+    "qwen-2.5-vl-72b": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria,nec eos ultum ire differemus,cùm ípforum non differatur iniu",
         "wer": 45.45454545454545,
         "cer": 6.0606060606060606,
         "accuracy": 93.93939393939394,
         "time": 2.245880126953125
     },
-    "claude-sonnet-4-20250514": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria,nec eos ultum ire differemus,c\u00f9m ip\u017forum non differatur iniu",
+    "claude-4-sonnet": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria,nec eos ultum ire differemus,cùm ipſorum non differatur iniu",
         "wer": 36.36363636363637,
         "cer": 3.0303030303030303,
         "accuracy": 96.96969696969697,
         "time": 3.5134220123291016
     },
-    "claude-opus-4-20250514": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria,nec eos ultum ire differemus,c\u00f9m ip\u017forum non differatur iniu",
+    "claude-4-opus": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria,nec eos ultum ire differemus,cùm ipſorum non differatur iniu",
         "wer": 36.36363636363637,
         "cer": 3.0303030303030303,
         "accuracy": 96.96969696969697,
         "time": 4.149942874908447
     },
     "gemini-2.5-flash": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria,nec eos ultum \u00edre differemus, c\u00fam \u017fp\u017forum non differatur ini\u00f9",
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria,nec eos ultum íre differemus, cúm ſpſorum non differatur iniù",
         "wer": 54.54545454545454,
         "cer": 7.575757575757576,
         "accuracy": 92.42424242424242,
         "time": 4.3730690479278564
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria,nec cos ultum ire differemus,c\u00f9m ip\u017forum non differatur iniu",
+    "llama-4-maverick-17b": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria,nec cos ultum ire differemus,cùm ipſorum non differatur iniu",
         "wer": 45.45454545454545,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 7.548137903213501
     },
-    "o4-mini-2025-04-16": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria,nec co\u017fultum ire differemus,c\u00f9m \u00edp\u017forum non differatur initium",
+    "o4-mini": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria,nec coſultum ire differemus,cùm ípſorum non differatur initium",
         "wer": 72.72727272727273,
         "cer": 13.636363636363635,
         "accuracy": 90.9090909090909,
         "time": 13.867545127868652
     },
     "gemini-2.5-pro": {
-        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
-        "response": "ria, nec cos ultum \u00edre differemus, c\u00f9m \u00edp\u017forum non differatur iniu",
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria, nec cos ultum íre differemus, cùm ípſorum non differatur iniu",
         "wer": 27.27272727272727,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 34.799736976623535
+    },
+    "horizon-alpha": {
+        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+        "response": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniui",
+        "wer": 9.090909090909092,
+        "cer": 1.5151515151515151,
+        "accuracy": 98.50746268656717,
+        "time": 2.3927881717681885
     }
 }

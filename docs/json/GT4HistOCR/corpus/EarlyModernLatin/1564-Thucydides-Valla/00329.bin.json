@@ -1,90 +1,98 @@
 {
-    "arcee-ai/spotlight": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "fi Athenien\u017fes aduersus Potid\u00e6am irent, fe Atticam inuasuros,",
+    "spotlight": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "fi Athenienſes aduersus Potidæam irent, fe Atticam inuasuros,",
         "wer": 50.0,
         "cer": 6.557377049180328,
         "accuracy": 93.44262295081968,
         "time": 1.2239501476287842
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inuafuros,",
+    "llama-4-maverick-17b": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuafuros,",
         "wer": 12.5,
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 1.263556957244873
     },
-    "mistral-small-2506": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos.",
+    "mistral-small": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros.",
         "wer": 25.0,
         "cer": 6.557377049180328,
         "accuracy": 93.44262295081968,
         "time": 1.3430767059326172
     },
-    "gpt-4.1-2025-04-14": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
+    "gpt-4.1": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.5641636848449707
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inuafuros,",
+    "qwen-2.5-vl-72b": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuafuros,",
         "wer": 12.5,
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 1.81343412399292
     },
     "gpt-4o": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Atheni\u00ean\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos;",
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Atheniênſes aduerſus Potidæam irent, ſe Atticam inuaſuros;",
         "wer": 25.0,
         "cer": 3.278688524590164,
         "accuracy": 96.72131147540983,
         "time": 2.3572757244110107
     },
-    "claude-opus-4-20250514": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos.",
+    "claude-4-opus": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros.",
         "wer": 12.5,
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 4.220198154449463
     },
     "gemini-2.5-flash": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduerfus Potid\u00e6am irent,\u017fc Atticam inuafuros,",
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerfus Potidæam irent,ſc Atticam inuafuros,",
         "wer": 50.0,
         "cer": 6.557377049180328,
         "accuracy": 93.44262295081968,
         "time": 4.225625991821289
     },
-    "claude-sonnet-4-20250514": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
+    "claude-4-sonnet": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 11.491648197174072
     },
     "gemini-2.5-pro": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam \u00ednua\u017furos,",
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam ínuaſuros,",
         "wer": 12.5,
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 12.645709991455078
     },
-    "o4-mini-2025-04-16": {
-        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
-        "response": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
+    "o4-mini": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 13.134608268737793
+    },
+    "horizon-alpha": {
+        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+        "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuafuros,",
+        "wer": 12.5,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 3.2410359382629395
     }
 }

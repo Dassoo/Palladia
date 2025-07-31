@@ -1,5 +1,5 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "tionis nunc fcribatur.Sed fupra uocalem annotetur:unde iam fcribitur επτιλνοσ",
         "wer": 72.72727272727273,
@@ -7,7 +7,7 @@
         "accuracy": 87.34177215189874,
         "time": 1.445387840270996
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "tionis nota ſcribatur. Sed ſupra vocalem annotetur: unde iam ſcribitur ἐπὶ ἀλλο",
         "wer": 27.27272727272727,
@@ -15,7 +15,7 @@
         "accuracy": 93.67088607594937,
         "time": 1.7376811504364014
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "tionis nota scribatur. Sed supra uocal em annotetur: unde iam scribitur ερπιλλοσ",
         "wer": 45.45454545454545,
@@ -23,7 +23,7 @@
         "accuracy": 95.0,
         "time": 1.9327418804168701
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "tionis notâ ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπίλληοσ",
         "wer": 18.181818181818183,
@@ -39,7 +39,7 @@
         "accuracy": 94.9367088607595,
         "time": 2.9292309284210205
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "tionis nota ſcribatur.Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπιλλοσ",
         "wer": 27.27272727272727,
@@ -47,7 +47,7 @@
         "accuracy": 96.20253164556962,
         "time": 5.05485987663269
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐφ᾽ ἑλλάδος",
         "wer": 18.181818181818183,
@@ -63,7 +63,7 @@
         "accuracy": 96.20253164556962,
         "time": 6.13182520866394
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "rtionis nota fcribatur.Sed fupra uocalem annotetur:unde iam fcritur επιλλος",
         "wer": 72.72727272727273,
@@ -79,12 +79,20 @@
         "accuracy": 97.46835443037975,
         "time": 39.684799909591675
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
         "response": "rionis notā ſcribatur.Sed ſupra uocalem annotetur: unde iam ſcribitur ἐρτιλλος",
         "wer": 45.45454545454545,
         "cer": 7.59493670886076,
         "accuracy": 93.67088607594937,
         "time": 59.3116180896759
+    },
+    "horizon-alpha": {
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis notα ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur επιλλος",
+        "wer": 18.181818181818183,
+        "cer": 3.79746835443038,
+        "accuracy": 96.20253164556962,
+        "time": 2.0855040550231934
     }
 }

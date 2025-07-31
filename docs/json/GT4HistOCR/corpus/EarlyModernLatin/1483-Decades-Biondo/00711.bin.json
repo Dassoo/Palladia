@@ -1,7 +1,7 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "& \u017fi non minor e\u017ft \ua757\u1dd3 maioribus fuerit no\u017ftri \u017f\u00e6culi hominibus \u0129du\u017ftria: quia tamen no",
-        "response": "&amp; fi non minor eft  g\u0306 maioribus fuerit notris faculi hominibus id uftria: quia tamen no",
+    "llama-4-maverick-17b": {
+        "gt": "& ſi non minor eſt ꝗᷓ maioribus fuerit noſtri ſæculi hominibus ĩduſtria: quia tamen no",
+        "response": "&amp; fi non minor eft  ğ maioribus fuerit notris faculi hominibus id uftria: quia tamen no",
         "wer": 53.333333333333336,
         "cer": 18.6046511627907,
         "accuracy": 83.69565217391305,

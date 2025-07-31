@@ -1,90 +1,98 @@
 {
-    "mistral-small-2506": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "bantur. Hi autem qui intus erant cum \u017fic exarentur, legatos Cor",
+    "mistral-small": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur. Hi autem qui intus erant cum ſic exarentur, legatos Cor",
         "wer": 18.181818181818183,
         "cer": 3.125,
         "accuracy": 96.875,
         "time": 1.342040777206421
     },
-    "arcee-ai/spotlight": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+    "spotlight": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
         "response": "bantur. Hi autem qui intus erant cum sic uexarentur, legatos Cor",
         "wer": 18.181818181818183,
         "cer": 3.125,
         "accuracy": 96.875,
         "time": 1.4601809978485107
     },
-    "gpt-4.1-2025-04-14": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "bantur. Hi autem qui intus erant c\u00f9m \u017ficuexarentur, legatos Cor",
+    "gpt-4.1": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur. Hi autem qui intus erant cùm ſicuexarentur, legatos Cor",
         "wer": 18.181818181818183,
         "cer": 1.5625,
         "accuracy": 98.4375,
         "time": 1.7065317630767822
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "bantur.Hi autem qui intus erant c\u00f9m ficuexarentur,legatos Cor",
+    "qwen-2.5-vl-72b": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur.Hi autem qui intus erant cùm ficuexarentur,legatos Cor",
         "wer": 45.45454545454545,
         "cer": 6.25,
         "accuracy": 93.75,
         "time": 1.7406878471374512
     },
     "gpt-4o": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "bantur. Hi autem qui intus erant c\u00f9m sicue xarentur, legatos Cor",
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur. Hi autem qui intus erant cùm sicue xarentur, legatos Cor",
         "wer": 18.181818181818183,
         "cer": 4.6875,
         "accuracy": 96.875,
         "time": 1.8378448486328125
     },
-    "claude-sonnet-4-20250514": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "bantur.Hi autem qui intus erant cum \u017fic uexarentur,legatos Cor",
+    "claude-4-sonnet": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur.Hi autem qui intus erant cum ſic uexarentur,legatos Cor",
         "wer": 45.45454545454545,
         "cer": 4.6875,
         "accuracy": 95.3125,
         "time": 3.227688789367676
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+    "llama-4-maverick-17b": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
         "response": "bantur. Hiautem qui intus erant cum fic uexarentur, legatos Cor",
         "wer": 36.36363636363637,
         "cer": 4.6875,
         "accuracy": 95.3125,
         "time": 4.109634876251221
     },
-    "claude-opus-4-20250514": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+    "claude-4-opus": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.296361923217773
     },
     "gemini-2.5-flash": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "banur. Hi autem qu\u00edntus erant c\u00f9m \u017fic vexarentur, legatos Cor",
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "banur. Hi autem quíntus erant cùm ſic vexarentur, legatos Cor",
         "wer": 36.36363636363637,
         "cer": 7.8125,
         "accuracy": 92.1875,
         "time": 5.69281792640686
     },
-    "o4-mini-2025-04-16": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "bantur.Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+    "o4-mini": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur.Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
         "wer": 18.181818181818183,
         "cer": 1.5625,
         "accuracy": 98.4375,
         "time": 17.116206169128418
     },
     "gemini-2.5-pro": {
-        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
-        "response": "banur. Hi autem qu\u00ed intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "banur. Hi autem quí intus erant cùm ſic uexarentur, legatos Cor",
         "wer": 18.181818181818183,
         "cer": 3.125,
         "accuracy": 96.875,
         "time": 22.632844924926758
+    },
+    "horizon-alpha": {
+        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+        "response": "bantur. Hi autem qui intus erant cùm sic vexarentur, legatos Cor",
+        "wer": 18.181818181818183,
+        "cer": 3.125,
+        "accuracy": 96.875,
+        "time": 2.124314069747925
     }
 }

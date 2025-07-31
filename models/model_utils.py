@@ -20,6 +20,9 @@ from config.schemas import AppConfig
 load_dotenv()
 console = Console()
 
+# Global mapping from model IDs to standardized names
+_model_id_to_standard_name = {}
+
 def get_enabled_models() -> List[Any]:
     """Get a list of initialized model instances based on validated configuration."""
     try:
@@ -59,6 +62,10 @@ def get_enabled_models() -> List[Any]:
             model_class = model_classes[provider]
             model_instance = model_class(id=model_id, api_key=api_key)
             enabled_models.append(model_instance)
+            
+            # Store the mapping from model ID to standardized name
+            _model_id_to_standard_name[model_id] = model_cfg.display_name
+            
             console.print(f"Initialized {provider}/{model_id}", style="dim")
         except KeyError:
             console.print(f"❌ Unknown provider: {provider}", style="red")
@@ -69,6 +76,10 @@ def get_enabled_models() -> List[Any]:
         console.print("⚠️  No models available for evaluation", style="bold yellow")
     
     return enabled_models
+
+def get_model_display_name(model_id: str) -> str:
+    """Get the standardized display name for a model ID."""
+    return _model_id_to_standard_name.get(model_id, model_id)
 
 # List of enabled models to evaluate
 to_eval = get_enabled_models()

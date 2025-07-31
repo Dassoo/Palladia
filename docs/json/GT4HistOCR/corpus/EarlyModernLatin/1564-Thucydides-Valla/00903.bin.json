@@ -1,13 +1,13 @@
 {
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "21 artabazus quis",
-        "response": "21 art\u017fbazus quis",
+        "response": "21 artſbazus quis",
         "wer": 33.33333333333333,
         "cer": 5.88235294117647,
         "accuracy": 94.11764705882352,
         "time": 1.0284600257873535
     },
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "21 artabazus quis",
         "response": "21 artabazus quis",
         "wer": 0.0,
@@ -15,7 +15,7 @@
         "accuracy": 100.0,
         "time": 1.07850980758667
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "21 artabazus quis",
         "response": "21 artabazus quis",
         "wer": 0.0,
@@ -23,7 +23,7 @@
         "accuracy": 100.0,
         "time": 1.2293469905853271
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "21 artabazus quis",
         "response": "2 1 artabazus quis",
         "wer": 66.66666666666666,
@@ -39,7 +39,7 @@
         "accuracy": 94.44444444444444,
         "time": 1.3000741004943848
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "21 artabazus quis",
         "response": "21 artabazus quis",
         "wer": 0.0,
@@ -47,7 +47,7 @@
         "accuracy": 100.0,
         "time": 1.4696922302246094
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "21 artabazus quis",
         "response": "21 artabazus quis",
         "wer": 0.0,
@@ -55,7 +55,7 @@
         "accuracy": 100.0,
         "time": 2.544628858566284
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "21 artabazus quis",
         "response": "artabazus quis",
         "wer": 33.33333333333333,
@@ -71,7 +71,7 @@
         "accuracy": 85.0,
         "time": 4.172143220901489
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "21 artabazus quis",
         "response": "21 artubazus quis",
         "wer": 33.33333333333333,
@@ -86,5 +86,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 10.915503025054932
+    },
+    "horizon-alpha": {
+        "gt": "21 artabazus quis",
+        "response": "21 artabazus quis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.3454971313476562
     }
 }

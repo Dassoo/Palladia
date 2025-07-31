@@ -1,5 +1,5 @@
 {
-    "mistral-small-2506": {
+    "mistral-small": {
         "gt": "42",
         "response": "42",
         "wer": 0.0,
@@ -7,7 +7,7 @@
         "accuracy": 100.0,
         "time": 0.9610631465911865
     },
-    "Qwen/Qwen2.5-VL-72B-Instruct": {
+    "qwen-2.5-vl-72b": {
         "gt": "42",
         "response": "42",
         "wer": 0.0,
@@ -15,7 +15,7 @@
         "accuracy": 100.0,
         "time": 1.072126865386963
     },
-    "arcee-ai/spotlight": {
+    "spotlight": {
         "gt": "42",
         "response": "42",
         "wer": 0.0,
@@ -23,7 +23,7 @@
         "accuracy": 100.0,
         "time": 1.221559762954712
     },
-    "gpt-4.1-2025-04-14": {
+    "gpt-4.1": {
         "gt": "42",
         "response": ". 43",
         "wer": 200.0,
@@ -39,7 +39,7 @@
         "accuracy": 33.33333333333333,
         "time": 1.357753038406372
     },
-    "claude-sonnet-4-20250514": {
+    "claude-4-sonnet": {
         "gt": "42",
         "response": "4.",
         "wer": 100.0,
@@ -55,7 +55,7 @@
         "accuracy": 50.0,
         "time": 2.2765679359436035
     },
-    "claude-opus-4-20250514": {
+    "claude-4-opus": {
         "gt": "42",
         "response": "4.",
         "wer": 100.0,
@@ -63,7 +63,7 @@
         "accuracy": 50.0,
         "time": 2.8333559036254883
     },
-    "o4-mini-2025-04-16": {
+    "o4-mini": {
         "gt": "42",
         "response": ". 42",
         "wer": 100.0,
@@ -71,7 +71,7 @@
         "accuracy": 50.0,
         "time": 4.783493995666504
     },
-    "meta-llama/llama-4-maverick-17b-128e-instruct": {
+    "llama-4-maverick-17b": {
         "gt": "42",
         "response": "43",
         "wer": 100.0,
@@ -86,5 +86,13 @@
         "cer": 150.0,
         "accuracy": 25.0,
         "time": 6.478460788726807
+    },
+    "horizon-alpha": {
+        "gt": "42",
+        "response": ". 43",
+        "wer": 200.0,
+        "cer": 150.0,
+        "accuracy": 25.0,
+        "time": 1.7509629726409912
     }
 }
