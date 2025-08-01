@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import tempfile
 import yaml
 from pathlib import Path
@@ -18,7 +16,7 @@ def test_valid_config():
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_path = Path(temp_dir)
         
-        # Valid model config
+        # Example model config
         model_config = {
             'models': [
                 {
@@ -52,7 +50,7 @@ def test_valid_config():
         try:
             loader = ConfigLoader(temp_path)
             app_config = loader.load_app_config()
-            console.print("✅ Valid configuration loaded successfully!", style="green")
+            console.print("Valid configuration loaded successfully!", style="green")
             console.print(f"   Found {len(app_config.enabled_models)} enabled model(s)")
         except Exception as e:
             console.print(f"❌ Unexpected error: {e}", style="red")
@@ -60,7 +58,7 @@ def test_valid_config():
 
 def test_invalid_provider():
     """Test with an invalid provider."""
-    console.print("\n🧪 Testing invalid provider...", style="bold blue")
+    console.print("\nTesting invalid provider...", style="bold blue")
     
     with tempfile.TemporaryDirectory() as temp_dir:
         temp_path = Path(temp_dir)
@@ -87,7 +85,7 @@ def test_invalid_provider():
             models_config = loader.load_models_config()
             console.print("❌ Should have failed validation!", style="red")
         except Exception as e:
-            console.print("✅ Correctly caught invalid provider", style="green")
+            console.print("Correctly caught invalid provider", style="green")
 
 
 def test_missing_path():
@@ -117,7 +115,7 @@ def test_missing_path():
             input_cfg = loader.load_input_config()
             console.print("❌ Should have failed validation!", style="red")
         except Exception as e:
-            console.print("✅ Correctly caught non-existent path", style="green")
+            console.print("Correctly caught non-existent path", style="green")
 
 
 def test_negative_images():
@@ -147,7 +145,7 @@ def test_negative_images():
             input_cfg = loader.load_input_config()
             console.print("❌ Should have failed validation!", style="red")
         except Exception as e:
-            console.print("✅ Correctly caught negative images_to_process", style="green")
+            console.print("Correctly caught negative images_to_process", style="green")
 
 
 if __name__ == "__main__":
