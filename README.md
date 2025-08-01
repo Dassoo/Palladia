@@ -1,13 +1,13 @@
 # <img src="docs/ocracle.png" alt="OCRacle Logo" width="64" height="64"> OCRacle
 
-**A Comprehensive Benchmarking Framework for Vision Language Models on Historical Document OCR**
+**A Comprehensive Benchmarking Tool for Vision Language Models on Historical Document OCR**
 
 [![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/OCRacle)
 [![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo)
 
-OCRacle is a benchmarking framework for evaluating Vision Language Models on historical document OCR tasks using the GT4HistOCR dataset. It provides standardized evaluation metrics and an interactive dashboard for comparing model performance across different historical document types and languages.
+OCRacle is a benchmarking tool for evaluating Vision Language Models on historical document OCR tasks using the GT4HistOCR dataset. It provides standardized evaluation metrics and an interactive dashboard for comparing model performance across different historical document types and languages.
 
 ## Table of Contents
 
