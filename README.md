@@ -140,8 +140,8 @@ The interactive web dashboard provides comprehensive analysis tools:
 - Statistical significance indicators
 
 ### Individual Analysis
-![Individual Analysis](docs/readme_pics/details.png)
-![Individual Analysis2](docs/readme_pics/details2.png)
+![Individual Analysis](docs/readme_pics/category.png)
+![Individual Analysis2](docs/readme_pics/gt.png)
 
 - Ground truth vs. model output comparison
 - Character-level diff visualization with color coding
