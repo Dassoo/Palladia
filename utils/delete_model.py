@@ -26,13 +26,13 @@ def delete_model_from_file(file_path: str, model_name: str) -> bool:
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
             
-            print(f"✓ Removed {model_name} from {file_path}")
+            print(f"Removed {model_name} from {file_path}")
             return True
         else:
             return False
             
     except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"✗ Error processing {file_path}: {e}")
+        print(f"Error processing {file_path}: {e}")
         return False
 
 
@@ -54,7 +54,7 @@ def delete_model_from_all_evaluations(model_name: str, base_path: str = "docs/js
     """
     Delete a model from all evaluation JSON files.
     """
-    print(f"🗑️  Starting deletion of model: {model_name}")
+    print(f"Starting deletion of model: {model_name}")
     print("=" * 50)
     
     # Find all JSON files
@@ -83,7 +83,7 @@ def delete_model_from_all_evaluations(model_name: str, base_path: str = "docs/js
                     stats["aggregated_files"].append(json_file)
                     
         except Exception as e:
-            print(f"✗ Error processing {json_file}: {e}")
+            print(f"Error processing {json_file}: {e}")
             stats["files_with_errors"] += 1
     
     print("\n" + "=" * 50)
@@ -95,18 +95,18 @@ def delete_model_from_all_evaluations(model_name: str, base_path: str = "docs/js
     print(f"   Aggregated files affected: {len(stats['aggregated_files'])}")
     
     if stats["files_modified"] > 0:
-        print(f"\n🔄 Updating manifest and regenerating graphs...")
+        print(f"\nUpdating manifest and regenerating graphs...")
         
         # Update manifest
         try:
             regenerate_full_manifest()
-            print("✓ Manifest updated successfully")
+            print("Manifest updated successfully")
         except Exception as e:
-            print(f"✗ Error updating manifest: {e}")
+            print(f"Error updating manifest: {e}")
         
         for aggregated_file in stats["aggregated_files"]:
             create_graph(aggregated_file)
-            print(f"✓ Graph created for {aggregated_file}")
+            print(f"Graph created for {aggregated_file}")
         
     return stats
 
