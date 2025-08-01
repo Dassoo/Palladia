@@ -1,10 +1,18 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
-        "response": "mach für Der feind in ſre Bertzogin Dy ſchrey",
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "mach f\u00fcr Der feind in \u017fre Bertzogin Dy \u017fchrey",
         "wer": 77.77777777777779,
         "cer": 20.0,
         "accuracy": 80.0,
         "time": 2.0282769203186035
+    },
+    "spotlight": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "nach f\u00fcr der Feind in die Hertzogin dy Schrey",
+        "wer": 55.55555555555556,
+        "cer": 15.555555555555555,
+        "accuracy": 84.44444444444444,
+        "time": 1.8860721588134766
     }
 }

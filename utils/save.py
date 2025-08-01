@@ -23,11 +23,11 @@ def copy_image_for_web(image_path: str) -> bool:
         
         path = Path(image_path)
         
-        # Extract the base filename (e.g., "00001" from "00001.bin.png")
+        # Extract only the numeric part for web images (e.g., "00001" from "00001.bin.png")
         # Handle patterns like: 00001.bin.png, 00025.nrm.png, etc.
         filename_parts = path.name.split('.')
         if len(filename_parts) >= 3 and filename_parts[-1] == 'png':
-            base_filename = filename_parts[0]  # e.g., "00001"
+            base_filename = filename_parts[0]  # e.g., "00001" from "00001.bin.png"
         else:
             # Fallback: use stem (filename without final extension)
             base_filename = path.stem
@@ -94,10 +94,10 @@ def to_json(model, gt: str, response, wer: float, cer: float,
     
     path = Path(image_path)
     
-    # Extract the base filename for JSON (e.g., "00001" from "00001.bin.png")
-    filename_parts = path.name.split('.')
-    if len(filename_parts) >= 3 and filename_parts[-1] == 'png':
-        base_filename = filename_parts[0]  # e.g., "00001"
+    # Extract the filename with double extension preserved (e.g., "00001.bin" from "00001.bin.png")
+    # Remove only the final .png extension to preserve the double extension pattern
+    if path.name.endswith('.png'):
+        base_filename = path.name[:-4]  # Remove '.png' to get "00001.bin" or "00283.nrm"
     else:
         # Fallback: use stem (filename without final extension)
         base_filename = path.stem

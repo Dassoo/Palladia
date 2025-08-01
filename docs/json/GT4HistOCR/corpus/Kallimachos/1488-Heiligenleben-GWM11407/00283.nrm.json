@@ -1,10 +1,18 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
-        "response": "𝔇lebet bey 𝔡es 𝔎ey𝔣ers Decius zeytē. 𝔇a wurde…",
+        "gt": "\u00f0 lebet bey des key\u017fers decius \u0292eyt\u1ebd. da wurd\u1ebd",
+        "response": "\ud835\udd07lebet bey \ud835\udd21es \ud835\udd0eey\ud835\udd23ers Decius zeyt\u0113. \ud835\udd07a wurde\u2026",
         "wer": 88.88888888888889,
         "cer": 23.91304347826087,
         "accuracy": 78.26086956521739,
         "time": 1.0579230785369873
+    },
+    "spotlight": {
+        "gt": "\u00f0 lebet bey des key\u017fers decius \u0292eyt\u1ebd. da wurd\u1ebd",
+        "response": "S lebet bey des Keyfers Decius zeyte. Da wurd\u0113",
+        "wer": 66.66666666666666,
+        "cer": 17.391304347826086,
+        "accuracy": 82.6086956521739,
+        "time": 1.2820460796356201
     }
 }

@@ -1,4 +1,4 @@
-from models.model_utils import to_eval
+from models.model_utils import to_eval, get_model_display_name
 from models.agent import create_agent, create_image_obj
 from evaluation.metrics import get_diff, get_metrics
 from evaluation.graph import create_graph
@@ -55,7 +55,6 @@ async def run_model(agent, model, executor, image_path: str):
     wer, cer = get_metrics(gt, response.content)
     
     # Print results for each image
-    from models.model_utils import get_model_display_name
     display_name = get_model_display_name(model.id)
     console.print(Text(f"\n(🤖) {display_name}", style="bold blue"))
     pprint_run_response(response)
@@ -68,19 +67,17 @@ async def run_model(agent, model, executor, image_path: str):
     
     to_json(model, gt, response, wer, cer, accuracy, exec_time, image_path)
     
-    from models.model_utils import get_model_display_name
     return (get_model_display_name(model.id), wer, cer, accuracy, exec_time)
     
 
 async def run_all(image_paths: list[str], source: str):
     """Run all models on a list of images and calculate average metrics."""
     # Create all agents once at startup
-    from models.model_utils import get_model_display_name
     agents = {get_model_display_name(model.id): create_agent(model) for model in to_eval}
     
     # Initialize metrics tracking
     metrics = {
-        model.id: {
+        get_model_display_name(model.id): {
             'wer': [],
             'cer': [],
             'accuracy': [],
@@ -140,7 +137,12 @@ def select_images_with_priority(source: str, all_images: list[str], images_to_pr
     unscanned_images = []
     
     for img in all_images:
-        img_name = Path(img).stem
+        # Extract filename preserving double extension (e.g., "00001.bin" from "00001.bin.png")
+        img_path = Path(img)
+        if img_path.name.endswith('.png'):
+            img_name = img_path.name[:-4]  # Remove '.png' to get "00001.bin" or "00283.nrm"
+        else:
+            img_name = img_path.stem
         json_file = output_folder / f"{img_name}.json"
         
         if json_file.exists():
@@ -227,9 +229,9 @@ def main():
     except KeyboardInterrupt:
         console.print("\n❌ Benchmark interrupted by user.", style="bold red")
         return
-    except Exception as e:
-        console.print(f"❌ Unexpected error during benchmark: {e}", style="bold red")
-        return
+    # except Exception as e:
+    #     console.print(f"❌ Unexpected error during benchmark: {e}", style="bold red")
+    #     pass
 
 if __name__ == "__main__":
     main()
