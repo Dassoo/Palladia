@@ -1,7 +1,7 @@
 [project]
 name = "OCRacle"
 version = "0.1.0"
-description = "A tool for evaluating and comparing the performance of various SOTA multimodal and vision LLM models on historical image documents, based on the GT4HistOCR dataset."
+description = "Introducing a benchmark tool for Vision LLMs on historical image documents, based on the GT4HistOCR dataset."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
