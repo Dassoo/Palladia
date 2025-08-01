@@ -1,4 +1,4 @@
-# <img src="docs/ocracle.png" alt="OCRacle Logo" width="32" height="32"> OCRacle
+# <img src="docs/ocracle.png" alt="OCRacle Logo" width="64" height="64"> OCRacle
 
 **A Comprehensive Benchmarking Framework for Vision Language Models on Historical Document OCR**
 
