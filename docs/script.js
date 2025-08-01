@@ -357,6 +357,7 @@ class BenchmarkDashboard {
                 <div class="image-result-header" onclick="dashboard.toggleImageResult(this)">
                     <div class="image-result-title">
                         ${filename}
+                        ${this.createImageIcon(filename)}
                     </div>
                 </div>
                 <div class="image-result-content">
@@ -373,6 +374,7 @@ class BenchmarkDashboard {
                 <div class="image-result-header" onclick="dashboard.toggleImageResult(this)">
                     <div class="image-result-title">
                         ${filename}
+                        ${this.createImageIcon(filename)}
                     </div>
                 </div>
                 
@@ -430,6 +432,40 @@ class BenchmarkDashboard {
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
+    }
+
+    createImageIcon(filename) {
+        // Get current view parameters to construct image path
+        const params = this.router.getParams();
+        if (!params.category || !params.subcategory) {
+            return ''; // Only show icon in details view
+        }
+
+        // Extract base filename (e.g., "00082" from "00082.bin")
+        const baseFilename = filename.split('.')[0];
+
+        // Construct image path: images/EarlyModernLatin/1471-Orthographia-Tortellius/00082.webp
+        const imagePath = `images/${params.category}/${params.subcategory}/${baseFilename}.webp`;
+
+        // Debug: log the constructed path
+        console.log(`Image path for ${filename} -> ${baseFilename}: ${imagePath}`);
+
+        return `
+            <div class="image-icon-container">
+                <svg class="image-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M21,19V5c0,-1.1 -0.9,-2 -2,-2H5c-1.1,0 -2,0.9 -2,2v14c1.1,0 2,-0.9 2,-2zM8.5,13.5l2.5,3.01L14.5,12l4.5,6H5l3.5,-4.5z"/>
+                </svg>
+                <div class="image-tooltip">
+                    <img src="${imagePath}" alt="Ground truth image: ${filename}" loading="lazy" onerror="console.error('Failed to load image:', this.src)" />
+                </div>
+            </div>
+        `;
+    }
+
+    toggleImageResult(headerElement) {
+        const content = headerElement.nextElementSibling;
+        content.classList.toggle('show');
+        headerElement.classList.toggle('expanded');
     }
 
     getImageCount(categoryName, subcategoryName) {

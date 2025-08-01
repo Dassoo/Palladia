@@ -9,6 +9,56 @@ from collections import defaultdict
 from rich.console import Console
 console = Console()
 
+def copy_image_for_web(image_path: str) -> bool:
+    """Copy and convert image to WebP format for web display without compression.
+    
+    Args:
+        image_path: Path to the source image (e.g., 'GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius/00001.bin.png')
+    
+    Returns:
+        bool: True if successful, False otherwise
+    """
+    try:
+        from PIL import Image
+        
+        path = Path(image_path)
+        
+        # Extract the base filename (e.g., "00001" from "00001.bin.png")
+        # Handle patterns like: 00001.bin.png, 00025.nrm.png, etc.
+        filename_parts = path.name.split('.')
+        if len(filename_parts) >= 3 and filename_parts[-1] == 'png':
+            base_filename = filename_parts[0]  # e.g., "00001"
+        else:
+            # Fallback: use stem (filename without final extension)
+            base_filename = path.stem
+        
+        # Create web-friendly path: docs/images/EarlyModernLatin/1471-Orthographia-Tortellius/00001.webp
+        web_image_dir = Path("docs/images") / path.parent.relative_to("GT4HistOCR/corpus")
+        web_image_dir.mkdir(parents=True, exist_ok=True)
+        web_image_path = web_image_dir / f"{base_filename}.webp"
+        
+        # Skip if already exists (avoid reprocessing)
+        if web_image_path.exists():
+            return True
+        
+        # Open and convert image
+        with Image.open(image_path) as img:
+            # Convert to RGB if necessary (for WebP compatibility)
+            if img.mode in ('RGBA', 'LA', 'P'):
+                img = img.convert('RGB')
+            
+            # Save as WebP with lossless quality (no compression)
+            img.save(web_image_path, "WebP", lossless=True, quality=100)
+        
+        return True
+        
+    except ImportError:
+        console.print("⚠️  PIL (Pillow) not available - skipping image copy", style="yellow")
+        return False
+    except Exception as e:
+        console.print(f"⚠️  Could not copy image {image_path}: {e}", style="yellow")
+        return False
+
 def _save_to_json(file_path: str, data: Dict[str, Any]) -> None:
     """Helper function to save data to JSON file.
     
@@ -43,7 +93,16 @@ def to_json(model, gt: str, response, wer: float, cer: float,
     """
     
     path = Path(image_path)
-    file_path = Path("docs/json") / path.parent / f"{path.stem}.json"
+    
+    # Extract the base filename for JSON (e.g., "00001" from "00001.bin.png")
+    filename_parts = path.name.split('.')
+    if len(filename_parts) >= 3 and filename_parts[-1] == 'png':
+        base_filename = filename_parts[0]  # e.g., "00001"
+    else:
+        # Fallback: use stem (filename without final extension)
+        base_filename = path.stem
+    
+    file_path = Path("docs/json") / path.parent / f"{base_filename}.json"
     
     # Use standardized display name instead of raw model ID
     display_name = get_model_display_name(model.id)
@@ -59,6 +118,9 @@ def to_json(model, gt: str, response, wer: float, cer: float,
         }
     }
     _save_to_json(file_path, data)
+    
+    # Copy and convert image for web display
+    copy_image_for_web(image_path)
 
 
 def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
