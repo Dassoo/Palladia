@@ -11,13 +11,6 @@ OCRacle is a state-of-the-art benchmarking framework designed to evaluate Vision
 
 ## Key Features
 
-### Comprehensive Evaluation Metrics
-- **Word Error Rate (WER)**: Industry-standard OCR accuracy measurement
-- **Character Error Rate (CER)**: Fine-grained character-level accuracy
-- **Exact Match Accuracy**: Percentage of perfectly transcribed documents
-- **Execution Time**: Performance benchmarking across models
-- **BERT Score**: Semantic similarity evaluation
-
 ### Interactive Web Dashboard
 ![Dashboard Overview](docs/readme_pics/avgs.png)
 
