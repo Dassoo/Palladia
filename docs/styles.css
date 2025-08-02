@@ -221,19 +221,30 @@ h2 {
     flex-wrap: wrap;
 }
 
-.filter-controls {
+#details-controls {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.filter-controls,
+.sort-controls {
     display: flex;
     gap: 15px;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.filter-controls label {
+.filter-controls label,
+.sort-controls label {
     font-weight: bold;
     color: #333;
 }
 
-.filter-controls select {
+.filter-controls select,
+.sort-controls select {
     padding: 5px 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -298,6 +309,52 @@ h2 {
     align-items: center;
     color: #98A1BC;
     font-size: 16px;
+    width: 100%;
+}
+
+.image-name {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.average-accuracy {
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.average-accuracy.no-data {
+    background-color: #6c757d;
+    color: white;
+}
+
+.average-accuracy.accuracy-very-low {
+    background-color: #8b0000; /* dark red */
+}
+
+.average-accuracy.accuracy-low {
+    background-color: #dc3545; /* red */
+}
+
+.average-accuracy.accuracy-medium {
+    background-color: #ffc107; /* yellow */
+    color: #000;
+}
+
+.average-accuracy.accuracy-good {
+    background-color: #90ee90; /* light green */
+    color: #000;
+}
+
+.average-accuracy.accuracy-excellent {
+    background-color: #006400; /* dark green */
 }
 
 .image-result-title::before {
@@ -428,7 +485,13 @@ h2 {
         align-items: stretch;
     }
 
-    .filter-controls {
+    #details-controls {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .filter-controls,
+    .sort-controls {
         justify-content: center;
         margin-top: 10px;
     }

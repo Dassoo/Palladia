@@ -339,9 +339,15 @@ class BenchmarkDashboard {
             return;
         }
 
+        // Store the original data for sorting
+        this.currentImageData = imageFiles;
+
+        // Apply current sorting
+        const sortedImageFiles = this.sortImageFiles(imageFiles);
+
         let html = '';
 
-        imageFiles.forEach(imageResult => {
+        sortedImageFiles.forEach(imageResult => {
             html += this.renderImageResult(imageResult);
         });
 
@@ -356,8 +362,11 @@ class BenchmarkDashboard {
             return `<div class="image-result">
                 <div class="image-result-header" onclick="dashboard.toggleImageResult(this)">
                     <div class="image-result-title">
-                        ${filename}
-                        ${this.createImageIcon(filename)}
+                        <span class="image-name">
+                            ${filename}
+                            ${this.createImageIcon(filename)}
+                        </span>
+                        <span class="average-accuracy no-data">No data</span>
                     </div>
                 </div>
                 <div class="image-result-content">
@@ -366,6 +375,13 @@ class BenchmarkDashboard {
             </div>`;
         }
 
+        // Calculate average accuracy across all models
+        const accuracies = modelNames.map(modelName => models[modelName].accuracy);
+        const averageAccuracy = accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
+
+        // Get color class based on accuracy thresholds
+        const accuracyColorClass = this.getAccuracyColorClass(averageAccuracy);
+
         // Get ground truth from first model (should be same for all)
         const groundTruth = models[modelNames[0]].groundTruth;
 
@@ -373,8 +389,11 @@ class BenchmarkDashboard {
             <div class="image-result" data-filename="${filename}">
                 <div class="image-result-header" onclick="dashboard.toggleImageResult(this)">
                     <div class="image-result-title">
-                        ${filename}
-                        ${this.createImageIcon(filename)}
+                        <span class="image-name">
+                            ${filename}
+                            ${this.createImageIcon(filename)}
+                        </span>
+                        <span class="average-accuracy ${accuracyColorClass}">${averageAccuracy.toFixed(1)}%</span>
                     </div>
                 </div>
                 
@@ -432,6 +451,41 @@ class BenchmarkDashboard {
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
+    }
+
+    getAccuracyColorClass(accuracy) {
+        if (accuracy < 50) return 'accuracy-very-low';      // <50% dark red
+        if (accuracy < 75) return 'accuracy-low';           // 50-75% red
+        if (accuracy < 85) return 'accuracy-medium';        // 75-85% yellow
+        if (accuracy < 95) return 'accuracy-good';          // 85-95% light green
+        return 'accuracy-excellent';                        // 95-100% dark green
+    }
+
+    sortImageFiles(imageFiles) {
+        const sortBy = document.getElementById('sort-by')?.value || 'filename-asc';
+
+        return [...imageFiles].sort((a, b) => {
+            switch (sortBy) {
+                case 'filename-asc':
+                    return a.filename.localeCompare(b.filename);
+                case 'filename-desc':
+                    return b.filename.localeCompare(a.filename);
+                case 'accuracy-desc':
+                    return this.calculateAverageAccuracy(b) - this.calculateAverageAccuracy(a);
+                case 'accuracy-asc':
+                    return this.calculateAverageAccuracy(a) - this.calculateAverageAccuracy(b);
+                default:
+                    return 0;
+            }
+        });
+    }
+
+    calculateAverageAccuracy(imageResult) {
+        const modelNames = Object.keys(imageResult.models);
+        if (modelNames.length === 0) return 0;
+
+        const accuracies = modelNames.map(modelName => imageResult.models[modelName].accuracy);
+        return accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
     }
 
     createImageIcon(filename) {
@@ -964,6 +1018,12 @@ class BenchmarkDashboard {
 
         // Set up event listeners
         modelFilter.addEventListener('change', () => this.applyFilters());
+
+        // Set up sort event listener
+        const sortBy = document.getElementById('sort-by');
+        if (sortBy) {
+            sortBy.addEventListener('change', () => this.applySorting());
+        }
     }
 
     applyFilters() {
@@ -984,6 +1044,23 @@ class BenchmarkDashboard {
                 });
             }
         });
+    }
+
+    applySorting() {
+        if (!this.currentImageData) return;
+
+        // Re-render the content with new sorting
+        const sortedImageFiles = this.sortImageFiles(this.currentImageData);
+
+        let html = '';
+        sortedImageFiles.forEach(imageResult => {
+            html += this.renderImageResult(imageResult);
+        });
+
+        document.getElementById('details-content').innerHTML = html;
+
+        // Re-apply current filters after sorting
+        this.applyFilters();
     }
 
 
