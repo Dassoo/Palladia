@@ -38,7 +38,7 @@ This tool provides standardized evaluation across these challenging scenarios us
 - **Standardized Metrics**: WER, CER, exact match accuracy, and execution time benchmarking
 - **Interactive Dashboard**: Web-based results visualization with filtering and comparison tools
 - **Batch Processing**: Efficient evaluation across large document collections
-- **Export Capabilities**: Results available in JSON, CSV, and visualization formats
+- **Export Capabilities**: Results available in JSON and visualization formats
 
 ![Dashboard Overview](docs/readme_pics/avgs.png)
 
