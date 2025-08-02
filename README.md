@@ -30,7 +30,7 @@ OCRacle addresses the challenge of evaluating Vision Language Models on historic
 - **Language Evolution**: Historical spelling variations and obsolete words
 - **Layout Complexity**: Non-standard formatting and mixed content types
 
-This tool provides standardized evaluation across these challenging scenarios using the GT4HistOCR dataset. 
+This tool provides standardized evaluation across these challenging scenarios using the GT4HistOCR dataset. You can access the public dashboard at https://dassoo.github.io/OCRacle.
 
 ## Key Features
 
@@ -150,9 +150,8 @@ The interactive web dashboard provides comprehensive analysis tools:
 ### Advanced Features
 ![Follow-up Analysis](docs/readme_pics/follow.png)
 
-- **Filtering**: Focus on specific models, document types, or time periods
+- **Filtering**: Focus on specific models or metrics
 - **Sorting**: Order results by any evaluation metric
-- **Export**: Download results in JSON, CSV, or image formats
 - **Comparison**: Side-by-side model performance analysis
 
 
