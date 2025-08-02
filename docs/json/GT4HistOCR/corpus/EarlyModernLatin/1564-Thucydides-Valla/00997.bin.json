@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "caſ,quibus ipſe interfui,quasóꝑ ſigillatim ab aliis quam potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "ca\u017f,quibus ip\u017fe interfui,quas\u00f3\ua751 \u017figillatim ab aliis quam potui di-",
         "wer": 54.54545454545454,
         "cer": 13.043478260869565,
         "accuracy": 86.95652173913044,
         "time": 1.1893339157104492
     },
     "mistral-small": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "eas, quibus ipse interfuit, quasſigillatim ab aliis quam potuidi-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "eas, quibus ipse interfuit, quas\u017figillatim ab aliis quam potuidi-",
         "wer": 72.72727272727273,
         "cer": 13.043478260869565,
         "accuracy": 88.40579710144928,
         "time": 1.3413450717926025
     },
     "gpt-4o": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "ecas, quibus ipſe interfui, quasqꝫ ſigillatim ab aliis quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "ecas, quibus ip\u017fe interfui, quasq\ua76b \u017figillatim ab aliis qu\u00e0m potui di-",
         "wer": 27.27272727272727,
         "cer": 5.797101449275362,
         "accuracy": 95.65217391304348,
         "time": 1.8198471069335938
     },
     "gpt-4.1": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "eas, quibus ipſe interfui, quasqꝫ ſigillatim ab aliis quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "eas, quibus ip\u017fe interfui, quasq\ua76b \u017figillatim ab aliis qu\u00e0m potui di-",
         "wer": 18.181818181818183,
         "cer": 4.3478260869565215,
         "accuracy": 95.65217391304348,
         "time": 1.8683249950408936
     },
     "spotlight": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "cas, quibus ipse interfui, quasœ sigillatim ab alijs quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas, quibus ipse interfui, quas\u0153 sigillatim ab alijs qu\u00e0m potui di-",
         "wer": 36.36363636363637,
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 1.885915756225586
     },
     "qwen-2.5-vl-72b": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "cas,quibus ipſe interfui,quaſo ſigillatim ab alijs quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas,quibus ip\u017fe interfui,qua\u017fo \u017figillatim ab alijs qu\u00e0m potui di-",
         "wer": 36.36363636363637,
         "cer": 10.144927536231885,
         "accuracy": 89.85507246376811,
         "time": 2.80307674407959
     },
     "claude-4-sonnet": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "eas, quibus ipſe interfui, quasq́; ſigillàtim ab alijs quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figill\u00e0tim ab alijs qu\u00e0m potui di-",
         "wer": 9.090909090909092,
         "cer": 1.4492753623188406,
         "accuracy": 98.55072463768117,
         "time": 3.84173583984375
     },
     "claude-4-opus": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "cas, quibus ipſe interfui, quaſq́ ſigillatim ab alijs quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas, quibus ip\u017fe interfui, qua\u017fq\u0301 \u017figillatim ab alijs qu\u00e0m potui di-",
         "wer": 18.181818181818183,
         "cer": 4.3478260869565215,
         "accuracy": 95.65217391304348,
         "time": 4.18799901008606
     },
     "gemini-2.5-flash": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "cas, quibus ipſe interfui, quaſq́; figillatim ab alijs quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas, quibus ip\u017fe interfui, qua\u017fq\u0301; figillatim ab alijs qua\u0300m potui di-",
         "wer": 36.36363636363637,
         "cer": 7.246376811594203,
         "accuracy": 92.85714285714286,
         "time": 4.924983739852905
     },
     "o4-mini": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "cas, quibus ipſe interfui, quasqꝑ ſigillatim ab aliis quàm potuiddi-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas, quibus ip\u017fe interfui, quasq\ua751 \u017figillatim ab aliis qu\u00e0m potuiddi-",
         "wer": 45.45454545454545,
         "cer": 7.246376811594203,
         "accuracy": 92.7536231884058,
         "time": 20.323885202407837
     },
     "gemini-2.5-pro": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "cas,quibus ipſe interfui, quaſq́ ſigillatim ab alijs quàm potui di,",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas,quibus ip\u017fe interfui, qua\u017fq\u0301 \u017figillatim ab alijs qu\u00e0m potui di,",
         "wer": 36.36363636363637,
         "cer": 7.246376811594203,
         "accuracy": 92.7536231884058,
         "time": 28.040772914886475
     },
     "horizon-alpha": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "eas, quibus ipſe interfui, quasq; ſigillatim ab aliis quàm potui di-",
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "eas, quibus ip\u017fe interfui, quasq; \u017figillatim ab aliis qu\u00e0m potui di-",
         "wer": 18.181818181818183,
         "cer": 2.898550724637681,
         "accuracy": 97.10144927536231,
         "time": 2.5608279705047607
+    },
+    "horizon-beta": {
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "eas, quibus ip\u017fe interfui, quasq; \u017figillatim ab aliis qu\u00e0m potui di-",
+        "wer": 18.181818181818183,
+        "cer": 2.898550724637681,
+        "accuracy": 97.10144927536231,
+        "time": 2.3191709518432617
     }
 }

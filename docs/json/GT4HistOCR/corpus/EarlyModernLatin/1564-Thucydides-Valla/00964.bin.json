@@ -1,7 +1,7 @@
 {
     "mistral-small": {
         "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
-        "response": "interpretis. Neceſſe hoc in probrum Laurentij Val",
+        "response": "interpretis. Nece\u017f\u017fe hoc in probrum Laurentij Val",
         "wer": 25.0,
         "cer": 8.16326530612245,
         "accuracy": 93.87755102040816,
@@ -41,7 +41,7 @@
     },
     "gpt-4o": {
         "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
-        "response": "interpretiſ, Necego hoc in probrum Laurentij Val.",
+        "response": "interpreti\u017f, Necego hoc in probrum Laurentij Val.",
         "wer": 50.0,
         "cer": 8.16326530612245,
         "accuracy": 93.87755102040816,
@@ -65,7 +65,7 @@
     },
     "o4-mini": {
         "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
-        "response": "interpretiſ,Nec ego hoc in probrum Laurentij Val",
+        "response": "interpreti\u017f,Nec ego hoc in probrum Laurentij Val",
         "wer": 25.0,
         "cer": 6.122448979591836,
         "accuracy": 93.87755102040816,
@@ -73,7 +73,7 @@
     },
     "gemini-2.5-flash": {
         "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
-        "response": "interpretis. Nec ego hoc in probrum Laurenciï Val.",
+        "response": "interpretis. Nec ego hoc in probrum Laurenci\u00ef Val.",
         "wer": 25.0,
         "cer": 6.122448979591836,
         "accuracy": 94.0,
@@ -81,7 +81,7 @@
     },
     "gemini-2.5-pro": {
         "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
-        "response": "interpretis. Nec ego hoc in probrum Laurentïj Val.",
+        "response": "interpretis. Nec ego hoc in probrum Laurent\u00efj Val.",
         "wer": 25.0,
         "cer": 4.081632653061225,
         "accuracy": 96.0,
@@ -89,10 +89,18 @@
     },
     "horizon-alpha": {
         "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
-        "response": "interpretiς, Necegohoc in probrum Laurentij Val.",
+        "response": "interpreti\u03c2, Necegohoc in probrum Laurentij Val.",
         "wer": 62.5,
         "cer": 10.204081632653061,
         "accuracy": 91.83673469387756,
         "time": 2.4803950786590576
+    },
+    "horizon-beta": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpreteis, Necegohoc in probrum Laurentij Val.",
+        "wer": 62.5,
+        "cer": 10.204081632653061,
+        "accuracy": 93.87755102040816,
+        "time": 2.3032121658325195
     }
 }

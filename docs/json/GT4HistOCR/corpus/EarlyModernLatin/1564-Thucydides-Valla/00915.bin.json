@@ -1,6 +1,6 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
         "response": "tatis, & prudentia gratia, qui principatu quem habemus potia.",
         "wer": 22.22222222222222,
         "cer": 3.278688524590164,
@@ -8,91 +8,99 @@
         "time": 1.2551240921020508
     },
     "mistral-small": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "gratiſ, & prudentix gratia, qui principatu quem habemus potia.",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "grati\u017f, & prudentix gratia, qui principatu quem habemus potia.",
         "wer": 33.33333333333333,
         "cer": 8.19672131147541,
         "accuracy": 91.93548387096774,
         "time": 1.2560279369354248
     },
     "spotlight": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia.",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia.",
         "wer": 11.11111111111111,
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 1.4103140830993652
     },
     "qwen-2.5-vl-72b": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia.",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia.",
         "wer": 11.11111111111111,
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 1.596825122833252
     },
     "gpt-4.1": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.6432280540466309
     },
     "gpt-4o": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.0010387897491455
     },
     "claude-4-sonnet": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.242984056472778
     },
     "gemini-2.5-flash": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "catis, & prudentiæ gratia, qui principatu quem habemus potiâ",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "catis, & prudenti\u00e6 gratia, qui principatu quem habemus poti\u00e2",
         "wer": 22.22222222222222,
         "cer": 4.918032786885246,
         "accuracy": 95.08196721311475,
         "time": 4.250556945800781
     },
     "claude-4-opus": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "catis, & prudentiæ gratia, qui principatu quem habemus potia-",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "catis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
         "wer": 11.11111111111111,
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 5.459350109100342
     },
     "o4-mini": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 9.713310241699219
     },
     "gemini-2.5-pro": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratía, quí príncípátu quem habemus potiá,",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 grat\u00eda, qu\u00ed pr\u00ednc\u00edp\u00e1tu quem habemus poti\u00e1,",
         "wer": 44.44444444444444,
         "cer": 11.475409836065573,
         "accuracy": 88.52459016393442,
         "time": 40.46108078956604
     },
     "horizon-alpha": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.455693244934082
+    },
+    "horizon-beta": {
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia.",
+        "wer": 11.11111111111111,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 2.3432998657226562
     }
 }

@@ -57,7 +57,7 @@
     },
     "gemini-2.5-flash": {
         "gt": "99 arma in Phyreum murum inferre.",
-        "response": "99 arma in Phyrrcum murtum inſtre.",
+        "response": "99 arma in Phyrrcum murtum in\u017ftre.",
         "wer": 50.0,
         "cer": 18.181818181818183,
         "accuracy": 85.29411764705883,
@@ -81,7 +81,7 @@
     },
     "gemini-2.5-pro": {
         "gt": "99 arma in Phyreum murum inferre.",
-        "response": "99 arma in Phyrcum murum inſerre.",
+        "response": "99 arma in Phyrcum murum in\u017ferre.",
         "wer": 33.33333333333333,
         "cer": 6.0606060606060606,
         "accuracy": 93.93939393939394,
@@ -94,5 +94,13 @@
         "cer": 12.121212121212121,
         "accuracy": 91.17647058823529,
         "time": 2.268203020095825
+    },
+    "horizon-beta": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99  arma  in Phrycum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 15.151515151515152,
+        "accuracy": 88.57142857142857,
+        "time": 2.281467914581299
     }
 }

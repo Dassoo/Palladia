@@ -326,7 +326,7 @@ class BenchmarkDashboard {
         // Render the details
         this.renderDetailsContent(loadResults.data, category, subcategory);
 
-        // Set up filtering and sorting
+        // Set up filtering
         this.setupDetailsControls(loadResults.data);
     }
 
@@ -964,7 +964,6 @@ class BenchmarkDashboard {
 
         // Set up event listeners
         modelFilter.addEventListener('change', () => this.applyFilters());
-        document.getElementById('sort-by').addEventListener('change', () => this.applySorting());
     }
 
     applyFilters() {
@@ -987,19 +986,7 @@ class BenchmarkDashboard {
         });
     }
 
-    applySorting() {
-        const sortBy = document.getElementById('sort-by').value;
-        const detailsContent = document.getElementById('details-content');
-        const imageResults = Array.from(detailsContent.querySelectorAll('.image-result'));
 
-        imageResults.sort((a, b) => {
-            const filenameA = a.dataset.filename;
-            const filenameB = b.dataset.filename;
-            return filenameA.localeCompare(filenameB);
-        });
-
-        imageResults.forEach(element => detailsContent.appendChild(element));
-    }
 
     // Toggle image result expansion with sticky header functionality
     toggleImageResult(header) {

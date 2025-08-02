@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenses nullam fibi uidentes à Corcyrēfibus iniuriæ 20",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnenses nullam fibi uidentes \u00e0 Corcyr\u0113fibus iniuri\u00e6 20",
         "wer": 33.33333333333333,
         "cer": 6.153846153846154,
         "accuracy": 93.84615384615384,
         "time": 1.009692907333374
     },
     "mistral-small": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenses nullam sibi uidentes à Corcyreſibus iniuriæ",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnenses nullam sibi uidentes \u00e0 Corcyre\u017fibus iniuri\u00e6",
         "wer": 44.44444444444444,
         "cer": 9.230769230769232,
         "accuracy": 90.76923076923077,
         "time": 1.3293039798736572
     },
     "spotlight": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamncnſes nullam ſibi uidentes à Corcyreſibus iniuriæ 20",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamncn\u017fes nullam \u017fibi uidentes \u00e0 Corcyre\u017fibus iniuri\u00e6 20",
         "wer": 22.22222222222222,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 1.7794549465179443
     },
     "gpt-4.1": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenſes nullam ſibi uidētes à Corcyræiſibus iniuriam",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnen\u017fes nullam \u017fibi uid\u0113tes \u00e0 Corcyr\u00e6i\u017fibus iniuriam",
         "wer": 44.44444444444444,
         "cer": 12.307692307692308,
         "accuracy": 89.23076923076924,
         "time": 1.7502422332763672
     },
     "qwen-2.5-vl-72b": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt,Epidamncnſes nullam ſibi uidentes à Corcyreſibus iniurias 20",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt,Epidamncn\u017fes nullam \u017fibi uidentes \u00e0 Corcyre\u017fibus iniurias 20",
         "wer": 44.44444444444444,
         "cer": 7.6923076923076925,
         "accuracy": 93.84615384615384,
         "time": 1.9489107131958008
     },
     "gpt-4o": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenſes nullam ſibi uidentes à Corcyræiſbus iniuriæ to",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u00e6i\u017fbus iniuri\u00e6 to",
         "wer": 22.22222222222222,
         "cer": 7.6923076923076925,
         "accuracy": 93.84615384615384,
         "time": 2.095398187637329
     },
     "claude-4-sonnet": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenfes nullam fibi uidentes a Corcyrǣlibus iniuriæ",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnenfes nullam fibi uidentes a Corcyr\u01e3libus iniuri\u00e6",
         "wer": 55.55555555555556,
         "cer": 12.307692307692308,
         "accuracy": 87.6923076923077,
         "time": 3.9223580360412598
     },
     "claude-4-opus": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenfes nullam fibi uidentes à Corcyræiſibus iniuriæ",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnenfes nullam fibi uidentes \u00e0 Corcyr\u00e6i\u017fibus iniuri\u00e6",
         "wer": 44.44444444444444,
         "cer": 10.76923076923077,
         "accuracy": 90.76923076923077,
         "time": 4.313448190689087
     },
     "gemini-2.5-flash": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenſes ſibi uidentes à Corcyrẽibus iniuriæ 20",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnen\u017fes \u017fibi uidentes \u00e0 Corcyr\u1ebdibus iniuri\u00e6 20",
         "wer": 22.22222222222222,
         "cer": 12.307692307692308,
         "accuracy": 87.6923076923077,
         "time": 8.177402973175049
     },
     "gemini-2.5-pro": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnenſes nullam ſibi uidentes à Corcyræ̃is iniuria 20",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u00e6\u0303is iniuria 20",
         "wer": 22.22222222222222,
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 23.608278036117554
     },
     "o4-mini": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnensſes nullam ſibi uidentes à Corcyrëſſibus iniuria 20",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnens\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u00eb\u017f\u017fibus iniuria 20",
         "wer": 33.33333333333333,
         "cer": 6.153846153846154,
         "accuracy": 94.02985074626866,
         "time": 24.19219207763672
     },
     "horizon-alpha": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnienſes nullam ſibi uidētes à Corcyræſibus iniuriam 20",
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnien\u017fes nullam \u017fibi uid\u0113tes \u00e0 Corcyr\u00e6\u017fibus iniuriam 20",
         "wer": 44.44444444444444,
         "cer": 9.230769230769232,
         "accuracy": 92.42424242424242,
         "time": 2.564318895339966
+    },
+    "horizon-beta": {
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnien\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u00e6en\u017fibus iniuriam",
+        "wer": 44.44444444444444,
+        "cer": 12.307692307692308,
+        "accuracy": 90.9090909090909,
+        "time": 2.500756025314331
     }
 }

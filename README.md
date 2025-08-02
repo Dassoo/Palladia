@@ -151,7 +151,6 @@ The interactive web dashboard provides comprehensive analysis tools:
 ![Follow-up Analysis](docs/readme_pics/follow.png)
 
 - **Filtering**: Focus on specific models or metrics
-- **Sorting**: Order results by any evaluation metric
 - **Comparison**: Side-by-side model performance analysis
 
 

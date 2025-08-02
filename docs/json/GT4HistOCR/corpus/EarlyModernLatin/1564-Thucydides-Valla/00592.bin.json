@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo.",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo.",
         "wer": 12.5,
         "cer": 1.694915254237288,
         "accuracy": 98.30508474576271,
         "time": 1.466181755065918
     },
     "mistral-small": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienses proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenienses proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 12.5,
         "cer": 1.694915254237288,
         "accuracy": 98.30508474576271,
         "time": 1.5099921226501465
     },
     "spotlight": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienses proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenienses proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 12.5,
         "cer": 1.694915254237288,
         "accuracy": 98.30508474576271,
         "time": 2.041213274002075
     },
     "qwen-2.5-vl-72b": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus,Athenienses proceſſerunt,atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus,Athenienses proce\u017f\u017ferunt,atque in hunc modum lo-",
         "wer": 50.0,
         "cer": 5.084745762711865,
         "accuracy": 94.91525423728814,
         "time": 2.1170449256896973
     },
     "gpt-4o": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienses procesſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenienses proces\u017ferunt, atque in hunc modum lo-",
         "wer": 25.0,
         "cer": 3.389830508474576,
         "accuracy": 96.61016949152543,
         "time": 2.6952261924743652
     },
     "gpt-4.1": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.0965418815612793
     },
     "claude-4-opus": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.7476449012756348
     },
     "gemini-2.5-flash": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.034746885299683
     },
     "o4-mini": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 8.916671991348267
     },
     "gemini-2.5-pro": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 13.37828516960144
     },
     "claude-4-sonnet": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 19.828847885131836
     },
     "horizon-alpha": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
         "response": "bentibus, Athenienses processerunt, atque in hunc modum lo-",
         "wer": 25.0,
         "cer": 5.084745762711865,
         "accuracy": 94.91525423728814,
         "time": 7.053323030471802
+    },
+    "horizon-beta": {
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenienses procederunt, atque in hunc modum lo.",
+        "wer": 37.5,
+        "cer": 6.779661016949152,
+        "accuracy": 93.22033898305084,
+        "time": 2.1052160263061523
     }
 }

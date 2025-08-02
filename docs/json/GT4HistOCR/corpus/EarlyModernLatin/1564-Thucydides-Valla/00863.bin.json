@@ -1,22 +1,22 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibisdes Athenienſium dux eligi. tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibisdes Athenien\u017fium dux eligi. tia pugnatur",
         "wer": 33.33333333333333,
         "cer": 4.25531914893617,
         "accuracy": 95.74468085106383,
         "time": 0.9990360736846924
     },
     "mistral-small": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi- tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.148756980895996
     },
     "qwen-2.5-vl-72b": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
         "response": "alcibiades Atheniensium dux eligi- tia pugnatur",
         "wer": 16.666666666666664,
         "cer": 2.127659574468085,
@@ -24,15 +24,15 @@
         "time": 1.5844359397888184
     },
     "gpt-4.1": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi-\ntia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi-\ntia pugnatur",
         "wer": 33.33333333333333,
         "cer": 2.127659574468085,
         "accuracy": 97.87234042553192,
         "time": 1.585042953491211
     },
     "spotlight": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
         "response": "alcibiades Atheniensium dux eligi- tia pugnatur",
         "wer": 16.666666666666664,
         "cer": 2.127659574468085,
@@ -40,59 +40,67 @@
         "time": 1.8816919326782227
     },
     "gpt-4o": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi-\ntia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi-\ntia pugnatur",
         "wer": 33.33333333333333,
         "cer": 2.127659574468085,
         "accuracy": 97.87234042553192,
         "time": 2.4070489406585693
     },
     "gemini-2.5-flash": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibides Athenienſium dux eligi-   tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibides Athenien\u017fium dux eligi-   tia pugnatur",
         "wer": 16.666666666666664,
         "cer": 6.382978723404255,
         "accuracy": 95.83333333333334,
         "time": 3.893578052520752
     },
     "claude-4-opus": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "Alcibíades Athenieſium dux eligi- tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "Alcib\u00edades Athenie\u017fium dux eligi- tia pugnatur",
         "wer": 33.33333333333333,
         "cer": 6.382978723404255,
         "accuracy": 93.61702127659575,
         "time": 4.5701189041137695
     },
     "o4-mini": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi-  \ntia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi-  \ntia pugnatur",
         "wer": 0.0,
         "cer": 4.25531914893617,
         "accuracy": 95.91836734693877,
         "time": 8.936710119247437
     },
     "claude-4-sonnet": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi-     tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi-     tia pugnatur",
         "wer": 0.0,
         "cer": 8.51063829787234,
         "accuracy": 92.15686274509804,
         "time": 15.139650106430054
     },
     "gemini-2.5-pro": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi      tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi      tia pugnatur",
         "wer": 16.666666666666664,
         "cer": 10.638297872340425,
         "accuracy": 90.19607843137256,
         "time": 39.21764397621155
     },
     "horizon-alpha": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi- tia pugnatur",
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.49432110786438
+    },
+    "horizon-beta": {
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi-\ntia pugnatur",
+        "wer": 33.33333333333333,
+        "cer": 2.127659574468085,
+        "accuracy": 97.87234042553192,
+        "time": 2.540462017059326
     }
 }

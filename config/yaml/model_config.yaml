@@ -97,16 +97,10 @@ models:
   link: https://docs.x.ai/docs/overview
 - provider: OpenRouter
   id: arcee-ai/spotlight
-  enabled: true
+  enabled: false
   api_key_env: OPENROUTER_API_KEY
   standard_name: spotlight
   link: https://openrouter.ai/arcee-ai/spotlight
-- provider: OpenRouter
-  id: thudm/glm-4.1v-9b-thinking
-  enabled: false
-  api_key_env: OPENROUTER_API_KEY
-  standard_name: glm-4.1v-9b-thinking
-  link: https://openrouter.ai/thudm/glm-4.1v-9b-thinking
 - provider: OpenRouter
   id: mistralai/mistral-small-3.2-24b-instruct:free
   enabled: false
@@ -124,6 +118,12 @@ models:
   api_key_env: OPENROUTER_API_KEY
   standard_name: horizon-alpha
   link: https://openrouter.ai/models/openrouter/horizon-alpha
+- provider: OpenRouter
+  id: openrouter/horizon-beta
+  enabled: true
+  api_key_env: OPENROUTER_API_KEY
+  standard_name: horizon-beta
+  link: https://openrouter.ai/models/openrouter/horizon-beta
 - provider: OpenRouter
   id: qwen/qwen2.5-vl-72b-instruct:free
   enabled: false

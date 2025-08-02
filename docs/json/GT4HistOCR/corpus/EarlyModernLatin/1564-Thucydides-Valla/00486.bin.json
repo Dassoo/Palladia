@@ -1,98 +1,106 @@
 {
     "mistral-small": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "Uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifestis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "Uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manifestis",
         "wer": 18.181818181818183,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 1.599458932876587
     },
     "gpt-4.1": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregrati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregrati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
         "wer": 9.090909090909092,
         "cer": 1.5384615384615385,
         "accuracy": 98.48484848484848,
         "time": 1.6070690155029297
     },
     "spotlight": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregati fumus, ac ne fīc quidem ista pro manifestis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati fumus, ac ne f\u012bc quidem ista pro manifestis",
         "wer": 36.36363636363637,
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 1.7066569328308105
     },
     "llama-4-maverick-17b": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregationem fus,ac ne fic quidem ifta pro manifefтис",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregationem fus,ac ne fic quidem ifta pro manifef\u0442\u0438\u0441",
         "wer": 54.54545454545454,
         "cer": 18.461538461538463,
         "accuracy": 83.33333333333334,
         "time": 1.8372306823730469
     },
     "gpt-4o": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uixtandem congregati ſumus, ac neſci quidemiſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uixtandem congregati \u017fumus, ac ne\u017fci quidemi\u017fta pro manife\u017ftis",
         "wer": 54.54545454545454,
         "cer": 7.6923076923076925,
         "accuracy": 93.84615384615384,
         "time": 1.9766290187835693
     },
     "claude-4-sonnet": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.566880941390991
     },
     "qwen-2.5-vl-72b": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregati ſumus,ac ne ſic quidem iſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati \u017fumus,ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
         "wer": 18.181818181818183,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 5.420982122421265
     },
     "claude-4-opus": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 8.815593004226685
     },
     "o4-mini": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregatiſumus, ac ne ſic quidem iſta pro manifestis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati\u017fumus, ac ne \u017fic quidem i\u017fta pro manifestis",
         "wer": 27.27272727272727,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 9.330175876617432
     },
     "gemini-2.5-flash": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tádem cõgregatiſsimus,ac neſcì quidem iſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix t\u00e1dem c\u00f5gregati\u017fsimus,ac ne\u017fc\u00ec quidem i\u017fta pro manife\u017ftis",
         "wer": 54.54545454545454,
         "cer": 16.923076923076923,
         "accuracy": 86.15384615384616,
         "time": 10.219311714172363
     },
     "gemini-2.5-pro": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregatiſumus, ac ne ſíc quidem iſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati\u017fumus, ac ne \u017fi\u0301c quidem i\u017fta pro manife\u017ftis",
         "wer": 27.27272727272727,
         "cer": 3.076923076923077,
         "accuracy": 98.46153846153847,
         "time": 18.752411127090454
     },
     "horizon-alpha": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.2623491287231445
+    },
+    "horizon-beta": {
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.402056932449341
     }
 }

@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi uidebatur: q̃ p.c. lram praeftari potuerit. Poſt has uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebatur: q\u0303 p.c. lram praeftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
         "wer": 40.0,
         "cer": 11.235955056179774,
         "accuracy": 91.01123595505618,
         "time": 1.371816873550415
     },
     "spotlight": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "sonus exigi uidebat: ŋ p.c.lřam præſtari potuerit. Post has uero nonnulli ex nostris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "sonus exigi uidebat: \u014b p.c.l\u0159am pr\u00e6\u017ftari potuerit. Post has uero nonnulli ex nostris",
         "wer": 53.333333333333336,
         "cer": 12.359550561797752,
         "accuracy": 87.64044943820225,
         "time": 1.5611681938171387
     },
     "mistral-small": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "Sonus exigi uidebatur: q. p. c. l. tam praestari potuerit. Post has uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "Sonus exigi uidebatur: q. p. c. l. tam praestari potuerit. Post has uero nonnulli ex no\u017ftris",
         "wer": 53.333333333333336,
         "cer": 14.606741573033707,
         "accuracy": 85.86956521739131,
         "time": 1.6135830879211426
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonvs exigi videbat:q p.c.lram præſtari potvcrit.Poſt has uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonvs exigi videbat:q p.c.lram pr\u00e6\u017ftari potvcrit.Po\u017ft has uero nonnulli ex no\u017ftris",
         "wer": 53.333333333333336,
         "cer": 14.606741573033707,
         "accuracy": 85.39325842696628,
         "time": 2.390408992767334
     },
     "gpt-4o": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi videbat: ꝙ p. c. ſtiam præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi videbat: \ua759 p. c. \u017ftiam pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
         "wer": 26.666666666666668,
         "cer": 8.98876404494382,
         "accuracy": 91.01123595505618,
         "time": 2.752331018447876
     },
     "gpt-4.1": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi uidebat: qꝑ p. c. liam præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebat: q\ua751 p. c. liam pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
         "wer": 26.666666666666668,
         "cer": 6.741573033707865,
         "accuracy": 93.25842696629213,
         "time": 4.252344846725464
     },
     "claude-4-sonnet": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi uidebat: q̄ p.c.l ſam præſtari potuent.Poſt has uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebat: q\u0304 p.c.l \u017fam pr\u00e6\u017ftari potuent.Po\u017ft has uero nonnulli ex no\u017ftris",
         "wer": 46.666666666666664,
         "cer": 12.359550561797752,
         "accuracy": 87.64044943820225,
         "time": 4.721671104431152
     },
     "claude-4-opus": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi uidebat: q̃ p.c.lram præſtari potuerat.Poſt has uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebat: q\u0303 p.c.lram pr\u00e6\u017ftari potuerat.Po\u017ft has uero nonnulli ex no\u017ftris",
         "wer": 46.666666666666664,
         "cer": 10.112359550561797,
         "accuracy": 89.8876404494382,
         "time": 5.828432083129883
     },
     "gemini-2.5-flash": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſanus exigĩ uidebat: q̃ p.c.l. r̃am præſtan potuerit. Poſt hæc uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fanus exig\u0129 uidebat: q\u0303 p.c.l. r\u0303am pr\u00e6\u017ftan potuerit. Po\u017ft h\u00e6c uero nonnulli ex no\u017ftris",
         "wer": 60.0,
         "cer": 15.730337078651685,
         "accuracy": 86.51685393258427,
         "time": 12.24026894569397
     },
     "o4-mini": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi uidebar: qͣ p.e.ſtam præſtari potuẽt.Poſt haſ uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebar: q\u0363 p.e.\u017ftam pr\u00e6\u017ftari potu\u1ebdt.Po\u017ft ha\u017f uero nonnulli ex no\u017ftris",
         "wer": 53.333333333333336,
         "cer": 17.97752808988764,
         "accuracy": 82.02247191011236,
         "time": 50.361310958862305
     },
     "gemini-2.5-pro": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonis exigi uidebat̃: q̃ p.c.l.rām præſtari potuerit. Poſt uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonis exigi uidebat\u0303: q\u0303 p.c.l.ra\u0304m pr\u00e6\u017ftari potuerit. Po\u017ft uero nonnulli ex no\u017ftris",
         "wer": 46.666666666666664,
         "cer": 15.730337078651685,
         "accuracy": 86.51685393258427,
         "time": 66.22334504127502
     },
     "horizon-alpha": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi uidebat: q̣ p. c. liam præſtari potuerit. Poſt hæc uero nonnulli ex noſtris",
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebat: q\u0323 p. c. liam pr\u00e6\u017ftari potuerit. Po\u017ft h\u00e6c uero nonnulli ex no\u017ftris",
         "wer": 33.33333333333333,
         "cer": 8.98876404494382,
         "accuracy": 91.01123595505618,
         "time": 3.013021945953369
+    },
+    "horizon-beta": {
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebat: q\u0303 p. c. liam pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "wer": 26.666666666666668,
+        "cer": 6.741573033707865,
+        "accuracy": 93.25842696629213,
+        "time": 2.609347105026245
     }
 }

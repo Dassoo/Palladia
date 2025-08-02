@@ -1,4 +1,4 @@
 input:
-- path: GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407
-  images_to_process: 3
+- path: GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius
+  images_to_process: 44
   prioritize_scanned: true

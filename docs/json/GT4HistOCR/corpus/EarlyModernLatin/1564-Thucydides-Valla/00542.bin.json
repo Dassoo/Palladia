@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſfeuntes prohiberentur. Corycrenſes ubi colonos ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017ffeuntes prohiberentur. Corycren\u017fes ubi colonos ac pr\u00e6\u017fidia",
         "wer": 28.57142857142857,
         "cer": 4.838709677419355,
         "accuracy": 96.82539682539682,
         "time": 1.1499478816986084
     },
     "gpt-4.1": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.6119542121887207
     },
     "spotlight": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranfeuntesperhiberentur. Corcyrenses ubi colonos ac præsidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tranfeuntesperhiberentur. Corcyrenses ubi colonos ac pr\u00e6sidia",
         "wer": 57.14285714285714,
         "cer": 9.67741935483871,
         "accuracy": 91.93548387096774,
         "time": 1.6856203079223633
     },
     "qwen-2.5-vl-72b": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranfeentes prohiberentur.Corcyrenſes ubi colonos ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tranfeentes prohiberentur.Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
         "wer": 42.857142857142854,
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 1.6726348400115967
     },
     "gpt-4o": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranfuentes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tranfuentes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
         "wer": 14.285714285714285,
         "cer": 4.838709677419355,
         "accuracy": 96.7741935483871,
         "time": 1.7925958633422852
     },
     "gemini-2.5-flash": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.1528210639953613
     },
     "claude-4-sonnet": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.6925160884857178
     },
     "claude-4-opus": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.7842180728912354
     },
     "o4-mini": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præsidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6sidia",
         "wer": 14.285714285714285,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 10.001322031021118
     },
     "mistral-small": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſeuntes prohibērentur. Corcyrenſes ubi colonos ac praeſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohibe\u0304rentur. Corcyren\u017fes ubi colonos ac prae\u017fidia",
         "wer": 28.57142857142857,
         "cer": 4.838709677419355,
         "accuracy": 95.3125,
         "time": 10.84608507156372
     },
     "gemini-2.5-pro": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidiá",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidi\u00e1",
         "wer": 14.285714285714285,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 15.56464409828186
     },
     "horizon-alpha": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "transeuntes prohiberentur. Corcyrenſes ubi colonoſ ac præſidia",
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "transeuntes prohiberentur. Corcyren\u017fes ubi colono\u017f ac pr\u00e6\u017fidia",
         "wer": 28.57142857142857,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 2.0764570236206055
+    },
+    "horizon-beta": {
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "transeuntes prohiberentur. Corycyrenses ubi colonos ac pr\u00e6sidia",
+        "wer": 42.857142857142854,
+        "cer": 6.451612903225806,
+        "accuracy": 93.65079365079364,
+        "time": 2.222162961959839
     }
 }

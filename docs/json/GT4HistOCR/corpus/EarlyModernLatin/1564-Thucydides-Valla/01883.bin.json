@@ -33,7 +33,7 @@
     },
     "gpt-4.1": {
         "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
-        "response": "muris urbem circundedērunt. Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circunded\u0113runt. Etenim cupiditate lucrandi, & qui",
         "wer": 12.5,
         "cer": 4.918032786885246,
         "accuracy": 96.72131147540983,
@@ -73,7 +73,7 @@
     },
     "o4-mini": {
         "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
-        "response": "muriſ urbem circumdederunt. Etenim cupiditate lucrandi, & qui",
+        "response": "muri\u017f urbem circumdederunt. Etenim cupiditate lucrandi, & qui",
         "wer": 25.0,
         "cer": 6.557377049180328,
         "accuracy": 95.08196721311475,
@@ -94,5 +94,13 @@
         "cer": 4.918032786885246,
         "accuracy": 96.72131147540983,
         "time": 2.0817341804504395
+    },
+    "horizon-beta": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundedcrunt. Etenim cupiditate lucrandi, & qui",
+        "wer": 12.5,
+        "cer": 4.918032786885246,
+        "accuracy": 96.72131147540983,
+        "time": 2.2525699138641357
     }
 }

@@ -16,8 +16,8 @@
   "grok-4": "https://docs.x.ai/docs/overview",
   "grok-2-vision": "https://docs.x.ai/docs/overview",
   "spotlight": "https://openrouter.ai/arcee-ai/spotlight",
-  "glm-4.1v-9b-thinking": "https://openrouter.ai/thudm/glm-4.1v-9b-thinking",
   "kimi-vl-a3b-thinking": "https://openrouter.ai/moonshotai/kimi-vl-a3b-thinking:free",
   "horizon-alpha": "https://openrouter.ai/models/openrouter/horizon-alpha",
+  "horizon-beta": "https://openrouter.ai/models/openrouter/horizon-beta",
   "qwen-2.5-vl-72b": "https://openrouter.ai/qwen/qwen2.5-vl-72b-instruct:free"
 }

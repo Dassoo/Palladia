@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": ")oftendemus. pfertũ tamen fub uoce ipſius. g. ob cognationē litterarũ quẽadmodũ",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": ")oftendemus. pfert\u0169 tamen fub uoce ip\u017fius. g. ob cognation\u0113 litterar\u0169 qu\u1ebdadmod\u0169",
         "wer": 45.45454545454545,
         "cer": 11.538461538461538,
         "accuracy": 89.87341772151899,
         "time": 1.5458438396453857
     },
     "mistral-small": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "ostendemus. pfertur tamen ſub uoce ipsius. g. ob cognatione litterar. queadmodum",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "ostendemus. pfertur tamen \u017fub uoce ipsius. g. ob cognatione litterar. queadmodum",
         "wer": 54.54545454545454,
         "cer": 11.538461538461538,
         "accuracy": 88.75,
         "time": 1.556035041809082
     },
     "spotlight": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus.pfertur tamen ſub uoce ipſius.g.ob cognatione litterarũ quæadmodũ",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus.pfertur tamen \u017fub uoce ip\u017fius.g.ob cognatione litterar\u0169 qu\u00e6admod\u0169",
         "wer": 72.72727272727273,
         "cer": 10.256410256410255,
         "accuracy": 91.02564102564102,
         "time": 2.365305185317993
     },
     "gpt-4o": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus. ꝑfertur tamen ſub uoce ipſius. g. ob cognitionē litterarū quē admodū",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus. \ua751fertur tamen \u017fub uoce ip\u017fius. g. ob cognition\u0113 litterar\u016b qu\u0113 admod\u016b",
         "wer": 45.45454545454545,
         "cer": 10.256410256410255,
         "accuracy": 90.0,
         "time": 2.9622206687927246
     },
     "gpt-4.1": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus. pfertur tamen ſub uoce ipſius. g. ob cognationẽ litterarũ quẽadmodũ",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus. pfertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd litterar\u0169 qu\u1ebdadmodu\u0303",
         "wer": 27.27272727272727,
         "cer": 6.41025641025641,
         "accuracy": 93.75,
         "time": 2.9923229217529297
     },
     "qwen-2.5-vl-72b": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus.pfertur tamen fub uoce ipſius.g.ob cognationé litterarumqueadmodú",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus.pfertur tamen fub uoce ip\u017fius.g.ob cognation\u00e9 litterarumqueadmod\u00fa",
         "wer": 81.81818181818183,
         "cer": 14.102564102564102,
         "accuracy": 87.17948717948718,
         "time": 3.1027987003326416
     },
     "claude-4-sonnet": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus. pſertur tamen ſub uoce ipſius. g. ob cognationẽ litterarũ. quẽadmodũ",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus. p\u017fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd litterar\u0169. qu\u1ebdadmod\u0169",
         "wer": 18.181818181818183,
         "cer": 6.41025641025641,
         "accuracy": 93.75,
         "time": 4.0857977867126465
     },
     "claude-4-opus": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oftendimus, pfertur tamen ſub uoce ipſius. g. ob cognationē literarꝹ quẽadmodũ",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "oftendimus, pfertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u0113 literar\ua779 qu\u1ebdadmod\u0169",
         "wer": 36.36363636363637,
         "cer": 10.256410256410255,
         "accuracy": 91.02564102564102,
         "time": 5.25766396522522
     },
     "gemini-2.5-flash": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus, pfertur tamen ſub uoce ipſius.g.ob cognatione litterary quéadmodü",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus, pfertur tamen \u017fub uoce ip\u017fius.g.ob cognatione litterary qu\u00e9admod\u00fc",
         "wer": 72.72727272727273,
         "cer": 11.538461538461538,
         "accuracy": 89.74358974358975,
         "time": 8.857871055603027
     },
     "o4-mini": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "ostendemus. pfertur tamen ſub uoce ipſius. g. ob cognationé litterary queādmodū",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "ostendemus. pfertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u00e9 litterary que\u0101dmod\u016b",
         "wer": 45.45454545454545,
         "cer": 10.256410256410255,
         "accuracy": 89.87341772151899,
         "time": 32.12430691719055
     },
     "gemini-2.5-pro": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus, pſertur tamen ſub uoce ipſius, g ob cognationé litterarū quéadmodū",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus, p\u017fertur tamen \u017fub uoce ip\u017fius, g ob cognation\u00e9 litterar\u016b qu\u00e9admod\u016b",
         "wer": 63.63636363636363,
         "cer": 12.82051282051282,
         "accuracy": 88.46153846153845,
         "time": 77.6057391166687
     },
     "horizon-alpha": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oſtendemus. pſertur tamen sub uoce ipſius. g. ob cognationẽ litterarũ, quæ admodũ",
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus. p\u017fertur tamen sub uoce ip\u017fius. g. ob cognatione\u0303 litteraru\u0303, qu\u00e6 admodu\u0303",
         "wer": 54.54545454545454,
         "cer": 16.666666666666664,
         "accuracy": 84.52380952380952,
         "time": 2.430579900741577
+    },
+    "horizon-beta": {
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "oftendemus. \u1d71fertur tamen sub uoce ip\u017fius. g. ob cognation\u0113 litterar\u016b qu\u00e6admod\u016b",
+        "wer": 54.54545454545454,
+        "cer": 10.256410256410255,
+        "accuracy": 89.87341772151899,
+        "time": 3.3995208740234375
     }
 }

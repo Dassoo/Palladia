@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipfir:ac dicebant βpήτωρ pro rhetoris βpoaδooς pro rhodos: & non pFh'tac?",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ipfir:ac dicebant \u03b2p\u03ae\u03c4\u03c9\u03c1 pro rhetoris \u03b2poa\u03b4oo\u03c2 pro rhodos: & non pFh'tac?",
         "wer": 50.0,
         "cer": 24.675324675324674,
         "accuracy": 78.75,
         "time": 1.2734463214874268
     },
     "spotlight": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r:ac dicebant βριτωρ pto rhetor: βρολοσ pro rhodos: & non pFιτορ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r:ac dicebant \u03b2\u03c1\u03b9\u03c4\u03c9\u03c1 pto rhetor: \u03b2\u03c1\u03bf\u03bb\u03bf\u03c3 pro rhodos: & non pF\u03b9\u03c4\u03bf\u03c1",
         "wer": 42.857142857142854,
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 1.82676100730896
     },
     "gpt-4o": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "ne­bant ipſi r: ac dice­bant βρ῏ῆτωρ pro rhetor: βροΔοσ pro rhodos: Ȣ non ρῖητωρ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "ne\u00adbant ip\u017fi r: ac dice\u00adbant \u03b2\u03c1\u1fcf\u1fc6\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u0394\u03bf\u03c3 pro rhodos: \u0222 non \u03c1\u1fd6\u03b7\u03c4\u03c9\u03c1",
         "wer": 42.857142857142854,
         "cer": 10.38961038961039,
         "accuracy": 90.0,
         "time": 2.267833709716797
     },
     "qwen-2.5-vl-72b": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r:ac dicebant βριτωρ pro rhetor: βρολοσ pro rhodos: & non ρητωρ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r:ac dicebant \u03b2\u03c1\u03b9\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03bb\u03bf\u03c3 pro rhodos: & non \u03c1\u03b7\u03c4\u03c9\u03c1",
         "wer": 35.714285714285715,
         "cer": 6.493506493506493,
         "accuracy": 93.5064935064935,
         "time": 2.28487491607666
     },
     "gpt-4.1": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r:ac dicebant ρῥήτωρ pro rhetor: βροΔος pro rhodos: & non ρῥήτωρ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r:ac dicebant \u03c1\u1fe5\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u0394\u03bf\u03c2 pro rhodos: & non \u03c1\u1fe5\u03ae\u03c4\u03c9\u03c1",
         "wer": 35.714285714285715,
         "cer": 7.792207792207792,
         "accuracy": 93.5064935064935,
         "time": 2.2701830863952637
     },
     "mistral-small": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebaſt ipsi ra:c dicebant ϕritor pro rhetor: ϕro200 pro rhodos: & non ϕritor.",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "neba\u017ft ipsi ra:c dicebant \u03d5ritor pro rhetor: \u03d5ro200 pro rhodos: & non \u03d5ritor.",
         "wer": 50.0,
         "cer": 31.16883116883117,
         "accuracy": 71.42857142857143,
         "time": 3.544713020324707
     },
     "gemini-2.5-flash": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebanť ſupιr: ac dicebanť ῥήτωρ pro rhetor: ῥόδοσ pro rhodos: & non ῥῆτωρ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "neban\u0165 \u017fup\u03b9r: ac diceban\u0165 \u1fe5\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u1fe5\u03cc\u03b4\u03bf\u03c3 pro rhodos: & non \u1fe5\u1fc6\u03c4\u03c9\u03c1",
         "wer": 50.0,
         "cer": 19.480519480519483,
         "accuracy": 81.81818181818183,
         "time": 3.556457042694092
     },
     "claude-4-sonnet": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r: ac dicebant ῥητωρ pro rhetor: ῥοδοσ pro rhodos: & non ρῆτερ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r: ac dicebant \u1fe5\u03b7\u03c4\u03c9\u03c1 pro rhetor: \u1fe5\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1\u1fc6\u03c4\u03b5\u03c1",
         "wer": 21.428571428571427,
         "cer": 10.38961038961039,
         "accuracy": 89.6103896103896,
         "time": 4.556442022323608
     },
     "claude-4-opus": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r: ac dicebant θρήτωρ pro rhetor: θρόδιος pro rhodos: & non ῥῆτωρ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r: ac dicebant \u03b8\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b8\u03c1\u03cc\u03b4\u03b9\u03bf\u03c2 pro rhodos: & non \u1fe5\u1fc6\u03c4\u03c9\u03c1",
         "wer": 21.428571428571427,
         "cer": 10.38961038961039,
         "accuracy": 90.9090909090909,
         "time": 4.899792909622192
     },
     "gemini-2.5-pro": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r: ac dicebant ῥήτωρ pro rhetor: ῥοδος pro rhodos: & non ῥήτωρ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r: ac dicebant \u1fe5\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u1fe5\u03bf\u03b4\u03bf\u03c2 pro rhodos: & non \u1fe5\u03ae\u03c4\u03c9\u03c1",
         "wer": 21.428571428571427,
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 21.199223041534424
     },
     "o4-mini": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r:ac dicebant βρητωρ pro rhetor: βροδοσο pro rhodos: & non pρήτωρ",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r:ac dicebant \u03b2\u03c1\u03b7\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3\u03bf pro rhodos: & non p\u03c1\u03ae\u03c4\u03c9\u03c1",
         "wer": 35.714285714285715,
         "cer": 6.493506493506493,
         "accuracy": 96.1038961038961,
         "time": 27.112089157104492
     },
     "horizon-alpha": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nebant ipſi r: ac dicebant βρῆτωρ pro rhetor: βρρόδοσ pro rhodos: & non ρῆτωρ,",
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u1fc6\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03c1\u03cc\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1\u1fc6\u03c4\u03c9\u03c1,",
         "wer": 21.428571428571427,
         "cer": 7.792207792207792,
         "accuracy": 93.58974358974359,
         "time": 2.6290950775146484
+    },
+    "horizon-beta": {
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "ne\u0304bant i\u03c8\u017fi r: ac dicebant \u03b2\u03c1\u03b7\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1\u03d5\u03ae\u03c4\u03c9\u03c1",
+        "wer": 28.57142857142857,
+        "cer": 5.194805194805195,
+        "accuracy": 94.87179487179486,
+        "time": 2.3453989028930664
     }
 }

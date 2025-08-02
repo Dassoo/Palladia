@@ -1,98 +1,106 @@
 {
     "gpt-4.1": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id: quod aſpirationis nota erat pro littera .s. acciperet & traduceret: & maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod a\u017fpirationis nota erat pro littera .s. acciperet & traduceret: & maxime quia",
         "wer": 28.57142857142857,
         "cer": 4.705882352941177,
         "accuracy": 96.47058823529412,
         "time": 2.1052439212799072
     },
     "llama-4-maverick-17b": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id: quod afpirationis nota erat pro littera .s. acciperét & traduceret: & maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod afpirationis nota erat pro littera .s. acciper\u00e9t & traduceret: & maxime quia",
         "wer": 35.714285714285715,
         "cer": 5.88235294117647,
         "accuracy": 95.29411764705881,
         "time": 2.2197868824005127
     },
     "mistral-small": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id:quod aſpirationis nota erat pro littera ſ. acciperet & traduceret:& maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod a\u017fpirationis nota erat pro littera \u017f. acciperet & traduceret:& maxime quia",
         "wer": 50.0,
         "cer": 7.0588235294117645,
         "accuracy": 92.94117647058823,
         "time": 2.2329936027526855
     },
     "spotlight": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id:quod aspirationis nota erat pro littera.s.acciperét & traducerét:& maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod aspirationis nota erat pro littera.s.acciper\u00e9t & traducer\u00e9t:& maxime quia",
         "wer": 57.14285714285714,
         "cer": 8.235294117647058,
         "accuracy": 91.76470588235294,
         "time": 2.3792409896850586
     },
     "qwen-2.5-vl-72b": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id:quod aspirationis nota erat pro littera.s.acciperét & traducerét:& maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod aspirationis nota erat pro littera.s.acciper\u00e9t & traducer\u00e9t:& maxime quia",
         "wer": 57.14285714285714,
         "cer": 8.235294117647058,
         "accuracy": 91.76470588235294,
         "time": 2.596328020095825
     },
     "gpt-4o": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id: quod aſpirationis nota erat pro littera .s. acciperét & traducerét: & maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod a\u017fpirationis nota erat pro littera .s. acciper\u00e9t & traducer\u00e9t: & maxime quia",
         "wer": 28.57142857142857,
         "cer": 4.705882352941177,
         "accuracy": 96.47058823529412,
         "time": 2.585015058517456
     },
     "claude-4-sonnet": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id:quod aſpirationis nota erat pro littera.s.acciperet & traduceret:& maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod a\u017fpirationis nota erat pro littera.s.acciperet & traduceret:& maxime quia",
         "wer": 50.0,
         "cer": 7.0588235294117645,
         "accuracy": 92.94117647058823,
         "time": 4.214453935623169
     },
     "gemini-2.5-flash": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id:quod aſpirationis nota erat pro littera .s. acciperét & traducerét: & maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod a\u017fpirationis nota erat pro littera .s. acciper\u00e9t & traducer\u00e9t: & maxime quia",
         "wer": 42.857142857142854,
         "cer": 5.88235294117647,
         "accuracy": 95.29411764705881,
         "time": 8.651119947433472
     },
     "claude-4-opus": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id: quod aſpirationis nota erat pro littera. s. acciperet & traduceret: & maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod a\u017fpirationis nota erat pro littera. s. acciperet & traduceret: & maxime quia",
         "wer": 14.285714285714285,
         "cer": 2.3529411764705883,
         "accuracy": 97.6470588235294,
         "time": 8.67664098739624
     },
     "o4-mini": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id: quod aſpirationis nota erat pro littera .s. acciperet & traduceret: & maxime quia.",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod a\u017fpirationis nota erat pro littera .s. acciperet & traduceret: & maxime quia.",
         "wer": 35.714285714285715,
         "cer": 5.88235294117647,
         "accuracy": 95.34883720930233,
         "time": 14.548643112182617
     },
     "gemini-2.5-pro": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id:quod aſpirationis nota erat ꝓ littera s.acciperét & traducerét:& maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod a\u017fpirationis nota erat \ua753 littera s.acciper\u00e9t & traducer\u00e9t:& maxime quia",
         "wer": 57.14285714285714,
         "cer": 10.588235294117647,
         "accuracy": 89.41176470588236,
         "time": 55.50777006149292
     },
     "horizon-alpha": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id: quod aſpirationis nota erat pro littera s. acciperet & traduceret: & maxime quia",
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod a\u017fpirationis nota erat pro littera s. acciperet & traduceret: & maxime quia",
         "wer": 21.428571428571427,
         "cer": 3.5294117647058822,
         "accuracy": 96.47058823529412,
         "time": 2.643609046936035
+    },
+    "horizon-beta": {
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod a\u017fpirationis nota erat pro littera s. acciperet & traduceret: & maxime quia",
+        "wer": 21.428571428571427,
+        "cer": 3.5294117647058822,
+        "accuracy": 96.47058823529412,
+        "time": 2.5109050273895264
     }
 }

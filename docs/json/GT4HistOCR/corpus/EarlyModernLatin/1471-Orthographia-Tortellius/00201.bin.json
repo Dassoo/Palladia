@@ -1,98 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "&amp; non per.b.dicere &amp; iſcribere compellit. Vnde reſte Priſciano in.viin.b.ante s url",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "&amp; non per.b.dicere &amp; i\u017fcribere compellit. Vnde re\u017fte Pri\u017fciano in.viin.b.ante s url",
         "wer": 76.47058823529412,
         "cer": 21.59090909090909,
         "accuracy": 85.71428571428571,
         "time": 1.3526160717010498
     },
     "spotlight": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b.dicere & tenbере compellit. Vnde teste Prisciano in.viii.b.ante s ucl",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & tenb\u0435\u0440\u0435 compellit. Vnde teste Prisciano in.viii.b.ante s ucl",
         "wer": 70.58823529411765,
         "cer": 19.318181818181817,
         "accuracy": 80.68181818181817,
         "time": 1.374222993850708
     },
     "qwen-2.5-vl-72b": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b.dicere & fcribere compellit.Vnde teſte Prifciano in.viii.b.ant:s ucl",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & fcribere compellit.Vnde te\u017fte Prifciano in.viii.b.ant:s ucl",
         "wer": 76.47058823529412,
         "cer": 14.772727272727273,
         "accuracy": 85.22727272727273,
         "time": 2.0358431339263916
     },
     "gpt-4o": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b.dicere & ſcribere compellit. Vnde teſte Priſciano in.viii.b.ante s uel",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & \u017fcribere compellit. Vnde te\u017fte Pri\u017fciano in.viii.b.ante s uel",
         "wer": 47.05882352941176,
         "cer": 7.954545454545454,
         "accuracy": 92.04545454545455,
         "time": 2.226191282272339
     },
     "gpt-4.1": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per. b. dicere & ſcribere compellit. Vnde teſte Priſciano in. viii. b. ante s ucl",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per. b. dicere & \u017fcribere compellit. Vnde te\u017fte Pri\u017fciano in. viii. b. ante s ucl",
         "wer": 17.647058823529413,
         "cer": 3.4090909090909087,
         "accuracy": 96.5909090909091,
         "time": 2.643364906311035
     },
     "mistral-small": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b. dicere & ſcribere compelit. Vnde ſeſte Prifciano in viii.b. ante ſ uſ.",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b. dicere & \u017fcribere compelit. Vnde \u017fe\u017fte Prifciano in viii.b. ante \u017f u\u017f.",
         "wer": 58.82352941176471,
         "cer": 12.5,
         "accuracy": 87.5,
         "time": 3.0690419673919678
     },
     "claude-4-sonnet": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b.dicere & ſcribere compellit.Vnde reſte Priſciano in.viii.b.ante s vel",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & \u017fcribere compellit.Vnde re\u017fte Pri\u017fciano in.viii.b.ante s vel",
         "wer": 64.70588235294117,
         "cer": 11.363636363636363,
         "accuracy": 88.63636363636364,
         "time": 4.350834846496582
     },
     "claude-4-opus": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per. b. dicere & ſcribere compellit. Vnde teſte Priſciano in. viiii. b. ante s uel",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per. b. dicere & \u017fcribere compellit. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
         "wer": 5.88235294117647,
         "cer": 1.1363636363636365,
         "accuracy": 98.86363636363636,
         "time": 4.893679857254028
     },
     "gemini-2.5-flash": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b. dúcere & ſcribere compellit. Vnde teſte. Priſciano in.viii.b.anecs uel",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b. d\u00facere & \u017fcribere compellit. Vnde te\u017fte. Pri\u017fciano in.viii.b.anecs uel",
         "wer": 58.82352941176471,
         "cer": 11.363636363636363,
         "accuracy": 89.77272727272727,
         "time": 6.07224702835083
     },
     "o4-mini": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b.dicere & ſtenbere compellat. Vnde teſte Prisciano in.viii.b. ante’s uſ",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & \u017ftenbere compellat. Vnde te\u017fte Prisciano in.viii.b. ante\u2019s u\u017f",
         "wer": 64.70588235294117,
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,
         "time": 31.15613579750061
     },
     "gemini-2.5-pro": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b. dicere & ſcribere compellit. Vnde teſt. Priſciano in .viïi.m.b. anꝫs uel",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b. dicere & \u017fcribere compellit. Vnde te\u017ft. Pri\u017fciano in .vi\u00efi.m.b. an\ua76bs uel",
         "wer": 52.94117647058824,
         "cer": 13.636363636363635,
         "accuracy": 88.63636363636364,
         "time": 42.557178258895874
     },
     "horizon-alpha": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per.b.dicere & ſcribere compellit. Vnde teſte Priſciano in.viii.b.ante s vel",
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & \u017fcribere compellit. Vnde te\u017fte Pri\u017fciano in.viii.b.ante s vel",
         "wer": 52.94117647058824,
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 2.660407066345215
+    },
+    "horizon-beta": {
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per b. dicere & \u017fcribere compellit. Vnde te\u017fte Pri\u017fciano in. viii. b. ante s ucl",
+        "wer": 23.52941176470588,
+        "cer": 4.545454545454546,
+        "accuracy": 95.45454545454545,
+        "time": 2.5341320037841797
     }
 }

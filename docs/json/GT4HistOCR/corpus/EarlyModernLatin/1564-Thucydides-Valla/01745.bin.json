@@ -1,6 +1,6 @@
 {
     "spotlight": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
         "response": "Thucydides Olori iacethoc Alimusius antro.",
         "wer": 50.0,
         "cer": 4.651162790697675,
@@ -8,7 +8,7 @@
         "time": 1.240391731262207
     },
     "mistral-small": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
         "response": "Thucydides Olori iacet hoc Alimusius antro.",
         "wer": 16.666666666666664,
         "cer": 2.3255813953488373,
@@ -16,31 +16,31 @@
         "time": 1.2543699741363525
     },
     "llama-4-maverick-17b": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydides Olori iacet hoc Alimufius anſtro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori iacet hoc Alimufius an\u017ftro.",
         "wer": 33.33333333333333,
         "cer": 4.651162790697675,
         "accuracy": 95.45454545454545,
         "time": 1.2979378700256348
     },
     "gpt-4o": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydides Olorı iacet hoc Alimuſius antrο.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olor\u0131 iacet hoc Alimu\u017fius antr\u03bf.",
         "wer": 33.33333333333333,
         "cer": 4.651162790697675,
         "accuracy": 95.34883720930233,
         "time": 1.727992057800293
     },
     "gpt-4.1": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydides Olori iacet hoc Alimuſſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori iacet hoc Alimu\u017f\u017fius antro.",
         "wer": 16.666666666666664,
         "cer": 2.3255813953488373,
         "accuracy": 97.72727272727273,
         "time": 1.9582509994506836
     },
     "gemini-2.5-flash": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
         "response": "Thucydides Olori iacethoc Alimulus apro.",
         "wer": 66.66666666666666,
         "cer": 11.627906976744185,
@@ -48,23 +48,23 @@
         "time": 3.202012777328491
     },
     "claude-4-sonnet": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydides Olori iacet hoc Alimuſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.4068491458892822
     },
     "claude-4-opus": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydides Olori iacet hoc Alimuſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.719675064086914
     },
     "qwen-2.5-vl-72b": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
         "response": "Thucydides Olori iacet hoc Alimusius antro.",
         "wer": 16.666666666666664,
         "cer": 2.3255813953488373,
@@ -72,7 +72,7 @@
         "time": 3.9359278678894043
     },
     "o4-mini": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
         "response": "Thucydides Olori iacet hoc Alimulus anno.",
         "wer": 33.33333333333333,
         "cer": 9.30232558139535,
@@ -80,19 +80,27 @@
         "time": 10.57692813873291
     },
     "gemini-2.5-pro": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydidës Olori iacet hoc Alimúſius agro,",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydid\u00ebs Olori iacet hoc Alim\u00fa\u017fius agro,",
         "wer": 50.0,
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 74.3655469417572
     },
     "horizon-alpha": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydides Olorî iacet hoc Alimusius anro.",
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olor\u00ee iacet hoc Alimusius anro.",
         "wer": 50.0,
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
         "time": 2.15320086479187
+    },
+    "horizon-beta": {
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olorj iacet hoc Alimus\u017fius antro.",
+        "wer": 33.33333333333333,
+        "cer": 4.651162790697675,
+        "accuracy": 95.45454545454545,
+        "time": 3.4876091480255127
     }
 }
