@@ -418,8 +418,8 @@ class BenchmarkDashboard {
                 
                 <div class="model-metrics">
                     <span class="metric">Accuracy: ${accuracy.toFixed(1)}%</span>
-                    <span class="metric">WER: ${wer.toFixed(1)}%</span>
                     <span class="metric">CER: ${cer.toFixed(1)}%</span>
+                    <span class="metric">WER: ${wer.toFixed(1)}%</span>
                     <span class="metric">Time: ${time.toFixed(2)}s</span>
                 </div>
                 
