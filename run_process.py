@@ -50,7 +50,7 @@ async def run_model(agent, model, executor, image_path: str):
     if model.id == "thudm/glm-4.1v-9b-thinking":
         response = trim_response(response)
     
-    # Metrics calc
+    # Metrics calculation
     diff, accuracy = get_diff(gt, response.content)
     wer, cer = get_metrics(gt, response.content)
     
