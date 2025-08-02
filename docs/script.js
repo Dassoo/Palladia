@@ -227,7 +227,6 @@ class BenchmarkDashboard {
 
     async init() {
         const loadingHtml = '<div class="loading">Loading data...</div>';
-        document.getElementById('overall-stats').innerHTML = loadingHtml;
         document.getElementById('model-averages').innerHTML = loadingHtml;
         document.getElementById('results-container').innerHTML = loadingHtml;
 
@@ -243,7 +242,6 @@ class BenchmarkDashboard {
         } catch (error) {
             console.error('Error loading data:', error);
             const errorHtml = `<div style="color: red; padding: 20px;">Error: ${error.message}</div>`;
-            document.getElementById('overall-stats').innerHTML = errorHtml;
             document.getElementById('model-averages').innerHTML = errorHtml;
             document.getElementById('results-container').innerHTML = errorHtml;
         }
@@ -262,7 +260,6 @@ class BenchmarkDashboard {
         this.cleanupStickyHeaders();
 
         // Show main dashboard sections
-        document.getElementById('overall-stats').style.display = 'block';
         document.getElementById('model-averages').style.display = 'block';
         document.getElementById('results-container').style.display = 'block';
 
@@ -273,15 +270,13 @@ class BenchmarkDashboard {
         }
 
         // Render dashboard content
-        this.renderOverallStats();
         this.renderModelAverages();
         this.renderResults();
     }
 
     async showDetailsView(category, subcategory) {
-        // Hide main dashboard sections
-        document.getElementById('overall-stats').style.display = 'none';
-        document.getElementById('model-averages').style.display = 'none';
+        // Hide dashboard sections
+        // document.getElementById('model-averages').style.display = 'none';
         document.getElementById('results-container').style.display = 'none';
 
         // Show details view
@@ -707,63 +702,7 @@ class BenchmarkDashboard {
         return this.escapeHtml(modelName);
     }
 
-    calculateOverallStats() {
-        const modelAverages = this.calculateModelAverages();
-        if (!modelAverages || Object.keys(modelAverages).length === 0) return null;
 
-        const modelValues = Object.values(modelAverages);
-        const modelCount = modelValues.length;
-
-        const totals = modelValues.reduce((acc, model) => {
-            acc.wer += model.avg_wer;
-            acc.cer += model.avg_cer;
-            acc.accuracy += model.avg_accuracy;
-            acc.time += model.avg_time;
-            return acc;
-        }, { wer: 0, cer: 0, accuracy: 0, time: 0 });
-
-        // Get total unique images from manifest (not sum of model totals)
-        const totalImages = this.getTotalImagesFromManifest();
-
-        return {
-            avg_wer: (totals.wer / modelCount).toFixed(2),
-            avg_cer: (totals.cer / modelCount).toFixed(2),
-            avg_accuracy: (totals.accuracy / modelCount).toFixed(2),
-            avg_time: (totals.time / modelCount).toFixed(2),
-            total_images: totalImages,
-            total_models: modelCount
-        };
-    }
-
-    renderOverallStats() {
-        const stats = this.calculateOverallStats();
-        if (!stats) return;
-
-        const html = `
-            <div class="stat-card">
-                <div class="stat-label">Average Accuracy</div>
-                <div class="stat-value">${stats.avg_accuracy}%</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-label">Average CER</div>
-                <div class="stat-value">${stats.avg_cer}%</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-label">Average WER</div>
-                <div class="stat-value">${stats.avg_wer}%</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-label">Average Time</div>
-                <div class="stat-value">${stats.avg_time}s</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-label">Total Images</div>
-                <div class="stat-value">${stats.total_images}</div>
-            </div>
-        `;
-
-        document.getElementById('overall-stats').innerHTML = html;
-    }
 
     calculateModelAverages() {
         const modelStats = {};
