@@ -1,0 +1,74 @@
+{
+    "spotlight": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent-yn de fone ystrahel weeren yn",
+        "wer": 75.0,
+        "cer": 27.027027027027028,
+        "accuracy": 78.37837837837837,
+        "time": 1.262204885482788
+    },
+    "mistral-small": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent-vnde de \u017fone y\u017frahel weren yn",
+        "wer": 37.5,
+        "cer": 8.108108108108109,
+        "accuracy": 91.8918918918919,
+        "time": 1.2641620635986328
+    },
+    "gpt-4.1": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent\u00b7vnde de \u017fone y\u017frahel weren yn",
+        "wer": 37.5,
+        "cer": 5.405405405405405,
+        "accuracy": 94.5945945945946,
+        "time": 1.5389008522033691
+    },
+    "horizon-beta": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent\u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "wer": 25.0,
+        "cer": 2.7027027027027026,
+        "accuracy": 97.2972972972973,
+        "time": 2.250969171524048
+    },
+    "gpt-4o": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent : vn\u0304de de \u017fone y\u017ftrahel weren yn\u0304",
+        "wer": 50.0,
+        "cer": 10.81081081081081,
+        "accuracy": 90.0,
+        "time": 2.272897958755493
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent-vnde de fone y\u017frahel weren yn",
+        "wer": 50.0,
+        "cer": 10.81081081081081,
+        "accuracy": 89.1891891891892,
+        "time": 2.758664131164551
+    },
+    "claude-4-sonnet": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent \u00b7 vnde de fone p\u017frabel weren yn",
+        "wer": 25.0,
+        "cer": 8.108108108108109,
+        "accuracy": 91.8918918918919,
+        "time": 2.966066837310791
+    },
+    "claude-4-opus": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.4668071269989014
+    },
+    "llama-4-maverick-17b": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent vnde de fone yfrahel weren yn",
+        "wer": 37.5,
+        "cer": 10.81081081081081,
+        "accuracy": 89.1891891891892,
+        "time": 10.251447200775146
+    }
+}

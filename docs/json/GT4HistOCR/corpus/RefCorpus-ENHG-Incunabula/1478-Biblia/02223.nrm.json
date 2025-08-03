@@ -1,0 +1,74 @@
+{
+    "spotlight": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und als eme de here gliebaeden hadde:vn de",
+        "wer": 62.5,
+        "cer": 14.285714285714285,
+        "accuracy": 90.47619047619048,
+        "time": 1.3864550590515137
+    },
+    "mistral-small": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und al\u017f eme de here glyebraeden hadde : vnde",
+        "wer": 62.5,
+        "cer": 16.666666666666664,
+        "accuracy": 86.36363636363636,
+        "time": 1.4293861389160156
+    },
+    "gpt-4.1": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und alls \u1ebdme ds herre gheba\u0364den hadde : unde",
+        "wer": 100.0,
+        "cer": 16.666666666666664,
+        "accuracy": 84.0909090909091,
+        "time": 2.1006929874420166
+    },
+    "gpt-4o": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und al\u017f er mbe\u017f here ghebaeden hadde: vnde",
+        "wer": 50.0,
+        "cer": 19.047619047619047,
+        "accuracy": 85.71428571428571,
+        "time": 2.1066439151763916
+    },
+    "horizon-beta": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und al\u017fs rme ds here gheba\u0153en hadde : vnde",
+        "wer": 87.5,
+        "cer": 16.666666666666664,
+        "accuracy": 85.71428571428571,
+        "time": 2.3734493255615234
+    },
+    "claude-4-sonnet": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "ui\ua77a ali\u017f erne \ua77ae here glycka e\ua77aen ha\ua77a\ua77ae: vn \ua77ae",
+        "wer": 112.5,
+        "cer": 38.095238095238095,
+        "accuracy": 65.21739130434783,
+        "time": 3.327298164367676
+    },
+    "claude-4-opus": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und al\u017fo eine de here ghebaeden hadde: wilde",
+        "wer": 50.0,
+        "cer": 19.047619047619047,
+        "accuracy": 81.81818181818183,
+        "time": 3.7571308612823486
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und al\u017fs eme de here glichbaeden hadde:vn de",
+        "wer": 62.5,
+        "cer": 19.047619047619047,
+        "accuracy": 86.36363636363636,
+        "time": 4.53317403793335
+    },
+    "llama-4-maverick-17b": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und alls eme de here ghyebaeden hadde : v\u00f1 de",
+        "wer": 75.0,
+        "cer": 11.904761904761903,
+        "accuracy": 88.88888888888889,
+        "time": 9.81905198097229
+    }
+}

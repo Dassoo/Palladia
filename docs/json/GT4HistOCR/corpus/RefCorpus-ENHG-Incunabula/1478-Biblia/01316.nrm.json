@@ -1,0 +1,74 @@
+{
+    "mistral-small": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vpl dat noth) is dat duvth geuist",
+        "wer": 50.0,
+        "cer": 11.904761904761903,
+        "accuracy": 90.47619047619048,
+        "time": 1.2297391891479492
+    },
+    "spotlight": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat nothis dat du vth geuest",
+        "wer": 30.0,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 1.3453030586242676
+    },
+    "gpt-4.1": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo wy dat north is dat du vth geueit",
+        "wer": 30.0,
+        "cer": 9.523809523809524,
+        "accuracy": 92.85714285714286,
+        "time": 1.6835248470306396
+    },
+    "horizon-beta": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vy\u017f dat north is dat du vth geue\u017ft",
+        "wer": 20.0,
+        "cer": 4.761904761904762,
+        "accuracy": 95.34883720930233,
+        "time": 2.2111990451812744
+    },
+    "gpt-4o": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo wyl dat north is dat du vth geueit",
+        "wer": 30.0,
+        "cer": 7.142857142857142,
+        "accuracy": 93.02325581395348,
+        "time": 2.3159501552581787
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat noth is dat du vth geuest",
+        "wer": 10.0,
+        "cer": 2.380952380952381,
+        "accuracy": 97.61904761904762,
+        "time": 2.9406399726867676
+    },
+    "claude-4-sonnet": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat noth is dat du vyth geue\u017ft",
+        "wer": 10.0,
+        "cer": 2.380952380952381,
+        "accuracy": 97.67441860465115,
+        "time": 3.308305025100708
+    },
+    "claude-4-opus": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat noth is dat du veth genest",
+        "wer": 20.0,
+        "cer": 7.142857142857142,
+        "accuracy": 93.02325581395348,
+        "time": 4.213158845901489
+    },
+    "llama-4-maverick-17b": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 8.983025789260864
+    }
+}

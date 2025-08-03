@@ -1,0 +1,74 @@
+{
+    "mistral-small": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde \u017fp\u014da \u017fede deme konynge \u017fa daer is noch",
+        "wer": 22.22222222222222,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 1.2784368991851807
+    },
+    "spotlight": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde syda fede deme konyngc Ja daer is noch",
+        "wer": 33.33333333333333,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 1.5477020740509033
+    },
+    "gpt-4.1": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde \u017fhoa \u017fede deme konynge Ia daer is noch",
+        "wer": 22.22222222222222,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 1.7453110218048096
+    },
+    "gpt-4o": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde \u017fboa \u017fede deme konynge Ja daer is noch",
+        "wer": 11.11111111111111,
+        "cer": 4.651162790697675,
+        "accuracy": 97.67441860465115,
+        "time": 1.8355669975280762
+    },
+    "horizon-beta": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde \u017fhoa \u017fede deme konynge Ja daer is noch",
+        "wer": 11.11111111111111,
+        "cer": 4.651162790697675,
+        "accuracy": 95.34883720930233,
+        "time": 2.3915061950683594
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde lyda \u017fede deme konynge Ia daer is noch",
+        "wer": 22.22222222222222,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 3.1808362007141113
+    },
+    "claude-4-sonnet": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde \u017fp\ua77aa \u017fe\u0434\u0435 deme konynge Ja daer is noch",
+        "wer": 22.22222222222222,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 3.46087384223938
+    },
+    "claude-4-opus": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde \u017fp\ua75ba \u017fede deme konynge Ja daer is noch",
+        "wer": 11.11111111111111,
+        "cer": 4.651162790697675,
+        "accuracy": 95.34883720930233,
+        "time": 4.42144513130188
+    },
+    "llama-4-maverick-17b": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde fy\u030aa fede deme konynge Jt daer is noch",
+        "wer": 33.33333333333333,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 8.73450517654419
+    }
+}

@@ -1,59 +1,59 @@
 {
     "mistral-small": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 50.729437229437224,
-        "avg_cer": 13.6759632802186,
-        "avg_accuracy": 86.77987166497806,
-        "avg_time": 2.019568347930908
+        "images": 30,
+        "avg_wer": 44.852693602693606,
+        "avg_cer": 14.887421369542745,
+        "avg_accuracy": 86.20194025469625,
+        "avg_time": 1.3311491409937541
     },
     "qwen-2.5-vl-72b": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 41.37229437229438,
-        "avg_cer": 10.088121334929845,
-        "avg_accuracy": 89.91187866507015,
-        "avg_time": 1.7007936477661132
+        "images": 30,
+        "avg_wer": 44.51563251563252,
+        "avg_cer": 10.694276396700813,
+        "avg_accuracy": 89.84862786729504,
+        "avg_time": 3.4099284489949544
     },
     "spotlight": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 48.04761904761905,
-        "avg_cer": 12.864014000184213,
-        "avg_accuracy": 88.0450769089067,
-        "avg_time": 1.7680243015289308
+        "images": 30,
+        "avg_wer": 49.50228475228475,
+        "avg_cer": 13.078871654038307,
+        "avg_accuracy": 88.08292710762689,
+        "avg_time": 1.3984687725702922
     },
     "llama-4-maverick-17b": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 49.896103896103895,
-        "avg_cer": 17.114156765220592,
-        "avg_accuracy": 83.73690706456664,
-        "avg_time": 1.7139928340911865
+        "images": 30,
+        "avg_wer": 50.327681577681574,
+        "avg_cer": 14.93975269863232,
+        "avg_accuracy": 86.3907738309546,
+        "avg_time": 6.396756347020467
     },
     "gpt-4.1": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 42.6017316017316,
-        "avg_cer": 11.136759694206502,
-        "avg_accuracy": 90.22816616008106,
-        "avg_time": 3.960871362686157
+        "images": 30,
+        "avg_wer": 47.027296777296776,
+        "avg_cer": 10.921689182098033,
+        "avg_accuracy": 90.55113327100231,
+        "avg_time": 1.8679094155629477
     },
     "claude-4-sonnet": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 41.22943722943723,
-        "avg_cer": 15.123177059347274,
-        "avg_accuracy": 86.18055592264658,
-        "avg_time": 3.743660259246826
+        "images": 30,
+        "avg_wer": 45.424362674362676,
+        "avg_cer": 12.147864211581314,
+        "avg_accuracy": 88.29998507862686,
+        "avg_time": 3.146985332171122
     },
     "claude-4-opus": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 33.93290043290043,
-        "avg_cer": 10.308900555709066,
-        "avg_accuracy": 89.69109944429093,
-        "avg_time": 4.127223014831543
+        "images": 30,
+        "avg_wer": 38.97366522366522,
+        "avg_cer": 10.985958002196508,
+        "avg_accuracy": 89.48921272129044,
+        "avg_time": 4.111063003540039
     },
     "gemini-2.5-flash": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
@@ -62,5 +62,21 @@
         "avg_cer": 26.80649043627767,
         "avg_accuracy": 77.13546406312364,
         "avg_time": 10.26406397819519
+    },
+    "horizon-beta": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 48.71067821067821,
+        "avg_cer": 12.024798726028369,
+        "avg_accuracy": 89.63769069435962,
+        "avg_time": 2.4806554714838662
+    },
+    "gpt-4o": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 46.87602212602212,
+        "avg_cer": 13.140646281785058,
+        "avg_accuracy": 88.73609682596823,
+        "avg_time": 2.1343864758809405
     }
 }

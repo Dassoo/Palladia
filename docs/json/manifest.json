@@ -1,18 +1,43 @@
 {
   "description": "Auto-generated manifest of all available JSON files based on GT4HistOCR corpus structure",
-  "generated": "2025-08-03T10:29:34.434943",
+  "generated": "2025-08-03T11:23:30.808783",
   "structure": {
     "RefCorpus-ENHG-Incunabula": {
       "1478-Biblia": {
         "aggregated": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia.json",
         "individual_files": [
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00090.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00128.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00276.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00286.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00511.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00573.nrm.json",
           "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00614.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00684.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00751.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/00761.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01159.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01262.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01316.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01422.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01613.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01766.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01772.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01988.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/01991.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02055.nrm.json",
           "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02157.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02192.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02209.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02223.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02278.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02354.nrm.json",
           "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02560.nrm.json",
+          "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02581.nrm.json",
           "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02627.nrm.json",
           "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia/02694.nrm.json"
         ],
-        "image_count": 5
+        "image_count": 30
       }
     },
     "Kallimachos": {

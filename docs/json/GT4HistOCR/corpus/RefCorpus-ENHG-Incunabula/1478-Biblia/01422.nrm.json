@@ -1,0 +1,74 @@
+{
+    "mistral-small": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "[del fin:mer de hyllyge \u017fchrift is vitwendych]",
+        "wer": 62.5,
+        "cer": 10.638297872340425,
+        "accuracy": 91.48936170212765,
+        "time": 1.3124120235443115
+    },
+    "spotlight": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "i\u030ddel fin:mer de hyly ge schrift is vitwendych",
+        "wer": 75.0,
+        "cer": 14.893617021276595,
+        "accuracy": 89.36170212765957,
+        "time": 1.3403139114379883
+    },
+    "gpt-4.1": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "jdel \u017fin:mer de hylyge \u017fchrifft is v\u017ftwendy\u017fch",
+        "wer": 62.5,
+        "cer": 10.638297872340425,
+        "accuracy": 91.48936170212765,
+        "time": 1.7154669761657715
+    },
+    "gpt-4o": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "Jdel \u017fin:mer de hyll\u00ffge \u017fchrifft is vtrwendych",
+        "wer": 62.5,
+        "cer": 10.638297872340425,
+        "accuracy": 91.48936170212765,
+        "time": 2.03535532951355
+    },
+    "horizon-beta": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "jdel \u017fin:mer de hylyge \u017fcha\u017ft is virwendych",
+        "wer": 75.0,
+        "cer": 17.02127659574468,
+        "accuracy": 82.97872340425532,
+        "time": 2.3684098720550537
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "idel fin:mer de hylligec\u017fchrift is vitwendych",
+        "wer": 50.0,
+        "cer": 10.638297872340425,
+        "accuracy": 89.36170212765957,
+        "time": 2.964754819869995
+    },
+    "claude-4-sonnet": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "Joci \u017fin:mer de byllyge \u017fchrifft is vutwendych",
+        "wer": 62.5,
+        "cer": 14.893617021276595,
+        "accuracy": 87.2340425531915,
+        "time": 3.2627110481262207
+    },
+    "claude-4-opus": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "\u017fdel \u017fin: mer \u00f0e hyllyge \u017fchrift is vutwendych",
+        "wer": 50.0,
+        "cer": 8.51063829787234,
+        "accuracy": 91.48936170212765,
+        "time": 4.357756853103638
+    },
+    "llama-4-maverick-17b": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "i\u017fel fin:mer de hylpge fchrifft is vtrwendych",
+        "wer": 75.0,
+        "cer": 17.02127659574468,
+        "accuracy": 85.1063829787234,
+        "time": 10.903536319732666
+    }
+}

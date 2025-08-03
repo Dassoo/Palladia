@@ -1,0 +1,74 @@
+{
+    "mistral-small": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "\u017fnade en im cremen her\u017fen-vnde \u017fe brachten de ar",
+        "wer": 45.45454545454545,
+        "cer": 16.666666666666664,
+        "accuracy": 87.5,
+        "time": 1.3519349098205566
+    },
+    "gpt-4.1": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "\u017fnade en im eren herren \u00b7 vnde \u017fe brachten de ar",
+        "wer": 18.181818181818183,
+        "cer": 4.166666666666666,
+        "accuracy": 95.83333333333334,
+        "time": 1.689896821975708
+    },
+    "gpt-4o": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "\u017fnade en im ewern hertzen \u00b7 vnde \u017fie brachten de ar",
+        "wer": 36.36363636363637,
+        "cer": 14.583333333333334,
+        "accuracy": 86.27450980392157,
+        "time": 1.9492928981781006
+    },
+    "spotlight": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "f.nade en in crem herren\u00b7vnde se brachten de ar",
+        "wer": 54.54545454545454,
+        "cer": 12.5,
+        "accuracy": 89.58333333333334,
+        "time": 2.1923797130584717
+    },
+    "horizon-beta": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "\u017fnade en im ewem herren \u00b7 vnde \u017fe brachten de ar",
+        "wer": 18.181818181818183,
+        "cer": 4.166666666666666,
+        "accuracy": 95.83333333333334,
+        "time": 2.6430509090423584
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "Inade en in crem herren\u00b7vnde le brachten de ar",
+        "wer": 54.54545454545454,
+        "cer": 10.416666666666668,
+        "accuracy": 89.58333333333334,
+        "time": 2.7759740352630615
+    },
+    "claude-4-sonnet": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "f.112 de en im erem herren \u00b7 vnde \u017fe brachten de ar",
+        "wer": 27.27272727272727,
+        "cer": 14.583333333333334,
+        "accuracy": 86.27450980392157,
+        "time": 3.73301100730896
+    },
+    "claude-4-opus": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "\u017f. nade en in e\u0153m hetten \u00b7 vnde \u017fe brachten de ar",
+        "wer": 36.36363636363637,
+        "cer": 12.5,
+        "accuracy": 89.79591836734694,
+        "time": 4.327701807022095
+    },
+    "llama-4-maverick-17b": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "\u017fnade en im crem herten. vnde \u017fe brachten de ac",
+        "wer": 45.45454545454545,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 8.061404943466187
+    }
+}
