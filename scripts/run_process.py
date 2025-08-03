@@ -1,10 +1,15 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from models.model_utils import to_eval, get_model_display_name
 from models.agent import create_agent, create_image_obj
 from evaluation.metrics import get_diff, get_metrics
 from evaluation.graph import create_graph
 from utils.custom_trim import trim_response
 from utils.save import to_json, aggregate_folder_results
-from utils.update_manifest import update_manifest
+from scripts.update_manifest import update_manifest
 from config.loader import load_config
 
 from agno.agent import RunResponse

@@ -2,7 +2,6 @@ import json
 import sys
 from pathlib import Path
 
-# Add parent directory to path to import config modules
 sys.path.append(str(Path(__file__).parent.parent))
 
 from config.loader import load_config

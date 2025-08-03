@@ -80,7 +80,7 @@ GOOGLE_API_KEY=your_key_here
 
 3. Download the evaluation dataset:
 ```bash
-python utils/download_dataset.py
+python scripts/download_dataset.py
 ```
 
 ### Run Your First Evaluation

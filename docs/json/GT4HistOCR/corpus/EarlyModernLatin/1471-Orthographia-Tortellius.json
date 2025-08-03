@@ -98,9 +98,9 @@
     "horizon-beta": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
         "images": 44,
-        "avg_wer": 32.78307922024499,
-        "avg_cer": 7.852587004144732,
-        "avg_accuracy": 92.79260538009122,
-        "avg_time": 2.6269678473472595
+        "avg_wer": 32.36985607974913,
+        "avg_cer": 7.823071065537885,
+        "avg_accuracy": 92.82212131869807,
+        "avg_time": 2.637998467141932
     }
 }

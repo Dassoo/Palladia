@@ -1,5 +1,5 @@
 from config.loader import ConfigLoader
-from utils.update_manifest import regenerate_full_manifest
+from scripts.update_manifest import regenerate_full_manifest
 from utils.webserver.dashboard_ws import start_dashboard, is_dashboard_running
 
 import yaml
@@ -443,7 +443,7 @@ class ModelManager:
         
         # Get the path to the current Python interpreter
         python = sys.executable
-        app_path = os.path.join(os.path.dirname(__file__), '../run_process.py')
+        app_path = os.path.join(os.path.dirname(__file__), '../scripts/run_process.py')
         
         try:
             # Run app.py in a new process

@@ -97,10 +97,10 @@
     },
     "horizon-beta": {
         "gt": "\u017fon\u00e3s: quas ut diximus mutuari \u017folemus: quoti\u1ebds illorum no\u0129bus utimur. ne\u017fcio",
-        "response": "\u017fonas: quas vt diximus mutuari \u017folemus: quoties illorum noibus vtimur. ne\u017fcio",
-        "wer": 45.45454545454545,
-        "cer": 6.493506493506493,
-        "accuracy": 93.5064935064935,
-        "time": 2.795552968978882
+        "response": "\u017fonas: quas ut diximus mutuari \u017folemus: quotie\u017f illorum noibus utimur. ne\u017fcio",
+        "wer": 27.27272727272727,
+        "cer": 5.194805194805195,
+        "accuracy": 94.8051948051948,
+        "time": 3.280900239944458
     }
 }

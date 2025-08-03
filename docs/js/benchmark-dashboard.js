@@ -1,219 +1,3 @@
-// Simple Diff Viewer for text comparison
-class DiffViewer {
-    static generateDiff(text1, text2) {
-        // Simple word-based diff implementation
-        const words1 = text1.split(/(\s+)/);
-        const words2 = text2.split(/(\s+)/);
-
-        const diff = [];
-        let i = 0, j = 0;
-
-        while (i < words1.length || j < words2.length) {
-            if (i >= words1.length) {
-                // Remaining words in text2 are additions
-                diff.push({ type: 'added', value: words2[j] });
-                j++;
-            } else if (j >= words2.length) {
-                // Remaining words in text1 are deletions
-                diff.push({ type: 'removed', value: words1[i] });
-                i++;
-            } else if (words1[i] === words2[j]) {
-                // Words match
-                diff.push({ type: 'equal', value: words1[i] });
-                i++;
-                j++;
-            } else {
-                // Words differ - simple approach: mark as changed
-                diff.push({ type: 'removed', value: words1[i] });
-                diff.push({ type: 'added', value: words2[j] });
-                i++;
-                j++;
-            }
-        }
-
-        return diff;
-    }
-
-    static renderInlineDiff(diff) {
-        return diff.map(part => {
-            const className = part.type === 'added' ? 'diff-added' :
-                part.type === 'removed' ? 'diff-removed' : '';
-            return className ?
-                `<span class="${className}">${this.escapeHtml(part.value)}</span>` :
-                this.escapeHtml(part.value);
-        }).join('');
-    }
-
-
-
-    static escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
-    }
-}
-
-// Individual File Loader for loading detailed image results
-class IndividualFileLoader {
-    constructor(fetchFunction) {
-        this.fetchWithTimeout = fetchFunction;
-        this.cache = new Map();
-    }
-
-    async loadIndividualFiles(filePaths) {
-        const results = {
-            successful: [],
-            failed: [],
-            data: {}
-        };
-
-        const loadPromises = filePaths.map(async (filePath) => {
-            try {
-                // Check cache first
-                if (this.cache.has(filePath)) {
-                    return { filePath, data: this.cache.get(filePath), success: true, cached: true };
-                }
-
-                const data = await this.fetchWithTimeout(`json/${filePath}`);
-                const processedData = this.processImageData(data, filePath);
-
-                // Cache the processed data
-                this.cache.set(filePath, processedData);
-
-                return { filePath, data: processedData, success: true, cached: false };
-            } catch (error) {
-                console.warn(`Failed to load ${filePath}:`, error.message);
-                return { filePath, error: error.message, success: false };
-            }
-        });
-
-        const loadResults = await Promise.all(loadPromises);
-
-        loadResults.forEach(result => {
-            if (result.success) {
-                results.successful.push(result);
-                results.data[result.filePath] = result.data;
-            } else {
-                results.failed.push(result);
-            }
-        });
-
-        return results;
-    }
-
-    processImageData(rawData, filePath) {
-        // Extract filename for display
-        const filename = filePath.split('/').pop().replace('.json', '');
-
-        // Validate and normalize the data structure
-        const processedData = {
-            filename: filename,
-            filePath: filePath,
-            models: {}
-        };
-
-        // Process each model's data
-        Object.entries(rawData).forEach(([modelName, modelData]) => {
-            if (this.validateModelData(modelData)) {
-                processedData.models[modelName] = {
-                    groundTruth: modelData.gt || '',
-                    response: modelData.response || '',
-                    wer: modelData.wer || 0,
-                    cer: modelData.cer || 0,
-                    accuracy: modelData.accuracy || 0,
-                    time: modelData.time || 0
-                };
-            } else {
-                console.warn(`Invalid data structure for model ${modelName} in ${filePath}`);
-            }
-        });
-
-        return processedData;
-    }
-
-    validateModelData(modelData) {
-        const requiredKeys = ['gt', 'response', 'wer', 'cer', 'accuracy', 'time'];
-        return typeof modelData === 'object' &&
-            modelData !== null &&
-            requiredKeys.every(key => key in modelData);
-    }
-
-    handleLoadingErrors(errors) {
-        if (errors.length === 0) return;
-        console.error(`Failed to load ${errors.length} files:`, errors);
-    }
-}
-
-// URL Router for handling navigation between dashboard and details view
-class URLRouter {
-    constructor() {
-        this.currentView = 'dashboard';
-        this.currentParams = {};
-        this.setupHistoryHandling();
-        this.parseCurrentURL();
-    }
-
-    parseCurrentURL() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const view = urlParams.get('view') || 'dashboard';
-        const category = urlParams.get('category');
-        const subcategory = urlParams.get('subcategory');
-
-        this.currentView = view;
-        this.currentParams = {
-            category: category,
-            subcategory: subcategory
-        };
-    }
-
-    getCurrentView() {
-        return this.currentView;
-    }
-
-    getParams() {
-        return { ...this.currentParams };
-    }
-
-    navigateTo(view, params = {}) {
-        this.currentView = view;
-        this.currentParams = { ...params };
-
-        // Update URL without page reload
-        const url = new URL(window.location);
-        url.searchParams.set('view', view);
-
-        if (params.category) {
-            url.searchParams.set('category', params.category);
-        } else {
-            url.searchParams.delete('category');
-        }
-
-        if (params.subcategory) {
-            url.searchParams.set('subcategory', params.subcategory);
-        } else {
-            url.searchParams.delete('subcategory');
-        }
-
-        window.history.pushState({ view, params }, '', url);
-
-        // Trigger view change
-        this.onViewChange(view, params);
-    }
-
-    setupHistoryHandling() {
-        window.addEventListener('popstate', (event) => {
-            this.parseCurrentURL();
-            this.onViewChange(this.currentView, this.currentParams);
-        });
-    }
-
-    onViewChange(view, params) {
-        // This will be overridden by the dashboard
-    }
-
-
-}
-
 class BenchmarkDashboard {
     constructor() {
         this.data = {};
@@ -276,7 +60,6 @@ class BenchmarkDashboard {
 
     async showDetailsView(category, subcategory) {
         // Hide dashboard sections
-        // document.getElementById('model-averages').style.display = 'none';
         document.getElementById('results-container').style.display = 'none';
 
         // Show details view
@@ -702,8 +485,6 @@ class BenchmarkDashboard {
         return this.escapeHtml(modelName);
     }
 
-
-
     calculateModelAverages() {
         const modelStats = {};
 
@@ -1002,8 +783,6 @@ class BenchmarkDashboard {
         this.applyFilters();
     }
 
-
-
     // Toggle image result expansion with sticky header functionality
     toggleImageResult(header) {
         const content = header.nextElementSibling;
@@ -1066,15 +845,3 @@ class BenchmarkDashboard {
         });
     }
 }
-
-// Initialize dashboard when page loads
-let dashboard;
-document.addEventListener('DOMContentLoaded', () => {
-    dashboard = new BenchmarkDashboard();
-
-    // Set up back button handler
-    document.getElementById('back-to-dashboard').addEventListener('click', (e) => {
-        e.preventDefault();
-        dashboard.navigateBackToDashboard();
-    });
-});
