@@ -75,7 +75,7 @@ class ConfigLoader:
         # Warn about missing API keys
         missing_keys = config.missing_api_keys
         if missing_keys:
-            console.print(Text("⚠️  Missing API keys for enabled models:", style="bold yellow"))
+            console.print(Text("Missing API keys for enabled models:", style="bold yellow"))
             for missing in missing_keys:
                 console.print(Text(f"  • {missing}", style="yellow"))
             console.print()
@@ -83,7 +83,7 @@ class ConfigLoader:
         # Info about enabled models
         enabled = config.enabled_models
         if enabled:
-            console.print(Text(f"✅ {len(enabled)} model(s) enabled for evaluation:", style="bold green"))
+            console.print(Text(f"{len(enabled)} model(s) enabled for benchmark:", style="bold green"))
             for model in enabled:
                 display_name = model.display_name
                 if display_name != model.id:
@@ -91,7 +91,7 @@ class ConfigLoader:
                 else:
                     console.print(Text(f"  • {model.provider}/{model.id}", style="green"))
         else:
-            console.print(Text("⚠️  No models enabled for evaluation", style="bold yellow"))
+            console.print(Text("No models enabled for evaluation", style="bold yellow"))
         
         console.print()
 

@@ -39,6 +39,7 @@ def get_metrics(candidate: str, reference: str):
     c_error = cer(candidate, reference)
     return w_error, c_error
 
+# Not in use for now (there's no reason at the moment to dig on semantic acceptability or meaning preservation)
 def get_bert_score(candidate: str, reference: str):
     """Get the BERT score between the candidate and reference strings."""
     P, R, F1 = score([candidate], [reference], lang="en", verbose=True)

@@ -4,11 +4,7 @@ import matplotlib.pyplot as plt
 import json
 
 def create_graph(path: str):
-    """Create a graph of the accuracy, CER, and WER per evaluated model.
-
-    Args:
-        path (str): Path to the JSON file containing the data.
-    """
+    """Create a graph of the accuracy, CER, and WER per evaluated model."""
     with open(f"{path}", "r") as f:
         data = json.load(f)
 
@@ -72,4 +68,5 @@ def create_graph(path: str):
 
 
 if  __name__ == "__main__":
+    # Manual creation if needed
     create_graph("docs/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius.json")
