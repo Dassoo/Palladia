@@ -227,16 +227,20 @@ class ModelManager:
             text="Prioritize already scanned images",
             variable=self.prioritize_scanned,
             command=self.update_selection_help_text,
-            fg_color=PALETTE["TEXT_MAIN"],           # Unchecked background (purple)
-            hover_color=PALETTE["ACCENT"],           # Hover color (blue-purple)
-            checkmark_color=PALETTE["BG_LIGHT"],     # Checkmark color (cream)
-            border_color=PALETTE["TEXT_MAIN"]        # Border color (purple)
+            fg_color=PALETTE["TEXT_MAIN"],           # Unchecked background
+            hover_color=PALETTE["ACCENT"],           # Hover color
+            checkmark_color=PALETTE["BG_LIGHT"],     # Checkmark color
+            border_color=PALETTE["TEXT_MAIN"]        # Border color
         )
         self.priority_checkbox.pack(side="right", padx=(10, 15), pady=8)
         
         # Validate initial path
         if self.dataset_path.get():
             self.validate_dataset_folder(self.dataset_path.get())
+    
+    def on_tab_change(self):
+        """Handle tab change to update status bar."""
+        self.update_status_bar()
     
     def toggle_model(self, model, var):
         """Toggle model enabled state."""
@@ -288,10 +292,10 @@ class ModelManager:
         models_title.pack(pady=(8, 5))
         
         # Provider tabs
-        self.tabview = ctk.CTkTabview(models_frame, fg_color=PALETTE["BG_MEDIUM"])
+        self.tabview = ctk.CTkTabview(models_frame, fg_color=PALETTE["BG_MEDIUM"], 
+                                     command=self.on_tab_change)
         self.tabview.pack(fill="both", expand=True, padx=12, pady=(0, 8))
         
-        # Customize tab colors
         self.tabview._segmented_button.configure(
             fg_color=PALETTE["TEXT_MAIN"],           # Background of tab bar
             selected_color=PALETTE["ACCENT"],        # Selected tab color
@@ -391,14 +395,21 @@ class ModelManager:
         self.status_frame = ctk.CTkFrame(self.root, fg_color=PALETTE["BG_MEDIUM"])
         self.status_frame.pack(fill="x", side="bottom", padx=0, pady=(5, 0))
         
-        self.status_label = ctk.CTkLabel(self.status_frame, text="Ready")
-        self.status_label.pack(side="left", padx=12, pady=5)
+        # Left side frame for status text
+        left_frame = ctk.CTkFrame(self.status_frame, fg_color="transparent")
+        left_frame.pack(side="left", padx=12, pady=5)
+        
+        # Separate labels for status and details
+        self.status_word_label = ctk.CTkLabel(left_frame, text="Ready", text_color="green", font=ctk.CTkFont(weight="bold"))
+        self.status_word_label.pack(side="left")
+        
+        self.status_details_label = ctk.CTkLabel(left_frame, text="")
+        self.status_details_label.pack(side="left")
         
         # Right side frame for logo and version info
         right_frame = ctk.CTkFrame(self.status_frame, fg_color="transparent")
         right_frame.pack(side="right", padx=12, pady=5)
-        
-        # Load and resize logo
+
         try:
             logo_path = Path(__file__).parent / '../docs/ocracle.png'
             if logo_path.exists():
@@ -422,16 +433,54 @@ class ModelManager:
             )
             total_models = sum(len(models) for models in self.providers.values())
             
-            if enabled_models > 0:
-                status_text = f"Ready | {enabled_models}/{total_models} models selected"
-            else:
-                status_text = "No models selected"
+            # Check current selected tab for API key status
+            current_tab = None
+            current_provider = None
+            status_message = "Ready"
+            status_color = "green"
             
-            self.status_label.configure(text=status_text)
+            try:
+                current_tab = self.tabview.get()
+                if current_tab:
+                    # Temporarily remove the dot indicator to get the provider name
+                    current_provider = current_tab.replace("● ", "").replace("○ ", "")
+                    
+                    # Check if current provider has all API keys
+                    if current_provider in self.providers:
+                        provider_models = self.providers[current_provider]
+                        missing_api_keys = False
+                        
+                        for model in provider_models:
+                            api_key = model.get('api_key_env')
+                            has_api_key = bool(os.getenv(api_key)) if api_key else False
+                            if not has_api_key:
+                                missing_api_keys = True
+                                break
+                        
+                        if missing_api_keys:
+                            status_message = "API Key Required"
+                            status_color = "red"
+                        else:
+                            status_message = "Ready"
+                            status_color = "green"
+            except:
+                status_message = "Error"
+                status_color = "red"
+            
+            # Status details
+            if enabled_models > 0:
+                status_details = f" | {enabled_models}/{total_models} models selected"
+            else:
+                status_details = f" | No models selected"
+            
+            # Update status labels separately
+            self.status_word_label.configure(text=status_message, text_color=status_color)
+            self.status_details_label.configure(text=status_details)
             self.info_label.configure(text=f"OCRacle v1.0")
             
         except Exception:
-            self.status_label.configure(text="Status error")
+            self.status_word_label.configure(text="Status error", text_color="red")
+            self.status_details_label.configure(text="")
             self.info_label.configure(text="OCRacle v1.0")
     
     def on_closing(self):
