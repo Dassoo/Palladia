@@ -13,14 +13,14 @@ from PIL import Image, ImageTk
 load_dotenv()
 
 PALETTE = {
-    "BG_LIGHT": "#F4EBD3",     # background, cards
-    "BG_MEDIUM": "#DED3C4",    # panels
-    "TEXT_MAIN": "#555879",    # labels, headings
-    "ACCENT": "#98A1BC",       # buttons, links
-    "ACCENT_HOVER": "#7a8399", # hover buttons
-    "TEXT_LIGHT": "#F4EBD3",   # light text
-    "HIGHLIGHT": "#dc3545",    # warnings / errors
-    "GREEN": "#90ee90",        # success
+    "BG_LIGHT": "#F4EBD3",
+    "BG_MEDIUM": "#DED3C4",
+    "TEXT_MAIN": "#555879",
+    "ACCENT": "#98A1BC",
+    "ACCENT_HOVER": "#7a8399",
+    "TEXT_LIGHT": "#F4EBD3",
+    "HIGHLIGHT": "#dc3545",
+    "GREEN": "#90ee90",
 }
 
 ctk.set_appearance_mode("light")

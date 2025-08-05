@@ -1,10 +1,10 @@
 from models.model_manager import ModelManager
-import tkinter as tk
+# import tkinter as tk
 
 def main():
-    # root = tk.Tk()
-    app = ModelManager()
+    # root = tk.Tk() 
     # root.mainloop()
+    app = ModelManager()
     app.run()
 
 if __name__ == "__main__":

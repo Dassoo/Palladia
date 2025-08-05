@@ -12,7 +12,7 @@ def create_agent(model) -> Agent:
         exponential_backoff=True,
         system_message="""
         
-           You are a transcription expert trained on historical texts from Early Modern Europe (1500–1800), including Latin and Greek printed works. Your task is to extract the exact textual content from a scanned image, strictly preserving all visual details and typographic features.
+           You are a transcription expert trained on historical texts from Early Modern Europe (1500–1800), including German, Latin and Greek printed works. Your task is to extract the exact textual content from a scanned image, strictly preserving all visual details and typographic features.
            Do not modernize or normalize. Understand the text and use the correct spacing and characters. Sometimes some words that should be separate looks like they are stuck together due to limited spacing, so be aware of that.
            You must preserve the following exactly:
             
