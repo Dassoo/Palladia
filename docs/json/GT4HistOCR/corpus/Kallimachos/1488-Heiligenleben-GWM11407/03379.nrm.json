@@ -1,0 +1,74 @@
+{
+    "spotlight": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit du mich \u00fcberwindest. Dasprach er wzi\u017ft",
+        "wer": 55.55555555555556,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 1.6566429138183594
+    },
+    "mistral-small": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit Du mich \u00fcberwindet\u017ft. Da \u017fprach er waz i\u017ft",
+        "wer": 44.44444444444444,
+        "cer": 13.636363636363635,
+        "accuracy": 86.95652173913044,
+        "time": 1.6991071701049805
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit Du mich vberwinde\u017ft. Da\u017fprach er wz i\u017ft",
+        "wer": 44.44444444444444,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 1.8126940727233887
+    },
+    "gpt-4.1": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit \u017fu mich \u00fcberwindest: Da \u017fprach er v\u00df i\u017ft",
+        "wer": 44.44444444444444,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 1.9628219604492188
+    },
+    "horizon-beta": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit du mich \u00fcberwindest. Da \u017fprach er v\u00f1 j\u017ft",
+        "wer": 44.44444444444444,
+        "cer": 13.636363636363635,
+        "accuracy": 86.36363636363636,
+        "time": 2.9034979343414307
+    },
+    "gpt-4o": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "nit du mich uberwindest: Da\u017fprach er vnd i\u017ft",
+        "wer": 55.55555555555556,
+        "cer": 20.454545454545457,
+        "accuracy": 81.81818181818183,
+        "time": 3.068776845932007
+    },
+    "claude-4-sonnet": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mir Ju mich yberwinde\u017ft: Da \u017fprach er wz i\u017ft",
+        "wer": 55.55555555555556,
+        "cer": 13.636363636363635,
+        "accuracy": 86.36363636363636,
+        "time": 3.443831205368042
+    },
+    "claude-4-opus": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit dir mich vberwinde\u017ft. Da \u017fprach er wz i\u017ft",
+        "wer": 33.33333333333333,
+        "cer": 9.090909090909092,
+        "accuracy": 91.11111111111111,
+        "time": 5.413086891174316
+    },
+    "llama-4-maverick-17b": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit Du mich oberwindelt. Da\u017fprach er wz ift",
+        "wer": 66.66666666666666,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 11.099864959716797
+    }
+}

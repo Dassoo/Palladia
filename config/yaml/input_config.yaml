@@ -1,4 +1,4 @@
 input:
-- path: GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla
-  images_to_process: 58
+- path: GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407
+  images_to_process: 30
   prioritize_scanned: true

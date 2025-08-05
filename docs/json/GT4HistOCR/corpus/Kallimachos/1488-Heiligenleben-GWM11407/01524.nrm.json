@@ -1,11 +1,11 @@
 {
     "llama-4-maverick-17b": {
         "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
-        "response": "pfccht. Aber wer geler\u017ft i\u017ft vnd die lere mit ge",
-        "wer": 20.0,
-        "cer": 4.25531914893617,
-        "accuracy": 95.83333333333334,
-        "time": 1.977952003479004
+        "response": "pfcc\u017ft.  Aber wer geler\u017ft i\u017ft vnd Sie lere mit ge",
+        "wer": 30.0,
+        "cer": 10.638297872340425,
+        "accuracy": 89.79591836734694,
+        "time": 0.9333600997924805
     },
     "spotlight": {
         "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
@@ -13,6 +13,62 @@
         "wer": 10.0,
         "cer": 2.127659574468085,
         "accuracy": 97.87234042553192,
-        "time": 1.4618041515350342
+        "time": 1.3245811462402344
+    },
+    "gpt-4.1": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfcecht. Aber wer gelert i\u017ft vnd die\u017f\u017fere mit ge",
+        "wer": 30.0,
+        "cer": 6.382978723404255,
+        "accuracy": 93.75,
+        "time": 1.9227967262268066
+    },
+    "gpt-4o": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "p\u017fecht. Aber wer gelert i\u017ft vnd die Lere mit ge-",
+        "wer": 30.0,
+        "cer": 6.382978723404255,
+        "accuracy": 93.75,
+        "time": 2.119300127029419
+    },
+    "horizon-beta": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfecht. Aber wer gelert i\u017ft vnd die \u017fere mit ge",
+        "wer": 10.0,
+        "cer": 2.127659574468085,
+        "accuracy": 97.87234042553192,
+        "time": 2.3772518634796143
+    },
+    "claude-4-sonnet": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.753124952316284
+    },
+    "claude-4-opus": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.762732982635498
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfecht.Aber wer gelert i\u017ft vnd die lere mit ge",
+        "wer": 20.0,
+        "cer": 2.127659574468085,
+        "accuracy": 97.87234042553192,
+        "time": 1.7106602191925049
+    },
+    "mistral-small": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfecht. Aber wer ge\u017fert i\u017ft vnd \u017fie le\u017fe mit ge",
+        "wer": 30.0,
+        "cer": 6.382978723404255,
+        "accuracy": 93.61702127659575,
+        "time": 1.4277839660644531
     }
 }

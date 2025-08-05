@@ -42,6 +42,9 @@ class ModelManager:
         self.images_count = ctk.IntVar()
         self.prioritize_scanned = ctk.BooleanVar()
         
+        # Process tracking
+        self.running_process = None
+        
         # Load configurations
         self.load_config()
         self.load_input_config()
@@ -238,6 +241,19 @@ class ModelManager:
         if self.dataset_path.get():
             self.validate_dataset_folder(self.dataset_path.get())
     
+    def check_process_status(self):
+        """Check if the OCRacle process is still running."""
+        if self.running_process:
+            if self.running_process.poll() is None:
+                # Process is still running, check again in 1 second
+                self.root.after(1000, self.check_process_status)
+            else:
+                # Process has finished
+                self.running_process = None
+                if hasattr(self, 'run_btn'):
+                    self.run_btn.configure(text="Run OCRacle", state="normal")
+                messagebox.showinfo("Complete", "OCRacle process has finished!")
+    
     def on_tab_change(self):
         """Handle tab change to update status bar."""
         self.update_status_bar()
@@ -253,16 +269,30 @@ class ModelManager:
         import sys
         import os
         
+        # Check if process is already running
+        if self.running_process and self.running_process.poll() is None:
+            messagebox.showwarning("Warning", "OCRacle is already running!")
+            return
+        
         self.save_config()
         
         python = sys.executable
         app_path = os.path.join(os.path.dirname(__file__), '../scripts/run_process.py')
         
         try:
-            subprocess.Popen([python, app_path])
-            messagebox.showinfo("Success", "App starting!")
+            self.running_process = subprocess.Popen([python, app_path])
+            messagebox.showinfo("Success", "OCRacle is starting!")
+            
+            # Disable the button and start checking process status
+            if hasattr(self, 'run_btn'):
+                self.run_btn.configure(text="OCRacle Running...", state="disabled")
+            
+            # Start periodic check
+            self.check_process_status()
+            
         except Exception as e:
             messagebox.showerror("Error", f"Failed to start app: {e}")
+            self.running_process = None
     
     def open_dashboard(self):
         """Open dashboard."""
@@ -385,14 +415,14 @@ class ModelManager:
                                           command=self.open_dashboard, width=120, height=32, fg_color=PALETTE["TEXT_MAIN"], hover_color=PALETTE["ACCENT_HOVER"])
         self.dashboard_btn.pack(side="left", padx=8)
         
-        run_btn = ctk.CTkButton(center_frame, text="Run OCRacle", 
+        self.run_btn = ctk.CTkButton(center_frame, text="Run OCRacle", 
                                command=self.run_app, width=120, height=32,
-                               fg_color="green", hover_color=PALETTE["ACCENT_HOVER"])
-        run_btn.pack(side="left", padx=8)
+                               fg_color="green", hover_color="darkgreen")
+        self.run_btn.pack(side="left", padx=8)
     
     def create_status_bar(self):
         """Create status bar."""
-        self.status_frame = ctk.CTkFrame(self.root, fg_color=PALETTE["BG_MEDIUM"])
+        self.status_frame = ctk.CTkFrame(self.root, fg_color=PALETTE["BG_MEDIUM"], corner_radius=0)
         self.status_frame.pack(fill="x", side="bottom", padx=0, pady=(5, 0))
         
         # Left side frame for status text
@@ -490,6 +520,14 @@ class ModelManager:
             stop_dashboard()
         except:
             pass
+        
+        # Clean up running process if it exists
+        if self.running_process and self.running_process.poll() is None:
+            try:
+                self.running_process.terminate()
+            except:
+                pass
+        
         self.root.destroy()
     
     def run(self):

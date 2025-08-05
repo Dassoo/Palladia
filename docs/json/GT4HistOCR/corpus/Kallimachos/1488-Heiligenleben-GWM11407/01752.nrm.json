@@ -1,0 +1,74 @@
+{
+    "spotlight": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "er thun solt \u017ft er got wuol geuiel. Da sprach er.",
+        "wer": 45.45454545454545,
+        "cer": 14.583333333333334,
+        "accuracy": 85.71428571428571,
+        "time": 1.4353001117706299
+    },
+    "gpt-4o": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "x\u0304 thu \u017folt \ua753 er got wol geuiel. Da \u017fprach er.",
+        "wer": 45.45454545454545,
+        "cer": 14.583333333333334,
+        "accuracy": 85.41666666666666,
+        "time": 3.2944281101226807
+    },
+    "gpt-4.1": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "er thun \u017folt I\u017c er got wol geviel. Da \u017fprach er.",
+        "wer": 36.36363636363637,
+        "cer": 10.416666666666668,
+        "accuracy": 89.58333333333334,
+        "time": 1.9124889373779297
+    },
+    "llama-4-maverick-17b": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "er thun folt Dz er got wol geuiel.Da fpzach er.",
+        "wer": 45.45454545454545,
+        "cer": 14.583333333333334,
+        "accuracy": 85.41666666666666,
+        "time": 0.96238112449646
+    },
+    "horizon-beta": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "x thun \u017folt \ua75b er got wol geviel. Da \u017fprach er.",
+        "wer": 45.45454545454545,
+        "cer": 14.583333333333334,
+        "accuracy": 85.41666666666666,
+        "time": 3.4325661659240723
+    },
+    "claude-4-opus": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "r thun \u017folt. Vz er got wol geuiel. Ya \u017fprach er.",
+        "wer": 45.45454545454545,
+        "cer": 12.5,
+        "accuracy": 89.58333333333334,
+        "time": 3.4542388916015625
+    },
+    "claude-4-sonnet": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "er thun \u017folt Jz er got wol geviel. Ja \u017fprach er.",
+        "wer": 36.36363636363637,
+        "cer": 10.416666666666668,
+        "accuracy": 89.58333333333334,
+        "time": 3.2988688945770264
+    },
+    "mistral-small": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "Er thun \u017folt \u017fer got wol geniel. \u017fa \u017fprach er.",
+        "wer": 54.54545454545454,
+        "cer": 14.583333333333334,
+        "accuracy": 85.41666666666666,
+        "time": 1.3048210144042969
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "er thun \u017folt Izer got wool geuiel.Da \u017fprach er.",
+        "wer": 54.54545454545454,
+        "cer": 14.583333333333334,
+        "accuracy": 87.5,
+        "time": 1.817594289779663
+    }
+}

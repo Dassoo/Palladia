@@ -1,0 +1,74 @@
+{
+    "mistral-small": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "fech\u017fen. Da erwacht der Hertzog und trachtet",
+        "wer": 57.14285714285714,
+        "cer": 11.363636363636363,
+        "accuracy": 88.63636363636364,
+        "time": 1.5058860778808594
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017fen.Da erwacht Der Hertzog vnd trachtet",
+        "wer": 57.14285714285714,
+        "cer": 11.363636363636363,
+        "accuracy": 88.63636363636364,
+        "time": 1.9650368690490723
+    },
+    "gpt-4.1": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017fen. Da erwach\u017ft der Hertczog vnd trachtet",
+        "wer": 42.857142857142854,
+        "cer": 11.363636363636363,
+        "accuracy": 89.13043478260869,
+        "time": 2.060624122619629
+    },
+    "gpt-4o": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017ften. Da erwacht der Hertzog vnd trachtet",
+        "wer": 42.857142857142854,
+        "cer": 9.090909090909092,
+        "accuracy": 91.11111111111111,
+        "time": 2.1295971870422363
+    },
+    "horizon-beta": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017ften. Da erwacht der Hertzog vnd trachtet",
+        "wer": 42.857142857142854,
+        "cer": 9.090909090909092,
+        "accuracy": 91.11111111111111,
+        "time": 2.656177043914795
+    },
+    "claude-4-sonnet": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017ften. Ja erwacht der herzog vnd trachtet",
+        "wer": 42.857142857142854,
+        "cer": 9.090909090909092,
+        "accuracy": 93.18181818181817,
+        "time": 3.823451280593872
+    },
+    "spotlight": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "Sechsen. Da erwacht der Hertzog und trachet",
+        "wer": 71.42857142857143,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 3.8275959491729736
+    },
+    "claude-4-opus": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017fen. da erwacht der hertzog vnd trachtet",
+        "wer": 14.285714285714285,
+        "cer": 2.272727272727273,
+        "accuracy": 97.72727272727273,
+        "time": 4.244266033172607
+    },
+    "llama-4-maverick-17b": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "Teuch\u017fen. Da ermacht der Hertzog vnd trachtet",
+        "wer": 57.14285714285714,
+        "cer": 13.636363636363635,
+        "accuracy": 86.66666666666667,
+        "time": 10.314631938934326
+    }
+}

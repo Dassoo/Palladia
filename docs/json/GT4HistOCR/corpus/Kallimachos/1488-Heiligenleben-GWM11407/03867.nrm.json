@@ -1,0 +1,74 @@
+{
+    "mistral-small": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius.\u017f\u017f\u017f\u017f le\u017ft \u017fie al\u017f wir \u017fie nun begeen",
+        "wer": 44.44444444444444,
+        "cer": 17.391304347826086,
+        "accuracy": 82.6086956521739,
+        "time": 1.5579650402069092
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius.v\u00f1 legt fie als wir fie nun begeen",
+        "wer": 44.44444444444444,
+        "cer": 15.217391304347828,
+        "accuracy": 84.78260869565217,
+        "time": 1.7625541687011719
+    },
+    "gpt-4o": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius vn\u017f legt \u017fie als wir \u017fie nun begegnen",
+        "wer": 33.33333333333333,
+        "cer": 13.043478260869565,
+        "accuracy": 89.36170212765957,
+        "time": 1.9847798347473145
+    },
+    "gpt-4.1": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius.vij legt \u017fie als wir \u017fie nun begeen",
+        "wer": 22.22222222222222,
+        "cer": 10.869565217391305,
+        "accuracy": 89.13043478260869,
+        "time": 1.9921798706054688
+    },
+    "spotlight": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius. vn legt sie als voir sie nun begeen",
+        "wer": 55.55555555555556,
+        "cer": 15.217391304347828,
+        "accuracy": 86.95652173913044,
+        "time": 1.997521162033081
+    },
+    "horizon-beta": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius. vn\u0303 legt \u017fie als wir \u017fie nun begegnen",
+        "wer": 22.22222222222222,
+        "cer": 8.695652173913043,
+        "accuracy": 91.66666666666666,
+        "time": 2.878506898880005
+    },
+    "claude-4-sonnet": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius.v\u00f1 legt \u017fie al\u017f wir \u017fie nun begeen",
+        "wer": 33.33333333333333,
+        "cer": 13.043478260869565,
+        "accuracy": 86.95652173913044,
+        "time": 3.218778133392334
+    },
+    "claude-4-opus": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius. v\u00f1 \u017fegt \u017fie al\u017fo wir \u017fie nun betteen",
+        "wer": 55.55555555555556,
+        "cer": 19.565217391304348,
+        "accuracy": 82.97872340425532,
+        "time": 6.17473578453064
+    },
+    "llama-4-maverick-17b": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius \u017fon legt fie als roir fie nun begeen",
+        "wer": 55.55555555555556,
+        "cer": 21.73913043478261,
+        "accuracy": 82.6086956521739,
+        "time": 12.3192298412323
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "spotlight": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach kam Eustachius an \u017fy \u017ftat Sa cr",
+        "wer": 50.0,
+        "cer": 10.256410256410255,
+        "accuracy": 89.74358974358975,
+        "time": 1.686128854751587
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach kam Eustachius an dy stat da er",
+        "wer": 25.0,
+        "cer": 5.128205128205128,
+        "accuracy": 94.87179487179486,
+        "time": 1.845702886581421
+    },
+    "gpt-4.1": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach \u017fam Eu\u017ftachius an dy Rat \u017faccr",
+        "wer": 50.0,
+        "cer": 15.384615384615385,
+        "accuracy": 84.61538461538461,
+        "time": 2.138287305831909
+    },
+    "gpt-4o": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach \u017fam Eu\u017ftachius an \u017fy Stat \u017facr",
+        "wer": 62.5,
+        "cer": 15.384615384615385,
+        "accuracy": 84.61538461538461,
+        "time": 2.6568150520324707
+    },
+    "mistral-small": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Qarnach Eam Eu\u017ftachius an \u017fp \u017ftat \u017fa cr",
+        "wer": 62.5,
+        "cer": 15.384615384615385,
+        "accuracy": 84.61538461538461,
+        "time": 3.109719753265381
+    },
+    "horizon-beta": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach \u017fam Eu\u017ftachius an dy Rat Sa cr",
+        "wer": 50.0,
+        "cer": 12.82051282051282,
+        "accuracy": 87.17948717948718,
+        "time": 3.4222049713134766
+    },
+    "claude-4-sonnet": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach kam Eu\u017ftachius an Jy \u017ftat da er",
+        "wer": 12.5,
+        "cer": 2.564102564102564,
+        "accuracy": 97.43589743589743,
+        "time": 3.6748080253601074
+    },
+    "claude-4-opus": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach kam Eu\u017ftachius an Jn \u017ftat da er",
+        "wer": 12.5,
+        "cer": 5.128205128205128,
+        "accuracy": 94.87179487179486,
+        "time": 5.086641073226929
+    },
+    "llama-4-maverick-17b": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach Zam Eu\u017ftagius an Sy \u017ftat Da cr~",
+        "wer": 62.5,
+        "cer": 17.94871794871795,
+        "accuracy": 84.61538461538461,
+        "time": 13.603257179260254
+    }
+}

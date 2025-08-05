@@ -1,0 +1,74 @@
+{
+    "llama-4-maverick-17b": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes v\u00f1 Paulus haben merlich er",
+        "wer": 42.857142857142854,
+        "cer": 11.904761904761903,
+        "accuracy": 88.09523809523809,
+        "time": 6.024823904037476
+    },
+    "spotlight": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes vij Paulus haben werlich er",
+        "wer": 42.857142857142854,
+        "cer": 9.523809523809524,
+        "accuracy": 90.47619047619048,
+        "time": 1.701585054397583
+    },
+    "gpt-4.1": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trrer Johannes vn\u0304 Paulus haben werlich er\u017f",
+        "wer": 57.14285714285714,
+        "cer": 9.523809523809524,
+        "accuracy": 90.69767441860465,
+        "time": 1.876816987991333
+    },
+    "gpt-4o": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trrer Johannes vn\u0304 Paulus haben wer\u017flich er\u017f",
+        "wer": 57.14285714285714,
+        "cer": 11.904761904761903,
+        "accuracy": 88.63636363636364,
+        "time": 2.207836866378784
+    },
+    "horizon-beta": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "vterer Johannes vn\u0304 Paulus haben werlich er\u017f",
+        "wer": 57.14285714285714,
+        "cer": 11.904761904761903,
+        "accuracy": 88.63636363636364,
+        "time": 2.6156527996063232
+    },
+    "claude-4-sonnet": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes vnj Paulus haben weerlich ers",
+        "wer": 42.857142857142854,
+        "cer": 9.523809523809524,
+        "accuracy": 90.69767441860465,
+        "time": 3.0748701095581055
+    },
+    "claude-4-opus": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes v\u00f1 Paulus haben wierlich er\u017f",
+        "wer": 42.857142857142854,
+        "cer": 11.904761904761903,
+        "accuracy": 90.47619047619048,
+        "time": 3.0798630714416504
+    },
+    "mistral-small": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes von Paulus haben merlich ers",
+        "wer": 42.857142857142854,
+        "cer": 11.904761904761903,
+        "accuracy": 90.47619047619048,
+        "time": 1.1199581623077393
+    },
+    "qwen-2.5-vl-72b": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes vij Paulus haben warlich erz",
+        "wer": 28.57142857142857,
+        "cer": 7.142857142857142,
+        "accuracy": 92.85714285714286,
+        "time": 1.7362828254699707
+    }
+}

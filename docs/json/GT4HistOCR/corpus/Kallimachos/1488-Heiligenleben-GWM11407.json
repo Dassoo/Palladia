@@ -1,18 +1,74 @@
 {
     "llama-4-maverick-17b": {
         "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
-        "images": 3,
-        "avg_wer": 62.22222222222223,
-        "avg_cer": 16.056120875732347,
-        "avg_accuracy": 84.69806763285025,
-        "avg_time": 1.688050667444865
+        "images": 30,
+        "avg_wer": 56.503246753246756,
+        "avg_cer": 16.068180250472842,
+        "avg_accuracy": 84.97735174113596,
+        "avg_time": 8.482189774513245
+    },
+    "gpt-4.1": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 38.679052429052426,
+        "avg_cer": 10.166768426425042,
+        "avg_accuracy": 90.32727403420466,
+        "avg_time": 2.2547416845957438
     },
     "spotlight": {
         "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
-        "images": 3,
-        "avg_wer": 44.074074074074076,
-        "avg_cer": 11.691506492616575,
-        "avg_accuracy": 88.30849350738343,
-        "avg_time": 1.5433074633280437
+        "images": 30,
+        "avg_wer": 51.483405483405484,
+        "avg_cer": 13.485328563441303,
+        "avg_accuracy": 86.83303033800173,
+        "avg_time": 2.0016685247421266
+    },
+    "horizon-beta": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 37.11832611832612,
+        "avg_cer": 9.952645115105895,
+        "avg_accuracy": 90.41863983706885,
+        "avg_time": 3.1497644583384194
+    },
+    "claude-4-sonnet": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 34.7015392015392,
+        "avg_cer": 8.232144466704186,
+        "avg_accuracy": 92.03935404190251,
+        "avg_time": 3.6102277596791583
+    },
+    "gpt-4o": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 48.99266474266474,
+        "avg_cer": 13.257492707951252,
+        "avg_accuracy": 87.43725238513325,
+        "avg_time": 2.4581559181213377
+    },
+    "claude-4-opus": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 29.935786435786433,
+        "avg_cer": 7.950549767987411,
+        "avg_accuracy": 92.59678803537733,
+        "avg_time": 5.277926206588745
+    },
+    "mistral-small": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 51.40548340548341,
+        "avg_cer": 12.828049231921277,
+        "avg_accuracy": 87.71747620814895,
+        "avg_time": 1.784093403816223
+    },
+    "qwen-2.5-vl-72b": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 48.847282347282345,
+        "avg_cer": 11.418058006504744,
+        "avg_accuracy": 89.03466772299153,
+        "avg_time": 2.770840573310852
     }
 }
