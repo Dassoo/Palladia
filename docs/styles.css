@@ -531,6 +531,11 @@ h2 {
     align-items: center;
     gap: 15px;
     transition: opacity 0.2s ease;
+    /* Balanced purple-bronze gradient */
+    background: linear-gradient(135deg, #7A6B7A, #8B7B6B, #a59583, #A0826D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .title-link:hover {
@@ -570,6 +575,8 @@ h2 {
         transform: scale(1);
     }
 }
+
+
 
 .hero-subtitle {
     font-size: 1.2em;
