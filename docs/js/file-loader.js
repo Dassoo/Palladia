@@ -19,7 +19,7 @@ class IndividualFileLoader {
                     return { filePath, data: this.cache.get(filePath), success: true, cached: true };
                 }
 
-                const data = await this.fetchWithTimeout(`json/${filePath}`);
+                const data = await this.fetchWithTimeout(`data/json/${filePath}`);
                 const processedData = this.processImageData(data, filePath);
 
                 // Cache the processed data

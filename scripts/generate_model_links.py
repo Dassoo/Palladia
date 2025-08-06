@@ -18,7 +18,7 @@ def generate_model_links():
             model_links[display_name] = model.link
     
     # Save to docs directory for dashboard access
-    output_path = Path("docs/model_links.json")
+    output_path = Path("docs/data/json/model_links.json")
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(model_links, f, indent=2, ensure_ascii=False)
     

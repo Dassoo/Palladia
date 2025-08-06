@@ -13,14 +13,18 @@ from PIL import Image, ImageTk
 load_dotenv()
 
 PALETTE = {
-    "BG_LIGHT": "#F4EBD3",
-    "BG_MEDIUM": "#DED3C4",
-    "TEXT_MAIN": "#555879",
-    "ACCENT": "#98A1BC",
-    "ACCENT_HOVER": "#7a8399",
-    "TEXT_LIGHT": "#F4EBD3",
+    "BG_LIGHT": "#e9ecef",
+    "BG_MEDIUM": "#f8f9fa",
+    "TEXT_MAIN": "#2c3e50",
+    "ACCENT": "#6c757d",
+    "ACCENT_HOVER": "#495057",
+    "TEXT_LIGHT": "#ffffff",
     "HIGHLIGHT": "#dc3545",
-    "GREEN": "#90ee90",
+    "GREEN": "#28a745",
+    "GOLDEN": "#d4af37",
+    "GOLDEN_HOVER": "#b8860b",
+    "DARK_BUTTON": "#343a40",
+    "DARK_BUTTON_HOVER": "#6c757d",
 }
 
 ctk.set_appearance_mode("light")
@@ -204,7 +208,7 @@ class ModelManager:
                                       placeholder_text="Select dataset folder...")
         self.path_entry.pack(side="left", fill="x", expand=True, padx=(10, 8), pady=8)
         
-        browse_btn = ctk.CTkButton(path_frame, text="Browse", command=self.browse_dataset_folder, width=80, height=28, fg_color=PALETTE["TEXT_MAIN"], hover_color=PALETTE["ACCENT_HOVER"])
+        browse_btn = ctk.CTkButton(path_frame, text="Browse", command=self.browse_dataset_folder, width=80, height=28, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
         browse_btn.pack(side="right", padx=(8, 10), pady=8)
         
         self.dataset_status_label = ctk.CTkLabel(dataset_frame, text="Select a folder with PNG images")
@@ -230,10 +234,10 @@ class ModelManager:
             text="Prioritize already scanned images",
             variable=self.prioritize_scanned,
             command=self.update_selection_help_text,
-            fg_color=PALETTE["TEXT_MAIN"],           # Unchecked background
-            hover_color=PALETTE["ACCENT"],           # Hover color
+            fg_color=PALETTE["GOLDEN"],              # Unchecked background
+            hover_color=PALETTE["GOLDEN_HOVER"],     # Hover color
             checkmark_color=PALETTE["BG_LIGHT"],     # Checkmark color
-            border_color=PALETTE["TEXT_MAIN"]        # Border color
+            border_color=PALETTE["GOLDEN"]           # Border color
         )
         self.priority_checkbox.pack(side="right", padx=(10, 15), pady=8)
         
@@ -327,12 +331,12 @@ class ModelManager:
         self.tabview.pack(fill="both", expand=True, padx=12, pady=(0, 8))
         
         self.tabview._segmented_button.configure(
-            fg_color=PALETTE["TEXT_MAIN"],           # Background of tab bar
-            selected_color=PALETTE["ACCENT"],        # Selected tab color
-            selected_hover_color=PALETTE["ACCENT_HOVER"],  # Selected tab hover
-            unselected_color=PALETTE["TEXT_MAIN"],    # Unselected tab color
+            fg_color=PALETTE["ACCENT"],              # Background of tab bar
+            selected_color=PALETTE["GOLDEN"],        # Selected tab color
+            selected_hover_color=PALETTE["GOLDEN_HOVER"],  # Selected tab hover
+            unselected_color=PALETTE["ACCENT"],      # Unselected tab color
             unselected_hover_color=PALETTE["ACCENT_HOVER"],   # Unselected tab hover
-            text_color=PALETTE["BG_MEDIUM"],         # Text color for unselected tabs
+            text_color=PALETTE["TEXT_LIGHT"],        # Text color for unselected tabs
             text_color_disabled=PALETTE["TEXT_MAIN"] # Text color for selected tabs
         )
         
@@ -380,10 +384,10 @@ class ModelManager:
                     text=model['id'], 
                     variable=var,
                     state="disabled" if not has_api_key else "normal",
-                    fg_color=PALETTE["TEXT_MAIN"],           # Unchecked background (purple)
-                    hover_color=PALETTE["ACCENT"],           # Hover color (blue-purple)
-                    checkmark_color=PALETTE["BG_LIGHT"],     # Checkmark color (cream)
-                    border_color=PALETTE["TEXT_MAIN"]        # Border color (purple)
+                    fg_color=PALETTE["GOLDEN"],              # Unchecked background (golden)
+                    hover_color=PALETTE["GOLDEN_HOVER"],     # Hover color (darker golden)
+                    checkmark_color=PALETTE["TEXT_LIGHT"],   # Checkmark color (white)
+                    border_color=PALETTE["GOLDEN"]           # Border color (golden)
                 )
                 checkbox.pack(side="left", padx=10, pady=6)
         
@@ -403,16 +407,16 @@ class ModelManager:
         center_frame.pack(pady=6)
         
         manifest_btn = ctk.CTkButton(center_frame, text="Update Manifest", 
-                                    command=regenerate_full_manifest, width=120, height=32, fg_color=PALETTE["TEXT_MAIN"], hover_color=PALETTE["ACCENT_HOVER"])
+                                    command=regenerate_full_manifest, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
         manifest_btn.pack(side="left", padx=8)
         
         save_btn = ctk.CTkButton(center_frame, text="Save Config", 
-                                command=self.save_config, width=120, height=32, fg_color=PALETTE["TEXT_MAIN"], hover_color=PALETTE["ACCENT_HOVER"])
+                                command=self.save_config, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
         save_btn.pack(side="left", padx=8)
         
         dashboard_text = "Dashboard Running" if is_dashboard_running() else "Open Dashboard"
         self.dashboard_btn = ctk.CTkButton(center_frame, text=dashboard_text, 
-                                          command=self.open_dashboard, width=120, height=32, fg_color=PALETTE["TEXT_MAIN"], hover_color=PALETTE["ACCENT_HOVER"])
+                                          command=self.open_dashboard, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
         self.dashboard_btn.pack(side="left", padx=8)
         
         self.run_btn = ctk.CTkButton(center_frame, text="Run Palladia", 
@@ -441,7 +445,7 @@ class ModelManager:
         right_frame.pack(side="right", padx=12, pady=5)
 
         try:
-            logo_path = Path(__file__).parent / '../docs/palladia.png'
+            logo_path = Path(__file__).parent / '../docs/images/dashboard/palladia.png'
             if logo_path.exists():
                 logo_image = Image.open(logo_path)
                 self.logo_photo = ctk.CTkImage(logo_image, size=(32, 32))

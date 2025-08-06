@@ -32,8 +32,8 @@ def copy_image_for_web(image_path: str) -> bool:
             # Fallback: use stem (filename without final extension)
             base_filename = path.stem
         
-        # Create web-friendly path: docs/images/EarlyModernLatin/1471-Orthographia-Tortellius/00001.webp
-        web_image_dir = Path("docs/images") / path.parent.relative_to("GT4HistOCR/corpus")
+        # Create web-friendly path: docs/data/images/EarlyModernLatin/1471-Orthographia-Tortellius/00001.webp
+        web_image_dir = Path("docs/data/images") / path.parent.relative_to("GT4HistOCR/corpus")
         web_image_dir.mkdir(parents=True, exist_ok=True)
         web_image_path = web_image_dir / f"{base_filename}.webp"
         
@@ -127,7 +127,7 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
     """Manually aggregate results from all JSON files in a folder and calculate average metrics per model.
     
     Args:
-        folder_path: Path to folder containing JSON files (e.g., 'docs/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
+        folder_path: Path to folder containing JSON files (e.g., 'docs/data/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius')
     
     Returns:
         Dictionary with aggregated results per model
@@ -174,8 +174,8 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
     
     # Extract source path from folder structure
     source_path = str(folder_path)
-    if source_path.startswith('docs/json/'):
-        source_path = source_path[10:]  # Remove 'docs/json/' prefix
+    if source_path.startswith('docs/data/json/'):
+        source_path = source_path[15:]  # Remove 'docs/data/json/' prefix
     
     for model_id, metrics in model_metrics.items():
         if metrics['wer']:  # Ensure we have data
@@ -201,4 +201,4 @@ def aggregate_folder_results(folder_path: str) -> Dict[str, Any]:
 
 if __name__ == "__main__":
     # Manual example usage if needed
-    aggregate_folder_results('docs/json/GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla')
+    aggregate_folder_results('docs/data/json/GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla')

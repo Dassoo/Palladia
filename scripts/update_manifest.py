@@ -9,17 +9,17 @@ def scan_individual_files(subcategory_path):
     Scan for individual JSON files in a subcategory folder.
     
     Args:
-        subcategory_path: Path like 'docs/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius'
+        subcategory_path: Path like 'docs/data/json/GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius'
     
     Returns:
-        List of individual file paths relative to docs/json/
+        List of individual file paths relative to docs/data/json/
     """
     individual_files = []
     
     if os.path.exists(subcategory_path):
         for file in os.listdir(subcategory_path):
             if file.endswith('.json'):
-                # Create path relative to docs/json/
+                # Create path relative to docs/data/json/
                 relative_path = os.path.relpath(
                     os.path.join(subcategory_path, file), 
                     'docs/json'
@@ -42,7 +42,7 @@ def update_manifest(input_path):
     second_last_part = os.path.basename(os.path.dirname(input_path))  # 'EarlyModernLatin'
     
     # Path to manifest file
-    manifest_path = "docs/json/manifest.json"
+    manifest_path = "docs/data/json/manifest.json"
     
     # Load existing manifest or create new one
     if os.path.exists(manifest_path):
@@ -70,7 +70,7 @@ def update_manifest(input_path):
     json_filepath = f"GT4HistOCR/corpus/{second_last_part}/{final_part}.json"
     
     # Scan for individual files in the subcategory folder
-    subcategory_path = f"docs/json/GT4HistOCR/corpus/{second_last_part}/{final_part}"
+    subcategory_path = f"docs/data/json/GT4HistOCR/corpus/{second_last_part}/{final_part}"
     individual_files = scan_individual_files(subcategory_path)
     
     # Update structure with enhanced format
@@ -98,8 +98,8 @@ def regenerate_full_manifest():
     Regenerate the complete manifest by scanning all existing data.
     This is useful for updating the manifest structure after changes.
     """
-    manifest_path = "docs/json/manifest.json"
-    base_path = "docs/json/GT4HistOCR/corpus"
+    manifest_path = "docs/data/json/manifest.json"
+    base_path = "docs/data/json/GT4HistOCR/corpus"
     
     if not os.path.exists(base_path):
         print(f"Base path {base_path} does not exist")

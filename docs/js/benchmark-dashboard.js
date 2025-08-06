@@ -276,8 +276,8 @@ class BenchmarkDashboard {
         // Extract base filename (e.g., "00082" from "00082.bin")
         const baseFilename = filename.split('.')[0];
 
-        // Construct image path: images/EarlyModernLatin/1471-Orthographia-Tortellius/00082.webp
-        const imagePath = `images/${params.category}/${params.subcategory}/${baseFilename}.webp`;
+        // Construct image path: data/images/EarlyModernLatin/1471-Orthographia-Tortellius/00082.webp
+        const imagePath = `data/images/${params.category}/${params.subcategory}/${baseFilename}.webp`;
 
         // Debug: log the constructed path
         console.log(`Image path for ${filename} -> ${baseFilename}: ${imagePath}`);
@@ -385,7 +385,7 @@ class BenchmarkDashboard {
     async loadData() {
         try {
             // Load the manifest file that lists JSON files
-            const manifest = await this.fetchWithTimeout('json/manifest.json');
+            const manifest = await this.fetchWithTimeout('data/json/manifest.json');
             this.manifest = manifest;
 
             // Update last update timestamp
@@ -401,7 +401,7 @@ class BenchmarkDashboard {
             // Try to load each file listed in the manifest
             const loadPromises = manifest.files.map(async filename => {
                 try {
-                    const data = await this.fetchWithTimeout(`json/${filename}`);
+                    const data = await this.fetchWithTimeout(`data/json/${filename}`);
                     return { filename, data, success: true };
                 } catch (error) {
                     return { filename, error: error.message, success: false };
@@ -470,7 +470,7 @@ class BenchmarkDashboard {
 
     async loadModelLinks() {
         try {
-            const modelLinks = await this.fetchWithTimeout('model_links.json');
+            const modelLinks = await this.fetchWithTimeout('data/json/model_links.json');
             this.modelLinks = modelLinks;
         } catch (error) {
             console.warn('Could not load model links:', error.message);

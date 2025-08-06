@@ -203,7 +203,7 @@ def main():
     # Select images with optional prioritization
     selected_images = select_images_with_priority(source, all_images, images_to_process, prioritize_scanned)
     image_paths = [os.path.join(source, img) for img in selected_images]
-    output_folder = "docs/json/" + source
+    output_folder = "docs/data/json/" + source
     
     if prioritize_scanned:
         console.print(Text(f"\nPrioritization enabled: selecting scanned images first", style="dim cyan"))
@@ -227,7 +227,7 @@ def main():
         except Exception as e:
             console.print(Text(f"⚠️  Could not update dashboard manifest: {e}", style="yellow"))
         
-        console.print(Text("\nBenchmark completed. Results saved to docs/json/\n", style="bold green"))
+        console.print(Text("\nBenchmark completed. Results saved to docs/data/json/\n", style="bold green"))
     except ModelProviderError as e:
         console.print(f"❌ Provider error: {e}", style="bold red")
         return

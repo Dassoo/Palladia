@@ -1,4 +1,4 @@
-# <img src="docs/palladia.png" alt="Palladia Logo" width="64" height="64"> Palladia
+# <img src="docs/images/dashboard/palladia.png" alt="Palladia Logo" width="64" height="64"> Palladia
 
 **A Comprehensive Benchmarking Tool for Vision Language Models on Historical Document OCR**
 
@@ -40,7 +40,7 @@ This tool provides standardized evaluation across these challenging scenarios us
 - **Batch Processing**: Efficient evaluation across large document collections
 - **Export Capabilities**: Results available in JSON and visualization formats
 
-![Dashboard Overview](docs/readme_pics/avgs.png)
+![Dashboard Overview](docs/images/readme/avgs.png)
 
 ## Supported Models
 
@@ -132,7 +132,7 @@ Palladia provides comprehensive evaluation using industry-standard metrics:
 
 The interactive web dashboard provides comprehensive analysis tools:
 
-![Categories View](docs/readme_pics/categories.png)
+![Categories View](docs/images/readme/categories.png)
 
 ### Performance Overview
 - Aggregate statistics across all evaluated models
@@ -140,15 +140,15 @@ The interactive web dashboard provides comprehensive analysis tools:
 - Statistical significance indicators
 
 ### Individual Analysis
-![Individual Analysis](docs/readme_pics/category.png)
-![Individual Analysis2](docs/readme_pics/gt.png)
+![Individual Analysis](docs/images/readme/category.png)
+![Individual Analysis2](docs/images/readme/gt.png)
 
 - Ground truth vs. model output comparison
 - Character-level diff visualization with color coding
 - Error pattern identification and categorization
 
 ### Advanced Features
-![Follow-up Analysis](docs/readme_pics/follow.png)
+![Follow-up Analysis](docs/images/readme/follow.png)
 
 - **Filtering**: Focus on specific models or metrics
 - **Comparison**: Side-by-side model performance analysis
