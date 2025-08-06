@@ -1,4 +1,4 @@
-# <img src="docs/ocracle.png" alt="Palladia Logo" width="64" height="64"> Palladia
+# <img src="docs/palladia.png" alt="Palladia Logo" width="64" height="64"> Palladia
 
 **A Comprehensive Benchmarking Tool for Vision Language Models on Historical Document OCR**
 
