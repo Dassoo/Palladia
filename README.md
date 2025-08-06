@@ -30,7 +30,7 @@ Palladia addresses the challenge of evaluating Vision Language Models on histori
 - **Language Evolution**: Historical spelling variations and obsolete words
 - **Layout Complexity**: Non-standard formatting and mixed content types
 
-This tool provides standardized evaluation across these challenging scenarios using the GT4HistOCR dataset. You can access the public dashboard at https://dassoo.github.io/OCRacle.
+This tool provides standardized evaluation across these challenging scenarios using the GT4HistOCR dataset. You can access the public dashboard at https://dassoo.github.io/Palladia.
 
 ## Key Features
 
