@@ -1,14 +1,14 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.1895370483398438
     },
     "mistral-small": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
         "response": "ullos e uestra ditione mercenarios illorum fieri, aut etiam nobis",
         "wer": 20.0,
         "cer": 3.076923076923077,
@@ -16,88 +16,80 @@
         "time": 1.3495731353759766
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.604896068572998
     },
     "gpt-4.1": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum \u017fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtra ditione mercenarios illorum ſieri, aut etiam nobis",
         "wer": 10.0,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 1.6062610149383545
     },
     "spotlight": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftraditione mercenarios illorum fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtraditione mercenarios illorum fieri, aut etiam nobis",
         "wer": 20.0,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 1.8207838535308838
     },
     "gpt-4o": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum \u017fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtra ditione mercenarios illorum ſieri, aut etiam nobis",
         "wer": 10.0,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 1.888469934463501
     },
     "claude-4-sonnet": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos e ue\u017ftra ditione mercenarios illorum \u017fteri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos e ueſtra ditione mercenarios illorum ſteri, aut etiam nobis",
         "wer": 20.0,
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 3.4637458324432373
     },
     "claude-4-opus": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.222358226776123
     },
     "gemini-2.5-flash": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e9 ue\u017ftra ditio\u0301ne merc\u0119narios illorum fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos é ueſtra ditióne mercęnarios illorum fieri, aut etiam nobis",
         "wer": 30.0,
         "cer": 4.615384615384616,
         "accuracy": 95.45454545454545,
         "time": 8.934401035308838
     },
     "o4-mini": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis.",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis.",
         "wer": 10.0,
         "cer": 1.5384615384615385,
         "accuracy": 98.48484848484848,
         "time": 15.497295141220093
     },
     "gemini-2.5-pro": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos e' ue\u017ftra ditione\u0307 mercenario\u0323s illorum fieri, aut eti\u00e1m nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos e' ueſtra ditionė mercenariọs illorum fieri, aut etiám nobis",
         "wer": 40.0,
         "cer": 7.6923076923076925,
         "accuracy": 92.64705882352942,
         "time": 51.44372367858887
     },
-    "horizon-alpha": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum \u017fieri, aut etiam nobis",
-        "wer": 10.0,
-        "cer": 1.5384615384615385,
-        "accuracy": 98.46153846153847,
-        "time": 2.2364490032196045
-    },
     "horizon-beta": {
-        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,

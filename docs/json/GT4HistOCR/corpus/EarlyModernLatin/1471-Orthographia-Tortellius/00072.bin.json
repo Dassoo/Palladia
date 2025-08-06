@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nunc fcribatur.Sed fupra uocalem annotetur:unde iam fcribitur \u03b5\u03c0\u03c4\u03b9\u03bb\u03bd\u03bf\u03c3",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nunc fcribatur.Sed fupra uocalem annotetur:unde iam fcribitur επτιλνοσ",
         "wer": 72.72727272727273,
         "cer": 13.924050632911392,
         "accuracy": 87.34177215189874,
         "time": 1.445387840270996
     },
     "mistral-small": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota \u017fcribatur. Sed \u017fupra vocalem annotetur: unde iam \u017fcribitur \u1f10\u03c0\u1f76 \u1f00\u03bb\u03bb\u03bf",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota ſcribatur. Sed ſupra vocalem annotetur: unde iam ſcribitur ἐπὶ ἀλλο",
         "wer": 27.27272727272727,
         "cer": 8.860759493670885,
         "accuracy": 93.67088607594937,
         "time": 1.7376811504364014
     },
     "spotlight": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota scribatur. Sed supra uocal em annotetur: unde iam scribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota scribatur. Sed supra uocal em annotetur: unde iam scribitur ερπιλλοσ",
         "wer": 45.45454545454545,
         "cer": 5.063291139240507,
         "accuracy": 95.0,
         "time": 1.9327418804168701
     },
     "gpt-4.1": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis not\u00e2 \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u1f10\u03c0\u1f77\u03bb\u03bb\u03b7\u03bf\u03c3",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis notâ ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπίλληοσ",
         "wer": 18.181818181818183,
         "cer": 6.329113924050633,
         "accuracy": 94.9367088607595,
         "time": 2.169377088546753
     },
     "gpt-4o": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u1f10\u03c0\u1f76 \u03bb\u03bb\u03bf\u03c2",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπὶ λλος",
         "wer": 18.181818181818183,
         "cer": 6.329113924050633,
         "accuracy": 94.9367088607595,
         "time": 2.9292309284210205
     },
     "claude-4-sonnet": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota \u017fcribatur.Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u1f10\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota ſcribatur.Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπιλλοσ",
         "wer": 27.27272727272727,
         "cer": 3.79746835443038,
         "accuracy": 96.20253164556962,
         "time": 5.05485987663269
     },
     "claude-4-opus": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u1f10\u03c6\u1fbd \u1f11\u03bb\u03bb\u03ac\u03b4\u03bf\u03c2",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐφ᾽ ἑλλάδος",
         "wer": 18.181818181818183,
         "cer": 10.126582278481013,
         "accuracy": 90.2439024390244,
         "time": 5.962764024734497
     },
     "gemini-2.5-flash": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur:undeiam \u017fcribitur \ua751 \u03b5\u03c1\u03b9\u03bb\u03bb\u03bf\u03c3",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur:undeiam ſcribitur ꝑ εριλλοσ",
         "wer": 45.45454545454545,
         "cer": 6.329113924050633,
         "accuracy": 96.20253164556962,
         "time": 6.13182520866394
     },
     "qwen-2.5-vl-72b": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "rtionis nota fcribatur.Sed fupra uocalem annotetur:unde iam fcritur \u03b5\u03c0\u03b9\u03bb\u03bb\u03bf\u03c2",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "rtionis nota fcribatur.Sed fupra uocalem annotetur:unde iam fcritur επιλλος",
         "wer": 72.72727272727273,
         "cer": 12.658227848101266,
         "accuracy": 88.60759493670885,
         "time": 8.927345991134644
     },
     "gemini-2.5-pro": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03bc\u03c0\u03af\u03bb\u03bb\u03bf\u03c3",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur εμπίλλοσ",
         "wer": 9.090909090909092,
         "cer": 2.5316455696202533,
         "accuracy": 97.46835443037975,
         "time": 39.684799909591675
     },
     "o4-mini": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "rionis not\u0101 \u017fcribatur.Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u0313\u03c1\u03c4\u03b9\u03bb\u03bb\u03bf\u03c2",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "rionis notā ſcribatur.Sed ſupra uocalem annotetur: unde iam ſcribitur ἐρτιλλος",
         "wer": 45.45454545454545,
         "cer": 7.59493670886076,
         "accuracy": 93.67088607594937,
         "time": 59.3116180896759
     },
-    "horizon-alpha": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis not\u03b1 \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c0\u03b9\u03bb\u03bb\u03bf\u03c2",
-        "wer": 18.181818181818183,
-        "cer": 3.79746835443038,
-        "accuracy": 96.20253164556962,
-        "time": 2.0855040550231934
-    },
     "horizon-beta": {
-        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
-        "response": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u1f10\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
+        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+        "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπιλλοσ",
         "wer": 9.090909090909092,
         "cer": 2.5316455696202533,
         "accuracy": 97.46835443037975,

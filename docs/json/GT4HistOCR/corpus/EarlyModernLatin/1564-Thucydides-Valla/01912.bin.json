@@ -87,14 +87,6 @@
         "accuracy": 22.22222222222222,
         "time": 13.544996976852417
     },
-    "horizon-alpha": {
-        "gt": "13 4",
-        "response": "B  4",
-        "wer": 50.0,
-        "cer": 50.0,
-        "accuracy": 50.0,
-        "time": 1.9567770957946777
-    },
     "horizon-beta": {
         "gt": "13 4",
         "response": "B  4",

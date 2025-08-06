@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberrant, non quando & nobis iniuria illata eft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberrant, non quando & nobis iniuria illata eft,",
         "wer": 27.27272727272727,
         "cer": 4.615384615384616,
         "accuracy": 95.45454545454545,
         "time": 1.0832688808441162
     },
     "mistral-small": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft.",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant, non quando & nobis iuiuria illata eſt.",
         "wer": 9.090909090909092,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 1.2472929954528809
     },
     "spotlight": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant, non quando & nobis iuuri\u0101 illata est,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant, non quando & nobis iuuriā illata est,",
         "wer": 18.181818181818183,
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 1.5531518459320068
     },
     "gpt-4.1": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant, non quando & nobis iniuria illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
         "wer": 9.090909090909092,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 1.7060799598693848
     },
     "qwen-2.5-vl-72b": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant,non quando & nobis iuiuria illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant,non quando & nobis iuiuria illata eſt,",
         "wer": 18.181818181818183,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 2.0792298316955566
     },
     "gpt-4o": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant, non quando & nobis iniuria illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
         "wer": 9.090909090909092,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 2.0412039756774902
     },
     "claude-4-opus": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberrant, non quando & nobis iniuria illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberrant, non quando & nobis iniuria illata eſt,",
         "wer": 18.181818181818183,
         "cer": 3.076923076923077,
         "accuracy": 96.96969696969697,
         "time": 4.007559776306152
     },
     "claude-4-sonnet": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant,non quando & nobis iniuria illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant,non quando & nobis iniuria illata eſt,",
         "wer": 27.27272727272727,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 3.19936203956604
     },
     "gemini-2.5-flash": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant, non quando & nobis \u00eduiur\u00eda illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant, non quando & nobis íuiuría illata eſt,",
         "wer": 9.090909090909092,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 12.02249789237976
     },
     "o4-mini": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant,non quando & nobis iuu\ufeffria illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant,non quando & nobis iuu﻿ria illata eſt,",
         "wer": 27.27272727272727,
         "cer": 4.615384615384616,
         "accuracy": 96.92307692307692,
         "time": 7.94726300239563
     },
     "gemini-2.5-pro": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 per\u00edculo aberant, non quando & nob\u00eds iui\u00faria ill\u00e1ta e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à perículo aberant, non quando & nobís iuiúria illáta eſt,",
         "wer": 36.36363636363637,
         "cer": 6.153846153846154,
         "accuracy": 93.84615384615384,
         "time": 58.200955867767334
     },
-    "horizon-alpha": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant, non quando & nobis iniuria illata est,",
-        "wer": 18.181818181818183,
-        "cer": 3.076923076923077,
-        "accuracy": 96.92307692307692,
-        "time": 2.821793794631958
-    },
     "horizon-beta": {
-        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
-        "response": "procul \u00e0 periculo aberant, non quando & nobis iniuria illata e\u017ft,",
+        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+        "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
         "wer": 9.090909090909092,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,

@@ -1,14 +1,14 @@
 {
     "mistral-small": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "dccim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo.",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "dccim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo.",
         "wer": 33.33333333333333,
         "cer": 3.389830508474576,
         "accuracy": 96.61016949152543,
         "time": 1.3578448295593262
     },
     "spotlight": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
         "response": "decim,Ambraciotorum uigintiseptem,Anactoriorum una,ipso-",
         "wer": 100.0,
         "cer": 10.16949152542373,
@@ -16,7 +16,7 @@
         "time": 1.6339671611785889
     },
     "qwen-2.5-vl-72b": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
         "response": "decim,Ambraciotarum uigintifeptem,Anactoriorum una, ipfo-",
         "wer": 83.33333333333334,
         "cer": 6.779661016949152,
@@ -24,39 +24,39 @@
         "time": 1.7311289310455322
     },
     "gpt-4o": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "dccim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo\u1fbd",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "dccim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo᾽",
         "wer": 33.33333333333333,
         "cer": 3.389830508474576,
         "accuracy": 96.61016949152543,
         "time": 2.2996561527252197
     },
     "gpt-4.1": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "deccim, Ambraciotarum uiginti\u017feptem, Anac \u017ftoriorum una, ip\u017fo.",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "deccim, Ambraciotarum uigintiſeptem, Anac ſtoriorum una, ipſo.",
         "wer": 66.66666666666666,
         "cer": 6.779661016949152,
         "accuracy": 93.54838709677419,
         "time": 2.6911752223968506
     },
     "claude-4-sonnet": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "decim, Ambraciotarum uiginti\u017feptem, Anacoriorum una, ip\u017fo-",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "decim, Ambraciotarum uigintiſeptem, Anacoriorum una, ipſo-",
         "wer": 16.666666666666664,
         "cer": 1.694915254237288,
         "accuracy": 98.30508474576271,
         "time": 3.5548689365386963
     },
     "gemini-2.5-flash": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo.",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo.",
         "wer": 16.666666666666664,
         "cer": 1.694915254237288,
         "accuracy": 98.30508474576271,
         "time": 3.7017898559570312
     },
     "claude-4-opus": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
         "response": "decem, Ambraciotarum uigintifeptem, Anactoriorum una, ipfo-",
         "wer": 50.0,
         "cer": 5.084745762711865,
@@ -64,40 +64,32 @@
         "time": 4.4684789180755615
     },
     "llama-4-maverick-17b": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "dccim, Ambraciotarum uigintifeptem, Anactoriiorum una, ip\u017fo.",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "dccim, Ambraciotarum uigintifeptem, Anactoriiorum una, ipſo.",
         "wer": 66.66666666666666,
         "cer": 6.779661016949152,
         "accuracy": 93.33333333333333,
         "time": 8.041913986206055
     },
     "o4-mini": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "dccim, Ambraciotarum uiginti\u017fepte\ua75bem, Anactoriorum una, ip\u017fo.",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "dccim, Ambraciotarum uigintiſepteꝛem, Anactoriorum una, ipſo.",
         "wer": 50.0,
         "cer": 6.779661016949152,
         "accuracy": 93.44262295081968,
         "time": 20.70819401741028
     },
     "gemini-2.5-pro": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "decim, Ambraciotarum u\u00edginti\u017feptem, Anactoriorum una, \u00edp\u017fo.",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "decim, Ambraciotarum uígintiſeptem, Anactoriorum una, ípſo.",
         "wer": 33.33333333333333,
         "cer": 5.084745762711865,
         "accuracy": 94.91525423728814,
         "time": 32.61675405502319
     },
-    "horizon-alpha": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "dccim, Ambraciotarum uigintifeptem, Anactoriorum una, ip\u017fo.",
-        "wer": 50.0,
-        "cer": 5.084745762711865,
-        "accuracy": 94.91525423728814,
-        "time": 3.035130739212036
-    },
     "horizon-beta": {
-        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
-        "response": "dcclim, Ambraciotarum uigintiseptem, Anactoriorum una, ip\u017fo.",
+        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+        "response": "dcclim, Ambraciotarum uigintiseptem, Anactoriorum una, ipſo.",
         "wer": 50.0,
         "cer": 6.779661016949152,
         "accuracy": 93.33333333333333,

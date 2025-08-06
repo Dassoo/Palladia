@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ui diligentiffimi con\u017fpexere gr\u0101matic: pro q\u0308 Claudius C\u00e6\u017far apud nos antiquig:ria",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ui diligentiffimi conſpexere grāmatic: pro q̈ Claudius Cæſar apud nos antiquig:ria",
         "wer": 45.45454545454545,
         "cer": 15.384615384615385,
         "accuracy": 85.36585365853658,
         "time": 1.6458020210266113
     },
     "spotlight": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligentissimi conspexere gramicid: pro q Claudius C\u00e6sar apud nos antifigna",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentissimi conspexere gramicid: pro q Claudius Cæsar apud nos antifigna",
         "wer": 54.54545454545454,
         "cer": 15.384615384615385,
         "accuracy": 88.46153846153845,
         "time": 1.7292258739471436
     },
     "gpt-4.1": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligentiffimi con\u017fpexere gramatici: pro q\u0303 Claudius C\u00e6\u017far apud nos ant\u017figna",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiffimi conſpexere gramatici: pro q̃ Claudius Cæſar apud nos antſigna",
         "wer": 36.36363636363637,
         "cer": 8.974358974358974,
         "accuracy": 92.40506329113924,
         "time": 1.776003122329712
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligentiffimi confpexere gramatici: pro q Claudius C\u00e6far apud nos antifigna",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiffimi confpexere gramatici: pro q Claudius Cæfar apud nos antifigna",
         "wer": 54.54545454545454,
         "cer": 11.538461538461538,
         "accuracy": 89.87341772151899,
         "time": 1.9973218441009521
     },
     "gpt-4o": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligentiffimi con\u017fpexere gr\u0101matici \ua753q; Claudius C\u00e6\u017far apud nos anti\u017figna",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiffimi conſpexere grāmatici ꝓq; Claudius Cæſar apud nos antiſigna",
         "wer": 45.45454545454545,
         "cer": 12.82051282051282,
         "accuracy": 88.46153846153845,
         "time": 2.620657205581665
     },
     "claude-4-sonnet": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligenti\u017f\u017fimi con\u017fpexere gramatici: pro q\u0303 Claudius C\u00e6\u017far apud nos anti\u017figma",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiſſimi conſpexere gramatici: pro q̃ Claudius Cæſar apud nos antiſigma",
         "wer": 27.27272727272727,
         "cer": 3.8461538461538463,
         "accuracy": 96.25,
         "time": 4.056873083114624
     },
     "claude-4-opus": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligenti\u017f\u017fimi con\u017fpexere gr\u00e3matici, pro q\u0303 Claudius C\u00e6\u017far apud nos anti\u017figma",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiſſimi conſpexere grãmatici, pro q̃ Claudius Cæſar apud nos antiſigma",
         "wer": 27.27272727272727,
         "cer": 5.128205128205128,
         "accuracy": 95.0,
         "time": 4.4852049350738525
     },
     "gemini-2.5-flash": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligentiffimi con\u017fpexere grammatici:\ua753 q\u0308 Claudius C\u00e6\u017far apud nos antiqua",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiffimi conſpexere grammatici:ꝓ q̈ Claudius Cæſar apud nos antiqua",
         "wer": 45.45454545454545,
         "cer": 16.666666666666664,
         "accuracy": 85.8974358974359,
         "time": 5.705933094024658
     },
     "mistral-small": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligentissimi con\u017fpexere gramatici: pro q\u0303 Claudius C\u00e6\u017far apud nos antiqua",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentissimi conſpexere gramatici: pro q̃ Claudius Cæſar apud nos antiqua",
         "wer": 36.36363636363637,
         "cer": 11.538461538461538,
         "accuracy": 91.02564102564102,
         "time": 6.9892919063568115
     },
     "o4-mini": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligenti\u017f\u017fimi con\u017fpexere gra\u0304matici: pro q\u0303 Claudius C\u00e6sar apud nos anti\u017fignam",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiſſimi conſpexere grāmatici: pro q̃ Claudius Cæsar apud nos antiſignam",
         "wer": 45.45454545454545,
         "cer": 8.974358974358974,
         "accuracy": 91.46341463414635,
         "time": 16.5844988822937
     },
     "gemini-2.5-pro": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligenti\u017f\u017fimi con\u017fpexere gramatici: pro q\u0308 Claudius C\u00e6\u017far apud nos antiq\u0307na",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentiſſimi conſpexere gramatici: pro q̈ Claudius Cæſar apud nos antiq̇na",
         "wer": 36.36363636363637,
         "cer": 8.974358974358974,
         "accuracy": 92.40506329113924,
         "time": 65.37071800231934
     },
-    "horizon-alpha": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligenti\u017f\u017fimi con\u017fpexere grammatici: pro q\u0303 Claudius C\u00e6\u017far apud nos antiq\u0342na",
-        "wer": 36.36363636363637,
-        "cer": 10.256410256410255,
-        "accuracy": 91.25,
-        "time": 2.2719480991363525
-    },
     "horizon-beta": {
-        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
-        "response": "ut diligenti\u00dfimi con\u017fpexere grammatici: pro q\u0303 Claudius C\u00e6sar apud nos anti\u017figna",
+        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+        "response": "ut diligentißimi conſpexere grammatici: pro q̃ Claudius Cæsar apud nos antiſigna",
         "wer": 45.45454545454545,
         "cer": 8.974358974358974,
         "accuracy": 91.25,

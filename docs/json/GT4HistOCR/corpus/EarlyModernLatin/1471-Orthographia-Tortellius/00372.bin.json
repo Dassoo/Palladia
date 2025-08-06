@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat\u204a m\u00e1 in qbuld\u00e1 ieru\u017ftimi\u017f in\u017fcriptionibus \u017f\u00e6pe ego co\u017fpex:.K. DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat⁊ má in qbuldá ieruſtimiſ inſcriptionibus ſæpe ego coſpex:.K. DECEMB.",
         "wer": 70.0,
         "cer": 24.675324675324674,
         "accuracy": 79.22077922077922,
         "time": 1.545381784439087
     },
     "mistral-small": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat. n\u0101 in qbusdi uetvssimis inscriptionibus \u017fpe ego c\u00f3\u017fpex\u012b. K. DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat. nā in qbusdi uetvssimis inscriptionibus ſpe ego cóſpexī. K. DECEMB.",
         "wer": 80.0,
         "cer": 23.376623376623375,
         "accuracy": 79.22077922077922,
         "time": 1.7060201168060303
     },
     "spotlight": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat.n\u00e1m qbusdi aetustiffumis inscriptionibus \u017f\u00e6pe ego colpexi.K.DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat.nám qbusdi aetustiffumis inscriptionibus ſæpe ego colpexi.K.DECEMB.",
         "wer": 80.0,
         "cer": 20.77922077922078,
         "accuracy": 79.22077922077922,
         "time": 1.854884147644043
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat.n\u00e1 in qbusdiuetuftiffumis infcriptionibus f\u00e6peego colpexi.K.DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat.ná in qbusdiuetuftiffumis infcriptionibus fæpeego colpexi.K.DECEMB.",
         "wer": 100.0,
         "cer": 27.27272727272727,
         "accuracy": 76.62337662337663,
         "time": 2.0195488929748535
     },
     "gpt-4.1": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat\u0301. n\u0101 in qbu\u017fdiueru\u017f\u017fi\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego co\u017fpexi. K. DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat́. nā in qbuſdiueruſſiſſimis inſcriptionibus ſæpe ego coſpexi. K. DECEMB.",
         "wer": 50.0,
         "cer": 14.285714285714285,
         "accuracy": 87.17948717948718,
         "time": 2.357729911804199
     },
     "gpt-4o": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat: nam quibu\u017fdiueru\u017f\u017fimi\u017f in\u017fcriptionibus \u017f\u00e6pe ego con-  \n\u017fpexi: K.DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat: nam quibuſdiueruſſimiſ inſcriptionibus ſæpe ego con-  \nſpexi: K.DECEMB.",
         "wer": 70.0,
         "cer": 27.27272727272727,
         "accuracy": 80.76923076923077,
         "time": 4.022485971450806
     },
     "claude-4-sonnet": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat\u00b7na in qbu\u017fdam uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego co\u017fpexi\u00b7K\u00b7DECEMB\u00b7",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat·na in qbuſdam uetuſtiſſimis inſcriptionibus ſæpe ego coſpexi·K·DECEMB·",
         "wer": 60.0,
         "cer": 19.480519480519483,
         "accuracy": 84.4155844155844,
         "time": 4.323362112045288
     },
     "claude-4-opus": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat: n\u00e1 in q\u0303bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat: ná in q̃buſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
         "wer": 40.0,
         "cer": 10.38961038961039,
         "accuracy": 91.13924050632912,
         "time": 5.307667016983032
     },
     "gemini-2.5-flash": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat. n\u00e1 in q\u0301bu\u017fd\u0101 uetu\u017fti\u017fsimis in\u017fcriptionibus \u017f\u00e6pe ego co\u0304\u017fpexi:. K.DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat. ná in q́buſdā uetuſtiſsimis inſcriptionibus ſæpe ego cōſpexi:. K.DECEMB.",
         "wer": 80.0,
         "cer": 16.883116883116884,
         "accuracy": 86.25,
         "time": 11.01197099685669
     },
     "o4-mini": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat. n\u0304a in qb\u0304udi uetu\u017ftissimis in\u017fcriptionibus s\u00e6pe ego co\u0304spexi : K. DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat. n̄a in qb̄udi uetuſtissimis inſcriptionibus sæpe ego cōspexi : K. DECEMB.",
         "wer": 80.0,
         "cer": 23.376623376623375,
         "accuracy": 80.24691358024691,
         "time": 45.342199087142944
     },
     "gemini-2.5-pro": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "pona\u0165. n\u00e1 in quibu\u017fd\u0101 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego co\u0304\u017fpexi: K.DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponať. ná in quibuſdā uetuſtiſſimis inſcriptionibus ſæpe ego cōſpexi: K.DECEMB.",
         "wer": 70.0,
         "cer": 18.181818181818183,
         "accuracy": 85.0,
         "time": 99.31736183166504
     },
-    "horizon-alpha": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat. n\u0101 in quib\u017fd\u0101 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u014d\u017fpexi. K. DECEMB.",
-        "wer": 50.0,
-        "cer": 14.285714285714285,
-        "accuracy": 88.60759493670885,
-        "time": 2.2535240650177
-    },
     "horizon-beta": {
-        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
-        "response": "ponat: n\u0101m qbusdi uerustissimis inscripionibus s\u00e6pe ego conspexi: K. DECEMB.",
+        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+        "response": "ponat: nām qbusdi uerustissimis inscripionibus sæpe ego conspexi: K. DECEMB.",
         "wer": 70.0,
         "cer": 22.07792207792208,
         "accuracy": 79.22077922077922,

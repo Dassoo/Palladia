@@ -1,17 +1,17 @@
-# <img src="docs/ocracle.png" alt="OCRacle Logo" width="64" height="64"> OCRacle
+# <img src="docs/ocracle.png" alt="Palladia Logo" width="64" height="64"> Palladia
 
 **A Comprehensive Benchmarking Tool for Vision Language Models on Historical Document OCR**
 
-[![Website](https://img.shields.io/badge/Website-OCRacle%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/OCRacle)
+[![Website](https://img.shields.io/badge/Website-Palladia%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/OCRacle)
 [![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo)
 
-OCRacle is a benchmarking tool for evaluating Vision Language Models on historical document OCR tasks using the GT4HistOCR dataset. It provides standardized evaluation metrics and an interactive dashboard for comparing model performance across different historical document types and languages.
+Palladia is a benchmarking tool for evaluating Vision Language Models on historical document OCR tasks using the GT4HistOCR dataset. It provides standardized evaluation metrics and an interactive dashboard for comparing model performance across different historical document types and languages.
 
 ## Table of Contents
 
-- [What is OCRacle?](#what-is-ocracle)
+- [What is Palladia?](#what-is-palladia)
 - [Key Features](#key-features)
 - [Supported Models](#supported-models)
 - [Quick Start](#quick-start)
@@ -21,9 +21,9 @@ OCRacle is a benchmarking tool for evaluating Vision Language Models on historic
 - [Citation](#citation)
 - [License](#license)
 
-## What is OCRacle?
+## What is Palladia?
 
-OCRacle addresses the challenge of evaluating Vision Language Models on historical document OCR tasks. Traditional OCR benchmarks focus on modern documents, but historical documents present unique challenges including:
+Palladia addresses the challenge of evaluating Vision Language Models on historical document OCR tasks. Traditional OCR benchmarks focus on modern documents, but historical documents present unique challenges including:
 
 - **Varied Typography**: Different fonts, handwriting styles, and printing techniques
 - **Document Degradation**: Age-related artifacts, stains, and physical damage  
@@ -99,7 +99,7 @@ Results are automatically saved and viewable in the web dashboard that you can o
 
 ## Dataset
 
-OCRacle uses the **GT4HistOCR dataset**, a comprehensive collection of historical documents with ground truth transcriptions. The dataset includes:
+Palladia uses the **GT4HistOCR dataset**, a comprehensive collection of historical documents with ground truth transcriptions. The dataset includes:
 
 - **Time Periods**: 15th-20th centuries
 - **Languages**: Multiple European languages with historical variations
@@ -113,7 +113,7 @@ OCRacle uses the **GT4HistOCR dataset**, a comprehensive collection of historica
 
 ## Evaluation Metrics
 
-OCRacle provides comprehensive evaluation using industry-standard metrics:
+Palladia provides comprehensive evaluation using industry-standard metrics:
 
 | Metric | Description | Range | Best |
 |--------|-------------|-------|------|
@@ -156,11 +156,11 @@ The interactive web dashboard provides comprehensive analysis tools:
 
 ## Citation
 
-If you use OCRacle in your research, please cite:
+If you use Palladia in your research, please cite:
 
 ```bibtex
-@software{ocracle2025,
-  title={OCRacle: A Benchmarking Tool for Vision Language Models on Historical Document OCR},
+@software{palladia2025,
+  title={Palladia: A Benchmarking Tool for Vision Language Models on Historical Document OCR},
   author={Federico Dassiè},
   year={2025},
   url={https://github.com/dassoo/OCRacle}

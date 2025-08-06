@@ -87,14 +87,6 @@
         "avg_accuracy": 92.04199561934642,
         "avg_time": 51.45145735415545
     },
-    "horizon-alpha": {
-        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
-        "images": 44,
-        "avg_wer": 32.1244842501527,
-        "avg_cer": 8.083818001841205,
-        "avg_accuracy": 92.71062707524548,
-        "avg_time": 2.6206614158370276
-    },
     "horizon-beta": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
         "images": 44,

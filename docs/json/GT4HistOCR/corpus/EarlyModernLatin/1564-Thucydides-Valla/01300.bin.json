@@ -1,22 +1,22 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea foci\u017ftas, multum uel\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea fociſtas, multum uelſtra refert ut",
         "wer": 22.22222222222222,
         "cer": 4.838709677419355,
         "accuracy": 95.23809523809523,
         "time": 1.2968449592590332
     },
     "mistral-small": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum uestra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum uestra refert ut",
         "wer": 11.11111111111111,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 1.316236972808838
     },
     "spotlight": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
         "response": "tur naualis non mediterranca societas, multum uestra refert ut",
         "wer": 33.33333333333333,
         "cer": 4.838709677419355,
@@ -24,80 +24,72 @@
         "time": 1.5716328620910645
     },
     "qwen-2.5-vl-72b": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.8471949100494385
     },
     "gpt-4o": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.893583059310913
     },
     "gpt-4.1": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.9411840438842773
     },
     "claude-4-sonnet": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.9924380779266357
     },
     "gemini-2.5-flash": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.25331711769104
     },
     "claude-4-opus": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.244147062301636
     },
     "o4-mini": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum uestra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum uestra refert ut",
         "wer": 11.11111111111111,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 15.442816019058228
     },
     "gemini-2.5-pro": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterran\u0119a \u017focietas, multum ue\u017ftra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranęa ſocietas, multum ueſtra refert ut",
         "wer": 11.11111111111111,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 17.435348987579346
     },
-    "horizon-alpha": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.7900431156158447
-    },
     "horizon-beta": {
-        "gt": "tur naualis non mediterranea \u017focietas, multum ue\u017ftra refert ut",
-        "response": "tur naualis non mediterranea \u017focietas, multum uestra refert ut",
+        "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+        "response": "tur naualis non mediterranea ſocietas, multum uestra refert ut",
         "wer": 11.11111111111111,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,

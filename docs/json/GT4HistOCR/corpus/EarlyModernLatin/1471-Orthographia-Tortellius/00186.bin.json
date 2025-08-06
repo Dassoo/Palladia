@@ -1,103 +1,95 @@
 {
     "mistral-small": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "bitur: Dies hic \u017fextus cum nihil egi die \u017farte moriar fame. Sed id praecipue re\u017fte",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "bitur: Dies hic ſextus cum nihil egi die ſarte moriar fame. Sed id praecipue reſte",
         "wer": 20.0,
         "cer": 6.097560975609756,
         "accuracy": 95.1219512195122,
         "time": 1.4420287609100342
     },
     "qwen-2.5-vl-72b": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "bitur:Dies hic \u017fextus cum nihil egi die quarte moriar fame.Sed id pr\u00e6cipue te\u017fte",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "bitur:Dies hic ſextus cum nihil egi die quarte moriar fame.Sed id præcipue teſte",
         "wer": 26.666666666666668,
         "cer": 2.4390243902439024,
         "accuracy": 97.5609756097561,
         "time": 2.2159719467163086
     },
     "spotlight": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "bitur:Dies hic sextus cum nihil egi die quarte moriar fame.Sed id pr\u00e6cipue test\u00e6",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "bitur:Dies hic sextus cum nihil egi die quarte moriar fame.Sed id præcipue testæ",
         "wer": 40.0,
         "cer": 6.097560975609756,
         "accuracy": 93.90243902439023,
         "time": 2.2315659523010254
     },
     "gpt-4.1": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur: D!es hic \u017fextus cum nihil egi die quarte mori\ua770 fame. Sed id pr\u00e6cipue te\u017ft",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "birur: D!es hic ſextus cum nihil egi die quarte moriꝰ fame. Sed id præcipue teſt",
         "wer": 26.666666666666668,
         "cer": 6.097560975609756,
         "accuracy": 93.90243902439023,
         "time": 2.3820741176605225
     },
     "gpt-4o": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur: Dies hic fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte,",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "birur: Dies hic fextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte,",
         "wer": 20.0,
         "cer": 3.6585365853658534,
         "accuracy": 96.3855421686747,
         "time": 2.7840771675109863
     },
     "llama-4-maverick-17b": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur: Dies hic sextus cum nihil egi die quarte morir fame. Sed id precipue re\u017fte",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "birur: Dies hic sextus cum nihil egi die quarte morir fame. Sed id precipue reſte",
         "wer": 33.33333333333333,
         "cer": 6.097560975609756,
         "accuracy": 93.90243902439023,
         "time": 2.8839571475982666
     },
     "claude-4-sonnet": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur:Dies hic \u017fextus cum nihil egi die quarte moriar fame.Sed id pr\u00e6cipue te\u017fte",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "birur:Dies hic ſextus cum nihil egi die quarte moriar fame.Sed id præcipue teſte",
         "wer": 26.666666666666668,
         "cer": 3.6585365853658534,
         "accuracy": 96.34146341463415,
         "time": 4.311827898025513
     },
     "claude-4-opus": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "bitur: Dies hic \u017fextus cum nihil egi die quart\u00e6 moriar fame. Sed id pr\u00e6cipue te\u017fte",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "bitur: Dies hic ſextus cum nihil egi die quartæ moriar fame. Sed id præcipue teſte",
         "wer": 6.666666666666667,
         "cer": 1.2195121951219512,
         "accuracy": 98.78048780487805,
         "time": 4.318647861480713
     },
     "gemini-2.5-flash": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur: Dies hic \u017fextus cum nihil ege die quarte morier fame. Sed id pr\u00e6cipue te\u017fto",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "birur: Dies hic ſextus cum nihil ege die quarte morier fame. Sed id præcipue teſto",
         "wer": 26.666666666666668,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 6.004269123077393
     },
     "o4-mini": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "bitur: D: es hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue teste",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "bitur: D: es hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teste",
         "wer": 20.0,
         "cer": 3.6585365853658534,
         "accuracy": 96.3855421686747,
         "time": 19.18902897834778
     },
     "gemini-2.5-pro": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur: Dies hic \u017fextus cum nihil egit die quarte moniar fame. Sed id pr\u00e6cipue te\u017fto",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "birur: Dies hic ſextus cum nihil egit die quarte moniar fame. Sed id præcipue teſto",
         "wer": 26.666666666666668,
         "cer": 4.878048780487805,
         "accuracy": 95.18072289156626,
         "time": 41.94787001609802
     },
-    "horizon-alpha": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur : D\u03b9es hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte,",
-        "wer": 26.666666666666668,
-        "cer": 4.878048780487805,
-        "accuracy": 95.23809523809523,
-        "time": 2.4711060523986816
-    },
     "horizon-beta": {
-        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
-        "response": "birur:  D!es hic \u017fextus cum nihil egi die quarte moriar fame.  Sed id pr\u00e6cipue te\u017fte,",
+        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+        "response": "birur:  D!es hic ſextus cum nihil egi die quarte moriar fame.  Sed id præcipue teſte,",
         "wer": 20.0,
         "cer": 6.097560975609756,
         "accuracy": 94.11764705882352,

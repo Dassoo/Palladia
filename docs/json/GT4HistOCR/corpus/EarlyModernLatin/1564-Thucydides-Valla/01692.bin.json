@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant,qu\u00e0m fe iterum receperint.Etiam colleg\u00e6 cius uncrant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant,quàm fe iterum receperint.Etiam collegæ cius uncrant,",
         "wer": 90.0,
         "cer": 13.636363636363635,
         "accuracy": 87.87878787878788,
         "time": 1.1114580631256104
     },
     "mistral-small": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m \u017fe iter\u00f9m receperint. Etiam collegxius ucrant.",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàm ſe iterùm receperint. Etiam collegxius ucrant.",
         "wer": 60.0,
         "cer": 15.151515151515152,
         "accuracy": 86.36363636363636,
         "time": 1.3406310081481934
     },
     "spotlight": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0in fe iter\u0169 receperint. Et iam colleg\u00e6 cius ucncrant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàin fe iterũ receperint. Et iam collegæ cius ucncrant,",
         "wer": 40.0,
         "cer": 9.090909090909092,
         "accuracy": 91.04477611940298,
         "time": 1.6570930480957031
     },
     "gpt-4o": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimit\u00adtant, qu\u00e0m \u017fe iter\u00f9m receperint. Etiam colleg\u00e6 cius venerant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimit­tant, quàm ſe iterùm receperint. Etiam collegæ cius venerant,",
         "wer": 60.0,
         "cer": 9.090909090909092,
         "accuracy": 92.53731343283582,
         "time": 1.796659231185913
     },
     "qwen-2.5-vl-72b": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant,qu\u00e0m fe iter\u0169 receperint.Et iam collegx cius ucncrant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant,quàm fe iterũ receperint.Et iam collegx cius ucncrant,",
         "wer": 80.0,
         "cer": 10.606060606060606,
         "accuracy": 89.39393939393939,
         "time": 1.777482271194458
     },
     "gpt-4.1": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m \u017fe iter\u016b receperint. Etiam colleg\u00e6 eius uenerant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàm ſe iterū receperint. Etiam collegæ eius uenerant,",
         "wer": 30.0,
         "cer": 3.0303030303030303,
         "accuracy": 96.96969696969697,
         "time": 1.8065440654754639
     },
     "claude-4-sonnet": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.696040153503418
     },
     "gemini-2.5-flash": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m \u017feiter\u0169 receperint. Etiam colleg\u00e6 eius uenerant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàm ſeiterũ receperint. Etiam collegæ eius uenerant,",
         "wer": 40.0,
         "cer": 3.0303030303030303,
         "accuracy": 96.96969696969697,
         "time": 3.9488439559936523
     },
     "claude-4-opus": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m \u017fe iter\u0169 rec\u1ebdperint. Et iam colleg\u00e6 eius uener\u00e3t,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàm ſe iterũ recẽperint. Et iam collegæ eius uenerãt,",
         "wer": 20.0,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 4.4445960521698
     },
     "o4-mini": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m \u017fe iter\u016b receperint. Eriam colleg\u00e6cius uenerant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàm ſe iterū receperint. Eriam collegæcius uenerant,",
         "wer": 50.0,
         "cer": 7.575757575757576,
         "accuracy": 92.42424242424242,
         "time": 24.42177414894104
     },
     "gemini-2.5-pro": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e1m \u017feiteru\u0303 receperint. Etiam colleg\u00e6 eius uenerant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quám ſeiterũ receperint. Etiam collegæ eius uenerant,",
         "wer": 50.0,
         "cer": 7.575757575757576,
         "accuracy": 93.93939393939394,
         "time": 43.304638147354126
     },
-    "horizon-alpha": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m se iter\u00f9 receperint. Etiam colleg\u00e6 eius uenerant,",
-        "wer": 40.0,
-        "cer": 4.545454545454546,
-        "accuracy": 95.45454545454545,
-        "time": 2.7033379077911377
-    },
     "horizon-beta": {
-        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
-        "response": "dimittant, qu\u00e0m se iter\u00f9 receperint. Etiam colleg\u00e6 eius uenerant,",
+        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+        "response": "dimittant, quàm se iterù receperint. Etiam collegæ eius uenerant,",
         "wer": 40.0,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,

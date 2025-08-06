@@ -1,102 +1,94 @@
 {
     "spotlight": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebiscitum f\u0153dera c\u0153terum rupta, faciunt est quatuorde-",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiscitum fœdera cœterum rupta, faciunt est quatuorde-",
         "wer": 55.55555555555556,
         "cer": 19.35483870967742,
         "accuracy": 81.81818181818183,
         "time": 1.3231327533721924
     },
     "mistral-small": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebiscitum \u017federa c\u017f\u017fe nupta, factum e\u017ft quatuorde-",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiscitum ſedera cſſe nupta, factum eſt quatuorde-",
         "wer": 44.44444444444444,
         "cer": 6.451612903225806,
         "accuracy": 93.54838709677419,
         "time": 1.4810690879821777
     },
     "llama-4-maverick-17b": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebifcitum f\u0153dera c\u017f\u017fe rupt\u0101, factum e\u017ft quatuordecim",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebifcitum fœdera cſſe ruptā, factum eſt quatuordecim",
         "wer": 55.55555555555556,
         "cer": 11.29032258064516,
         "accuracy": 89.0625,
         "time": 1.6143519878387451
     },
     "qwen-2.5-vl-72b": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebifc\u00ectum f\u0153dera cffe rupta,fac\u00ecum e\u017ft quatuordecim",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebifcìtum fœdera cffe rupta,facìum eſt quatuordecim",
         "wer": 66.66666666666666,
         "cer": 17.741935483870968,
         "accuracy": 84.12698412698413,
         "time": 1.9198799133300781
     },
     "gpt-4.1": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebi\u017fcitum foedera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiſcitum foedera eſſe rupta, factum eſt quatuorde-",
         "wer": 11.11111111111111,
         "cer": 4.838709677419355,
         "accuracy": 95.23809523809523,
         "time": 2.0764076709747314
     },
     "gpt-4o": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebi\u017fcitum f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuorde-",
         "wer": 11.11111111111111,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 2.2590951919555664
     },
     "gemini-2.5-flash": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebi\u017fcitum f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde.",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuorde.",
         "wer": 22.22222222222222,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 3.956023931503296
     },
     "claude-4-sonnet": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebi\u017fcitum f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuordecimo",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuordecimo",
         "wer": 22.22222222222222,
         "cer": 8.064516129032258,
         "accuracy": 92.3076923076923,
         "time": 4.060302019119263
     },
     "claude-4-opus": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebi\u017fcitum f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuordecim",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuordecim",
         "wer": 22.22222222222222,
         "cer": 6.451612903225806,
         "accuracy": 93.75,
         "time": 4.286198139190674
     },
     "o4-mini": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe no\u017ftra, factum e\u017ft quauuorde",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiſcitum ſœdera eſſe noſtra, factum eſt quauuorde",
         "wer": 22.22222222222222,
         "cer": 9.67741935483871,
         "accuracy": 91.93548387096774,
         "time": 41.35619783401489
     },
     "gemini-2.5-pro": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebi\u017fcitum f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuordecim.",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+        "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuordecim.",
         "wer": 22.22222222222222,
         "cer": 8.064516129032258,
         "accuracy": 92.3076923076923,
         "time": 58.157089948654175
     },
-    "horizon-alpha": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
-        "response": "Hoc autem plebiscitum foedera e\u017f\u017fe rupta, factum e\u017ft quatvorde-",
-        "wer": 33.33333333333333,
-        "cer": 8.064516129032258,
-        "accuracy": 92.06349206349206,
-        "time": 2.471036911010742
-    },
     "horizon-beta": {
-        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
         "response": "Hoc autem plebiscitum foedera effe rupta, factum eft quatuorde-",
         "wer": 44.44444444444444,
         "cer": 11.29032258064516,

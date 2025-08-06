@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe : ut karthago kapur: c\u0169 te\u017f\u017fte Quintiliano \u017fit.c.l\u00eda qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe : ut karthago kapur: cũ teſſte Quintiliano ſit.c.lía quæ ad omnes",
         "wer": 50.0,
         "cer": 8.536585365853659,
         "accuracy": 93.90243902439023,
         "time": 1.4672179222106934
     },
     "mistral-small": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe: ut karthago kapuri: cu \u017fe\u017fte Quintiliano \u017fit.c.l\u017fa quae ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe: ut karthago kapuri: cu ſeſte Quintiliano ſit.c.lſa quae ad omnes",
         "wer": 50.0,
         "cer": 12.195121951219512,
         "accuracy": 90.2439024390244,
         "time": 1.6026561260223389
     },
     "spotlight": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "scribendam esse: ut karthago kapur: c\u00fa te \u017fte Quintiliano fit.c.lr\u00e1 qux ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "scribendam esse: ut karthago kapur: cú te ſte Quintiliano fit.c.lrá qux ad omnes",
         "wer": 71.42857142857143,
         "cer": 14.634146341463413,
         "accuracy": 86.58536585365853,
         "time": 2.007923126220703
     },
     "gpt-4o": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u016b te\u017fte Quintiliano \u017fit.",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe: ut karthago kaput: cū teſte Quintiliano ſit.",
         "wer": 42.857142857142854,
         "cer": 26.82926829268293,
         "accuracy": 73.17073170731707,
         "time": 2.5273489952087402
     },
     "gpt-4.1": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe : ut Karthago kaput : c\u016b te\u017fte Quintiliano \u017fit. c. Ita qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe : ut Karthago kaput : cū teſte Quintiliano ſit. c. Ita quæ ad omnes",
         "wer": 50.0,
         "cer": 8.536585365853659,
         "accuracy": 92.7710843373494,
         "time": 2.6531200408935547
     },
     "claude-4-sonnet": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe : ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit.c.I\u017fa qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe : ut karthago kaput: cũ teſte Quintiliano ſit.c.Iſa quæ ad omnes",
         "wer": 35.714285714285715,
         "cer": 7.317073170731707,
         "accuracy": 93.90243902439023,
         "time": 4.205369710922241
     },
     "qwen-2.5-vl-72b": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe: ut karthago kapur: cu te\u017fte Quintiliano fit.c.l\u00eda qux ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe: ut karthago kapur: cu teſte Quintiliano fit.c.lía qux ad omnes",
         "wer": 42.857142857142854,
         "cer": 9.75609756097561,
         "accuracy": 90.2439024390244,
         "time": 5.057401180267334
     },
     "claude-4-opus": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe: ut karthago kapur\u0129 c\u0169 te\u017fte Quintiliano \u017fit.c.l\u0129a qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe: ut karthago kapurĩ cũ teſte Quintiliano ſit.c.lĩa quæ ad omnes",
         "wer": 28.57142857142857,
         "cer": 7.317073170731707,
         "accuracy": 92.6829268292683,
         "time": 5.923198938369751
     },
     "gemini-2.5-flash": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe : ut karthago kapur: cu\u0301m i\u017fte Quintiliano fit.c.li\u0301a qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe : ut karthago kapur: cúm iſte Quintiliano fit.c.lía quæ ad omnes",
         "wer": 57.14285714285714,
         "cer": 14.634146341463413,
         "accuracy": 89.02439024390245,
         "time": 5.904098033905029
     },
     "o4-mini": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe : ut karthago kapur : cu\u0304 teste Quintiliano \u017fit. c\u2019ra qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe : ut karthago kapur : cū teste Quintiliano ſit. c’ra quæ ad omnes",
         "wer": 57.14285714285714,
         "cer": 12.195121951219512,
         "accuracy": 91.46341463414635,
         "time": 17.98614811897278
     },
     "gemini-2.5-pro": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe : ut karthago kaput ur\u0307: c\u0169 tri\u017fte Qui\u0307ntiliano \u017fit.c.l\u00ed\u00e3 qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe : ut karthago kaput uṙ: cũ triſte Qui̇ntiliano ſit.c.líã quæ ad omnes",
         "wer": 64.28571428571429,
         "cer": 15.853658536585366,
         "accuracy": 88.37209302325581,
         "time": 22.442176818847656
     },
-    "horizon-alpha": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "scribendam e\u017f\u017fe : ut karthago kaput : c\u00f9 te\u017fte Quintiliano \u017fit. c.I. a qu\u00e6 ad omnes",
-        "wer": 57.14285714285714,
-        "cer": 9.75609756097561,
-        "accuracy": 92.7710843373494,
-        "time": 3.6824450492858887
-    },
     "horizon-beta": {
-        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
-        "response": "\u017fcribendam e\u017f\u017fe: ut Karthago kaput: cu\u03db te\u017fte Quintiliano \u017fit. c. I. Ia qu\u00e6 ad omnes",
+        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+        "response": "ſcribendam eſſe: ut Karthago kaput: cuϛ teſte Quintiliano ſit. c. I. Ia quæ ad omnes",
         "wer": 28.57142857142857,
         "cer": 8.536585365853659,
         "accuracy": 91.66666666666666,

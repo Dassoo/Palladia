@@ -1,14 +1,14 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in faryra Atticus eximie fi c\u0153nat inquit: Nec nullum cupias cum fit abigo bio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in faryra Atticus eximie fi cœnat inquit: Nec nullum cupias cum fit abigo bio",
         "wer": 35.714285714285715,
         "cer": 10.256410256410255,
         "accuracy": 91.02564102564102,
         "time": 1.3250768184661865
     },
     "spotlight": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
         "response": "in Satyra Atticus eximie si coenat inquit: Nec nullum cupias cum sit abiogobio",
         "wer": 42.857142857142854,
         "cer": 10.256410256410255,
@@ -16,88 +16,80 @@
         "time": 1.5728189945220947
     },
     "mistral-small": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in Satyra Atticus eximie \u017fi coenat inquit: Nec nullum cupias cum \u017fit abi\u017ftibio.",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in Satyra Atticus eximie ſi coenat inquit: Nec nullum cupias cum ſit abiſtibio.",
         "wer": 28.57142857142857,
         "cer": 11.538461538461538,
         "accuracy": 89.87341772151899,
         "time": 1.7187509536743164
     },
     "qwen-2.5-vl-72b": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in Satyra Atticus eximie \u017fi c\u00e6nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in Satyra Atticus eximie ſi cænat inquit: Nec nullum cupias cum ſit tibi gobio",
         "wer": 14.285714285714285,
         "cer": 2.564102564102564,
         "accuracy": 97.43589743589743,
         "time": 2.2875919342041016
     },
     "gpt-4.1": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi coenat inquit : Nec nullum cupis cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximie ſi coenat inquit : Nec nullum cupis cum ſit tibi gobio",
         "wer": 28.57142857142857,
         "cer": 5.128205128205128,
         "accuracy": 96.20253164556962,
         "time": 2.3226070404052734
     },
     "gpt-4o": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum fit tibi gobio",
         "wer": 7.142857142857142,
         "cer": 1.282051282051282,
         "accuracy": 98.71794871794873,
         "time": 2.6698479652404785
     },
     "claude-4-sonnet": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi coena\u017f inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximie ſi coenaſ inquit: Nec nullum cupias cum ſit tibi gobio",
         "wer": 7.142857142857142,
         "cer": 3.8461538461538463,
         "accuracy": 96.20253164556962,
         "time": 4.979426145553589
     },
     "claude-4-opus": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximi\u00e8 \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximiè ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
         "wer": 7.142857142857142,
         "cer": 1.282051282051282,
         "accuracy": 98.71794871794873,
         "time": 5.238180875778198
     },
     "gemini-2.5-flash": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 6.792726039886475
     },
     "o4-mini": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 11.357838869094849
     },
     "gemini-2.5-pro": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 26.96214008331299
     },
-    "horizon-alpha": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi coenat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "wer": 7.142857142857142,
-        "cer": 2.564102564102564,
-        "accuracy": 97.46835443037975,
-        "time": 2.4962470531463623
-    },
     "horizon-beta": {
-        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
-        "response": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquiet : Nec nullum cupias cum \u017fit tibi gobio",
+        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
+        "response": "in ſatyra Atticus eximie ſi cœnat inquiet : Nec nullum cupias cum ſit tibi gobio",
         "wer": 14.285714285714285,
         "cer": 2.564102564102564,
         "accuracy": 97.5,

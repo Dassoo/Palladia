@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyrcn\u017fibus paritcr ac Peloponmen\u017fibus gretis.At nobis re,",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrcnſibus paritcr ac Peloponmenſibus gretis.At nobis re,",
         "wer": 75.0,
         "cer": 9.67741935483871,
         "accuracy": 90.32258064516128,
         "time": 1.3921480178833008
     },
     "mistral-small": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnesibus geretis. At nobis re-",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnesibus geretis. At nobis re-",
         "wer": 12.5,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 1.6498041152954102
     },
     "gpt-4.1": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponne\u017fibus geretis. At nobis re.",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponneſibus geretis. At nobis re.",
         "wer": 25.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 1.7783222198486328
     },
     "spotlight": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re,",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re,",
         "wer": 12.5,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 2.095759868621826
     },
     "gpt-4o": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis.At nobis re.",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis.At nobis re.",
         "wer": 37.5,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 2.2330780029296875
     },
     "gemini-2.5-flash": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re,",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re,",
         "wer": 12.5,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 3.385084867477417
     },
     "claude-4-sonnet": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis.At nobis re-",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis.At nobis re-",
         "wer": 25.0,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 3.734884023666382
     },
     "claude-4-opus": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geftis. At nobis re-",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnenſibus geftis. At nobis re-",
         "wer": 12.5,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 4.533156871795654
     },
     "qwen-2.5-vl-72b": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re\u00b7",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re·",
         "wer": 12.5,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 6.399187088012695
     },
     "gemini-2.5-pro": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re",
         "wer": 12.5,
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 11.601646184921265
     },
     "o4-mini": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyrensibus pariter ac Peloponne\u017fibus geretis. At nobis re-",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrensibus pariter ac Peloponneſibus geretis. At nobis re-",
         "wer": 25.0,
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 27.88099479675293
     },
-    "horizon-alpha": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyren\u017fibus pariter ac Peloponne\u017fibus geretis. At nobis re.",
-        "wer": 25.0,
-        "cer": 3.225806451612903,
-        "accuracy": 96.7741935483871,
-        "time": 2.213536024093628
-    },
     "horizon-beta": {
-        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
-        "response": "Corcyrensi\u017fbus pariter ac Peloponne\u017fibus geretis. At nobis re,",
+        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+        "response": "Corcyrensiſbus pariter ac Peloponneſibus geretis. At nobis re,",
         "wer": 37.5,
         "cer": 6.451612903225806,
         "accuracy": 95.16129032258065,

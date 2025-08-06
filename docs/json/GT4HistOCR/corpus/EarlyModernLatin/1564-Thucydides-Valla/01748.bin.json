@@ -1,103 +1,95 @@
 {
     "mistral-small": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "criti\u00e6 tribut\u016b e\u017ft. Itaque non licuit ei diutius pre\u017f\u017fe populo. Primum enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "critiæ tributū eſt. Itaque non licuit ei diutius preſſe populo. Primum enim",
         "wer": 33.33333333333333,
         "cer": 5.333333333333334,
         "accuracy": 96.0,
         "time": 1.3556079864501953
     },
     "spotlight": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "rici\u00e6 tribut\u0169 est. Itaque non licuit ei diutius pr\u00e6f\u012ble populo. Prim\u0169m enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "riciæ tributũ est. Itaque non licuit ei diutius præfīle populo. Primũm enim",
         "wer": 33.33333333333333,
         "cer": 9.333333333333334,
         "accuracy": 90.66666666666666,
         "time": 1.49245285987854
     },
     "llama-4-maverick-17b": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "ricia tribut\u016b eft.It aque non licuit ei diutius pr\u0113e\u017f\u017fe populo:Prim\u016b enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ricia tributū eft.It aque non licuit ei diutius prēeſſe populo:Primū enim",
         "wer": 58.333333333333336,
         "cer": 14.666666666666666,
         "accuracy": 86.66666666666667,
         "time": 1.5730619430541992
     },
     "gpt-4.1": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "ritia\u00e6 tribut\u016b e\u017ft. Ita\u02a0ue non licuit ei diutius pr\u00e6e\u017f\u017fe populo. Prim\u00f9m enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ritiaæ tributū eſt. Itaʠue non licuit ei diutius præeſſe populo. Primùm enim",
         "wer": 33.33333333333333,
         "cer": 5.333333333333334,
         "accuracy": 94.73684210526315,
         "time": 1.7095532417297363
     },
     "gpt-4o": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "rti\u00e6 tributu\u0169 e\u017ft. Ita\u017fque non licuit ei diutius pr\u00e6\u017f\u017fe populo. Primum enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "rtiæ tributuũ eſt. Itaſque non licuit ei diutius præſſe populo. Primum enim",
         "wer": 41.66666666666667,
         "cer": 8.0,
         "accuracy": 94.66666666666667,
         "time": 1.758329153060913
     },
     "gemini-2.5-flash": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "ricia tribu\u0169 e\u017ft.Itaque non licuit ei diuinius pr\u0119\u017ft populo: Prim\u00f9m enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ricia tribuũ eſt.Itaque non licuit ei diuinius pręſt populo: Primùm enim",
         "wer": 58.333333333333336,
         "cer": 13.333333333333334,
         "accuracy": 88.0,
         "time": 2.6408300399780273
     },
     "claude-4-sonnet": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diucius pr\u00e6e\u017f\u017fe populo.Prim\u0169 enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ritiæ tributũ eſt. Itaque non licuit ei diucius præeſſe populo.Primũ enim",
         "wer": 33.33333333333333,
         "cer": 6.666666666666667,
         "accuracy": 93.33333333333333,
         "time": 3.854404926300049
     },
     "qwen-2.5-vl-72b": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "ritia tribut\u0169 e\u017ft.Itaque non licuit ei diutius pr\u00e6\u017f\u017fe populo.Prim\u0169 enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ritia tributũ eſt.Itaque non licuit ei diutius præſſe populo.Primũ enim",
         "wer": 50.0,
         "cer": 9.333333333333334,
         "accuracy": 90.66666666666666,
         "time": 4.666795015335083
     },
     "claude-4-opus": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.801796913146973
     },
     "o4-mini": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "riti\u00e6 tribu\u0169 e\u017ft. Itaque non licuit ei diutius pr\u00e6e\u017f\u017fe populo.Prim\u00f9m enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ritiæ tribuũ eſt. Itaque non licuit ei diutius præeſſe populo.Primùm enim",
         "wer": 33.33333333333333,
         "cer": 4.0,
         "accuracy": 96.0,
         "time": 23.360793113708496
     },
     "gemini-2.5-pro": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "ricia tributu\u0303 e\u017ft. Itaque non licuit ei d\u00eduius pr\u0119e\u017f\u017fe populo: Prim\u00f9m en\u00edm",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "ricia tributũ eſt. Itaque non licuit ei díuius pręeſſe populo: Primùm ením",
         "wer": 41.66666666666667,
         "cer": 10.666666666666668,
         "accuracy": 90.66666666666666,
         "time": 49.0909469127655
     },
-    "horizon-alpha": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "ritiax tribut\u016b e\u017ft. Itaque non licuit ei diutius pr\u00e6\u017f\u017fe populo. Primum enim",
-        "wer": 33.33333333333333,
-        "cer": 8.0,
-        "accuracy": 93.33333333333333,
-        "time": 2.2628061771392822
-    },
     "horizon-beta": {
-        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
-        "response": "ricti\u00e6 tributum e\u017ft. I taque non licuit ei diutius pr\u00e6e\u017f\u017fe populo. Prim\u00f9m enim",
+        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+        "response": "rictiæ tributum eſt. I taque non licuit ei diutius præeſſe populo. Primùm enim",
         "wer": 41.66666666666667,
         "cer": 6.666666666666667,
         "accuracy": 93.58974358974359,

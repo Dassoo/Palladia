@@ -41,7 +41,7 @@
     },
     "gpt-4o": {
         "gt": "fuerunt.",
-        "response": "\u017fuerunt",
+        "response": "ſuerunt",
         "wer": 100.0,
         "cer": 25.0,
         "accuracy": 75.0,
@@ -86,14 +86,6 @@
         "cer": 12.5,
         "accuracy": 87.5,
         "time": 10.949646949768066
-    },
-    "horizon-alpha": {
-        "gt": "fuerunt.",
-        "response": "\u017fucrunt,",
-        "wer": 100.0,
-        "cer": 37.5,
-        "accuracy": 62.5,
-        "time": 1.8181180953979492
     },
     "horizon-beta": {
         "gt": "fuerunt.",

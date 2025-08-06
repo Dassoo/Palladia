@@ -1,7 +1,7 @@
 {
     "llama-4-maverick-17b": {
         "gt": "21 artabazus quis",
-        "response": "21 art\u017fbazus quis",
+        "response": "21 artſbazus quis",
         "wer": 33.33333333333333,
         "cer": 5.88235294117647,
         "accuracy": 94.11764705882352,
@@ -86,14 +86,6 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 10.915503025054932
-    },
-    "horizon-alpha": {
-        "gt": "21 artabazus quis",
-        "response": "21 artabazus quis",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.3454971313476562
     },
     "horizon-beta": {
         "gt": "21 artabazus quis",

@@ -1,5 +1,5 @@
 [project]
-name = "OCRacle"
+name = "Palladia"
 version = "0.1.0"
 description = "Introducing a benchmark tool for Vision LLMs on historical image documents, based on the GT4HistOCR dataset."
 readme = "README.md"

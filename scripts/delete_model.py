@@ -7,7 +7,7 @@ from typing import List, Dict, Any
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from utils.update_manifest import regenerate_full_manifest
+from scripts.update_manifest import regenerate_full_manifest
 from evaluation.graph import create_graph
 
 

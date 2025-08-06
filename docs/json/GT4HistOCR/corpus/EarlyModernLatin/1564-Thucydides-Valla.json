@@ -87,14 +87,6 @@
         "avg_accuracy": 92.15736167941729,
         "avg_time": 33.30566581775402
     },
-    "horizon-alpha": {
-        "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
-        "images": 58,
-        "avg_wer": 25.08092003781659,
-        "avg_cer": 7.484870698605852,
-        "avg_accuracy": 94.06902133506986,
-        "avg_time": 2.576784244899092
-    },
     "horizon-beta": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
         "images": 58,

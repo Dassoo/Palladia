@@ -1,103 +1,95 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "fam. Vfque ade\u00f2 (ut breui complectar) fi quis dicat illos hoc in.",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "fam. Vfque adeò (ut breui complectar) fi quis dicat illos hoc in.",
         "wer": 33.33333333333333,
         "cer": 6.153846153846154,
         "accuracy": 93.84615384615384,
         "time": 1.311415195465088
     },
     "spotlight": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "fam. V\u017fqueade\u00f2 (ut breui complectar) si quis dicat illos hoc in,",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "fam. Vſqueadeò (ut breui complectar) si quis dicat illos hoc in,",
         "wer": 41.66666666666667,
         "cer": 6.153846153846154,
         "accuracy": 93.84615384615384,
         "time": 1.7102770805358887
     },
     "mistral-small": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "\u017fam. V\u017fque ade\u00f2 (ut breui comple\u017ftar) \u017fi quis dicat illos hoc in.",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "ſam. Vſque adeò (ut breui compleſtar) ſi quis dicat illos hoc in.",
         "wer": 16.666666666666664,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 1.9721999168395996
     },
     "gpt-4.1": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in.",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in.",
         "wer": 8.333333333333332,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 2.126555919647217
     },
     "gpt-4o": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in.",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in.",
         "wer": 8.333333333333332,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 2.257246255874634
     },
     "qwen-2.5-vl-72b": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "fam.V\u017fcade\u00f2(ut breui complectar)\u017fi quis dicat illos hoc in,",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "fam.Vſcadeò(ut breui complectar)ſi quis dicat illos hoc in,",
         "wer": 58.333333333333336,
         "cer": 13.846153846153847,
         "accuracy": 86.15384615384616,
         "time": 2.622004985809326
     },
     "gemini-2.5-flash": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "fam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
         "wer": 8.333333333333332,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 2.7693369388580322
     },
     "claude-4-sonnet": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.890942096710205
     },
     "claude-4-opus": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "fam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
         "wer": 8.333333333333332,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 4.164129972457886
     },
     "gemini-2.5-pro": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "fam. V\u017fqueade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "fam. Vſqueadeò (ut breui complectar) ſi quis dicat illos hoc in-",
         "wer": 25.0,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 9.615152835845947
     },
     "o4-mini": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "fam. V\u017fque ade\u00f2 (ut breui complectatur) \u017fi quis dicat illos hoc in-",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "fam. Vſque adeò (ut breui complectatur) ſi quis dicat illos hoc in-",
         "wer": 16.666666666666664,
         "cer": 4.615384615384616,
         "accuracy": 95.52238805970148,
         "time": 15.636056184768677
     },
-    "horizon-alpha": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in,",
-        "wer": 8.333333333333332,
-        "cer": 1.5384615384615385,
-        "accuracy": 98.46153846153847,
-        "time": 2.180342197418213
-    },
     "horizon-beta": {
-        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
-        "response": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in,",
+        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
+        "response": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in,",
         "wer": 8.333333333333332,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,

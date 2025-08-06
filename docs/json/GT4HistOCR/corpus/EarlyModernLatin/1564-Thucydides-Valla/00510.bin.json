@@ -1,103 +1,95 @@
 {
     "mistral-small": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, quam quantus unqu\u00e2 maximus uiguit, dum lynce-",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quam quantus unquâ maximus uiguit, dum lynce-",
         "wer": 33.33333333333333,
         "cer": 5.172413793103448,
         "accuracy": 94.82758620689656,
         "time": 1.2288179397583008
     },
     "llama-4-maverick-17b": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior,qu\u00e0m quantus unqu\u00e3 maximus uiguit,dum fynce.",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior,quàm quantus unquã maximus uiguit,dum fynce.",
         "wer": 55.55555555555556,
         "cer": 6.896551724137931,
         "accuracy": 93.10344827586206,
         "time": 1.2330591678619385
     },
     "spotlight": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus unqu\u0101 maximus uiguit, dum fynce-",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quàm quantus unquā maximus uiguit, dum fynce-",
         "wer": 22.22222222222222,
         "cer": 3.4482758620689653,
         "accuracy": 96.55172413793103,
         "time": 1.2631709575653076
     },
     "gpt-4.1": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus qu\u00e3 maximus uiguit, dum \u017fynce.",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quàm quantus quã maximus uiguit, dum ſynce.",
         "wer": 22.22222222222222,
         "cer": 5.172413793103448,
         "accuracy": 94.82758620689656,
         "time": 2.100813865661621
     },
     "gpt-4o": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus unqu\u00e0m maximus uiguit, dum \u017fynce.",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quàm quantus unquàm maximus uiguit, dum ſynce.",
         "wer": 22.22222222222222,
         "cer": 5.172413793103448,
         "accuracy": 94.91525423728814,
         "time": 2.3167078495025635
     },
     "claude-4-sonnet": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior,quam quantus unqu\u00e2 maximus uiguit,dum \u017fynce-",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior,quam quantus unquâ maximus uiguit,dum ſynce-",
         "wer": 55.55555555555556,
         "cer": 6.896551724137931,
         "accuracy": 93.10344827586206,
         "time": 3.347135066986084
     },
     "gemini-2.5-flash": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus viguit, dum \u017fynce",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quàm quantus unquã maximus viguit, dum ſynce",
         "wer": 22.22222222222222,
         "cer": 3.4482758620689653,
         "accuracy": 96.55172413793103,
         "time": 4.129773139953613
     },
     "claude-4-opus": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fync\u1ebd",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quàm quantus unquã maximus uiguit, dum ſyncẽ",
         "wer": 11.11111111111111,
         "cer": 3.4482758620689653,
         "accuracy": 96.55172413793103,
         "time": 4.241533279418945
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior,qu\u00e0m quantus unqu\u00e3 maximus uiguit,dum fynce-",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior,quàm quantus unquã maximus uiguit,dum fynce-",
         "wer": 55.55555555555556,
         "cer": 5.172413793103448,
         "accuracy": 94.82758620689656,
         "time": 6.9870240688323975
     },
     "o4-mini": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus unqu\u00e0 maximus uiguit, dum \u017fynce-",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quàm quantus unquà maximus uiguit, dum ſynce-",
         "wer": 11.11111111111111,
         "cer": 1.7241379310344827,
         "accuracy": 98.27586206896551,
         "time": 7.1546311378479
     },
     "gemini-2.5-pro": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus mai\u00f2r, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maiòr, quàm quantus unquã maximus uiguit, dum ſynce-",
         "wer": 11.11111111111111,
         "cer": 1.7241379310344827,
         "accuracy": 98.27586206896551,
         "time": 19.060578107833862
     },
-    "horizon-alpha": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.257798910140991
-    },
     "horizon-beta": {
-        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
-        "response": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce.",
+        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+        "response": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce.",
         "wer": 11.11111111111111,
         "cer": 1.7241379310344827,
         "accuracy": 98.27586206896551,

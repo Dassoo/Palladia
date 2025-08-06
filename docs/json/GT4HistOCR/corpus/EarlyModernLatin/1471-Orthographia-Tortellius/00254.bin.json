@@ -1,103 +1,95 @@
 {
     "mistral-small": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis; \u03ba\u1f50\u03ba\u03bd\u03bf\u1fe6 cygnus cum g media ut quidam \u017fcribunt. Quin & pich",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis; κὐκνοῦ cygnus cum g media ut quidam ſcribunt. Quin & pich",
         "wer": 26.666666666666668,
         "cer": 6.578947368421052,
         "accuracy": 93.42105263157895,
         "time": 1.490921974182129
     },
     "spotlight": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantuim In loculis:\u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam fcnbunt,Quin & p ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantuim In loculis:κυκνοσ cygnus cum g media ut quidam fcnbunt,Quin & p ch",
         "wer": 40.0,
         "cer": 10.526315789473683,
         "accuracy": 90.78947368421053,
         "time": 1.5868968963623047
     },
     "qwen-2.5-vl-72b": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis:\u03ba\u03c5\u03ba\u03bd\u03bf\u03c2 cygnus cum g media ut quidam fcenbunt.Quin & p ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis:κυκνος cygnus cum g media ut quidam fcenbunt.Quin & p ch",
         "wer": 33.33333333333333,
         "cer": 9.210526315789473,
         "accuracy": 90.78947368421053,
         "time": 2.071284055709839
     },
     "gpt-4.1": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c2 cygnus cum g media ut quidam \u017fcunt. Quin & \ua751 ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis: κυκνος cygnus cum g media ut quidam ſcunt. Quin & ꝑ ch",
         "wer": 20.0,
         "cer": 6.578947368421052,
         "accuracy": 93.42105263157895,
         "time": 2.3225739002227783
     },
     "llama-4-maverick-17b": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantuin In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam fentbunt. Quin & \u017ff c'n",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantuin In loculis: κυκνοσ cygnus cum g media ut quidam fentbunt. Quin & ſf c'n",
         "wer": 26.666666666666668,
         "cer": 13.157894736842104,
         "accuracy": 87.34177215189874,
         "time": 2.645986795425415
     },
     "gpt-4o": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis\u02d0\u03ba\u03c5\u03ba\u03bd\u03bf\u03c2 cygnus cum media ut quidam \u017feribunt. Quin & \ua751ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculisːκυκνος cygnus cum media ut quidam ſeribunt. Quin & ꝑch",
         "wer": 40.0,
         "cer": 10.526315789473683,
         "accuracy": 89.47368421052632,
         "time": 3.9009127616882324
     },
     "claude-4-sonnet": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt.Quin & \ua753 ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt.Quin & ꝓ ch",
         "wer": 13.333333333333334,
         "cer": 1.3157894736842104,
         "accuracy": 98.68421052631578,
         "time": 4.213882923126221
     },
     "claude-4-opus": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum. In loculis: \u03ba\u03cd\u03ba\u03bd\u03bf\u03c2 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua751 ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum. In loculis: κύκνος cygnus cum g media ut quidam ſcribunt. Quin & ꝑ ch",
         "wer": 20.0,
         "cer": 5.263157894736842,
         "accuracy": 94.8051948051948,
         "time": 4.385936737060547
     },
     "gemini-2.5-flash": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis:\u03ba\u03c5\u03ba\u03bd\u03bf\u03c2 cygnus cum g media ut quidam \u017fcribunt. Quin & p\u0304 c\u0304h",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis:κυκνος cygnus cum g media ut quidam ſcribunt. Quin & p̄ c̄h",
         "wer": 26.666666666666668,
         "cer": 6.578947368421052,
         "accuracy": 94.8051948051948,
         "time": 14.267966985702515
     },
     "gemini-2.5-pro": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis: \u03ba\u03cd\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin t. \u204a p ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis: κύκνοσ cygnus cum g media ut quidam ſcribunt. Quin t. ⁊ p ch",
         "wer": 26.666666666666668,
         "cer": 7.894736842105263,
         "accuracy": 92.40506329113924,
         "time": 19.51372480392456
     },
     "o4-mini": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & p\u0304 ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & p̄ ch",
         "wer": 6.666666666666667,
         "cer": 2.631578947368421,
         "accuracy": 97.40259740259741,
         "time": 21.504941940307617
     },
-    "horizon-alpha": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis: \u03ba\u03bd\u00d7\u03bd\u03bf\u03c2 cygnus cum g media ut quidam \u017fe\u017fcununt. Quin & \ua753 ch",
-        "wer": 13.333333333333334,
-        "cer": 10.526315789473683,
-        "accuracy": 90.9090909090909,
-        "time": 2.687469005584717
-    },
     "horizon-beta": {
-        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
-        "response": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c2 cygnus cum g media ut quidam \u017feribunt. Quin & \ua753 ch",
+        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
+        "response": "tantum In loculis: κυκνος cygnus cum g media ut quidam ſeribunt. Quin & ꝓ ch",
         "wer": 13.333333333333334,
         "cer": 2.631578947368421,
         "accuracy": 97.36842105263158,

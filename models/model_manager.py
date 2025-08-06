@@ -29,7 +29,7 @@ ctk.set_default_color_theme("dark-blue")
 class ModelManager:
     def __init__(self):
         self.root = ctk.CTk(fg_color=PALETTE["BG_LIGHT"])
-        self.root.title("OCRacle - Benchmark Manager")
+        self.root.title("Palladia - Benchmark Manager")
         self.root.geometry("800x750")
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
         
@@ -242,7 +242,7 @@ class ModelManager:
             self.validate_dataset_folder(self.dataset_path.get())
     
     def check_process_status(self):
-        """Check if the OCRacle process is still running."""
+        """Check if the Palladia process is still running."""
         if self.running_process:
             if self.running_process.poll() is None:
                 # Process is still running, check again in 1 second
@@ -251,8 +251,8 @@ class ModelManager:
                 # Process has finished
                 self.running_process = None
                 if hasattr(self, 'run_btn'):
-                    self.run_btn.configure(text="Run OCRacle", state="normal")
-                messagebox.showinfo("Complete", "OCRacle process has finished!")
+                    self.run_btn.configure(text="Run Palladia", state="normal")
+                messagebox.showinfo("Complete", "Palladia process has finished!")
     
     def on_tab_change(self):
         """Handle tab change to update status bar."""
@@ -271,7 +271,7 @@ class ModelManager:
         
         # Check if process is already running
         if self.running_process and self.running_process.poll() is None:
-            messagebox.showwarning("Warning", "OCRacle is already running!")
+            messagebox.showwarning("Warning", "Palladia is already running!")
             return
         
         self.save_config()
@@ -281,11 +281,11 @@ class ModelManager:
         
         try:
             self.running_process = subprocess.Popen([python, app_path])
-            messagebox.showinfo("Success", "OCRacle is starting!")
+            messagebox.showinfo("Success", "Palladia is starting!")
             
             # Disable the button and start checking process status
             if hasattr(self, 'run_btn'):
-                self.run_btn.configure(text="OCRacle Running...", state="disabled")
+                self.run_btn.configure(text="Palladia Running...", state="disabled")
             
             # Start periodic check
             self.check_process_status()
@@ -415,7 +415,7 @@ class ModelManager:
                                           command=self.open_dashboard, width=120, height=32, fg_color=PALETTE["TEXT_MAIN"], hover_color=PALETTE["ACCENT_HOVER"])
         self.dashboard_btn.pack(side="left", padx=8)
         
-        self.run_btn = ctk.CTkButton(center_frame, text="Run OCRacle", 
+        self.run_btn = ctk.CTkButton(center_frame, text="Run Palladia", 
                                command=self.run_app, width=120, height=32,
                                fg_color="green", hover_color="darkgreen")
         self.run_btn.pack(side="left", padx=8)
@@ -441,7 +441,7 @@ class ModelManager:
         right_frame.pack(side="right", padx=12, pady=5)
 
         try:
-            logo_path = Path(__file__).parent / '../docs/ocracle.png'
+            logo_path = Path(__file__).parent / '../docs/palladia.png'
             if logo_path.exists():
                 logo_image = Image.open(logo_path)
                 self.logo_photo = ctk.CTkImage(logo_image, size=(32, 32))
@@ -451,7 +451,7 @@ class ModelManager:
         except Exception:
             pass
         
-        self.info_label = ctk.CTkLabel(right_frame, text="OCRacle v1.0")
+        self.info_label = ctk.CTkLabel(right_frame, text="Palladia v1.0")
         self.info_label.pack(side="left")
     
     def update_status_bar(self):
@@ -506,12 +506,12 @@ class ModelManager:
             # Update status labels separately
             self.status_word_label.configure(text=status_message, text_color=status_color)
             self.status_details_label.configure(text=status_details)
-            self.info_label.configure(text=f"OCRacle v1.0")
+            self.info_label.configure(text=f"Palladia v1.0")
             
         except Exception:
             self.status_word_label.configure(text="Status error", text_color="red")
             self.status_details_label.configure(text="")
-            self.info_label.configure(text="OCRacle v1.0")
+            self.info_label.configure(text="Palladia v1.0")
     
     def on_closing(self):
         """Handle app closing."""

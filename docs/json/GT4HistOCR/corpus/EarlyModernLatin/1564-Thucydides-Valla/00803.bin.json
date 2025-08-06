@@ -1,14 +1,14 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.1914539337158203
     },
     "mistral-small": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
         "response": "baris dilapsis. Post quod omnes fere in urbes redierunt, nauigan-",
         "wer": 30.0,
         "cer": 4.615384615384616,
@@ -16,88 +16,80 @@
         "time": 1.3348989486694336
     },
     "spotlight": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilapsis. Post quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "baris dilapsis. Post quod omnes ferè in urbes redierunt, nauigan-",
         "wer": 20.0,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 1.7078425884246826
     },
     "qwen-2.5-vl-72b": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilap\u017fis.Po\u017ft quod omnes fer\u00e8 in urbes redierunt,nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "baris dilapſis.Poſt quod omnes ferè in urbes redierunt,nauigan-",
         "wer": 40.0,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
         "time": 1.86198091506958
     },
     "gpt-4.1": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilap\u017fis. Po\u017ft quod omnes fere\u0300 in urbes redierunt, nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
         "wer": 10.0,
         "cer": 3.076923076923077,
         "accuracy": 96.96969696969697,
         "time": 2.4110591411590576
     },
     "gpt-4o": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "bari\u017f dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "bariſ dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
         "wer": 10.0,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 2.5223381519317627
     },
     "claude-4-sonnet": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilap\u017fis.Po\u017ft quod omnes fere in urbes redierunt,nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "baris dilapſis.Poſt quod omnes fere in urbes redierunt,nauigan-",
         "wer": 50.0,
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 3.5658679008483887
     },
     "gemini-2.5-flash": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "bar\u00eds dilap\u017fis. Po\u017ft quod omnes \u017fere\u0301 in urbes redicrunt,nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "barís dilapſis. Poſt quod omnes ſeré in urbes redicrunt,nauigan-",
         "wer": 40.0,
         "cer": 9.230769230769232,
         "accuracy": 92.3076923076923,
         "time": 6.112123012542725
     },
     "claude-4-opus": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "bar\u00eds dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "barís dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
         "wer": 10.0,
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 17.041353940963745
     },
     "o4-mini": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilapsis. Po\u017ft quod omnes fere in urbes redierunt, nauiga\u1e49-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "baris dilapsis. Poſt quod omnes fere in urbes redierunt, nauigaṉ-",
         "wer": 30.0,
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 35.87118124961853
     },
     "gemini-2.5-pro": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "bar\u00eds dilap\u017fis. Po\u017ft quod omnes \u017fer\u00e8 in urbes redierunt,nauigan-",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "barís dilapſis. Poſt quod omnes ſerè in urbes redierunt,nauigan-",
         "wer": 40.0,
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 46.64904284477234
     },
-    "horizon-alpha": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 4.891914129257202
-    },
     "horizon-beta": {
-        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
-        "response": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redirunt, nauigan\u00b7",
+        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+        "response": "baris dilapſis. Poſt quod omnes ferè in urbes redirunt, nauigan·",
         "wer": 20.0,
         "cer": 3.076923076923077,
         "accuracy": 96.92307692307692,
