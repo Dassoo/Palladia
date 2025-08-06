@@ -767,7 +767,7 @@ h2 {
 
 .accuracy-fill {
     height: 100%;
-    background: linear-gradient(90deg, #6c757d, #495057);
+    background: linear-gradient(90deg, #c4aa56, #9c822a);
     border-radius: 4px;
     transition: width 0.3s ease;
 }
