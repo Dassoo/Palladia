@@ -318,8 +318,8 @@ h2 {
 }
 
 .average-accuracy.accuracy-excellent {
-    background: linear-gradient(135deg, #f4d03f, #f39c12);
-    color: #2c3e50;
+    background: #467c46;
+    color: white;
     font-weight: 600;
     box-shadow: 0 2px 4px rgba(243, 156, 18, 0.3);
 }
