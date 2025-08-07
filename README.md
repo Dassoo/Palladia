@@ -163,7 +163,7 @@ If you use Palladia in your research, please cite:
   title={Palladia: A Benchmarking Tool for Vision Language Models on Historical Document OCR},
   author={Federico Dassiè},
   year={2025},
-  url={https://github.com/dassoo/OCRacle}
+  url={https://github.com/dassoo/Palladia}
 }
 ```
 
