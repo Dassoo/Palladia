@@ -140,6 +140,12 @@ body[data-theme="dark"] {
     background: #3a3f44;
 }
 
+[data-theme="dark"] .image-result-header.expanded.sticky {
+    background: #2c3034;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #adb5bd;
+}
+
 [data-theme="dark"] .image-result-title {
     color: #adb5bd;
 }
