@@ -561,11 +561,21 @@ class BenchmarkDashboard {
         const modelAverages = this.calculateModelAverages();
         if (!modelAverages || Object.keys(modelAverages).length === 0) return;
 
-        // Sort models by accuracy (highest first)
-        const sortedModels = Object.entries(modelAverages).sort(([, a], [, b]) => b.avg_accuracy - a.avg_accuracy);
+        // Store model averages for sorting
+        this.modelAverages = modelAverages;
+        this.currentSort = this.currentSort || { column: 'accuracy', direction: 'desc' };
+
+        this.renderLeaderboardTable();
+    }
+
+    renderLeaderboardTable() {
+        if (!this.modelAverages) return;
+
+        // Sort models based on current sort settings
+        const sortedModels = this.sortModels(this.modelAverages, this.currentSort.column, this.currentSort.direction);
 
         // Find best scores for highlighting
-        const allModels = Object.values(modelAverages);
+        const allModels = Object.values(this.modelAverages);
         const best = {
             wer: Math.min(...allModels.map(m => m.avg_wer)),
             cer: Math.min(...allModels.map(m => m.avg_cer)),
@@ -577,17 +587,42 @@ class BenchmarkDashboard {
             <table class="results-table">
                 <thead>
                     <tr>
+                        <th>Rank</th>
                         <th>Model</th>
-                        <th>Accuracy (%)</th>
-                        <th>CER (%)</th>
-                        <th>WER (%)</th>
-                        <th>Time (s)</th>
+                        <th class="sortable ${this.currentSort.column === 'accuracy' ? 'sorted-' + this.currentSort.direction : ''}" data-sort="accuracy">
+                            Accuracy (%)
+                            <span class="sort-indicator">
+                                <span class="sort-arrow sort-up ${this.currentSort.column === 'accuracy' && this.currentSort.direction === 'asc' ? 'active' : ''}">▲</span>
+                                <span class="sort-arrow sort-down ${this.currentSort.column === 'accuracy' && this.currentSort.direction === 'desc' ? 'active' : ''}">▼</span>
+                            </span>
+                        </th>
+                        <th class="sortable ${this.currentSort.column === 'cer' ? 'sorted-' + this.currentSort.direction : ''}" data-sort="cer">
+                            CER (%)
+                            <span class="sort-indicator">
+                                <span class="sort-arrow sort-up ${this.currentSort.column === 'cer' && this.currentSort.direction === 'asc' ? 'active' : ''}">▲</span>
+                                <span class="sort-arrow sort-down ${this.currentSort.column === 'cer' && this.currentSort.direction === 'desc' ? 'active' : ''}">▼</span>
+                            </span>
+                        </th>
+                        <th class="sortable ${this.currentSort.column === 'wer' ? 'sorted-' + this.currentSort.direction : ''}" data-sort="wer">
+                            WER (%)
+                            <span class="sort-indicator">
+                                <span class="sort-arrow sort-up ${this.currentSort.column === 'wer' && this.currentSort.direction === 'asc' ? 'active' : ''}">▲</span>
+                                <span class="sort-arrow sort-down ${this.currentSort.column === 'wer' && this.currentSort.direction === 'desc' ? 'active' : ''}">▼</span>
+                            </span>
+                        </th>
+                        <th class="sortable ${this.currentSort.column === 'time' ? 'sorted-' + this.currentSort.direction : ''}" data-sort="time">
+                            Time (s)
+                            <span class="sort-indicator">
+                                <span class="sort-arrow sort-up ${this.currentSort.column === 'time' && this.currentSort.direction === 'asc' ? 'active' : ''}">▲</span>
+                                <span class="sort-arrow sort-down ${this.currentSort.column === 'time' && this.currentSort.direction === 'desc' ? 'active' : ''}">▼</span>
+                            </span>
+                        </th>
                         <th>Total Images</th>
                     </tr>
                 </thead>
                 <tbody>`;
 
-        sortedModels.forEach(([modelName, modelData]) => {
+        sortedModels.forEach(([modelName, modelData], index) => {
             const werClass = modelData.avg_wer === best.wer ? 'best-score' : '';
             const cerClass = modelData.avg_cer === best.cer ? 'best-score' : '';
             const accClass = modelData.avg_accuracy === best.accuracy ? 'best-score' : '';
@@ -595,6 +630,7 @@ class BenchmarkDashboard {
 
             html += `
                 <tr>
+                    <td class="rank-number">${index + 1}</td>
                     <td class="model-name">${this.formatModelName(modelName)}</td>
                     <td class="${accClass}">${modelData.avg_accuracy.toFixed(2)}</td>
                     <td class="${cerClass}">${modelData.avg_cer.toFixed(2)}</td>
@@ -609,6 +645,169 @@ class BenchmarkDashboard {
             </table>`;
 
         document.getElementById('model-averages').innerHTML = html;
+        this.attachSortListeners();
+    }
+
+    sortModels(modelAverages, column, direction) {
+        const entries = Object.entries(modelAverages);
+
+        return entries.sort(([, a], [, b]) => {
+            let valueA, valueB;
+
+            switch (column) {
+                case 'accuracy':
+                    valueA = a.avg_accuracy;
+                    valueB = b.avg_accuracy;
+                    break;
+                case 'cer':
+                    valueA = a.avg_cer;
+                    valueB = b.avg_cer;
+                    break;
+                case 'wer':
+                    valueA = a.avg_wer;
+                    valueB = b.avg_wer;
+                    break;
+                case 'time':
+                    valueA = a.avg_time;
+                    valueB = b.avg_time;
+                    break;
+                default:
+                    return 0;
+            }
+
+            if (direction === 'asc') {
+                return valueA - valueB;
+            } else {
+                return valueB - valueA;
+            }
+        });
+    }
+
+    attachSortListeners() {
+        const sortableHeaders = document.querySelectorAll('#model-averages .results-table .sortable');
+
+        sortableHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const column = header.getAttribute('data-sort');
+
+                // Toggle direction if same column, otherwise default to desc for accuracy, asc for errors/time
+                if (this.currentSort.column === column) {
+                    this.currentSort.direction = this.currentSort.direction === 'asc' ? 'desc' : 'asc';
+                } else {
+                    // For accuracy, default to desc (higher is better)
+                    // For CER, WER, and time, default to asc (lower is better)
+                    this.currentSort.direction = column === 'accuracy' ? 'desc' : 'asc';
+                }
+
+                this.currentSort.column = column;
+                this.renderLeaderboardTable();
+            });
+        });
+    }
+
+    attachCategorySortListeners() {
+        // Initialize sort state for each category table
+        this.categorySorts = this.categorySorts || {};
+
+        const sortableHeaders = document.querySelectorAll('#results-container .results-table .sortable');
+        console.log('Found', sortableHeaders.length, 'sortable headers in category tables');
+
+        sortableHeaders.forEach(header => {
+            header.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent event bubbling
+                console.log('Category table header clicked:', header.getAttribute('data-sort'));
+                const table = header.closest('.results-table');
+                const tableId = table.getAttribute('data-table-id');
+                const column = header.getAttribute('data-sort');
+
+                // Initialize sort state for this table if not exists
+                if (!this.categorySorts[tableId]) {
+                    this.categorySorts[tableId] = { column: 'accuracy', direction: 'desc' };
+                }
+
+                // Toggle direction if same column, otherwise default to desc for accuracy, asc for errors/time
+                if (this.categorySorts[tableId].column === column) {
+                    this.categorySorts[tableId].direction = this.categorySorts[tableId].direction === 'asc' ? 'desc' : 'asc';
+                } else {
+                    // For accuracy, default to desc (higher is better)
+                    // For CER, WER, and time, default to asc (lower is better)
+                    this.categorySorts[tableId].direction = column === 'accuracy' ? 'desc' : 'asc';
+                }
+
+                this.categorySorts[tableId].column = column;
+                console.log('Sorting category table:', tableId, 'by', column, this.categorySorts[tableId].direction);
+                this.renderCategoryTable(table, tableId);
+            });
+        });
+    }
+
+    renderCategoryTable(table, tableId) {
+        const tbody = table.querySelector('tbody');
+        const thead = table.querySelector('thead');
+
+        // Get category and subcategory from data attributes
+        const categoryName = table.getAttribute('data-category');
+        const subcategoryName = table.getAttribute('data-subcategory');
+
+        // Find the subcategory data
+        const subcategoryData = this.data[categoryName]?.[subcategoryName];
+        if (!subcategoryData) {
+            console.error('No subcategory data found for:', categoryName, subcategoryName);
+            return;
+        }
+
+        console.log('Rendering category table for:', categoryName, subcategoryName, 'with', Object.keys(subcategoryData).length, 'models');
+
+        const sortState = this.categorySorts[tableId];
+        const best = this.findBestScores(subcategoryData);
+
+        // Sort the models
+        const sortedModels = this.sortModels(subcategoryData, sortState.column, sortState.direction);
+
+        // Update header indicators
+        const headers = thead.querySelectorAll('.sortable');
+        headers.forEach(header => {
+            const headerColumn = header.getAttribute('data-sort');
+            const upArrow = header.querySelector('.sort-up');
+            const downArrow = header.querySelector('.sort-down');
+
+            // Remove active class from all arrows
+            upArrow.classList.remove('active');
+            downArrow.classList.remove('active');
+            header.classList.remove('sorted-asc', 'sorted-desc');
+
+            // Add active class to current sort
+            if (headerColumn === sortState.column) {
+                if (sortState.direction === 'asc') {
+                    upArrow.classList.add('active');
+                    header.classList.add('sorted-asc');
+                } else {
+                    downArrow.classList.add('active');
+                    header.classList.add('sorted-desc');
+                }
+            }
+        });
+
+        // Rebuild tbody
+        let html = '';
+        sortedModels.forEach(([modelName, modelData], index) => {
+            const werClass = modelData.avg_wer === best.wer ? 'best-score' : '';
+            const cerClass = modelData.avg_cer === best.cer ? 'best-score' : '';
+            const accClass = modelData.avg_accuracy === best.accuracy ? 'best-score' : '';
+            const timeClass = modelData.avg_time === best.time ? 'best-score' : '';
+
+            html += `
+                <tr>
+                    <td class="rank-number">${index + 1}</td>
+                    <td class="model-name">${this.formatModelName(modelName)}</td>
+                    <td class="${accClass}">${modelData.avg_accuracy.toFixed(2)}</td>
+                    <td class="${cerClass}">${modelData.avg_cer.toFixed(2)}</td>
+                    <td class="${werClass}">${modelData.avg_wer.toFixed(2)}</td>
+                    <td class="${timeClass}">${modelData.avg_time.toFixed(2)}</td>
+                </tr>`;
+        });
+
+        tbody.innerHTML = html;
     }
 
     findBestScores(subcategoryData) {
@@ -631,6 +830,7 @@ class BenchmarkDashboard {
 
             Object.entries(categoryData).forEach(([subcategoryName, subcategoryData]) => {
                 const best = this.findBestScores(subcategoryData);
+                const tableId = `table-${categoryName}-${subcategoryName}`.replace(/[^a-zA-Z0-9-]/g, '-');
 
                 html += `
                     <div class="subcategory">
@@ -641,22 +841,47 @@ class BenchmarkDashboard {
                             </button>
                         </div>
                         <div class="model-results">
-                            <table class="results-table">
+                            <table class="results-table" data-table-id="${tableId}" data-category="${categoryName}" data-subcategory="${subcategoryName}">
                                 <thead>
                                     <tr>
+                                        <th>Rank</th>
                                         <th>Model</th>
-                                        <th>Accuracy (%)</th>
-                                        <th>CER (%)</th>
-                                        <th>WER (%)</th>
-                                        <th>Time (s)</th>
+                                        <th class="sortable" data-sort="accuracy">
+                                            Accuracy (%)
+                                            <span class="sort-indicator">
+                                                <span class="sort-arrow sort-up">▲</span>
+                                                <span class="sort-arrow sort-down active">▼</span>
+                                            </span>
+                                        </th>
+                                        <th class="sortable" data-sort="cer">
+                                            CER (%)
+                                            <span class="sort-indicator">
+                                                <span class="sort-arrow sort-up">▲</span>
+                                                <span class="sort-arrow sort-down">▼</span>
+                                            </span>
+                                        </th>
+                                        <th class="sortable" data-sort="wer">
+                                            WER (%)
+                                            <span class="sort-indicator">
+                                                <span class="sort-arrow sort-up">▲</span>
+                                                <span class="sort-arrow sort-down">▼</span>
+                                            </span>
+                                        </th>
+                                        <th class="sortable" data-sort="time">
+                                            Time (s)
+                                            <span class="sort-indicator">
+                                                <span class="sort-arrow sort-up">▲</span>
+                                                <span class="sort-arrow sort-down">▼</span>
+                                            </span>
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>`;
 
-                // Sort models by accuracy (highest first)
+                // Sort models by accuracy (highest first) - default
                 const sortedModels = Object.entries(subcategoryData).sort(([, a], [, b]) => b.avg_accuracy - a.avg_accuracy);
 
-                sortedModels.forEach(([modelName, modelData]) => {
+                sortedModels.forEach(([modelName, modelData], index) => {
                     const werClass = modelData.avg_wer === best.wer ? 'best-score' : '';
                     const cerClass = modelData.avg_cer === best.cer ? 'best-score' : '';
                     const accClass = modelData.avg_accuracy === best.accuracy ? 'best-score' : '';
@@ -664,6 +889,7 @@ class BenchmarkDashboard {
 
                     html += `
                         <tr>
+                            <td class="rank-number">${index + 1}</td>
                             <td class="model-name">${this.formatModelName(modelName)}</td>
                             <td class="${accClass}">${modelData.avg_accuracy.toFixed(2)}</td>
                             <td class="${cerClass}">${modelData.avg_cer.toFixed(2)}</td>
@@ -683,6 +909,7 @@ class BenchmarkDashboard {
         });
 
         document.getElementById('results-container').innerHTML = html;
+        this.attachCategorySortListeners();
     }
 
     // Navigation methods for Details buttons

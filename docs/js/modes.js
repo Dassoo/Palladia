@@ -12,11 +12,18 @@ themeToggle.addEventListener('click', () => {
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     
     console.log('Switching from', currentTheme, 'to', newTheme);
-    body.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
     
-    // Force a style recalculation
-    body.style.display = 'none';
-    body.offsetHeight; // Trigger reflow
-    body.style.display = '';
+    // Add switching animation class
+    themeToggle.classList.add('switching');
+    
+    // Apply the new theme after a brief delay for the button animation
+    setTimeout(() => {
+        body.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    }, 200);
+    
+    // Remove animation class after animation completes
+    setTimeout(() => {
+        themeToggle.classList.remove('switching');
+    }, 600);
 });

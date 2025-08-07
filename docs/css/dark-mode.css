@@ -1,4 +1,10 @@
 /* Dark Mode Styles */
+
+/* Smooth transitions for theme switching */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
 body[data-theme="dark"] {
     background: url('../images/dashboard/black-marble.png') center center !important;
     background-size: cover !important;
@@ -64,6 +70,31 @@ body[data-theme="dark"] {
 
 [data-theme="dark"] .results-table tr:nth-child(even) {
     background: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .rank-number {
+    color: #d4af37 !important;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode sortable table styles */
+[data-theme="dark"] .results-table .sortable:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .sort-arrow {
+    color: rgba(233, 236, 239, 0.3);
+}
+
+[data-theme="dark"] .sort-arrow.active {
+    color: #d4af37;
+}
+
+[data-theme="dark"] .results-table .sortable.sorted-asc,
+[data-theme="dark"] .results-table .sortable.sorted-desc {
+    background-color: rgba(212, 175, 55, 0.15);
 }
 
 [data-theme="dark"] .breadcrumb {
