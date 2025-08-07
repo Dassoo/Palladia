@@ -97,6 +97,15 @@ body[data-theme="dark"] {
     background-color: rgba(212, 175, 55, 0.15);
 }
 
+/* Dark mode fixed theme toggle */
+[data-theme="dark"] .fixed-theme-toggle {
+    box-shadow: 0 4px 16px rgba(184, 134, 11, 0.6);
+}
+
+[data-theme="dark"] .fixed-theme-toggle:hover {
+    box-shadow: 0 6px 24px rgba(184, 134, 11, 0.8);
+}
+
 [data-theme="dark"] .breadcrumb {
     border-bottom: 1px solid #495057;
 }

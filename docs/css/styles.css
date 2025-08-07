@@ -605,6 +605,33 @@ h2 {
     object-fit: contain;
 }
 
+.beta-tag {
+    background: linear-gradient(135deg, #ba9724, #866104);
+    color: white;
+    font-size: 0.22em;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(184, 134, 11, 0.3);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 /* Theme Toggle Button */
 .theme-toggle {
     background: linear-gradient(135deg, #d4af37, #b8860b);
@@ -682,13 +709,37 @@ h2 {
 
 /* Theme switching animation */
 @keyframes themeSwitch {
-    0% { transform: scale(1) rotate(0deg); }
-    50% { transform: scale(0.9) rotate(180deg); }
-    100% { transform: scale(1) rotate(360deg); }
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(0.9) rotate(180deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
 }
 
 .theme-toggle.switching {
     animation: themeSwitch 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Fixed Theme Toggle Button */
+.fixed-theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 16px rgba(184, 134, 11, 0.4);
+}
+
+.fixed-theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 24px rgba(184, 134, 11, 0.6);
 }
 
 .hero-subtitle {
