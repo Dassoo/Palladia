@@ -11,7 +11,7 @@ body {
     font-family: system-ui, sans-serif;
     line-height: 1.4;
     color: #4a4a4a;
-    background: url('images/dashboard/stone-texture.jpg') center center;
+    background: url('../images/dashboard/white-marble.jpg') center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -320,8 +320,6 @@ h2 {
 .average-accuracy.accuracy-excellent {
     background: #467c46;
     color: white;
-    font-weight: 600;
-    box-shadow: 0 2px 4px rgba(243, 156, 18, 0.3);
 }
 
 .image-result-title::before {
@@ -563,31 +561,54 @@ h2 {
     object-fit: contain;
 }
 
-.beta-tag {
+/* Theme Toggle Button */
+.theme-toggle {
     background: linear-gradient(135deg, #d4af37, #b8860b);
-    color: white;
-    font-size: 0.22em;
-    font-weight: 500;
-    padding: 2px 6px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(184, 134, 11, 0.3);
-    animation: pulse 2s infinite;
+    position: relative;
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
+.theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(184, 134, 11, 0.4);
+}
 
-    50% {
-        transform: scale(1.05);
-    }
+.theme-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: all 0.3s ease;
+    position: absolute;
+}
 
-    100% {
-        transform: scale(1);
-    }
+.sun-icon {
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+.moon-icon {
+    opacity: 0;
+    transform: rotate(180deg);
+}
+
+/* Dark mode icon states */
+[data-theme="dark"] .sun-icon {
+    opacity: 0;
+    transform: rotate(180deg);
+}
+
+[data-theme="dark"] .moon-icon {
+    opacity: 1;
+    transform: rotate(0deg);
 }
 
 .hero-subtitle {
@@ -618,7 +639,6 @@ h2 {
     font-weight: 500;
     font-size: 0.9rem;
     transition: all 0.2s ease;
-    border: 1px solid transparent;
 }
 
 .social-link:hover {
@@ -689,7 +709,6 @@ h2 {
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #e9ecef;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     height: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
