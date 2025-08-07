@@ -102,7 +102,7 @@ def to_json(model, gt: str, response, wer: float, cer: float,
         # Fallback: use stem (filename without final extension)
         base_filename = path.stem
     
-    file_path = Path("docs/json") / path.parent / f"{base_filename}.json"
+    file_path = Path("docs/data/json") / path.parent / f"{base_filename}.json"
     
     # Use standardized display name instead of raw model ID
     display_name = get_model_display_name(model.id)

@@ -31,13 +31,13 @@ models:
   link: https://platform.openai.com/docs/models/gpt-4o
 - provider: Google
   id: gemini-2.5-flash
-  enabled: false
+  enabled: true
   api_key_env: GOOGLE_API_KEY
   standard_name: gemini-2.5-flash
   link: https://ai.google.dev/gemini-api/docs/models?hl=it#gemini-2.5-flash
 - provider: Google
   id: gemini-2.5-pro
-  enabled: false
+  enabled: true
   api_key_env: GOOGLE_API_KEY
   standard_name: gemini-2.5-pro
   link: https://ai.google.dev/gemini-api/docs/models?hl=it#gemini-2.5-pro

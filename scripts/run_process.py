@@ -137,7 +137,7 @@ def select_images_with_priority(source: str, all_images: list[str], images_to_pr
         return random.sample(all_images, images_to_process)
     
     # Find images that have already been scanned (with existing JSON results)
-    output_folder = Path("docs/json") / source
+    output_folder = Path("docs/data/json") / source
     scanned_images = []
     unscanned_images = []
     
