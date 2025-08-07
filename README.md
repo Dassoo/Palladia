@@ -2,7 +2,7 @@
 
 **A Comprehensive Benchmarking Tool for Vision Language Models on Historical Document OCR**
 
-[![Website](https://img.shields.io/badge/Website-Palladia%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/OCRacle)
+[![Website](https://img.shields.io/badge/Website-Palladia%20Dashboard-555879?style=flat&logo=web)](https://dassoo.github.io/Palladia)
 [![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/dassoo)
@@ -57,8 +57,8 @@ Most state-of-the-art Vision Language Models are actually supported through the 
 ### Installation
 
 ```bash
-git clone https://github.com/dassoo/OCRacle.git
-cd OCRacle
+git clone https://github.com/dassoo/Palladia.git
+cd Palladia
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install .
