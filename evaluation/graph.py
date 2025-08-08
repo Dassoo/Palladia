@@ -1,5 +1,7 @@
 import pandas as pd
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend for crash fix
 import matplotlib.pyplot as plt
 import json
 

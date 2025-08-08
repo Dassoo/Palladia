@@ -24,6 +24,7 @@ import asyncio
 import time
 import random
 import yaml
+import json
 import os
 
 load_dotenv()   
@@ -131,45 +132,72 @@ async def run_all(image_paths: list[str], source: str):
 
 
 def select_images_with_priority(source: str, all_images: list[str], images_to_process: int, prioritize_scanned: bool) -> list[str]:
-    """Select images with optional prioritization for already scanned images."""
+    """Select images with optional prioritization for already scanned images missing model evaluations."""
     if not prioritize_scanned:
         # Random selection
         return random.sample(all_images, images_to_process)
     
-    # Find images that have already been scanned (with existing JSON results)
+    # Get all model display names that we're evaluating
+    model_names = [get_model_display_name(model.id) for model in to_eval]
+    
+    # Find images that have JSON files but are missing evaluations for some models
     output_folder = Path("docs/data/json") / source
-    scanned_images = []
-    unscanned_images = []
+    priority_images = []
+    regular_images = []
     
     for img in all_images:
         # Extract filename preserving double extension (e.g., "00001.bin" from "00001.bin.png")
         img_path = Path(img)
         if img_path.name.endswith('.png'):
-            img_name = img_path.name[:-4]  # Remove '.png' to get "00001.bin" or "00283.nrm"
+            img_name = img_path.name[:-4]  # Remove '.png' extension
         else:
             img_name = img_path.stem
         json_file = output_folder / f"{img_name}.json"
         
         if json_file.exists():
-            scanned_images.append(img)
+            try:
+                # Load existing JSON to check which models are missing
+                with open(json_file, 'r') as f:
+                    existing_data = json.load(f)
+                
+                # Check if any of our models are missing from this JSON
+                missing_models = [model_name for model_name in model_names if model_name not in existing_data]
+                
+                if missing_models:
+                    # This image has JSON but is missing some model evaluations - prioritize it
+                    priority_images.append(img)
+                else:
+                    # This image has all model evaluations - treat as regular
+                    regular_images.append(img)
+            except (json.JSONDecodeError, FileNotFoundError):
+                # If we can't read the JSON, treat as regular image
+                regular_images.append(img)
         else:
-            unscanned_images.append(img)
+            # No JSON file exists - treat as regular image
+            regular_images.append(img)
     
-    # Images with priority
+    # Select images with priority for missing model evaluations first
     selected_images = []
     
-    # Add scanned images up to the requested count
-    if scanned_images:
-        scanned_to_add = min(len(scanned_images), images_to_process)
-        selected_images.extend(random.sample(scanned_images, scanned_to_add))
-        console.print(Text(f"Selected {scanned_to_add} previously scanned images", style="dim cyan"))
+    # Add priority images (those missing model evaluations) first
+    if priority_images:
+        priority_to_add = min(len(priority_images), images_to_process)
+        selected_images.extend(random.sample(priority_images, priority_to_add))
+        console.print(Text(f"Selected {priority_to_add} images with missing model evaluations", style="dim cyan"))
     
-    # If exceeding the requested count, add unscanned images
+    # Fill remaining quota with regular images
     remaining_needed = images_to_process - len(selected_images)
-    if remaining_needed > 0 and unscanned_images:
-        unscanned_to_add = min(len(unscanned_images), remaining_needed)
-        selected_images.extend(random.sample(unscanned_images, unscanned_to_add))
-        console.print(Text(f"Selected {unscanned_to_add} unscanned images", style="dim cyan"))
+    if remaining_needed > 0 and regular_images:
+        regular_to_add = min(len(regular_images), remaining_needed)
+        selected_images.extend(random.sample(regular_images, regular_to_add))
+        console.print(Text(f"Selected {regular_to_add} additional images", style="dim cyan"))
+    
+    # Summary
+    total_with_json = len(priority_images) + len([img for img in regular_images if (output_folder / f"{Path(img).name[:-4] if img.endswith('.png') else Path(img).stem}.json").exists()])
+    console.print(Text(f"Priority analysis: {len(priority_images)} images missing evaluations, {total_with_json} total with JSON files", style="dim"))
+    
+    if len(selected_images) < images_to_process:
+        console.print(Text(f"Note: Only {len(selected_images)} images available (requested {images_to_process})", style="dim yellow"))
     
     return selected_images
 
@@ -206,7 +234,7 @@ def main():
     output_folder = "docs/data/json/" + source
     
     if prioritize_scanned:
-        console.print(Text(f"\nPrioritization enabled: selecting scanned images first", style="dim cyan"))
+        console.print(Text(f"\nPrioritization enabled: selecting images missing model evaluations first", style="dim cyan"))
     
     console.print(Text(f"\nEvaluating {len(to_eval)} models across {len(image_paths)} images...", style="dim"))
     
@@ -230,7 +258,7 @@ def main():
         console.print(Text("\nBenchmark completed. Results saved to docs/data/json/\n", style="bold green"))
     except ModelProviderError as e:
         console.print(f"❌ Provider error: {e}", style="bold red")
-        return
+        pass
     except KeyboardInterrupt:
         console.print("\n❌ Benchmark interrupted by user.", style="bold red")
         return

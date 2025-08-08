@@ -804,6 +804,7 @@ class BenchmarkDashboard {
                     <td class="${cerClass}">${modelData.avg_cer.toFixed(2)}</td>
                     <td class="${werClass}">${modelData.avg_wer.toFixed(2)}</td>
                     <td class="${timeClass}">${modelData.avg_time.toFixed(2)}</td>
+                    <td>${modelData.images || 0}</td>
                 </tr>`;
         });
 
@@ -874,6 +875,7 @@ class BenchmarkDashboard {
                                                 <span class="sort-arrow sort-down">▼</span>
                                             </span>
                                         </th>
+                                        <th>Total Images</th>
                                     </tr>
                                 </thead>
                                 <tbody>`;
@@ -895,6 +897,7 @@ class BenchmarkDashboard {
                             <td class="${cerClass}">${modelData.avg_cer.toFixed(2)}</td>
                             <td class="${werClass}">${modelData.avg_wer.toFixed(2)}</td>
                             <td class="${timeClass}">${modelData.avg_time.toFixed(2)}</td>
+                            <td>${modelData.images || 0}</td>
                         </tr>`;
                 });
 
@@ -979,16 +982,26 @@ class BenchmarkDashboard {
 
         imageResults.forEach(imageResult => {
             if (!selectedModel) {
-                // Show all models
+                // Show all images and all models
+                imageResult.style.display = 'block';
                 imageResult.querySelectorAll('.model-response').forEach(response => {
                     response.style.display = 'block';
                 });
             } else {
-                // Show only selected model
-                imageResult.querySelectorAll('.model-response').forEach(response => {
-                    const modelName = response.dataset.model;
-                    response.style.display = modelName === selectedModel ? 'block' : 'none';
-                });
+                // Check if this image has data for the selected model
+                const selectedModelResponse = imageResult.querySelector(`.model-response[data-model="${selectedModel}"]`);
+
+                if (selectedModelResponse) {
+                    // Show the image and only the selected model
+                    imageResult.style.display = 'block';
+                    imageResult.querySelectorAll('.model-response').forEach(response => {
+                        const modelName = response.dataset.model;
+                        response.style.display = modelName === selectedModel ? 'block' : 'none';
+                    });
+                } else {
+                    // Hide the entire image if it doesn't have data for the selected model
+                    imageResult.style.display = 'none';
+                }
             }
         });
     }

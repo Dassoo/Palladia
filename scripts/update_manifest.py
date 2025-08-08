@@ -1,3 +1,5 @@
+from evaluation.graph import create_graph
+
 import json
 import os
 from pathlib import Path
@@ -130,6 +132,7 @@ def regenerate_full_manifest():
             if os.path.exists(aggregated_path):
                 # This is a subcategory with results
                 json_filepath = f"GT4HistOCR/corpus/{category}/{aggregated_file}"
+                create_graph("docs/data/json/" + json_filepath)
                 
                 # Scan for individual files
                 individual_files = scan_individual_files(item_path) if os.path.isdir(item_path) else []
