@@ -86,13 +86,5 @@
         "cer": 8.064516129032258,
         "accuracy": 92.3076923076923,
         "time": 58.157089948654175
-    },
-    "horizon-beta": {
-        "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
-        "response": "Hoc autem plebiscitum foedera effe rupta, factum eft quatuorde-",
-        "wer": 44.44444444444444,
-        "cer": 11.29032258064516,
-        "accuracy": 88.88888888888889,
-        "time": 2.8902587890625
     }
 }

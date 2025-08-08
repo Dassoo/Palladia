@@ -1,71 +1,63 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "\u0393v. vnd Salycn Das gro\u00df wunder. Da fpzach Der",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "Γv. vnd Salycn Das groß wunder. Da fpzach Der",
         "wer": 66.66666666666666,
         "cer": 25.0,
         "accuracy": 75.55555555555556,
         "time": 1.4282689094543457
     },
     "spotlight": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "sy.vnd sachen das gro\u00df rounder. Da sprach Jer",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "sy.vnd sachen das groß rounder. Da sprach Jer",
         "wer": 77.77777777777779,
         "cer": 22.727272727272727,
         "accuracy": 80.0,
         "time": 3.1799209117889404
     },
     "gpt-4.1": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "\u017fy. vnd \u017fahen das gre\u017f\u017fwunder. Da \u017fprach der",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "ſy. vnd ſahen das greſſwunder. Da ſprach der",
         "wer": 44.44444444444444,
         "cer": 11.363636363636363,
         "accuracy": 88.63636363636364,
         "time": 3.1796867847442627
     },
     "gpt-4o": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "\u017fi. vnd \u017fahen das gro\u017fe runder. Da \u017fprach der",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "ſi. vnd ſahen das groſe runder. Da ſprach der",
         "wer": 55.55555555555556,
         "cer": 13.636363636363635,
         "accuracy": 86.66666666666667,
         "time": 2.722822904586792
     },
-    "horizon-beta": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "\u017fy. vnd \u017fahen das gro\u017f\u017f wunder. Da \u017fprach der",
-        "wer": 33.33333333333333,
-        "cer": 9.090909090909092,
-        "accuracy": 91.11111111111111,
-        "time": 3.1680099964141846
-    },
     "claude-4-sonnet": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "\u017fy.vnd \u017fahen das gro\u00df wunder. Da \u017fprach der",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "ſy.vnd ſahen das groß wunder. Da ſprach der",
         "wer": 44.44444444444444,
         "cer": 6.8181818181818175,
         "accuracy": 93.18181818181817,
         "time": 3.7176969051361084
     },
     "mistral-small": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "\u017fo vond fa\u017f\u017fen das grof wunder. Da \u017fprach Jer.",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "ſo vond faſſen das grof wunder. Da ſprach Jer.",
         "wer": 77.77777777777779,
         "cer": 25.0,
         "accuracy": 78.26086956521739,
         "time": 1.7230918407440186
     },
     "claude-4-opus": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "\u017fy.vnd \u017fahen das gro\u017fs wunder. da \u017fprach der",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "ſy.vnd ſahen das groſs wunder. da ſprach der",
         "wer": 44.44444444444444,
         "cer": 9.090909090909092,
         "accuracy": 93.18181818181817,
         "time": 4.472929954528809
     },
     "qwen-2.5-vl-72b": {
-        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
-        "response": "sy.vnd \u017fahen das gro\u017fz rounder.Da \u017fprach der",
+        "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+        "response": "sy.vnd ſahen das groſz rounder.Da ſprach der",
         "wer": 66.66666666666666,
         "cer": 20.454545454545457,
         "accuracy": 84.0909090909091,

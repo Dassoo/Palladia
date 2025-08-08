@@ -86,13 +86,5 @@
         "cer": 9.523809523809524,
         "accuracy": 92.06349206349206,
         "time": 48.78163123130798
-    },
-    "horizon-beta": {
-        "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
-        "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: necq́; co,",
-        "wer": 22.22222222222222,
-        "cer": 6.349206349206349,
-        "accuracy": 93.84615384615384,
-        "time": 2.17106294631958
     }
 }

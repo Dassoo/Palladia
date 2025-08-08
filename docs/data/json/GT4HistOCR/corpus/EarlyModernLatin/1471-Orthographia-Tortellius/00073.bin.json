@@ -86,13 +86,5 @@
         "cer": 15.0,
         "accuracy": 86.58536585365853,
         "time": 67.9949209690094
-    },
-    "horizon-beta": {
-        "gt": "rationis nota deſignat᷑: ut ρήτωρ ροδοπη ράφανοσ: & ſimiles: ꝗᷓobrẽ cum eiuſmodi",
-        "response": "ranonis nota defignat: utrῇτωρροΔοπηράφανος: & ſimiles: qo bre cum eius modi",
-        "wer": 83.33333333333334,
-        "cer": 21.25,
-        "accuracy": 81.25,
-        "time": 3.145324945449829
     }
 }

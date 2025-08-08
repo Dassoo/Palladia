@@ -86,13 +86,5 @@
         "cer": 18.181818181818183,
         "accuracy": 85.0,
         "time": 99.31736183166504
-    },
-    "horizon-beta": {
-        "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
-        "response": "ponat: nām qbusdi uerustissimis inscripionibus sæpe ego conspexi: K. DECEMB.",
-        "wer": 70.0,
-        "cer": 22.07792207792208,
-        "accuracy": 79.22077922077922,
-        "time": 2.792095899581909
     }
 }

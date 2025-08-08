@@ -8,7 +8,7 @@ def create_agent(model) -> Agent:
         model=model,
         markdown=True,
         retries=4,
-        delay_between_retries=2,
+        delay_between_retries=3,
         exponential_backoff=True,
         system_message="""
         

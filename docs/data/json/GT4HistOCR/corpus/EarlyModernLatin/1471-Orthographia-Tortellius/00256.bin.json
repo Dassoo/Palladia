@@ -86,13 +86,5 @@
         "cer": 2.7027027027027026,
         "accuracy": 97.2972972972973,
         "time": 34.44007420539856
-    },
-    "horizon-beta": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam, poſſidet: ut ſimili modo de b & d eſſe",
-        "wer": 7.142857142857142,
-        "cer": 1.3513513513513513,
-        "accuracy": 98.66666666666667,
-        "time": 2.2416579723358154
     }
 }

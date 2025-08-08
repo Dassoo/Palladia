@@ -86,13 +86,5 @@
         "cer": 15.853658536585366,
         "accuracy": 88.37209302325581,
         "time": 22.442176818847656
-    },
-    "horizon-beta": {
-        "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
-        "response": "ſcribendam eſſe: ut Karthago kaput: cuϛ teſte Quintiliano ſit. c. I. Ia quæ ad omnes",
-        "wer": 28.57142857142857,
-        "cer": 8.536585365853659,
-        "accuracy": 91.66666666666666,
-        "time": 2.3816781044006348
     }
 }

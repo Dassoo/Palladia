@@ -86,13 +86,5 @@
         "cer": 8.433734939759036,
         "accuracy": 93.02325581395348,
         "time": 37.29368209838867
-    },
-    "horizon-beta": {
-        "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
-        "response": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aut ſic inalıs.",
-        "wer": 21.428571428571427,
-        "cer": 4.819277108433735,
-        "accuracy": 95.18072289156626,
-        "time": 2.3774709701538086
     }
 }

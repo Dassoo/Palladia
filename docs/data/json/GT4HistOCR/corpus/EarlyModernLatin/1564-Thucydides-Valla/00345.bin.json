@@ -86,13 +86,5 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 12.803050994873047
-    },
-    "horizon-beta": {
-        "gt": "deficiant. At Potidæenſes miſsis ad Athenienſes legatis, ſi fortè",
-        "response": "deficiant. At Potidæenſes miſſis ad Athenienſes legatis, ſi fortè",
-        "wer": 11.11111111111111,
-        "cer": 1.5384615384615385,
-        "accuracy": 98.46153846153847,
-        "time": 3.040386199951172
     }
 }

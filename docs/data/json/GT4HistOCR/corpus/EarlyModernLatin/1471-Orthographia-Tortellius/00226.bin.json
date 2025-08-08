@@ -86,13 +86,5 @@
         "cer": 6.493506493506493,
         "accuracy": 96.1038961038961,
         "time": 27.112089157104492
-    },
-    "horizon-beta": {
-        "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
-        "response": "nēbant iψſi r: ac dicebant βρητωρ pro rhetor: βροδοσ pro rhodos: & non ρϕήτωρ",
-        "wer": 28.57142857142857,
-        "cer": 5.194805194805195,
-        "accuracy": 94.87179487179486,
-        "time": 2.3453989028930664
     }
 }

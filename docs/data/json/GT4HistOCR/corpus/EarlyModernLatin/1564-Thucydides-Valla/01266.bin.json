@@ -86,13 +86,5 @@
         "cer": 5.084745762711865,
         "accuracy": 94.91525423728814,
         "time": 32.61675405502319
-    },
-    "horizon-beta": {
-        "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
-        "response": "dcclim, Ambraciotarum uigintiseptem, Anactoriorum una, ipſo.",
-        "wer": 50.0,
-        "cer": 6.779661016949152,
-        "accuracy": 93.33333333333333,
-        "time": 2.547025203704834
     }
 }

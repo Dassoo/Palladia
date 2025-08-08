@@ -86,13 +86,5 @@
         "cer": 10.666666666666668,
         "accuracy": 90.66666666666666,
         "time": 49.0909469127655
-    },
-    "horizon-beta": {
-        "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
-        "response": "rictiæ tributum eſt. I taque non licuit ei diutius præeſſe populo. Primùm enim",
-        "wer": 41.66666666666667,
-        "cer": 6.666666666666667,
-        "accuracy": 93.58974358974359,
-        "time": 2.3479440212249756
     }
 }

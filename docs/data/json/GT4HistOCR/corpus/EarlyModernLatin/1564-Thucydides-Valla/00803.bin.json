@@ -86,13 +86,5 @@
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 46.64904284477234
-    },
-    "horizon-beta": {
-        "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
-        "response": "baris dilapſis. Poſt quod omnes ferè in urbes redirunt, nauigan·",
-        "wer": 20.0,
-        "cer": 3.076923076923077,
-        "accuracy": 96.92307692307692,
-        "time": 2.7449018955230713
     }
 }

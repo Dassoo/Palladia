@@ -86,13 +86,5 @@
         "cer": 10.638297872340425,
         "accuracy": 90.19607843137256,
         "time": 39.21764397621155
-    },
-    "horizon-beta": {
-        "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
-        "response": "alcibiades Athenienſium dux eligi-\ntia pugnatur",
-        "wer": 33.33333333333333,
-        "cer": 2.127659574468085,
-        "accuracy": 97.87234042553192,
-        "time": 2.540462017059326
     }
 }

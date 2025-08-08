@@ -86,13 +86,5 @@
         "cer": 3.278688524590164,
         "accuracy": 96.72131147540983,
         "time": 74.28344225883484
-    },
-    "horizon-beta": {
-        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
-        "response": "muris urbem circundedcrunt. Etenim cupiditate lucrandi, & qui",
-        "wer": 12.5,
-        "cer": 4.918032786885246,
-        "accuracy": 96.72131147540983,
-        "time": 2.2525699138641357
     }
 }

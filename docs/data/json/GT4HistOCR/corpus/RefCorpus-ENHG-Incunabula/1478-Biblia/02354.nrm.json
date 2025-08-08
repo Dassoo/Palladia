@@ -1,54 +1,46 @@
 {
     "mistral-small": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vle\u017fch Mer gy\u017ftere v\u00f1 eerg\u017ftere do Saulko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
+        "response": "vleſch Mer gyſtere vñ eergſtere do Saulko",
         "wer": 50.0,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 1.189810037612915
     },
     "spotlight": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vle\u017fch Mer gystere vn eergystere do \u017faul ko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
+        "response": "vleſch Mer gystere vn eergystere do ſaul ko",
         "wer": 50.0,
         "cer": 13.953488372093023,
         "accuracy": 86.04651162790698,
         "time": 1.2778582572937012
     },
     "gpt-4.1": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vle\u017fch Mer gy\u017fter\u0113 vn eergy\u017fter\u0113 do \u017faul ko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
+        "response": "vleſch Mer gyſterē vn eergyſterē do ſaul ko",
         "wer": 50.0,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 1.6084043979644775
     },
     "gpt-4o": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vle\u017fch  M er gny\u017fter\u0113 vn eergny\u017fter\u0113 do \u017faulko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
+        "response": "vleſch  M er gnyſterē vn eergnyſterē do ſaulko",
         "wer": 87.5,
         "cer": 20.930232558139537,
         "accuracy": 82.6086956521739,
         "time": 2.0120158195495605
     },
-    "horizon-beta": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vlesch  Mer gry\u017ftere vn eergry\u017fteit do Saulk\u27e8o\u27e9",
-        "wer": 75.0,
-        "cer": 25.581395348837212,
-        "accuracy": 78.72340425531915,
-        "time": 2.3669748306274414
-    },
     "claude-4-sonnet": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saulko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
+        "response": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saulko",
         "wer": 25.0,
         "cer": 2.3255813953488373,
         "accuracy": 97.67441860465115,
         "time": 3.468682050704956
     },
     "qwen-2.5-vl-72b": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
         "response": "vlesch Mer gystere vn eergystere do Haulko",
         "wer": 75.0,
         "cer": 18.6046511627907,
@@ -56,16 +48,16 @@
         "time": 3.629696846008301
     },
     "claude-4-opus": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vlefch M\u00e6 gy\u017fte\u1ebd v\u00f1 cergy\u017fte\u1ebd do Saulko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
+        "response": "vlefch Mæ gyſteẽ vñ cergyſteẽ do Saulko",
         "wer": 75.0,
         "cer": 16.27906976744186,
         "accuracy": 83.72093023255815,
         "time": 3.9749622344970703
     },
     "llama-4-maverick-17b": {
-        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
-        "response": "vlefch Mer gvftere\u0304 v\u0304 eergylte\u0304 do \u017faulko",
+        "gt": "vleſch Mer gyſterẽ vñ eergyſterẽ do Saul ko",
+        "response": "vlefch Mer gvfterē v̄ eergyltē do ſaulko",
         "wer": 75.0,
         "cer": 25.581395348837212,
         "accuracy": 76.74418604651163,

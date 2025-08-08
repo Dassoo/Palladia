@@ -63,14 +63,6 @@
         "avg_accuracy": 77.13546406312364,
         "avg_time": 10.26406397819519
     },
-    "horizon-beta": {
-        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 30,
-        "avg_wer": 48.71067821067821,
-        "avg_cer": 12.024798726028369,
-        "avg_accuracy": 89.63769069435962,
-        "avg_time": 2.4806554714838662
-    },
     "gpt-4o": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 30,

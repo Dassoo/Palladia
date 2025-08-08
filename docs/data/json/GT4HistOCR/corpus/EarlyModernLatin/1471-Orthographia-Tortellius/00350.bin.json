@@ -86,13 +86,5 @@
         "cer": 8.974358974358974,
         "accuracy": 92.40506329113924,
         "time": 65.37071800231934
-    },
-    "horizon-beta": {
-        "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
-        "response": "ut diligentißimi conſpexere grammatici: pro q̃ Claudius Cæsar apud nos antiſigna",
-        "wer": 45.45454545454545,
-        "cer": 8.974358974358974,
-        "accuracy": 91.25,
-        "time": 3.613783836364746
     }
 }

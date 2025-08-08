@@ -86,13 +86,5 @@
         "cer": 8.75,
         "accuracy": 91.25,
         "time": 134.2729868888855
-    },
-    "horizon-beta": {
-        "gt": "& abſq; compoſitione præpoſitionis fuit. d. mutatum in. l. nã a ſedeo olim ſedda",
-        "response": "& abſq; compoſitione prae poſitionis fuit,d.mutatum in l.na a ſedeo olim ſedda",
-        "wer": 50.0,
-        "cer": 11.25,
-        "accuracy": 91.25,
-        "time": 2.6448309421539307
     }
 }

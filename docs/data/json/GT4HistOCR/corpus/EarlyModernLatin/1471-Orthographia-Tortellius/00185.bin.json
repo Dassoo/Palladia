@@ -86,13 +86,5 @@
         "cer": 12.941176470588237,
         "accuracy": 87.64044943820225,
         "time": 105.11292314529419
-    },
-    "horizon-beta": {
-        "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
-        "response": "hosic minor eſt, here fuit : atq; eadé cras. SiIiter Martialis libro primo epigramatũ:",
-        "wer": 57.14285714285714,
-        "cer": 15.294117647058824,
-        "accuracy": 85.0574712643678,
-        "time": 2.4540927410125732
     }
 }

@@ -86,13 +86,5 @@
         "cer": 8.75,
         "accuracy": 92.5,
         "time": 43.06023192405701
-    },
-    "horizon-beta": {
-        "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
-        "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro .xii. de",
-        "wer": 14.285714285714285,
-        "cer": 6.25,
-        "accuracy": 95.0,
-        "time": 3.038343906402588
     }
 }

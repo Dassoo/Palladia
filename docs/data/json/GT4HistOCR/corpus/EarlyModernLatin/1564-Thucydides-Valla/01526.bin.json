@@ -86,13 +86,5 @@
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 30.852056980133057
-    },
-    "horizon-beta": {
-        "gt": "rantem, ex aduerſo aciem & ipſi inſtruunt, nec multò poſt confli-",
-        "response": "rantec, ex aduerso aciem & ipſi inſtruuunt, nec multò pòſt confi-",
-        "wer": 45.45454545454545,
-        "cer": 7.6923076923076925,
-        "accuracy": 93.84615384615384,
-        "time": 2.775658130645752
     }
 }

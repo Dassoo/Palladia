@@ -86,13 +86,5 @@
         "cer": 1.2345679012345678,
         "accuracy": 98.76543209876543,
         "time": 26.781651973724365
-    },
-    "horizon-beta": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum aoles ſpiritus aſperitatem effugiétes ubique, loco aſpirationis ipſu",
-        "wer": 36.36363636363637,
-        "cer": 7.4074074074074066,
-        "accuracy": 92.7710843373494,
-        "time": 2.8246850967407227
     }
 }

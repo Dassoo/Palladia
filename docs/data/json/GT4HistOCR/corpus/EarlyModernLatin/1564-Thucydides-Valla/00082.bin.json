@@ -86,13 +86,5 @@
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 43.25813007354736
-    },
-    "horizon-beta": {
-        "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
-        "response": "ximè ucrò optima quæq; tellus præcipuè patiebatur ἀssiduas in:",
-        "wer": 33.33333333333333,
-        "cer": 6.451612903225806,
-        "accuracy": 93.54838709677419,
-        "time": 2.195909261703491
     }
 }

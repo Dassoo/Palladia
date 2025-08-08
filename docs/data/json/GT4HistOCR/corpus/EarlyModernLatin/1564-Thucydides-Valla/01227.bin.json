@@ -86,13 +86,5 @@
         "cer": 5.0,
         "accuracy": 95.16129032258065,
         "time": 29.815095901489258
-    },
-    "horizon-beta": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meam magis ne bellum liberis noſtris relinquamus. Neque cre,",
-        "wer": 11.11111111111111,
-        "cer": 1.6666666666666667,
-        "accuracy": 98.33333333333333,
-        "time": 2.1930389404296875
     }
 }

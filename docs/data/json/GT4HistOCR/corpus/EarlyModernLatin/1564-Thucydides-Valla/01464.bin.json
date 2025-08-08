@@ -86,13 +86,5 @@
         "cer": 6.451612903225806,
         "accuracy": 93.65079365079364,
         "time": 60.35723924636841
-    },
-    "horizon-beta": {
-        "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
-        "response": "tur, tenuit: & inſularum Cycladum dominus, primus in earū ple.",
-        "wer": 20.0,
-        "cer": 3.225806451612903,
-        "accuracy": 96.7741935483871,
-        "time": 3.70382022857666
     }
 }

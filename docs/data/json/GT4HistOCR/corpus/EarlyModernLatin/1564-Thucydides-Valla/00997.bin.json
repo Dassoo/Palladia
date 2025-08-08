@@ -86,13 +86,5 @@
         "cer": 7.246376811594203,
         "accuracy": 92.7536231884058,
         "time": 28.040772914886475
-    },
-    "horizon-beta": {
-        "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
-        "response": "eas, quibus ipſe interfui, quasq; ſigillatim ab aliis quàm potui di-",
-        "wer": 18.181818181818183,
-        "cer": 2.898550724637681,
-        "accuracy": 97.10144927536231,
-        "time": 2.3191709518432617
     }
 }

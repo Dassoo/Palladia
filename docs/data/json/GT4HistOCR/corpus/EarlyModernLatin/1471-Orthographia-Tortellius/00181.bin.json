@@ -86,13 +86,5 @@
         "cer": 6.578947368421052,
         "accuracy": 93.42105263157895,
         "time": 42.712069034576416
-    },
-    "horizon-beta": {
-        "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
-        "response": "mordeo nō momordi cum o: ſed cū ememordi dicebant. Q. Ennius in ſatyris meū",
-        "wer": 33.33333333333333,
-        "cer": 7.894736842105263,
-        "accuracy": 93.5064935064935,
-        "time": 3.5019261837005615
     }
 }

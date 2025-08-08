@@ -86,13 +86,5 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 11.066684246063232
-    },
-    "horizon-beta": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponnæi act",
-        "wer": 100.0,
-        "cer": 20.0,
-        "accuracy": 85.0,
-        "time": 2.196794033050537
     }
 }

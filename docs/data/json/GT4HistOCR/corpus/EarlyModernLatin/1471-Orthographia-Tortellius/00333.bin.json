@@ -86,13 +86,5 @@
         "cer": 15.730337078651685,
         "accuracy": 86.51685393258427,
         "time": 66.22334504127502
-    },
-    "horizon-beta": {
-        "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "response": "ſonus exigi uidebat: q̃ p. c. liam præſtari potuerit. Poſt has uero nonnulli ex noſtris",
-        "wer": 26.666666666666668,
-        "cer": 6.741573033707865,
-        "accuracy": 93.25842696629213,
-        "time": 2.609347105026245
     }
 }

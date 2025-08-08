@@ -86,13 +86,5 @@
         "cer": 4.918032786885246,
         "accuracy": 95.08196721311475,
         "time": 85.17901492118835
-    },
-    "horizon-beta": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hæc Corinthī egerāt. Iidem cùm oppugnarentur Po.",
-        "wer": 55.55555555555556,
-        "cer": 8.19672131147541,
-        "accuracy": 91.93548387096774,
-        "time": 2.9745709896087646
     }
 }

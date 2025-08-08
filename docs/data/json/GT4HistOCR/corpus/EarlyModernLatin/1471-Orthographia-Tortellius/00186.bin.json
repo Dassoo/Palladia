@@ -86,13 +86,5 @@
         "cer": 4.878048780487805,
         "accuracy": 95.18072289156626,
         "time": 41.94787001609802
-    },
-    "horizon-beta": {
-        "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
-        "response": "birur:  D!es hic ſextus cum nihil egi die quarte moriar fame.  Sed id præcipue teſte,",
-        "wer": 20.0,
-        "cer": 6.097560975609756,
-        "accuracy": 94.11764705882352,
-        "time": 2.6085638999938965
     }
 }

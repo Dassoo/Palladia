@@ -86,13 +86,5 @@
         "cer": 2.941176470588235,
         "accuracy": 97.10144927536231,
         "time": 20.76531481742859
-    },
-    "horizon-beta": {
-        "gt": "Primam autem grauitatis in dicendo demonſtrationem hanc fecit: Pyri-",
-        "response": "Primam autem grauitatis in dicendo demonſtrationem hanc fecit: Pyri·",
-        "wer": 11.11111111111111,
-        "cer": 1.4705882352941175,
-        "accuracy": 98.52941176470588,
-        "time": 2.4604110717773438
     }
 }

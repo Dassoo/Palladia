@@ -86,13 +86,5 @@
         "cer": 6.153846153846154,
         "accuracy": 93.84615384615384,
         "time": 58.200955867767334
-    },
-    "horizon-beta": {
-        "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
-        "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
-        "wer": 9.090909090909092,
-        "cer": 1.5384615384615385,
-        "accuracy": 98.46153846153847,
-        "time": 2.155625104904175
     }
 }

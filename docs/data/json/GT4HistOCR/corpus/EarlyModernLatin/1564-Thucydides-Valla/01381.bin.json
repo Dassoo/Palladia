@@ -86,13 +86,5 @@
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 34.799736976623535
-    },
-    "horizon-beta": {
-        "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
-        "response": "ria, nec eos ultum ire differemus, cùm ipsorum non differatur iniui\"",
-        "wer": 18.181818181818183,
-        "cer": 4.545454545454546,
-        "accuracy": 95.58823529411765,
-        "time": 2.3933632373809814
     }
 }

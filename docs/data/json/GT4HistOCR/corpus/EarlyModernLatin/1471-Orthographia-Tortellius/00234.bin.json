@@ -86,13 +86,5 @@
         "cer": 9.75609756097561,
         "accuracy": 90.2439024390244,
         "time": 65.76325392723083
-    },
-    "horizon-beta": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habere uidebat: & digáma ipſum cū alio ſono in dictionibus latinis loco ph ſcribi",
-        "wer": 21.428571428571427,
-        "cer": 3.6585365853658534,
-        "accuracy": 96.34146341463415,
-        "time": 2.2331690788269043
     }
 }

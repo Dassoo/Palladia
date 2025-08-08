@@ -1,6 +1,6 @@
 {
     "spotlight": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
         "response": "yn leuede na des gheboort achtehundert vinde",
         "wer": 42.857142857142854,
         "cer": 9.523809523809524,
@@ -8,39 +8,31 @@
         "time": 1.3298289775848389
     },
     "gpt-4.1": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
-        "response": "v\u00f1 leuete na des ghebo\u0364rt acht\u0364hundert vnd",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
+        "response": "vñ leuete na des gheboͤrt achtͤhundert vnd",
         "wer": 57.14285714285714,
         "cer": 9.523809523809524,
         "accuracy": 92.85714285714286,
         "time": 1.6673510074615479
     },
     "mistral-small": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
-        "response": "v\u00f1 leuede na des ghebozt achtehundert vnde",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
+        "response": "vñ leuede na des ghebozt achtehundert vnde",
         "wer": 14.285714285714285,
         "cer": 2.380952380952381,
         "accuracy": 97.61904761904762,
         "time": 1.6705288887023926
     },
     "gpt-4o": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
-        "response": "v\u00f1 leuede na des ghebo\u0159t acht\u010bhundert vnde",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
+        "response": "vñ leuede na des ghebořt achtċhundert vnde",
         "wer": 28.57142857142857,
         "cer": 4.761904761904762,
         "accuracy": 95.23809523809523,
         "time": 1.8742258548736572
     },
-    "horizon-beta": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
-        "response": "vn leuete na des ghebo\u0364rt acht\u0361hundert vn\u0304dz",
-        "wer": 71.42857142857143,
-        "cer": 14.285714285714285,
-        "accuracy": 86.36363636363636,
-        "time": 2.299677848815918
-    },
     "qwen-2.5-vl-72b": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
         "response": "yn leuede na des ghebozt achtehundert vnde",
         "wer": 28.57142857142857,
         "cer": 7.142857142857142,
@@ -48,24 +40,24 @@
         "time": 3.4238739013671875
     },
     "claude-4-opus": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
-        "response": "v\u00f1 \u017feucdz na des gheboot achthundert vnde",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
+        "response": "vñ ſeucdz na des gheboot achthundert vnde",
         "wer": 42.857142857142854,
         "cer": 11.904761904761903,
         "accuracy": 88.09523809523809,
         "time": 3.5913147926330566
     },
     "claude-4-sonnet": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
-        "response": "v\u00f1 leuc\u1e9fe na \u00f0e\u017f ghebot achthundert vn\u00f0e",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
+        "response": "vñ leucẟe na ðeſ ghebot achthundert vnðe",
         "wer": 71.42857142857143,
         "cer": 16.666666666666664,
         "accuracy": 83.33333333333334,
         "time": 3.7315402030944824
     },
     "llama-4-maverick-17b": {
-        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
-        "response": "v\u00f1 leuede na des ghebozt achtelundert v\u00f1de",
+        "gt": "vñ leuede na des ghebort achtehundert vnde",
+        "response": "vñ leuede na des ghebozt achtelundert vñde",
         "wer": 42.857142857142854,
         "cer": 7.142857142857142,
         "accuracy": 92.85714285714286,

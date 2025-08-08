@@ -86,13 +86,5 @@
         "cer": 6.153846153846154,
         "accuracy": 94.02985074626866,
         "time": 24.19219207763672
-    },
-    "horizon-beta": {
-        "gt": "runt, Epidamnenſes nullam ſibi uidentes à Corcyrẽſibus iniuriæ 20",
-        "response": "runt, Epidamnienſes nullam ſibi uidentes à Corcyræenſibus iniuriam",
-        "wer": 44.44444444444444,
-        "cer": 12.307692307692308,
-        "accuracy": 90.9090909090909,
-        "time": 2.500756025314331
     }
 }

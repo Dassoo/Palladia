@@ -86,13 +86,5 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 26.96214008331299
-    },
-    "horizon-beta": {
-        "gt": "in ſatyra Atticus eximie ſi cœnat inquit: Nec nullum cupias cum ſit tibi gobio",
-        "response": "in ſatyra Atticus eximie ſi cœnat inquiet : Nec nullum cupias cum ſit tibi gobio",
-        "wer": 14.285714285714285,
-        "cer": 2.564102564102564,
-        "accuracy": 97.5,
-        "time": 2.396512985229492
     }
 }

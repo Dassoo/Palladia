@@ -86,13 +86,5 @@
         "cer": 3.125,
         "accuracy": 96.92307692307692,
         "time": 88.65503191947937
-    },
-    "horizon-beta": {
-        "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
-        "response": "ratione uictoriam ſibi uindicātes: Corinthij quidem, quod ad no-",
-        "wer": 11.11111111111111,
-        "cer": 1.5625,
-        "accuracy": 98.4375,
-        "time": 2.6500771045684814
     }
 }

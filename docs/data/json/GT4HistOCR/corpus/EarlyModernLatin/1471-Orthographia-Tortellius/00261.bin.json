@@ -86,13 +86,5 @@
         "cer": 6.8181818181818175,
         "accuracy": 94.31818181818183,
         "time": 78.07116079330444
-    },
-    "horizon-beta": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "hic ſola: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prio ribus niſis adiecit:",
-        "wer": 38.46153846153847,
-        "cer": 5.681818181818182,
-        "accuracy": 94.3820224719101,
-        "time": 3.1021299362182617
     }
 }

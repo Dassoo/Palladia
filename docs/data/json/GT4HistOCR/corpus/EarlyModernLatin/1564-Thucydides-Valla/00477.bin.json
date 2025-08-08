@@ -86,13 +86,5 @@
         "cer": 20.588235294117645,
         "accuracy": 81.94444444444444,
         "time": 39.41680121421814
-    },
-    "horizon-beta": {
-        "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
-        "response": "tutis etiam consilijs diffidentes, & difficultatibus nunquam eos ere-",
-        "wer": 33.33333333333333,
-        "cer": 5.88235294117647,
-        "accuracy": 94.20289855072464,
-        "time": 2.6361799240112305
     }
 }

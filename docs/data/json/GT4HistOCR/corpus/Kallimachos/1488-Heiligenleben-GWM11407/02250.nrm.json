@@ -1,14 +1,14 @@
 {
     "mistral-small": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "response": "er \u017fas ge\u017fprach \u017fa ver\u017fchwandt \u017fie \u017fchufel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
+        "response": "er ſas geſprach ſa verſchwandt ſie ſchufel.",
         "wer": 71.42857142857143,
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,
         "time": 1.6912388801574707
     },
     "qwen-2.5-vl-72b": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
         "response": "er Das gesprach Ja verschwandt die schuffel.",
         "wer": 71.42857142857143,
         "cer": 18.181818181818183,
@@ -16,56 +16,48 @@
         "time": 1.8861429691314697
     },
     "gpt-4.1": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "response": "er Das ge\u017fprach Ja ver\u017fchwandt die Schu\u017f\u017fel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
+        "response": "er Das geſprach Ja verſchwandt die Schuſſel.",
         "wer": 57.14285714285714,
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 1.9835960865020752
     },
     "gpt-4o": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "response": "der Da\u017f ge\u017fprach da ver\u017fchwandt die Schu\u017f\u017fel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
+        "response": "der Daſ geſprach da verſchwandt die Schuſſel.",
         "wer": 57.14285714285714,
         "cer": 11.363636363636363,
         "accuracy": 88.88888888888889,
         "time": 1.963939905166626
     },
     "spotlight": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
         "response": "er das gesprach da verschwandt die schustel.",
         "wer": 42.857142857142854,
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,
         "time": 1.9757211208343506
     },
-    "horizon-beta": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "response": "ver das ge\u017fprach Da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "wer": 42.857142857142854,
-        "cer": 6.8181818181818175,
-        "accuracy": 93.33333333333333,
-        "time": 2.7233469486236572
-    },
     "claude-4-sonnet": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "response": "er das ge\u017fprach da ver\u017fchwandt die \u017fch\u00fc\u017f\u017fel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
+        "response": "er das geſprach da verſchwandt die ſchüſſel.",
         "wer": 28.57142857142857,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 3.593442916870117
     },
     "claude-4-opus": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "response": "er das ge\u017fprach da ver\u017fchwandt die \u017fch\u00fc\u017f\u017fel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
+        "response": "er das geſprach da verſchwandt die ſchüſſel.",
         "wer": 28.57142857142857,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 3.7210171222686768
     },
     "llama-4-maverick-17b": {
-        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
-        "response": "er Das gelprach Da ver\u017fchwandt Die \u017fchu\u017ftel.",
+        "gt": "er das geſpꝛach da verſchwandt die ſchuſſel.",
+        "response": "er Das gelprach Da verſchwandt Die ſchuſtel.",
         "wer": 71.42857142857143,
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,

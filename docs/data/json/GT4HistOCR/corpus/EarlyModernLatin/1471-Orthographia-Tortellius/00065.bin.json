@@ -86,13 +86,5 @@
         "cer": 16.666666666666664,
         "accuracy": 88.46153846153845,
         "time": 43.10011100769043
-    },
-    "horizon-beta": {
-        "gt": "mõ σέρπω dixerunt ſerpo: & nõ herpo: σεξ traduxerunt ſex & nõ hex: σέπτα ſeptẽ",
-        "response": "mõ στέππω dixerunt ſeρpo: & nõ herpo: οὕ traduxerunt ſex & nõ hex: στέππα ſeρρέ",
-        "wer": 53.333333333333336,
-        "cer": 28.205128205128204,
-        "accuracy": 75.29411764705883,
-        "time": 2.929857015609741
     }
 }

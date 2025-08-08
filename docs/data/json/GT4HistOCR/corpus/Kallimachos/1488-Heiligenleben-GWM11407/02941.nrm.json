@@ -1,71 +1,63 @@
 {
     "mistral-small": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "crifte dy zaubzer wi\u017f\u017fen. wan \u017fy m\u00fc\u0305rden \u017fy f\u00fcr",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "crifte dy zaubzer wiſſen. wan ſy mü̅rden ſy für",
         "wer": 44.44444444444444,
         "cer": 14.893617021276595,
         "accuracy": 87.2340425531915,
         "time": 1.8159139156341553
     },
     "spotlight": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "erfist\u0113 dy zaubzer wissen. wann sy w\u00fcrden sy f\u00fcr",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "erfistē dy zaubzer wissen. wann sy würden sy für",
         "wer": 66.66666666666666,
         "cer": 23.404255319148938,
         "accuracy": 77.08333333333334,
         "time": 1.9547526836395264
     },
     "qwen-2.5-vl-72b": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "crifte dy zaubzer wi\u017f\u017fen.wa\u00ff \u017fy w\u00fcrden \u017fy f\u00fcr",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "crifte dy zaubzer wiſſen.waÿ ſy würden ſy für",
         "wer": 44.44444444444444,
         "cer": 14.893617021276595,
         "accuracy": 85.1063829787234,
         "time": 2.078660011291504
     },
     "gpt-4.1": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "cru\u017fte dy zauher wi\u017f\u017fen. wan \u017fy wu\u0364rden \u017fy fu\u0364r",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "cruſte dy zauher wiſſen. wan ſy wuͤrden ſy fuͤr",
         "wer": 55.55555555555556,
         "cer": 21.27659574468085,
         "accuracy": 82.97872340425532,
         "time": 2.6107542514801025
     },
-    "horizon-beta": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "cru\u017fte dy za\u00f9b\u0153r w\u00f3\u017f\u017ften. wan \u017fy w\u00fcr\u00adden \u017fy f\u00fcr",
-        "wer": 55.55555555555556,
-        "cer": 21.27659574468085,
-        "accuracy": 82.97872340425532,
-        "time": 3.140972137451172
-    },
     "gpt-4o": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "erli\u017f\u017fe dy zauber wi\u017f\u017fen. wan \u017fy w\u00fcrrden \u017fy F\u00fcr",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "erliſſe dy zauber wiſſen. wan ſy würrden ſy Für",
         "wer": 55.55555555555556,
         "cer": 19.148936170212767,
         "accuracy": 85.1063829787234,
         "time": 3.397432804107666
     },
     "claude-4-sonnet": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "cri\u017fte dy zaubzer wi\u017f\u017fen.wan \u017fy wurden \u017fy fur",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "criſte dy zaubzer wiſſen.wan ſy wurden ſy fur",
         "wer": 66.66666666666666,
         "cer": 14.893617021276595,
         "accuracy": 85.1063829787234,
         "time": 4.59328818321228
     },
     "claude-4-opus": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "cri\u017fte dy zaubrer wi\u017f\u017fen.wa\u00f1 \u017fy w\u00fcrden \u017fy f\u00fcr",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "criſte dy zaubrer wiſſen.wañ ſy würden ſy für",
         "wer": 44.44444444444444,
         "cer": 12.76595744680851,
         "accuracy": 87.2340425531915,
         "time": 5.219344854354858
     },
     "llama-4-maverick-17b": {
-        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
-        "response": "crift\u1ebd dy zaubxcr wiffen.wa\u00f1 fy wuird\u1ebd fy f\u0169r",
+        "gt": "criſtẽ dy ʒaubꝛer wiſſen. wañ ſy würden ſy für",
+        "response": "criftẽ dy zaubxcr wiffen.wañ fy wuirdẽ fy fũr",
         "wer": 88.88888888888889,
         "cer": 34.04255319148936,
         "accuracy": 68.08510638297872,

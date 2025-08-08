@@ -86,13 +86,5 @@
         "cer": 8.450704225352112,
         "accuracy": 91.54929577464789,
         "time": 32.704983949661255
-    },
-    "horizon-beta": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo·",
-        "wer": 8.333333333333332,
-        "cer": 1.4084507042253522,
-        "accuracy": 98.59154929577466,
-        "time": 2.496356248855591
     }
 }

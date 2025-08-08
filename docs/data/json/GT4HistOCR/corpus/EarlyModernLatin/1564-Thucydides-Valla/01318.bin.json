@@ -86,13 +86,5 @@
         "cer": 7.6923076923076925,
         "accuracy": 92.64705882352942,
         "time": 51.44372367858887
-    },
-    "horizon-beta": {
-        "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
-        "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.334383010864258
     }
 }

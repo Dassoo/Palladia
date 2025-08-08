@@ -86,13 +86,5 @@
         "cer": 6.0606060606060606,
         "accuracy": 93.93939393939394,
         "time": 15.6024808883667
-    },
-    "horizon-beta": {
-        "gt": "99 arma in Phyreum murum inferre.",
-        "response": "99  arma  in Phrycum murum inferre.",
-        "wer": 16.666666666666664,
-        "cer": 15.151515151515152,
-        "accuracy": 88.57142857142857,
-        "time": 2.281467914581299
     }
 }

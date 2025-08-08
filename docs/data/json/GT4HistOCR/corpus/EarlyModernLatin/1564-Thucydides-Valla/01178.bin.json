@@ -86,13 +86,5 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 27.88099479675293
-    },
-    "horizon-beta": {
-        "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
-        "response": "Corcyrensiſbus pariter ac Peloponneſibus geretis. At nobis re,",
-        "wer": 37.5,
-        "cer": 6.451612903225806,
-        "accuracy": 95.16129032258065,
-        "time": 2.253412961959839
     }
 }

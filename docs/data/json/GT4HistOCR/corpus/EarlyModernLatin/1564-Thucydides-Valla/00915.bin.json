@@ -86,13 +86,5 @@
         "cer": 11.475409836065573,
         "accuracy": 88.52459016393442,
         "time": 40.46108078956604
-    },
-    "horizon-beta": {
-        "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
-        "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia.",
-        "wer": 11.11111111111111,
-        "cer": 1.639344262295082,
-        "accuracy": 98.36065573770492,
-        "time": 2.3432998657226562
     }
 }

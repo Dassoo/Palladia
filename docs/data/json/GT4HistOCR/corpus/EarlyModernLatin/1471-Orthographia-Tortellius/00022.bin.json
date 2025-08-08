@@ -86,13 +86,5 @@
         "cer": 8.974358974358974,
         "accuracy": 92.3076923076923,
         "time": 23.033912181854248
-    },
-    "horizon-beta": {
-        "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
-        "response": "forma ſignata apparet: & nō nouorū æology forma deſcribit. Rufus & ꝑ contraria",
-        "wer": 53.84615384615385,
-        "cer": 12.82051282051282,
-        "accuracy": 89.74358974358975,
-        "time": 2.9493408203125
     }
 }

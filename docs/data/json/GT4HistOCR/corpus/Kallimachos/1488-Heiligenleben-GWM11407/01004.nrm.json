@@ -1,71 +1,63 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "mach f\u00fcr der feind in \u017fre Bertzogin in \u017fchrey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "mach für der feind in ſre Bertzogin in ſchrey",
         "wer": 66.66666666666666,
         "cer": 20.0,
         "accuracy": 80.0,
         "time": 1.0550520420074463
     },
     "spotlight": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach f\u00fcr der Feind in die Hertzogin dy Schrey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "nach für der Feind in die Hertzogin dy Schrey",
         "wer": 55.55555555555556,
         "cer": 15.555555555555555,
         "accuracy": 84.44444444444444,
         "time": 2.8188517093658447
     },
     "gpt-4o": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach\u017fur \u017fer Feindin Dre Hertzogen dy \u017fchzey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "nachſur ſer Feindin Dre Hertzogen dy ſchzey",
         "wer": 88.88888888888889,
         "cer": 26.666666666666668,
         "accuracy": 73.33333333333333,
         "time": 2.717925786972046
     },
     "gpt-4.1": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach f\u00fcr der Feindin der Hertzogin dy schrey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "nach für der Feindin der Hertzogin dy schrey",
         "wer": 66.66666666666666,
         "cer": 20.0,
         "accuracy": 82.22222222222221,
         "time": 2.063547134399414
     },
-    "horizon-beta": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach f\u00fcr der feind in Dre\u1e9eertzogin dy Schwep",
-        "wer": 44.44444444444444,
-        "cer": 20.0,
-        "accuracy": 80.0,
-        "time": 2.627042770385742
-    },
     "claude-4-sonnet": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach f\u00fcr Der feind in Jre hertzogtin Jy \u017fchrey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "nach für Der feind in Jre hertzogtin Jy ſchrey",
         "wer": 66.66666666666666,
         "cer": 17.77777777777778,
         "accuracy": 82.6086956521739,
         "time": 3.580274820327759
     },
     "claude-4-opus": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach f\u00fcr der feind in Ire hertzog in Iy \u017fchrey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "nach für der feind in Ire hertzog in Iy ſchrey",
         "wer": 66.66666666666666,
         "cer": 15.555555555555555,
         "accuracy": 84.78260869565217,
         "time": 3.5690701007843018
     },
     "mistral-small": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach f\u00fcr der feind in \u017fre hertzogin \u017fy \u017fchrey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "nach für der feind in ſre hertzogin ſy ſchrey",
         "wer": 55.55555555555556,
         "cer": 13.333333333333334,
         "accuracy": 86.66666666666667,
         "time": 1.2091798782348633
     },
     "qwen-2.5-vl-72b": {
-        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
-        "response": "nach f\u00fcr der Feind in Dye Hertzogin dy Schrey",
+        "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+        "response": "nach für der Feind in Dye Hertzogin dy Schrey",
         "wer": 55.55555555555556,
         "cer": 15.555555555555555,
         "accuracy": 84.44444444444444,

@@ -86,13 +86,5 @@
         "cer": 10.256410256410255,
         "accuracy": 89.87341772151899,
         "time": 49.50760102272034
-    },
-    "horizon-beta": {
-        "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
-        "response": "ſyllabis nominétur: apud nos uero uocales omnes p ſe prolatæ nomé ſuū oſténdūt,",
-        "wer": 38.46153846153847,
-        "cer": 10.256410256410255,
-        "accuracy": 89.87341772151899,
-        "time": 2.281464099884033
     }
 }

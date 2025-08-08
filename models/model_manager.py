@@ -1,6 +1,7 @@
 from config.loader import ConfigLoader
 from scripts.update_manifest import regenerate_full_manifest
-from utils.webserver.dashboard_ws import start_dashboard, is_dashboard_running
+from scripts.generate_model_links import generate_model_links
+from utils.webserver.dashboard_ws import start_dashboard, open_dashboard, is_dashboard_running
 
 import yaml
 import customtkinter as ctk
@@ -53,6 +54,9 @@ class ModelManager:
         self.load_config()
         self.load_input_config()
         
+        # Start dashboard server
+        start_dashboard()
+        
         # Create UI
         self.setup_ui()
     
@@ -61,6 +65,7 @@ class ModelManager:
         try:
             loader = ConfigLoader()
             app_config = loader.load_app_config()
+            generate_model_links() # Update links for dashboard on config loading
             
             self.config = {'models': []}
             for model in app_config.models_config.models:
@@ -299,14 +304,12 @@ class ModelManager:
             self.running_process = None
     
     def open_dashboard(self):
-        """Open dashboard."""
+        """Open dashboard in browser."""
         try:
-            start_dashboard()
-            if hasattr(self, 'dashboard_btn'):
-                self.dashboard_btn.configure(text="Dashboard Running")
+            open_dashboard()
             messagebox.showinfo("Dashboard", "Opening in browser!")
         except Exception as e:
-            messagebox.showerror("Error", f"Failed to start dashboard: {e}")
+            messagebox.showerror("Error", f"Failed to open dashboard: {e}")
     
     def setup_ui(self):
         """Create the UI."""
@@ -414,8 +417,7 @@ class ModelManager:
                                 command=self.save_config, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
         save_btn.pack(side="left", padx=8)
         
-        dashboard_text = "Dashboard Running" if is_dashboard_running() else "Open Dashboard"
-        self.dashboard_btn = ctk.CTkButton(center_frame, text=dashboard_text, 
+        self.dashboard_btn = ctk.CTkButton(center_frame, text="Open Dashboard", 
                                           command=self.open_dashboard, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
         self.dashboard_btn.pack(side="left", padx=8)
         

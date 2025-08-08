@@ -86,13 +86,5 @@
         "cer": 6.25,
         "accuracy": 93.97590361445783,
         "time": 50.490626096725464
-    },
-    "horizon-beta": {
-        "gt": "referente auctore nos. m. quaſi mugiente littera cludimus: qua nullũ græce uerbũ",
-        "response": "referente auctore noſ. m. quaſi mugiente littêra cludimus : qua nullū græce uerbú",
-        "wer": 50.0,
-        "cer": 6.25,
-        "accuracy": 93.82716049382715,
-        "time": 2.39731502532959
     }
 }

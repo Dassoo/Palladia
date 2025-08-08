@@ -86,13 +86,5 @@
         "cer": 12.82051282051282,
         "accuracy": 88.46153846153845,
         "time": 77.6057391166687
-    },
-    "horizon-beta": {
-        "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
-        "response": "oftendemus. ᵱfertur tamen sub uoce ipſius. g. ob cognationē litterarū quæadmodū",
-        "wer": 54.54545454545454,
-        "cer": 10.256410256410255,
-        "accuracy": 89.87341772151899,
-        "time": 3.3995208740234375
     }
 }

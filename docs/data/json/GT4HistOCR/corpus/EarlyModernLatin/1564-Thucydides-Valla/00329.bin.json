@@ -86,13 +86,5 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 13.134608268737793
-    },
-    "horizon-beta": {
-        "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
-        "response": "si Athenienses aduersus Potidaeam irent, se Atticam inuafuros,",
-        "wer": 75.0,
-        "cer": 11.475409836065573,
-        "accuracy": 88.70967741935483,
-        "time": 3.124130964279175
     }
 }

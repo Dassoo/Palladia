@@ -86,13 +86,5 @@
         "cer": 10.144927536231885,
         "accuracy": 89.85507246376811,
         "time": 31.34213089942932
-    },
-    "horizon-beta": {
-        "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
-        "response": "dera rupta uidereuntur, accitisqꝫ focijs dixerunt, sibi quidem uideri",
-        "wer": 44.44444444444444,
-        "cer": 7.246376811594203,
-        "accuracy": 94.20289855072464,
-        "time": 2.2973618507385254
     }
 }

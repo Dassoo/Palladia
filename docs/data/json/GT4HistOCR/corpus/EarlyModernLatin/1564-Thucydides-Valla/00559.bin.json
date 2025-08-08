@@ -86,13 +86,5 @@
         "cer": 2.941176470588235,
         "accuracy": 98.52941176470588,
         "time": 27.795146226882935
-    },
-    "horizon-beta": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent,ſe iſta facturos,paratosq́; eſſe & ſanctè promittere,dunt\"",
-        "wer": 60.0,
-        "cer": 8.823529411764707,
-        "accuracy": 94.11764705882352,
-        "time": 2.589351177215576
     }
 }

@@ -86,13 +86,5 @@
         "cer": 10.588235294117647,
         "accuracy": 89.41176470588236,
         "time": 55.50777006149292
-    },
-    "horizon-beta": {
-        "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
-        "response": "id: quod aſpirationis nota erat pro littera s. acciperet & traduceret: & maxime quia",
-        "wer": 21.428571428571427,
-        "cer": 3.5294117647058822,
-        "accuracy": 96.47058823529412,
-        "time": 2.5109050273895264
     }
 }

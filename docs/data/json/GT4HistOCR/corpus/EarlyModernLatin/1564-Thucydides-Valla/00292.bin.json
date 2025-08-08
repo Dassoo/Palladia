@@ -86,13 +86,5 @@
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 51.87762498855591
-    },
-    "horizon-beta": {
-        "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
-        "response": "Quippe centum eſt ac uiginti naues fuerunt, cùm bellum incepē",
-        "wer": 20.0,
-        "cer": 4.838709677419355,
-        "accuracy": 95.16129032258065,
-        "time": 2.6533241271972656
     }
 }

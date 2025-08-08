@@ -86,13 +86,5 @@
         "cer": 3.076923076923077,
         "accuracy": 98.46153846153847,
         "time": 18.752411127090454
-    },
-    "horizon-beta": {
-        "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.402056932449341
     }
 }

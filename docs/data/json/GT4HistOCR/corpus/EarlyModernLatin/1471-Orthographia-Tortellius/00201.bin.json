@@ -86,13 +86,5 @@
         "cer": 13.636363636363635,
         "accuracy": 88.63636363636364,
         "time": 42.557178258895874
-    },
-    "horizon-beta": {
-        "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
-        "response": "& non per b. dicere & ſcribere compellit. Vnde teſte Priſciano in. viii. b. ante s ucl",
-        "wer": 23.52941176470588,
-        "cer": 4.545454545454546,
-        "accuracy": 95.45454545454545,
-        "time": 2.5341320037841797
     }
 }

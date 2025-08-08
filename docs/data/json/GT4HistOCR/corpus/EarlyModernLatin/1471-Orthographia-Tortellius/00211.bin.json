@@ -86,13 +86,5 @@
         "cer": 15.11627906976744,
         "accuracy": 86.04651162790698,
         "time": 46.09720540046692
-    },
-    "horizon-beta": {
-        "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
-        "response": "penn.: quia in fine ſyllabæ ſtare nō poterat: loco eius ipſam bīſam poſuerit. Ideo;\"",
-        "wer": 40.0,
-        "cer": 13.953488372093023,
-        "accuracy": 87.20930232558139,
-        "time": 2.3690922260284424
     }
 }

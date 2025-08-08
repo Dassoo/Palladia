@@ -86,13 +86,5 @@
         "cer": 7.575757575757576,
         "accuracy": 93.93939393939394,
         "time": 43.304638147354126
-    },
-    "horizon-beta": {
-        "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
-        "response": "dimittant, quàm se iterù receperint. Etiam collegæ eius uenerant,",
-        "wer": 40.0,
-        "cer": 4.545454545454546,
-        "accuracy": 95.45454545454545,
-        "time": 2.6384551525115967
     }
 }

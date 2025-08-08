@@ -1,71 +1,63 @@
 {
     "spotlight": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "Schach \u017faer \u017feno\u017fch hertzog was. In \u017fe trat",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "Schach ſaer ſenoſch hertzog was. In ſe trat",
         "wer": 77.77777777777779,
         "cer": 23.25581395348837,
         "accuracy": 79.06976744186046,
         "time": 1.7961747646331787
     },
     "mistral-small": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "\u017fchach \u017fa er \u017f\u00e9noch hertzog was. In d\u00e9 trat",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "ſchach ſa er ſénoch hertzog was. In dé trat",
         "wer": 55.55555555555556,
         "cer": 13.953488372093023,
         "accuracy": 86.04651162790698,
         "time": 1.91184401512146
     },
     "gpt-4o": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "Schach Da er \u017fenoch hert\u017fog was. In \u017feinem",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "Schach Da er ſenoch hertſog was. In ſeinem",
         "wer": 77.77777777777779,
         "cer": 30.23255813953488,
         "accuracy": 69.76744186046511,
         "time": 2.154879331588745
     },
     "qwen-2.5-vl-72b": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "Schach Daer \u017fenoch hertzog was. In \u017fetrat",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "Schach Daer ſenoch hertzog was. In ſetrat",
         "wer": 88.88888888888889,
         "cer": 23.25581395348837,
         "accuracy": 76.74418604651163,
         "time": 2.404660940170288
     },
     "gpt-4.1": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "Schach Daer \u017fenoch hertzog was. In \u017fe\u0305 trat",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "Schach Daer ſenoch hertzog was. In ſe̅ trat",
         "wer": 77.77777777777779,
         "cer": 23.25581395348837,
         "accuracy": 79.06976744186046,
         "time": 2.4496970176696777
     },
-    "horizon-beta": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "Schach da er \u017fenoch hertzog was. In \u017fe trat",
-        "wer": 55.55555555555556,
-        "cer": 16.27906976744186,
-        "accuracy": 83.72093023255815,
-        "time": 2.9456889629364014
-    },
     "claude-4-sonnet": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "\u017fchach da er Jenoch hertzog was. Jn de trat",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "ſchach da er Jenoch hertzog was. Jn de trat",
         "wer": 33.33333333333333,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 3.3816020488739014
     },
     "claude-4-opus": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "\u017fchach da er denoch hertzog was. In d\u0113 trat",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "ſchach da er denoch hertzog was. In dē trat",
         "wer": 44.44444444444444,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 4.942867279052734
     },
     "llama-4-maverick-17b": {
-        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
-        "response": "Fchach Saer Senoch hert3og was. Jn d\u1ebd trat",
+        "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+        "response": "Fchach Saer Senoch hert3og was. Jn dẽ trat",
         "wer": 55.55555555555556,
         "cer": 13.953488372093023,
         "accuracy": 86.04651162790698,

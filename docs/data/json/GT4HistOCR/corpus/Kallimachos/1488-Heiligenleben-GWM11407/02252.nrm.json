@@ -9,7 +9,7 @@
     },
     "gpt-4.1": {
         "gt": "Darnach kam er auff einen berg da wonet er",
-        "response": "Darnach \u017fam er auff einen Berg da wonet er",
+        "response": "Darnach ſam er auff einen Berg da wonet er",
         "wer": 22.22222222222222,
         "cer": 4.761904761904762,
         "accuracy": 95.23809523809523,
@@ -23,14 +23,6 @@
         "accuracy": 97.61904761904762,
         "time": 1.40895414352417
     },
-    "horizon-beta": {
-        "gt": "Darnach kam er auff einen berg da wonet er",
-        "response": "Darnach kam er auff einen Berg, da wonet er",
-        "wer": 11.11111111111111,
-        "cer": 4.761904761904762,
-        "accuracy": 95.34883720930233,
-        "time": 2.7987136840820312
-    },
     "claude-4-sonnet": {
         "gt": "Darnach kam er auff einen berg da wonet er",
         "response": "Darnach kam er auff einen Berg Da wonet er",
@@ -41,7 +33,7 @@
     },
     "gpt-4o": {
         "gt": "Darnach kam er auff einen berg da wonet er",
-        "response": "Darnach \u017fam er auf einen Berg Da wonet er",
+        "response": "Darnach ſam er auf einen Berg Da wonet er",
         "wer": 44.44444444444444,
         "cer": 9.523809523809524,
         "accuracy": 90.47619047619048,
@@ -57,7 +49,7 @@
     },
     "mistral-small": {
         "gt": "Darnach kam er auff einen berg da wonet er",
-        "response": "Darnach fa\u017ft er auff einen berg da wonet er",
+        "response": "Darnach faſt er auff einen berg da wonet er",
         "wer": 11.11111111111111,
         "cer": 7.142857142857142,
         "accuracy": 93.02325581395348,

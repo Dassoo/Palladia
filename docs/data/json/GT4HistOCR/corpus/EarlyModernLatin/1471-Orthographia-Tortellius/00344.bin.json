@@ -86,13 +86,5 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 12.861011981964111
-    },
-    "horizon-beta": {
-        "gt": "tibus oſtendemus.",
-        "response": "tibus oſtendemus.",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 1.9141690731048584
     }
 }

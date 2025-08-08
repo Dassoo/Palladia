@@ -86,13 +86,5 @@
         "cer": 10.0,
         "accuracy": 91.25,
         "time": 39.52072310447693
-    },
-    "horizon-beta": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtrā tranſferimus ullam fere ſemper ſua figura & noe ac poteſtate conſervamus.",
-        "wer": 33.33333333333333,
-        "cer": 8.75,
-        "accuracy": 92.5925925925926,
-        "time": 2.241236925125122
     }
 }

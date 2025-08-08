@@ -86,13 +86,5 @@
         "cer": 3.3333333333333335,
         "accuracy": 96.72131147540983,
         "time": 26.316234827041626
-    },
-    "horizon-beta": {
-        "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
-        "response": "capeflentes. Quippe uerebantur præfecti, Athenienſium præce,",
-        "wer": 33.33333333333333,
-        "cer": 5.0,
-        "accuracy": 95.0,
-        "time": 2.345795154571533
     }
 }

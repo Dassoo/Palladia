@@ -23,14 +23,6 @@
         "avg_accuracy": 86.83303033800173,
         "avg_time": 2.0016685247421266
     },
-    "horizon-beta": {
-        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
-        "images": 30,
-        "avg_wer": 37.11832611832612,
-        "avg_cer": 9.952645115105895,
-        "avg_accuracy": 90.41863983706885,
-        "avg_time": 3.1497644583384194
-    },
     "claude-4-sonnet": {
         "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
         "images": 30,

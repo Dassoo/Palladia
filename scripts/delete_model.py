@@ -36,7 +36,7 @@ def delete_model_from_file(file_path: str, model_name: str) -> bool:
         return False
 
 
-def find_all_json_files(base_path: str = "docs/json") -> List[str]:
+def find_all_json_files(base_path: str = "docs/data/json") -> List[str]:
     """
     Find all JSON files in the evaluation directory structure.
     """
@@ -49,8 +49,7 @@ def find_all_json_files(base_path: str = "docs/json") -> List[str]:
     
     return json_files
 
-
-def delete_model_from_all_evaluations(model_name: str, base_path: str = "docs/json") -> Dict[str, Any]:
+def delete_model_from_all_evaluations(model_name: str, base_path: str = "docs/data/json") -> Dict[str, Any]:
     """
     Delete a model from all evaluation JSON files.
     """
@@ -103,10 +102,6 @@ def delete_model_from_all_evaluations(model_name: str, base_path: str = "docs/js
             print("Manifest updated successfully")
         except Exception as e:
             print(f"Error updating manifest: {e}")
-        
-        for aggregated_file in stats["aggregated_files"]:
-            create_graph(aggregated_file)
-            print(f"Graph created for {aggregated_file}")
         
     return stats
 

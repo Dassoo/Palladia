@@ -86,13 +86,5 @@
         "cer": 5.194805194805195,
         "accuracy": 94.8051948051948,
         "time": 56.125778913497925
-    },
-    "horizon-beta": {
-        "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
-        "response": "ſonas: quas ut diximus mutuari ſolemus: quotieſ illorum noibus utimur. neſcio",
-        "wer": 27.27272727272727,
-        "cer": 5.194805194805195,
-        "accuracy": 94.8051948051948,
-        "time": 3.280900239944458
     }
 }

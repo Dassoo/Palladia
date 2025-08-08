@@ -86,13 +86,5 @@
         "cer": 7.59493670886076,
         "accuracy": 93.67088607594937,
         "time": 59.3116180896759
-    },
-    "horizon-beta": {
-        "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
-        "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπιλλοσ",
-        "wer": 9.090909090909092,
-        "cer": 2.5316455696202533,
-        "accuracy": 97.46835443037975,
-        "time": 2.637002944946289
     }
 }

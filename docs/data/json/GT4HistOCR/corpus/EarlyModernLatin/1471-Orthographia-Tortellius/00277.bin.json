@@ -86,13 +86,5 @@
         "cer": 11.39240506329114,
         "accuracy": 89.41176470588236,
         "time": 133.61676907539368
-    },
-    "horizon-beta": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras: & quas ex græcis accepéramus: noſtri ut antiquiſſimi græcorum",
-        "wer": 25.0,
-        "cer": 10.126582278481013,
-        "accuracy": 90.47619047619048,
-        "time": 2.318129301071167
     }
 }

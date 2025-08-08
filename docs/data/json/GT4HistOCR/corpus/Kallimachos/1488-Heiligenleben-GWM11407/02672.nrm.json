@@ -9,7 +9,7 @@
     },
     "mistral-small": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Pauls erto\u0305tet. Sa\u0305nam man \u017fie pfennig.",
+        "response": "Pauls erto̅tet. Sa̅nam man ſie pfennig.",
         "wer": 75.0,
         "cer": 20.930232558139537,
         "accuracy": 81.3953488372093,
@@ -17,7 +17,7 @@
     },
     "gpt-4.1": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Paul\u017f ertotet. Da nam man die pfenning. vnd",
+        "response": "Paulſ ertotet. Da nam man die pfenning. vnd",
         "wer": 25.0,
         "cer": 4.651162790697675,
         "accuracy": 95.34883720930233,
@@ -33,7 +33,7 @@
     },
     "gpt-4o": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Paul\u017f ertotet. Da nam man Die p\u017fenning. vnd",
+        "response": "Paulſ ertotet. Da nam man Die pſenning. vnd",
         "wer": 50.0,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
@@ -41,19 +41,11 @@
     },
     "claude-4-sonnet": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Pauls ert\u00f6tet. Ja \u017ftan man die pfenning vnd",
+        "response": "Pauls ertötet. Ja ſtan man die pfenning vnd",
         "wer": 50.0,
         "cer": 13.953488372093023,
         "accuracy": 88.37209302325581,
         "time": 3.109250783920288
-    },
-    "horizon-beta": {
-        "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Pauls ertotet. Da nam man die pfennig. vnd",
-        "wer": 25.0,
-        "cer": 4.651162790697675,
-        "accuracy": 95.34883720930233,
-        "time": 3.2945609092712402
     },
     "llama-4-maverick-17b": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",

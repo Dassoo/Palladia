@@ -86,13 +86,5 @@
         "cer": 8.064516129032258,
         "accuracy": 93.65079365079364,
         "time": 25.802139043807983
-    },
-    "horizon-beta": {
-        "gt": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
-        "response": "nionis errore potius ineptè non fecimus, id nunc contrariò au-",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.262655019760132
     }
 }

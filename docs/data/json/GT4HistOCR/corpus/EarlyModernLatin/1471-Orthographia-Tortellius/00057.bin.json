@@ -86,13 +86,5 @@
         "cer": 9.63855421686747,
         "accuracy": 91.56626506024097,
         "time": 130.47055292129517
-    },
-    "horizon-beta": {
-        "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
-        "response": "abiectio litteræ: q̃ compositio designetur sæpiſſime ponunt supra locum: unde talis",
-        "wer": 63.63636363636363,
-        "cer": 10.843373493975903,
-        "accuracy": 90.36144578313254,
-        "time": 2.6768829822540283
     }
 }

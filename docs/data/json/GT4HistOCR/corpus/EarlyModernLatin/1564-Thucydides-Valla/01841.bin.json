@@ -86,13 +86,5 @@
         "cer": 5.88235294117647,
         "accuracy": 94.20289855072464,
         "time": 112.55902576446533
-    },
-    "horizon-beta": {
-        "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
-        "response": "altrinſecus ſedentibus, hæc aſtas extracta eſt, appeterẽeſq; iam hye;",
-        "wer": 33.33333333333333,
-        "cer": 10.294117647058822,
-        "accuracy": 92.7536231884058,
-        "time": 2.267120122909546
     }
 }

@@ -86,13 +86,5 @@
         "cer": 1.7241379310344827,
         "accuracy": 98.27586206896551,
         "time": 19.060578107833862
-    },
-    "horizon-beta": {
-        "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
-        "response": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce.",
-        "wer": 11.11111111111111,
-        "cer": 1.7241379310344827,
-        "accuracy": 98.27586206896551,
-        "time": 2.3025338649749756
     }
 }

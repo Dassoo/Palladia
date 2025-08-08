@@ -86,13 +86,5 @@
         "cer": 6.451612903225806,
         "accuracy": 93.54838709677419,
         "time": 26.5759539604187
-    },
-    "horizon-beta": {
-        "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
-        "response": "palàm legatione miſſa, sed clam non minimùm cum illis ad mouen,",
-        "wer": 36.36363636363637,
-        "cer": 8.064516129032258,
-        "accuracy": 92.06349206349206,
-        "time": 2.8268470764160156
     }
 }

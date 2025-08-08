@@ -86,13 +86,5 @@
         "cer": 4.10958904109589,
         "accuracy": 95.94594594594594,
         "time": 16.03812313079834
-    },
-    "horizon-beta": {
-        "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
-        "response": "tum eſſe manifeſtiſſimis ſignis ita ſe uetera habuiſſe. Et licet homi. 4o.",
-        "wer": 25.0,
-        "cer": 5.47945205479452,
-        "accuracy": 94.5945945945946,
-        "time": 2.2560231685638428
     }
 }

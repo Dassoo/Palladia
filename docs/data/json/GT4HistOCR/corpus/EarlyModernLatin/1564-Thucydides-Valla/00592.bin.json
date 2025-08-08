@@ -86,13 +86,5 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 19.828847885131836
-    },
-    "horizon-beta": {
-        "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
-        "response": "bentibus, Athenienses procederunt, atque in hunc modum lo.",
-        "wer": 37.5,
-        "cer": 6.779661016949152,
-        "accuracy": 93.22033898305084,
-        "time": 2.1052160263061523
     }
 }

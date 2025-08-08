@@ -1,80 +1,81 @@
+# Imports
 import http.server
 import socketserver
 import webbrowser
 import threading
-import time
+import atexit
+from functools import partial
 
 PORT = 8000
 DIRECTORY = '.'
+
+# TCP Server with address reuse
+class ReusableTCPServer(socketserver.TCPServer):
+    allow_reuse_address = True
 
 class DashboardServer:
     def __init__(self):
         self.httpd = None
         self.server_thread = None
         self.is_running = False
-    
-    def start_server(self):
+
+    def _run_server(self):
         if self.is_running:
-            print("Dashboard server is already running")
             return
-        
         try:
-            Handler = http.server.SimpleHTTPRequestHandler
-            self.httpd = socketserver.TCPServer(("", PORT), Handler)
+            handler = partial(http.server.SimpleHTTPRequestHandler, directory=DIRECTORY)
+            self.httpd = ReusableTCPServer(("", PORT), handler)
             self.is_running = True
-            # print(f"Dashboard server started on port {PORT}")
+            print(f"Dashboard server started on http://localhost:{PORT}")
             self.httpd.serve_forever()
         except OSError as e:
-            if e.errno == 48:  # Address already in use
-                print(f"Port {PORT} is already in use")
-            else:
-                print(f"Failed to start server: {e}")
+            print(f"Failed to start server: {e}")
             self.is_running = False
         except Exception as e:
             print(f"Server error: {e}")
             self.is_running = False
-    
-    def open_browser(self):
-        time.sleep(1)
-        webbrowser.open(f"http://localhost:{PORT}/docs")
-    
-    def start_dashboard(self):
+
+    def start(self):
         if self.is_running:
-            self.open_browser()
             return
-        
-        # print("Starting dashboard server...")
         try:
-            # Start server in daemon thread so it closes when main app closes
-            self.server_thread = threading.Thread(target=self.start_server, daemon=True)
+            self.server_thread = threading.Thread(target=self._run_server, daemon=True)
             self.server_thread.start()
-            
-            browser_thread = threading.Thread(target=self.open_browser, daemon=True)
-            browser_thread.start()
-            
         except Exception as e:
-            print(f"Failed to start dashboard: {e}")
-    
-    def stop_server(self):
-        """Stop the dashboard server."""
+            print(f"Failed to start dashboard server: {e}")
+
+    def open_browser(self):
+        if not self.is_running:
+            print("Server is not running; cannot open browser.")
+            return
+        url = f"http://localhost:{PORT}/docs"
+        print(f"Opening browser at {url}")
+        webbrowser.open(url)
+
+    def stop(self):
         if self.httpd and self.is_running:
             self.httpd.shutdown()
             self.httpd.server_close()
             self.is_running = False
-            # print("Dashboard server stopped")
+            if self.server_thread:
+                self.server_thread.join(timeout=1)
+            print("Dashboard server stopped")
 
 # Global server instance
 _dashboard_server = DashboardServer()
 
+# Public API
 def start_dashboard():
-    _dashboard_server.start_dashboard()
+    _dashboard_server.start()
+
+def open_dashboard():
+    _dashboard_server.open_browser()
 
 def stop_dashboard():
-    _dashboard_server.stop_server()
+    _dashboard_server.stop()
 
 def is_dashboard_running():
     return _dashboard_server.is_running
 
-# Legacy function for backward compatibility
-def dashboard_run():
-    start_dashboard()
+# Ensure shutdown on exit
+atexit.register(stop_dashboard)

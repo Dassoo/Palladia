@@ -1,14 +1,14 @@
 {
     "mistral-small": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
-        "response": "vnd auf der wand gieng der brunn \u017fas dy. cri",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
+        "response": "vnd auf der wand gieng der brunn ſas dy. cri",
         "wer": 40.0,
         "cer": 9.30232558139535,
         "accuracy": 90.9090909090909,
         "time": 1.706787109375
     },
     "gpt-4.1": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
         "response": "vnd auff der wand gieng der brunn das Sy cri",
         "wer": 30.0,
         "cer": 9.30232558139535,
@@ -16,7 +16,7 @@
         "time": 1.7269659042358398
     },
     "qwen-2.5-vl-72b": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
         "response": "vnd auf der wand gieng der brun das dy cri",
         "wer": 20.0,
         "cer": 6.976744186046512,
@@ -24,7 +24,7 @@
         "time": 1.7435810565948486
     },
     "spotlight": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
         "response": "vnd auf der wand gieng der brunn das ly cri",
         "wer": 30.0,
         "cer": 6.976744186046512,
@@ -32,40 +32,32 @@
         "time": 1.735194206237793
     },
     "gpt-4o": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
-        "response": "vnd auff der wand gieng der brunn das \u017fy cri.",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
+        "response": "vnd auff der wand gieng der brunn das ſy cri.",
         "wer": 40.0,
         "cer": 11.627906976744185,
         "accuracy": 88.88888888888889,
         "time": 1.93595290184021
     },
-    "horizon-beta": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
-        "response": "vnd auff der wand gieng der brunn das sy cri",
-        "wer": 30.0,
-        "cer": 9.30232558139535,
-        "accuracy": 90.9090909090909,
-        "time": 3.042001962661743
-    },
     "claude-4-sonnet": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
-        "response": "vnd au\u00df der wand \u017ftieng der bzunn das dy. cri",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
+        "response": "vnd auß der wand ſtieng der bzunn das dy. cri",
         "wer": 30.0,
         "cer": 9.30232558139535,
         "accuracy": 91.11111111111111,
         "time": 3.6469812393188477
     },
     "claude-4-opus": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
-        "response": "vnd au\u00df der wand gieng der brunn das dy. cri",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
+        "response": "vnd auß der wand gieng der brunn das dy. cri",
         "wer": 20.0,
         "cer": 4.651162790697675,
         "accuracy": 95.45454545454545,
         "time": 4.640902757644653
     },
     "llama-4-maverick-17b": {
-        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
-        "response": "vnd auf\u017fer wand gieng \u017fer b\u1e8bunn Das \u017fy cri",
+        "gt": "vnd auß der wand gieng der bꝛunn das dy cri",
+        "response": "vnd aufſer wand gieng ſer bẋunn Das ſy cri",
         "wer": 60.0,
         "cer": 16.27906976744186,
         "accuracy": 83.72093023255815,

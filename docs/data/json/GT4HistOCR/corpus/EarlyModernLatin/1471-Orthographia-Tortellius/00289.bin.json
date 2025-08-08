@@ -86,13 +86,5 @@
         "cer": 9.67741935483871,
         "accuracy": 90.32258064516128,
         "time": 66.4888768196106
-    },
-    "horizon-beta": {
-        "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
-        "response": "duxi noceo noxa noxius : in . s . ut parco parsi : quin & peperci.",
-        "wer": 66.66666666666666,
-        "cer": 8.064516129032258,
-        "accuracy": 92.42424242424242,
-        "time": 3.2464652061462402
     }
 }

@@ -86,13 +86,5 @@
         "cer": 6.024096385542169,
         "accuracy": 93.97590361445783,
         "time": 20.97015380859375
-    },
-    "horizon-beta": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitatïs annotatur: Sed cum iuniores æoles teste Censorino facilius",
-        "wer": 27.27272727272727,
-        "cer": 3.614457831325301,
-        "accuracy": 96.3855421686747,
-        "time": 2.6492090225219727
     }
 }

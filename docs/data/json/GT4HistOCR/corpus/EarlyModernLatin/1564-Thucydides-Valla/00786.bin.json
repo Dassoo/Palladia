@@ -86,13 +86,5 @@
         "cer": 7.8125,
         "accuracy": 92.53731343283582,
         "time": 55.991178035736084
-    },
-    "horizon-beta": {
-        "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
-        "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.1661407947540283
     }
 }

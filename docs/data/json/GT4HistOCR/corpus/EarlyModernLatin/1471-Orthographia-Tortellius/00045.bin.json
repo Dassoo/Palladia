@@ -86,13 +86,5 @@
         "cer": 8.333333333333332,
         "accuracy": 91.66666666666666,
         "time": 43.87141513824463
-    },
-    "horizon-beta": {
-        "gt": "s. ut ſpargo ſparſi: mergo merſi. nõnũꝗᷓ in x ut rego rexi: pingo pinxi.",
-        "response": "s. ut ſpargo ſparſi: mergo merſi. nōuūq̃ in x ut rego rexi: pingo pinxi.",
-        "wer": 7.142857142857142,
-        "cer": 6.944444444444445,
-        "accuracy": 93.05555555555556,
-        "time": 2.415371894836426
     }
 }

@@ -86,13 +86,5 @@
         "cer": 4.615384615384616,
         "accuracy": 95.52238805970148,
         "time": 15.636056184768677
-    },
-    "horizon-beta": {
-        "gt": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in-",
-        "response": "ſam. Vſque adeò (ut breui complectar) ſi quis dicat illos hoc in,",
-        "wer": 8.333333333333332,
-        "cer": 1.5384615384615385,
-        "accuracy": 98.46153846153847,
-        "time": 2.291226863861084
     }
 }

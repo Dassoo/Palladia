@@ -86,13 +86,5 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 5.240396976470947
-    },
-    "horizon-beta": {
-        "gt": "DE Littera C.",
-        "response": "DE Littera C.",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.178471803665161
     }
 }

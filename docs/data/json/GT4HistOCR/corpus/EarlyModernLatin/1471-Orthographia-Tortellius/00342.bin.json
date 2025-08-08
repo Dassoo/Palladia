@@ -86,13 +86,5 @@
         "cer": 29.48717948717949,
         "accuracy": 75.90361445783132,
         "time": 74.39470624923706
-    },
-    "horizon-beta": {
-        "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
-        "response": "aspiratione adinueni: que quodāmodo mollioreǵ. ps. uolubilioremq; ſonū habet:",
-        "wer": 80.0,
-        "cer": 17.94871794871795,
-        "accuracy": 85.8974358974359,
-        "time": 2.375403881072998
     }
 }

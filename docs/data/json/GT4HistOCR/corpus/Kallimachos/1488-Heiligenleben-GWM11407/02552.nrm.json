@@ -1,6 +1,6 @@
 {
     "qwen-2.5-vl-72b": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
         "response": "dacht das er im fein genad mitteylet. Das ge",
         "wer": 33.33333333333333,
         "cer": 6.666666666666667,
@@ -8,7 +8,7 @@
         "time": 1.7118160724639893
     },
     "spotlight": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
         "response": "dacht das er im fein genad mitteylet. Das ges",
         "wer": 33.33333333333333,
         "cer": 6.666666666666667,
@@ -16,56 +16,48 @@
         "time": 1.8108012676239014
     },
     "gpt-4o": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
-        "response": "dacht das er im \u017fein gnade mitteylet. Das ge\u017f",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+        "response": "dacht das er im ſein gnade mitteylet. Das geſ",
         "wer": 33.33333333333333,
         "cer": 8.88888888888889,
         "accuracy": 93.33333333333333,
         "time": 2.0434410572052
     },
     "gpt-4.1": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
-        "response": "dacht das er im \u017fein genad mitteylet. Das ge\u017f",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+        "response": "dacht das er im ſein genad mitteylet. Das geſ",
         "wer": 22.22222222222222,
         "cer": 4.444444444444445,
         "accuracy": 95.55555555555556,
         "time": 2.9240479469299316
     },
-    "horizon-beta": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
-        "response": "dacht das er im \u017fein genad mitteylet. Das ge\u017f",
-        "wer": 22.22222222222222,
-        "cer": 4.444444444444445,
-        "accuracy": 95.55555555555556,
-        "time": 2.9177632331848145
-    },
     "claude-4-sonnet": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
-        "response": "dacht Das er im \u017fein genad mitteylet. Das ge/",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+        "response": "dacht Das er im ſein genad mitteylet. Das ge/",
         "wer": 33.33333333333333,
         "cer": 6.666666666666667,
         "accuracy": 93.33333333333333,
         "time": 3.3489248752593994
     },
     "claude-4-opus": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
-        "response": "d\u00e5cht das er im \u017fein genad mitter\u017fet. das ke/",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+        "response": "dåcht das er im ſein genad mitterſet. das ke/",
         "wer": 33.33333333333333,
         "cer": 11.11111111111111,
         "accuracy": 88.88888888888889,
         "time": 3.69818115234375
     },
     "mistral-small": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
-        "response": "dacht \u017fas er im fein genad mitteylet. Das ge\u017f",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+        "response": "dacht ſas er im fein genad mitteylet. Das geſ",
         "wer": 44.44444444444444,
         "cer": 8.88888888888889,
         "accuracy": 91.11111111111111,
         "time": 3.839728832244873
     },
     "llama-4-maverick-17b": {
-        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
-        "response": "dacht das er im sein genad mitteylct. Das ge\u017fch",
+        "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+        "response": "dacht das er im sein genad mitteylct. Das geſch",
         "wer": 44.44444444444444,
         "cer": 13.333333333333334,
         "accuracy": 87.2340425531915,

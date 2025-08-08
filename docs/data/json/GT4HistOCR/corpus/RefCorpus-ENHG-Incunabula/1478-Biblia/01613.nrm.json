@@ -1,46 +1,38 @@
 {
     "mistral-small": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017fect voer dem begyn E\u017fdre",
+        "gt": "ſeet voer dem begyn Eſdre",
+        "response": "ſect voer dem begyn Eſdre",
         "wer": 20.0,
         "cer": 4.0,
         "accuracy": 96.0,
         "time": 1.2717809677124023
     },
     "gpt-4.1": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017fet voer din be\u017fyn El\u017fdre",
+        "gt": "ſeet voer dem begyn Eſdre",
+        "response": "ſet voer din beſyn Elſdre",
         "wer": 80.0,
         "cer": 20.0,
         "accuracy": 84.0,
         "time": 1.460721731185913
     },
     "spotlight": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017fect voer dein begyn El dre",
+        "gt": "ſeet voer dem begyn Eſdre",
+        "response": "ſect voer dein begyn El dre",
         "wer": 80.0,
         "cer": 20.0,
         "accuracy": 81.48148148148148,
         "time": 1.5270981788635254
     },
     "gpt-4o": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017feet voer \u017fin be\u017fyn E\u017fdre",
+        "gt": "ſeet voer dem begyn Eſdre",
+        "response": "ſeet voer ſin beſyn Eſdre",
         "wer": 40.0,
         "cer": 16.0,
         "accuracy": 84.0,
         "time": 1.7175438404083252
     },
-    "horizon-beta": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017fet voer din begyn E\u017fdre",
-        "wer": 40.0,
-        "cer": 12.0,
-        "accuracy": 88.0,
-        "time": 2.487592935562134
-    },
     "qwen-2.5-vl-72b": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
+        "gt": "ſeet voer dem begyn Eſdre",
         "response": "Seet voer dem begyn Eldre",
         "wer": 40.0,
         "cer": 8.0,
@@ -48,24 +40,24 @@
         "time": 2.7613320350646973
     },
     "claude-4-sonnet": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017fect voet dein begyn E\u017f dore",
+        "gt": "ſeet voer dem begyn Eſdre",
+        "response": "ſect voet dein begyn Eſ dore",
         "wer": 100.0,
         "cer": 24.0,
         "accuracy": 78.57142857142857,
         "time": 3.4732611179351807
     },
     "claude-4-opus": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017feer voer dem begyn E\u017ft dre",
+        "gt": "ſeet voer dem begyn Eſdre",
+        "response": "ſeer voer dem begyn Eſt dre",
         "wer": 60.0,
         "cer": 12.0,
         "accuracy": 88.88888888888889,
         "time": 3.4941458702087402
     },
     "llama-4-maverick-17b": {
-        "gt": "\u017feet voer dem begyn E\u017fdre",
-        "response": "\u017fect voer \u1e8b\u0131n begyn E\u017fdre",
+        "gt": "ſeet voer dem begyn Eſdre",
+        "response": "ſect voer ẋın begyn Eſdre",
         "wer": 40.0,
         "cer": 16.0,
         "accuracy": 84.0,

@@ -86,13 +86,5 @@
         "cer": 3.125,
         "accuracy": 96.875,
         "time": 22.632844924926758
-    },
-    "horizon-beta": {
-        "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
-        "response": "bantur. Hi autem qui intus erant cùm sic uexarentur, legatos Cor",
-        "wer": 9.090909090909092,
-        "cer": 1.5625,
-        "accuracy": 98.4375,
-        "time": 2.2044129371643066
     }
 }

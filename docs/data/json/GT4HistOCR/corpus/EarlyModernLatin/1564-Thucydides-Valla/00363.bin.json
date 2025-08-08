@@ -86,13 +86,5 @@
         "cer": 7.936507936507936,
         "accuracy": 92.06349206349206,
         "time": 56.507683992385864
-    },
-    "horizon-beta": {
-        "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
-        "response": "Cùm eo necesſitatis uentum effeſt, ut inuicem Corinthij Athenien",
-        "wer": 22.22222222222222,
-        "cer": 7.936507936507936,
-        "accuracy": 93.75,
-        "time": 2.22550892829895
     }
 }

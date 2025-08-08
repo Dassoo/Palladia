@@ -86,13 +86,5 @@
         "cer": 9.67741935483871,
         "accuracy": 90.32258064516128,
         "time": 34.26889896392822
-    },
-    "horizon-beta": {
-        "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
-        "response": "20 iuſtam habere altitudinem murum. Timucra tenim ne à Lacedœa",
-        "wer": 40.0,
-        "cer": 9.67741935483871,
-        "accuracy": 91.93548387096774,
-        "time": 2.299999952316284
     }
 }

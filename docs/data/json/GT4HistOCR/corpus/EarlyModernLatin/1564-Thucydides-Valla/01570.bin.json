@@ -86,13 +86,5 @@
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 23.61086893081665
-    },
-    "horizon-beta": {
-        "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
-        "response": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.16831374168396
     }
 }

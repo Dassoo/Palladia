@@ -86,13 +86,5 @@
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 15.56464409828186
-    },
-    "horizon-beta": {
-        "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
-        "response": "transeuntes prohiberentur. Corycyrenses ubi colonos ac præsidia",
-        "wer": 42.857142857142854,
-        "cer": 6.451612903225806,
-        "accuracy": 93.65079365079364,
-        "time": 2.222162961959839
     }
 }

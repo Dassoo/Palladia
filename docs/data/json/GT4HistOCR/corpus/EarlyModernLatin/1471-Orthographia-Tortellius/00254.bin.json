@@ -86,13 +86,5 @@
         "cer": 2.631578947368421,
         "accuracy": 97.40259740259741,
         "time": 21.504941940307617
-    },
-    "horizon-beta": {
-        "gt": "tantum In loculis: κυκνοσ cygnus cum g media ut quidam ſcribunt. Quin & ꝓ ch",
-        "response": "tantum In loculis: κυκνος cygnus cum g media ut quidam ſeribunt. Quin & ꝓ ch",
-        "wer": 13.333333333333334,
-        "cer": 2.631578947368421,
-        "accuracy": 97.36842105263158,
-        "time": 3.283958911895752
     }
 }

@@ -86,13 +86,5 @@
         "cer": 3.8461538461538463,
         "accuracy": 96.15384615384616,
         "time": 45.327152252197266
-    },
-    "horizon-beta": {
-        "gt": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebat: uidelicet. uau.",
-        "response": "uero ſibi hoc nomen datum fuit: quod apud æoles prius habebar: uidelicet .uau.",
-        "wer": 23.076923076923077,
-        "cer": 3.8461538461538463,
-        "accuracy": 97.43589743589743,
-        "time": 2.4637110233306885
     }
 }

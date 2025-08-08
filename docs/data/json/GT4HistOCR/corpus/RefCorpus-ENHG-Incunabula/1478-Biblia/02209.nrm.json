@@ -1,6 +1,6 @@
 {
     "spotlight": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
         "response": "choe:do strockede Oza vth fijn hant tho der ae",
         "wer": 50.0,
         "cer": 15.217391304347828,
@@ -8,63 +8,55 @@
         "time": 1.2593212127685547
     },
     "mistral-small": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
-        "response": "choer: do \u017ftreckede (?) a vth \u017fijn hant tho der an",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+        "response": "choer: do ſtreckede (?) a vth ſijn hant tho der an",
         "wer": 50.0,
         "cer": 15.217391304347828,
         "accuracy": 86.0,
         "time": 1.4025869369506836
     },
     "gpt-4.1": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
-        "response": "chov: do \u017ftruckede Oza vth \u017fin hant tho der ar",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+        "response": "chov: do ſtruckede Oza vth ſin hant tho der ar",
         "wer": 30.0,
         "cer": 8.695652173913043,
         "accuracy": 93.47826086956522,
         "time": 1.6866328716278076
     },
     "gpt-4o": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
-        "response": "chot: do \u017ftruckede \u0178za vth \u017fijn hant tho der ar",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+        "response": "chot: do ſtruckede Ÿza vth ſijn hant tho der ar",
         "wer": 30.0,
         "cer": 8.695652173913043,
         "accuracy": 91.48936170212765,
         "time": 2.117105007171631
     },
-    "horizon-beta": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
-        "response": "cho:do \u017ftruckede O\u0292a vth \u017fin hant tho der an",
-        "wer": 60.0,
-        "cer": 15.217391304347828,
-        "accuracy": 86.95652173913044,
-        "time": 2.5465710163116455
-    },
     "qwen-2.5-vl-72b": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
-        "response": "cho:do struckede Oza vth \u017fij\u00f1 hant tho der \u00e6",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+        "response": "cho:do struckede Oza vth ſijñ hant tho der æ",
         "wer": 50.0,
         "cer": 17.391304347826086,
         "accuracy": 84.78260869565217,
         "time": 2.9767611026763916
     },
     "claude-4-sonnet": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
-        "response": "cho: do \u017ftrecke\u00f0e O\ua75ba vth \u017fijn hant tho \u00f0er ar",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+        "response": "cho: do ſtreckeðe Oꝛa vth ſijn hant tho ðer ar",
         "wer": 40.0,
         "cer": 10.869565217391305,
         "accuracy": 91.30434782608695,
         "time": 3.450817108154297
     },
     "claude-4-opus": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
-        "response": "eb oc: do \u017ftrechede Oza vth fijn hant tho der ar",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+        "response": "eb oc: do ſtrechede Oza vth fijn hant tho der ar",
         "wer": 40.0,
         "cer": 15.217391304347828,
         "accuracy": 85.41666666666666,
         "time": 3.552090883255005
     },
     "llama-4-maverick-17b": {
-        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
+        "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
         "response": "cho:do ftruckede Oza vtb fijn bant tho der as",
         "wer": 70.0,
         "cer": 19.565217391304348,

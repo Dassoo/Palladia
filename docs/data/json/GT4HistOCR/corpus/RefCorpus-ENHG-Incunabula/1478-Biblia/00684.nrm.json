@@ -1,71 +1,63 @@
 {
     "mistral-small": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "\u017fone \u017fchall alle weghen broet etten vppe mynet",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "ſone ſchall alle weghen broet etten vppe mynet",
         "wer": 25.0,
         "cer": 4.444444444444445,
         "accuracy": 95.65217391304348,
         "time": 1.2356560230255127
     },
     "spotlight": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "fonde \u017fchall alle weghe broet etten vppe mynne",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "fonde ſchall alle weghe broet etten vppe mynne",
         "wer": 25.0,
         "cer": 8.88888888888889,
         "accuracy": 93.47826086956522,
         "time": 1.275691032409668
     },
     "gpt-4.1": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "\u017fone \u017fchall alle weghc broet eten \u00b7 vppe mynct",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "ſone ſchall alle weghc broet eten · vppe mynct",
         "wer": 50.0,
         "cer": 13.333333333333334,
         "accuracy": 89.13043478260869,
         "time": 1.8054521083831787
     },
     "gpt-4o": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "\u017fone \u017fchall alle weyhe b\u1d09oet etten . vppe mynret",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "ſone ſchall alle weyhe bᴉoet etten . vppe mynret",
         "wer": 50.0,
         "cer": 13.333333333333334,
         "accuracy": 87.5,
         "time": 1.8290388584136963
     },
-    "horizon-beta": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "\u017fone \u017fchall alle wegh\u0117 broet eten \u00b7 vppe mynet",
-        "wer": 50.0,
-        "cer": 11.11111111111111,
-        "accuracy": 91.30434782608695,
-        "time": 2.3438220024108887
-    },
     "qwen-2.5-vl-72b": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "fone\u017fchall alle weghe broet etten\u00b7vppemynet",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "foneſchall alle weghe broet etten·vppemynet",
         "wer": 62.5,
         "cer": 11.11111111111111,
         "accuracy": 88.88888888888889,
         "time": 2.9767260551452637
     },
     "claude-4-sonnet": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "\u017fone \u017fchall alle weghe broo\ua77a etten\u00b7 vppe mynet",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "ſone ſchall alle weghe brooꝺ etten· vppe mynet",
         "wer": 37.5,
         "cer": 8.88888888888889,
         "accuracy": 91.30434782608695,
         "time": 3.1146039962768555
     },
     "claude-4-opus": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "\u017fon\u1ebd \u017fchall alle weghe broot etten \u00b7 v\ua751e mynet",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "ſonẽ ſchall alle weghe broot etten · vꝑe mynet",
         "wer": 62.5,
         "cer": 15.555555555555555,
         "accuracy": 86.95652173913044,
         "time": 3.9879939556121826
     },
     "llama-4-maverick-17b": {
-        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
-        "response": "fon\u017ft fchall alle wege broet etten vppe mynet",
+        "gt": "ſone ſchall alle weghe broet etten vppe myner",
+        "response": "fonſt fchall alle wege broet etten vppe mynet",
         "wer": 50.0,
         "cer": 13.333333333333334,
         "accuracy": 88.88888888888889,

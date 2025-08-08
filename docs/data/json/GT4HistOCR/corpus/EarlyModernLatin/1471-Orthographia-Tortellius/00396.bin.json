@@ -86,13 +86,5 @@
         "cer": 8.641975308641975,
         "accuracy": 92.5925925925926,
         "time": 87.69776391983032
-    },
-    "horizon-beta": {
-        "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
-        "response": "perfectè: & ineptū quod respectu ſoni quod apud illos ex digāmma reſultabat: efflare",
-        "wer": 38.46153846153847,
-        "cer": 12.345679012345679,
-        "accuracy": 88.09523809523809,
-        "time": 2.6121389865875244
     }
 }

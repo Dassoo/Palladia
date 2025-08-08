@@ -86,13 +86,5 @@
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 74.3655469417572
-    },
-    "horizon-beta": {
-        "gt": "Thucydides Olori iacet hoc Alimuſius antro.",
-        "response": "Thucydides Olorj iacet hoc Alimusſius antro.",
-        "wer": 33.33333333333333,
-        "cer": 4.651162790697675,
-        "accuracy": 95.45454545454545,
-        "time": 3.4876091480255127
     }
 }

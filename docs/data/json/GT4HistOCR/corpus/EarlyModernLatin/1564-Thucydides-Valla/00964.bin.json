@@ -86,13 +86,5 @@
         "cer": 4.081632653061225,
         "accuracy": 96.0,
         "time": 30.014796018600464
-    },
-    "horizon-beta": {
-        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
-        "response": "interpreteis, Necegohoc in probrum Laurentij Val.",
-        "wer": 62.5,
-        "cer": 10.204081632653061,
-        "accuracy": 93.87755102040816,
-        "time": 2.3032121658325195
     }
 }

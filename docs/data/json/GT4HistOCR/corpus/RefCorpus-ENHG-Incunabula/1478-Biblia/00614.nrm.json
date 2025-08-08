@@ -1,14 +1,14 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert vnde hadden voertpoet na der prophede\u0304",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "mert vnde hadden voertpoet na der prophedē",
         "wer": 28.57142857142857,
         "cer": 11.904761904761903,
         "accuracy": 88.37209302325581,
         "time": 2.1219358444213867
     },
     "mistral-small": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
         "response": "mert vnde hadden vorspoet na der prophete",
         "wer": 28.57142857142857,
         "cer": 9.523809523809524,
@@ -16,67 +16,59 @@
         "time": 1.3922653198242188
     },
     "spotlight": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert vnde hadden vorspoet na der proph\u00e9di",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "mert vnde hadden vorspoet na der prophédi",
         "wer": 28.57142857142857,
         "cer": 9.523809523809524,
         "accuracy": 90.47619047619048,
         "time": 1.4331610202789307
     },
     "gpt-4.1": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert vnde hadden vor\u017fpoet na der prophecie",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "mert vnde hadden vorſpoet na der prophecie",
         "wer": 14.285714285714285,
         "cer": 2.380952380952381,
         "accuracy": 97.61904761904762,
         "time": 2.156871795654297
     },
     "qwen-2.5-vl-72b": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert vnde hadden vor\u017fpoet na der prophedie",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "mert vnde hadden vorſpoet na der prophedie",
         "wer": 14.285714285714285,
         "cer": 4.761904761904762,
         "accuracy": 95.23809523809523,
         "time": 3.3860528469085693
     },
     "claude-4-sonnet": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "merr vnde hadden vor\u017fpoct na der prophecie",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "merr vnde hadden vorſpoct na der prophecie",
         "wer": 42.857142857142854,
         "cer": 7.142857142857142,
         "accuracy": 92.85714285714286,
         "time": 3.139859914779663
     },
     "claude-4-opus": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert vnde hadden vor\u017fpoet na der prophec\u00ede",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "mert vnde hadden vorſpoet na der prophecíe",
         "wer": 14.285714285714285,
         "cer": 4.761904761904762,
         "accuracy": 95.23809523809523,
         "time": 3.447359085083008
     },
     "gemini-2.5-flash": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert ru\u0364de hadden von\u017fpoet na der prophed\u00e9",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "mert ruͤde hadden vonſpoet na der prophedé",
         "wer": 42.857142857142854,
         "cer": 16.666666666666664,
         "accuracy": 85.71428571428571,
         "time": 8.544981956481934
     },
     "gpt-4o": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert unde hadden vor\u017fpoet nader propheti\u1ebd",
+        "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+        "response": "mert unde hadden vorſpoet nader prophetiẽ",
         "wer": 57.14285714285714,
         "cer": 7.142857142857142,
         "accuracy": 92.85714285714286,
         "time": 2.166712999343872
-    },
-    "horizon-beta": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert vn\u0304de hadden vor\u017fpoet na der prophedi\u00eb",
-        "wer": 28.57142857142857,
-        "cer": 7.142857142857142,
-        "accuracy": 93.02325581395348,
-        "time": 2.54388689994812
     }
 }

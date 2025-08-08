@@ -86,13 +86,5 @@
         "cer": 7.228915662650602,
         "accuracy": 92.7710843373494,
         "time": 36.69178605079651
-    },
-    "horizon-beta": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aſpiratione ſcribenda ſunt: ut Pyra lyra Syria: & ſimiles. Quod quia a doctis oibus",
-        "wer": 14.285714285714285,
-        "cer": 2.4096385542168677,
-        "accuracy": 97.59036144578313,
-        "time": 2.8323309421539307
     }
 }

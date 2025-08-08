@@ -86,13 +86,5 @@
         "cer": 10.256410256410255,
         "accuracy": 91.02564102564102,
         "time": 98.32602500915527
-    },
-    "horizon-beta": {
-        "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "response": "ut Caiū.c.littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
-        "wer": 21.428571428571427,
-        "cer": 5.128205128205128,
-        "accuracy": 96.15384615384616,
-        "time": 2.3692879676818848
     }
 }

@@ -1,22 +1,22 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "men al\u017fodane reden hebben \u017fe vns geantwo</pre>",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "response": "men alſodane reden hebben ſe vns geantwo</pre>",
         "wer": 14.285714285714285,
         "cer": 12.195121951219512,
         "accuracy": 89.13043478260869,
         "time": 0.8831892013549805
     },
     "mistral-small": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "men al\u017fodane reden hebben \u017fe \u017fns geantwor",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "response": "men alſodane reden hebben ſe ſns geantwor",
         "wer": 14.285714285714285,
         "cer": 2.4390243902439024,
         "accuracy": 97.5609756097561,
         "time": 1.1407349109649658
     },
     "spotlight": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
         "response": "men alsodane reden hebben se vns geantwor",
         "wer": 28.57142857142857,
         "cer": 4.878048780487805,
@@ -24,48 +24,40 @@
         "time": 1.3232948780059814
     },
     "gpt-4.1": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "men alsodane reden hebben \u017fe vn\u017f geantwort",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "response": "men alsodane reden hebben ſe vnſ geantwort",
         "wer": 42.857142857142854,
         "cer": 7.317073170731707,
         "accuracy": 92.85714285714286,
         "time": 1.7852318286895752
     },
     "gpt-4o": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "men alsodane reden hebben \u017fe ons geantwor",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "response": "men alsodane reden hebben ſe ons geantwor",
         "wer": 28.57142857142857,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 2.205889940261841
     },
-    "horizon-beta": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "\u00b7 men alsodane vden hebben \u017fe vns geantwort",
-        "wer": 57.14285714285714,
-        "cer": 14.634146341463413,
-        "accuracy": 88.37209302325581,
-        "time": 2.4638772010803223
-    },
     "claude-4-opus": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "men al\u017fo dane wden hebben \u017fe vns geantwo\ua75b",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "response": "men alſo dane wden hebben ſe vns geantwoꝛ",
         "wer": 57.14285714285714,
         "cer": 9.75609756097561,
         "accuracy": 92.6829268292683,
         "time": 3.3008761405944824
     },
     "claude-4-sonnet": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "men al\u017fodane \u00e6den hebben \u017fe vns geantwo\ua75b",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "response": "men alſodane æden hebben ſe vns geantwoꝛ",
         "wer": 28.57142857142857,
         "cer": 7.317073170731707,
         "accuracy": 92.6829268292683,
         "time": 3.3061628341674805
     },
     "qwen-2.5-vl-72b": {
-        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
-        "response": "men al\u017fodane \u017feden hebben \u017fe vns geantwor",
+        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "response": "men alſodane ſeden hebben ſe vns geantwor",
         "wer": 14.285714285714285,
         "cer": 2.4390243902439024,
         "accuracy": 97.5609756097561,

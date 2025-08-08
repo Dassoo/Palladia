@@ -86,13 +86,5 @@
         "cer": 8.19672131147541,
         "accuracy": 93.44262295081968,
         "time": 20.09964895248413
-    },
-    "horizon-beta": {
-        "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
-        "response": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
-        "wer": 0.0,
-        "cer": 0.0,
-        "accuracy": 100.0,
-        "time": 2.513252019882202
     }
 }

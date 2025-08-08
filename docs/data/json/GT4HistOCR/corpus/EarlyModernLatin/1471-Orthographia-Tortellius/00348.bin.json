@@ -86,13 +86,5 @@
         "cer": 12.82051282051282,
         "accuracy": 89.74358974358975,
         "time": 44.70145916938782
-    },
-    "horizon-beta": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem conceperunt: qui pro. th. ṙpulcherrime ponunt: nec nō &",
-        "wer": 27.27272727272727,
-        "cer": 5.128205128205128,
-        "accuracy": 94.87179487179486,
-        "time": 2.6003057956695557
     }
 }
