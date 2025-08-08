@@ -286,15 +286,7 @@ body[data-theme="dark"] {
 }
 
 [data-theme="dark"] .image-tooltip {
-    border: 2px solid #adb5bd;
-}
-
-[data-theme="dark"] .image-tooltip::before {
-    border-right-color: #adb5bd;
-}
-
-[data-theme="dark"] .image-tooltip::after {
-    border-right-color: #212529;
+    box-shadow: 0 4px 12px rgba(173, 173, 173, 0.476);
 }
 
 [data-theme="dark"] .social-link {
