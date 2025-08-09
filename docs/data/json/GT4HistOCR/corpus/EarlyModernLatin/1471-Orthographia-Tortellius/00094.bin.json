@@ -1,6 +1,6 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
         "response": "afpiratione fcribenda funt: ut Pyra lyra fyria: & fimiles. Quod quia a doctis oibus",
         "wer": 42.857142857142854,
         "cer": 7.228915662650602,
@@ -8,7 +8,7 @@
         "time": 1.4196507930755615
     },
     "spotlight": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
         "response": "aspiratione scribenda sunt:ut Pyra lyra syria:& similes. Quod quia a doctis oibus",
         "wer": 57.14285714285714,
         "cer": 9.63855421686747,
@@ -16,75 +16,91 @@
         "time": 1.9410450458526611
     },
     "gpt-4.1": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aspiratione ſcribenda ſunt : ut Pyra lyra Syria : & ſimiles. Quod quia a doctis oibus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "aspiratione \u017fcribenda \u017funt : ut Pyra lyra Syria : & \u017fimiles. Quod quia a doctis oibus",
         "wer": 42.857142857142854,
         "cer": 6.024096385542169,
         "accuracy": 94.11764705882352,
         "time": 2.2076170444488525
     },
     "gpt-4o": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oibus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis oibus",
         "wer": 7.142857142857142,
         "cer": 1.2048192771084338,
         "accuracy": 98.79518072289156,
         "time": 2.2309980392456055
     },
     "qwen-2.5-vl-72b": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aſpiratione ſcribenda ſunt: ut Pyra lyra fyria:& ſimiles.Quod quia a doctis oibus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra fyria:& \u017fimiles.Quod quia a doctis oibus",
         "wer": 35.714285714285715,
         "cer": 4.819277108433735,
         "accuracy": 95.18072289156626,
         "time": 2.5031681060791016
     },
     "mistral-small": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aspiratione ſcribenda ſunt:ut Pyra lyra ſyria:& ſimiles.Quod quia a doctis oibus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "aspiratione \u017fcribenda \u017funt:ut Pyra lyra \u017fyria:& \u017fimiles.Quod quia a doctis oibus",
         "wer": 57.14285714285714,
         "cer": 6.024096385542169,
         "accuracy": 93.97590361445783,
         "time": 4.275338888168335
     },
     "claude-4-sonnet": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oibus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis oibus",
         "wer": 7.142857142857142,
         "cer": 1.2048192771084338,
         "accuracy": 98.79518072289156,
         "time": 5.074030160903931
     },
     "claude-4-opus": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 5.633508205413818
     },
     "gemini-2.5-flash": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aſpiratione ſcribenda funt: ut Pyra lyra fyria:& ſimiles. Quod quia a doctis oibus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda funt: ut Pyra lyra fyria:& \u017fimiles. Quod quia a doctis oibus",
         "wer": 28.57142857142857,
         "cer": 4.819277108433735,
         "accuracy": 95.18072289156626,
         "time": 6.321105003356934
     },
     "o4-mini": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aspirationeſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis orbus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "aspiratione\u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis orbus",
         "wer": 21.428571428571427,
         "cer": 3.614457831325301,
         "accuracy": 96.3855421686747,
         "time": 11.351460218429565
     },
     "gemini-2.5-pro": {
-        "gt": "aſpiratione ſcribenda ſunt: ut Pyra lyra ſyria: & ſimiles. Quod quia a doctis oĩbus",
-        "response": "aſpiratione ſcribenda ſunt: Pyra lyra ſyria:⁊ ſimiles. Quod quia a doctis oibus",
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda \u017funt: Pyra lyra \u017fyria:\u204a \u017fimiles. Quod quia a doctis oibus",
         "wer": 28.57142857142857,
         "cer": 7.228915662650602,
         "accuracy": 92.7710843373494,
         "time": 36.69178605079651
+    },
+    "gpt-5-mini": {
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis orbus",
+        "wer": 7.142857142857142,
+        "cer": 1.2048192771084338,
+        "accuracy": 98.79518072289156,
+        "time": 20.134805917739868
+    },
+    "gpt-5": {
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra Syria: & \u017fimiles. Quod quia a doctis omnibus",
+        "wer": 14.285714285714285,
+        "cer": 4.819277108433735,
+        "accuracy": 95.29411764705881,
+        "time": 45.067147970199585
     }
 }

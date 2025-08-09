@@ -1,66 +1,82 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en vnd beftet Sy an ein erlicſſe ſtat. Da gieng",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd beftet Sy an ein erlic\u017f\u017fe \u017ftat. Da gieng",
         "wer": 30.0,
         "cer": 12.5,
         "accuracy": 89.58333333333334,
         "time": 1.5403709411621094
     },
     "spotlight": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en vnd bestetet ſy an ein erliche ſtat. Da gieng",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd bestetet \u017fy an ein erliche \u017ftat. Da gieng",
         "wer": 10.0,
         "cer": 2.083333333333333,
         "accuracy": 97.91666666666666,
         "time": 4.233004093170166
     },
     "gpt-4.1": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en vnd beſtætet ſy an ein erliche ſtat. Da gieng",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ft\u00e6tet \u017fy an ein erliche \u017ftat. Da gieng",
         "wer": 10.0,
         "cer": 2.083333333333333,
         "accuracy": 97.91666666666666,
         "time": 2.3576841354370117
     },
     "gpt-4o": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en und beſtetet ſy an ein erliche ſtat. Da gieng",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en und be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
         "wer": 10.0,
         "cer": 2.083333333333333,
         "accuracy": 97.91666666666666,
         "time": 3.578831195831299
     },
     "claude-4-sonnet": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.2834019660949707
     },
     "claude-4-opus": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en vnd beſtetet ſy an ein erliche ſtat. Da giengt",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da giengt",
         "wer": 10.0,
         "cer": 2.083333333333333,
         "accuracy": 97.95918367346938,
         "time": 3.7136549949645996
     },
     "mistral-small": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en ond beſtetet ſyan ein erlicheſtat. Da gieng",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en ond be\u017ftetet \u017fyan ein erliche\u017ftat. Da gieng",
         "wer": 50.0,
         "cer": 6.25,
         "accuracy": 93.75,
         "time": 1.9173309803009033
     },
     "qwen-2.5-vl-72b": {
-        "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
-        "response": "en vnd beſtetet ſy an ein erliche Stat.Da gieng",
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ftetet \u017fy an ein erliche Stat.Da gieng",
         "wer": 20.0,
         "cer": 4.166666666666666,
         "accuracy": 95.83333333333334,
         "time": 3.4474639892578125
+    },
+    "gpt-5-mini": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ftetet \u017fy an ein erliche Stat. Da gieng",
+        "wer": 10.0,
+        "cer": 2.083333333333333,
+        "accuracy": 97.91666666666666,
+        "time": 14.477100133895874
+    },
+    "gpt-5": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 80.28935408592224
     }
 }

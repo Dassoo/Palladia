@@ -1,6 +1,6 @@
 {
     "spotlight": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
         "response": "wester auch wol das sie cristen waren. und la",
         "wer": 60.0,
         "cer": 13.043478260869565,
@@ -8,31 +8,31 @@
         "time": 1.4584190845489502
     },
     "mistral-small": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
-        "response": "weſter auch wol ſas ſie criſten waren. vnd ſa",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "we\u017fter auch wol \u017fas \u017fie cri\u017ften waren. vnd \u017fa",
         "wer": 40.0,
         "cer": 6.521739130434782,
         "accuracy": 93.47826086956522,
         "time": 1.4854578971862793
     },
     "gpt-4.1": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
-        "response": "wester auch wol das ſie criſten waren. vnd da",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "wester auch wol das \u017fie cri\u017ften waren. vnd da",
         "wer": 20.0,
         "cer": 4.3478260869565215,
         "accuracy": 95.65217391304348,
         "time": 2.233386993408203
     },
     "gpt-4o": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
-        "response": "meſter auch wol das ſie criſten waren. vnd Da",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "me\u017fter auch wol das \u017fie cri\u017ften waren. vnd Da",
         "wer": 30.0,
         "cer": 6.521739130434782,
         "accuracy": 93.47826086956522,
         "time": 2.2431390285491943
     },
     "qwen-2.5-vl-72b": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
         "response": "wester auch wol das fie criften iraren. vnd fa",
         "wer": 60.0,
         "cer": 15.217391304347828,
@@ -40,27 +40,43 @@
         "time": 2.5715153217315674
     },
     "claude-4-sonnet": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
-        "response": "weſt er auch wol Das ſie erſten waren. vnd Da",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "we\u017ft er auch wol Das \u017fie er\u017ften waren. vnd Da",
         "wer": 30.0,
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 3.3463380336761475
     },
     "llama-4-maverick-17b": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
-        "response": "meſter auch wol das fie criften waren. vnd da:",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "me\u017fter auch wol das fie criften waren. vnd da:",
         "wer": 50.0,
         "cer": 10.869565217391305,
         "accuracy": 91.30434782608695,
         "time": 11.751234769821167
     },
     "claude-4-opus": {
-        "gt": "weſt er auch wol das ſie criſten waren. vnd da",
-        "response": "weſt er auch wol das ſie criſten waren. vnd da",
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 16.73602294921875
+    },
+    "gpt-5-mini": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "we\u017fter auch wol das \u017fie cri\u017ften waren. vnd Ja",
+        "wer": 30.0,
+        "cer": 4.3478260869565215,
+        "accuracy": 95.65217391304348,
+        "time": 18.043020009994507
+    },
+    "gpt-5": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "wu\u017ft er auch wol Das \u017fie cri\u017ften waren. vnd Ja",
+        "wer": 30.0,
+        "cer": 6.521739130434782,
+        "accuracy": 93.47826086956522,
+        "time": 112.49517321586609
     }
 }

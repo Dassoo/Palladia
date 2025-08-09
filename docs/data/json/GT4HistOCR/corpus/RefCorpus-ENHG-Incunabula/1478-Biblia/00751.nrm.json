@@ -1,66 +1,82 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vñ lоте fe los gā.ri i als dat gebatſcop wart",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 l\u043e\u0442\u0435 fe los g\u0101.ri i als dat gebat\u017fcop wart",
         "wer": 54.54545454545454,
         "cer": 23.91304347826087,
         "accuracy": 78.26086956521739,
         "time": 1.0503051280975342
     },
     "mistral-small": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vñ lote ſe los gã-rñ als dat gebatſcop wart",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 lote \u017fe los g\u00e3-r\u00f1 als dat gebat\u017fcop wart",
         "wer": 45.45454545454545,
         "cer": 13.043478260869565,
         "accuracy": 86.95652173913044,
         "time": 1.2406070232391357
     },
     "spotlight": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vñ lote sc los gã-ñi als dat gebatscupt wart",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 lote sc los g\u00e3-\u00f1i als dat gebatscupt wart",
         "wer": 54.54545454545454,
         "cer": 21.73913043478261,
         "accuracy": 80.43478260869566,
         "time": 1.2556569576263428
     },
     "gpt-4.1": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vn lobe ſelos gâ·vn als dat gebatſcopit wart",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "vn lobe \u017felos g\u00e2\u00b7vn als dat gebat\u017fcopit wart",
         "wer": 72.72727272727273,
         "cer": 19.565217391304348,
         "accuracy": 82.6086956521739,
         "time": 1.6996419429779053
     },
     "gpt-4o": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vnſeſe lob gā vñ als dat gebarket wart",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "vn\u017fe\u017fe lob g\u0101 v\u00f1 als dat gebarket wart",
         "wer": 63.63636363636363,
         "cer": 32.608695652173914,
         "accuracy": 67.3913043478261,
         "time": 1.944577932357788
     },
     "qwen-2.5-vl-72b": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vni fete ſe los ga·vn als dat gebatſcopt wart",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "vni fete \u017fe los ga\u00b7vn als dat gebat\u017fcopt wart",
         "wer": 45.45454545454545,
         "cer": 15.217391304347828,
         "accuracy": 86.95652173913044,
         "time": 3.077955961227417
     },
     "claude-4-sonnet": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vñ lotz ſc loz gã·vñ alz dar gebatſcopt wart",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 lotz \u017fc loz g\u00e3\u00b7v\u00f1 alz dar gebat\u017fcopt wart",
         "wer": 72.72727272727273,
         "cer": 17.391304347826086,
         "accuracy": 82.6086956521739,
         "time": 3.1243298053741455
     },
     "claude-4-opus": {
-        "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
-        "response": "vñ lote ſe los gã · vñ als dar gebarſcopr warr",
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 lote \u017fe los g\u00e3 \u00b7 v\u00f1 als dar gebar\u017fcopr warr",
         "wer": 36.36363636363637,
         "cer": 10.869565217391305,
         "accuracy": 89.13043478260869,
         "time": 4.263911962509155
+    },
+    "gpt-5-mini": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "vii lobe \u017fe lo\u017f g\u0101-vn als dat gebat\u017fcopt wart",
+        "wer": 54.54545454545454,
+        "cer": 21.73913043478261,
+        "accuracy": 80.43478260869566,
+        "time": 27.13472080230713
+    },
+    "gpt-5": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 lete \u017fe los g\u0101 v\u00f1 als dat gebot\u017fcop wart",
+        "wer": 27.27272727272727,
+        "cer": 10.869565217391305,
+        "accuracy": 89.13043478260869,
+        "time": 108.05025267601013
     }
 }

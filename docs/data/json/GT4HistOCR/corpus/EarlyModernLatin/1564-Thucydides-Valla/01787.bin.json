@@ -41,7 +41,7 @@
     },
     "gpt-4o": {
         "gt": "fuerunt.",
-        "response": "ſuerunt",
+        "response": "\u017fuerunt",
         "wer": 100.0,
         "cer": 25.0,
         "accuracy": 75.0,
@@ -86,5 +86,21 @@
         "cer": 12.5,
         "accuracy": 87.5,
         "time": 10.949646949768066
+    },
+    "gpt-5-mini": {
+        "gt": "fuerunt.",
+        "response": "fuerunt",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 10.854562997817993
+    },
+    "gpt-5": {
+        "gt": "fuerunt.",
+        "response": "fuerunt,",
+        "wer": 100.0,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 83.2623999118805
     }
 }

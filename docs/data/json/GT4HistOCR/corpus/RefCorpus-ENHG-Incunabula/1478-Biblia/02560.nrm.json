@@ -1,6 +1,6 @@
 {
     "mistral-small": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "De is groter den dat ick wordenen kan gnade",
         "wer": 30.0,
         "cer": 8.88888888888889,
@@ -8,7 +8,7 @@
         "time": 1.0507659912109375
     },
     "qwen-2.5-vl-72b": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "de is groter den dat ick vordenen kan gnade .",
         "wer": 10.0,
         "cer": 2.2222222222222223,
@@ -16,7 +16,7 @@
         "time": 2.606553792953491
     },
     "spotlight": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "de is groter den dat ick wordenen kan gnade",
         "wer": 20.0,
         "cer": 6.666666666666667,
@@ -24,7 +24,7 @@
         "time": 1.6977808475494385
     },
     "llama-4-maverick-17b": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "de is groeter den dat ick worden kan gnade.",
         "wer": 40.0,
         "cer": 13.333333333333334,
@@ -32,15 +32,15 @@
         "time": 0.9560661315917969
     },
     "gpt-4.1": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
-        "response": "de is groter den dat ick worden kan gna­de·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "de is groter den dat ick worden kan gna\u00adde\u00b7",
         "wer": 30.0,
         "cer": 11.11111111111111,
         "accuracy": 91.11111111111111,
         "time": 1.7336540222167969
     },
     "claude-4-sonnet": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "de is groter den dat ick worden kan gnade",
         "wer": 20.0,
         "cer": 11.11111111111111,
@@ -48,7 +48,7 @@
         "time": 2.4769082069396973
     },
     "claude-4-opus": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "de is groter den dat ich werdenen kan gnade",
         "wer": 30.0,
         "cer": 11.11111111111111,
@@ -56,19 +56,35 @@
         "time": 3.60031795501709
     },
     "gemini-2.5-flash": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
-        "response": "& is groſer den dat ick worden kan gnade.",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "& is gro\u017fer den dat ick worden kan gnade.",
         "wer": 50.0,
         "cer": 17.77777777777778,
         "accuracy": 82.22222222222221,
         "time": 9.319983959197998
     },
     "gpt-4o": {
-        "gt": "de is groter den dat ick vordenen kan gnade ·",
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "de is groter den dat ick wordenen kan gnaede.",
         "wer": 30.0,
         "cer": 8.88888888888889,
         "accuracy": 93.33333333333333,
         "time": 2.875972270965576
+    },
+    "gpt-5-mini": {
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "de i\u017f groter den dat ick wordenen kan gnade .",
+        "wer": 30.0,
+        "cer": 6.666666666666667,
+        "accuracy": 93.33333333333333,
+        "time": 19.56548023223877
+    },
+    "gpt-5": {
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "de is groter den dat ick wordenen kan gnade \u00b7",
+        "wer": 10.0,
+        "cer": 2.2222222222222223,
+        "accuracy": 97.77777777777777,
+        "time": 41.57440710067749
     }
 }

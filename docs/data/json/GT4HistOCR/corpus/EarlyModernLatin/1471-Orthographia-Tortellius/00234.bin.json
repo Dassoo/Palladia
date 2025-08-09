@@ -1,90 +1,106 @@
 {
     "mistral-small": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habere uidebat: & digama ipsum cū alio ſono in dictionibus latinis loco ph ſcribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidebat: & digama ipsum cu\u0304 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
         "wer": 28.57142857142857,
         "cer": 6.097560975609756,
         "accuracy": 95.1219512195122,
         "time": 2.756351947784424
     },
     "qwen-2.5-vl-72b": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habere videbat:& digáma ipsum cu alio sono in dictionibus latinis loco ph scribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere videbat:& dig\u00e1ma ipsum cu alio sono in dictionibus latinis loco ph scribi",
         "wer": 50.0,
         "cer": 9.75609756097561,
         "accuracy": 90.2439024390244,
         "time": 2.7931721210479736
     },
     "gpt-4.1": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habetre uidebat: & digáma ipſum cū alio ſono in dictionibus latinis loco ph ſcri",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habetre uidebat: & dig\u00e1ma ip\u017fum c\u016b alio \u017fono in dictionibus latinis loco ph \u017fcri",
         "wer": 35.714285714285715,
         "cer": 7.317073170731707,
         "accuracy": 93.90243902439023,
         "time": 3.481597900390625
     },
     "gpt-4o": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "ḥabere uidebat: & digáma ipſum cū alio ſono in dictionibus latinis loco ph ſcribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "\u1e25abere uidebat: & dig\u00e1ma ip\u017fum c\u016b alio \u017fono in dictionibus latinis loco ph \u017fcribi",
         "wer": 28.57142857142857,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 4.005536079406738
     },
     "claude-4-sonnet": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "haœre uidebat: & digáma ipſum cu alio ſono in dictionibus latinis loco ph ſcribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "ha\u0153re uidebat: & dig\u00e1ma ip\u017fum cu alio \u017fono in dictionibus latinis loco ph \u017fcribi",
         "wer": 28.57142857142857,
         "cer": 6.097560975609756,
         "accuracy": 93.90243902439023,
         "time": 4.367640733718872
     },
     "llama-4-maverick-17b": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habere uidebatur:& digãma ipfum cũ alio fono in dictionibus latinis loco pḥ fcribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidebatur:& dig\u00e3ma ipfum c\u0169 alio fono in dictionibus latinis loco p\u1e25 fcribi",
         "wer": 42.857142857142854,
         "cer": 8.536585365853659,
         "accuracy": 92.6829268292683,
         "time": 4.372480154037476
     },
     "spotlight": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habere uidebat: & digáma ipsum cū alio sono in dictionibus latinis loco ph scribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidebat: & dig\u00e1ma ipsum c\u016b alio sono in dictionibus latinis loco ph scribi",
         "wer": 42.857142857142854,
         "cer": 7.317073170731707,
         "accuracy": 92.6829268292683,
         "time": 5.0339930057525635
     },
     "gemini-2.5-flash": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "haćre uidebát: & digíma ipſum cū alio fono in dictionibus latinis loco ph ſc̃ibi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "ha\u0107re uideba\u0301t: & digi\u0301ma ip\u017fum cu\u0304 alio fono in dictionibus latinis loco ph \u017fc\u0303ibi",
         "wer": 42.857142857142854,
         "cer": 12.195121951219512,
         "accuracy": 90.36144578313254,
         "time": 9.078924894332886
     },
     "claude-4-opus": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habere uidebatur: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidebatur: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
         "wer": 7.142857142857142,
         "cer": 2.4390243902439024,
         "accuracy": 97.59036144578313,
         "time": 12.337308168411255
     },
     "o4-mini": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habere uidebat: & digama ipſũ cũ alio ſono in dictionibus latinis loco ph ſcribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidebat: & digama ip\u017f\u0169 c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
         "wer": 21.428571428571427,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 24.386240005493164
     },
     "gemini-2.5-pro": {
-        "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
-        "response": "habére uidebát:& digáma ipſúm cũ alió fono in dictionibus latinis loco ph ſcribi",
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "hab\u00e9re uideb\u00e1t:& dig\u00e1ma ip\u017f\u00fam c\u0169 ali\u00f3 fono in dictionibus latinis loco ph \u017fcribi",
         "wer": 50.0,
         "cer": 9.75609756097561,
         "accuracy": 90.2439024390244,
         "time": 65.76325392723083
+    },
+    "gpt-5-mini": {
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidebat: & digama ip\u017fum c\u016b alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "wer": 21.428571428571427,
+        "cer": 3.6585365853658534,
+        "accuracy": 96.34146341463415,
+        "time": 18.847344160079956
+    },
+    "gpt-5": {
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidebat: & dig\u00e3ma ip\u017f\u016b c\u016b alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "wer": 21.428571428571427,
+        "cer": 4.878048780487805,
+        "accuracy": 95.1219512195122,
+        "time": 62.89628481864929
     }
 }

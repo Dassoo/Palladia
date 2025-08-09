@@ -1,14 +1,14 @@
 {
     "mistral-small": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
-        "response": "Jäckerman Ende dat geſchach na wêle dagn",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "J\u00e4ckerman Ende dat ge\u017fchach na w\u00eale dagn",
         "wer": 42.857142857142854,
         "cer": 14.634146341463413,
         "accuracy": 87.8048780487805,
         "time": 1.0529050827026367
     },
     "spotlight": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
         "response": "ackerman Ende dat geschach na vele daghen",
         "wer": 14.285714285714285,
         "cer": 2.4390243902439024,
@@ -16,7 +16,7 @@
         "time": 1.220245122909546
     },
     "gpt-4.1": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
         "response": "ackerman Ende dat geschach na vele daghen",
         "wer": 14.285714285714285,
         "cer": 2.4390243902439024,
@@ -24,23 +24,23 @@
         "time": 1.6302778720855713
     },
     "gpt-4o": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
-        "response": "ackerman Ende dat geſchach na vele daghen",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat ge\u017fchach na vele daghen",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.0932538509368896
     },
     "claude-4-sonnet": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
-        "response": "ackerman Ende dat geſchach na vele daghen",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat ge\u017fchach na vele daghen",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.8007259368896484
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
         "response": "ackerman Ende dat geschach na vele daghen",
         "wer": 14.285714285714285,
         "cer": 2.4390243902439024,
@@ -48,19 +48,35 @@
         "time": 3.688359260559082
     },
     "claude-4-opus": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
-        "response": "ackerman Ende dat geſchach na vele daghen",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat ge\u017fchach na vele daghen",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 6.204448938369751
     },
     "llama-4-maverick-17b": {
-        "gt": "ackerman Ende dat geſchach na vele daghen",
-        "response": "ackerman Ende dat geſchach na vele daghen",
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat ge\u017fchach na vele daghen",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 7.041438102722168
+    },
+    "gpt-5-mini": {
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat gel\u017fchach na wle daghen",
+        "wer": 28.57142857142857,
+        "cer": 7.317073170731707,
+        "accuracy": 95.1219512195122,
+        "time": 16.25669813156128
+    },
+    "gpt-5": {
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 23.064783096313477
     }
 }

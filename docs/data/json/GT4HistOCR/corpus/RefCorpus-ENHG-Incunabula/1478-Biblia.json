@@ -42,7 +42,7 @@
     "claude-4-sonnet": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 30,
-        "avg_wer": 45.424362674362676,
+        "avg_wer": 45.00769600769601,
         "avg_cer": 12.147864211581314,
         "avg_accuracy": 88.29998507862686,
         "avg_time": 3.146985332171122
@@ -70,5 +70,21 @@
         "avg_cer": 13.140646281785058,
         "avg_accuracy": 88.73609682596823,
         "avg_time": 2.1343864758809405
+    },
+    "gpt-5-mini": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 41.16390091390091,
+        "avg_cer": 9.514460589452243,
+        "avg_accuracy": 91.3856710030481,
+        "avg_time": 18.871085143089296
+    },
+    "gpt-5": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 37.34078884078884,
+        "avg_cer": 8.588482035960329,
+        "avg_accuracy": 92.16137191169669,
+        "avg_time": 62.07044111887614
     }
 }

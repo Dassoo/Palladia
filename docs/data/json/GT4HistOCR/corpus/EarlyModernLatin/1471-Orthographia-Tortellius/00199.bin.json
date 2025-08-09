@@ -1,90 +1,106 @@
 {
     "mistral-small": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum ſoles ſpiritus ſpirantatem effugiēres ſibi; loco ſpirationis ipſi",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum \u017foles \u017fpiritus \u017fpirantatem effugi\u0113res \u017fibi; loco \u017fpirationis ip\u017fi",
         "wer": 54.54545454545454,
         "cer": 14.814814814814813,
         "accuracy": 87.65432098765432,
         "time": 1.6925039291381836
     },
     "qwen-2.5-vl-72b": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare.Sane cum xoles ſpiritus asperitatem effugiétes ubiq; loco aspirationis ipſú",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare.Sane cum xoles \u017fpiritus asperitatem effugi\u00e9tes ubiq; loco aspirationis ip\u017f\u00fa",
         "wer": 63.63636363636363,
         "cer": 7.4074074074074066,
         "accuracy": 92.5925925925926,
         "time": 2.045527935028076
     },
     "gpt-4.1": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum aoles ſpiritus aſperitatem effugietes ubiq; loco aſpirationis ipſu",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum aoles \u017fpiritus a\u017fperitatem effugietes ubiq; loco a\u017fpirationis ip\u017fu",
         "wer": 27.27272727272727,
         "cer": 3.7037037037037033,
         "accuracy": 96.29629629629629,
         "time": 2.2647039890289307
     },
     "gpt-4o": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum æoles ſpiritus aſperitatem effugiét es ubiq; loco aſpirationis ipſu",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u00e9t es ubiq; loco a\u017fpirationis ip\u017fu",
         "wer": 27.27272727272727,
         "cer": 3.7037037037037033,
         "accuracy": 96.34146341463415,
         "time": 2.4140427112579346
     },
     "spotlight": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare.Sanecum æoles ſpiritus asperitatem effugiétes ubiq; loco aspirationis ipſu",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare.Sanecum \u00e6oles \u017fpiritus asperitatem effugi\u00e9tes ubiq; loco aspirationis ip\u017fu",
         "wer": 63.63636363636363,
         "cer": 7.4074074074074066,
         "accuracy": 92.5925925925926,
         "time": 2.7326250076293945
     },
     "llama-4-maverick-17b": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum ætoles ſpintus aſpertatem effugiétes ubiq; loco aſpirationis ipfū",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum \u00e6toles \u017fpintus a\u017fpertatem effugi\u00e9tes ubiq; loco a\u017fpirationis ipf\u016b",
         "wer": 45.45454545454545,
         "cer": 8.641975308641975,
         "accuracy": 92.5925925925926,
         "time": 3.2817039489746094
     },
     "claude-4-sonnet": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare.Sane cum æoles ſpiritus aſperitatem effugietes ubiq; loco aſpirationis ipſu",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare.Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugietes ubiq; loco a\u017fpirationis ip\u017fu",
         "wer": 36.36363636363637,
         "cer": 3.7037037037037033,
         "accuracy": 96.29629629629629,
         "time": 3.8750548362731934
     },
     "claude-4-opus": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum æoles ſpiritus aſpiritatem effugiẽtes ubicꝙ loco aſpirationis ipſũ",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fpiritatem effugi\u1ebdtes ubic\ua759 loco a\u017fpirationis ip\u017f\u0169",
         "wer": 18.181818181818183,
         "cer": 3.7037037037037033,
         "accuracy": 96.29629629629629,
         "time": 5.4448158740997314
     },
     "gemini-2.5-flash": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum æoles ſpiritus afperitatem effugietes ubiq; loco afpirationis ipſiū",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum \u00e6oles \u017fpiritus afperitatem effugietes ubiq; loco afpirationis ip\u017fi\u016b",
         "wer": 36.36363636363637,
         "cer": 6.172839506172839,
         "accuracy": 93.90243902439023,
         "time": 6.932272911071777
     },
     "gemini-2.5-pro": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum æoles ſpiritus aſperitatem effugiétes ubiq; loco aſpirationis ipſū",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u00e9tes ubiq; loco a\u017fpirationis ip\u017f\u016b",
         "wer": 18.181818181818183,
         "cer": 2.4691358024691357,
         "accuracy": 97.53086419753086,
         "time": 12.18848204612732
     },
     "o4-mini": {
-        "gt": "nare. Sane cum æoles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
-        "response": "nare. Sane cum voles ſpiritus aſperitatem effugiẽtes ubiq; loco aſpirationis ipſũ",
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum voles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
         "wer": 9.090909090909092,
         "cer": 1.2345679012345678,
         "accuracy": 98.76543209876543,
         "time": 26.781651973724365
+    },
+    "gpt-5-mini": {
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum xoles \u017fpiritus a\u017fperitatem effugientes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "wer": 18.181818181818183,
+        "cer": 3.7037037037037033,
+        "accuracy": 96.34146341463415,
+        "time": 19.858024835586548
+    },
+    "gpt-5": {
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum uocales \u017fpiritus a\u017fperitatem effugientes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "wer": 18.181818181818183,
+        "cer": 6.172839506172839,
+        "accuracy": 94.04761904761905,
+        "time": 75.82524800300598
     }
 }

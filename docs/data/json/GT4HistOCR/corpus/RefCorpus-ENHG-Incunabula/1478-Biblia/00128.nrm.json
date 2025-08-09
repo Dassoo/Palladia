@@ -1,22 +1,22 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
-        "response": "men alſodane reden hebben ſe vns geantwo</pre>",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fodane reden hebben \u017fe vns geantwo</pre>",
         "wer": 14.285714285714285,
         "cer": 12.195121951219512,
         "accuracy": 89.13043478260869,
         "time": 0.8831892013549805
     },
     "mistral-small": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
-        "response": "men alſodane reden hebben ſe ſns geantwor",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fodane reden hebben \u017fe \u017fns geantwor",
         "wer": 14.285714285714285,
         "cer": 2.4390243902439024,
         "accuracy": 97.5609756097561,
         "time": 1.1407349109649658
     },
     "spotlight": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
         "response": "men alsodane reden hebben se vns geantwor",
         "wer": 28.57142857142857,
         "cer": 4.878048780487805,
@@ -24,43 +24,59 @@
         "time": 1.3232948780059814
     },
     "gpt-4.1": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
-        "response": "men alsodane reden hebben ſe vnſ geantwort",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men alsodane reden hebben \u017fe vn\u017f geantwort",
         "wer": 42.857142857142854,
         "cer": 7.317073170731707,
         "accuracy": 92.85714285714286,
         "time": 1.7852318286895752
     },
     "gpt-4o": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
-        "response": "men alsodane reden hebben ſe ons geantwor",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men alsodane reden hebben \u017fe ons geantwor",
         "wer": 28.57142857142857,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 2.205889940261841
     },
     "claude-4-opus": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
-        "response": "men alſo dane wden hebben ſe vns geantwoꝛ",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fo dane wden hebben \u017fe vns geantwo\ua75b",
         "wer": 57.14285714285714,
         "cer": 9.75609756097561,
         "accuracy": 92.6829268292683,
         "time": 3.3008761405944824
     },
     "claude-4-sonnet": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
-        "response": "men alſodane æden hebben ſe vns geantwoꝛ",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fodane \u00e6den hebben \u017fe vns geantwo\ua75b",
         "wer": 28.57142857142857,
         "cer": 7.317073170731707,
         "accuracy": 92.6829268292683,
         "time": 3.3061628341674805
     },
     "qwen-2.5-vl-72b": {
-        "gt": "men alſodane reden hebben ſe vns geantwor",
-        "response": "men alſodane ſeden hebben ſe vns geantwor",
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fodane \u017feden hebben \u017fe vns geantwor",
         "wer": 14.285714285714285,
         "cer": 2.4390243902439024,
         "accuracy": 97.5609756097561,
         "time": 4.4567790031433105
+    },
+    "gpt-5-mini": {
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 15.071858882904053
+    },
+    "gpt-5": {
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "\u00b7 men al\u017fodane reden hebben \u017fe vns geantwor",
+        "wer": 14.285714285714285,
+        "cer": 4.878048780487805,
+        "accuracy": 95.34883720930233,
+        "time": 26.498213052749634
     }
 }

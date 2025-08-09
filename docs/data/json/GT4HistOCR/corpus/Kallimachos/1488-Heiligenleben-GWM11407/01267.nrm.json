@@ -1,6 +1,6 @@
 {
     "spotlight": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
         "response": "wie vnmenschlich ist den iuden das sie sich zu",
         "wer": 55.55555555555556,
         "cer": 10.869565217391305,
@@ -8,59 +8,75 @@
         "time": 1.7324159145355225
     },
     "mistral-small": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
-        "response": "wie vnmenſchlich iſt Den iuden das fie fich zu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft Den iuden das fie fich zu",
         "wer": 44.44444444444444,
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 1.738581895828247
     },
     "qwen-2.5-vl-72b": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
-        "response": "wie vnmenſchlich iſt den iuden das fie fich zu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das fie fich zu",
         "wer": 33.33333333333333,
         "cer": 6.521739130434782,
         "accuracy": 93.47826086956522,
         "time": 2.0101985931396484
     },
     "gpt-4.1": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
-        "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich zu",
         "wer": 11.11111111111111,
         "cer": 2.1739130434782608,
         "accuracy": 97.82608695652173,
         "time": 2.2605350017547607
     },
     "gpt-4o": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
-        "response": "wie unmenschlich iſt den iuden daſs ſie ſich zu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie unmenschlich i\u017ft den iuden da\u017fs \u017fie \u017fich zu",
         "wer": 33.33333333333333,
         "cer": 8.695652173913043,
         "accuracy": 91.48936170212765,
         "time": 2.754693031311035
     },
     "claude-4-sonnet": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
-        "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich zu",
         "wer": 11.11111111111111,
         "cer": 2.1739130434782608,
         "accuracy": 97.82608695652173,
         "time": 3.2000410556793213
     },
     "claude-4-opus": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
-        "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich zu",
         "wer": 11.11111111111111,
         "cer": 2.1739130434782608,
         "accuracy": 97.82608695652173,
         "time": 5.455812215805054
     },
     "llama-4-maverick-17b": {
-        "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
-        "response": "wie vnmenſchlich iſt den iuden das fie fich zu",
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das fie fich zu",
         "wer": 33.33333333333333,
         "cer": 6.521739130434782,
         "accuracy": 93.47826086956522,
         "time": 12.533933162689209
+    },
+    "gpt-5-mini": {
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich zu",
+        "wer": 11.11111111111111,
+        "cer": 2.1739130434782608,
+        "accuracy": 97.82608695652173,
+        "time": 15.40056586265564
+    },
+    "gpt-5": {
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich zu",
+        "wer": 11.11111111111111,
+        "cer": 2.1739130434782608,
+        "accuracy": 97.82608695652173,
+        "time": 30.200271129608154
     }
 }

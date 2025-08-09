@@ -1,90 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hęc Corinthiñ egerat: lidem cũ oppugnarctur l'o.",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0119c Corinthi\u00f1 egerat: lidem c\u0169 oppugnarctur l'o.",
         "wer": 66.66666666666666,
         "cer": 16.39344262295082,
         "accuracy": 85.24590163934425,
         "time": 1.5032927989959717
     },
     "mistral-small": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hæc Corinthij egerat, idem cum oppugnarent Po.",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u00e6c Corinthij egerat, idem cum oppugnarent Po.",
         "wer": 66.66666666666666,
         "cer": 14.754098360655737,
         "accuracy": 86.88524590163934,
         "time": 1.504467248916626
     },
     "qwen-2.5-vl-72b": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hæc Corinthijegerat.lidem cum oppugnarctur Po-",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u00e6c Corinthijegerat.lidem cum oppugnarctur Po-",
         "wer": 66.66666666666666,
         "cer": 11.475409836065573,
         "accuracy": 88.52459016393442,
         "time": 1.8322522640228271
     },
     "gpt-4.1": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hœc Corinthij egerāt. Iidem cùm oppugnarętur Po.",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0153c Corinthij eger\u0101t. Iidem c\u00f9m oppugnare\u0328tur Po.",
         "wer": 44.44444444444444,
         "cer": 6.557377049180328,
         "accuracy": 93.54838709677419,
         "time": 1.9516258239746094
     },
     "spotlight": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hēc Corinthiāgerāt. lidem cūm oppugnarctur Po-",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0113c Corinthi\u0101ger\u0101t. lidem c\u016bm oppugnarctur Po-",
         "wer": 66.66666666666666,
         "cer": 13.114754098360656,
         "accuracy": 86.88524590163934,
         "time": 2.079334020614624
     },
     "gpt-4o": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hęc Corinthij egerāt. Idem cùm oppugnarĉtur Po.",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0119c Corinthij eger\u0101t. Idem c\u00f9m oppugnarc\u0302tur Po.",
         "wer": 44.44444444444444,
         "cer": 8.19672131147541,
         "accuracy": 93.44262295081968,
         "time": 3.4501969814300537
     },
     "claude-4-sonnet": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hæc Corinthij egerãt. Idem cũm oppugnarctur Po-",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u00e6c Corinthij eger\u00e3t. Idem c\u0169m oppugnarctur Po-",
         "wer": 44.44444444444444,
         "cer": 6.557377049180328,
         "accuracy": 93.44262295081968,
         "time": 3.9328250885009766
     },
     "claude-4-opus": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratím enim hęc Corinthij egerāt. Iídem cùm oppugnarētur Po-",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "parat\u00edm enim h\u0119c Corinthij eger\u0101t. I\u00eddem c\u00f9m oppugnar\u0113tur Po-",
         "wer": 44.44444444444444,
         "cer": 6.557377049180328,
         "accuracy": 93.44262295081968,
         "time": 4.603960037231445
     },
     "gemini-2.5-flash": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratím eníum hęc Corinthíę ęgerāt.ídem dùm oppugnarętur Pō.",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "parat\u00edm en\u00edum h\u0119c Corinth\u00ed\u0119 \u0119ger\u0101t.\u00eddem d\u00f9m oppugnar\u0119tur P\u014d.",
         "wer": 88.88888888888889,
         "cer": 22.950819672131146,
         "accuracy": 78.68852459016394,
         "time": 9.406681776046753
     },
     "o4-mini": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratim enim hęc Corinthī egerāt. idem cùm oppugnarctur I’o.",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0119c Corinth\u012b eger\u0101t. idem c\u00f9m oppugnarctur I\u2019o.",
         "wer": 55.55555555555556,
         "cer": 13.114754098360656,
         "accuracy": 88.52459016393442,
         "time": 30.4270977973938
     },
     "gemini-2.5-pro": {
-        "gt": "paratim enim hęc Corinthij egerãt. Iidem cùm oppugnaretur Po-",
-        "response": "paratím enim hęc Corinthij egerāt. Iidem cùm oppugnaretur Po,",
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "parat\u00edm enim h\u0119c Corinthij eger\u0101t. Iidem c\u00f9m oppugnaretur Po,",
         "wer": 33.33333333333333,
         "cer": 4.918032786885246,
         "accuracy": 95.08196721311475,
         "time": 85.17901492118835
+    },
+    "gpt-5-mini": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u00e6c Corinthij eger\u0101t. Iidem c\u00f9m oppugnarctur Po-",
+        "wer": 33.33333333333333,
+        "cer": 4.918032786885246,
+        "accuracy": 95.08196721311475,
+        "time": 18.69034481048584
+    },
+    "gpt-5": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u00e6c Corinthij eger\u0101t. Iidem c\u00f9m oppugnarentur Po,",
+        "wer": 44.44444444444444,
+        "cer": 6.557377049180328,
+        "accuracy": 93.54838709677419,
+        "time": 60.16326117515564
     }
 }

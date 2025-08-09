@@ -1,6 +1,6 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
         "response": "Belli Peloponnefiaci",
         "wer": 50.0,
         "cer": 5.0,
@@ -8,7 +8,7 @@
         "time": 1.0128960609436035
     },
     "mistral-small": {
-        "gt": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
         "response": "Belli Peloponnesiaci",
         "wer": 50.0,
         "cer": 5.0,
@@ -16,7 +16,7 @@
         "time": 1.0826051235198975
     },
     "spotlight": {
-        "gt": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
         "response": "Belli Peloponnesiacti",
         "wer": 50.0,
         "cer": 10.0,
@@ -24,7 +24,7 @@
         "time": 1.2214241027832031
     },
     "qwen-2.5-vl-72b": {
-        "gt": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
         "response": "Belli Peloponnesiaci",
         "wer": 50.0,
         "cer": 5.0,
@@ -32,59 +32,75 @@
         "time": 1.229383945465088
     },
     "gpt-4o": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.30104398727417
     },
     "gpt-4.1": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.3475608825683594
     },
     "gemini-2.5-flash": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.498504161834717
     },
     "claude-4-sonnet": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.7258591651916504
     },
     "claude-4-opus": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 7.602694034576416
     },
     "gemini-2.5-pro": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponneſiaci",
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 7.9095070362091064
     },
     "o4-mini": {
-        "gt": "Belli Peloponneſiaci",
-        "response": "Belli Peloponnesſiact",
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnes\u017fiact",
         "wer": 50.0,
         "cer": 10.0,
         "accuracy": 90.47619047619048,
         "time": 11.486573934555054
+    },
+    "gpt-5-mini": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 17.975059986114502
+    },
+    "gpt-5": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 28.497808933258057
     }
 }

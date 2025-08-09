@@ -1,90 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatione paulò poſt initium,ubi in margine hæc uerba ſunt, Armo-",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium,ubi in margine h\u00e6c uerba \u017funt, Armo-",
         "wer": 16.666666666666664,
         "cer": 1.4084507042253522,
         "accuracy": 98.59154929577466,
         "time": 1.253795862197876
     },
     "mistral-small": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Praefatione paulo poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Praefatione paulo po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
         "wer": 16.666666666666664,
         "cer": 4.225352112676056,
         "accuracy": 95.83333333333334,
         "time": 1.4034631252288818
     },
     "spotlight": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Praefatione paulò post initium,ubi in margine hæc uerba sunt, Armo",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Praefatione paul\u00f2 post initium,ubi in margine h\u00e6c uerba sunt, Armo",
         "wer": 50.0,
         "cer": 8.450704225352112,
         "accuracy": 92.95774647887323,
         "time": 1.4138758182525635
     },
     "gpt-4.1": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.0930581092834473
     },
     "gpt-4o": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "riſ Praſatione paulò pòſt initium, ubi in margine hæc uerba ſunt, Armo-",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ri\u017f Pra\u017fatione paul\u00f2 p\u00f2\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
         "wer": 25.0,
         "cer": 5.633802816901409,
         "accuracy": 94.36619718309859,
         "time": 2.437955141067505
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatìone paulò poſt initium,ubi in margine hæc verba ſunt, Armo·",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fat\u00econe paul\u00f2 po\u017ft initium,ubi in margine h\u00e6c verba \u017funt, Armo\u00b7",
         "wer": 41.66666666666667,
         "cer": 5.633802816901409,
         "accuracy": 94.36619718309859,
         "time": 2.849374771118164
     },
     "gemini-2.5-flash": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatione paulò poſt initium,ubi in margine hæc verba ſunt, Armo",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium,ubi in margine h\u00e6c verba \u017funt, Armo",
         "wer": 33.33333333333333,
         "cer": 4.225352112676056,
         "accuracy": 95.77464788732394,
         "time": 2.9853081703186035
     },
     "claude-4-sonnet": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatione paulo poſt initium, ubi in margine hæc verba ſunt, Armo-",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paulo po\u017ft initium, ubi in margine h\u00e6c verba \u017funt, Armo-",
         "wer": 16.666666666666664,
         "cer": 2.8169014084507045,
         "accuracy": 97.1830985915493,
         "time": 3.296454906463623
     },
     "claude-4-opus": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatione paulo poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paulo po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
         "wer": 8.333333333333332,
         "cer": 1.4084507042253522,
         "accuracy": 98.59154929577466,
         "time": 4.392506122589111
     },
     "o4-mini": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfaſtione paulo poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fa\u017ftione paulo po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
         "wer": 16.666666666666664,
         "cer": 2.8169014084507045,
         "accuracy": 97.22222222222221,
         "time": 12.238976001739502
     },
     "gemini-2.5-pro": {
-        "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
-        "response": "ris Præfatione paulò poſt initium, ubíïn margine hæc verba ſunt, Armœ",
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ub\u00ed\u00efn margine h\u00e6c verba \u017funt, Arm\u0153",
         "wer": 33.33333333333333,
         "cer": 8.450704225352112,
         "accuracy": 91.54929577464789,
         "time": 32.704983949661255
+    },
+    "gpt-5-mini": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 15.79629898071289
+    },
+    "gpt-5": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium,ubi in margine h\u00e6c uerba \u017funt, Armo\u00b7",
+        "wer": 25.0,
+        "cer": 2.8169014084507045,
+        "accuracy": 97.1830985915493,
+        "time": 39.83708095550537
     }
 }

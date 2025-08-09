@@ -1,90 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras:& quas ex græcis acceperamus:noſtri ut antiquißimigracoy",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras:& quas ex gr\u00e6cis acceperamus:no\u017ftri ut antiqui\u00dfimigracoy",
         "wer": 50.0,
         "cer": 12.658227848101266,
         "accuracy": 89.87341772151899,
         "time": 1.3716349601745605
     },
     "mistral-small": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cuſt diciones noſtras: & quas ex græcis acceperamus: noſtri ut antiqſimi græci",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cu\u017ft diciones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiq\u017fimi gr\u00e6ci",
         "wer": 33.33333333333333,
         "cer": 8.860759493670885,
         "accuracy": 92.40506329113924,
         "time": 1.4940400123596191
     },
     "spotlight": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras: & quas ex græcis acceperamus: nostri ut antiqui migræcori",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: nostri ut antiqui migr\u00e6cori",
         "wer": 25.0,
         "cer": 10.126582278481013,
         "accuracy": 91.25,
         "time": 1.7708978652954102
     },
     "qwen-2.5-vl-72b": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras:& quas ex græcis acceperamus:noſtri ut antiqui græcorum",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras:& quas ex gr\u00e6cis acceperamus:no\u017ftri ut antiqui gr\u00e6corum",
         "wer": 50.0,
         "cer": 11.39240506329114,
         "accuracy": 91.13924050632912,
         "time": 2.144472122192383
     },
     "gpt-4.1": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras: & quas ex graecis acceperamus: noſtri ut antiquiſſimi graecorῡ",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex graecis acceperamus: no\u017ftri ut antiqui\u017f\u017fimi graecor\u1fe1",
         "wer": 25.0,
         "cer": 12.658227848101266,
         "accuracy": 88.23529411764706,
         "time": 2.134381055831909
     },
     "gpt-4o": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſsimi græcorƺ ",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiqui\u017fsimi gr\u00e6cor\u01ba ",
         "wer": 16.666666666666664,
         "cer": 8.860759493670885,
         "accuracy": 90.47619047619048,
         "time": 2.8316891193389893
     },
     "claude-4-sonnet": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones nostras: & quas ex græcis accepcramus: nostri ut antiquissimi græcorum",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones nostras: & quas ex gr\u00e6cis accepcramus: nostri ut antiquissimi gr\u00e6corum",
         "wer": 41.66666666666667,
         "cer": 15.18987341772152,
         "accuracy": 85.71428571428571,
         "time": 3.679788112640381
     },
     "gemini-2.5-flash": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiqviſsimi Græcoꝝ,",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiqvi\u017fsimi Gr\u00e6co\ua75d,",
         "wer": 16.666666666666664,
         "cer": 10.126582278481013,
         "accuracy": 90.36144578313254,
         "time": 3.771061897277832
     },
     "claude-4-opus": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras: & quas ex græcis acceperam⁹: noſui ut antiqlſimi græcoꝛ",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperam\u2079: no\u017fui ut antiql\u017fimi gr\u00e6co\ua75b",
         "wer": 33.33333333333333,
         "cer": 10.126582278481013,
         "accuracy": 91.13924050632912,
         "time": 4.889184951782227
     },
     "o4-mini": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictiones noſtras: & quas ex græcis accepteramus: nostri ut antiqſſimi græcor",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis accepteramus: nostri ut antiq\u017f\u017fimi gr\u00e6cor",
         "wer": 33.33333333333333,
         "cer": 6.329113924050633,
         "accuracy": 93.82716049382715,
         "time": 28.43130922317505
     },
     "gemini-2.5-pro": {
-        "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
-        "response": "cum dictionis noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſſimi græcoruꝣ,",
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictionis no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiqui\u017f\u017fimi gr\u00e6coru\ua763,",
         "wer": 25.0,
         "cer": 11.39240506329114,
         "accuracy": 89.41176470588236,
         "time": 133.61676907539368
+    },
+    "gpt-5-mini": {
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiqui\u017f\u017fimi gr\u00e6cor",
+        "wer": 16.666666666666664,
+        "cer": 6.329113924050633,
+        "accuracy": 93.90243902439023,
+        "time": 29.021153926849365
+    },
+    "gpt-5": {
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiqui\u017f\u017fimi gr\u00e6cor\u016b",
+        "wer": 16.666666666666664,
+        "cer": 7.59493670886076,
+        "accuracy": 92.7710843373494,
+        "time": 92.47088503837585
     }
 }

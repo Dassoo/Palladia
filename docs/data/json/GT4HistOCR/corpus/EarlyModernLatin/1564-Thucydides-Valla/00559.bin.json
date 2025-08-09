@@ -1,90 +1,106 @@
 {
     "mistral-small": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent, ſe ifta facturos, paratos ſe & ſancte promittere, dum",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe ifta facturos, paratos \u017fe & \u017fancte promittere, dum",
         "wer": 40.0,
         "cer": 10.294117647058822,
         "accuracy": 89.70588235294117,
         "time": 1.2890732288360596
     },
     "gpt-4.1": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent, ſe iſta facturos, paratosqꝫ eſſe & ſanctè promittere, dunt",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratosq\ua76b e\u017f\u017fe & \u017fanct\u00e8 promittere, dunt",
         "wer": 20.0,
         "cer": 5.88235294117647,
         "accuracy": 95.58823529411765,
         "time": 1.9531760215759277
     },
     "spotlight": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducement, se ista facturos, paratosæ & sancte promittere, dunt",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducement, se ista facturos, paratos\u00e6 & sancte promittere, dunt",
         "wer": 70.0,
         "cer": 22.058823529411764,
         "accuracy": 79.41176470588235,
         "time": 2.001462936401367
     },
     "llama-4-maverick-17b": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent,ſe iſta facturos,paratosſʳ eſſe & ſanctè promittere,dum",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent,\u017fe i\u017fta facturos,paratos\u017f\u02b3 e\u017f\u017fe & \u017fancte\u0300 promittere,dum",
         "wer": 70.0,
         "cer": 11.76470588235294,
         "accuracy": 89.70588235294117,
         "time": 2.1337008476257324
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent,ſe iſta facturos,paratosꝑ eſſe & ſancè promittere,dunt",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent,\u017fe i\u017fta facturos,paratos\ua751 e\u017f\u017fe & \u017fanc\u00e8 promittere,dunt",
         "wer": 70.0,
         "cer": 13.23529411764706,
         "accuracy": 88.23529411764706,
         "time": 2.5521819591522217
     },
     "gpt-4o": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent, ſe iſta facturos, paratosq́ue eſſe & ſanctè promittere, dumt",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301ue e\u017f\u017fe & \u017fanct\u00e8 promittere, dumt",
         "wer": 20.0,
         "cer": 4.411764705882353,
         "accuracy": 95.71428571428572,
         "time": 2.579414129257202
     },
     "claude-4-sonnet": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent, ſe iſta facturos, paratoſq́; eſſe & ſancte promittere, dum",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, parato\u017fq\u0301; e\u017f\u017fe & \u017fancte promittere, dum",
         "wer": 20.0,
         "cer": 2.941176470588235,
         "accuracy": 97.05882352941177,
         "time": 3.841214895248413
     },
     "claude-4-opus": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent,ſe iſta facturos,paratosq́; eſſe & ſancte promittere,dum",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent,\u017fe i\u017fta facturos,paratosq\u0301; e\u017f\u017fe & \u017fancte promittere,dum",
         "wer": 70.0,
         "cer": 5.88235294117647,
         "accuracy": 94.11764705882352,
         "time": 4.702986001968384
     },
     "gemini-2.5-flash": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dunt",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dunt",
         "wer": 10.0,
         "cer": 2.941176470588235,
         "accuracy": 97.10144927536231,
         "time": 5.860487937927246
     },
     "o4-mini": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent, ſe iſta facturos, paratosq̃ eſse & ſancte promittere, dum",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratosq\u0303 e\u017fse & \u017fancte promittere, dum",
         "wer": 30.0,
         "cer": 5.88235294117647,
         "accuracy": 94.11764705882352,
         "time": 20.075861930847168
     },
     "gemini-2.5-pro": {
-        "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
-        "response": "ducerent, ſe iſta facturos, paratosq́ eſſe & ſanctè promittere, dumt",
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301 e\u017f\u017fe & \u017fanct\u00e8 promittere, dumt",
         "wer": 20.0,
         "cer": 2.941176470588235,
         "accuracy": 98.52941176470588,
         "time": 27.795146226882935
+    },
+    "gpt-5-mini": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratosq\u0304 e\u017f\u017fe & \u017fanct\u0113 promittere, dum",
+        "wer": 20.0,
+        "cer": 4.411764705882353,
+        "accuracy": 95.58823529411765,
+        "time": 16.64052104949951
+    },
+    "gpt-5": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratosq; e\u017f\u017fe & \u017fanct\u00e8 promittere, dunt",
+        "wer": 20.0,
+        "cer": 4.411764705882353,
+        "accuracy": 97.05882352941177,
+        "time": 30.845517873764038
     }
 }

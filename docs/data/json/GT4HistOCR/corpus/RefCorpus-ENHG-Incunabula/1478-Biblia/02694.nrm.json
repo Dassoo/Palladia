@@ -1,14 +1,14 @@
 {
     "qwen-2.5-vl-72b": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
-        "response": "\"în éren leue-vnde oek nv în deme doode en fint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "\"\u00een \u00e9ren leue-vnde oek nv \u00een deme doode en fint",
         "wer": 66.66666666666666,
         "cer": 19.148936170212767,
         "accuracy": 85.1063829787234,
         "time": 2.926332950592041
     },
     "mistral-small": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
         "response": "In eren leue vnde oek nu in deme dote en fint",
         "wer": 41.66666666666667,
         "cer": 12.76595744680851,
@@ -16,15 +16,15 @@
         "time": 1.1697239875793457
     },
     "llama-4-maverick-17b": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
-        "response": "in ēren leue vnde oēk nv in dette doze en fint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in \u0113ren leue vnde o\u0113k nv in dette doze en fint",
         "wer": 50.0,
         "cer": 17.02127659574468,
         "accuracy": 85.1063829787234,
         "time": 1.1799638271331787
     },
     "spotlight": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
         "response": "in eren leue-unde oek nu in deme dode en fint",
         "wer": 41.66666666666667,
         "cer": 12.76595744680851,
@@ -32,43 +32,59 @@
         "time": 1.3308699131011963
     },
     "gpt-4.1": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
-        "response": "in eren leue ⁊ vnde oeck nv in deme dode en sint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in eren leue \u204a vnde oeck nv in deme dode en sint",
         "wer": 25.0,
         "cer": 6.382978723404255,
         "accuracy": 93.75,
         "time": 2.3115530014038086
     },
     "claude-4-sonnet": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
-        "response": "in êren leue-vnde oek nv in deme dode en fint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in \u00earen leue-vnde oek nv in deme dode en fint",
         "wer": 41.66666666666667,
         "cer": 10.638297872340425,
         "accuracy": 89.36170212765957,
         "time": 3.0140650272369385
     },
     "claude-4-opus": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
-        "response": "in ēren leue vnde oek nu in deme dode en ſint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in \u0113ren leue vnde oek nu in deme dode en \u017fint",
         "wer": 25.0,
         "cer": 8.51063829787234,
         "accuracy": 91.48936170212765,
         "time": 3.459178924560547
     },
     "gemini-2.5-flash": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
-        "response": "”in eren leue-rnſcë ock no m denne dode en ſuit",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "\u201din eren leue-rn\u017fc\u00eb ock no m denne dode en \u017fuit",
         "wer": 75.0,
         "cer": 34.04255319148936,
         "accuracy": 74.46808510638297,
         "time": 10.511241912841797
     },
     "gpt-4o": {
-        "gt": "in eren leue · vnde oek nv in deme dode en ſint",
-        "response": "in eeren leue vnde oœk nv in deme dode en fint",
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in eeren leue vnde o\u0153k nv in deme dode en fint",
         "wer": 33.33333333333333,
         "cer": 10.638297872340425,
         "accuracy": 91.48936170212765,
         "time": 1.6649787425994873
+    },
+    "gpt-5-mini": {
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in eeren leue-vnde ock nu in denne dode en \u017fint",
+        "wer": 58.333333333333336,
+        "cer": 17.02127659574468,
+        "accuracy": 87.2340425531915,
+        "time": 19.613140106201172
+    },
+    "gpt-5": {
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in eren leue vnde oeck nu in denne dode en \u017fint.",
+        "wer": 41.66666666666667,
+        "cer": 14.893617021276595,
+        "accuracy": 89.58333333333334,
+        "time": 72.86802697181702
     }
 }

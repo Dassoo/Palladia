@@ -13,7 +13,7 @@ models:
   link: https://platform.openai.com/docs/models/gpt-5-mini
 - provider: OpenAI
   id: gpt-5-nano-2025-08-07
-  enabled: true
+  enabled: false
   api_key_env: OPENAI_API_KEY
   standard_name: gpt-5-nano
   link: https://platform.openai.com/docs/models/gpt-5-nano

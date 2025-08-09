@@ -1,66 +1,82 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon·fone acaub·fone attita·fone fobay̆",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7fone acaub\u00b7fone attita\u00b7fone fobay\u0306",
         "wer": 90.9090909090909,
         "cer": 24.489795918367346,
         "accuracy": 77.55102040816327,
         "time": 0.8944377899169922
     },
     "mistral-small": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon·fone acaub·fone attita·fone ſobay",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7fone acaub\u00b7fone attita\u00b7fone \u017fobay",
         "wer": 81.81818181818183,
         "cer": 20.408163265306122,
         "accuracy": 79.59183673469387,
         "time": 1.036756992340088
     },
     "spotlight": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon·fone acaub·fone attita·fone fobay",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7fone acaub\u00b7fone attita\u00b7fone fobay",
         "wer": 90.9090909090909,
         "cer": 22.448979591836736,
         "accuracy": 77.55102040816327,
         "time": 1.2514300346374512
     },
     "gpt-4.1": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon·ſone acub·ſone attita·ſone ſobay·",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7\u017fone acub\u00b7\u017fone attita\u00b7\u017fone \u017fobay\u00b7",
         "wer": 90.9090909090909,
         "cer": 16.3265306122449,
         "accuracy": 85.71428571428571,
         "time": 1.6765780448913574
     },
     "gpt-4o": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon · sone acab · sone attita · sone ſobayͤ",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon \u00b7 sone acab \u00b7 sone attita \u00b7 sone \u017fobay\u0364",
         "wer": 45.45454545454545,
         "cer": 12.244897959183673,
         "accuracy": 89.79591836734694,
         "time": 1.9842240810394287
     },
     "claude-4-sonnet": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon·ſone acaib·ſone attita·ſone ſobay",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7\u017fone acaib\u00b7\u017fone attita\u00b7\u017fone \u017fobay",
         "wer": 81.81818181818183,
         "cer": 16.3265306122449,
         "accuracy": 83.6734693877551,
         "time": 2.830404758453369
     },
     "claude-4-opus": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon·ſone acaib·ſone atſita·ſone ſobay",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7\u017fone acaib\u00b7\u017fone at\u017fita\u00b7\u017fone \u017fobay",
         "wer": 81.81818181818183,
         "cer": 18.367346938775512,
         "accuracy": 81.63265306122449,
         "time": 3.8251960277557373
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ne tolmon · ſone accub · ſone attita · ſone ſobay",
-        "response": "ne tolmon·fone acaub·fone attita·fone fobay",
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7fone acaub\u00b7fone attita\u00b7fone fobay",
         "wer": 90.9090909090909,
         "cer": 22.448979591836736,
         "accuracy": 77.55102040816327,
         "time": 4.2107298374176025
+    },
+    "gpt-5-mini": {
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne wolmon\u00b7\u017fone acaub\u00b7\u017fone attita\u00b7\u017fone \u017fobaj",
+        "wer": 90.9090909090909,
+        "cer": 18.367346938775512,
+        "accuracy": 81.63265306122449,
+        "time": 12.859210014343262
+    },
+    "gpt-5": {
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7\u017fone acub\u00b7\u017fone attita\u00b7\u017fone \u017foba\u00ff",
+        "wer": 90.9090909090909,
+        "cer": 16.3265306122449,
+        "accuracy": 83.6734693877551,
+        "time": 87.82961773872375
     }
 }

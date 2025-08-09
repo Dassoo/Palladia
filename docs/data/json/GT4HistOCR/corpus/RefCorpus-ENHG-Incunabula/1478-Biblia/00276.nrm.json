@@ -1,14 +1,14 @@
 {
     "mistral-small": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
-        "response": "kes ſe hebben ſe geſchreuë een beklagin",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes \u017fe hebben \u017fe ge\u017fchreu\u00eb een beklagin",
         "wer": 33.33333333333333,
         "cer": 11.11111111111111,
         "accuracy": 89.74358974358975,
         "time": 1.1480062007904053
     },
     "spotlight": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
         "response": "kes hebben se geschreue een beklagin",
         "wer": 33.33333333333333,
         "cer": 8.333333333333332,
@@ -16,51 +16,67 @@
         "time": 1.2598280906677246
     },
     "gpt-4o": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
-        "response": "kes hebben ſe geſchreuen een beklagin",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe ge\u017fchreuen een beklagin",
         "wer": 16.666666666666664,
         "cer": 5.555555555555555,
         "accuracy": 94.5945945945946,
         "time": 1.6141741275787354
     },
     "gpt-4.1": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
-        "response": "kes hebben ſe geſchreuẽ een beklagin",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.7381739616394043
     },
     "claude-4-sonnet": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
-        "response": "kes hebben ſe geſchreue een beklagin",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe ge\u017fchreue een beklagin",
         "wer": 16.666666666666664,
         "cer": 2.7777777777777777,
         "accuracy": 97.22222222222221,
         "time": 2.689490795135498
     },
     "qwen-2.5-vl-72b": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
-        "response": "kes hebben ſe gſchreue een beklagin",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe g\u017fchreue een beklagin",
         "wer": 16.666666666666664,
         "cer": 5.555555555555555,
         "accuracy": 94.44444444444444,
         "time": 2.8394339084625244
     },
     "claude-4-opus": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
-        "response": "kes hebben ſe geſchreue een beklagĩ",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe ge\u017fchreue een beklag\u0129",
         "wer": 33.33333333333333,
         "cer": 8.333333333333332,
         "accuracy": 91.66666666666666,
         "time": 4.323385715484619
     },
     "llama-4-maverick-17b": {
-        "gt": "kes hebben ſe geſchreuẽ een beklagin",
-        "response": "kes ſhebben ſe geclaght hruē een beklagín",
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes \u017fhebben \u017fe geclaght hru\u0113 een beklag\u00edn",
         "wer": 66.66666666666666,
         "cer": 30.555555555555557,
         "accuracy": 78.04878048780488,
         "time": 9.840811014175415
+    },
+    "gpt-5-mini": {
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe geschreue een beklagin",
+        "wer": 16.666666666666664,
+        "cer": 5.555555555555555,
+        "accuracy": 94.44444444444444,
+        "time": 15.99303388595581
+    },
+    "gpt-5": {
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "des hebben \u017fe ge\u017fchriue\u0304 een beklagin",
+        "wer": 33.33333333333333,
+        "cer": 11.11111111111111,
+        "accuracy": 89.1891891891892,
+        "time": 74.04534411430359
     }
 }

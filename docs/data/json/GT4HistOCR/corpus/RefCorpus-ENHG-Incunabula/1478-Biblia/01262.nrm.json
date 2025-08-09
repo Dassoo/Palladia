@@ -1,66 +1,82 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "vñ van der tymmeringe des tempels. vñ van",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels. v\u00f1 van",
         "wer": 44.44444444444444,
         "cer": 16.27906976744186,
         "accuracy": 86.04651162790698,
         "time": 0.8510231971740723
     },
     "mistral-small": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "vñ van der tymmeringe des tempels-vnde vã",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels-vnde v\u00e3",
         "wer": 33.33333333333333,
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
         "time": 1.0068128108978271
     },
     "spotlight": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "vñ van der tymmeringe des tempels vn de vā",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels vn de v\u0101",
         "wer": 33.33333333333333,
         "cer": 9.30232558139535,
         "accuracy": 93.02325581395348,
         "time": 1.1985509395599365
     },
     "gpt-4o": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "vñ van der tymmeringe des tempels: unde vā",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels: unde v\u0101",
         "wer": 44.44444444444444,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 2.044304132461548
     },
     "gpt-4.1": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "vñ van der tymmeringe des tempels. vnde vā",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels. vnde v\u0101",
         "wer": 33.33333333333333,
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
         "time": 2.0585179328918457
     },
     "claude-4-sonnet": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "vñ van der tymmering des tempels. vnde va",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmering des tempels. vnde va",
         "wer": 44.44444444444444,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 2.823673963546753
     },
     "qwen-2.5-vl-72b": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "ýn van der tymmeringe des tempels·vnde vā",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "\u00fdn van der tymmeringe des tempels\u00b7vnde v\u0101",
         "wer": 55.55555555555556,
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 3.0924549102783203
     },
     "claude-4-opus": {
-        "gt": "vñ van der tymmeringe des tempels · vnde vã",
-        "response": "pñ van der tymmeringe des tempels. vnde vā",
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "p\u00f1 van der tymmeringe des tempels. vnde v\u0101",
         "wer": 44.44444444444444,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 3.978991985321045
+    },
+    "gpt-5-mini": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "vn van der tymmeringe des tempels\u00b7vnde v\u00e3",
+        "wer": 44.44444444444444,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 15.945873260498047
+    },
+    "gpt-5": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels. vnde v\u0101",
+        "wer": 33.33333333333333,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 52.28613591194153
     }
 }

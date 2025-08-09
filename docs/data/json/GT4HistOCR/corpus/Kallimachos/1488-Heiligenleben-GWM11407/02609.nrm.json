@@ -1,6 +1,6 @@
 {
     "qwen-2.5-vl-72b": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
         "response": "Den edlen Schatz offenwaren der welt zu eine",
         "wer": 50.0,
         "cer": 11.363636363636363,
@@ -8,59 +8,75 @@
         "time": 1.8627429008483887
     },
     "spotlight": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
-        "response": "Den edlen ſcharzoffenwaren der weſt zu eine",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fcharzoffenwaren der we\u017ft zu eine",
         "wer": 75.0,
         "cer": 15.909090909090908,
         "accuracy": 84.0909090909091,
         "time": 1.8890109062194824
     },
     "mistral-small": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
-        "response": "Den edlen ſchatz offenwaren Der welt zu einer",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fchatz offenwaren Der welt zu einer",
         "wer": 62.5,
         "cer": 13.636363636363635,
         "accuracy": 86.66666666666667,
         "time": 1.8941729068756104
     },
     "gpt-4.1": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
-        "response": "Den edlen ſchatz offemwaren der welt zu eineñ",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fchatz offemwaren der welt zu eine\u00f1",
         "wer": 62.5,
         "cer": 13.636363636363635,
         "accuracy": 86.66666666666667,
         "time": 2.278900146484375
     },
     "gpt-4o": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
-        "response": "Den edlen ſchwarz offinwaren der welt zu eine⸗",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fchwarz offinwaren der welt zu eine\u2e17",
         "wer": 62.5,
         "cer": 18.181818181818183,
         "accuracy": 82.6086956521739,
         "time": 2.346892833709717
     },
     "claude-4-sonnet": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
-        "response": "Den edlen ſchatz offenwaren Der welt zu einẽ",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fchatz offenwaren Der welt zu ein\u1ebd",
         "wer": 50.0,
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 3.909615993499756
     },
     "claude-4-opus": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
-        "response": "den edlen ſchatz offenwaren der welt zu einẽ",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "den edlen \u017fchatz offenwaren der welt zu ein\u1ebd",
         "wer": 25.0,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 4.375741958618164
     },
     "llama-4-maverick-17b": {
-        "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
         "response": "Den edlen fcharz offenwaren der wolt zu eine",
         "wer": 62.5,
         "cer": 15.909090909090908,
         "accuracy": 84.0909090909091,
         "time": 10.628501176834106
+    },
+    "gpt-5-mini": {
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fcharz offenbaren der welt zu ein\u1ebd",
+        "wer": 50.0,
+        "cer": 11.363636363636363,
+        "accuracy": 88.63636363636364,
+        "time": 31.02036142349243
+    },
+    "gpt-5": {
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fchatz offenbaren Der welt zu eine\u0304",
+        "wer": 75.0,
+        "cer": 15.909090909090908,
+        "accuracy": 84.44444444444444,
+        "time": 64.38871097564697
     }
 }

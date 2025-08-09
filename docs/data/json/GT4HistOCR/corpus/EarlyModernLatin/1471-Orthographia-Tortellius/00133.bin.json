@@ -1,90 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtrā tranſiermus illam fere femper fua t: iura &amp; noie ac poteltate coleruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u0101 tran\u017fiermus illam fere femper fua t: iura &amp; noie ac poteltate coleruamus.",
         "wer": 83.33333333333334,
         "cer": 21.25,
         "accuracy": 82.14285714285714,
         "time": 1.1908023357391357
     },
     "mistral-small": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtra tranſferimus illam fere ſemper ſua figura & noie ac potestate coleruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftra tran\u017fferimus illam fere \u017femper \u017fua figura & noie ac potestate coleruamus.",
         "wer": 33.33333333333333,
         "cer": 6.25,
         "accuracy": 93.75,
         "time": 1.663546085357666
     },
     "spotlight": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "nostrā tranſterimus illam fere ſemper ſua tigura & noie ac poteflate cōferuainus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "nostr\u0101 tran\u017fterimus illam fere \u017femper \u017fua tigura & noie ac poteflate c\u014dferuainus.",
         "wer": 50.0,
         "cer": 13.750000000000002,
         "accuracy": 86.41975308641975,
         "time": 1.799126148223877
     },
     "gpt-4.1": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtrā tranſferimus nullam fere ſemper ſua figura & noie ac potestate coſeruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftra\u0304 tran\u017fferimus nullam fere \u017femper \u017fua figura & noie ac potestate co\u017feruamus.",
         "wer": 41.66666666666667,
         "cer": 8.75,
         "accuracy": 91.46341463414635,
         "time": 2.22603702545166
     },
     "gpt-4o": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtrā tranſferimus ullam fere ſemper ſua figura & noie ac poteſtate coſeruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u0101 tran\u017fferimus ullam fere \u017femper \u017fua figura & noie ac pote\u017ftate co\u017feruamus.",
         "wer": 33.33333333333333,
         "cer": 5.0,
         "accuracy": 95.0,
         "time": 2.8615291118621826
     },
     "claude-4-sonnet": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtrā tranſcenmus illam fere ſemper ſua figura & noie ac poteſtate cōſeruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u0101 tran\u017fcenmus illam fere \u017femper \u017fua figura & noie ac pote\u017ftate c\u014d\u017feruamus.",
         "wer": 33.33333333333333,
         "cer": 7.5,
         "accuracy": 92.5,
         "time": 3.7041079998016357
     },
     "qwen-2.5-vl-72b": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "nostrá tranſferimus illam fere femper ſua figura & noſie ac potellate coleruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "nostr\u00e1 tran\u017fferimus illam fere femper \u017fua figura & no\u017fie ac potellate coleruamus.",
         "wer": 41.66666666666667,
         "cer": 11.25,
         "accuracy": 88.88888888888889,
         "time": 4.6383068561553955
     },
     "gemini-2.5-flash": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtra tranſferimus illam fere ſemper ſua figura & noie ac poteſtate obſeruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftra tran\u017fferimus illam fere \u017femper \u017fua figura & noie ac pote\u017ftate ob\u017feruamus.",
         "wer": 25.0,
         "cer": 5.0,
         "accuracy": 95.0,
         "time": 4.770859718322754
     },
     "claude-4-opus": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 5.13065505027771
     },
     "o4-mini": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtra tranſferimus illam fere ſemper ſua figura & noiſe ac potestate coſeruānus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftra tran\u017fferimus illam fere \u017femper \u017fua figura & noi\u017fe ac potestate co\u017ferua\u0304nus.",
         "wer": 33.33333333333333,
         "cer": 8.75,
         "accuracy": 91.46341463414635,
         "time": 39.51206588745117
     },
     "gemini-2.5-pro": {
-        "gt": "noſtrã tranſferimus illam fere ſemper ſua figura & noĩe ac poteſtate cõſeruamus.",
-        "response": "noſtrã tranſierimus illam fere ſemꝑ ſua figurã & noie ac poteſtate cōſeruamus.",
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u00e3 tran\u017fierimus illam fere \u017fem\ua751 \u017fua figur\u00e3 & noie ac pote\u017ftate co\u0304\u017feruamus.",
         "wer": 41.66666666666667,
         "cer": 10.0,
         "accuracy": 91.25,
         "time": 39.52072310447693
+    },
+    "gpt-5-mini": {
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftra tran\u017fferimus illam fere \u017femper \u017fua figura & voce ac potestate con\u017feruaumus.",
+        "wer": 33.33333333333333,
+        "cer": 8.75,
+        "accuracy": 91.46341463414635,
+        "time": 30.149534940719604
+    },
+    "gpt-5": {
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u0101 tran\u017fferimus ullam fere \u017femper \u017fua figura & noie ac pote\u017ftate con\u017feruamus.",
+        "wer": 33.33333333333333,
+        "cer": 6.25,
+        "accuracy": 93.82716049382715,
+        "time": 45.552162170410156
     }
 }

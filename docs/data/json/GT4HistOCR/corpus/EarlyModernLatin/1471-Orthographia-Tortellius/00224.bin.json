@@ -86,5 +86,21 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 5.240396976470947
+    },
+    "gpt-5-mini": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera G.",
+        "wer": 33.33333333333333,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 5.142472267150879
+    },
+    "gpt-5": {
+        "gt": "DE Littera C.",
+        "response": "DE Littera C.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 9.353689193725586
     }
 }

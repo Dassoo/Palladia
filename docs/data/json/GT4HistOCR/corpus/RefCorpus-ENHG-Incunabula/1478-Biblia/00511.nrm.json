@@ -1,22 +1,22 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
-        "response": "xṗi beſcͦuē heft. vn̄ Marcus wert figūrett ím",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "x\u1e57i be\u017fc\u0366ue\u0304 heft. vn\u0304 Marcus wert fig\u016brett \u00edm",
         "wer": 77.77777777777779,
         "cer": 29.78723404255319,
         "accuracy": 74.46808510638297,
         "time": 0.8683137893676758
     },
     "mistral-small": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
-        "response": "ſi beſchreuë heſt vn Marcus wirt figurert in",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "\u017fi be\u017fchreu\u00eb he\u017ft vn Marcus wirt figurert in",
         "wer": 66.66666666666666,
         "cer": 21.27659574468085,
         "accuracy": 80.85106382978722,
         "time": 1.3271939754486084
     },
     "spotlight": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
         "response": "xpi bescreue heft vn Marcus wert figurett in",
         "wer": 55.55555555555556,
         "cer": 14.893617021276595,
@@ -24,43 +24,59 @@
         "time": 1.453354835510254
     },
     "gpt-4.1": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
-        "response": "xpi beſchrib heſt· vñ Marcus wert figuͤrett in",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "xpi be\u017fchrib he\u017ft\u00b7 vn\u0303 Marcus wert figu\u0364rett in",
         "wer": 66.66666666666666,
         "cer": 23.404255319148938,
         "accuracy": 82.97872340425532,
         "time": 1.8813798427581787
     },
     "gpt-4o": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
-        "response": "xpi beſchüe heft· vn̄ Marcus wert figueret in",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "xpi be\u017fch\u00fce heft\u00b7 vn\u0304 Marcus wert figueret in",
         "wer": 66.66666666666666,
         "cer": 21.27659574468085,
         "accuracy": 85.1063829787234,
         "time": 2.1890671253204346
     },
     "claude-4-sonnet": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
-        "response": "rꝑi beſerue heſt· vñ Marcus wert figurert in",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "r\ua751i be\u017ferue he\u017ft\u00b7 v\u00f1 Marcus wert figurert in",
         "wer": 44.44444444444444,
         "cer": 17.02127659574468,
         "accuracy": 82.97872340425532,
         "time": 2.8188328742980957
     },
     "qwen-2.5-vl-72b": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
-        "response": "xpi bescreue heft·vn Marcus wert figurert in",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "xpi bescreue heft\u00b7vn Marcus wert figurert in",
         "wer": 55.55555555555556,
         "cer": 12.76595744680851,
         "accuracy": 87.2340425531915,
         "time": 3.260840892791748
     },
     "claude-4-opus": {
-        "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
-        "response": "rp̃i beſcwuẽ heſt · vñ Marcus wert figureert in",
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "rp\u0303i be\u017fcwu\u1ebd he\u017ft \u00b7 v\u00f1 Marcus wert figureert in",
         "wer": 44.44444444444444,
         "cer": 10.638297872340425,
         "accuracy": 91.48936170212765,
         "time": 7.004906892776489
+    },
+    "gpt-5-mini": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "r\u0304pi be\u017fcreue he\u017ft\u00b7 vn Marcus wert figuret in",
+        "wer": 66.66666666666666,
+        "cer": 17.02127659574468,
+        "accuracy": 85.1063829787234,
+        "time": 22.674556970596313
+    },
+    "gpt-5": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "xp\u0304i be\u017fchriue heft\u00b7 v\u00f1 Marcus wert figvrett in",
+        "wer": 55.55555555555556,
+        "cer": 14.893617021276595,
+        "accuracy": 87.2340425531915,
+        "time": 75.10524201393127
     }
 }

@@ -1,46 +1,46 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus afpiratione: nec eam plenam poffidet: ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus afpiratione: nec eam plenam poffidet: ut \u017fimili modo de b & d e\u017f\u017fe",
         "wer": 14.285714285714285,
         "cer": 4.054054054054054,
         "accuracy": 95.94594594594594,
         "time": 1.6270568370819092
     },
     "mistral-small": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam poſsidet: ut ſimili modo deb & deſse",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017fsidet: ut \u017fimili modo deb & de\u017fse",
         "wer": 35.714285714285715,
         "cer": 5.405405405405405,
         "accuracy": 94.5945945945946,
         "time": 1.688425064086914
     },
     "spotlight": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aspiratione:nec eam plenam possidet:ut simili modo deb & deſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus aspiratione:nec eam plenam possidet:ut simili modo deb & de\u017f\u017fe",
         "wer": 64.28571428571429,
         "cer": 10.81081081081081,
         "accuracy": 89.1891891891892,
         "time": 2.366875171661377
     },
     "gpt-4o": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.0085880756378174
     },
     "gpt-4.1": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam poſsidet: ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017fsidet: ut \u017fimili modo de b & d e\u017f\u017fe",
         "wer": 7.142857142857142,
         "cer": 1.3513513513513513,
         "accuracy": 98.64864864864865,
         "time": 3.1815030574798584
     },
     "qwen-2.5-vl-72b": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
         "response": "penitus aspiratione:nec eam plenam possidet:ut simili modo de b & d esse",
         "wer": 42.857142857142854,
         "cer": 10.81081081081081,
@@ -48,43 +48,59 @@
         "time": 4.245202302932739
     },
     "claude-4-sonnet": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.277139902114868
     },
     "gemini-2.5-flash": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 6.7560529708862305
     },
     "claude-4-opus": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 7.4217259883880615
     },
     "o4-mini": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & deſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & de\u017f\u017fe",
         "wer": 14.285714285714285,
         "cer": 1.3513513513513513,
         "accuracy": 98.64864864864865,
         "time": 7.841948986053467
     },
     "gemini-2.5-pro": {
-        "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
-        "response": "penitus aſpiratione:nec eam plenam poſſidet:ut ſimili modo de b & d eſſe",
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione:nec eam plenam po\u017f\u017fidet:ut \u017fimili modo de b & d e\u017f\u017fe",
         "wer": 28.57142857142857,
         "cer": 2.7027027027027026,
         "accuracy": 97.2972972972973,
         "time": 34.44007420539856
+    },
+    "gpt-5-mini": {
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 14.371330976486206
+    },
+    "gpt-5": {
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam, po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "wer": 7.142857142857142,
+        "cer": 1.3513513513513513,
+        "accuracy": 98.66666666666667,
+        "time": 24.234052181243896
     }
 }

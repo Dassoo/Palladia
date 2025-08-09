@@ -1,14 +1,14 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis; uel explicatis annotatur:Sed cum iuniores æoles refte Centforino faclius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis; uel explicatis annotatur:Sed cum iuniores \u00e6oles refte Centforino faclius",
         "wer": 63.63636363636363,
         "cer": 10.843373493975903,
         "accuracy": 90.36144578313254,
         "time": 1.37522292137146
     },
     "spotlight": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
         "response": "rationis: uel exilitatis annotatur: Sed cum iuniores zoles teste Censorino facilius",
         "wer": 27.27272727272727,
         "cer": 3.614457831325301,
@@ -16,75 +16,91 @@
         "time": 1.779088020324707
     },
     "gpt-4.1": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 1.9666330814361572
     },
     "qwen-2.5-vl-72b": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitatis annotatur:Sed cum iuniiores xoles teste Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur:Sed cum iuniiores xoles teste Cen\u017forino facilius",
         "wer": 45.45454545454545,
         "cer": 4.819277108433735,
         "accuracy": 96.3855421686747,
         "time": 2.0935239791870117
     },
     "gpt-4o": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitas annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitas annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
         "wer": 9.090909090909092,
         "cer": 2.4096385542168677,
         "accuracy": 97.59036144578313,
         "time": 2.5101158618927
     },
     "mistral-small": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitatiſ annotatur: Sed cum iuniores xoles teſte Cenforino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitati\u017f annotatur: Sed cum iuniores xoles te\u017fte Cenforino facilius",
         "wer": 27.27272727272727,
         "cer": 3.614457831325301,
         "accuracy": 96.3855421686747,
         "time": 2.9200358390808105
     },
     "gemini-2.5-flash": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.0113160610198975
     },
     "claude-4-sonnet": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitatis annotatur:Sed cum iuniores ædes teſte Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur:Sed cum iuniores \u00e6des te\u017fte Cen\u017forino facilius",
         "wer": 27.27272727272727,
         "cer": 3.614457831325301,
         "accuracy": 96.3855421686747,
         "time": 3.628674030303955
     },
     "claude-4-opus": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "tationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "tationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
         "wer": 9.090909090909092,
         "cer": 1.2048192771084338,
         "accuracy": 98.79518072289156,
         "time": 4.755951166152954
     },
     "gemini-2.5-pro": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores azoles teſte Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores azoles te\u017fte Cen\u017forino facilius",
         "wer": 9.090909090909092,
         "cer": 2.4096385542168677,
         "accuracy": 97.61904761904762,
         "time": 17.479172945022583
     },
     "o4-mini": {
-        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores æoles teſte Cenſorino facilius",
-        "response": "rationis: uel exultatīs annotatur: Sed cum iuniores aoles teste Cenſorino facilius",
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exultat\u012bs annotatur: Sed cum iuniores aoles teste Cen\u017forino facilius",
         "wer": 27.27272727272727,
         "cer": 6.024096385542169,
         "accuracy": 93.97590361445783,
         "time": 20.97015380859375
+    },
+    "gpt-5-mini": {
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6diles teste Censorino facilius",
+        "wer": 27.27272727272727,
+        "cer": 4.819277108433735,
+        "accuracy": 95.23809523809523,
+        "time": 31.036070108413696
+    },
+    "gpt-5": {
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 78.24071311950684
     }
 }

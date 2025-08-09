@@ -1,6 +1,6 @@
 {
     "mistral-small": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
         "response": "pfaffen vnd layen. Der Keyser fraget in ob er",
         "wer": 22.22222222222222,
         "cer": 6.666666666666667,
@@ -8,7 +8,7 @@
         "time": 1.382148265838623
     },
     "spotlight": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
         "response": "pfaffen und layen. Der Keyser fraget in ob er",
         "wer": 33.33333333333333,
         "cer": 8.88888888888889,
@@ -16,51 +16,67 @@
         "time": 1.4131412506103516
     },
     "qwen-2.5-vl-72b": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
-        "response": "pfaffen vnd layen.Der keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen.Der key\u017fer fraget in ob er",
         "wer": 22.22222222222222,
         "cer": 4.444444444444445,
         "accuracy": 95.55555555555556,
         "time": 1.67510986328125
     },
     "gpt-4o": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
-        "response": "pſaffen vnd layen. Der Keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "p\u017faffen vnd layen. Der Key\u017fer fraget in ob er",
         "wer": 33.33333333333333,
         "cer": 6.666666666666667,
         "accuracy": 93.33333333333333,
         "time": 1.966210126876831
     },
     "gpt-4.1": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
-        "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen. Der key\u017fer fraget in ob er",
         "wer": 11.11111111111111,
         "cer": 2.2222222222222223,
         "accuracy": 97.77777777777777,
         "time": 2.8103928565979004
     },
     "claude-4-sonnet": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
-        "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen. Der key\u017fer fraget in ob er",
         "wer": 11.11111111111111,
         "cer": 2.2222222222222223,
         "accuracy": 97.77777777777777,
         "time": 3.3805389404296875
     },
     "claude-4-opus": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
-        "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen. Der key\u017fer fraget in ob er",
         "wer": 11.11111111111111,
         "cer": 2.2222222222222223,
         "accuracy": 97.77777777777777,
         "time": 4.137082815170288
     },
     "llama-4-maverick-17b": {
-        "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
-        "response": "pfaffen vnd layen.Der keyſer fraget in ob er",
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen.Der key\u017fer fraget in ob er",
         "wer": 22.22222222222222,
         "cer": 4.444444444444445,
         "accuracy": 95.55555555555556,
         "time": 11.067753076553345
+    },
+    "gpt-5-mini": {
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen. Der key\u017fer fraget in ob er",
+        "wer": 11.11111111111111,
+        "cer": 2.2222222222222223,
+        "accuracy": 97.77777777777777,
+        "time": 5.998159170150757
+    },
+    "gpt-5": {
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen. Der Key\u017fer fraget in ob er",
+        "wer": 22.22222222222222,
+        "cer": 4.444444444444445,
+        "accuracy": 95.55555555555556,
+        "time": 25.696916818618774
     }
 }

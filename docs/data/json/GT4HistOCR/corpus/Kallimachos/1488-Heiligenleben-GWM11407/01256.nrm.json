@@ -1,6 +1,6 @@
 {
     "mistral-small": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
         "response": "Zu cinem mal gieng Macharius ein lang",
         "wer": 42.857142857142854,
         "cer": 7.894736842105263,
@@ -8,7 +8,7 @@
         "time": 1.6684720516204834
     },
     "qwen-2.5-vl-72b": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
         "response": "Zu einem mal gieng Macharius ein lange",
         "wer": 14.285714285714285,
         "cer": 2.631578947368421,
@@ -16,7 +16,7 @@
         "time": 1.8167541027069092
     },
     "spotlight": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
         "response": "Zu cinem mal gieng Macharius ein lange",
         "wer": 28.57142857142857,
         "cer": 5.263157894736842,
@@ -24,15 +24,15 @@
         "time": 1.8290340900421143
     },
     "gpt-4.1": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
-        "response": "Zu cinco mal gieng Nacharius ein ſange",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "Zu cinco mal gieng Nacharius ein \u017fange",
         "wer": 57.14285714285714,
         "cer": 15.789473684210526,
         "accuracy": 84.21052631578947,
         "time": 1.9615800380706787
     },
     "gpt-4o": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
         "response": "Zu einem mal gieng Zacharius ein lange ",
         "wer": 28.57142857142857,
         "cer": 5.263157894736842,
@@ -40,27 +40,43 @@
         "time": 2.352368116378784
     },
     "claude-4-sonnet": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
-        "response": "Zů einem mal gieng Macharius ein lange",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "Z\u016f einem mal gieng Macharius ein lange",
         "wer": 14.285714285714285,
         "cer": 5.263157894736842,
         "accuracy": 94.73684210526315,
         "time": 3.2851359844207764
     },
     "claude-4-opus": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
-        "response": "Zu einem mal gieng Macharius ein ſancte",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "Zu einem mal gieng Macharius ein \u017fancte",
         "wer": 28.57142857142857,
         "cer": 10.526315789473683,
         "accuracy": 89.74358974358975,
         "time": 3.7673048973083496
     },
     "llama-4-maverick-17b": {
-        "gt": "Ʒu einem mal gieng Macharius ein lange",
-        "response": "Zů cĩcm inal gieng 〔Zacharias cin fange",
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "Z\u016f c\u0129cm inal gieng \u3014Zacharias cin fange",
         "wer": 85.71428571428571,
         "cer": 34.21052631578947,
         "accuracy": 69.23076923076923,
         "time": 10.827135801315308
+    },
+    "gpt-5-mini": {
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "Zu einem mal gieng Macharius ein \u017fantz",
+        "wer": 28.57142857142857,
+        "cer": 10.526315789473683,
+        "accuracy": 89.47368421052632,
+        "time": 20.078468084335327
+    },
+    "gpt-5": {
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "Zu einem mal gieng Macharius ein lange",
+        "wer": 14.285714285714285,
+        "cer": 2.631578947368421,
+        "accuracy": 97.36842105263158,
+        "time": 43.21723985671997
     }
 }

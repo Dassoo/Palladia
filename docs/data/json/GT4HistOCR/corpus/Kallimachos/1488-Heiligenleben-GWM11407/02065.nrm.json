@@ -1,66 +1,82 @@
 {
     "qwen-2.5-vl-72b": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "hen.vnd das sie Sy spinnēweb la vor fahen.Da",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "hen.vnd das sie Sy spinn\u0113web la vor fahen.Da",
         "wer": 100.0,
         "cer": 24.444444444444443,
         "accuracy": 77.77777777777779,
         "time": 2.0609750747680664
     },
     "mistral-small": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "Ben. vnd ſaſſie ſy ſpinnēwech ſa voſ ſahen.",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Ben. vnd \u017fa\u017f\u017fie \u017fy \u017fpinn\u0113wech \u017fa vo\u017f \u017fahen.",
         "wer": 80.0,
         "cer": 26.666666666666668,
         "accuracy": 75.55555555555556,
         "time": 2.0943360328674316
     },
     "gpt-4o": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "Den. vnᵭ Daſſie So ſpinner erbs La vor. ſahen. Sa",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Den. vn\u1d6d Da\u017f\u017fie So \u017fpinner erbs La vor. \u017fahen. Sa",
         "wer": 90.0,
         "cer": 33.33333333333333,
         "accuracy": 69.38775510204081,
         "time": 2.360705852508545
     },
     "gpt-4.1": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "hen. vnd das ſie dy ſpinnēweb da vor ſahen. da",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "hen. vnd das \u017fie dy \u017fpinn\u0113web da vor \u017fahen. da",
         "wer": 30.0,
         "cer": 6.666666666666667,
         "accuracy": 93.47826086956522,
         "time": 2.511168956756592
     },
     "spotlight": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "Hen. und das sie ihr spinnëweb la vor sahen. da",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Hen. und das sie ihr spinn\u00ebweb la vor sahen. da",
         "wer": 90.0,
         "cer": 26.666666666666668,
         "accuracy": 74.46808510638297,
         "time": 3.6948182582855225
     },
     "claude-4-sonnet": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "Hen vnd da ſie dy ſpinnereb da vor ſahen. da",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Hen vnd da \u017fie dy \u017fpinnereb da vor \u017fahen. da",
         "wer": 30.0,
         "cer": 11.11111111111111,
         "accuracy": 88.88888888888889,
         "time": 3.8424160480499268
     },
     "claude-4-opus": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "ſehen.vnd da ſie Ihn ſpinneweb da vor ſahen.da",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "\u017fehen.vnd da \u017fie Ihn \u017fpinneweb da vor \u017fahen.da",
         "wer": 70.0,
         "cer": 20.0,
         "accuracy": 84.78260869565217,
         "time": 6.484057903289795
     },
     "llama-4-maverick-17b": {
-        "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
-        "response": "Gen.vnd Da ſie Dy ſpinnērech Da voz ſahen. Da",
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Gen.vnd Da \u017fie Dy \u017fpinn\u0113rech Da voz \u017fahen. Da",
         "wer": 80.0,
         "cer": 24.444444444444443,
         "accuracy": 77.77777777777779,
         "time": 10.610194206237793
+    },
+    "gpt-5-mini": {
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Den. vnd da \u017fie dy \u017fpinnereb da vor \u017fahen. da",
+        "wer": 30.0,
+        "cer": 8.88888888888889,
+        "accuracy": 91.11111111111111,
+        "time": 16.39660096168518
+    },
+    "gpt-5": {
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "hen. vnd Da \u017fie \u017fpinn\u0113nd Da vor \u017fahen. \u017fa",
+        "wer": 60.0,
+        "cer": 24.444444444444443,
+        "accuracy": 75.55555555555556,
+        "time": 111.09793162345886
     }
 }

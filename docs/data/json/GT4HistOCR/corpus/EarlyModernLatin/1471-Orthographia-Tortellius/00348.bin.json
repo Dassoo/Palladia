@@ -1,90 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "afpirationem gerentem conceperunt: quá pro .ch. q̃ pulcherrime ponunt:nec nõ &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "afpirationem gerentem conceperunt: qu\u00e1 pro .ch. q\u0303 pulcherrime ponunt:nec n\u00f5 &",
         "wer": 63.63636363636363,
         "cer": 11.538461538461538,
         "accuracy": 91.02564102564102,
         "time": 1.5027861595153809
     },
     "spotlight": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aspirationem gerentem conceperunt:quá pro.th.ãpulcherrime ponunt:nec nó &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "aspirationem gerentem conceperunt:qu\u00e1 pro.th.\u00e3pulcherrime ponunt:nec n\u00f3 &",
         "wer": 81.81818181818183,
         "cer": 11.538461538461538,
         "accuracy": 88.46153846153845,
         "time": 1.641808032989502
     },
     "mistral-small": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "alſpirationem gerentem conceperunt: quâ pro th. qpulcherrime ponunt: nec nó &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "al\u017fpirationem gerentem conceperunt: qu\u00e2 pro th. qpulcherrime ponunt: nec n\u00f3 &",
         "wer": 45.45454545454545,
         "cer": 7.6923076923076925,
         "accuracy": 93.58974358974359,
         "time": 1.9061710834503174
     },
     "qwen-2.5-vl-72b": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aspirationem gerentem conceperunt: quá pro.th.ꝑpulcherrime ponunt: nec nó &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "aspirationem gerentem conceperunt: qu\u00e1 pro.th.\ua751pulcherrime ponunt: nec n\u00f3 &",
         "wer": 54.54545454545454,
         "cer": 8.974358974358974,
         "accuracy": 91.02564102564102,
         "time": 1.9787063598632812
     },
     "gpt-4.1": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem conceperunt: qui pro. th. q̃pulcherrime ponunt: nec nō &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt: qui pro. th. q\u0303pulcherrime ponunt: nec n\u014d &",
         "wer": 27.27272727272727,
         "cer": 5.128205128205128,
         "accuracy": 94.87179487179486,
         "time": 2.2240500450134277
     },
     "gpt-4o": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem conceperunt: qui pro: th.  ꝓpulcherrime ponunt: nec nō &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt: qui pro: th.  \ua753pulcherrime ponunt: nec n\u014d &",
         "wer": 36.36363636363637,
         "cer": 6.41025641025641,
         "accuracy": 93.58974358974359,
         "time": 2.3862431049346924
     },
     "claude-4-sonnet": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem concepērunt: qua pro.th.q́pulcherrime ponunt: nec nõ &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem concep\u0113runt: qua pro.th.q\u0301pulcherrime ponunt: nec n\u00f5 &",
         "wer": 45.45454545454545,
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 4.291549921035767
     },
     "claude-4-opus": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem conceperunt: quã pro. d. q̃ pulcherrime ponunt: nec nõ &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. d. q\u0303 pulcherrime ponunt: nec n\u00f5 &",
         "wer": 27.27272727272727,
         "cer": 6.41025641025641,
         "accuracy": 94.87179487179486,
         "time": 4.866655111312866
     },
     "gemini-2.5-flash": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem conceperunt: quia pro. th̄. q̃pulcherime ponunt: nec nō &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt: quia pro. th\u0304. q\u0303pulcherime ponunt: nec n\u014d &",
         "wer": 36.36363636363637,
         "cer": 8.974358974358974,
         "accuracy": 92.40506329113924,
         "time": 7.847480058670044
     },
     "o4-mini": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem conceperunt: quā pro.th.ꝑpulcherrime ponunt: nec nō &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt: qu\u0101 pro.th.\ua751pulcherrime ponunt: nec n\u014d &",
         "wer": 45.45454545454545,
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 19.015483856201172
     },
     "gemini-2.5-pro": {
-        "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
-        "response": "aſpirationem gerentem conceperunt:quia pro th.q̃pulcherrime ponunt:nec nō &",
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt:quia pro th.q\u0303pulcherrime ponunt:nec no\u0304 &",
         "wer": 72.72727272727273,
         "cer": 12.82051282051282,
         "accuracy": 89.74358974358975,
         "time": 44.70145916938782
+    },
+    "gpt-5-mini": {
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt: qu\u0101 pro.th. qpulcherrime ponunt: nec n\u014d &",
+        "wer": 45.45454545454545,
+        "cer": 6.41025641025641,
+        "accuracy": 93.58974358974359,
+        "time": 20.442677974700928
+    },
+    "gpt-5": {
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt: qui pro.th. q\u0365 pulcherrime ponunt: nec n\u014d &",
+        "wer": 45.45454545454545,
+        "cer": 7.6923076923076925,
+        "accuracy": 93.58974358974359,
+        "time": 62.45568799972534
     }
 }

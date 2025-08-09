@@ -62,5 +62,21 @@
         "avg_cer": 11.418058006504744,
         "avg_accuracy": 89.03466772299153,
         "avg_time": 2.770840573310852
+    },
+    "gpt-5-mini": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 39.12085137085137,
+        "avg_cer": 9.36779613500036,
+        "avg_accuracy": 91.18899224880542,
+        "avg_time": 18.01369153658549
+    },
+    "gpt-5": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 36.16185666185666,
+        "avg_cer": 8.990868706681901,
+        "avg_accuracy": 91.32269846319757,
+        "avg_time": 59.79209886391958
     }
 }

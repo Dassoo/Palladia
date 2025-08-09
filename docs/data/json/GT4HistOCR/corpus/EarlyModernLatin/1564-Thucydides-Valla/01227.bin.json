@@ -1,6 +1,6 @@
 {
     "spotlight": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
         "response": "meain magis ne bellum liberis nostris relinquamus.Neque cre,",
         "wer": 55.55555555555556,
         "cer": 8.333333333333332,
@@ -8,7 +8,7 @@
         "time": 1.2300238609313965
     },
     "mistral-small": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
         "response": "mean magis ne bellum liberis nostris relinquamus. Neque cre-",
         "wer": 22.22222222222222,
         "cer": 3.3333333333333335,
@@ -16,15 +16,15 @@
         "time": 1.2421200275421143
     },
     "llama-4-maverick-17b": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meain magis ne bellum liberis noſtris relinquamus. Neque cre,",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meain magis ne bellum liberis no\u017ftris relinquamus. Neque cre,",
         "wer": 22.22222222222222,
         "cer": 5.0,
         "accuracy": 95.08196721311475,
         "time": 1.2314801216125488
     },
     "qwen-2.5-vl-72b": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
         "response": "meain magis ne bellum liberis nostris relinquamus.Neque cre-",
         "wer": 44.44444444444444,
         "cer": 6.666666666666667,
@@ -32,47 +32,47 @@
         "time": 1.6110050678253174
     },
     "gpt-4.1": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meam magis ne bellum liberis noſtris relinquamus. Neque cre,",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre,",
         "wer": 11.11111111111111,
         "cer": 1.6666666666666667,
         "accuracy": 98.33333333333333,
         "time": 1.637092113494873
     },
     "gpt-4o": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meam magis ne bellum liberis noſtris relinquamus.⁊ Neque cre-",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis no\u017ftris relinquamus.\u204a Neque cre-",
         "wer": 11.11111111111111,
         "cer": 1.6666666666666667,
         "accuracy": 98.36065573770492,
         "time": 1.9212000370025635
     },
     "gemini-2.5-flash": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meam magiſ ne bellum liberis noſtris relinquamus. Neque cre",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magi\u017f ne bellum liberis no\u017ftris relinquamus. Neque cre",
         "wer": 22.22222222222222,
         "cer": 3.3333333333333335,
         "accuracy": 96.66666666666667,
         "time": 2.098396062850952
     },
     "claude-4-sonnet": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meam magis ne bellum liberis noſtris relinquamus.Neque cre-",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis no\u017ftris relinquamus.Neque cre-",
         "wer": 22.22222222222222,
         "cer": 1.6666666666666667,
         "accuracy": 98.33333333333333,
         "time": 3.2445521354675293
     },
     "claude-4-opus": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
         "wer": 0.0,
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.714926242828369
     },
     "o4-mini": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
         "response": "meam magis ne bellum liberis nostris relinquamus. Neque cre",
         "wer": 22.22222222222222,
         "cer": 3.3333333333333335,
@@ -80,11 +80,27 @@
         "time": 15.757997035980225
     },
     "gemini-2.5-pro": {
-        "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
-        "response": "meam magís ne bellum liberis noſtrís relinquamus. Neque cre,",
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magi\u0301s ne bellum liberis no\u017ftri\u0301s relinquamus. Neque cre,",
         "wer": 33.33333333333333,
         "cer": 5.0,
         "accuracy": 95.16129032258065,
         "time": 29.815095901489258
+    },
+    "gpt-5-mini": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magi\u017f ne bellum liberi\u017f no\u017ftri\u017f relinquamu\u017f.Neque cre",
+        "wer": 66.66666666666666,
+        "cer": 10.0,
+        "accuracy": 90.0,
+        "time": 22.947508811950684
+    },
+    "gpt-5": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis no\u017ftris relinquamus.Neque cre,",
+        "wer": 33.33333333333333,
+        "cer": 3.3333333333333335,
+        "accuracy": 96.66666666666667,
+        "time": 26.537763833999634
     }
 }

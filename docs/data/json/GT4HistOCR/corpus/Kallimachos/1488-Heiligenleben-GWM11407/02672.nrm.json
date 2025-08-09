@@ -9,7 +9,7 @@
     },
     "mistral-small": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Pauls erto̅tet. Sa̅nam man ſie pfennig.",
+        "response": "Pauls erto\u0305tet. Sa\u0305nam man \u017fie pfennig.",
         "wer": 75.0,
         "cer": 20.930232558139537,
         "accuracy": 81.3953488372093,
@@ -17,7 +17,7 @@
     },
     "gpt-4.1": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Paulſ ertotet. Da nam man die pfenning. vnd",
+        "response": "Paul\u017f ertotet. Da nam man die pfenning. vnd",
         "wer": 25.0,
         "cer": 4.651162790697675,
         "accuracy": 95.34883720930233,
@@ -33,7 +33,7 @@
     },
     "gpt-4o": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Paulſ ertotet. Da nam man Die pſenning. vnd",
+        "response": "Paul\u017f ertotet. Da nam man Die p\u017fenning. vnd",
         "wer": 50.0,
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
@@ -41,7 +41,7 @@
     },
     "claude-4-sonnet": {
         "gt": "Pauls ertotet. da nam man die pfenning. vnd",
-        "response": "Pauls ertötet. Ja ſtan man die pfenning vnd",
+        "response": "Pauls ert\u00f6tet. Ja \u017ftan man die pfenning vnd",
         "wer": 50.0,
         "cer": 13.953488372093023,
         "accuracy": 88.37209302325581,
@@ -62,5 +62,21 @@
         "cer": 13.953488372093023,
         "accuracy": 86.04651162790698,
         "time": 10.682673931121826
+    },
+    "gpt-5-mini": {
+        "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+        "response": "Paul\u017f ert\u00f6tet. Ja nahm man die pfennig und",
+        "wer": 75.0,
+        "cer": 16.27906976744186,
+        "accuracy": 86.04651162790698,
+        "time": 16.78178596496582
+    },
+    "gpt-5": {
+        "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+        "response": "Pauls ertotet. Da nam man Die pfennig.vnd",
+        "wer": 50.0,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 86.77220034599304
     }
 }

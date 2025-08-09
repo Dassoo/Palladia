@@ -1,4 +1,4 @@
 input:
-- path: GT4HistOCR/corpus/EarlyModernLatin/1483-Decades-Biondo
-  images_to_process: 30
+- path: GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius
+  images_to_process: 44
   prioritize_scanned: true

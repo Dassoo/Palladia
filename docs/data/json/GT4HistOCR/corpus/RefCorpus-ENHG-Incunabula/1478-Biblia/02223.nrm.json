@@ -9,7 +9,7 @@
     },
     "mistral-small": {
         "gt": "uid alls eme de here ghebaeden hadde: vnde",
-        "response": "und alſ eme de here glyebraeden hadde : vnde",
+        "response": "und al\u017f eme de here glyebraeden hadde : vnde",
         "wer": 62.5,
         "cer": 16.666666666666664,
         "accuracy": 86.36363636363636,
@@ -17,7 +17,7 @@
     },
     "gpt-4.1": {
         "gt": "uid alls eme de here ghebaeden hadde: vnde",
-        "response": "und alls ẽme ds herre ghebaͤden hadde : unde",
+        "response": "und alls \u1ebdme ds herre gheba\u0364den hadde : unde",
         "wer": 100.0,
         "cer": 16.666666666666664,
         "accuracy": 84.0909090909091,
@@ -25,7 +25,7 @@
     },
     "gpt-4o": {
         "gt": "uid alls eme de here ghebaeden hadde: vnde",
-        "response": "und alſ er mbeſ here ghebaeden hadde: vnde",
+        "response": "und al\u017f er mbe\u017f here ghebaeden hadde: vnde",
         "wer": 50.0,
         "cer": 19.047619047619047,
         "accuracy": 85.71428571428571,
@@ -33,15 +33,15 @@
     },
     "claude-4-sonnet": {
         "gt": "uid alls eme de here ghebaeden hadde: vnde",
-        "response": "uiꝺ aliſ erne ꝺe here glycka eꝺen haꝺꝺe: vn ꝺe",
-        "wer": 112.5,
+        "response": "ui\ua77a ali\u017f erne \ua77ae here glycka e\ua77aen ha\ua77a\ua77ae: vn \ua77ae",
+        "wer": 100.0,
         "cer": 38.095238095238095,
         "accuracy": 65.21739130434783,
         "time": 3.327298164367676
     },
     "claude-4-opus": {
         "gt": "uid alls eme de here ghebaeden hadde: vnde",
-        "response": "und alſo eine de here ghebaeden hadde: wilde",
+        "response": "und al\u017fo eine de here ghebaeden hadde: wilde",
         "wer": 50.0,
         "cer": 19.047619047619047,
         "accuracy": 81.81818181818183,
@@ -49,7 +49,7 @@
     },
     "qwen-2.5-vl-72b": {
         "gt": "uid alls eme de here ghebaeden hadde: vnde",
-        "response": "und alſs eme de here glichbaeden hadde:vn de",
+        "response": "und al\u017fs eme de here glichbaeden hadde:vn de",
         "wer": 62.5,
         "cer": 19.047619047619047,
         "accuracy": 86.36363636363636,
@@ -57,10 +57,26 @@
     },
     "llama-4-maverick-17b": {
         "gt": "uid alls eme de here ghebaeden hadde: vnde",
-        "response": "und alls eme de here ghyebaeden hadde : vñ de",
+        "response": "und alls eme de here ghyebaeden hadde : v\u00f1 de",
         "wer": 75.0,
         "cer": 11.904761904761903,
         "accuracy": 88.88888888888889,
         "time": 9.81905198097229
+    },
+    "gpt-5-mini": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und als hem de here ghebaeden hadde: vnde",
+        "wer": 37.5,
+        "cer": 9.523809523809524,
+        "accuracy": 92.85714285714286,
+        "time": 30.079185009002686
+    },
+    "gpt-5": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und alls arme do here ghebaeden hadde : vnde",
+        "wer": 62.5,
+        "cer": 11.904761904761903,
+        "accuracy": 88.63636363636364,
+        "time": 48.64857602119446
     }
 }

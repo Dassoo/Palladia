@@ -86,5 +86,21 @@
         "avg_cer": 8.919314196884965,
         "avg_accuracy": 92.04199561934642,
         "avg_time": 51.45145735415545
+    },
+    "gpt-5-mini": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 35.67911366708158,
+        "avg_cer": 7.4395361313367605,
+        "avg_accuracy": 93.19686786018673,
+        "avg_time": 22.12762637571855
+    },
+    "gpt-5": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 27.180039212124772,
+        "avg_cer": 6.5695810667430035,
+        "avg_accuracy": 94.08539854848169,
+        "avg_time": 72.49032167954879
     }
 }

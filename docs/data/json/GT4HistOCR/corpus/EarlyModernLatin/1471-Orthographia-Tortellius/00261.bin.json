@@ -1,90 +1,106 @@
 {
     "llama-4-maverick-17b": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "in.ic lo!a:ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nřis adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "in.ic lo!a:\u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus n\u0159is adiecit:",
         "wer": 30.76923076923077,
         "cer": 11.363636363636363,
         "accuracy": 90.9090909090909,
         "time": 1.3403747081756592
     },
     "mistral-small": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "hic ſoſſed tres litteras Claudius ipſe ſte Cornelio Tacito prioribus niſi adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic \u017fo\u017f\u017fed tres litteras Claudius ip\u017fe \u017fte Cornelio Tacito prioribus ni\u017fi adiecit:",
         "wer": 38.46153846153847,
         "cer": 11.363636363636363,
         "accuracy": 88.63636363636364,
         "time": 1.4497218132019043
     },
     "spotlight": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "hic igitur sed tres litteras Claudius ipse tæte Cornelio Tacito prioribus niris adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic igitur sed tres litteras Claudius ipse t\u00e6te Cornelio Tacito prioribus niris adiecit:",
         "wer": 46.15384615384615,
         "cer": 14.772727272727273,
         "accuracy": 87.5,
         "time": 1.7236270904541016
     },
     "qwen-2.5-vl-72b": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "h.ic ſola:fed tres litteras Claudius ipſe taſte Corneliō Tacito prioribus nris adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "h.ic \u017fola:fed tres litteras Claudius ip\u017fe ta\u017fte Corneli\u014d Tacito prioribus nris adiecit:",
         "wer": 46.15384615384615,
         "cer": 9.090909090909092,
         "accuracy": 92.04545454545455,
         "time": 2.5968151092529297
     },
     "gpt-4.1": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "hic solã:ſed tres litteras Claudius ipſe teſte Cornelio Taci⸗ prioribus nris adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic sol\u00e3:\u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Taci\u2e17 prioribus nris adiecit:",
         "wer": 38.46153846153847,
         "cer": 6.8181818181818175,
         "accuracy": 93.18181818181817,
         "time": 2.7971372604370117
     },
     "claude-4-sonnet": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "h.ic lo:a:ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus niſ adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "h.ic lo:a:\u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus ni\u017f adiecit:",
         "wer": 30.76923076923077,
         "cer": 10.227272727272728,
         "accuracy": 90.9090909090909,
         "time": 4.138350248336792
     },
     "gpt-4o": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "Hic ſolã:ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adjecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "Hic \u017fol\u00e3:\u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adjecit:",
         "wer": 30.76923076923077,
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 4.14303994178772
     },
     "claude-4-opus": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "hic ſo:ā: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nōſtris adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic \u017fo:\u0101: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus n\u014d\u017ftris adiecit:",
         "wer": 23.076923076923077,
         "cer": 7.954545454545454,
         "accuracy": 93.33333333333333,
         "time": 5.6519880294799805
     },
     "gemini-2.5-flash": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "h.īc ſoſa:ſcd tres literas Claudius ipſe ex te Cornelio Tacito prioribus nrīs adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "h.\u012bc \u017fo\u017fa:\u017fcd tres literas Claudius ip\u017fe ex te Cornelio Tacito prioribus nri\u0304s adiecit:",
         "wer": 53.84615384615385,
         "cer": 13.636363636363635,
         "accuracy": 89.77272727272727,
         "time": 5.978295803070068
     },
     "o4-mini": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "hic ſola: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nρis adieci:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic \u017fola: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus n\u03c1is adieci:",
         "wer": 30.76923076923077,
         "cer": 5.681818181818182,
         "accuracy": 94.31818181818183,
         "time": 25.541375160217285
     },
     "gemini-2.5-pro": {
-        "gt": "hãc ſolã: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nr̃is adiecit:",
-        "response": "hic ſoꝛoꝛ: ſed tres litteras Claudius ipſe teſte Cornelio Tacito prioribus nŕis adiecit:",
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic \u017fo\ua75bo\ua75b: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus n\u0155is adiecit:",
         "wer": 23.076923076923077,
         "cer": 6.8181818181818175,
         "accuracy": 94.31818181818183,
         "time": 78.07116079330444
+    },
+    "gpt-5-mini": {
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic \u017fola: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nris adiecit:",
+        "wer": 23.076923076923077,
+        "cer": 3.4090909090909087,
+        "accuracy": 96.5909090909091,
+        "time": 18.910075187683105
+    },
+    "gpt-5": {
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "hic \u017fola: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u012bs adiecit:",
+        "wer": 23.076923076923077,
+        "cer": 4.545454545454546,
+        "accuracy": 95.45454545454545,
+        "time": 63.532060861587524
     }
 }

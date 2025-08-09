@@ -1,66 +1,82 @@
 {
     "mistral-small": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebbet is apenbare gheleſen voer my vii va",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghele\u017fen voer my vii va",
         "wer": 25.0,
         "cer": 7.317073170731707,
         "accuracy": 92.85714285714286,
         "time": 1.235978364944458
     },
     "spotlight": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebbet is apenbare ghelesen voet my vn vã",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghelesen voet my vn v\u00e3",
         "wer": 37.5,
         "cer": 7.317073170731707,
         "accuracy": 92.6829268292683,
         "time": 1.504974126815796
     },
     "gpt-4o": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebbꝛt is apenbare ghelesen voer my vñ v⁀.",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebb\ua75bt is apenbare ghelesen voer my v\u00f1 v\u2040.",
         "wer": 37.5,
         "cer": 9.75609756097561,
         "accuracy": 90.47619047619048,
         "time": 2.0504441261291504
     },
     "gpt-4.1": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebbet is apenbare gheleſen voer my vñ va",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghele\u017fen voer my v\u00f1 va",
         "wer": 12.5,
         "cer": 2.4390243902439024,
         "accuracy": 97.5609756097561,
         "time": 2.328840970993042
     },
     "claude-4-sonnet": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebber is apenbare gheleſen voer my vri vā",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebber is apenbare ghele\u017fen voer my vri v\u0101",
         "wer": 37.5,
         "cer": 9.75609756097561,
         "accuracy": 90.47619047619048,
         "time": 3.141400098800659
     },
     "claude-4-opus": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebber is apenbare gheleſen voer my nñ vã",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebber is apenbare ghele\u017fen voer my n\u00f1 v\u00e3",
         "wer": 25.0,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 3.7069759368896484
     },
     "qwen-2.5-vl-72b": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebbet is apenbare ghelesen voet my vñ vã",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghelesen voet my v\u00f1 v\u00e3",
         "wer": 25.0,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 3.709197759628296
     },
     "llama-4-maverick-17b": {
-        "gt": "hebbet is apenbare gheleſen voer my vñ vã",
-        "response": "hebbet is apenbare ghelesen voet my vñ vã",
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghelesen voet my v\u00f1 v\u00e3",
         "wer": 25.0,
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 9.957464933395386
+    },
+    "gpt-5-mini": {
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghele\u017fen voer my vn v\u00e3",
+        "wer": 12.5,
+        "cer": 2.4390243902439024,
+        "accuracy": 97.5609756097561,
+        "time": 19.404226779937744
+    },
+    "gpt-5": {
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u0101.",
+        "wer": 12.5,
+        "cer": 4.878048780487805,
+        "accuracy": 95.23809523809523,
+        "time": 80.80613803863525
     }
 }

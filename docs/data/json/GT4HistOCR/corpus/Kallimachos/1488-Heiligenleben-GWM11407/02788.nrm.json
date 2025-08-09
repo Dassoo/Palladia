@@ -1,14 +1,14 @@
 {
     "mistral-small": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
-        "response": "ſoltu nit vnreyn heysſen. Das gefiht ſah er zu",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u017foltu nit vnreyn heys\u017fen. Das gefiht \u017fah er zu",
         "wer": 44.44444444444444,
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 1.4342248439788818
     },
     "spotlight": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
         "response": "Soltu nit vnreyn heyffen. Das gesiht saher zu",
         "wer": 77.77777777777779,
         "cer": 17.391304347826086,
@@ -16,51 +16,67 @@
         "time": 1.8218989372253418
     },
     "gpt-4.1": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
-        "response": "Soſtu mit vnreyn heyſſen. Das geſicht ſah er zu",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "So\u017ftu mit vnreyn hey\u017f\u017fen. Das ge\u017ficht \u017fah er zu",
         "wer": 33.33333333333333,
         "cer": 8.695652173913043,
         "accuracy": 91.48936170212765,
         "time": 2.0103201866149902
     },
     "gpt-4o": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
-        "response": "[Eſtu nit vnreyn heysſen. Das gefiht ſah er zu]",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "[E\u017ftu nit vnreyn heys\u017fen. Das gefiht \u017fah er zu]",
         "wer": 55.55555555555556,
         "cer": 17.391304347826086,
         "accuracy": 85.1063829787234,
         "time": 2.5643351078033447
     },
     "claude-4-sonnet": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
-        "response": "ſoltu nit vnreyn heyſſen. Das geſiht ſah er zu",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u017foltu nit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er zu",
         "wer": 22.22222222222222,
         "cer": 4.3478260869565215,
         "accuracy": 95.65217391304348,
         "time": 4.187837839126587
     },
     "claude-4-opus": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
-        "response": "ſoltu nit vnreyn heyſſen. Das geſelhe ſah er zu",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u017foltu nit vnreyn hey\u017f\u017fen. Das ge\u017felhe \u017fah er zu",
         "wer": 33.33333333333333,
         "cer": 10.869565217391305,
         "accuracy": 89.36170212765957,
         "time": 10.891057968139648
     },
     "llama-4-maverick-17b": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
-        "response": "ſolſtu nit vnreyn heylſten. Das gefiht ſah er zu",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u017fol\u017ftu nit vnreyn heyl\u017ften. Das gefiht \u017fah er zu",
         "wer": 55.55555555555556,
         "cer": 13.043478260869565,
         "accuracy": 87.5,
         "time": 11.52174997329712
     },
     "qwen-2.5-vl-72b": {
-        "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
-        "response": "Soltu nit vnreyn heypſen. Das geſicht ſah er zu",
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "Soltu nit vnreyn heyp\u017fen. Das ge\u017ficht \u017fah er zu",
         "wer": 55.55555555555556,
         "cer": 10.869565217391305,
         "accuracy": 89.36170212765957,
         "time": 13.147938013076782
+    },
+    "gpt-5-mini": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "Solltu nit onreyn hey\u017f\u017fen. Das ge\u017ficht sah er zu",
+        "wer": 66.66666666666666,
+        "cer": 15.217391304347828,
+        "accuracy": 85.41666666666666,
+        "time": 16.799538135528564
+    },
+    "gpt-5": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "Soltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er z\u016f",
+        "wer": 22.22222222222222,
+        "cer": 6.521739130434782,
+        "accuracy": 93.47826086956522,
+        "time": 44.89335298538208
     }
 }

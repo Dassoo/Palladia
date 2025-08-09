@@ -37,6 +37,11 @@ def get_metrics(candidate: str, reference: str):
     """Get the word error rate and character error rate between the candidate and reference strings."""
     w_error = wer(candidate, reference)
     c_error = cer(candidate, reference)
+    
+    # Convert from ratio to percentage and cap at 100%
+    w_error = min(w_error, 1.0)
+    c_error = min(c_error, 1.0)
+    
     return w_error, c_error
 
 # Not in use for now (there's no reason at the moment to dig on semantic acceptability or meaning preservation)
