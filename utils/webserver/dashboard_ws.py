@@ -1,13 +1,38 @@
-# Imports
 import http.server
 import socketserver
 import webbrowser
 import threading
 import atexit
+import errno
 from functools import partial
+
 
 PORT = 8000
 DIRECTORY = '.'
+
+# HTTP handler that suppresses broken pipe errors
+class HTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, directory=None, **kwargs):
+        if directory is None:
+            directory = DIRECTORY
+        super().__init__(*args, directory=directory, **kwargs)
+    
+    def log_message(self, format, *args):
+        # Suppress access log messages
+        pass
+    
+    def handle_one_request(self):
+        try:
+            super().handle_one_request()
+        except (BrokenPipeError, ConnectionResetError):
+            # Client disconnected, ignore these errors
+            pass
+        except OSError as e:
+            if e.errno == errno.EPIPE:
+                # Broken pipe, ignore
+                pass
+            else:
+                raise
 
 # TCP Server with address reuse
 class ReusableTCPServer(socketserver.TCPServer):
@@ -23,8 +48,7 @@ class DashboardServer:
         if self.is_running:
             return
         try:
-            handler = partial(http.server.SimpleHTTPRequestHandler, directory=DIRECTORY)
-            self.httpd = ReusableTCPServer(("", PORT), handler)
+            self.httpd = ReusableTCPServer(("", PORT), HTTPRequestHandler)
             self.is_running = True
             # print(f"Dashboard server started on http://localhost:{PORT}")
             self.httpd.serve_forever()
