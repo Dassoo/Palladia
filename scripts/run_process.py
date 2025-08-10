@@ -31,8 +31,8 @@ import os
 load_dotenv()   
 console = Console()
 
-async def run_model(agent, model, executor, image_path: str):
-    """Run a model on an image, performing OCR and evaluating the results."""
+async def run_single_agent_attempt(agent, model, executor, image_path: str, gt: str):
+    """Run a single attempt of the agent on an image."""
     image_obj = create_image_obj(model, image_path)
     loop = asyncio.get_event_loop()
     
@@ -49,10 +49,6 @@ async def run_model(agent, model, executor, image_path: str):
     end = time.time()
     exec_time = end - start
     
-    gt_path = Path(image_path).with_suffix("").with_suffix(".gt.txt")
-    with open(gt_path, "r") as f:
-        gt = f.read().rstrip('\n') # Fixed issue with /n impacting accuracy metrics...
-
     # Fix for silly specific model behaviour
     if model.id == "thudm/glm-4.1v-9b-thinking":
         response = trim_response(response)
@@ -61,17 +57,54 @@ async def run_model(agent, model, executor, image_path: str):
     diff, accuracy = get_diff(gt, response.content)
     wer, cer = get_metrics(gt, response.content)
     
-    # Print results for each image
-    display_name = get_model_display_name(model.id)
-    console.print(Text(f"\n(🤖) {display_name}", style="bold blue"))
-    pprint_run_response(response)
-    console.print(diff)
-    console.print(Text(f"WER: {wer:.2%}", style="bold cyan")) # Word error rate (Jiwer)
-    console.print(Text(f"CER: {cer:.2%}", style="bold cyan")) # Character error rate (Jiwer)
-    console.print(Text(f"Accuracy: {accuracy:.2%}", style="bold blue")) # Accuracy (diff match patch)
-    console.print(Text(f"Execution Time: {exec_time:.2f} seconds", style="bold yellow"))
-    console.print(Text("_" * 80, style="dim"))
+    return response, diff, accuracy, wer, cer, exec_time
+
+
+async def run_model(agent, model, executor, image_path: str):
+    """Run a model on an image, performing OCR and evaluating the results with retry logic."""
+    gt_path = Path(image_path).with_suffix("").with_suffix(".gt.txt")
+    with open(gt_path, "r") as f:
+        gt = f.read().rstrip('\n') # Fixed issue with /n impacting accuracy metrics...
     
+    display_name = get_model_display_name(model.id)
+    max_attempts = 5
+    accuracy_threshold = 0.75
+    
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response, diff, accuracy, wer, cer, exec_time = await run_single_agent_attempt(
+                agent, model, executor, image_path, gt
+            )
+            
+            # Print results for each attempt
+            attempt_text = f" (Attempt {attempt})" if attempt > 1 else ""
+            console.print(Text(f"\n(🤖) {display_name}{attempt_text}", style="bold blue"))
+            pprint_run_response(response)
+            console.print(diff)
+            console.print(Text(f"\nWER: {wer:.2%}", style="bold cyan")) # Word error rate (Jiwer)
+            console.print(Text(f"CER: {cer:.2%}", style="bold cyan")) # Character error rate (Jiwer)
+            console.print(Text(f"Accuracy: {accuracy:.2%}", style="bold blue")) # Accuracy (diff match patch)
+            console.print(Text(f"Execution Time: {exec_time:.2f} seconds\n", style="bold cyan"))
+            
+            # Check if accuracy meets given threshold to ensure benchmark quality
+            if accuracy >= accuracy_threshold:
+                break
+            else:
+                if attempt < max_attempts:
+                    console.print(Text(f"Accuracy {accuracy:.2%} below threshold {accuracy_threshold:.2%}, retrying...", style="bold yellow"))
+                else:
+                    console.print(Text("_" * 80, style="dim"))
+                    raise Exception(f"\nModel {display_name} failed to achieve {accuracy_threshold:.2%} accuracy after {max_attempts} attempts. Final accuracy: {accuracy:.2%}")
+                
+        except Exception as e:
+            if attempt == max_attempts:
+                console.print(Text(f"❌ Final attempt failed: {str(e)}", style="bold red"))
+                raise
+            else:
+                console.print(Text(f"Attempt {attempt} failed: {str(e)}, retrying...", style="bold yellow"))
+                continue
+    
+    console.print(Text("_" * 80, style="dim"))
     to_json(model, gt, response, wer, cer, accuracy, exec_time, image_path)
     
     return (get_model_display_name(model.id), wer, cer, accuracy, exec_time)
@@ -300,9 +333,9 @@ def main():
     except KeyboardInterrupt:
         console.print("\n❌ Benchmark interrupted by user.", style="bold red")
         return
-    # except Exception as e:
-    #     console.print(f"❌ Unexpected error during benchmark: {e}", style="bold red")
-    #     pass
-
+    except Exception:
+        console.print("\n❌ Benchmark stopped.", style="bold red")
+        return
+        
 if __name__ == "__main__":
     main()

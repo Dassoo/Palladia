@@ -73,7 +73,7 @@ def get_enabled_models() -> List[Any]:
             console.print(f"❌ Error initializing {provider}/{model_id}: {str(e)}", style="red")
     
     if not enabled_models:
-        console.print("⚠️  No models available for evaluation", style="bold yellow")
+        console.print("You are running the benchmark without selecting models!", style="bold yellow")
     
     return enabled_models
 

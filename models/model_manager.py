@@ -44,7 +44,7 @@ class ModelManager:
         
         # Initialize variables
         self.dataset_path = ctk.StringVar()
-        self.images_count = ctk.IntVar()
+        self.images_count = ctk.StringVar()  # Changed to StringVar to handle empty values
         self.prioritize_scanned = ctk.BooleanVar()
         
         # Process tracking
@@ -102,7 +102,7 @@ class ModelManager:
                 if input_config and 'input' in input_config and input_config['input']:
                     first_input = input_config['input'][0]
                     self.dataset_path.set(first_input.get('path', ''))
-                    self.images_count.set(first_input.get('images_to_process', 3))
+                    self.images_count.set(str(first_input.get('images_to_process', 3)))  # Convert to string
                     self.prioritize_scanned.set(first_input.get('prioritize_scanned', False))
                 else:
                     self._set_defaults()
@@ -115,8 +115,18 @@ class ModelManager:
     def _set_defaults(self):
         """Set default values."""
         self.dataset_path.set('')
-        self.images_count.set(3)
+        self.images_count.set('3')  # String value
         self.prioritize_scanned.set(False)
+    
+    def get_images_count(self):
+        """Safely get images count as integer."""
+        try:
+            value = self.images_count.get().strip()
+            if not value:
+                return 3  # Default value
+            return max(1, int(value))  # Ensure at least 1
+        except (ValueError, AttributeError):
+            return 3  # Default fallback
 
     def save_config(self):
         """Save configurations."""
@@ -134,7 +144,7 @@ class ModelManager:
             input_config = {
                 'input': [{
                     'path': self.dataset_path.get(),
-                    'images_to_process': self.images_count.get(),
+                    'images_to_process': self.get_images_count(),
                     'prioritize_scanned': self.prioritize_scanned.get()
                 }]
             }
@@ -176,8 +186,8 @@ class ModelManager:
                         text_color="green",
                         font=ctk.CTkFont(weight="bold")
                     )
-                    if len(png_files) < self.images_count.get():
-                        self.images_count.set(min(len(png_files), 5))
+                    if len(png_files) < self.get_images_count():
+                        self.images_count.set(str(min(len(png_files), 5)))
                 else:
                     self.dataset_status_label.configure(text="No PNG images found", text_color="red")
         except Exception as e:
@@ -226,8 +236,16 @@ class ModelManager:
         count_input_frame = ctk.CTkFrame(dataset_frame, fg_color=PALETTE["BG_MEDIUM"])
         count_input_frame.pack(fill="x", padx=18, pady=(0, 15))
         
-        # Simple entry field for number input
-        count_entry = ctk.CTkEntry(count_input_frame, textvariable=self.images_count, width=60, height=28)
+        # Simple entry field for number input with validation
+        def validate_number_input(value):
+            """Validate that input contains only digits."""
+            if value == "":
+                return True  # Allow empty
+            return value.isdigit()
+        
+        vcmd = (self.root.register(validate_number_input), '%P')
+        count_entry = ctk.CTkEntry(count_input_frame, textvariable=self.images_count, 
+                                  width=60, height=28, validate='key', validatecommand=vcmd)
         count_entry.pack(side="left", padx=(10, 8), pady=8)
                 
         self.count_help = ctk.CTkLabel(count_input_frame, text="(Prioritizes scanned images first)" if self.prioritize_scanned.get() else "(Random selection)", text_color="grey", font=ctk.CTkFont(size=12))
@@ -278,6 +296,12 @@ class ModelManager:
         import subprocess
         import sys
         import os
+        
+        # Check if number of images is valid
+        images_count = self.get_images_count()
+        if images_count < 1:
+            messagebox.showwarning("Warning", "Please enter a valid number of images to process (minimum 1).")
+            return
         
         # Check if process is already running
         if self.running_process and self.running_process.poll() is None:
