@@ -1,6 +1,6 @@
 from config.loader import ConfigLoader
 from scripts.update_manifest import regenerate_full_manifest
-from scripts.generate_model_links import generate_model_links
+from scripts.generate_model_links import update_model_links
 from utils.webserver.dashboard_ws import start_dashboard, open_dashboard, is_dashboard_running
 
 import yaml
@@ -65,7 +65,7 @@ class ModelManager:
         try:
             loader = ConfigLoader()
             app_config = loader.load_app_config()
-            generate_model_links() # Update links for dashboard on config loading
+            update_model_links() # Update links for dashboard on config loading
             
             self.config = {'models': []}
             for model in app_config.models_config.models:

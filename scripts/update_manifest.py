@@ -4,7 +4,10 @@ import json
 import os
 from pathlib import Path
 from datetime import datetime
+from rich.console import Console
+from rich.text import Text
 
+console = Console()
 
 def scan_individual_files(subcategory_path):
     """
@@ -104,7 +107,7 @@ def regenerate_full_manifest():
     base_path = "docs/data/json/GT4HistOCR/corpus"
     
     if not os.path.exists(base_path):
-        print(f"Base path {base_path} does not exist")
+        console.print(f"Base path {base_path} does not exist", style="red")
         return
     
     manifest = {
@@ -153,13 +156,13 @@ def regenerate_full_manifest():
     with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
     
-    print(f"Full manifest regenerated with {len(manifest['files'])} aggregated files")
+    console.print(f"Full manifest regenerated with {len(manifest['files'])} aggregated files", style="dim")
     total_individual = sum(
         len(subcategory.get('individual_files', [])) 
         for category in manifest['structure'].values() 
         for subcategory in category.values()
     )
-    print(f"Found {total_individual} individual image files")
+    console.print(f"Found {total_individual} individual image files", style="dim")
 
 
 if __name__ == "__main__":

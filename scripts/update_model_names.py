@@ -1,6 +1,5 @@
 import json
 import os
-import argparse
 import subprocess
 from pathlib import Path
 from typing import Dict
@@ -36,7 +35,7 @@ def find_all_json_files(base_path: Path) -> list[Path]:
 
 
 
-def update_json_file(file_path: Path, name_mapping: Dict[str, str], dry_run: bool = False) -> int:
+def update_json_file(file_path: Path, name_mapping: Dict[str, str]) -> int:
     """Update a single JSON file to use standardized model names. Returns number of changes made."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -55,7 +54,7 @@ def update_json_file(file_path: Path, name_mapping: Dict[str, str], dry_run: boo
             else:
                 new_data[key] = value
         
-        if changes > 0 and not dry_run:
+        if changes > 0:
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(new_data, f, indent=4, ensure_ascii=False)
         
@@ -65,17 +64,10 @@ def update_json_file(file_path: Path, name_mapping: Dict[str, str], dry_run: boo
         return 0
 
 def main():
-    parser = argparse.ArgumentParser(description="Update model names in JSON files according to model_config.yaml")
-    parser.add_argument('--dry-run', action='store_true', help='Show what would be changed without making actual changes')
-    parser.add_argument('--path', type=str, default='docs/json', help='Base path to search for JSON files (default: docs/json)')
-    
-    args = parser.parse_args()
-    
-    # Load model name mapping
     name_mapping = get_model_name_mapping()
     
     # Find all JSON files
-    base_path = Path(args.path)
+    base_path = Path('docs/data/json')
     if not base_path.exists():
         print(f"Error: Directory not found: {base_path}")
         return 1
@@ -87,30 +79,24 @@ def main():
     total_changes = 0
     
     for file_path in json_files:
-        changes = update_json_file(file_path, name_mapping, dry_run=args.dry_run)
+        changes = update_json_file(file_path, name_mapping)
         if changes > 0:
             modified_files += 1
             total_changes += changes
     
-    # Update model links if changes were made and not dry run
-    if not args.dry_run and total_changes > 0:
+    # Update model links if changes were made
+    if total_changes > 0:
         try:
-            import subprocess
             subprocess.run([sys.executable, str(Path(__file__).parent / "generate_model_links.py")], check=True)
         except Exception as e:
             print(f"Warning: Could not update model links: {e}")
     
-    # Summary
-    mode = "DRY RUN" if args.dry_run else "UPDATE"
-    print(f"\n{mode} Summary:")
+    print(f"Update Summary:")
     print(f"  Files processed: {total_files}")
     print(f"  Files modified: {modified_files}")
     print(f"  Total changes: {total_changes}")
     
-    if args.dry_run and total_changes > 0:
-        print(f"\nRun without --dry-run to apply {total_changes} changes")
-    
     return 0
 
 if __name__ == "__main__":
-    exit(main())
+    main()
