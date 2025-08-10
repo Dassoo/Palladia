@@ -39,8 +39,6 @@ h2 {
     justify-items: center;
 }
 
-
-
 .main-section-title {
     text-align: center;
 }
@@ -52,7 +50,6 @@ h2 {
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #e9ecef;
 }
 
 
@@ -822,7 +819,6 @@ h2 {
     text-align: center;
 }
 
-/* Step-based metrics layout */
 .metrics-steps {
     display: flex;
     flex-wrap: wrap;
@@ -905,7 +901,6 @@ h2 {
     font-weight: 500;
 }
 
-/* Accuracy bar visualization */
 .accuracy-bar {
     width: 80px;
     height: 8px;
@@ -921,7 +916,6 @@ h2 {
     transition: width 0.3s ease;
 }
 
-/* Error indicators */
 .error-indicators {
     display: flex;
     gap: 8px;
@@ -953,7 +947,6 @@ h2 {
     color: #333;
 }
 
-/* Word comparison */
 .word-comparison {
     display: flex;
     gap: 6px;
@@ -983,7 +976,6 @@ h2 {
     text-decoration: line-through;
 }
 
-/* Time indicator */
 .time-indicator {
     display: flex;
     align-items: center;
@@ -1002,8 +994,6 @@ h2 {
     font-weight: 600;
     color: #2c3e50;
 }
-
-
 
 @media (max-width: 768px) {
     .metrics-explanation {

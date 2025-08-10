@@ -26,7 +26,7 @@ class DashboardServer:
             handler = partial(http.server.SimpleHTTPRequestHandler, directory=DIRECTORY)
             self.httpd = ReusableTCPServer(("", PORT), handler)
             self.is_running = True
-            print(f"Dashboard server started on http://localhost:{PORT}")
+            # print(f"Dashboard server started on http://localhost:{PORT}")
             self.httpd.serve_forever()
         except OSError as e:
             print(f"Failed to start server: {e}")
@@ -49,7 +49,7 @@ class DashboardServer:
             print("Server is not running; cannot open browser.")
             return
         url = f"http://localhost:{PORT}/docs"
-        print(f"Opening browser at {url}")
+        # print(f"Opening browser at {url}")
         webbrowser.open(url)
 
     def stop(self):
@@ -59,7 +59,7 @@ class DashboardServer:
             self.is_running = False
             if self.server_thread:
                 self.server_thread.join(timeout=1)
-            print("Dashboard server stopped")
+            # print("Dashboard server stopped")
 
 # Global server instance
 _dashboard_server = DashboardServer()

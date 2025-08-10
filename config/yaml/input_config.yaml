@@ -1,4 +1,4 @@
 input:
-- path: GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius
-  images_to_process: 44
+- path: GT4HistOCR/corpus/EarlyModernLatin/1543-Psalterium-Folengo
+  images_to_process: 5
   prioritize_scanned: true

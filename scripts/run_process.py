@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 from rich.console import Console
 from rich.text import Text
+from rich.progress import Progress, TaskID, SpinnerColumn, TextColumn, BarColumn, TimeElapsedColumn, TimeRemainingColumn
 import asyncio
 import time
 import random
@@ -81,7 +82,6 @@ async def run_all(image_paths: list[str], source: str):
     # Create all agents once at startup
     agents = {get_model_display_name(model.id): create_agent(model) for model in to_eval}
     
-    # Initialize metrics tracking
     metrics = {
         get_model_display_name(model.id): {
             'wer': [],
@@ -92,22 +92,60 @@ async def run_all(image_paths: list[str], source: str):
         } for model in to_eval
     }
     
-    # Run models on each image
-    for image_path in image_paths:
-        console.print(Text(f"\nProcessing image: {image_path}", style="dim"))
-        executor = ThreadPoolExecutor()
-        tasks = [run_model(agents[get_model_display_name(model.id)], model, executor, image_path) for model in to_eval]
-        for task in asyncio.as_completed(tasks):
-            model_id, wer, cer, accuracy, exec_time = await task
-            # Update metrics
-            metrics[model_id]['wer'].append(wer)
-            metrics[model_id]['cer'].append(cer)
-            metrics[model_id]['accuracy'].append(accuracy)
-            metrics[model_id]['exec_time'].append(exec_time)
-            metrics[model_id]['total_images'] += 1
-        executor.shutdown(wait=True)
+    # Calculate progress tracking
+    total_operations = len(image_paths) * len(to_eval)
+    completed_operations = 0
     
-    # Calculate and display average metrics
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        BarColumn(),
+        TextColumn("[progress.percentage]{task.percentage:>3.0f}%"),
+        TextColumn("({task.completed}/{task.total})"),
+        TimeElapsedColumn(),
+        TimeRemainingColumn(),
+        console=console,
+        refresh_per_second=2
+    ) as progress:
+        
+        # Add main progress task
+        main_task = progress.add_task(
+            "Running benchmark", 
+            total=total_operations
+        )
+        
+        # Run models on each image
+        for i, image_path in enumerate(image_paths, 1):
+            image_name = Path(image_path).name
+            
+            executor = ThreadPoolExecutor()
+            tasks = [
+                run_model(agents[get_model_display_name(model.id)], model, executor, image_path) 
+                for model in to_eval
+            ]
+            
+            for task in asyncio.as_completed(tasks):
+                model_id, wer, cer, accuracy, exec_time = await task
+                
+                # Update metrics
+                metrics[model_id]['wer'].append(wer)
+                metrics[model_id]['cer'].append(cer)
+                metrics[model_id]['accuracy'].append(accuracy)
+                metrics[model_id]['exec_time'].append(exec_time)
+                metrics[model_id]['total_images'] += 1
+                
+                # Update progress
+                completed_operations += 1
+                progress.update(
+                    main_task, 
+                    completed=completed_operations,
+                    description=f"\nRunning benchmark - Image {i}/{len(image_paths)}: {image_name}"
+                )
+            
+            executor.shutdown(wait=True)
+        
+        progress.update(main_task, description="Benchmark completed!")
+    
     console.print(Text("\n" + "="*80, style="bold blue"))
     console.print(Text("AVERAGE METRICS PER MODEL", style="bold blue"))
     console.print(Text("="*80, style="bold blue"))

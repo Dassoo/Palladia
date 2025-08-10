@@ -1,13 +1,13 @@
 models:
 - provider: OpenAI
   id: gpt-5-2025-08-07
-  enabled: true
+  enabled: false
   api_key_env: OPENAI_API_KEY
   standard_name: gpt-5
   link: https://platform.openai.com/docs/models/gpt-5
 - provider: OpenAI
   id: gpt-5-mini-2025-08-07
-  enabled: true
+  enabled: false
   api_key_env: OPENAI_API_KEY
   standard_name: gpt-5-mini
   link: https://platform.openai.com/docs/models/gpt-5-mini
@@ -115,7 +115,7 @@ models:
   link: https://docs.x.ai/docs/overview
 - provider: OpenRouter
   id: arcee-ai/spotlight
-  enabled: false
+  enabled: true
   api_key_env: OPENROUTER_API_KEY
   standard_name: spotlight
   link: https://openrouter.ai/arcee-ai/spotlight

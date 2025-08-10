@@ -261,6 +261,7 @@ class ModelManager:
                 self.running_process = None
                 if hasattr(self, 'run_btn'):
                     self.run_btn.configure(text="Run Palladia", state="normal")
+                    self.status_word_label.configure(text="Ready", text_color="green")
                 messagebox.showinfo("Complete", "Palladia process has finished!")
     
     def on_tab_change(self):
@@ -295,6 +296,7 @@ class ModelManager:
             # Disable the button and start checking process status
             if hasattr(self, 'run_btn'):
                 self.run_btn.configure(text="Palladia Running...", state="disabled")
+                self.status_word_label.configure(text="Running", text_color="orange")
             
             # Start periodic check
             self.check_process_status()

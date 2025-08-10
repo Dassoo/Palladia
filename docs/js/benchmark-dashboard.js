@@ -153,12 +153,23 @@ class BenchmarkDashboard {
             </div>`;
         }
 
-        // Calculate average accuracy across all models
-        const accuracies = modelNames.map(modelName => models[modelName].accuracy);
-        const averageAccuracy = accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
+        // Check if we're filtering by a specific model
+        const selectedModel = document.getElementById('model-filter')?.value;
+        let displayAccuracy, accuracyLabel;
+
+        if (selectedModel && models[selectedModel]) {
+            // Show the specific model's accuracy
+            displayAccuracy = models[selectedModel].accuracy;
+            accuracyLabel = `${displayAccuracy.toFixed(1)}%`;
+        } else {
+            // Calculate average accuracy across all models
+            const accuracies = modelNames.map(modelName => models[modelName].accuracy);
+            displayAccuracy = accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
+            accuracyLabel = `${displayAccuracy.toFixed(1)}%`;
+        }
 
         // Get color class based on accuracy thresholds
-        const accuracyColorClass = this.getAccuracyColorClass(averageAccuracy);
+        const accuracyColorClass = this.getAccuracyColorClass(displayAccuracy);
 
         // Get ground truth from first model (should be same for all)
         const groundTruth = models[modelNames[0]].groundTruth;
@@ -171,7 +182,7 @@ class BenchmarkDashboard {
                             ${filename}
                             ${this.createImageIcon(filename)}
                         </span>
-                        <span class="average-accuracy ${accuracyColorClass}">${averageAccuracy.toFixed(1)}%</span>
+                        <span class="average-accuracy ${accuracyColorClass}">${accuracyLabel}</span>
                     </div>
                 </div>
                 
@@ -262,8 +273,17 @@ class BenchmarkDashboard {
         const modelNames = Object.keys(imageResult.models);
         if (modelNames.length === 0) return 0;
 
-        const accuracies = modelNames.map(modelName => imageResult.models[modelName].accuracy);
-        return accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
+        // Check if we're filtering by a specific model
+        const selectedModel = document.getElementById('model-filter')?.value;
+
+        if (selectedModel && imageResult.models[selectedModel]) {
+            // Return the specific model's accuracy for sorting
+            return imageResult.models[selectedModel].accuracy;
+        } else {
+            // Calculate average accuracy across all models
+            const accuracies = modelNames.map(modelName => imageResult.models[modelName].accuracy);
+            return accuracies.reduce((sum, acc) => sum + acc, 0) / accuracies.length;
+        }
     }
 
     createImageIcon(filename) {
@@ -977,6 +997,19 @@ class BenchmarkDashboard {
     }
 
     applyFilters() {
+        if (!this.currentImageData) return;
+
+        // Re-render the content to update accuracy displays based on filter
+        const sortedImageFiles = this.sortImageFiles(this.currentImageData);
+
+        let html = '';
+        sortedImageFiles.forEach(imageResult => {
+            html += this.renderImageResult(imageResult);
+        });
+
+        document.getElementById('details-content').innerHTML = html;
+
+        // Apply model filtering after re-rendering
         const selectedModel = document.getElementById('model-filter').value;
         const imageResults = document.querySelectorAll('.image-result');
 
