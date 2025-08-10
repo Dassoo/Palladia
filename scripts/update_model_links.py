@@ -10,7 +10,7 @@ from config.loader import load_config
 
 console = Console()
 
-def generate_model_links():
+def update_model_links():
     """Generate model links mapping and save to JSON file."""
     config = load_config(verbose=False)
     
@@ -30,4 +30,4 @@ def generate_model_links():
     # print(f"Saved to: {output_path}")
 
 if __name__ == "__main__":
-    generate_model_links()
+    update_model_links()

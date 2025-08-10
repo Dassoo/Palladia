@@ -1,6 +1,6 @@
 from config.loader import ConfigLoader
 from scripts.update_manifest import regenerate_full_manifest
-from scripts.generate_model_links import update_model_links
+from scripts.update_model_links import update_model_links
 from utils.webserver.dashboard_ws import start_dashboard, open_dashboard, is_dashboard_running
 
 import yaml
