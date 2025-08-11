@@ -34,7 +34,7 @@ h2 {
     font-family: 'Poppins', serif;
     font-weight: 600;
     color: #2c3e50;
-    margin: 10px 0 20px 0;
+    margin: 15px 0 40px 0;
     text-align: center;
     justify-items: center;
 }
@@ -1135,6 +1135,296 @@ h2 {
     }
 }
 
+/* API Section Styles */
+.api-endpoint {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+    font-family: monospace;
+    font-size: 0.9em;
+    word-break: break-all;
+    color: #495057;
+}
+
+.endpoint-card {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.endpoint-header {
+    background: #495057;
+    color: #ffffff;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.endpoint-number {
+    background: #ffffff;
+    color: #495057;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.endpoint-title {
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+.endpoint-code {
+    background: #f8f9fa;
+    color: #495057;
+    padding: 12px 15px;
+    font-family: monospace;
+    font-size: 0.8em;
+    line-height: 1.3;
+    word-break: break-all;
+    border-top: 1px solid #dee2e6;
+    position: relative;
+}
+
+.endpoint-code code {
+    color: #495057;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+
+.endpoint-label {
+    font-family: system-ui, sans-serif;
+    font-size: 0.85em;
+    color: #6c757d;
+    font-weight: 500;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 2px dotted #6c757d;
+    display: inline-block;
+}
+
+.api-examples {
+    margin-top: 30px;
+}
+
+.api-examples h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.code-tabs {
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.tab-buttons {
+    display: flex;
+    background: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 12px 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #6c757d;
+    transition: all 0.2s ease;
+    border-right: 1px solid #dee2e6;
+}
+
+.tab-button:last-child {
+    border-right: none;
+}
+
+.tab-button:hover {
+    background: #e9ecef;
+    color: #495057;
+}
+
+.tab-button.active {
+    background: #495057;
+    color: #ffffff;
+}
+
+.tab-content {
+    position: relative;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.tab-pane pre {
+    background: #ffffff;
+    padding: 20px;
+    margin: 0;
+    overflow-x: auto;
+    border-radius: 0;
+}
+
+.tab-pane code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #495057;
+}
+
+.api-structure {
+    margin-top: 30px;
+}
+
+.api-structure h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.api-structure pre {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.api-structure code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #495057;
+}
+
+.structure-tabs {
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.structure-tabs .tab-buttons {
+    display: flex;
+    background: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.structure-tabs .tab-button {
+    flex: 1;
+    padding: 12px 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #6c757d;
+    transition: all 0.2s ease;
+    border-right: 1px solid #dee2e6;
+}
+
+.structure-tabs .tab-button:last-child {
+    border-right: none;
+}
+
+.structure-tabs .tab-button:hover {
+    background: #e9ecef;
+    color: #495057;
+}
+
+.structure-tabs .tab-button.active {
+    background: #495057;
+    color: #ffffff;
+}
+
+/* Copy button styles */
+.copy-button {
+    background: rgba(108, 117, 125, 0.9);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+}
+
+.copy-button:hover {
+    background: rgba(73, 80, 87, 0.9);
+}
+
+.copy-button.copied {
+    background: #d4af37 !important;
+}
+
+.copy-icon {
+    width: 14px;
+    height: 14px;
+    fill: white;
+}
+
+/* Copy tooltip animations */
+.copy-tooltip {
+    opacity: 0;
+    transform: translateX(-50%) translateY(5px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.copy-tooltip.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.copy-tooltip.hide {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-5px);
+}
+
+/* API endpoint and endpoint code containers need relative positioning */
+.api-endpoint,
+.endpoint-code {
+    position: relative;
+}
+
+/* Code block copy button */
+.code-block-container {
+    position: relative;
+}
+
+.code-copy {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(108, 117, 125, 0.9);
+    z-index: 10;
+}
+
+.code-copy:hover {
+    background: rgba(73, 80, 87, 0.9);
+}
+
 @media (max-width: 768px) {
     .hero-title {
         font-size: 2.5em;
@@ -1162,5 +1452,70 @@ h2 {
 
     .disclaimer p {
         font-size: 0.9em;
+    }
+
+    .api-endpoint {
+        font-size: 0.8em;
+        padding: 12px;
+    }
+
+    .tab-buttons {
+        flex-direction: column;
+    }
+
+    .tab-button {
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .tab-button:last-child {
+        border-bottom: none;
+    }
+
+    .tab-pane pre {
+        padding: 15px;
+        font-size: 0.8em;
+    }
+
+    .api-structure pre {
+        padding: 12px;
+        font-size: 0.8em;
+    }
+
+    .endpoint-card {
+        margin: 12px 0;
+    }
+
+    .endpoint-header {
+        padding: 8px 12px;
+        gap: 8px;
+    }
+
+    .endpoint-number {
+        width: 20px;
+        height: 20px;
+        font-size: 0.75em;
+    }
+
+    .endpoint-title {
+        font-size: 0.9em;
+    }
+
+    .endpoint-code {
+        padding: 10px 12px;
+        font-size: 0.7em;
+    }
+
+    .structure-tabs .tab-buttons {
+        flex-direction: column;
+    }
+
+    .structure-tabs .tab-button {
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .structure-tabs .tab-button:last-child {
+        border-bottom: none;
     }
 }

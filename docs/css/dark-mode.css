@@ -319,3 +319,159 @@ body[data-theme="dark"] {
     background: #b8860b;
     color: #212529;
 }
+
+/* Dark mode API section styles */
+[data-theme="dark"] .api-endpoint {
+    background: #2c3034;
+    border: 1px solid #495057;
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .code-tabs {
+    border: 1px solid #495057;
+}
+
+[data-theme="dark"] .tab-buttons {
+    background: #2c3034;
+    border-bottom: 1px solid #495057;
+}
+
+[data-theme="dark"] .tab-button {
+    color: #adb5bd;
+    border-right: 1px solid #495057;
+}
+
+[data-theme="dark"] .tab-button:hover {
+    background: #3a3f44;
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .tab-button.active {
+    background: #343a40;
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .tab-pane pre {
+    background: #212529;
+    border: none;
+}
+
+[data-theme="dark"] .tab-pane code {
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .api-structure pre {
+    background: #212529;
+    border: 1px solid #495057;
+}
+
+[data-theme="dark"] .api-structure code {
+    color: #e9ecef;
+}
+
+/* Dark mode endpoint cards */
+[data-theme="dark"] .endpoint-card {
+    background: #212529;
+    border: 1px solid #495057;
+}
+
+[data-theme="dark"] .endpoint-header {
+    background: #343a40;
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .endpoint-number {
+    background: #e9ecef;
+    color: #343a40;
+}
+
+[data-theme="dark"] .endpoint-title {
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .endpoint-code {
+    background: #2c3034;
+    color: #e9ecef;
+    border-top: 1px solid #495057;
+}
+
+[data-theme="dark"] .endpoint-code code {
+    color: #e9ecef;
+}
+
+/* Dark mode structure tabs */
+[data-theme="dark"] .structure-tabs {
+    border: 1px solid #495057;
+}
+
+[data-theme="dark"] .structure-tabs .tab-buttons {
+    background: #2c3034;
+    border-bottom: 1px solid #495057;
+}
+
+[data-theme="dark"] .structure-tabs .tab-button {
+    color: #adb5bd;
+    border-right: 1px solid #495057;
+}
+
+[data-theme="dark"] .structure-tabs .tab-button:hover {
+    background: #3a3f44;
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .structure-tabs .tab-button.active {
+    background: #343a40;
+    color: #e9ecef;
+}
+
+/* Dark mode copy button styles */
+[data-theme="dark"] .copy-button {
+    background: rgba(173, 181, 189, 0.9);
+}
+
+[data-theme="dark"] .copy-button:hover {
+    background: rgba(233, 236, 239, 0.9);
+}
+
+[data-theme="dark"] .copy-button.copied {
+    background: #d4af37 !important;
+}
+
+[data-theme="dark"] .copy-icon {
+    fill: #212529;
+}
+
+[data-theme="dark"] .copy-button.copied .copy-icon {
+    fill: black;
+}
+
+/* Dark mode copy tooltip */
+[data-theme="dark"] .copy-tooltip {
+    background: #d4af37 !important;
+    color: black !important;
+}
+
+/* Dark mode mobile responsiveness for API section */
+@media (max-width: 768px) {
+    [data-theme="dark"] .tab-buttons {
+        background: #2c3034;
+    }
+
+    [data-theme="dark"] .tab-button {
+        border-right: none;
+        border-bottom: 1px solid #495057;
+    }
+
+    [data-theme="dark"] .tab-button:last-child {
+        border-bottom: none;
+    }
+
+    [data-theme="dark"] .structure-tabs .tab-button {
+        border-right: none;
+        border-bottom: 1px solid #495057;
+    }
+
+    [data-theme="dark"] .structure-tabs .tab-button:last-child {
+        border-bottom: none;
+    }
+}

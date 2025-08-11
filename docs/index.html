@@ -31,7 +31,7 @@
             <div class="update">Latest data update: <span id="last-update">Loading...</span></div>
 
             <div class="social-links">
-                <a href="#model-averages" class="social-link">
+                <a href="#leaderboard" class="social-link">
                     <svg class="social-icon" viewBox="0 0 24 24">
                         <path
                             d="M7 14H5v5h2v-5zm3-7H8v12h2V7zm3 3h-2v9h2v-9zm3-6h-2v15h2V4zm3 9h-2v6h2v-6z" />
@@ -51,6 +51,13 @@
                             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                     </svg>
                     Data
+                </a>
+                <a href="#public-api" class="social-link">
+                    <svg class="social-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" />
+                    </svg>
+                    API
                 </a>
                 <a href="mailto:federico.dassie@gmail.com" class="social-link">
                     <svg class="social-icon" viewBox="0 0 24 24">
@@ -136,7 +143,7 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" id="leaderboard">
             <h2>Leaderboard</h2>
             <div id="model-averages">
                 <div class="loading">Loading...</div>
@@ -180,6 +187,190 @@
             
             <div id="details-content">
                 <div class="loading">Loading detailed results...</div>
+            </div>
+        </div>
+
+        <div class="section" id="public-api">
+            <h2>Public API</h2>
+            <p>Access the available public benchmarks directly through the JSON API. You can see all the available files at:</p>
+            <div class="api-endpoint">
+                <code>https://dassoo.github.io/Palladia/data/json/manifest.json</code>
+                <button class="copy-button" data-copy="https://dassoo.github.io/Palladia/data/json/manifest.json" title="Copy to clipboard">
+                    <svg class="copy-icon" viewBox="0 0 24 24">
+                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="endpoint-card">
+                <div class="endpoint-header">
+                    <span class="endpoint-number">1</span>
+                    <span class="endpoint-title">Single Images</span>
+                </div>
+                <div class="endpoint-code">
+                    <code>https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/{category}/{document}/{filename}.json</code>
+                    <button class="copy-button" data-copy="https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/{category}/{document}/{filename}.json" title="Copy to clipboard">
+                        <svg class="copy-icon" viewBox="0 0 24 24">
+                            <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="endpoint-card">
+                <div class="endpoint-header">
+                    <span class="endpoint-number">2</span>
+                    <span class="endpoint-title">Documents</span>
+                </div>
+                <div class="endpoint-code">
+                    <code>https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/{category}/{document}.json</code>
+                    <button class="copy-button" data-copy="https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/{category}/{document}.json" title="Copy to clipboard">
+                        <svg class="copy-icon" viewBox="0 0 24 24">
+                            <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="api-examples">
+                <h3>Usage Examples</h3>
+                
+                <div class="code-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="javascript">JavaScript</button>
+                        <button class="tab-button" data-tab="python">Python</button>
+                        <button class="tab-button" data-tab="curl">cURL</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div id="javascript-tab" class="tab-pane active">
+                            <div class="code-block-container">
+                                <button class="copy-button code-copy" data-copy="const category = 'EarlyModernLatin';
+const document = '1564-Thucydides-Valla';
+const filename = '00363.bin';
+
+const url = `https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/${category}/${document}/${filename}.json`;
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    console.log('OCR Data:', data);
+  })
+  .catch(error => console.error('Error:', error));" title="Copy code">
+                                    <svg class="copy-icon" viewBox="0 0 24 24">
+                                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                                    </svg>
+                                </button>
+                                <pre><code>const category = 'EarlyModernLatin';
+const document = '1564-Thucydides-Valla';
+const filename = '00363.bin';
+
+const url = `https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/${category}/${document}/${filename}.json`;
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    console.log('OCR Data:', data);
+  })
+  .catch(error => console.error('Error:', error));</code></pre>
+                            </div>
+                        </div>
+                        
+                        <div id="python-tab" class="tab-pane">
+                            <div class="code-block-container">
+                                <button class="copy-button code-copy" data-copy="import requests
+
+category = 'EarlyModernLatin'
+document = '1564-Thucydides-Valla'
+filename = '00363.bin'
+
+url = f'https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/{category}/{document}/{filename}.json'
+
+response = requests.get(url)
+if response.status_code == 200:
+    data = response.json()
+    print(data)
+else:
+    print(f'Error: {response.status_code}')" title="Copy code">
+                                    <svg class="copy-icon" viewBox="0 0 24 24">
+                                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                                    </svg>
+                                </button>
+                                <pre><code>import requests
+
+category = 'EarlyModernLatin'
+document = '1564-Thucydides-Valla'
+filename = '00363.bin'
+
+url = f'https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/{category}/{document}/{filename}.json'
+
+response = requests.get(url)
+if response.status_code == 200:
+    data = response.json()
+    print(data)
+else:
+    print(f'Error: {response.status_code}')</code></pre>
+                            </div>
+                        </div>
+                        
+                        <div id="curl-tab" class="tab-pane">
+                            <div class="code-block-container">
+                                <button class="copy-button code-copy" data-copy="curl \
+  -H &quot;Accept: application/json&quot; \
+  https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00363.bin.json" title="Copy code">
+                                    <svg class="copy-icon" viewBox="0 0 24 24">
+                                        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                                    </svg>
+                                </button>
+                                <pre><code>curl \
+  -H "Accept: application/json" \
+  https://dassoo.github.io/Palladia/data/json/GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla/00363.bin.json
+</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="api-structure">
+                <h3>Data Structure</h3>
+                
+                <div class="structure-tabs">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="single-image">Single Images</button>
+                        <button class="tab-button" data-tab="documents">Documents</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div id="single-image-tab" class="tab-pane active">
+                            <pre><code>{
+    "model_name_1": {
+        "gt": "Ground truth text for this specific image...",
+        "response": "Model OCR output for this image...",
+        "wer": 33.33333333333333,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 1.988757848739624
+    },
+    "model_name_2": {...}
+}</code></pre>
+                        </div>
+                        
+                        <div id="documents-tab" class="tab-pane">
+                            <pre><code>{
+    "model_name_1": {
+        "source": "Path to the document",
+        "images": 58,
+        "avg_wer": 32.248594317559835,
+        "avg_cer": 8.362065842702526,
+        "avg_accuracy": 91.99533595687504,
+        "avg_time": 1.548311759685648
+    },
+    "model_name_2": {...}
+}</code></pre>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
