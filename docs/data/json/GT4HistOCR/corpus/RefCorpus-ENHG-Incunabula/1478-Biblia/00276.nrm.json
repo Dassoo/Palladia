@@ -86,5 +86,13 @@
         "cer": 13.88888888888889,
         "accuracy": 86.48648648648648,
         "time": 5.491910219192505
+    },
+    "gemini-2.5-flash": {
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe ge\u017fchraue een beklag\u00edn",
+        "wer": 33.33333333333333,
+        "cer": 8.333333333333332,
+        "accuracy": 91.66666666666666,
+        "time": 3.048470973968506
     }
 }

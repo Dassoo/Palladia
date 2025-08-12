@@ -55,14 +55,6 @@
         "accuracy": 90.0,
         "time": 4.045334100723267
     },
-    "gemini-2.5-flash": {
-        "gt": "dage \u017fines leu\u1ebddes wer\u1ebd \u00b7 vij \u00b7 h\u0169dert v\u00f1 \u00b7 lxxvij",
-        "response": "\u00f0age hnes kle\u016b\u00f0es wer\u0113 vij h\u016b\u00f0ert v\u012b\u00b7ljxvij",
-        "wer": 90.9090909090909,
-        "cer": 36.0,
-        "accuracy": 66.0,
-        "time": 7.782841920852661
-    },
     "gpt-4o": {
         "gt": "dage \u017fines leu\u1ebddes wer\u1ebd \u00b7 vij \u00b7 h\u0169dert v\u00f1 \u00b7 lxxvij",
         "response": "dage \u017fines leuedes wer\u0113\u00b7vij\u00b7h\u016bdert vii\u00b7lxxvij",
@@ -94,5 +86,13 @@
         "cer": 24.0,
         "accuracy": 78.0,
         "time": 21.062083959579468
+    },
+    "gemini-2.5-flash": {
+        "gt": "dage \u017fines leu\u1ebddes wer\u1ebd \u00b7 vij \u00b7 h\u0169dert v\u00f1 \u00b7 lxxvij",
+        "response": "bage \u017fines leuc\u0303d\u0303es wer\u0303\u00b7vij\u00b7hu\u0308d\u0303ert vij\u00b7lxxvij",
+        "wer": 90.9090909090909,
+        "cer": 30.0,
+        "accuracy": 78.0,
+        "time": 8.77699613571167
     }
 }

@@ -55,14 +55,6 @@
         "accuracy": 50.0,
         "time": 2.9127607345581055
     },
-    "gemini-2.5-flash": {
-        "gt": "13 4",
-        "response": "B 4",
-        "wer": 50.0,
-        "cer": 50.0,
-        "accuracy": 50.0,
-        "time": 3.184386730194092
-    },
     "claude-4-sonnet": {
         "gt": "13 4",
         "response": "B    4",
@@ -110,5 +102,13 @@
         "cer": 50.0,
         "accuracy": 50.0,
         "time": 2.503131866455078
+    },
+    "gemini-2.5-flash": {
+        "gt": "13 4",
+        "response": "B 4",
+        "wer": 50.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 2.1899030208587646
     }
 }

@@ -86,5 +86,13 @@
         "cer": 11.11111111111111,
         "accuracy": 88.88888888888889,
         "time": 5.46947717666626
+    },
+    "gemini-2.5-flash": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "nach F\u00fcr der Feindin Ihre Hertzogin Sv Schrey",
+        "wer": 77.77777777777779,
+        "cer": 28.888888888888886,
+        "accuracy": 73.33333333333333,
+        "time": 3.9173240661621094
     }
 }

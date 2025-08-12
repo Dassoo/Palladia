@@ -86,5 +86,13 @@
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,
         "time": 4.219031095504761
+    },
+    "gemini-2.5-flash": {
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Sen edlen \u017fchatz offenwaren Der welt zu einer",
+        "wer": 62.5,
+        "cer": 13.636363636363635,
+        "accuracy": 86.66666666666667,
+        "time": 5.462435960769653
     }
 }

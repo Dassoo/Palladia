@@ -86,5 +86,13 @@
         "cer": 18.6046511627907,
         "accuracy": 81.3953488372093,
         "time": 6.94914984703064
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
+        "response": "Schab\u00df Daer Senoch hertzog was. In S\u0113trat",
+        "wer": 88.88888888888889,
+        "cer": 27.906976744186046,
+        "accuracy": 72.09302325581395,
+        "time": 13.216592073440552
     }
 }

@@ -86,5 +86,13 @@
         "cer": 9.523809523809524,
         "accuracy": 90.47619047619048,
         "time": 5.279367923736572
+    },
+    "gemini-2.5-flash": {
+        "gt": "Darnach kam er auff einen berg da wonet er",
+        "response": "Darnach Kom er auff einen Berg Sa monet er",
+        "wer": 44.44444444444444,
+        "cer": 11.904761904761903,
+        "accuracy": 88.09523809523809,
+        "time": 4.196160078048706
     }
 }

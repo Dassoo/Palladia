@@ -86,5 +86,13 @@
         "cer": 29.78723404255319,
         "accuracy": 72.3404255319149,
         "time": 4.50515604019165
+    },
+    "gemini-2.5-flash": {
+        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
+        "response": "cri\u017ft\u1ebd d\u00ff zauber re\u017f\u017fen.man \u017fy wurde\u00f1 \u017fy f\u00fcr",
+        "wer": 55.55555555555556,
+        "cer": 21.27659574468085,
+        "accuracy": 78.72340425531915,
+        "time": 3.169509172439575
     }
 }

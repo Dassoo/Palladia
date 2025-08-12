@@ -86,5 +86,13 @@
         "cer": 20.0,
         "accuracy": 80.0,
         "time": 5.84080171585083
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017feet voer dem begyn E\u017fdre",
+        "response": "\u017fet voer den begyn E\u00df dre",
+        "wer": 80.0,
+        "cer": 16.0,
+        "accuracy": 88.0,
+        "time": 8.719839811325073
     }
 }

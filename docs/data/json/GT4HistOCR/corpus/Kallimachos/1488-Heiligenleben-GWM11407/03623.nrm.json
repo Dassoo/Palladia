@@ -86,5 +86,13 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 9.472214937210083
+    },
+    "gemini-2.5-flash": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "rec\u017ft er auch rool Sas \u017fie cri\u017ften waren. und Sas",
+        "wer": 50.0,
+        "cer": 17.391304347826086,
+        "accuracy": 83.6734693877551,
+        "time": 4.001171112060547
     }
 }

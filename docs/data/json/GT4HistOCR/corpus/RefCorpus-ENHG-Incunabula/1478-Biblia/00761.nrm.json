@@ -86,5 +86,13 @@
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 7.489007949829102
+    },
+    "gemini-2.5-flash": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde fye \u017fchte deme kouninge Ja daer is noch",
+        "wer": 33.33333333333333,
+        "cer": 18.6046511627907,
+        "accuracy": 84.0909090909091,
+        "time": 2.9274749755859375
     }
 }

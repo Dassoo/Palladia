@@ -86,5 +86,13 @@
         "cer": 82.6086956521739,
         "accuracy": 49.333333333333336,
         "time": 6.097995758056641
+    },
+    "gemini-2.5-flash": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 lahe \u017fclos g\u0101\u00b7rn als dar gebat\u017fcoprt wart",
+        "wer": 72.72727272727273,
+        "cer": 23.91304347826087,
+        "accuracy": 78.26086956521739,
+        "time": 6.9061620235443115
     }
 }

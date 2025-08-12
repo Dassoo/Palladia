@@ -55,14 +55,6 @@
         "accuracy": 88.88888888888889,
         "time": 3.60031795501709
     },
-    "gemini-2.5-flash": {
-        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
-        "response": "& is gro\u017fer den dat ick worden kan gnade.",
-        "wer": 50.0,
-        "cer": 17.77777777777778,
-        "accuracy": 82.22222222222221,
-        "time": 9.319983959197998
-    },
     "gpt-4o": {
         "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
         "response": "de is groter den dat ick wordenen kan gnaede.",
@@ -94,5 +86,13 @@
         "cer": 15.555555555555555,
         "accuracy": 84.44444444444444,
         "time": 5.7973339557647705
+    },
+    "gemini-2.5-flash": {
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "\ua75b is groter \ua75b dat ich worden kan guade .",
+        "wer": 60.0,
+        "cer": 24.444444444444443,
+        "accuracy": 75.55555555555556,
+        "time": 9.55512809753418
     }
 }

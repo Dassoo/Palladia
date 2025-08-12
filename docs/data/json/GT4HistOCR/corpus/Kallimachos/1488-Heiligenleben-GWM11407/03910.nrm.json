@@ -86,5 +86,13 @@
         "cer": 15.909090909090908,
         "accuracy": 84.0909090909091,
         "time": 6.49630880355835
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017fen. Sa ermacht \u017fer hertzog vnd trachtet",
+        "wer": 57.14285714285714,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 4.766428232192993
     }
 }

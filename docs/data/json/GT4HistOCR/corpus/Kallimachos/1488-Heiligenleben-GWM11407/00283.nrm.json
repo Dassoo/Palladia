@@ -86,5 +86,13 @@
         "cer": 17.391304347826086,
         "accuracy": 82.6086956521739,
         "time": 3.9156339168548584
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u00f0 lebet bey des key\u017fers decius \u0292eyt\u1ebd. da wurd\u1ebd",
+        "response": "Slebet bey Des Eey\u017fers Decius zeyt\u1ebd. Sa wurd\u1ebd",
+        "wer": 77.77777777777779,
+        "cer": 15.217391304347828,
+        "accuracy": 84.78260869565217,
+        "time": 13.769849061965942
     }
 }

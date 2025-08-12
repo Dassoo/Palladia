@@ -86,5 +86,13 @@
         "cer": 19.148936170212767,
         "accuracy": 80.85106382978722,
         "time": 6.898839712142944
+    },
+    "gemini-2.5-flash": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "rp\u0304i bef\u0153ru\u0113 he\ufb00e v\u00f1 Marcus werlt figurertt in",
+        "wer": 66.66666666666666,
+        "cer": 25.53191489361702,
+        "accuracy": 78.72340425531915,
+        "time": 4.550957202911377
     }
 }

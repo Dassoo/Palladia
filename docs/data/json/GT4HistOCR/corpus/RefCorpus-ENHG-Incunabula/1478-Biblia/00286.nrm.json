@@ -86,5 +86,13 @@
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 3.7037620544433594
+    },
+    "gemini-2.5-flash": {
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghele\u017fen voer my v\u012bi v\u0101.",
+        "wer": 25.0,
+        "cer": 9.75609756097561,
+        "accuracy": 90.69767441860465,
+        "time": 6.359523057937622
     }
 }

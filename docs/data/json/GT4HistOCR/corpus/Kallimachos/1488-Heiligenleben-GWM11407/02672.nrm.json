@@ -86,5 +86,13 @@
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 15.350393295288086
+    },
+    "gemini-2.5-flash": {
+        "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+        "response": "Paul\u017f ertotet. So man man Sie pfenning. vnd",
+        "wer": 50.0,
+        "cer": 13.953488372093023,
+        "accuracy": 86.04651162790698,
+        "time": 6.095175266265869
     }
 }

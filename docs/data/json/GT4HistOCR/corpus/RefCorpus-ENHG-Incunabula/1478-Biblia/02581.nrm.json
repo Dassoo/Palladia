@@ -86,5 +86,13 @@
         "cer": 14.285714285714285,
         "accuracy": 88.09523809523809,
         "time": 7.706010818481445
+    },
+    "gemini-2.5-flash": {
+        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
+        "response": "v\u00f1 leuet na da\u00df ghebozt achtehundert vndz",
+        "wer": 57.14285714285714,
+        "cer": 14.285714285714285,
+        "accuracy": 85.71428571428571,
+        "time": 7.466139078140259
     }
 }

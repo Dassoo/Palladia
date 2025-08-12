@@ -86,5 +86,13 @@
         "cer": 6.382978723404255,
         "accuracy": 95.74468085106383,
         "time": 5.631922006607056
+    },
+    "gemini-2.5-flash": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "p\u017fecht. Aber wer gelert i\u017ft vnd Sielere mit tge",
+        "wer": 40.0,
+        "cer": 8.51063829787234,
+        "accuracy": 93.61702127659575,
+        "time": 4.773125886917114
     }
 }

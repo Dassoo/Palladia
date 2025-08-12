@@ -86,5 +86,13 @@
         "cer": 18.181818181818183,
         "accuracy": 81.81818181818183,
         "time": 3.7949130535125732
+    },
+    "gemini-2.5-flash": {
+        "gt": "nen. vnd das er \u017fein keu\u017fcheyt m\u00f6cht beh\u00fct\u1ebd.",
+        "response": "nen. vnd Das er \u017fein Keu\u017fchheit m\u00f6cht Behu\u0364te.",
+        "wer": 37.5,
+        "cer": 18.181818181818183,
+        "accuracy": 82.6086956521739,
+        "time": 12.038145065307617
     }
 }

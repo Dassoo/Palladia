@@ -86,5 +86,13 @@
         "cer": 11.363636363636363,
         "accuracy": 88.63636363636364,
         "time": 5.940898895263672
+    },
+    "gemini-2.5-flash": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit Zu mich o\u0364berwindest. Da\u017fpach er ru\u0364 ist",
+        "wer": 66.66666666666666,
+        "cer": 22.727272727272727,
+        "accuracy": 81.81818181818183,
+        "time": 5.3047027587890625
     }
 }

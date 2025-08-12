@@ -72,25 +72,18 @@ async def run_model(agent, model, executor, image_path: str):
         agent, model, executor, image_path, gt
     )
     
-    # Print results with better spacing
-    console.print("\n" + "─" * 80)
-    console.print(Text(f"🤖 {display_name}", style="bold blue"))
+    console.print(Text(f"\n🤖 {display_name}", style="bold blue"))
     console.print("─" * 80)
     
-    # Model response with clear separation
-    console.print(Text("Model Response:", style="bold yellow"))
+    console.print(Text("\nModel Response:", style="bold yellow"))
     pprint_run_response(response)
     
-    # Evaluation results with clear separation
-    console.print("\n" + "─" * 40)
-    console.print(Text("Benchmark Result:", style="bold yellow"))
-    console.print("─" * 40)
-    console.print(diff)
-    console.print(Text(f"\nMetrics:", style="bold green"))
+    console.print("\n", diff)
+    console.print(Text(f"\nMetrics:", style="dim"))
     console.print(Text(f"  • WER: {wer:.2%}", style="cyan"))  # Word error rate (Jiwer)
     console.print(Text(f"  • CER: {cer:.2%}", style="cyan"))  # Character error rate (Jiwer)
     console.print(Text(f"  • Accuracy: {accuracy:.2%}", style="blue"))  # Accuracy (diff match patch)
-    console.print(Text(f"  • Execution Time: {exec_time:.2f} seconds", style="cyan"))
+    console.print(Text(f"  • Execution Time: {exec_time:.2f} seconds", style="yellow"))
     
     console.print("\n" + "═" * 80 + "\n")
     to_json(model, gt, response, wer, cer, accuracy, exec_time, image_path)
@@ -180,9 +173,9 @@ async def run_all(image_paths: list[str], source: str):
             avg_exec_time = sum(model_metrics['exec_time']) / len(model_metrics['exec_time'])
             tot_images = model_metrics['total_images']
             
-            console.print(f"\n┌─ 🤖 {model_id}")
-            console.print(f"├─ Source: {source}")
-            console.print(f"├─ Images processed: {tot_images}")
+            console.print(f"\n🤖 {model_id}", style="bold blue")
+            console.print(f"├─ Source: {source}", style="dim")
+            console.print(f"├─ Images processed: {tot_images}", style="dim")
             console.print(Text(f"├─ Average WER: {avg_wer:.2%}", style="cyan"))
             console.print(Text(f"├─ Average CER: {avg_cer:.2%}", style="cyan"))
             console.print(Text(f"├─ Average Accuracy: {avg_accuracy:.2%}", style="blue"))

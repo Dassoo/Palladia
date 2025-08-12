@@ -86,5 +86,13 @@
         "cer": 16.666666666666664,
         "accuracy": 83.33333333333334,
         "time": 4.100507020950317
+    },
+    "gemini-2.5-flash": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und allo rme\u017fte here gleicha\u017ften \u017fadde :vnte",
+        "wer": 87.5,
+        "cer": 35.714285714285715,
+        "accuracy": 68.18181818181817,
+        "time": 3.050859212875366
     }
 }

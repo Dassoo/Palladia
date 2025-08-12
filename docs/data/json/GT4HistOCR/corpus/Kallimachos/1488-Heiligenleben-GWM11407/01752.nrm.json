@@ -86,5 +86,13 @@
         "cer": 14.583333333333334,
         "accuracy": 89.58333333333334,
         "time": 4.788094997406006
+    },
+    "gemini-2.5-flash": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "er \u017fithun \u017foll Szer got wolgewiel. Sa \u017fprach er.",
+        "wer": 72.72727272727273,
+        "cer": 20.833333333333336,
+        "accuracy": 83.33333333333334,
+        "time": 11.104416131973267
     }
 }

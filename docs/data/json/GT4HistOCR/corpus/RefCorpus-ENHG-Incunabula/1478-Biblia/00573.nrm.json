@@ -86,5 +86,13 @@
         "cer": 13.636363636363635,
         "accuracy": 86.66666666666667,
         "time": 6.890933036804199
+    },
+    "gemini-2.5-flash": {
+        "gt": "Men de \u017fone y\u017frahel pre\u017ftere vnde leuiten v\u00f1",
+        "response": "Men de \u017fone y\u017frahcl prie\u017ftere vnde leuiiten v\u00f1",
+        "wer": 37.5,
+        "cer": 6.8181818181818175,
+        "accuracy": 93.47826086956522,
+        "time": 3.360121011734009
     }
 }

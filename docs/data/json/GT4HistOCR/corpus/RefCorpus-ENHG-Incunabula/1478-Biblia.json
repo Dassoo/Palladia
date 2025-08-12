@@ -55,14 +55,6 @@
         "avg_accuracy": 89.48921272129044,
         "avg_time": 4.111063003540039
     },
-    "gemini-2.5-flash": {
-        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
-        "images": 5,
-        "avg_wer": 66.75324675324676,
-        "avg_cer": 26.80649043627767,
-        "avg_accuracy": 77.13546406312364,
-        "avg_time": 10.26406397819519
-    },
     "gpt-4o": {
         "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
         "images": 30,
@@ -94,5 +86,13 @@
         "avg_cer": 20.045098452871937,
         "avg_accuracy": 82.12341974425044,
         "avg_time": 7.240631993611654
+    },
+    "gemini-2.5-flash": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 59.033910533910536,
+        "avg_cer": 19.65277930427164,
+        "avg_accuracy": 82.69657211346475,
+        "avg_time": 6.9708667675654095
     }
 }

@@ -86,5 +86,13 @@
         "cer": 20.454545454545457,
         "accuracy": 79.54545454545455,
         "time": 7.739300966262817
+    },
+    "gemini-2.5-flash": {
+        "gt": "y\u017frahels vnde Dauid \u017floech doet v\u00e3 den v\u00e3 \u017fy",
+        "response": "p\u017frahels onde Dauid \u017focch doet v\u0101 den v\u0101 \u017fp",
+        "wer": 66.66666666666666,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 4.548131942749023
     }
 }

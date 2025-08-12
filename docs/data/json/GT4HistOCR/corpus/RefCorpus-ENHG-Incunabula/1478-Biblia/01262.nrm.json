@@ -86,5 +86,13 @@
         "cer": 13.953488372093023,
         "accuracy": 88.37209302325581,
         "time": 13.369667053222656
+    },
+    "gemini-2.5-flash": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u0304n van der tymmeringe des tempels, vnde v\u0303a",
+        "wer": 44.44444444444444,
+        "cer": 13.953488372093023,
+        "accuracy": 88.63636363636364,
+        "time": 6.920720100402832
     }
 }

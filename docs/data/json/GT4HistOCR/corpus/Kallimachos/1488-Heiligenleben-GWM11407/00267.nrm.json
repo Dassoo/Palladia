@@ -86,5 +86,13 @@
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 11.84786319732666
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017fus mit der red. vnd \u017fp\ua75bach \u0292u im Symon wes",
+        "response": "\u017fus mit Der red. .vnd \u017fprach zu im Symon me\u017f",
+        "wer": 50.0,
+        "cer": 13.953488372093023,
+        "accuracy": 86.36363636363636,
+        "time": 10.312368154525757
     }
 }

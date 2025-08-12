@@ -86,5 +86,13 @@
         "cer": 7.142857142857142,
         "accuracy": 92.85714285714286,
         "time": 4.798999071121216
+    },
+    "gemini-2.5-flash": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes vn Paulus haben merlich er\u017f",
+        "wer": 42.857142857142854,
+        "cer": 9.523809523809524,
+        "accuracy": 90.47619047619048,
+        "time": 5.612197160720825
     }
 }

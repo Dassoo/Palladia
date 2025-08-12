@@ -86,5 +86,13 @@
         "cer": 20.51282051282051,
         "accuracy": 80.0,
         "time": 10.786117792129517
+    },
+    "gemini-2.5-flash": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach Kam Eu\u017ftachius an Sy hat Da er",
+        "wer": 50.0,
+        "cer": 12.82051282051282,
+        "accuracy": 87.17948717948718,
+        "time": 4.991846799850464
     }
 }

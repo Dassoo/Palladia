@@ -86,5 +86,13 @@
         "cer": 13.953488372093023,
         "accuracy": 86.04651162790698,
         "time": 8.484107971191406
+    },
+    "gemini-2.5-flash": {
+        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
+        "response": "vle\u017fch Mer gult\u0113 v\u00f1 eergylter\u0113 do Saulko",
+        "wer": 50.0,
+        "cer": 18.6046511627907,
+        "accuracy": 81.3953488372093,
+        "time": 6.297842979431152
     }
 }

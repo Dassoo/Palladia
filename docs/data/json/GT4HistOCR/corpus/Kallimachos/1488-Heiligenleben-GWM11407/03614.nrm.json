@@ -86,5 +86,13 @@
         "cer": 29.545454545454547,
         "accuracy": 72.72727272727273,
         "time": 13.512163877487183
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
+        "response": "\u017fo. vnd \u017fahen Das gro\u00df wunder. Da \u017fprach der",
+        "wer": 44.44444444444444,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 11.586232900619507
     }
 }

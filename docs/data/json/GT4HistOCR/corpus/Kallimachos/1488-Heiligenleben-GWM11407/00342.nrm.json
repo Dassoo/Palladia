@@ -86,5 +86,13 @@
         "cer": 16.666666666666664,
         "accuracy": 85.41666666666666,
         "time": 10.640167951583862
+    },
+    "gemini-2.5-flash": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ftet \u017fy an ein erlich\u1ebd \u017ftat. Dagieng",
+        "wer": 40.0,
+        "cer": 8.333333333333332,
+        "accuracy": 91.66666666666666,
+        "time": 8.816992044448853
     }
 }

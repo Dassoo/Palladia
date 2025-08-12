@@ -86,5 +86,13 @@
         "cer": 13.636363636363635,
         "accuracy": 86.66666666666667,
         "time": 7.277984619140625
+    },
+    "gemini-2.5-flash": {
+        "gt": "zer dat \u017fe vorwonnen weren van y\u017frahel\u017fe vnt",
+        "response": "zer dat \u017fe vowonnen weren van Pfrabel \u017fe vnt",
+        "wer": 37.5,
+        "cer": 11.363636363636363,
+        "accuracy": 90.9090909090909,
+        "time": 4.776273965835571
     }
 }

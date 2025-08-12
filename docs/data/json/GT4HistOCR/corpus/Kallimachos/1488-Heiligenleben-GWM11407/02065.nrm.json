@@ -86,5 +86,13 @@
         "cer": 31.11111111111111,
         "accuracy": 71.11111111111111,
         "time": 5.107717752456665
+    },
+    "gemini-2.5-flash": {
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Ben. vnd Sa\u017f\u017fie Sy \u017fpin\u0303nende Sa voz \u017faben. Sa",
+        "wer": 90.0,
+        "cer": 28.888888888888886,
+        "accuracy": 73.91304347826086,
+        "time": 10.006366968154907
     }
 }

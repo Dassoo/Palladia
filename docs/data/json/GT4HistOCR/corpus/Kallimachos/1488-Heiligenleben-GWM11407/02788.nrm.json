@@ -86,5 +86,13 @@
         "cer": 15.217391304347828,
         "accuracy": 84.78260869565217,
         "time": 9.669206142425537
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u017foltu nit vmreyn Hey\u017f\u017fen. Das ge\u017fiht \u017fah er zu",
+        "wer": 44.44444444444444,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 5.548147916793823
     }
 }

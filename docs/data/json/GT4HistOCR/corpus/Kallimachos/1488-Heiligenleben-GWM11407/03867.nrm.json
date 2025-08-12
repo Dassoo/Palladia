@@ -86,5 +86,13 @@
         "cer": 17.391304347826086,
         "accuracy": 84.78260869565217,
         "time": 10.732153177261353
+    },
+    "gemini-2.5-flash": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius. v\u00f1 legt \u017fie als wir \u017fie nun begeen",
+        "wer": 22.22222222222222,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 5.660886764526367
     }
 }

@@ -55,14 +55,6 @@
         "accuracy": 91.48936170212765,
         "time": 3.459178924560547
     },
-    "gemini-2.5-flash": {
-        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
-        "response": "\u201din eren leue-rn\u017fc\u00eb ock no m denne dode en \u017fuit",
-        "wer": 75.0,
-        "cer": 34.04255319148936,
-        "accuracy": 74.46808510638297,
-        "time": 10.511241912841797
-    },
     "gpt-4o": {
         "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
         "response": "in eeren leue vnde o\u0153k nv in deme dode en fint",
@@ -94,5 +86,13 @@
         "cer": 14.893617021276595,
         "accuracy": 87.2340425531915,
         "time": 7.368930816650391
+    },
+    "gemini-2.5-flash": {
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in \u00ebren leu\u00eb\u0364rnc S\u00f6 oek \u00f1 m demme dode en \u017fnit",
+        "wer": 66.66666666666666,
+        "cer": 34.04255319148936,
+        "accuracy": 72.3404255319149,
+        "time": 18.946444988250732
     }
 }

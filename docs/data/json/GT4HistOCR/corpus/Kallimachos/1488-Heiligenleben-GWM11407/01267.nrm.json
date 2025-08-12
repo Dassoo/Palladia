@@ -86,5 +86,13 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 9.41752028465271
+    },
+    "gemini-2.5-flash": {
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie unmen\u017fchlich i\u017ft den Juden da\u00df \u017fie \u017fich zu",
+        "wer": 44.44444444444444,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 4.670686960220337
     }
 }

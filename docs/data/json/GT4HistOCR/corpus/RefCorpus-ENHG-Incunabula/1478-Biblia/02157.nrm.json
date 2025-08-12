@@ -55,14 +55,6 @@
         "accuracy": 88.88888888888889,
         "time": 3.0031919479370117
     },
-    "gemini-2.5-flash": {
-        "gt": "heliten \u00b7 vnde na deme cheleab van abyghaill",
-        "response": "beili\u017ften vnte na \u1e0boinechleab van abyghall",
-        "wer": 75.0,
-        "cer": 29.545454545454547,
-        "accuracy": 77.27272727272727,
-        "time": 15.161270141601562
-    },
     "gpt-4o": {
         "gt": "heliten \u00b7 vnde na deme cheleab van abyghaill",
         "response": "thei\u017ften \u00b7 vnde na deine ghelebn van abryghaill",
@@ -94,5 +86,13 @@
         "cer": 13.636363636363635,
         "accuracy": 90.9090909090909,
         "time": 7.028573274612427
+    },
+    "gemini-2.5-flash": {
+        "gt": "heliten \u00b7 vnde na deme cheleab van abyghaill",
+        "response": "Hj\u017fleiten vnder na deme cheleab van abryghaill",
+        "wer": 50.0,
+        "cer": 18.181818181818183,
+        "accuracy": 86.95652173913044,
+        "time": 6.649497032165527
     }
 }

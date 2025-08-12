@@ -59,9 +59,9 @@
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
         "images": 58,
         "avg_wer": 33.97148828183311,
-        "avg_cer": 9.51109480952774,
-        "avg_accuracy": 90.84362854741678,
-        "avg_time": 5.5190565051703615
+        "avg_cer": 8.649025844010499,
+        "avg_accuracy": 91.70569751293402,
+        "avg_time": 5.490410899293834
     },
     "claude-4-opus": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",

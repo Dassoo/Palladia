@@ -55,14 +55,6 @@
         "accuracy": 95.23809523809523,
         "time": 3.447359085083008
     },
-    "gemini-2.5-flash": {
-        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
-        "response": "mert ru\u0364de hadden von\u017fpoet na der prophed\u00e9",
-        "wer": 42.857142857142854,
-        "cer": 16.666666666666664,
-        "accuracy": 85.71428571428571,
-        "time": 8.544981956481934
-    },
     "gpt-4o": {
         "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
         "response": "mert unde hadden vor\u017fpoet nader propheti\u1ebd",
@@ -94,5 +86,13 @@
         "cer": 42.857142857142854,
         "accuracy": 57.14285714285714,
         "time": 14.759611129760742
+    },
+    "gemini-2.5-flash": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert rude hadden von\u017fpoet na der prophe\u017fede\u0301",
+        "wer": 42.857142857142854,
+        "cer": 19.047619047619047,
+        "accuracy": 81.81818181818183,
+        "time": 4.395563125610352
     }
 }

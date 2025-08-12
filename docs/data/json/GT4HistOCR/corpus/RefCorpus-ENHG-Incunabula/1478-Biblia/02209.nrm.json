@@ -86,5 +86,13 @@
         "cer": 15.217391304347828,
         "accuracy": 84.78260869565217,
         "time": 5.226405143737793
+    },
+    "gemini-2.5-flash": {
+        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
+        "response": "cho: do \u017ftreckede D\ua75ba v\ua75bb \u017fin hant tho \ua75ber as",
+        "wer": 70.0,
+        "cer": 19.565217391304348,
+        "accuracy": 82.6086956521739,
+        "time": 8.73605990409851
     }
 }

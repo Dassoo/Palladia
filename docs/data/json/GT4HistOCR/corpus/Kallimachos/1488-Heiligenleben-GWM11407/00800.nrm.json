@@ -86,5 +86,13 @@
         "cer": 27.083333333333332,
         "accuracy": 77.55102040816327,
         "time": 6.284764051437378
+    },
+    "gemini-2.5-flash": {
+        "gt": "\u017fter Achalongus vn\u0303 \u017fp\ua75bach. du \u017folt nit ge\u017ftatt\u1ebd",
+        "response": "\u017fter A\u017fchalongus v\u00f1 \u017fprach: Su \u017folt nit ge\u017ftatt\u0113",
+        "wer": 62.5,
+        "cer": 14.583333333333334,
+        "accuracy": 87.5,
+        "time": 7.799666166305542
     }
 }

@@ -47,14 +47,6 @@
         "accuracy": 50.0,
         "time": 2.1256840229034424
     },
-    "gemini-2.5-flash": {
-        "gt": "42",
-        "response": "48",
-        "wer": 100.0,
-        "cer": 50.0,
-        "accuracy": 50.0,
-        "time": 2.2765679359436035
-    },
     "claude-4-opus": {
         "gt": "42",
         "response": "4.",
@@ -110,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.7397451400756836
+    },
+    "gemini-2.5-flash": {
+        "gt": "42",
+        "response": "43",
+        "wer": 100.0,
+        "cer": 50.0,
+        "accuracy": 50.0,
+        "time": 2.0795302391052246
     }
 }

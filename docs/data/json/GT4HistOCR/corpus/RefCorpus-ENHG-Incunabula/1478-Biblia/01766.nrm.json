@@ -86,5 +86,13 @@
         "cer": 34.0,
         "accuracy": 66.0,
         "time": 9.418953895568848
+    },
+    "gemini-2.5-flash": {
+        "gt": "cos \u017fone \u00b7 zizara \u017fone \u00b7 thema \u017fone \u00b7 na\u017fia \u017fone \u00b7",
+        "response": "\ua759s: fone \ua753 fone \ua753: zizara fone \ua753: thjema fone \ua753: naha fone",
+        "wer": 100.0,
+        "cer": 48.0,
+        "accuracy": 63.793103448275865,
+        "time": 12.741966724395752
     }
 }

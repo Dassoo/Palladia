@@ -86,5 +86,13 @@
         "cer": 17.02127659574468,
         "accuracy": 82.97872340425532,
         "time": 6.553598880767822
+    },
+    "gemini-2.5-flash": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "i\u017fel \u017fin: mer de byllige \u017fchrift is vitmendyh",
+        "wer": 50.0,
+        "cer": 12.76595744680851,
+        "accuracy": 87.2340425531915,
+        "time": 5.884643077850342
     }
 }
