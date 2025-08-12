@@ -39,6 +39,10 @@ h2 {
     justify-items: center;
 }
 
+a {
+    color: #813ec0;
+}
+
 .main-section-title {
     text-align: center;
 }
@@ -47,7 +51,7 @@ h2 {
     background: #ffffff4e;
     font-size: 1rem;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -1047,10 +1051,10 @@ h2 {
 
 .simple-footer {
     text-align: center;
-    padding: 30px 20px;
+    padding: 30px 10px;
     color: #6c757d;
     font-size: 0.9em;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .update {
