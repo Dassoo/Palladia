@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 7.8781280517578125
+    },
+    "glm-4.5v": {
+        "gt": "DE Littera d.",
+        "response": "DE Littera d.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 4.400084018707275
     }
 }

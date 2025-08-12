@@ -102,5 +102,13 @@
         "cer": 2.8169014084507045,
         "accuracy": 97.1830985915493,
         "time": 39.83708095550537
+    },
+    "glm-4.5v": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 poft initium, ubi in margine h\u00e6c uerba funt, Armo\u2022",
+        "wer": 25.0,
+        "cer": 4.225352112676056,
+        "accuracy": 95.77464788732394,
+        "time": 8.395915031433105
     }
 }

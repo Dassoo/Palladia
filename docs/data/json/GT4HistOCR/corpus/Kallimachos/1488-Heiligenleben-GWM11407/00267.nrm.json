@@ -78,5 +78,13 @@
         "cer": 6.976744186046512,
         "accuracy": 93.18181818181817,
         "time": 33.49627900123596
+    },
+    "glm-4.5v": {
+        "gt": "\u017fus mit der red. vnd \u017fp\ua75bach \u0292u im Symon wes",
+        "response": "\u017fus mit der red.ond fpzach zu im Symon wes",
+        "wer": 40.0,
+        "cer": 11.627906976744185,
+        "accuracy": 88.37209302325581,
+        "time": 11.84786319732666
     }
 }

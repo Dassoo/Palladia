@@ -102,5 +102,13 @@
         "cer": 14.102564102564102,
         "accuracy": 87.17948717948718,
         "time": 81.05183482170105
+    },
+    "glm-4.5v": {
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "afpiratioe adinucnit: qu\u00e6 quodamodo molliore \u017f. ps. uolubiliorem q; con\u016b haib:",
+        "wer": 90.0,
+        "cer": 15.384615384615385,
+        "accuracy": 87.17948717948718,
+        "time": 4.908836841583252
     }
 }

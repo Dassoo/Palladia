@@ -86,5 +86,13 @@
         "cer": 14.893617021276595,
         "accuracy": 89.58333333333334,
         "time": 72.86802697181702
+    },
+    "glm-4.5v": {
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in eren leue vnnd oek nv im demedode en fint",
+        "wer": 50.0,
+        "cer": 14.893617021276595,
+        "accuracy": 87.2340425531915,
+        "time": 7.368930816650391
     }
 }

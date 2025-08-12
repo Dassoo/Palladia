@@ -78,5 +78,13 @@
         "cer": 10.869565217391305,
         "accuracy": 89.13043478260869,
         "time": 108.05025267601013
+    },
+    "glm-4.5v": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v i n l o t e f c l o s g \u00e4 . r \u012b n a l s d a r g e b a t \u017f c o p t w a r t",
+        "wer": 100.0,
+        "cer": 82.6086956521739,
+        "accuracy": 49.333333333333336,
+        "time": 6.097995758056641
     }
 }

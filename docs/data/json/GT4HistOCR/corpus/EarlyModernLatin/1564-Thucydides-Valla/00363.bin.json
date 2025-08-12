@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 19.093442916870117
+    },
+    "glm-4.5v": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u016bm eo nece\u017f\u017fitatis uentum e\u017f\u017fet, ut inuicem Corinthi\u012b Athenien",
+        "wer": 33.33333333333333,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 5.974897861480713
     }
 }

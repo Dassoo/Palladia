@@ -102,5 +102,13 @@
         "cer": 1.4492753623188406,
         "accuracy": 98.55072463768117,
         "time": 41.122299909591675
+    },
+    "glm-4.5v": {
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas,quibus ip\u017fe interfui,quasq\u0303 figillatim ab alijs quam potuidi.",
+        "wer": 72.72727272727273,
+        "cer": 13.043478260869565,
+        "accuracy": 86.95652173913044,
+        "time": 3.9125301837921143
     }
 }

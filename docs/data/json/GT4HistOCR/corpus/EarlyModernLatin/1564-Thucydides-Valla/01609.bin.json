@@ -102,5 +102,13 @@
         "cer": 6.557377049180328,
         "accuracy": 93.54838709677419,
         "time": 60.16326117515564
+    },
+    "glm-4.5v": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim hgc Corinthi\u0303 eger\u0101t.lidem cum oppugnarctur Po-",
+        "wer": 66.66666666666666,
+        "cer": 11.475409836065573,
+        "accuracy": 88.52459016393442,
+        "time": 5.902918815612793
     }
 }

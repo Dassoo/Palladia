@@ -78,5 +78,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 32.001858711242676
+    },
+    "glm-4.5v": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wovldat nothis dat duvth geueit",
+        "wer": 80.0,
+        "cer": 14.285714285714285,
+        "accuracy": 85.71428571428571,
+        "time": 4.100836992263794
     }
 }

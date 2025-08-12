@@ -102,5 +102,13 @@
         "cer": 17.647058823529413,
         "accuracy": 85.0574712643678,
         "time": 79.77681994438171
+    },
+    "glm-4.5v": {
+        "gt": "hodie minor \u1ebd \ua757\u1dd3 here fuit: atq; ead\u1ebd cras. S\u0129liter Martialis libro primo epigr\u00e3mat\u0169:",
+        "response": "hodic minor \u0113q herefuit:arq; ead\u0113 cras.Siliter Martialis libro primo epigramat\u016b;",
+        "wer": 71.42857142857143,
+        "cer": 16.470588235294116,
+        "accuracy": 83.52941176470588,
+        "time": 16.600870847702026
     }
 }

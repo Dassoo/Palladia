@@ -78,5 +78,13 @@
         "cer": 14.893617021276595,
         "accuracy": 87.2340425531915,
         "time": 75.10524201393127
+    },
+    "glm-4.5v": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "rp\u012b beforeu\u0113 heft\u00b7v\u00f1 Marcus wert figurett in",
+        "wer": 66.66666666666666,
+        "cer": 19.148936170212767,
+        "accuracy": 80.85106382978722,
+        "time": 6.898839712142944
     }
 }

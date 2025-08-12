@@ -78,5 +78,13 @@
         "cer": 5.128205128205128,
         "accuracy": 94.87179487179486,
         "time": 48.93862295150757
+    },
+    "glm-4.5v": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Garnach Fam Euftacchius an Sp ftat da cr",
+        "wer": 75.0,
+        "cer": 20.51282051282051,
+        "accuracy": 80.0,
+        "time": 10.786117792129517
     }
 }

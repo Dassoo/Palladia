@@ -102,5 +102,13 @@
         "cer": 5.172413793103448,
         "accuracy": 94.82758620689656,
         "time": 54.690462827682495
+    },
+    "glm-4.5v": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior,qu\u00e0m quantus unqu\u00e3 maximus uigit,dum fynce-",
+        "wer": 55.55555555555556,
+        "cer": 6.896551724137931,
+        "accuracy": 93.10344827586206,
+        "time": 3.922435760498047
     }
 }

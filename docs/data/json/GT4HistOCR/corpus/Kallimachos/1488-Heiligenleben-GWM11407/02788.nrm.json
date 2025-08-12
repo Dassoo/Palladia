@@ -78,5 +78,13 @@
         "cer": 6.521739130434782,
         "accuracy": 93.47826086956522,
         "time": 44.89335298538208
+    },
+    "glm-4.5v": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "foltu mit vnreyn be\u017f\u017fen. Das ge\u017fiht fa\u017fer zu",
+        "wer": 55.55555555555556,
+        "cer": 15.217391304347828,
+        "accuracy": 84.78260869565217,
+        "time": 9.669206142425537
     }
 }

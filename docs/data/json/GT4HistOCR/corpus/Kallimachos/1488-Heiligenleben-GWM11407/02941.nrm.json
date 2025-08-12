@@ -78,5 +78,13 @@
         "cer": 12.76595744680851,
         "accuracy": 87.2340425531915,
         "time": 53.218234062194824
+    },
+    "glm-4.5v": {
+        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
+        "response": "crift\u00e8 dy zaub:zer woffen.man fy w\u00fcrden fy F\u00fcr",
+        "wer": 77.77777777777779,
+        "cer": 29.78723404255319,
+        "accuracy": 72.3404255319149,
+        "time": 4.50515604019165
     }
 }

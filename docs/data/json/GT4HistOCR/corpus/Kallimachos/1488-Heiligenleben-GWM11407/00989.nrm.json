@@ -78,5 +78,13 @@
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 39.722816944122314
+    },
+    "glm-4.5v": {
+        "gt": "\u017fihte. Da \u017fp\ua75bach der heylig gey\u017ft \u0292u im. Nym",
+        "response": "Fibte. Da\u017fspach der heylig ge\u017ft zu im. V\u017flymz",
+        "wer": 66.66666666666666,
+        "cer": 25.0,
+        "accuracy": 82.22222222222221,
+        "time": 16.25185990333557
     }
 }

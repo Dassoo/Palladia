@@ -102,5 +102,13 @@
         "cer": 8.064516129032258,
         "accuracy": 91.93548387096774,
         "time": 114.95964884757996
+    },
+    "glm-4.5v": {
+        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
+        "response": "20 iuftam habere altitudinem murum, Timucrat enim ne \u00e0 Laccdax-",
+        "wer": 50.0,
+        "cer": 11.29032258064516,
+        "accuracy": 88.88888888888889,
+        "time": 6.472806930541992
     }
 }

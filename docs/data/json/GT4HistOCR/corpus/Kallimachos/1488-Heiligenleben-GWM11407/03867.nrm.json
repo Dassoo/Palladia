@@ -78,5 +78,13 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 80.14420104026794
+    },
+    "glm-4.5v": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius.v\u00f1 legt fie als wir sie nun begteen",
+        "wer": 55.55555555555556,
+        "cer": 17.391304347826086,
+        "accuracy": 84.78260869565217,
+        "time": 10.732153177261353
     }
 }

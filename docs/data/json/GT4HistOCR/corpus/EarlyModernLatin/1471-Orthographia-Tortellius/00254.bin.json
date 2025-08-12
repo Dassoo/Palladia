@@ -102,5 +102,13 @@
         "cer": 3.9473684210526314,
         "accuracy": 96.05263157894737,
         "time": 112.425861120224
+    },
+    "glm-4.5v": {
+        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
+        "response": "tantum In loculis:\u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam fcmbunt.Quin & p ch",
+        "wer": 33.33333333333333,
+        "cer": 7.894736842105263,
+        "accuracy": 92.10526315789474,
+        "time": 6.223487138748169
     }
 }

@@ -102,5 +102,13 @@
         "cer": 15.384615384615385,
         "accuracy": 87.34177215189874,
         "time": 118.38580203056335
+    },
+    "glm-4.5v": {
+        "gt": "forma \u017fignata appar&: & n\u00f5 nouor\u0169 \u00e6olo\ua776 forma de\u017fcribit\u1dd1. Rur\u017fus & \ua751 contrari\u00e3",
+        "response": "forma fignata appar&: & n\u014d nouor\u016b \u00e6ology forma defcribit.Rurfus & p contrari\u0101",
+        "wer": 61.53846153846154,
+        "cer": 14.102564102564102,
+        "accuracy": 87.17948717948718,
+        "time": 11.649906158447266
     }
 }

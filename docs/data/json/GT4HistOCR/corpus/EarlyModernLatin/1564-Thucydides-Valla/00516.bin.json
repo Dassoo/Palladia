@@ -102,5 +102,13 @@
         "cer": 4.10958904109589,
         "accuracy": 95.8904109589041,
         "time": 83.19970488548279
+    },
+    "glm-4.5v": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum cffe manifestifsimis fignis ita fe uetera habuiffe.Et licethomi 40",
+        "wer": 66.66666666666666,
+        "cer": 16.43835616438356,
+        "accuracy": 83.56164383561644,
+        "time": 13.249737977981567
     }
 }

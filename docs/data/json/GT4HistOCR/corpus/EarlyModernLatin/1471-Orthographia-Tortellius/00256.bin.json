@@ -102,5 +102,13 @@
         "cer": 1.3513513513513513,
         "accuracy": 98.66666666666667,
         "time": 24.234052181243896
+    },
+    "glm-4.5v": {
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus afpiratione:nec eam plenam poffidet:ut fimili modo de b & d effe",
+        "wer": 42.857142857142854,
+        "cer": 10.81081081081081,
+        "accuracy": 89.1891891891892,
+        "time": 5.722455978393555
     }
 }

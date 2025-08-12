@@ -102,5 +102,13 @@
         "cer": 9.090909090909092,
         "accuracy": 93.93939393939394,
         "time": 29.78070902824402
+    },
+    "glm-4.5v": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre.",
+        "wer": 16.666666666666664,
+        "cer": 3.0303030303030303,
+        "accuracy": 96.96969696969697,
+        "time": 3.905822992324829
     }
 }

@@ -102,5 +102,13 @@
         "cer": 1.5151515151515151,
         "accuracy": 98.48484848484848,
         "time": 85.01708436012268
+    },
+    "glm-4.5v": {
+        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
+        "response": "ria,nec cosultum ire differemus,c\u00f9m ip\u017forum non differatur ini\u00f9",
+        "wer": 63.63636363636363,
+        "cer": 7.575757575757576,
+        "accuracy": 92.42424242424242,
+        "time": 9.097061157226562
     }
 }

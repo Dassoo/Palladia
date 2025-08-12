@@ -102,5 +102,13 @@
         "cer": 1.5625,
         "accuracy": 98.4375,
         "time": 33.37690019607544
+    },
+    "glm-4.5v": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medicoaudaciam.Poftularuntitaque ab eis,nemuros refi-",
+        "wer": 70.0,
+        "cer": 9.375,
+        "accuracy": 90.625,
+        "time": 12.22294020652771
     }
 }

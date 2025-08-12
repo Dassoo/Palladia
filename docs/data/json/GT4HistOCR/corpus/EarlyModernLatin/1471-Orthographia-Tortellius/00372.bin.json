@@ -102,5 +102,13 @@
         "cer": 20.77922077922078,
         "accuracy": 84.81012658227847,
         "time": 122.20676922798157
+    },
+    "glm-4.5v": {
+        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
+        "response": "ponat.n\u0101m qbu\u017fd\u0101 uerufti\u017f\u017fimis in\u017fcriptionibus \u0283epe ego co\u0283pexi.K.DECEMB.",
+        "wer": 80.0,
+        "cer": 16.883116883116884,
+        "accuracy": 83.11688311688312,
+        "time": 8.518143892288208
     }
 }

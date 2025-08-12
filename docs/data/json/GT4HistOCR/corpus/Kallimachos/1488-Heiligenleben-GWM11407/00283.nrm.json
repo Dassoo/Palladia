@@ -78,5 +78,13 @@
         "cer": 15.217391304347828,
         "accuracy": 84.78260869565217,
         "time": 59.703641176223755
+    },
+    "glm-4.5v": {
+        "gt": "\u00f0 lebet bey des key\u017fers decius \u0292eyt\u1ebd. da wurd\u1ebd",
+        "response": "\u017flebet bey des \u017feyfers decius zeyte.da wurde",
+        "wer": 66.66666666666666,
+        "cer": 17.391304347826086,
+        "accuracy": 82.6086956521739,
+        "time": 3.9156339168548584
     }
 }

@@ -1,7 +1,7 @@
 {
     "mistral-small": {
         "gt": "25",
-        "response": "ſ",
+        "response": "\u017f",
         "wer": 100.0,
         "cer": 100.0,
         "accuracy": 0.0,
@@ -25,7 +25,7 @@
     },
     "gemini-2.5-flash": {
         "gt": "25",
-        "response": "rſ",
+        "response": "r\u017f",
         "wer": 100.0,
         "cer": 100.0,
         "accuracy": 0.0,
@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 6.608133792877197
+    },
+    "glm-4.5v": {
+        "gt": "25",
+        "response": "25",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.6811549663543701
     }
 }

@@ -102,5 +102,13 @@
         "cer": 3.896103896103896,
         "accuracy": 96.15384615384616,
         "time": 130.69882798194885
+    },
+    "glm-4.5v": {
+        "gt": "\u017fon\u00e3s: quas ut diximus mutuari \u017folemus: quoti\u1ebds illorum no\u0129bus utimur. ne\u017fcio",
+        "response": "\u017fon\u00e2s:quas ut diximus mutuari folemus:quoti\u00eas illorum noibus utimur. nefcio",
+        "wer": 54.54545454545454,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 4.6705098152160645
     }
 }

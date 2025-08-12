@@ -102,5 +102,13 @@
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 45.59996223449707
+    },
+    "glm-4.5v": {
+        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
+        "response": "Corcyrenfibus pariter ac Peloponnensibus gcretis.At nobis re-",
+        "wer": 50.0,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 6.030713081359863
     }
 }

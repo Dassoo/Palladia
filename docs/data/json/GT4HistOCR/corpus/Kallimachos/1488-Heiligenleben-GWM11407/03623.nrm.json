@@ -78,5 +78,13 @@
         "cer": 6.521739130434782,
         "accuracy": 93.47826086956522,
         "time": 112.49517321586609
+    },
+    "glm-4.5v": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "we\u017fter auch wol das fie criften waren. vnd \u017fa",
+        "wer": 50.0,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 9.472214937210083
     }
 }

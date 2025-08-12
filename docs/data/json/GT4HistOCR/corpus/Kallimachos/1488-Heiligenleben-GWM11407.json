@@ -78,5 +78,13 @@
         "avg_cer": 8.990868706681901,
         "avg_accuracy": 91.32269846319757,
         "avg_time": 59.79209886391958
+    },
+    "glm-4.5v": {
+        "source": "GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407",
+        "images": 30,
+        "avg_wer": 60.89237614237614,
+        "avg_cer": 15.311643423320358,
+        "avg_accuracy": 85.67314251547641,
+        "avg_time": 8.092709485689799
     }
 }

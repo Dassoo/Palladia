@@ -78,5 +78,13 @@
         "cer": 16.27906976744186,
         "accuracy": 84.44444444444444,
         "time": 81.50342106819153
+    },
+    "glm-4.5v": {
+        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
+        "response": "Schach daer Enoch hertzog was. In detrat",
+        "wer": 88.88888888888889,
+        "cer": 18.6046511627907,
+        "accuracy": 81.3953488372093,
+        "time": 6.94914984703064
     }
 }

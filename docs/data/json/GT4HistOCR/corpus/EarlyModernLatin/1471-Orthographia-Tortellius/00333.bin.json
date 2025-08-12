@@ -102,5 +102,13 @@
         "cer": 12.359550561797752,
         "accuracy": 87.64044943820225,
         "time": 104.04373407363892
+    },
+    "glm-4.5v": {
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "fonus exigi uidebat: q p.c.l\u017fiam pr\u00e6ftari potuit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "wer": 53.333333333333336,
+        "cer": 13.48314606741573,
+        "accuracy": 86.51685393258427,
+        "time": 4.3173511028289795
     }
 }

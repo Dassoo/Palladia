@@ -102,5 +102,13 @@
         "cer": 7.59493670886076,
         "accuracy": 92.7710843373494,
         "time": 92.47088503837585
+    },
+    "glm-4.5v": {
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones noftras: & quas ex gr\u00e6cis acceperamus:no\u017ftri ut antiqui graeco\u017f",
+        "wer": 41.66666666666667,
+        "cer": 11.39240506329114,
+        "accuracy": 89.87341772151899,
+        "time": 13.426335096359253
     }
 }

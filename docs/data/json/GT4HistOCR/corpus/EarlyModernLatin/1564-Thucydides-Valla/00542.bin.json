@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 15.040473222732544
+    },
+    "glm-4.5v": {
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tranfeuntes prohiberentur. Corcyrenfes ubi colonos ac pr\u00e6\u017fidia",
+        "wer": 28.57142857142857,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 3.809360980987549
     }
 }

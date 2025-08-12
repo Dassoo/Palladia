@@ -78,5 +78,13 @@
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
         "time": 58.44056677818298
+    },
+    "glm-4.5v": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnd \u017fvoa\u017fede deme konpnge Ja daer is noch",
+        "wer": 44.44444444444444,
+        "cer": 11.627906976744185,
+        "accuracy": 88.37209302325581,
+        "time": 7.489007949829102
     }
 }

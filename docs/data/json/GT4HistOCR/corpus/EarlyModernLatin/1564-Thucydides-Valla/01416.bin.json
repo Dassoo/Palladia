@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 26.571886777877808
+    },
+    "glm-4.5v": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo.Quietfi contra Medos tunc boni fuerunt,nunc quod erga",
+        "wer": 45.45454545454545,
+        "cer": 6.557377049180328,
+        "accuracy": 93.44262295081968,
+        "time": 10.709593057632446
     }
 }

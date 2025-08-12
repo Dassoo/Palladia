@@ -102,5 +102,13 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 24.137048959732056
+    },
+    "glm-4.5v": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata eft,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 15.034563779830933
     }
 }

@@ -78,5 +78,13 @@
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 77.35175085067749
+    },
+    "glm-4.5v": {
+        "gt": "y\u017frahels vnde Dauid \u017floech doet v\u00e3 den v\u00e3 \u017fy",
+        "response": "phrahels onde Dauid floech doct va den va fp",
+        "wer": 77.77777777777779,
+        "cer": 20.454545454545457,
+        "accuracy": 79.54545454545455,
+        "time": 7.739300966262817
     }
 }

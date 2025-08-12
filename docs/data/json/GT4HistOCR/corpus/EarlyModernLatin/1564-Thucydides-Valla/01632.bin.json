@@ -102,5 +102,13 @@
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 48.42304873466492
+    },
+    "glm-4.5v": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017fta, \u017fed cl\u00e0m non minim\u012b cum illis ad mouen-",
+        "wer": 18.181818181818183,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 4.163933038711548
     }
 }

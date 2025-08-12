@@ -78,5 +78,13 @@
         "cer": 2.272727272727273,
         "accuracy": 97.77777777777777,
         "time": 55.08759593963623
+    },
+    "glm-4.5v": {
+        "gt": "zer dat \u017fe vorwonnen weren van y\u017frahel\u017fe vnt",
+        "response": "zer dat fe vozwonnen weren van pirahel fe vnt",
+        "wer": 50.0,
+        "cer": 13.636363636363635,
+        "accuracy": 86.66666666666667,
+        "time": 7.277984619140625
     }
 }

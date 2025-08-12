@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 71.73543810844421
+    },
+    "glm-4.5v": {
+        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+        "response": "bantur.Hi autem qui intus erant cum ficuexarentur,legatos Cor",
+        "wer": 54.54545454545454,
+        "cer": 7.8125,
+        "accuracy": 92.1875,
+        "time": 5.289702892303467
     }
 }

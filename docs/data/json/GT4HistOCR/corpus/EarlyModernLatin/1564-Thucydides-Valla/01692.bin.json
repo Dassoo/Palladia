@@ -102,5 +102,13 @@
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 86.01895666122437
+    },
+    "glm-4.5v": {
+        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
+        "response": "dimittant,qu\u00e0m fe iter\u0169 receperint.Etiam colleg\u00e6 cius uencrant,",
+        "wer": 80.0,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 4.181854963302612
     }
 }

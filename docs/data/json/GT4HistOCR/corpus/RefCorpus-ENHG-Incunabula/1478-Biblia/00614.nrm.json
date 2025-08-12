@@ -86,5 +86,13 @@
         "cer": 2.380952380952381,
         "accuracy": 97.61904761904762,
         "time": 66.739333152771
+    },
+    "glm-4.5v": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vnde hadden vorfpoet",
+        "wer": 57.14285714285714,
+        "cer": 42.857142857142854,
+        "accuracy": 57.14285714285714,
+        "time": 14.759611129760742
     }
 }

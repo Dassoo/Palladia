@@ -102,5 +102,13 @@
         "cer": 3.278688524590164,
         "accuracy": 98.36065573770492,
         "time": 31.70741319656372
+    },
+    "glm-4.5v": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circunderunt.Etenim cupditate lucrandi,& qui",
+        "wer": 62.5,
+        "cer": 9.836065573770492,
+        "accuracy": 90.1639344262295,
+        "time": 8.95274305343628
     }
 }

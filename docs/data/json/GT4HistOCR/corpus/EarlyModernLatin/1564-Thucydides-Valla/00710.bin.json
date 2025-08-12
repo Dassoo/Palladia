@@ -102,5 +102,13 @@
         "cer": 3.1746031746031744,
         "accuracy": 96.82539682539682,
         "time": 33.41079521179199
+    },
+    "glm-4.5v": {
+        "gt": "riam accipientibus, non facientibus, opem feretis: deinde, qu\u00f2d",
+        "response": "riam accipientibus, non facientibus, opem feretis : deinde, quod",
+        "wer": 37.5,
+        "cer": 3.1746031746031744,
+        "accuracy": 96.875,
+        "time": 4.002009868621826
     }
 }

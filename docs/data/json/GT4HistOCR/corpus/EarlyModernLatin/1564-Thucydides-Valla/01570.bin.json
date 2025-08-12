@@ -102,5 +102,13 @@
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 21.007389783859253
+    },
+    "glm-4.5v": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017ftiae i\u017fforum uim afferre. Sed freti diuitijs cum alia",
+        "wer": 30.0,
+        "cer": 8.19672131147541,
+        "accuracy": 93.54838709677419,
+        "time": 10.896206140518188
     }
 }

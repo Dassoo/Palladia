@@ -102,5 +102,13 @@
         "cer": 1.282051282051282,
         "accuracy": 98.71794871794873,
         "time": 62.32935118675232
+    },
+    "glm-4.5v": {
+        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Cau\u016b.c.littera fignari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "wer": 78.57142857142857,
+        "cer": 12.82051282051282,
+        "accuracy": 87.17948717948718,
+        "time": 11.752640008926392
     }
 }

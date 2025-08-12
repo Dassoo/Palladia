@@ -78,5 +78,13 @@
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
         "time": 52.28613591194153
+    },
+    "glm-4.5v": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u0304i van der t\u00ffmmeringe des tempels\u00b7vnde v\u0101",
+        "wer": 66.66666666666666,
+        "cer": 13.953488372093023,
+        "accuracy": 88.37209302325581,
+        "time": 13.369667053222656
     }
 }

@@ -102,5 +102,13 @@
         "cer": 4.615384615384616,
         "accuracy": 96.92307692307692,
         "time": 108.53059577941895
+    },
+    "glm-4.5v": {
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt,Epidamnenfes nullam fibiuidentes \u00e0 Corcyrefibus iniuri\u00e6 20",
+        "wer": 55.55555555555556,
+        "cer": 9.230769230769232,
+        "accuracy": 90.76923076923077,
+        "time": 6.4653639793396
     }
 }

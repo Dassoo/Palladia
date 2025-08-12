@@ -102,5 +102,13 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 45.454686880111694
+    },
+    "glm-4.5v": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficant. At Potid\u00e6n\u00e6 mifsis ad Athenienses legatis, fi forte",
+        "wer": 66.66666666666666,
+        "cer": 13.846153846153847,
+        "accuracy": 86.15384615384616,
+        "time": 14.537942171096802
     }
 }

@@ -102,5 +102,13 @@
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 86.41099762916565
+    },
+    "glm-4.5v": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm,cxaducrfo aciem & ipfi inftruunt,nec multo p\u00f2ft confli-",
+        "wer": 72.72727272727273,
+        "cer": 18.461538461538463,
+        "accuracy": 81.53846153846153,
+        "time": 6.217543840408325
     }
 }

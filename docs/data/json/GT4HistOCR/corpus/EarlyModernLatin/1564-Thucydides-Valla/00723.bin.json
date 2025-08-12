@@ -102,5 +102,13 @@
         "cer": 4.761904761904762,
         "accuracy": 95.3125,
         "time": 30.98239278793335
+    },
+    "glm-4.5v": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumeliofum eft,tamen litigiofi putamur:neq; co",
+        "wer": 77.77777777777779,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 12.028302192687988
     }
 }

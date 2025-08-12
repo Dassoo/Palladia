@@ -102,5 +102,13 @@
         "cer": 3.8461538461538463,
         "accuracy": 96.25,
         "time": 55.960294008255005
+    },
+    "glm-4.5v": {
+        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "response": "in faryra Atticus eximie fi coenat inquit : Nec nullum cupias cum fit tibi gobio",
+        "wer": 42.857142857142854,
+        "cer": 8.974358974358974,
+        "accuracy": 91.25,
+        "time": 12.860041379928589
     }
 }

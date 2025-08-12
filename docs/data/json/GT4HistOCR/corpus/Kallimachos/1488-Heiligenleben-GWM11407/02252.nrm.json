@@ -78,5 +78,13 @@
         "cer": 4.761904761904762,
         "accuracy": 95.23809523809523,
         "time": 13.175104141235352
+    },
+    "glm-4.5v": {
+        "gt": "Darnach kam er auff einen berg da wonet er",
+        "response": "Darnach kam er auff einen Berg Damonet er",
+        "wer": 33.33333333333333,
+        "cer": 9.523809523809524,
+        "accuracy": 90.47619047619048,
+        "time": 5.279367923736572
     }
 }

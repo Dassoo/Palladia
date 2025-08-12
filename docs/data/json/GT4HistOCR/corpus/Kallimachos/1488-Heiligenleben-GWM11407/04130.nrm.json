@@ -78,5 +78,13 @@
         "cer": 11.904761904761903,
         "accuracy": 90.47619047619048,
         "time": 57.5562379360199
+    },
+    "glm-4.5v": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trcr Johannes vn Paulus haben warlich ers",
+        "wer": 42.857142857142854,
+        "cer": 7.142857142857142,
+        "accuracy": 92.85714285714286,
+        "time": 4.798999071121216
     }
 }

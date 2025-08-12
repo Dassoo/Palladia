@@ -102,5 +102,13 @@
         "cer": 3.3333333333333335,
         "accuracy": 96.66666666666667,
         "time": 26.537763833999634
+    },
+    "glm-4.5v": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis noftris reclinquamus.Neque cre",
+        "wer": 44.44444444444444,
+        "cer": 6.666666666666667,
+        "accuracy": 95.0,
+        "time": 7.911998987197876
     }
 }

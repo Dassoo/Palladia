@@ -78,5 +78,13 @@
         "cer": 2.1739130434782608,
         "accuracy": 97.82608695652173,
         "time": 30.200271129608154
+    },
+    "glm-4.5v": {
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich ift den iuden das fie fich zu",
+        "wer": 44.44444444444444,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 9.41752028465271
     }
 }

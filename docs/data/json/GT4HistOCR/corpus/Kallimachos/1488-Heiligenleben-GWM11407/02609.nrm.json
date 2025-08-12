@@ -78,5 +78,13 @@
         "cer": 15.909090909090908,
         "accuracy": 84.44444444444444,
         "time": 64.38871097564697
+    },
+    "glm-4.5v": {
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen \u017fcharzoffenwaren der welt zu eine",
+        "wer": 62.5,
+        "cer": 13.636363636363635,
+        "accuracy": 86.36363636363636,
+        "time": 4.219031095504761
     }
 }

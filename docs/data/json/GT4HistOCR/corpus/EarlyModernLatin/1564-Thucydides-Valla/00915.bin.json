@@ -102,5 +102,13 @@
         "cer": 1.639344262295082,
         "accuracy": 98.38709677419355,
         "time": 28.74693489074707
+    },
+    "glm-4.5v": {
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia",
+        "wer": 11.11111111111111,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 9.128836870193481
     }
 }

@@ -102,5 +102,13 @@
         "cer": 11.538461538461538,
         "accuracy": 88.60759493670885,
         "time": 86.27090382575989
+    },
+    "glm-4.5v": {
+        "gt": "\u017fyllabis nomin\u1ebdtur: apud nos uero uocales omnes \ua751 \u017fe prolat\u00e6 nom\u1ebd \u017fu\u0169 o\u017ft\u1ebdd\u0169t.",
+        "response": "\u017fyllabis nomin\u0113tur:apud nos uero uocales omnes p fe prolata\u00e6 nom\u00e9 fu\u0169 oft\u00e9d\u016bt,",
+        "wer": 61.53846153846154,
+        "cer": 14.102564102564102,
+        "accuracy": 87.17948717948718,
+        "time": 6.014995098114014
     }
 }

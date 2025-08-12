@@ -2,12 +2,15 @@ from agno.agent import RunResponse
 
 def trim_response(response: RunResponse) -> RunResponse:
     """
-    Custom trim for 'thudm/glm-4.1v-9b-thinking' model
+    Custom trim for 'z-ai/glm-4.5v' model
     """
     content = str(response.content).strip()
     
-    if content.startswith("<answer>"):
-        content = content[8:]
+    if content.startswith("<|begin_of_box|>"):
+        content = content[16:]
+    
+    if content.endswith("<|end_of_box|>"):
+        content = content[:-14]
 
     response.content = content.strip()
     

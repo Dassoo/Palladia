@@ -102,5 +102,13 @@
         "cer": 7.317073170731707,
         "accuracy": 92.6829268292683,
         "time": 76.71423101425171
+    },
+    "glm-4.5v": {
+        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
+        "response": "\u017fcribendam effe : ut karthago kapur: c\u016b tefte Quintiliano fit.c.l\u00eda qu\u00e6 ad omnes",
+        "wer": 57.14285714285714,
+        "cer": 13.414634146341465,
+        "accuracy": 87.8048780487805,
+        "time": 9.054117918014526
     }
 }

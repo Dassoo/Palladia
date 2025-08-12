@@ -102,5 +102,13 @@
         "cer": 2.631578947368421,
         "accuracy": 97.36842105263158,
         "time": 60.1402690410614
+    },
+    "glm-4.5v": {
+        "gt": "mordeo n\u00f5 momordi cum o: \u017fed c\u0169 e memordi dicebant. Q. Ennius in \u017fatyris me\u0169",
+        "response": "mordeo n\u014d momordi cum o: fed c\u016b ememordi dicebant.Q.Ennius in fatyris me\u012b",
+        "wer": 66.66666666666666,
+        "cer": 10.526315789473683,
+        "accuracy": 89.47368421052632,
+        "time": 8.48746919631958
     }
 }

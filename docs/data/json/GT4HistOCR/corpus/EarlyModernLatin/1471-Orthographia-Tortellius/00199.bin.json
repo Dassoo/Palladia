@@ -102,5 +102,13 @@
         "cer": 6.172839506172839,
         "accuracy": 94.04761904761905,
         "time": 75.82524800300598
+    },
+    "glm-4.5v": {
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare.Sane cum xoles fpiritus afperitatem effugi\u00e9tes ubiq; loco afpirationis ipf\u0169",
+        "wer": 72.72727272727273,
+        "cer": 8.641975308641975,
+        "accuracy": 91.35802469135803,
+        "time": 3.8869919776916504
     }
 }

@@ -78,5 +78,13 @@
         "cer": 8.0,
         "accuracy": 92.0,
         "time": 28.1296808719635
+    },
+    "glm-4.5v": {
+        "gt": "\u017feet voer dem begyn E\u017fdre",
+        "response": "\u017fect voer \u00f0in begyn Eldre",
+        "wer": 60.0,
+        "cer": 20.0,
+        "accuracy": 80.0,
+        "time": 5.84080171585083
     }
 }

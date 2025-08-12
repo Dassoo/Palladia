@@ -102,5 +102,13 @@
         "cer": 8.823529411764707,
         "accuracy": 92.64705882352942,
         "time": 50.07645010948181
+    },
+    "glm-4.5v": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrin\u017fecus fcedentibus,h\u00e6c \u00e6ftas extracta e\u017ft,appetiteq iam hye-",
+        "wer": 55.55555555555556,
+        "cer": 11.76470588235294,
+        "accuracy": 89.70588235294117,
+        "time": 8.90199589729309
     }
 }

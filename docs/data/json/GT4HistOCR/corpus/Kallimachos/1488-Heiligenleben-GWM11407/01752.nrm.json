@@ -78,5 +78,13 @@
         "cer": 10.416666666666668,
         "accuracy": 89.79591836734694,
         "time": 32.702515840530396
+    },
+    "glm-4.5v": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "r \u017fthun \u017fol\u017ft Dz er got wol geuiel.da \u017fpzach er.",
+        "wer": 63.63636363636363,
+        "cer": 14.583333333333334,
+        "accuracy": 89.58333333333334,
+        "time": 4.788094997406006
     }
 }

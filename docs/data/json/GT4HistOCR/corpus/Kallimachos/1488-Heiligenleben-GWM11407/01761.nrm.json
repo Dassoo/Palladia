@@ -78,5 +78,13 @@
         "cer": 4.545454545454546,
         "accuracy": 95.45454545454545,
         "time": 34.008991956710815
+    },
+    "glm-4.5v": {
+        "gt": "ten wonen. \u017fo werden \u017fie auch verkeret. Aber",
+        "response": "ten monen.\u017fo werden \u017fie auch ver\u017feret.\u00dcber",
+        "wer": 50.0,
+        "cer": 11.363636363636363,
+        "accuracy": 88.63636363636364,
+        "time": 6.007303953170776
     }
 }

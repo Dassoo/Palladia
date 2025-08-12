@@ -102,5 +102,13 @@
         "cer": 14.102564102564102,
         "accuracy": 85.8974358974359,
         "time": 85.28100109100342
+    },
+    "glm-4.5v": {
+        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
+        "response": "m\u0304 \u03c3\u03ad\u03c0\u03c4\u1ff3 dixerunt fermo:& n\u0304 herpo:\u03c3\u03ad\u03be traduxerunt fex & n\u0304 hcx :\u03c3\u03b9\u03c0\u03c4\u03b1 \u03c3\u03b5\u03c0\u03c4\u03b5",
+        "wer": 80.0,
+        "cer": 26.923076923076923,
+        "accuracy": 75.64102564102564,
+        "time": 13.24004316329956
     }
 }

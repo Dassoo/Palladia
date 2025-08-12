@@ -78,5 +78,13 @@
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 86.77220034599304
+    },
+    "glm-4.5v": {
+        "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+        "response": "Paul\u017f ertotet. Danam man Die pfenning. end",
+        "wer": 62.5,
+        "cer": 11.627906976744185,
+        "accuracy": 88.37209302325581,
+        "time": 15.350393295288086
     }
 }

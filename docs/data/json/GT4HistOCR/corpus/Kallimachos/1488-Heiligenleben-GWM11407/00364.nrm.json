@@ -78,5 +78,13 @@
         "cer": 6.8181818181818175,
         "accuracy": 93.18181818181817,
         "time": 62.843146085739136
+    },
+    "glm-4.5v": {
+        "gt": "nen. vnd das er \u017fein keu\u017fcheyt m\u00f6cht beh\u00fct\u1ebd.",
+        "response": "nen.ond Das er fein Leufcheyt m\u00f6cht Beh\u00fcte.",
+        "wer": 75.0,
+        "cer": 18.181818181818183,
+        "accuracy": 81.81818181818183,
+        "time": 3.7949130535125732
     }
 }

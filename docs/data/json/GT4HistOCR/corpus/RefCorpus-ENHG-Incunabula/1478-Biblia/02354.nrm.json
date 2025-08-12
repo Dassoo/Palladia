@@ -78,5 +78,13 @@
         "cer": 20.930232558139537,
         "accuracy": 81.81818181818183,
         "time": 81.70306992530823
+    },
+    "glm-4.5v": {
+        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
+        "response": "vle\u017fch Mer gyltere vn eergylter\u1ebd do Haulko",
+        "wer": 62.5,
+        "cer": 13.953488372093023,
+        "accuracy": 86.04651162790698,
+        "time": 8.484107971191406
     }
 }

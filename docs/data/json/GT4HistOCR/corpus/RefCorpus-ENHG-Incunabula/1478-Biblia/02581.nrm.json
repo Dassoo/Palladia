@@ -78,5 +78,13 @@
         "cer": 4.761904761904762,
         "accuracy": 95.23809523809523,
         "time": 78.94153690338135
+    },
+    "glm-4.5v": {
+        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
+        "response": "v\u0304n leuedx na des ghewoxt achthundert vnde",
+        "wer": 57.14285714285714,
+        "cer": 14.285714285714285,
+        "accuracy": 88.09523809523809,
+        "time": 7.706010818481445
     }
 }

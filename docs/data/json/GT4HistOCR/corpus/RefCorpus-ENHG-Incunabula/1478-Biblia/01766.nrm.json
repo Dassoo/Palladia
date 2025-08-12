@@ -78,5 +78,13 @@
         "cer": 14.000000000000002,
         "accuracy": 88.0,
         "time": 72.26888394355774
+    },
+    "glm-4.5v": {
+        "gt": "cos \u017fone \u00b7 zizara \u017fone \u00b7 thema \u017fone \u00b7 na\u017fia \u017fone \u00b7",
+        "response": "co\u0283fone\u00b7zi\u0292ara fone\u00b7thema fone\u00b7na\u0283a fone-",
+        "wer": 100.0,
+        "cer": 34.0,
+        "accuracy": 66.0,
+        "time": 9.418953895568848
     }
 }

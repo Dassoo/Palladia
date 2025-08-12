@@ -102,5 +102,13 @@
         "cer": 4.878048780487805,
         "accuracy": 96.34146341463415,
         "time": 61.85343098640442
+    },
+    "glm-4.5v": {
+        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
+        "response": "bitur:D:es hic fextus cum nihil egi die quarte moriar fame.Sed id pr\u00e6cipue tefto",
+        "wer": 40.0,
+        "cer": 7.317073170731707,
+        "accuracy": 92.6829268292683,
+        "time": 3.674449920654297
     }
 }

@@ -102,5 +102,13 @@
         "cer": 4.705882352941177,
         "accuracy": 96.47058823529412,
         "time": 39.10677194595337
+    },
+    "glm-4.5v": {
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod afpirationis nota erat pro littera.s.acciperet & traduceret:& maxime quia",
+        "wer": 57.14285714285714,
+        "cer": 8.235294117647058,
+        "accuracy": 91.76470588235294,
+        "time": 8.666510105133057
     }
 }

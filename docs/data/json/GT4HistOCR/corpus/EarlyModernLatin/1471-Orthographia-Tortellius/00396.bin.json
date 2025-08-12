@@ -102,5 +102,13 @@
         "cer": 8.641975308641975,
         "accuracy": 92.5925925925926,
         "time": 75.78689312934875
+    },
+    "glm-4.5v": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeqt:& inept\u0169 qd refpectu foni quod apud illos ex dig\u0101ma refultabat:efflare",
+        "wer": 61.53846153846154,
+        "cer": 12.345679012345679,
+        "accuracy": 87.65432098765432,
+        "time": 4.526744842529297
     }
 }

@@ -78,5 +78,13 @@
         "cer": 16.3265306122449,
         "accuracy": 83.6734693877551,
         "time": 87.82961773872375
+    },
+    "glm-4.5v": {
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7fone acaub\u00b7fone attita\u00b7fone fobap",
+        "wer": 90.9090909090909,
+        "cer": 24.489795918367346,
+        "accuracy": 75.51020408163265,
+        "time": 5.001830101013184
     }
 }

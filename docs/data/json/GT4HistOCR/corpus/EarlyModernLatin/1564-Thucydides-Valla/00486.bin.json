@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 23.34435272216797
+    },
+    "glm-4.5v": {
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati f\u0304umus, ac ne fic quidem ifta pro manifeftis",
+        "wer": 36.36363636363637,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.42424242424242,
+        "time": 3.3710999488830566
     }
 }

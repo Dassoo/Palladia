@@ -18,8 +18,8 @@
     "gpt-4.1": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
         "images": 58,
-        "avg_wer": 20.385194307608103,
-        "avg_cer": 6.342830606282259,
+        "avg_wer": 18.66105637657362,
+        "avg_cer": 5.480761640765017,
         "avg_accuracy": 95.19287089218138,
         "avg_time": 1.9312105302152962
     },
@@ -82,16 +82,16 @@
     "gemini-2.5-pro": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
         "images": 58,
-        "avg_wer": 33.67343384584764,
-        "avg_cer": 11.321243603332109,
+        "avg_wer": 30.225157983778672,
+        "avg_cer": 9.166071189539005,
         "avg_accuracy": 92.15736167941729,
         "avg_time": 33.30566581775402
     },
     "gpt-5": {
         "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
         "images": 58,
-        "avg_wer": 20.983542319749215,
-        "avg_cer": 5.967002856040823,
+        "avg_wer": 19.25940438871473,
+        "avg_cer": 5.104933890523581,
         "avg_accuracy": 95.49660767806039,
         "avg_time": 42.863578927928
     },
@@ -102,5 +102,13 @@
         "avg_cer": 6.6326620801788465,
         "avg_accuracy": 94.52524833185049,
         "avg_time": 16.509452219667107
+    },
+    "glm-4.5v": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
+        "images": 58,
+        "avg_wer": 44.140481166343235,
+        "avg_cer": 7.923303345256334,
+        "avg_accuracy": 92.2807263607472,
+        "avg_time": 7.354915331149924
     }
 }

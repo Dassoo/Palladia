@@ -102,5 +102,13 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 53.190083742141724
+    },
+    "glm-4.5v": {
+        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "response": "iam.Vfqueade\u00f2(ut breui complectar)fi quis dicat illos hoc in-",
+        "wer": 50.0,
+        "cer": 10.76923076923077,
+        "accuracy": 89.23076923076924,
+        "time": 13.625662088394165
     }
 }

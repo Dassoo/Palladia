@@ -102,5 +102,13 @@
         "cer": 4.651162790697675,
         "accuracy": 95.55555555555556,
         "time": 33.65256905555725
+    },
+    "glm-4.5v": {
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori iacet hoc Alimufius antro.",
+        "wer": 16.666666666666664,
+        "cer": 2.3255813953488373,
+        "accuracy": 97.67441860465115,
+        "time": 3.5860049724578857
     }
 }

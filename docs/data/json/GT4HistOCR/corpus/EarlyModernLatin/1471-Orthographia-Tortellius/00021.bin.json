@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 78.24071311950684
+    },
+    "glm-4.5v": {
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur:Sed cum iuniores \u00e6oles tefte Cenforino facilius",
+        "wer": 36.36363636363637,
+        "cer": 3.614457831325301,
+        "accuracy": 96.3855421686747,
+        "time": 3.387760877609253
     }
 }

@@ -439,13 +439,13 @@ class ModelManager:
         center_frame = ctk.CTkFrame(btn_frame, fg_color="transparent")
         center_frame.pack(pady=6)
         
-        manifest_btn = ctk.CTkButton(center_frame, text="Update Manifest", 
+        self.manifest_btn = ctk.CTkButton(center_frame, text="Update Manifest", 
                                     command=regenerate_full_manifest, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
-        manifest_btn.pack(side="left", padx=8)
+        self.manifest_btn.pack(side="left", padx=8)
         
-        save_btn = ctk.CTkButton(center_frame, text="Save Config", 
+        self.save_btn = ctk.CTkButton(center_frame, text="Save Config", 
                                 command=self.save_config, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])
-        save_btn.pack(side="left", padx=8)
+        self.save_btn.pack(side="left", padx=8)
         
         self.dashboard_btn = ctk.CTkButton(center_frame, text="Open Dashboard", 
                                           command=self.open_dashboard, width=120, height=32, fg_color=PALETTE["DARK_BUTTON"], hover_color=PALETTE["DARK_BUTTON_HOVER"], text_color=PALETTE["TEXT_LIGHT"])

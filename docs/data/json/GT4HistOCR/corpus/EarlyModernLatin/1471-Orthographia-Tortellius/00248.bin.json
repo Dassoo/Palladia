@@ -102,5 +102,13 @@
         "cer": 2.564102564102564,
         "accuracy": 98.71794871794873,
         "time": 55.239710092544556
+    },
+    "glm-4.5v": {
+        "gt": "uero \u017fibi hoc nomen datum fuit: quod apud \u00e6oles prius habebat: uidelicet. uau.",
+        "response": "uero \u017fibi hoc nomen datum fuit:quod apud \u00e6oles prius habebat:uidelicet.uau.",
+        "wer": 38.46153846153847,
+        "cer": 3.8461538461538463,
+        "accuracy": 96.15384615384616,
+        "time": 5.709184885025024
     }
 }

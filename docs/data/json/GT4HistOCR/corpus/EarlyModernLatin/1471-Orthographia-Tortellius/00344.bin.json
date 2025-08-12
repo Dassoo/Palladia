@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 14.08555817604065
+    },
+    "glm-4.5v": {
+        "gt": "tibus o\u017ftendemus.",
+        "response": "tibus oftendemus.",
+        "wer": 50.0,
+        "cer": 5.88235294117647,
+        "accuracy": 94.11764705882352,
+        "time": 3.5472841262817383
     }
 }

@@ -102,5 +102,13 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 36.34196186065674
+    },
+    "glm-4.5v": {
+        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "response": "Hoc autem plebi\u017fcitarum foedera e\u017f\u017fe rupta, fa\u010dtum e\u017ft quatuorde-",
+        "wer": 33.33333333333333,
+        "cer": 9.67741935483871,
+        "accuracy": 90.76923076923077,
+        "time": 4.390695810317993
     }
 }

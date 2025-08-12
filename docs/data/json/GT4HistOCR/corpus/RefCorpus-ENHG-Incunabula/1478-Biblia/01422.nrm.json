@@ -78,5 +78,13 @@
         "cer": 8.51063829787234,
         "accuracy": 93.61702127659575,
         "time": 82.74031591415405
+    },
+    "glm-4.5v": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "\u00efdel fin:mer de hyllpgefchiift is vitwendych",
+        "wer": 62.5,
+        "cer": 17.02127659574468,
+        "accuracy": 82.97872340425532,
+        "time": 6.553598880767822
     }
 }

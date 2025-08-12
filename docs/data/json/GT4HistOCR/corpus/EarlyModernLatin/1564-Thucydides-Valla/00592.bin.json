@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 22.092164754867554
+    },
+    "glm-4.5v": {
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenienfes proceff\u00e9runt, atque in hunc modum lo-",
+        "wer": 25.0,
+        "cer": 6.779661016949152,
+        "accuracy": 93.22033898305084,
+        "time": 10.362337112426758
     }
 }

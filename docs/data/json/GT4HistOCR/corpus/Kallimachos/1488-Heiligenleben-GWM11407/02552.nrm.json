@@ -78,5 +78,13 @@
         "cer": 4.444444444444445,
         "accuracy": 95.55555555555556,
         "time": 50.180469036102295
+    },
+    "glm-4.5v": {
+        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
+        "response": "dacht das er im fein genad mitteyfet. Das ges",
+        "wer": 44.44444444444444,
+        "cer": 8.88888888888889,
+        "accuracy": 91.11111111111111,
+        "time": 8.94854187965393
     }
 }

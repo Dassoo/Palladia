@@ -78,5 +78,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 62.189741134643555
+    },
+    "glm-4.5v": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfeccht.Aber wer gelert i\u017ft vnd Sie lere mit ge",
+        "wer": 30.0,
+        "cer": 6.382978723404255,
+        "accuracy": 95.74468085106383,
+        "time": 5.631922006607056
     }
 }

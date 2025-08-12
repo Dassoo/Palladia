@@ -102,5 +102,13 @@
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 62.89628481864929
+    },
+    "glm-4.5v": {
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "h\u00e0bere uidebat:& dig\u00e1ma ipfum c\u0169 alio fono in dictionibus latinis loco ph fribi",
+        "wer": 50.0,
+        "cer": 9.75609756097561,
+        "accuracy": 90.2439024390244,
+        "time": 4.807591915130615
     }
 }

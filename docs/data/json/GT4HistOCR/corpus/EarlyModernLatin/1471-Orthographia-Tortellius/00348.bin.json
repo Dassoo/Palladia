@@ -102,5 +102,13 @@
         "cer": 7.6923076923076925,
         "accuracy": 93.58974358974359,
         "time": 62.45568799972534
+    },
+    "glm-4.5v": {
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt:qu\u0101 pro.th.q\u0303pulcherrime ponunt:nec n\u014d &",
+        "wer": 72.72727272727273,
+        "cer": 10.256410256410255,
+        "accuracy": 89.74358974358975,
+        "time": 5.740478992462158
     }
 }

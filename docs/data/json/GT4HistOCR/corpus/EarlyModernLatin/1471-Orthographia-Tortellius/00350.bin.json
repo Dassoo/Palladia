@@ -102,5 +102,13 @@
         "cer": 8.974358974358974,
         "accuracy": 93.58974358974359,
         "time": 48.54143309593201
+    },
+    "glm-4.5v": {
+        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
+        "response": "ut diligentiffimi confpexere grammatici; pro q Claudius C\u00e6far apud nos antifig\u00b7ma",
+        "wer": 54.54545454545454,
+        "cer": 12.82051282051282,
+        "accuracy": 88.88888888888889,
+        "time": 4.666434049606323
     }
 }

@@ -78,5 +78,13 @@
         "cer": 11.904761904761903,
         "accuracy": 88.63636363636364,
         "time": 48.64857602119446
+    },
+    "glm-4.5v": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und al\u00df eme de here gheb\u00e6den hadde: vnto",
+        "wer": 50.0,
+        "cer": 16.666666666666664,
+        "accuracy": 83.33333333333334,
+        "time": 4.100507020950317
     }
 }

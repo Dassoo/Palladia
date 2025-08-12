@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 31.746277809143066
+    },
+    "glm-4.5v": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnesiaci",
+        "wer": 50.0,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 3.437161922454834
     }
 }

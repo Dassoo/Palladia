@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 32.760074853897095
+    },
+    "glm-4.5v": {
+        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
+        "response": "\u017fi Athenien\u0283es aduer\u0283us Potid\u00e6am irent, \u017fe Atticam inuafuros,",
+        "wer": 37.5,
+        "cer": 4.918032786885246,
+        "accuracy": 95.08196721311475,
+        "time": 3.9102699756622314
     }
 }

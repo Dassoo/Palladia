@@ -102,5 +102,13 @@
         "cer": 3.225806451612903,
         "accuracy": 96.875,
         "time": 23.935588836669922
+    },
+    "glm-4.5v": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "wer": 28.57142857142857,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 5.517025947570801
     }
 }

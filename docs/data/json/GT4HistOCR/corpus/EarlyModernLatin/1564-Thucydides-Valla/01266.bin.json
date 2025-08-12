@@ -102,5 +102,13 @@
         "cer": 3.389830508474576,
         "accuracy": 96.61016949152543,
         "time": 45.80633783340454
+    },
+    "glm-4.5v": {
+        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "response": "dccim,Ambraciotarum uigintifeptem,Anaetoriorum una,ipfo-",
+        "wer": 100.0,
+        "cer": 11.864406779661017,
+        "accuracy": 88.13559322033898,
+        "time": 6.705542802810669
     }
 }

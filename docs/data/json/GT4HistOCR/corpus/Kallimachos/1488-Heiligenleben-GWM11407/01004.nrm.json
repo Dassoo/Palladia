@@ -78,5 +78,13 @@
         "cer": 17.77777777777778,
         "accuracy": 84.44444444444444,
         "time": 95.51962804794312
+    },
+    "glm-4.5v": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "nach f\u00fcr der feind in dye Hertzogin dy fchzey",
+        "wer": 33.33333333333333,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 5.46947717666626
     }
 }

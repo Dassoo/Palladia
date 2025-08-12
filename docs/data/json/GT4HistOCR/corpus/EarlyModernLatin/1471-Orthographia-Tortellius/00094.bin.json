@@ -102,5 +102,13 @@
         "cer": 4.819277108433735,
         "accuracy": 95.29411764705881,
         "time": 45.067147970199585
+    },
+    "glm-4.5v": {
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda funt:ut Pyra lyra \u017fyria:& fimiles.Quod quia a doctis oibus",
+        "wer": 50.0,
+        "cer": 7.228915662650602,
+        "accuracy": 92.7710843373494,
+        "time": 3.9615721702575684
     }
 }

@@ -78,5 +78,13 @@
         "cer": 2.7027027027027026,
         "accuracy": 97.2972972972973,
         "time": 30.67809796333313
+    },
+    "glm-4.5v": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent\u00b7vnde de fone\u017ftrahel weren yn",
+        "wer": 62.5,
+        "cer": 16.216216216216218,
+        "accuracy": 86.48648648648648,
+        "time": 3.1884701251983643
     }
 }

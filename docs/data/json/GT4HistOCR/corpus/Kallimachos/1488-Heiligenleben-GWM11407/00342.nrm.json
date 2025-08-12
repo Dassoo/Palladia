@@ -78,5 +78,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 80.28935408592224
+    },
+    "glm-4.5v": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en und befctet \u017fyan ein erliche \u017ftat.Dagtieng",
+        "wer": 70.0,
+        "cer": 16.666666666666664,
+        "accuracy": 85.41666666666666,
+        "time": 10.640167951583862
     }
 }

@@ -102,5 +102,13 @@
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 37.90360975265503
+    },
+    "glm-4.5v": {
+        "gt": "Quippe centum eis ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "response": "Quippe centum eis acuiginti naues fuerunt,cum bellum incepe-",
+        "wer": 40.0,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 8.16821813583374
     }
 }

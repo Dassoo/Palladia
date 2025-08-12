@@ -102,5 +102,13 @@
         "cer": 7.5,
         "accuracy": 92.5,
         "time": 35.88360595703125
+    },
+    "glm-4.5v": {
+        "gt": "ratione apud gr\u00e6cos & no\u017ftros. Nam cum apud eos te\u017fte Quintiliano libro. XII. de",
+        "response": "ratione apud gr\u00e6cos & nostros.Nam cum apud eos teste Quintiliano libro.xii.de",
+        "wer": 42.857142857142854,
+        "cer": 10.0,
+        "accuracy": 90.0,
+        "time": 10.571879863739014
     }
 }

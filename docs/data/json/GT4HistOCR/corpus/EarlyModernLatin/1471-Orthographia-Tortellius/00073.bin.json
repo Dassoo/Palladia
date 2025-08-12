@@ -102,5 +102,13 @@
         "cer": 17.5,
         "accuracy": 82.5,
         "time": 108.66077280044556
+    },
+    "glm-4.5v": {
+        "gt": "rationis nota de\u017fignat\u1dd1: ut \u03c1\u03ae\u03c4\u03c9\u03c1 \u03c1\u03bf\u03b4\u03bf\u03c0\u03b7 \u03c1\u03ac\u03c6\u03b1\u03bd\u03bf\u03c3: & \u017fimiles: \ua757\u1dd3obr\u1ebd cum eiu\u017fmodi",
+        "response": "ranonis nota defignat:ut \u03c6\u1fd6\u03c4\u03c1\u03c9\u03c1 \u03c0\u03bf\u03bb\u03cc\u03c0\u03c4\u03b7 \u03c0\u03ac\u03c6\u03b1\u03bd\u03bf\u03c2:& fimiles:qobr\u0115cum eiufmodi",
+        "wer": 91.66666666666666,
+        "cer": 27.500000000000004,
+        "accuracy": 75.0,
+        "time": 5.714829206466675
     }
 }

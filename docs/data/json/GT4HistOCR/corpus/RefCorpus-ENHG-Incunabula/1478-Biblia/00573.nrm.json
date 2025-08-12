@@ -78,5 +78,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 53.50748014450073
+    },
+    "glm-4.5v": {
+        "gt": "Men de \u017fone y\u017frahel pre\u017ftere vnde leuiten v\u00f1",
+        "response": "Mend de fone phrahel preftere vnde leuiten vn",
+        "wer": 62.5,
+        "cer": 13.636363636363635,
+        "accuracy": 86.66666666666667,
+        "time": 6.890933036804199
     }
 }

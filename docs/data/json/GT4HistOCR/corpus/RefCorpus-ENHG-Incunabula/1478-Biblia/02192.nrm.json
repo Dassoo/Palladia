@@ -78,5 +78,13 @@
         "cer": 13.953488372093023,
         "accuracy": 86.04651162790698,
         "time": 46.3884117603302
+    },
+    "glm-4.5v": {
+        "gt": "vnde bunghen \u00b7 vnde vedelen vnde cymbalen \u00b7",
+        "response": "vnd \u00e6bunghen\u00b7vnd \u00e6delen vnd \u00e6 cymbalen\u00b7",
+        "wer": 100.0,
+        "cer": 23.25581395348837,
+        "accuracy": 81.3953488372093,
+        "time": 5.976616859436035
     }
 }

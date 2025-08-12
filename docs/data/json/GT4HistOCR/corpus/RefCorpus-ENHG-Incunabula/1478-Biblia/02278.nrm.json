@@ -78,5 +78,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 23.064783096313477
+    },
+    "glm-4.5v": {
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat gelfbach na wle daghien",
+        "wer": 42.857142857142854,
+        "cer": 14.634146341463413,
+        "accuracy": 87.8048780487805,
+        "time": 4.375903844833374
     }
 }

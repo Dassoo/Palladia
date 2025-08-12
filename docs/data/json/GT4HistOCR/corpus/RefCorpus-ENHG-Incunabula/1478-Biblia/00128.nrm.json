@@ -78,5 +78,13 @@
         "cer": 4.878048780487805,
         "accuracy": 95.34883720930233,
         "time": 26.498213052749634
+    },
+    "glm-4.5v": {
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u222bodane rxd en hebten le\u017fvns geantwor",
+        "wer": 71.42857142857143,
+        "cer": 14.634146341463413,
+        "accuracy": 85.71428571428571,
+        "time": 4.768794059753418
     }
 }

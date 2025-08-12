@@ -78,5 +78,13 @@
         "cer": 7.5,
         "accuracy": 92.5,
         "time": 60.686928272247314
+    },
+    "glm-4.5v": {
+        "gt": "by myneme wyue? By dineme heyl v\u00f1 by dyn",
+        "response": "by myneme wpue By d meme hepl vn by dyn",
+        "wer": 55.55555555555556,
+        "cer": 15.0,
+        "accuracy": 85.0,
+        "time": 11.380922794342041
     }
 }

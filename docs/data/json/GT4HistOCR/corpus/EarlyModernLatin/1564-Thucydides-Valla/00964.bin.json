@@ -102,5 +102,13 @@
         "cer": 2.0408163265306123,
         "accuracy": 97.95918367346938,
         "time": 33.25539684295654
+    },
+    "glm-4.5v": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis.Nec ego hoc in prob\u0157um Laurentij Val!",
+        "wer": 50.0,
+        "cer": 6.122448979591836,
+        "accuracy": 95.91836734693877,
+        "time": 11.691273927688599
     }
 }

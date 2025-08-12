@@ -102,5 +102,13 @@
         "cer": 9.722222222222223,
         "accuracy": 91.78082191780823,
         "time": 35.25397086143494
+    },
+    "glm-4.5v": {
+        "gt": "s. ut \u017fpargo \u017fpar\u017fi: mergo mer\u017fi. n\u00f5n\u0169\ua757\u1dd3 in x ut rego rexi: pingo pinxi.",
+        "response": "s.ut \u017fpargo \u017fpar\u017fi:mergo mer\u017fi. n\u014dn\u016bq in x ut rego rexi:pingo pinxi.",
+        "wer": 50.0,
+        "cer": 9.722222222222223,
+        "accuracy": 90.27777777777779,
+        "time": 4.388396978378296
     }
 }

@@ -102,5 +102,13 @@
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 42.44177603721619
+    },
+    "glm-4.5v": {
+        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
+        "response": "tur,tcnuit:& infularum Cycladum dominus,primus in ear\u0169 ple-",
+        "wer": 60.0,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 10.028615951538086
     }
 }

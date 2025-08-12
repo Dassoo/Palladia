@@ -102,5 +102,13 @@
         "cer": 3.614457831325301,
         "accuracy": 96.3855421686747,
         "time": 82.6701147556305
+    },
+    "glm-4.5v": {
+        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
+        "response": "abie\u0188tio littera:q compo\u017fitio defignetur fa\u017f\u017fime ponunt fupra locum:\u016bde talis",
+        "wer": 81.81818181818183,
+        "cer": 16.867469879518072,
+        "accuracy": 83.13253012048193,
+        "time": 4.775057792663574
     }
 }

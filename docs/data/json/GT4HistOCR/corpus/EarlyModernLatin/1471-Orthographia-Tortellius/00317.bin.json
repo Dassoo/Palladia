@@ -102,5 +102,13 @@
         "cer": 8.974358974358974,
         "accuracy": 92.40506329113924,
         "time": 84.82254099845886
+    },
+    "glm-4.5v": {
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "oftendemus.pfertur tamen fub uoce ip\u017fius.g.ob cognatione littera\u017fqueadmod\u016b",
+        "wer": 81.81818181818183,
+        "cer": 14.102564102564102,
+        "accuracy": 85.8974358974359,
+        "time": 5.195914030075073
     }
 }

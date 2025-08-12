@@ -102,5 +102,13 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 49.614269971847534
+    },
+    "glm-4.5v": {
+        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "response": "baris dilapfis.Po\u017ft quod omnes fer\u00e8 in urbes redierunt,nauigan-",
+        "wer": 40.0,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 3.852102041244507
     }
 }

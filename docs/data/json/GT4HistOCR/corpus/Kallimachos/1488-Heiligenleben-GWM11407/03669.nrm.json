@@ -78,5 +78,13 @@
         "cer": 11.627906976744185,
         "accuracy": 88.63636363636364,
         "time": 57.458468198776245
+    },
+    "glm-4.5v": {
+        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
+        "response": "ond auf der wand gieng der brunn das dy.cri",
+        "wer": 50.0,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 5.345059156417847
     }
 }

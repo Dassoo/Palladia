@@ -102,5 +102,13 @@
         "cer": 2.4096385542168677,
         "accuracy": 97.61904761904762,
         "time": 84.13456988334656
+    },
+    "glm-4.5v": {
+        "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non a\u0169t \u017fic in aliis.",
+        "response": "dicatur retoruel Pyrrus non minus intellectus manet integer:non a\u0169t fic in al\u0131s.",
+        "wer": 42.857142857142854,
+        "cer": 6.024096385542169,
+        "accuracy": 93.97590361445783,
+        "time": 5.177558183670044
     }
 }

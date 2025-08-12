@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 35.32074189186096
+    },
+    "glm-4.5v": {
+        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos \u00e8 ueftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "wer": 10.0,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 10.069295167922974
     }
 }

@@ -102,5 +102,13 @@
         "cer": 4.3478260869565215,
         "accuracy": 95.65217391304348,
         "time": 47.45969581604004
+    },
+    "glm-4.5v": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accitis & focijs dixerunt, fibi quidem uideri",
+        "wer": 44.44444444444444,
+        "cer": 7.246376811594203,
+        "accuracy": 92.7536231884058,
+        "time": 10.207504749298096
     }
 }

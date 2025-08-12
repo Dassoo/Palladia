@@ -102,5 +102,13 @@
         "cer": 4.411764705882353,
         "accuracy": 97.05882352941177,
         "time": 30.845517873764038
+    },
+    "glm-4.5v": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent,fe ifta facturos,paratos\u03db effe & fanct\u00e8 promittere,dunt",
+        "wer": 90.0,
+        "cer": 19.11764705882353,
+        "accuracy": 82.35294117647058,
+        "time": 7.149364948272705
     }
 }

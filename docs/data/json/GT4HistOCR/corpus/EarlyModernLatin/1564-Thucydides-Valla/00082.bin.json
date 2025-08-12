@@ -102,5 +102,13 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 107.44024610519409
+    },
+    "glm-4.5v": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8 ucr\u00f2 optima quaxq tellus pracipue patiebatu afsiduas in-",
+        "wer": 55.55555555555556,
+        "cer": 12.903225806451612,
+        "accuracy": 88.70967741935483,
+        "time": 6.576023817062378
     }
 }

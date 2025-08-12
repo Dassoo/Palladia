@@ -78,5 +78,13 @@
         "cer": 11.363636363636363,
         "accuracy": 88.88888888888889,
         "time": 51.92122769355774
+    },
+    "glm-4.5v": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "Fech\u017fen.Da ermacht Der Hertzog vnd trachtet",
+        "wer": 71.42857142857143,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 6.49630880355835
     }
 }

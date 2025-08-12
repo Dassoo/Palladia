@@ -78,5 +78,13 @@
         "cer": 13.333333333333334,
         "accuracy": 88.0,
         "time": 93.46788811683655
+    },
+    "glm-4.5v": {
+        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
+        "response": "fonie\u017fchall alle weghe boot etten\u00b7vippe mpnet",
+        "wer": 75.0,
+        "cer": 20.0,
+        "accuracy": 84.44444444444444,
+        "time": 5.189877033233643
     }
 }

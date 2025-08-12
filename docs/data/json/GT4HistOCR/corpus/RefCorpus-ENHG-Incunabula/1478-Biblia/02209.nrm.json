@@ -78,5 +78,13 @@
         "cer": 8.695652173913043,
         "accuracy": 93.47826086956522,
         "time": 75.3353488445282
+    },
+    "glm-4.5v": {
+        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
+        "response": "choz:do ftuckede Oza vth fijn bant tho der as",
+        "wer": 60.0,
+        "cer": 15.217391304347828,
+        "accuracy": 84.78260869565217,
+        "time": 5.226405143737793
     }
 }

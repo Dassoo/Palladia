@@ -78,5 +78,13 @@
         "cer": 12.5,
         "accuracy": 87.5,
         "time": 72.76573491096497
+    },
+    "glm-4.5v": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "I.nade enim crem herrn-vnde fe brachtten de ar",
+        "wer": 81.81818181818183,
+        "cer": 22.916666666666664,
+        "accuracy": 81.25,
+        "time": 4.929388046264648
     }
 }

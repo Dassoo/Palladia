@@ -50,7 +50,7 @@ async def run_single_agent_attempt(agent, model, executor, image_path: str, gt: 
     exec_time = end - start
     
     # Fix for silly specific model behaviour
-    if model.id == "thudm/glm-4.1v-9b-thinking":
+    if model.id == "z-ai/glm-4.5v":
         response = trim_response(response)
     
     # Metrics calculation
@@ -61,50 +61,38 @@ async def run_single_agent_attempt(agent, model, executor, image_path: str, gt: 
 
 
 async def run_model(agent, model, executor, image_path: str):
-    """Run a model on an image, performing OCR and evaluating the results with retry logic."""
+    """Run a model on an image, performing OCR and evaluating the results."""
     gt_path = Path(image_path).with_suffix("").with_suffix(".gt.txt")
     with open(gt_path, "r") as f:
         gt = f.read().rstrip('\n') # Fixed issue with /n impacting accuracy metrics...
     
     display_name = get_model_display_name(model.id)
-    max_attempts = 5
-    accuracy_threshold = 0.75
     
-    for attempt in range(1, max_attempts + 1):
-        try:
-            response, diff, accuracy, wer, cer, exec_time = await run_single_agent_attempt(
-                agent, model, executor, image_path, gt
-            )
-            
-            # Print results for each attempt
-            attempt_text = f" (Attempt {attempt})" if attempt > 1 else ""
-            console.print(Text(f"\n(🤖) {display_name}{attempt_text}", style="bold blue"))
-            pprint_run_response(response)
-            console.print(diff)
-            console.print(Text(f"\nWER: {wer:.2%}", style="bold cyan")) # Word error rate (Jiwer)
-            console.print(Text(f"CER: {cer:.2%}", style="bold cyan")) # Character error rate (Jiwer)
-            console.print(Text(f"Accuracy: {accuracy:.2%}", style="bold blue")) # Accuracy (diff match patch)
-            console.print(Text(f"Execution Time: {exec_time:.2f} seconds\n", style="bold cyan"))
-            
-            # Check if accuracy meets given threshold to ensure benchmark quality
-            if accuracy >= accuracy_threshold:
-                break
-            else:
-                if attempt < max_attempts:
-                    console.print(Text(f"Accuracy {accuracy:.2%} below threshold {accuracy_threshold:.2%}, retrying...", style="bold yellow"))
-                else:
-                    console.print(Text("_" * 80, style="dim"))
-                    raise Exception(f"\nModel {display_name} failed to achieve {accuracy_threshold:.2%} accuracy after {max_attempts} attempts. Final accuracy: {accuracy:.2%}")
-                
-        except Exception as e:
-            if attempt == max_attempts:
-                console.print(Text(f"❌ Final attempt failed: {str(e)}", style="bold red"))
-                raise
-            else:
-                console.print(Text(f"Attempt {attempt} failed: {str(e)}, retrying...", style="bold yellow"))
-                continue
+    response, diff, accuracy, wer, cer, exec_time = await run_single_agent_attempt(
+        agent, model, executor, image_path, gt
+    )
     
-    console.print(Text("_" * 80, style="dim"))
+    # Print results with better spacing
+    console.print("\n" + "─" * 80)
+    console.print(Text(f"🤖 {display_name}", style="bold blue"))
+    console.print("─" * 80)
+    
+    # Model response with clear separation
+    console.print(Text("Model Response:", style="bold yellow"))
+    pprint_run_response(response)
+    
+    # Evaluation results with clear separation
+    console.print("\n" + "─" * 40)
+    console.print(Text("Benchmark Result:", style="bold yellow"))
+    console.print("─" * 40)
+    console.print(diff)
+    console.print(Text(f"\nMetrics:", style="bold green"))
+    console.print(Text(f"  • WER: {wer:.2%}", style="cyan"))  # Word error rate (Jiwer)
+    console.print(Text(f"  • CER: {cer:.2%}", style="cyan"))  # Character error rate (Jiwer)
+    console.print(Text(f"  • Accuracy: {accuracy:.2%}", style="blue"))  # Accuracy (diff match patch)
+    console.print(Text(f"  • Execution Time: {exec_time:.2f} seconds", style="cyan"))
+    
+    console.print("\n" + "═" * 80 + "\n")
     to_json(model, gt, response, wer, cer, accuracy, exec_time, image_path)
     
     return (get_model_display_name(model.id), wer, cer, accuracy, exec_time)
@@ -172,16 +160,16 @@ async def run_all(image_paths: list[str], source: str):
                 progress.update(
                     main_task, 
                     completed=completed_operations,
-                    description=f"\nRunning benchmark - Image {i}/{len(image_paths)}: {image_name}"
+                    description=f"Image {i}/{len(image_paths)}: {image_name}"
                 )
             
             executor.shutdown(wait=True)
         
         progress.update(main_task, description="Benchmark completed!")
     
-    console.print(Text("\n" + "="*80, style="bold blue"))
+    console.print("\n\n" + "═"*80)
     console.print(Text("AVERAGE METRICS PER MODEL", style="bold blue"))
-    console.print(Text("="*80, style="bold blue"))
+    console.print("═"*80)
     
     # Print average metrics for each model
     for model_id, model_metrics in metrics.items():
@@ -192,14 +180,14 @@ async def run_all(image_paths: list[str], source: str):
             avg_exec_time = sum(model_metrics['exec_time']) / len(model_metrics['exec_time'])
             tot_images = model_metrics['total_images']
             
-            console.print(Text(f"\n(🤖) {model_id}", style="bold blue"))
-            console.print(Text(f"Source: {source}", style="dim"))
-            console.print(Text(f"Images processed: {tot_images}", style="dim"))
-            console.print(Text(f"Average WER: {avg_wer:.2%}", style="bold cyan"))
-            console.print(Text(f"Average CER: {avg_cer:.2%}", style="bold cyan"))
-            console.print(Text(f"Average Accuracy: {avg_accuracy:.2%}", style="bold blue"))
-            console.print(Text(f"Average Execution Time: {avg_exec_time:.2f} seconds", style="bold yellow"))
-            console.print(Text("_"*80, style="dim"))
+            console.print(f"\n┌─ 🤖 {model_id}")
+            console.print(f"├─ Source: {source}")
+            console.print(f"├─ Images processed: {tot_images}")
+            console.print(Text(f"├─ Average WER: {avg_wer:.2%}", style="cyan"))
+            console.print(Text(f"├─ Average CER: {avg_cer:.2%}", style="cyan"))
+            console.print(Text(f"├─ Average Accuracy: {avg_accuracy:.2%}", style="blue"))
+            console.print(Text(f"└─ Average Execution Time: {avg_exec_time:.2f} seconds", style="yellow"))
+            console.print("─"*60)
 
 
 def select_images_with_priority(source: str, all_images: list[str], images_to_process: int, prioritize_scanned: bool) -> list[str]:

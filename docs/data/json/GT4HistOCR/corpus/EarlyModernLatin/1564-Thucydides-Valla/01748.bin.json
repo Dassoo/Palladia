@@ -102,5 +102,13 @@
         "cer": 1.3333333333333335,
         "accuracy": 98.66666666666667,
         "time": 52.67259407043457
+    },
+    "glm-4.5v": {
+        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "response": "riti\u00e6 tribut\u0169 elt.Itaque non licuit ei diutius pr\u00e6\u017fse populo.Prim\u0169m enim",
+        "wer": 41.66666666666667,
+        "cer": 9.333333333333334,
+        "accuracy": 90.66666666666666,
+        "time": 8.889098167419434
     }
 }

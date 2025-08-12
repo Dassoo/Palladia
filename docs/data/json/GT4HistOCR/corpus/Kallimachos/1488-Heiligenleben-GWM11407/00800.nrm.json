@@ -78,5 +78,13 @@
         "cer": 10.416666666666668,
         "accuracy": 89.79591836734694,
         "time": 111.77390789985657
+    },
+    "glm-4.5v": {
+        "gt": "\u017fter Achalongus vn\u0303 \u017fp\ua75bach. du \u017folt nit ge\u017ftatt\u1ebd",
+        "response": "fter AlcB alongus vn fprach.Du folft nit geftatte",
+        "wer": 87.5,
+        "cer": 27.083333333333332,
+        "accuracy": 77.55102040816327,
+        "time": 6.284764051437378
     }
 }

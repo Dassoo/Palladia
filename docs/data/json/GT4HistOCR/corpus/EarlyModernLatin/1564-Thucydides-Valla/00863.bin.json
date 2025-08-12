@@ -102,5 +102,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 57.911295890808105
+    },
+    "glm-4.5v": {
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 4.766024827957153
     }
 }

@@ -78,5 +78,13 @@
         "cer": 24.444444444444443,
         "accuracy": 75.55555555555556,
         "time": 111.09793162345886
+    },
+    "glm-4.5v": {
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Gen.ond da\u017fie \u017fpinn\u0113rcb da voz fa\u017fhen.da",
+        "wer": 90.0,
+        "cer": 31.11111111111111,
+        "accuracy": 71.11111111111111,
+        "time": 5.107717752456665
     }
 }

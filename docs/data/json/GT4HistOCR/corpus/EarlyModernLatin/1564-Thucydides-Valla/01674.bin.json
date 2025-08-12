@@ -102,5 +102,13 @@
         "cer": 3.125,
         "accuracy": 96.875,
         "time": 42.71295619010925
+    },
+    "glm-4.5v": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "rationc ui\u0107toriam fibi uindic\u0101tes: Corinthi\u01d0 quidem,quod ad no-",
+        "wer": 77.77777777777779,
+        "cer": 9.375,
+        "accuracy": 90.625,
+        "time": 15.37061095237732
     }
 }

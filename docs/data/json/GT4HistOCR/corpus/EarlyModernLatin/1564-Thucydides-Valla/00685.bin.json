@@ -102,5 +102,13 @@
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 18.689646005630493
+    },
+    "glm-4.5v": {
+        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
+        "response": "nionis errore potius inept\u00e8 non fecimus,id nunc contrari\u00f2 au-",
+        "wer": 20.0,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 4.748309135437012
     }
 }
