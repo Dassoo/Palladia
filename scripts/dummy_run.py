@@ -41,26 +41,22 @@ async def dummy_model_run(model: dict, image_path: str, executor: ThreadPoolExec
     loop = asyncio.get_event_loop()
     wer, cer, accuracy, exec_time = await loop.run_in_executor(executor, simulate_processing)
     
-    # Print dummy results with better spacing
     image_name = Path(image_path).name
     console.print("\n" + "─" * 80)
     console.print(Text(f"🤖 {model['display_name']}", style="bold blue"))
     console.print("─" * 80)
     
-    # Model response with clear separation
-    console.print(Text("Model Response:", style="bold yellow"))
     console.print(Text(f"Image: {image_name}", style="dim"))
     console.print(Text(f"Simulated OCR response: 'Lorem ipsum dolor sit amet...'", style="dim"))
     
-    # Evaluation results with clear separation
     console.print("\n" + "─" * 40)
     console.print(Text("Evaluation Result:", style="bold yellow"))
     console.print("─" * 40)
-    console.print(Text(f"\nMetrics:", style="bold green"))
+    console.print(Text(f"\nMetrics:", style="dim"))
     console.print(Text(f"  • WER: {wer:.2%}", style="cyan"))
     console.print(Text(f"  • CER: {cer:.2%}", style="cyan"))
     console.print(Text(f"  • Accuracy: {accuracy:.2%}", style="blue"))
-    console.print(Text(f"  • Execution Time: {exec_time:.2f} seconds", style="cyan"))
+    console.print(Text(f"  • Execution Time: {exec_time:.2f} seconds", style="yellow"))
     
     console.print("\n" + "═" * 80 + "\n")
     
@@ -150,8 +146,8 @@ async def run_dummy_benchmark(images: list[str], models: list[dict]):
             avg_exec_time = sum(model_metrics['exec_time']) / len(model_metrics['exec_time'])
             tot_images = model_metrics['total_images']
             
-            console.print(f"\n┌─ 🤖 {model_name}")
-            console.print(f"├─ Images processed: {tot_images}")
+            console.print(f"\n🤖 {model_name}", style="bold blue")
+            console.print(f"├─ Images processed: {tot_images}", style="dim")
             console.print(Text(f"├─ Average WER: {avg_wer:.2%}", style="cyan"))
             console.print(Text(f"├─ Average CER: {avg_cer:.2%}", style="cyan"))
             console.print(Text(f"├─ Average Accuracy: {avg_accuracy:.2%}", style="blue"))
