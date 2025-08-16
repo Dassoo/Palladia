@@ -71,6 +71,12 @@ models:
   api_key_env: MISTRAL_API_KEY
   standard_name: mistral-small
   link: https://docs.mistral.ai/getting-started/models/models_overview/
+- provider: Mistral
+  id: mistral-medium-2508
+  enabled: false
+  api_key_env: MISTRAL_API_KEY
+  standard_name: mistral-medium-3.1
+  link: https://docs.mistral.ai/getting-started/models/models_overview/
 - provider: Groq
   id: meta-llama/llama-4-scout-17b-16e-instruct
   enabled: false
@@ -142,6 +148,12 @@ models:
   api_key_env: OPENROUTER_API_KEY
   standard_name: glm-4.5v
   link: https://openrouter.ai/z-ai/glm-4.5v
+- provider: OpenRouter
+  id: baidu/ernie-4.5-vl-28b-a3b
+  enabled: false
+  api_key_env: OPENROUTER_API_KEY
+  standard_name: ernie-4.5-vl-28b-a3b
+  link: https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b 
 - provider: Nebius
   id: Qwen/Qwen2.5-VL-72B-Instruct
   enabled: false
