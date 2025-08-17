@@ -110,5 +110,21 @@
         "cer": 5.88235294117647,
         "accuracy": 94.11764705882352,
         "time": 3.5472841262817383
+    },
+    "mistral-medium-3.1": {
+        "gt": "tibus o\u017ftendemus.",
+        "response": "\u017ftibus oftendemus.",
+        "wer": 100.0,
+        "cer": 11.76470588235294,
+        "accuracy": 88.88888888888889,
+        "time": 1.0443611145019531
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tibus o\u017ftendemus.",
+        "response": "tibus \u014dftendemus.",
+        "wer": 50.0,
+        "cer": 11.76470588235294,
+        "accuracy": 88.23529411764706,
+        "time": 1.64215087890625
     }
 }

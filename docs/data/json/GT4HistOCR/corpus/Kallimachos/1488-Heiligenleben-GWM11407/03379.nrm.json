@@ -94,5 +94,21 @@
         "cer": 22.727272727272727,
         "accuracy": 81.81818181818183,
         "time": 5.3047027587890625
+    },
+    "mistral-medium-3.1": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit Du mich \u00fcberwindest. Da \u017fprach er wz ift",
+        "wer": 55.55555555555556,
+        "cer": 13.636363636363635,
+        "accuracy": 86.36363636363636,
+        "time": 1.2123157978057861
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit du mich \u00fcberwindest. Das sprach er woz ist",
+        "wer": 55.55555555555556,
+        "cer": 18.181818181818183,
+        "accuracy": 82.6086956521739,
+        "time": 2.8591558933258057
     }
 }

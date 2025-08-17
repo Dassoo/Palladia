@@ -94,5 +94,21 @@
         "cer": 24.444444444444443,
         "accuracy": 75.55555555555556,
         "time": 9.55512809753418
+    },
+    "mistral-medium-3.1": {
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "de i\u017ft gro\u017f\u017fer den dat ick wordenen kan gnade:",
+        "wer": 50.0,
+        "cer": 15.555555555555555,
+        "accuracy": 86.95652173913044,
+        "time": 1.361708164215088
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "de is groter den dat ick wordenen kan gnade\u204a",
+        "wer": 30.0,
+        "cer": 6.666666666666667,
+        "accuracy": 93.33333333333333,
+        "time": 2.5177669525146484
     }
 }

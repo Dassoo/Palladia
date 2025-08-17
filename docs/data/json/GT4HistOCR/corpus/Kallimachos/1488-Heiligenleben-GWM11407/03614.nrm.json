@@ -94,5 +94,21 @@
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 11.586232900619507
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
+        "response": "\u017fy. und \u017fa\u017fen Da\u017f gro\u017f\u017f wunder. Da \u017fprach Ser",
+        "wer": 77.77777777777779,
+        "cer": 20.454545454545457,
+        "accuracy": 80.0,
+        "time": 1.5650238990783691
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
+        "response": "sy.vnd SA\u017fhen VAs gro\u017fs wunder. VAsprach Ver",
+        "wer": 88.88888888888889,
+        "cer": 34.090909090909086,
+        "accuracy": 72.72727272727273,
+        "time": 2.705578088760376
     }
 }

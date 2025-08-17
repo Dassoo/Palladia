@@ -94,5 +94,21 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 5.660886764526367
+    },
+    "mistral-medium-3.1": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorinus v\u017f legt \u017fie als wir \u017fie nun begegnen",
+        "wer": 33.33333333333333,
+        "cer": 17.391304347826086,
+        "accuracy": 87.2340425531915,
+        "time": 1.397141933441162
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius vn\u0303 legt sie als wor sie nur begeen",
+        "wer": 55.55555555555556,
+        "cer": 15.217391304347828,
+        "accuracy": 84.78260869565217,
+        "time": 2.6460652351379395
     }
 }

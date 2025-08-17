@@ -86,20 +86,20 @@ class DashboardServer:
             # print("Dashboard server stopped")
 
 # Global server instance
-_dashboard_server = DashboardServer()
+dashboard_server = DashboardServer()
 
 # Public API
 def start_dashboard():
-    _dashboard_server.start()
+    dashboard_server.start()
 
 def open_dashboard():
-    _dashboard_server.open_browser()
+    dashboard_server.open_browser()
 
 def stop_dashboard():
-    _dashboard_server.stop()
+    dashboard_server.stop()
 
 def is_dashboard_running():
-    return _dashboard_server.is_running
+    return dashboard_server.is_running
 
 # Ensure shutdown on exit
 atexit.register(stop_dashboard)

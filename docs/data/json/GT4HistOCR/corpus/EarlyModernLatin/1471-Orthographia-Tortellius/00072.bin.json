@@ -110,5 +110,21 @@
         "cer": 10.126582278481013,
         "accuracy": 89.87341772151899,
         "time": 9.142827033996582
+    },
+    "mistral-medium-3.1": {
+        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
+        "response": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u1f10\u03c0\u03b9\u03bb\u03bb\u03cc\u03c2",
+        "wer": 9.090909090909092,
+        "cer": 5.063291139240507,
+        "accuracy": 94.9367088607595,
+        "time": 1.910128116607666
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tionis nota \u017fcribatur. Sed \u017fupra uocalem annotetur: unde iam \u017fcribitur \u03b5\u03c1\u03c0\u03b9\u03bb\u03bb\u03bf\u03c3",
+        "response": "tionis nota scribatur. Sed supra uocalem annotetur: unde iam scribitur erpi\u03bb\u03bb\u03bf\u03c3",
+        "wer": 36.36363636363637,
+        "cer": 8.860759493670885,
+        "accuracy": 91.13924050632912,
+        "time": 2.1220760345458984
     }
 }

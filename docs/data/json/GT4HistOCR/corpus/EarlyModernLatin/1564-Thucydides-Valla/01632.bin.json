@@ -110,5 +110,29 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 4.163933038711548
+    },
+    "mistral-medium-3.1": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa, fed clam non minim\u00f9 cum illis ad mouen-",
+        "wer": 27.27272727272727,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 1.3688769340515137
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mifT\u0101, f\u0113d cl\u0101m non minim\u016b cum ill\u012bs ad mouen-",
+        "wer": 45.45454545454545,
+        "cer": 12.903225806451612,
+        "accuracy": 87.09677419354838,
+        "time": 2.678740978240967
+    },
+    "grok-4": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "apalam legatione mi\u017f\u017fa,\u017fed clam non minim\u016bt cum illis ad mouen-",
+        "wer": 45.45454545454545,
+        "cer": 9.67741935483871,
+        "accuracy": 92.06349206349206,
+        "time": 146.3039219379425
     }
 }

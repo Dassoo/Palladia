@@ -110,5 +110,29 @@
         "avg_cer": 7.923303345256334,
         "avg_accuracy": 92.2807263607472,
         "avg_time": 7.354915331149924
+    },
+    "mistral-medium-3.1": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
+        "images": 58,
+        "avg_wer": 29.086804000597105,
+        "avg_cer": 7.604419261813138,
+        "avg_accuracy": 93.12058015397461,
+        "avg_time": 1.5231924838033215
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
+        "images": 58,
+        "avg_wer": 47.18652037617555,
+        "avg_cer": 14.6283110307988,
+        "avg_accuracy": 86.25505164564022,
+        "avg_time": 2.307040272087886
+    },
+    "grok-4": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
+        "images": 58,
+        "avg_wer": 42.56499726327313,
+        "avg_cer": 12.92963108841251,
+        "avg_accuracy": 89.37499184115535,
+        "avg_time": 98.74611556529999
     }
 }

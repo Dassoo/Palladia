@@ -94,5 +94,21 @@
         "cer": 25.53191489361702,
         "accuracy": 78.72340425531915,
         "time": 4.550957202911377
+    },
+    "mistral-medium-3.1": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "xpi be\u017fchreu\u00eb heft-v\u00f1 Marcus wert figurert in",
+        "wer": 55.55555555555556,
+        "cer": 12.76595744680851,
+        "accuracy": 89.36170212765957,
+        "time": 1.2947478294372559
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "\ua751\u017fi beskreu\u1ebd beft vni Marcus wert figurert in",
+        "wer": 55.55555555555556,
+        "cer": 21.27659574468085,
+        "accuracy": 80.85106382978722,
+        "time": 1.9156889915466309
     }
 }

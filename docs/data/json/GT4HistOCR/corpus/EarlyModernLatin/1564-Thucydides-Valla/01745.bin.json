@@ -110,5 +110,29 @@
         "cer": 2.3255813953488373,
         "accuracy": 97.67441860465115,
         "time": 3.5860049724578857
+    },
+    "mistral-medium-3.1": {
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.2077178955078125
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori \ua751ethoc Alim\u0169lius a\u207ftro.",
+        "wer": 66.66666666666666,
+        "cer": 16.27906976744186,
+        "accuracy": 83.72093023255815,
+        "time": 2.7808260917663574
+    },
+    "grok-4": {
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides\u00b7 Olori iacethoc Alimu\u017fius antro,",
+        "wer": 66.66666666666666,
+        "cer": 6.976744186046512,
+        "accuracy": 95.34883720930233,
+        "time": 175.07337379455566
     }
 }

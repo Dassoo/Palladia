@@ -110,5 +110,29 @@
         "cer": 1.6129032258064515,
         "accuracy": 98.38709677419355,
         "time": 5.517025947570801
+    },
+    "mistral-medium-3.1": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefacientes illi quidcm Athenien\u017fibus, pr\u00e6tendentcs",
+        "wer": 28.57142857142857,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 1.266179084777832
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non p\u00e0tefacientes illi quidcm Athenien\u017fibus, pr\u00e6tendentes",
+        "wer": 57.14285714285714,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 2.3089747428894043
+    },
+    "grok-4": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patefacientes illi quidem Athenien\u017fibus,pr\u00e6tendentes",
+        "wer": 57.14285714285714,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 75.39842295646667
     }
 }

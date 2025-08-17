@@ -110,5 +110,29 @@
         "cer": 7.246376811594203,
         "accuracy": 92.7536231884058,
         "time": 10.207504749298096
+    },
+    "mistral-medium-3.1": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, acciti\u017f\u017fe \u017focijs dixerunt, \u017fibi quidem uideri",
+        "wer": 11.11111111111111,
+        "cer": 5.797101449275362,
+        "accuracy": 94.20289855072464,
+        "time": 1.4710099697113037
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accitis \u067a foci\u00df dixerunt, \u067aibi quidem uideri",
+        "wer": 44.44444444444444,
+        "cer": 10.144927536231885,
+        "accuracy": 89.85507246376811,
+        "time": 2.7758560180664062
+    },
+    "grok-4": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur,accitis\u017foctis dixerunt,\u017fibi quidem uideri",
+        "wer": 55.55555555555556,
+        "cer": 11.594202898550725,
+        "accuracy": 89.85507246376811,
+        "time": 143.34947991371155
     }
 }

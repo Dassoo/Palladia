@@ -1,8 +1,8 @@
 from agno.agent import RunResponse
 
-def trim_response(response: RunResponse) -> RunResponse:
+def glm_trim(response: RunResponse) -> RunResponse:
     """
-    Custom trim for 'z-ai/glm-4.5v' model
+    Custom trim for 'z-ai/glm-4.5v' model extra verbose
     """
     content = str(response.content).strip()
     
@@ -13,5 +13,17 @@ def trim_response(response: RunResponse) -> RunResponse:
         content = content[:-14]
 
     response.content = content.strip()
+    
+    return response
+
+
+def grok_trim(response: RunResponse) -> RunResponse:
+    """
+    Custom trim for 'grok-4' model duplicate answers
+    """
+    content = str(response.content).strip()
+    half = len(content) // 2
+    first, second = content[:half], content[half:]
+    response.content = first.strip() if first == second else text.strip()
     
     return response

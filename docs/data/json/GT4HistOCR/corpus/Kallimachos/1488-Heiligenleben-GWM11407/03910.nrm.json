@@ -94,5 +94,21 @@
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 4.766428232192993
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017fen. Da erwacht Der Hertzog und trachtet",
+        "wer": 57.14285714285714,
+        "cer": 11.363636363636363,
+        "accuracy": 88.63636363636364,
+        "time": 1.9417271614074707
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u00dfen.Daerwacht \u0434\u0435\u0440\u0501\u0565\u0580\u0431\u0435\u0440\u0442zo\u0433 und trachtet",
+        "wer": 85.71428571428571,
+        "cer": 38.63636363636363,
+        "accuracy": 65.9090909090909,
+        "time": 2.3471360206604004
     }
 }

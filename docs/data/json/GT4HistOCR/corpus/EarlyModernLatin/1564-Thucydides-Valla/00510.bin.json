@@ -110,5 +110,29 @@
         "cer": 6.896551724137931,
         "accuracy": 93.10344827586206,
         "time": 3.922435760498047
+    },
+    "mistral-medium-3.1": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum fynce\u017f.",
+        "wer": 11.11111111111111,
+        "cer": 5.172413793103448,
+        "accuracy": 94.91525423728814,
+        "time": 1.2943809032440186
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior, qu\u00e0m quantus unqu\u00e2 maximus uiguit, dum fynce-",
+        "wer": 22.22222222222222,
+        "cer": 3.4482758620689653,
+        "accuracy": 96.55172413793103,
+        "time": 2.4723219871520996
+    },
+    "grok-4": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "cratus maior,qu\u00e0m quantus unqu\u00e0m maximus uiguit,dum fynce-",
+        "wer": 77.77777777777779,
+        "cer": 10.344827586206897,
+        "accuracy": 93.10344827586206,
+        "time": 41.91146993637085
     }
 }

@@ -110,5 +110,29 @@
         "cer": 13.043478260869565,
         "accuracy": 86.95652173913044,
         "time": 3.9125301837921143
+    },
+    "mistral-medium-3.1": {
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas, quibu\u017fip\u017fe interfui, qua\u017fi figillatim ab alijs quam potui di-",
+        "wer": 54.54545454545454,
+        "cer": 13.043478260869565,
+        "accuracy": 86.95652173913044,
+        "time": 1.4505329132080078
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas, quibus \u017fple interfuei, quas \u017figillatim ab alijs qu\u00e0m potui di-",
+        "wer": 36.36363636363637,
+        "cer": 10.144927536231885,
+        "accuracy": 91.30434782608695,
+        "time": 2.0649001598358154
+    },
+    "grok-4": {
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "cas, quibus ip\u017fe interfui, quas\u0304 \u017figillatim ab aliis quam potui di-",
+        "wer": 36.36363636363637,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 155.8623812198639
     }
 }

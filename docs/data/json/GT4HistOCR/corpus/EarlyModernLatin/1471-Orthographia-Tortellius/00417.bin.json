@@ -110,5 +110,21 @@
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 4.6705098152160645
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017fon\u00e3s: quas ut diximus mutuari \u017folemus: quoti\u1ebds illorum no\u0129bus utimur. ne\u017fcio",
+        "response": "\u017fona\u017f: qua\u017fi ut diximus mutuani \u017folemus : quotie\u017f illorum noibus utimur. ne\u017fcio",
+        "wer": 63.63636363636363,
+        "cer": 11.688311688311687,
+        "accuracy": 88.60759493670885,
+        "time": 1.7373409271240234
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017fon\u00e3s: quas ut diximus mutuari \u017folemus: quoti\u1ebds illorum no\u0129bus utimur. ne\u017fcio",
+        "response": "\u0186nas:quas ut diximus mutuari solemus:quoti\u0113s illorum noibus utimur. nescio",
+        "wer": 54.54545454545454,
+        "cer": 11.688311688311687,
+        "accuracy": 88.31168831168831,
+        "time": 2.483642101287842
     }
 }

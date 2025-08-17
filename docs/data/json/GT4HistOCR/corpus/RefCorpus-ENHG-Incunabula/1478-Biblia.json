@@ -94,5 +94,21 @@
         "avg_cer": 19.65277930427164,
         "avg_accuracy": 82.69657211346475,
         "avg_time": 6.9708667675654095
+    },
+    "mistral-medium-3.1": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 50.477392977392974,
+        "avg_cer": 14.943728293064567,
+        "avg_accuracy": 86.7128608586127,
+        "avg_time": 1.3654706875483196
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 62.66955266955267,
+        "avg_cer": 21.360094094261818,
+        "avg_accuracy": 80.08442641139986,
+        "avg_time": 2.5063735008239747
     }
 }

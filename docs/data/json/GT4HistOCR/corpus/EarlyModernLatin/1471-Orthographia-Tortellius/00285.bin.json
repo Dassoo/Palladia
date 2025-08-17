@@ -110,5 +110,21 @@
         "cer": 12.82051282051282,
         "accuracy": 87.17948717948718,
         "time": 11.752640008926392
+    },
+    "mistral-medium-3.1": {
+        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Cai\u017f.c.littera \u017fignari comp\u00e9rimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "wer": 28.57142857142857,
+        "cer": 5.128205128205128,
+        "accuracy": 94.87179487179486,
+        "time": 1.5804691314697266
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Ca\u017f.c.littera \u017fignari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "wer": 71.42857142857143,
+        "cer": 11.538461538461538,
+        "accuracy": 88.46153846153845,
+        "time": 2.456763982772827
     }
 }

@@ -110,5 +110,29 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 15.034563779830933
+    },
+    "mistral-medium-3.1": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobi\u017f iuiuria illata e\u017ft,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.4395060539245605
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata eft,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 4.4275031089782715
+    },
+    "grok-4": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iniuria illata e\u017ft,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 54.068670988082886
     }
 }

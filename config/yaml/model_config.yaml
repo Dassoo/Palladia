@@ -49,7 +49,7 @@ models:
   link: https://platform.openai.com/docs/models/gpt-4o
 - provider: Google
   id: gemini-2.5-flash
-  enabled: true
+  enabled: false
   api_key_env: GOOGLE_API_KEY
   standard_name: gemini-2.5-flash
   link: https://ai.google.dev/gemini-api/docs/models?hl=it#gemini-2.5-flash
@@ -109,7 +109,7 @@ models:
   link: https://docs.anthropic.com/en/docs/about-claude/models/overview
 - provider: xAI
   id: grok-4-0709
-  enabled: false
+  enabled: true
   api_key_env: XAI_API_KEY
   standard_name: grok-4
   link: https://docs.x.ai/docs/overview
@@ -153,7 +153,7 @@ models:
   enabled: false
   api_key_env: OPENROUTER_API_KEY
   standard_name: ernie-4.5-vl-28b-a3b
-  link: https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b 
+  link: https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b
 - provider: Nebius
   id: Qwen/Qwen2.5-VL-72B-Instruct
   enabled: false

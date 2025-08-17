@@ -94,5 +94,21 @@
         "cer": 17.391304347826086,
         "accuracy": 83.6734693877551,
         "time": 4.001171112060547
+    },
+    "mistral-medium-3.1": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "wo\u017fter auch wol Da\u017f \u017fie cri\u017ften waren. und Da",
+        "wer": 50.0,
+        "cer": 13.043478260869565,
+        "accuracy": 86.95652173913044,
+        "time": 1.562535285949707
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": " west er auch wol \u00a7as \u017fie criften waren.vnd \u00a7a",
+        "wer": 60.0,
+        "cer": 10.869565217391305,
+        "accuracy": 89.13043478260869,
+        "time": 3.418674945831299
     }
 }

@@ -110,5 +110,21 @@
         "cer": 8.235294117647058,
         "accuracy": 91.76470588235294,
         "time": 8.666510105133057
+    },
+    "mistral-medium-3.1": {
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "quid: quod a\u017fpirationis nota erat pro littera. s. acciper\u00e9t & traducer\u00e9t: & maxime quia",
+        "wer": 21.428571428571427,
+        "cer": 4.705882352941177,
+        "accuracy": 95.40229885057471,
+        "time": 1.738957166671753
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod a\u017fpirationis nota erat pro littera.s.acciper\u0113t & traducer\u0113t:& maxime quia",
+        "wer": 50.0,
+        "cer": 7.0588235294117645,
+        "accuracy": 92.94117647058823,
+        "time": 2.177962064743042
     }
 }

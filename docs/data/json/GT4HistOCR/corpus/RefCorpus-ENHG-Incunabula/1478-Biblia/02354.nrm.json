@@ -94,5 +94,21 @@
         "cer": 18.6046511627907,
         "accuracy": 81.3953488372093,
         "time": 6.297842979431152
+    },
+    "mistral-medium-3.1": {
+        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
+        "response": "vle\u017fch Mer gy\u017fter\u00e9 v\u00f1 eergy\u017fter\u00e9 do \u017faulko",
+        "wer": 50.0,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 1.5550248622894287
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
+        "response": "vlesch Mer gy\u0188te\u0107e vn eergy\u0188te\u0107e do \u01a7aulko",
+        "wer": 75.0,
+        "cer": 23.25581395348837,
+        "accuracy": 76.74418604651163,
+        "time": 2.725421905517578
     }
 }

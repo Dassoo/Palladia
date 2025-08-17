@@ -110,5 +110,29 @@
         "cer": 11.11111111111111,
         "accuracy": 88.88888888888889,
         "time": 12.028302192687988
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumeliofum \u010b\u1e6d,tamen litigiosi putamur:n\u010b\u00fe co~",
+        "wer": 77.77777777777779,
+        "cer": 19.047619047619047,
+        "accuracy": 80.95238095238095,
+        "time": 2.2468080520629883
+    },
+    "mistral-medium-3.1": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobi\u017f contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: necq co-",
+        "wer": 33.33333333333333,
+        "cer": 6.349206349206349,
+        "accuracy": 95.23809523809523,
+        "time": 4.470322847366333
+    },
+    "grok-4": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft,tamen litigio\u017fi putamur: nec co-",
+        "wer": 44.44444444444444,
+        "cer": 6.349206349206349,
+        "accuracy": 93.65079365079364,
+        "time": 40.03875994682312
     }
 }

@@ -110,5 +110,29 @@
         "cer": 7.6923076923076925,
         "accuracy": 92.42424242424242,
         "time": 3.3710999488830566
+    },
+    "mistral-medium-3.1": {
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati fumus, ac ne \u017fic quidem i\u017fta pro manif\u017ftis",
+        "wer": 18.181818181818183,
+        "cer": 3.076923076923077,
+        "accuracy": 96.92307692307692,
+        "time": 1.5690534114837646
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "ux\u6211\u592a\u30f3 congregati\u01d4mus, ac ne \u01d4i\u0107 quidem i\u0127ta pro manifestis",
+        "wer": 63.63636363636363,
+        "cer": 23.076923076923077,
+        "accuracy": 76.92307692307693,
+        "time": 1.840837001800537
+    },
+    "grok-4": {
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati \u017fumus,ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "wer": 18.181818181818183,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 34.25539493560791
     }
 }

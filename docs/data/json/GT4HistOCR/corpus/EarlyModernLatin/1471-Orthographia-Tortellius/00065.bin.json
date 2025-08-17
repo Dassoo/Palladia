@@ -110,5 +110,21 @@
         "cer": 26.923076923076923,
         "accuracy": 75.64102564102564,
         "time": 13.24004316329956
+    },
+    "mistral-medium-3.1": {
+        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
+        "response": "\u03bc\u1f78 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u014d herpo:\u03c3\u03ad\u03be traduxerunt \u017fex & n\u014d hex :\u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u00e9",
+        "wer": 53.333333333333336,
+        "cer": 11.538461538461538,
+        "accuracy": 89.74358974358975,
+        "time": 1.6693718433380127
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
+        "response": "\u0574\u0585 \u03c3\u03b7\u0301\u03c1\u03c0\u03c9 dixerunt lepo:& \u0576\u0585 herpo:\u03c3\u03b5\u03be traduxerunt lex & \u0576\u0585 hex :\u03c3\u03b5\u0301\u03c0\u03c4\u03b1 lepte",
+        "wer": 80.0,
+        "cer": 24.358974358974358,
+        "accuracy": 79.48717948717949,
+        "time": 2.653557062149048
     }
 }

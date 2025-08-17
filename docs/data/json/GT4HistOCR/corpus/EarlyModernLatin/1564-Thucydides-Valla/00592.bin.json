@@ -110,5 +110,29 @@
         "cer": 6.779661016949152,
         "accuracy": 93.22033898305084,
         "time": 10.362337112426758
+    },
+    "mistral-medium-3.1": {
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.5409080982208252
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenienses procefferunt, atque in hunc modum lo-",
+        "wer": 25.0,
+        "cer": 5.084745762711865,
+        "accuracy": 94.91525423728814,
+        "time": 2.35482120513916
+    },
+    "grok-4": {
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 28.64932608604431
     }
 }

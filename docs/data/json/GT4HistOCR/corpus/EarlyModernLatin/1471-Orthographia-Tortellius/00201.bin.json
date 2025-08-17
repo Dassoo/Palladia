@@ -110,5 +110,21 @@
         "cer": 14.772727272727273,
         "accuracy": 85.22727272727273,
         "time": 8.634029865264893
+    },
+    "mistral-medium-3.1": {
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & \u017fcribere compellit. Vnde te\u017fte Pri\u017fciano in viii. b. ante\u017f uel",
+        "wer": 47.05882352941176,
+        "cer": 7.954545454545454,
+        "accuracy": 92.04545454545455,
+        "time": 1.7240450382232666
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & tenbere compellat. Vnde tefte Prufiano in.viiij.antes ud",
+        "wer": 70.58823529411765,
+        "cer": 21.59090909090909,
+        "accuracy": 78.4090909090909,
+        "time": 2.4571101665496826
     }
 }

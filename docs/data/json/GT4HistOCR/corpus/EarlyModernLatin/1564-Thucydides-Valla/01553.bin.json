@@ -110,5 +110,29 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 3.9979779720306396
+    },
+    "mistral-medium-3.1": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.341413974761963
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnesiact",
+        "wer": 50.0,
+        "cer": 10.0,
+        "accuracy": 90.0,
+        "time": 4.876929044723511
+    },
+    "grok-4": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponne\u017fiaci",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 13.191351175308228
     }
 }

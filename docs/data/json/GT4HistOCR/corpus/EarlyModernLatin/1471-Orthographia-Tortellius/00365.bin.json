@@ -110,5 +110,21 @@
         "cer": 6.024096385542169,
         "accuracy": 93.97590361445783,
         "time": 5.177558183670044
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non a\u0169t \u017fic in aliis.",
+        "response": "dicatur retoruel Pyrrus non minus intellectus man\u00ebt integer: non a\u00fbt lic in al\u0169 s.",
+        "wer": 50.0,
+        "cer": 7.228915662650602,
+        "accuracy": 92.7710843373494,
+        "time": 2.5777499675750732
+    },
+    "mistral-medium-3.1": {
+        "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non a\u0169t \u017fic in aliis.",
+        "response": "dicatur retoruel Pyrrhus non minus intellectus manet integer: non au\u017ftic in ali\u017f.",
+        "wer": 42.857142857142854,
+        "cer": 9.63855421686747,
+        "accuracy": 92.7710843373494,
+        "time": 3.557537078857422
     }
 }

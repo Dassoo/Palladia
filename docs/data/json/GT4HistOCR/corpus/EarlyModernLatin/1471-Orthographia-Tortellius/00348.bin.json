@@ -110,5 +110,21 @@
         "cer": 10.256410256410255,
         "accuracy": 89.74358974358975,
         "time": 5.740478992462158
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt:qu\u0227 pro.th.\u022fpulcherrime ponunt:nec n\u0151 &",
+        "wer": 72.72727272727273,
+        "cer": 10.256410256410255,
+        "accuracy": 89.74358974358975,
+        "time": 3.0702779293060303
+    },
+    "mistral-medium-3.1": {
+        "gt": "a\u017fpirationem gerentem conceperunt: qu\u00e3 pro. th. \ua757\u1dd3pulcherrime ponunt: nec n\u00f5 &",
+        "response": "a\u017fpirationem gerentem conceperunt : qua\u0304 pro th. \u00e6\u0304pulcherrime ponunt : nec no\u0304 &",
+        "wer": 72.72727272727273,
+        "cer": 11.538461538461538,
+        "accuracy": 90.12345679012346,
+        "time": 4.857293128967285
     }
 }

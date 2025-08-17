@@ -7,7 +7,7 @@ from models.model_utils import to_eval, get_model_display_name
 from models.agent import create_agent, create_image_obj
 from evaluation.metrics import get_diff, get_metrics
 from evaluation.graph import create_graph
-from utils.custom_trim import trim_response
+from utils.custom_trim import glm_trim, grok_trim
 from utils.save import to_json, aggregate_folder_results
 from scripts.update_manifest import update_manifest
 from config.loader import load_config
@@ -49,9 +49,15 @@ async def run_single_agent_attempt(agent, model, executor, image_path: str, gt: 
     end = time.time()
     exec_time = end - start
     
-    # Fix for silly specific model behaviour
+    ## RESPONSE EXCEPTIONS
+    # Fix for extra unmanageable verbose of GLM model
     if model.id == "z-ai/glm-4.5v":
-        response = trim_response(response)
+        response = glm_trim(response)
+    
+    # Fix for Grok duplicates
+    # if model.id == "grok-4":
+    #     response = grok_trim(response)
+    
     
     # Metrics calculation
     diff, accuracy = get_diff(gt, response.content)

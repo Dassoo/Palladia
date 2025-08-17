@@ -110,5 +110,21 @@
         "cer": 3.614457831325301,
         "accuracy": 96.3855421686747,
         "time": 3.387760877609253
+    },
+    "mistral-medium-3.1": {
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur: Sed cum iuniores xoles te\u017fte Cen\u017forino facilius",
+        "wer": 9.090909090909092,
+        "cer": 1.2048192771084338,
+        "accuracy": 98.79518072289156,
+        "time": 1.5961899757385254
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur:Sed cum iuniores \u00e6oles tefte Cenforino facilius",
+        "wer": 36.36363636363637,
+        "cer": 3.614457831325301,
+        "accuracy": 96.3855421686747,
+        "time": 2.8507890701293945
     }
 }

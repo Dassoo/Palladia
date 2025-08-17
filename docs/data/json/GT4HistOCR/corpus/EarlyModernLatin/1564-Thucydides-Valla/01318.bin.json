@@ -110,5 +110,29 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 10.069295167922974
+    },
+    "mistral-medium-3.1": {
+        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, autetiam nobis",
+        "wer": 20.0,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.3757400512695312
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos \u00e8 ueftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "wer": 10.0,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 2.527189016342163
+    },
+    "grok-4": {
+        "gt": "ullos \u00e8 ue\u017ftra ditione mercenarios illorum fieri, aut etiam nobis",
+        "response": "ullos \u00e9 u\u017f traditione mercenarios illorum fieri,aut etiam nobis",
+        "wer": 50.0,
+        "cer": 7.6923076923076925,
+        "accuracy": 93.84615384615384,
+        "time": 324.5572919845581
     }
 }

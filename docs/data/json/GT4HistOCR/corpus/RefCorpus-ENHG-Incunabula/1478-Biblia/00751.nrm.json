@@ -94,5 +94,21 @@
         "cer": 23.91304347826087,
         "accuracy": 78.26086956521739,
         "time": 6.9061620235443115
+    },
+    "mistral-medium-3.1": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 le\u017fe \u017fclo\u017f g\u00e4-r\u00f1 al\u017f dat gebat\u017fcopte wart",
+        "wer": 72.72727272727273,
+        "cer": 23.91304347826087,
+        "accuracy": 78.26086956521739,
+        "time": 1.4825499057769775
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "vi \u056c\u0567\u057f\u0567 \u057d\u056f los g\u0103-v\u056b\u9f50 dat gebatscopt wart",
+        "wer": 72.72727272727273,
+        "cer": 36.95652173913043,
+        "accuracy": 63.04347826086957,
+        "time": 3.0708441734313965
     }
 }

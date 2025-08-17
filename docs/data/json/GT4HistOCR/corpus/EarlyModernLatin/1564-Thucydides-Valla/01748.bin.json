@@ -110,5 +110,29 @@
         "cer": 9.333333333333334,
         "accuracy": 90.66666666666666,
         "time": 8.889098167419434
+    },
+    "mistral-medium-3.1": {
+        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "response": "iurix tribut\u00fa e\u017ft. lque non licuit ei diuti\u00f9s pr\u00e6e\u017f\u017fe populo. Prim\u00f9m enim",
+        "wer": 41.66666666666667,
+        "cer": 13.333333333333334,
+        "accuracy": 88.0,
+        "time": 1.760288953781128
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "response": "riti\u00e6 tribut\u0169 eft. Itaque non licuit ei diutius pr\u00e6ceffe populo. Prim\u00f9m enim",
+        "wer": 16.666666666666664,
+        "cer": 6.666666666666667,
+        "accuracy": 93.42105263157895,
+        "time": 1.8294661045074463
+    },
+    "grok-4": {
+        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "response": "vitia tribu\u016bt. It\u00e1que non licuit ci\u016bilius pr\u00e6fe\u00dfe populo. Prim\u00f9m enim",
+        "wer": 58.333333333333336,
+        "cer": 22.666666666666664,
+        "accuracy": 78.66666666666666,
+        "time": 197.32192587852478
     }
 }

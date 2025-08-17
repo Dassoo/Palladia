@@ -94,5 +94,21 @@
         "cer": 18.181818181818183,
         "accuracy": 86.95652173913044,
         "time": 6.649497032165527
+    },
+    "mistral-medium-3.1": {
+        "gt": "heliten \u00b7 vnde na deme cheleab van abyghaill",
+        "response": "heliten \u017fonde na deme cheleab van abyrghaill",
+        "wer": 37.5,
+        "cer": 9.090909090909092,
+        "accuracy": 93.18181818181817,
+        "time": 1.170943021774292
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "heliten \u00b7 vnde na deme cheleab van abyghaill",
+        "response": "\u0939\u0947\u0932iten vnd\u0435 na deme \u01a8\u05d7eleab v\u043d abrghaiill",
+        "wer": 75.0,
+        "cer": 27.27272727272727,
+        "accuracy": 75.0,
+        "time": 2.273076057434082
     }
 }

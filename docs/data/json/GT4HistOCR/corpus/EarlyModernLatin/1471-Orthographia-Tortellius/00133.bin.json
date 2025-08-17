@@ -110,5 +110,21 @@
         "cer": 6.25,
         "accuracy": 93.75,
         "time": 7.028692960739136
+    },
+    "mistral-medium-3.1": {
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftra tran\u017fferimus illam fere \u017femper \u017fua figura & noie ac pote\u017ftate co\u017feruamus.",
+        "wer": 25.0,
+        "cer": 3.75,
+        "accuracy": 96.25,
+        "time": 1.5459020137786865
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u021dtr\u0101 transf\u0113r\u0113mus illam f\u0113re fermper \u017fua ig\u016bra & no\u0129e ac pot\u0113t\u0101te co\u017f\u0113ru\u0101mus.",
+        "wer": 58.333333333333336,
+        "cer": 20.0,
+        "accuracy": 81.25,
+        "time": 2.6370010375976562
     }
 }

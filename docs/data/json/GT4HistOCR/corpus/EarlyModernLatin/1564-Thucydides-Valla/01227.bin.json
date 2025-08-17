@@ -110,5 +110,29 @@
         "cer": 6.666666666666667,
         "accuracy": 95.0,
         "time": 7.911998987197876
+    },
+    "mistral-medium-3.1": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.3256688117980957
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis noftris relinquamus. Neque cre-",
+        "wer": 11.11111111111111,
+        "cer": 1.6666666666666667,
+        "accuracy": 98.33333333333333,
+        "time": 1.7138848304748535
+    },
+    "grok-4": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "eam magis ne bellum liberis no\u017ftris relinquamus.Neque cream magis ne bellum liberis no\u017ftris relinquamus.Neque cre<",
+        "wer": 100.0,
+        "cer": 95.0,
+        "accuracy": 50.877192982456144,
+        "time": 164.65013718605042
     }
 }

@@ -110,5 +110,21 @@
         "cer": 7.792207792207792,
         "accuracy": 92.3076923076923,
         "time": 5.144529819488525
+    },
+    "mistral-medium-3.1": {
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ipl\u017fi r: ac dicebant \u03b2\u03c1\u1fd6\u03c4\u03c9\u03c0 \u03c0\u03c1\u03bf rhetor: \u03b2\u03c0\u03bf\u03b6\u03bf \u03c0\u03c1\u03bf rhodos: & non \u03c6\u03b9\u03bb\u03b5\u1fd6\u03c0",
+        "wer": 42.857142857142854,
+        "cer": 23.376623376623375,
+        "accuracy": 77.92207792207793,
+        "time": 1.8599166870117188
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant \u1f30\u03c0\u1fc6\u03b9 \u1fe5:\u03b1\u03ba diciebant \u0392\u03c1\u03b9\u03c4\u03ce\u03c1 pro rhetor: \u0392\u03c1\u03bf\u0394oer pro rhodos: & non \u03c1\u1f31\u03c4\u03ce\u03c1",
+        "wer": 50.0,
+        "cer": 25.97402597402597,
+        "accuracy": 76.62337662337663,
+        "time": 2.770050048828125
     }
 }

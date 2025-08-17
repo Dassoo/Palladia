@@ -110,5 +110,21 @@
         "cer": 7.894736842105263,
         "accuracy": 92.10526315789474,
         "time": 6.223487138748169
+    },
+    "mistral-medium-3.1": {
+        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
+        "response": "tantum In loculis: \u03ba\u03bd\u1ff6\u03c3\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & p ch",
+        "wer": 13.333333333333334,
+        "cer": 5.263157894736842,
+        "accuracy": 96.05263157894737,
+        "time": 1.4595749378204346
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
+        "response": "tantum In loculis:\u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum gmedia ut quidam sensbunt. Quin & p ch",
+        "wer": 40.0,
+        "cer": 9.210526315789473,
+        "accuracy": 90.78947368421053,
+        "time": 2.6588308811187744
     }
 }

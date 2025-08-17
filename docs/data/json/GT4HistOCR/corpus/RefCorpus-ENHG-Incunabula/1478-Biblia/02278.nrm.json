@@ -94,5 +94,21 @@
         "cer": 12.195121951219512,
         "accuracy": 90.2439024390244,
         "time": 5.716240167617798
+    },
+    "mistral-medium-3.1": {
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman \u017finde da\u017fge\u017fchach na wele daghen",
+        "wer": 57.14285714285714,
+        "cer": 12.195121951219512,
+        "accuracy": 90.2439024390244,
+        "time": 1.254633903503418
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman \u017f\u00fcnde \u017fat \ua75belsch\u0101c\u1e25 na \u1e87ele d\u0101glhen",
+        "wer": 71.42857142857143,
+        "cer": 26.82926829268293,
+        "accuracy": 75.0,
+        "time": 2.430746078491211
     }
 }

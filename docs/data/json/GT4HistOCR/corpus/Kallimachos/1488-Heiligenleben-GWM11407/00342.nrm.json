@@ -94,5 +94,21 @@
         "cer": 8.333333333333332,
         "accuracy": 91.66666666666666,
         "time": 8.816992044448853
+    },
+    "mistral-medium-3.1": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en und be\u017ftetet \u017fy an ein erliche \u017ftat.Da gieng",
+        "wer": 30.0,
+        "cer": 4.166666666666666,
+        "accuracy": 95.83333333333334,
+        "time": 1.409879207611084
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vond bestetet sy an ein erliche Stat. \u00c2a gieng",
+        "wer": 50.0,
+        "cer": 10.416666666666668,
+        "accuracy": 89.79591836734694,
+        "time": 2.3790640830993652
     }
 }

@@ -110,5 +110,21 @@
         "cer": 11.39240506329114,
         "accuracy": 89.87341772151899,
         "time": 13.426335096359253
+    },
+    "mistral-medium-3.1": {
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiqui\u017f\u017fimi gr\u00e6corum",
+        "wer": 16.666666666666664,
+        "cer": 8.860759493670885,
+        "accuracy": 91.66666666666666,
+        "time": 2.429250955581665
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictionarys nostras: & quas ex gr\u00e6cis acceperamus: nostris ut antiquissimis gr\u00e6corum",
+        "wer": 41.66666666666667,
+        "cer": 20.253164556962027,
+        "accuracy": 81.81818181818183,
+        "time": 2.702148914337158
     }
 }

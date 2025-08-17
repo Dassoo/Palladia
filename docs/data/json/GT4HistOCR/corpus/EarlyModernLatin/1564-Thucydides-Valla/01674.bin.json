@@ -110,5 +110,29 @@
         "cer": 9.375,
         "accuracy": 90.625,
         "time": 15.37061095237732
+    },
+    "mistral-medium-3.1": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "rationcui\u017ftoriam \u017fibi uindicat\u00ea\u017f: Corinthij quidem, quod ad no-",
+        "wer": 33.33333333333333,
+        "cer": 9.375,
+        "accuracy": 90.625,
+        "time": 1.460927963256836
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictoriam \u1e3fibi uindic\u0101tes: Corinthi\u1e49 quidem, quod ad no",
+        "wer": 44.44444444444444,
+        "cer": 6.25,
+        "accuracy": 93.75,
+        "time": 2.3165228366851807
+    },
+    "grok-4": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictori\u00e3 ibi uindic\u00e3tes: Corinthij quidem,quod ad no-",
+        "wer": 44.44444444444444,
+        "cer": 6.25,
+        "accuracy": 93.75,
+        "time": 26.753507137298584
     }
 }

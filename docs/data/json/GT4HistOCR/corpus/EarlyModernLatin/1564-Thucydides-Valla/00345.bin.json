@@ -110,5 +110,29 @@
         "cer": 13.846153846153847,
         "accuracy": 86.15384615384616,
         "time": 14.537942171096802
+    },
+    "mistral-medium-3.1": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6en\u017fes mi\u017f\u017fis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 11.11111111111111,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.547215223312378
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6nenfes mi\u017fsis ad Athenienfes legatis, fi forte",
+        "wer": 44.44444444444444,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.42424242424242,
+        "time": 1.9653549194335938
+    },
+    "grok-4": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant. At Potid\u00e6en\u017fes mi\u017f\u017fis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 11.11111111111111,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 117.76531791687012
     }
 }

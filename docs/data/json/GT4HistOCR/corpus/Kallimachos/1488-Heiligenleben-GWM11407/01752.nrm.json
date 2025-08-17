@@ -94,5 +94,21 @@
         "cer": 20.833333333333336,
         "accuracy": 83.33333333333334,
         "time": 11.104416131973267
+    },
+    "mistral-medium-3.1": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "x thun \u017folt er got wol geuiel. Da \u017fprach er.",
+        "wer": 36.36363636363637,
+        "cer": 14.583333333333334,
+        "accuracy": 85.41666666666666,
+        "time": 1.495116949081421
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "\u00edr thun s\u00f3ft \u00feer er got wol geuiel. Tha sprach er.",
+        "wer": 45.45454545454545,
+        "cer": 22.916666666666664,
+        "accuracy": 78.0,
+        "time": 2.6876261234283447
     }
 }

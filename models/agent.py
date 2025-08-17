@@ -37,6 +37,8 @@ def create_agent(model) -> Agent:
             
             Output only the literal, character-accurate transcription of the image content. No formatting, metadata, summaries, or commentary.
             
+            DO NOT RETURN DUPLICATES.
+            
         """,
     )
 

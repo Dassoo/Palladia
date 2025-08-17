@@ -110,5 +110,29 @@
         "cer": 9.230769230769232,
         "accuracy": 90.76923076923077,
         "time": 6.4653639793396
+    },
+    "mistral-medium-3.1": {
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamncn\u017fes nullam \u017fibiuidentes \u00e0 Corcyraei\u017fbus iniuri\u00e6 20",
+        "wer": 44.44444444444444,
+        "cer": 7.6923076923076925,
+        "accuracy": 93.84615384615384,
+        "time": 2.0657799243927
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnnend\u0113s nullam Gibi\u016bdent\u0113s \u00e0 Corcyr\u0113fibus iniuri\u00e6 \u00bao",
+        "wer": 55.55555555555556,
+        "cer": 18.461538461538463,
+        "accuracy": 83.07692307692308,
+        "time": 2.4393980503082275
+    },
+    "grok-4": {
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnenc\u017fes nullam \u017fibi uidentes \u00e1 Corcyr\u00e6is iniuri\u00e6 20",
+        "wer": 33.33333333333333,
+        "cer": 9.230769230769232,
+        "accuracy": 92.3076923076923,
+        "time": 90.14754366874695
     }
 }

@@ -110,5 +110,21 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.400084018707275
+    },
+    "mistral-medium-3.1": {
+        "gt": "DE Littera d.",
+        "response": "DE Littera d.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.0548460483551025
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "DE Littera d.",
+        "response": "DE Littera d.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.096151113510132
     }
 }

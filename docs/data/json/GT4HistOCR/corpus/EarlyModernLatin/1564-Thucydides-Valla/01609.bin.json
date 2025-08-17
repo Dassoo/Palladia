@@ -110,5 +110,29 @@
         "cer": 11.475409836065573,
         "accuracy": 88.52459016393442,
         "time": 5.902918815612793
+    },
+    "mistral-medium-3.1": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0119c Corinthij eger\u0101t lidem c\u016b oppugnactur Po\u017f-",
+        "wer": 55.55555555555556,
+        "cer": 13.114754098360656,
+        "accuracy": 88.52459016393442,
+        "time": 1.4488413333892822
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0113c Corinth\u012b\u1e33 eger\u0101t. lidem c\u016bm oppugnaretur Po-",
+        "wer": 55.55555555555556,
+        "cer": 9.836065573770492,
+        "accuracy": 90.1639344262295,
+        "time": 2.0534729957580566
+    },
+    "grok-4": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim hgcCorinthij egerat.idem cum opppugnarcturPo-",
+        "wer": 77.77777777777779,
+        "cer": 14.754098360655737,
+        "accuracy": 86.88524590163934,
+        "time": 167.66076517105103
     }
 }

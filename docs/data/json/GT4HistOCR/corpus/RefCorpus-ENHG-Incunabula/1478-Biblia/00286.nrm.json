@@ -94,5 +94,21 @@
         "cer": 9.75609756097561,
         "accuracy": 90.69767441860465,
         "time": 6.359523057937622
+    },
+    "mistral-medium-3.1": {
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet i\u017fapenbare ghele\u017fen voor my v\u00efi v\u00e2",
+        "wer": 62.5,
+        "cer": 14.634146341463413,
+        "accuracy": 87.8048780487805,
+        "time": 1.60642409324646
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghelesen voet my vi va\u035e",
+        "wer": 50.0,
+        "cer": 12.195121951219512,
+        "accuracy": 88.09523809523809,
+        "time": 2.2000932693481445
     }
 }

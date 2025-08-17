@@ -94,5 +94,21 @@
         "cer": 16.0,
         "accuracy": 88.0,
         "time": 8.719839811325073
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017feet voer dem begyn E\u017fdre",
+        "response": "\u017fect voer dem begyn El\u017fdre",
+        "wer": 40.0,
+        "cer": 8.0,
+        "accuracy": 92.3076923076923,
+        "time": 1.1651389598846436
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017feet voer dem begyn E\u017fdre",
+        "response": "\u017fect voer \u0111\u00e8n beg\u00fdn \u0190\u0455\u00f0\u00ea",
+        "wer": 80.0,
+        "cer": 40.0,
+        "accuracy": 60.0,
+        "time": 2.1400842666625977
     }
 }

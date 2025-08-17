@@ -110,5 +110,21 @@
         "cer": 8.064516129032258,
         "accuracy": 91.93548387096774,
         "time": 4.089566946029663
+    },
+    "mistral-medium-3.1": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius : in \u017f. ut parco par\u017fi : quin & peperci.",
+        "wer": 50.0,
+        "cer": 6.451612903225806,
+        "accuracy": 95.23809523809523,
+        "time": 2.1603660583496094
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius:in.s.ut parco parli:quin & peperci.",
+        "wer": 50.0,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 2.462885856628418
     }
 }

@@ -110,5 +110,29 @@
         "cer": 16.43835616438356,
         "accuracy": 83.56164383561644,
         "time": 13.249737977981567
+    },
+    "mistral-medium-3.1": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum c\u017f\u017fe manif\u017fti\u017f\u017fimis \u017fignis ita fe uetera habui\u017f\u017fe. Et licet homi. 40.",
+        "wer": 41.66666666666667,
+        "cer": 8.21917808219178,
+        "accuracy": 93.15068493150685,
+        "time": 1.7027688026428223
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum \u010bffe manifesti\u1e61imi\u015b \u1e61igni\u015b \u03b9ta \u010be uetera habui\u1e61e. Et \u0131l\u0131ce homi\u204a 40\u2070",
+        "wer": 75.0,
+        "cer": 24.65753424657534,
+        "accuracy": 78.08219178082192,
+        "time": 2.234302043914795
+    },
+    "grok-4": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum e\u017f\u017fe manife\u017fti\u017f\u017fimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "wer": 8.333333333333332,
+        "cer": 1.36986301369863,
+        "accuracy": 98.63013698630137,
+        "time": 105.35028409957886
     }
 }

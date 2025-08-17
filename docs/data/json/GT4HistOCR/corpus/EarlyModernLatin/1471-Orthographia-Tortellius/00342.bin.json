@@ -110,5 +110,21 @@
         "cer": 15.384615384615385,
         "accuracy": 87.17948717948718,
         "time": 4.908836841583252
+    },
+    "mistral-medium-3.1": {
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpiratioe adinuncit: qu\u00e6 quodamodo molliore \u017f. p\u017f. uolubilioremq\u0340 \u017fon\u00fb hab\u00e6:",
+        "wer": 90.0,
+        "cer": 14.102564102564102,
+        "accuracy": 87.17948717948718,
+        "time": 1.629868984222412
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "afpirat\u00ecoe \u00efdinu\u012bcn\u012bt: qu\u0229 quod\u0101modo mollior\u0113 \u0233.ps.uolubil\u012boremq; \u1e63\u014dn\u016b habet.",
+        "wer": 100.0,
+        "cer": 26.923076923076923,
+        "accuracy": 75.64102564102564,
+        "time": 3.5243802070617676
     }
 }

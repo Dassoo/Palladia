@@ -110,5 +110,21 @@
         "cer": 12.345679012345679,
         "accuracy": 87.65432098765432,
         "time": 4.526744842529297
+    },
+    "mistral-medium-3.1": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfect: & inept\u016b qd re\u017fpectu \u017foni quod apud illos ex digam\u0101 re\u017fultabat: efflare",
+        "wer": 30.76923076923077,
+        "cer": 8.641975308641975,
+        "accuracy": 91.35802469135803,
+        "time": 1.5698301792144775
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeqt:& inept\u016b qd respectu \u1e63oni quod apud illos ex dig\u0101ma respectabat:efflare",
+        "wer": 69.23076923076923,
+        "cer": 17.28395061728395,
+        "accuracy": 83.9506172839506,
+        "time": 2.6485188007354736
     }
 }

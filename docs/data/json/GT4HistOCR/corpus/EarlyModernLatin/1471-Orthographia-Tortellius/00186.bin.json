@@ -110,5 +110,21 @@
         "cer": 7.317073170731707,
         "accuracy": 92.6829268292683,
         "time": 3.674449920654297
+    },
+    "mistral-medium-3.1": {
+        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
+        "response": "bitur:Die\u017f hic textus cum nihil egi die quarte moriar fame.Sed id pr\u00e6cipue re\u017fto",
+        "wer": 40.0,
+        "cer": 7.317073170731707,
+        "accuracy": 92.6829268292683,
+        "time": 1.7556169033050537
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
+        "response": "bitur:Dies hi\u00e6 sextus cum nihil egi die quarte moriar fame.Sed id pr\u00e6cipue te\u2714\ufe0elle",
+        "wer": 46.666666666666664,
+        "cer": 9.75609756097561,
+        "accuracy": 92.6829268292683,
+        "time": 2.369373083114624
     }
 }

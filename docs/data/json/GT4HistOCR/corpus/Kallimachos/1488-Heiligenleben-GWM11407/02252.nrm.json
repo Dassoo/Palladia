@@ -94,5 +94,21 @@
         "cer": 11.904761904761903,
         "accuracy": 88.09523809523809,
         "time": 4.196160078048706
+    },
+    "mistral-medium-3.1": {
+        "gt": "Darnach kam er auff einen berg da wonet er",
+        "response": "Darnach Kam er auff einen Berg Da monete er",
+        "wer": 44.44444444444444,
+        "cer": 11.904761904761903,
+        "accuracy": 88.37209302325581,
+        "time": 1.1211278438568115
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Darnach kam er auff einen berg da wonet er",
+        "response": "Darnach kam er auff einen Berg, da monet er",
+        "wer": 22.22222222222222,
+        "cer": 7.142857142857142,
+        "accuracy": 93.02325581395348,
+        "time": 4.49388861656189
     }
 }

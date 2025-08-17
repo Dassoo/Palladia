@@ -110,5 +110,21 @@
         "cer": 14.102564102564102,
         "accuracy": 87.17948717948718,
         "time": 11.649906158447266
+    },
+    "mistral-medium-3.1": {
+        "gt": "forma \u017fignata appar&: & n\u00f5 nouor\u0169 \u00e6olo\ua776 forma de\u017fcribit\u1dd1. Rur\u017fus & \ua751 contrari\u00e3",
+        "response": "forma \u017fignata appar\u017f\u00a2: & no nouor\u00f9m axolo\u03b3 forma de\u017fcribit. Rur\u017fus & p contrarii\u00a2",
+        "wer": 53.84615384615385,
+        "cer": 15.384615384615385,
+        "accuracy": 86.41975308641975,
+        "time": 1.646090030670166
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "forma \u017fignata appar&: & n\u00f5 nouor\u0169 \u00e6olo\ua776 forma de\u017fcribit\u1dd1. Rur\u017fus & \ua751 contrari\u00e3",
+        "response": "forma signata appar&#8201;&#8201;n\u00f5 nouor\u0169 \u00e6olog\u0169 forma descript&#940;.Rurus &#941; contrari\u021b",
+        "wer": 76.92307692307693,
+        "cer": 41.02564102564102,
+        "accuracy": 68.81720430107528,
+        "time": 2.6473591327667236
     }
 }

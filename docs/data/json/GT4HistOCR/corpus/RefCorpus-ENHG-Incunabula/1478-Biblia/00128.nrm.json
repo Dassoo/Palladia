@@ -94,5 +94,21 @@
         "cer": 7.317073170731707,
         "accuracy": 95.23809523809523,
         "time": 4.677016973495483
+    },
+    "mistral-medium-3.1": {
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fodane \u017feden hebben \u017fevns geantwor",
+        "wer": 42.857142857142854,
+        "cer": 4.878048780487805,
+        "accuracy": 95.1219512195122,
+        "time": 1.185086965560913
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men alsodane reden hebben sevens geantwort",
+        "wer": 57.14285714285714,
+        "cer": 12.195121951219512,
+        "accuracy": 90.47619047619048,
+        "time": 1.8573062419891357
     }
 }

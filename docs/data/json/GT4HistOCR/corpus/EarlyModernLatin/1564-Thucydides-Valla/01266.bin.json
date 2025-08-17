@@ -110,5 +110,29 @@
         "cer": 11.864406779661017,
         "accuracy": 88.13559322033898,
         "time": 6.705542802810669
+    },
+    "mistral-medium-3.1": {
+        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "response": "dccim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo:",
+        "wer": 33.33333333333333,
+        "cer": 3.389830508474576,
+        "accuracy": 96.61016949152543,
+        "time": 1.4318130016326904
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "response": "decim, Ambraciotarum uigintifeptem, Anactoriorum una, ipfo-",
+        "wer": 33.33333333333333,
+        "cer": 3.389830508474576,
+        "accuracy": 96.61016949152543,
+        "time": 2.384401321411133
+    },
+    "grok-4": {
+        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "response": "dccim.Ambraciotarum uigintiseptem.Anactoriorum una, ipfo-",
+        "wer": 83.33333333333334,
+        "cer": 11.864406779661017,
+        "accuracy": 88.13559322033898,
+        "time": 54.68078589439392
     }
 }

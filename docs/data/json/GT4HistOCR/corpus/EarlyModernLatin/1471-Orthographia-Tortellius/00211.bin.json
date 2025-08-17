@@ -110,5 +110,21 @@
         "cer": 16.27906976744186,
         "accuracy": 83.72093023255815,
         "time": 5.02396297454834
+    },
+    "mistral-medium-3.1": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "per\u017f\u00e6quia in fine \u017fyllaba stare no poterat: loco eius ip\u017fam b liam po\u017fuere\u017ft. Id\u00e9q;",
+        "wer": 53.333333333333336,
+        "cer": 15.11627906976744,
+        "accuracy": 86.04651162790698,
+        "time": 2.2052159309387207
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penat: quia in fine Syllabae itare no poterat: loco eius ipsam b Iram posuerit. Id\u0119qy",
+        "wer": 53.333333333333336,
+        "cer": 17.441860465116278,
+        "accuracy": 84.88372093023256,
+        "time": 2.7273149490356445
     }
 }

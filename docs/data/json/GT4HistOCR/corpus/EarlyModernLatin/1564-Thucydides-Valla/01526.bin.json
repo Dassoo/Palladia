@@ -110,5 +110,29 @@
         "cer": 18.461538461538463,
         "accuracy": 81.53846153846153,
         "time": 6.217543840408325
+    },
+    "mistral-medium-3.1": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm, exaduer\u017foaciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "wer": 36.36363636363637,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 1.6450951099395752
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantem, cxaducerJo aciem & ipfi infltruunt, nec mult\u00f2 p\u00f2ft confli-",
+        "wer": 45.45454545454545,
+        "cer": 13.846153846153847,
+        "accuracy": 87.87878787878788,
+        "time": 1.8880958557128906
+    },
+    "grok-4": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantem, exaduer\u017fo aciem & ip\u017fi in\u017ftrunt, nec multo po\u017ft con\u017fi-",
+        "wer": 45.45454545454545,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 117.0141830444336
     }
 }

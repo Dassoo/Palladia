@@ -110,5 +110,29 @@
         "cer": 8.064516129032258,
         "accuracy": 91.93548387096774,
         "time": 10.028615951538086
+    },
+    "mistral-medium-3.1": {
+        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
+        "response": "tur, tcnuit: & infularum Cycladum dominus, primus in earum ple:",
+        "wer": 40.0,
+        "cer": 8.064516129032258,
+        "accuracy": 92.06349206349206,
+        "time": 1.465423822402954
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
+        "response": "tur,tcnuit:&in\u017fularum Cycladum domin\u0169,primus in ear\u0169 ple-",
+        "wer": 60.0,
+        "cer": 11.29032258064516,
+        "accuracy": 88.70967741935483,
+        "time": 2.5961709022521973
+    },
+    "grok-4": {
+        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
+        "response": "tur,tenuit. & in\u017fularum Cycladum dominus,primus in ear\u016b ple-",
+        "wer": 50.0,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 118.31412506103516
     }
 }

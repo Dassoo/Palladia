@@ -110,5 +110,29 @@
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 3.852102041244507
+    },
+    "mistral-medium-3.1": {
+        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "response": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.551110029220581
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "response": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.5846199989318848
+    },
+    "grok-4": {
+        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "response": "baris dilap\u017fis. Po\u017ft quod omnes fere in urbes redierunt, nauig\u0101-",
+        "wer": 20.0,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 117.11446118354797
     }
 }

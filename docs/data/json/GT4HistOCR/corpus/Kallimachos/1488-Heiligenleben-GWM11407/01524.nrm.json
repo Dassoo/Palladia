@@ -94,5 +94,21 @@
         "cer": 8.51063829787234,
         "accuracy": 93.61702127659575,
         "time": 4.773125886917114
+    },
+    "mistral-medium-3.1": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pflecht. Aber wer gelert i\u017ft und Die\u017fere mit ge",
+        "wer": 40.0,
+        "cer": 10.638297872340425,
+        "accuracy": 91.48936170212765,
+        "time": 1.589676856994629
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfecht. Aber wer gelernt istvnd Sie lere mit ge",
+        "wer": 40.0,
+        "cer": 8.51063829787234,
+        "accuracy": 93.61702127659575,
+        "time": 2.9125359058380127
     }
 }

@@ -110,5 +110,21 @@
         "cer": 10.0,
         "accuracy": 90.0,
         "time": 10.571879863739014
+    },
+    "mistral-medium-3.1": {
+        "gt": "ratione apud gr\u00e6cos & no\u017ftros. Nam cum apud eos te\u017fte Quintiliano libro. XII. de",
+        "response": "ratione apud Gr\u00e6cos & no\u017ftros. Nam cum apud eos te\u017fte Quintiliano libro xii. de",
+        "wer": 21.428571428571427,
+        "cer": 6.25,
+        "accuracy": 93.75,
+        "time": 1.5380709171295166
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ratione apud gr\u00e6cos & no\u017ftros. Nam cum apud eos te\u017fte Quintiliano libro. XII. de",
+        "response": "ratione apud graecos & noftros. Nam cum apud eos tefte Quintiliano libro.xi.de",
+        "wer": 42.857142857142854,
+        "cer": 11.25,
+        "accuracy": 90.0,
+        "time": 2.2367169857025146
     }
 }

@@ -110,5 +110,21 @@
         "cer": 12.82051282051282,
         "accuracy": 88.88888888888889,
         "time": 4.666434049606323
+    },
+    "mistral-medium-3.1": {
+        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
+        "response": "ut diligenti\u00dfimi con\u017fpexere grammatici: pro q Claudius Ce\u017far apud nos anti\u017figna",
+        "wer": 45.45454545454545,
+        "cer": 8.974358974358974,
+        "accuracy": 92.40506329113924,
+        "time": 1.5484731197357178
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
+        "response": "ut diligentiffimi con\u017fpexere gra\u0e6amatici:pro \u1d17 Claudius C\u00e6far apud nos antiquigina",
+        "wer": 54.54545454545454,
+        "cer": 15.384615384615385,
+        "accuracy": 86.41975308641975,
+        "time": 3.4192450046539307
     }
 }

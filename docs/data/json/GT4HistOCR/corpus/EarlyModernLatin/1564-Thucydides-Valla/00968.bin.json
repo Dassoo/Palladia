@@ -110,5 +110,29 @@
         "cer": 4.225352112676056,
         "accuracy": 95.77464788732394,
         "time": 8.395915031433105
+    },
+    "mistral-medium-3.1": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c verba \u017funt, Armo-",
+        "wer": 8.333333333333332,
+        "cer": 1.4084507042253522,
+        "accuracy": 98.59154929577466,
+        "time": 1.6503779888153076
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u014d po\u012bt initium, ubi in margine h\u00e6c uerba funt, Armo",
+        "wer": 33.33333333333333,
+        "cer": 5.633802816901409,
+        "accuracy": 94.36619718309859,
+        "time": 2.5745160579681396
+    },
+    "grok-4": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "Armoris Pr\u00e6fatione paulo po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armoris",
+        "wer": 25.0,
+        "cer": 11.267605633802818,
+        "accuracy": 89.6103896103896,
+        "time": 62.959949016571045
     }
 }

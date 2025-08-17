@@ -94,5 +94,21 @@
         "cer": 18.6046511627907,
         "accuracy": 84.0909090909091,
         "time": 2.9274749755859375
+    },
+    "mistral-medium-3.1": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde \u017fyoa \u017fede deme konynge Ja daer is noch",
+        "wer": 11.11111111111111,
+        "cer": 2.3255813953488373,
+        "accuracy": 97.67441860465115,
+        "time": 1.4702990055084229
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vnde s\u00ffoa scede deme koupnge ja daer is noch",
+        "wer": 44.44444444444444,
+        "cer": 18.6046511627907,
+        "accuracy": 81.81818181818183,
+        "time": 2.450218915939331
     }
 }

@@ -110,5 +110,21 @@
         "cer": 8.974358974358974,
         "accuracy": 91.25,
         "time": 12.860041379928589
+    },
+    "mistral-medium-3.1": {
+        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "response": "in Satyra Atticus eximie \u017fi coenat inquit : Nec nullum cupias cum \u017fit tibi gobio",
+        "wer": 28.57142857142857,
+        "cer": 5.128205128205128,
+        "accuracy": 95.0,
+        "time": 1.8697509765625
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "response": "in \u0186atyra Atticus eximie si coenat inquit: Nec nullum cupias cum sit tibi gobio",
+        "wer": 28.57142857142857,
+        "cer": 6.41025641025641,
+        "accuracy": 93.67088607594937,
+        "time": 2.686859130859375
     }
 }

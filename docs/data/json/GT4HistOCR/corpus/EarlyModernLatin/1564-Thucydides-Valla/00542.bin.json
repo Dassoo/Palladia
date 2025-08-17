@@ -110,5 +110,29 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 3.809360980987549
+    },
+    "mistral-medium-3.1": {
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohibeurtur. Corcyren\u017fes ubicolonos ac pr\u00e6\u017fidia",
+        "wer": 42.857142857142854,
+        "cer": 6.451612903225806,
+        "accuracy": 95.16129032258065,
+        "time": 1.7489960193634033
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "transeuntes prohiberentur. Corcyrenfes ubi colonos ac pr\u00e6sidia",
+        "wer": 42.857142857142854,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 2.044919013977051
+    },
+    "grok-4": {
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tran\u017feuntes prohiberentur.Corcyr\u00e6n\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "wer": 28.57142857142857,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 26.862677812576294
     }
 }

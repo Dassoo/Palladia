@@ -94,5 +94,21 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 4.670686960220337
+    },
+    "mistral-medium-3.1": {
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft Den iuden da\u017f\u017fie fich zu",
+        "wer": 55.55555555555556,
+        "cer": 10.869565217391305,
+        "accuracy": 89.13043478260869,
+        "time": 1.4582629203796387
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmenschlich ist der uden das sie sich zu",
+        "wer": 77.77777777777779,
+        "cer": 15.217391304347828,
+        "accuracy": 84.78260869565217,
+        "time": 3.922708034515381
     }
 }

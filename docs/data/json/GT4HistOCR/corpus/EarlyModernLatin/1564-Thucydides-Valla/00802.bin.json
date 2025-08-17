@@ -110,5 +110,29 @@
         "cer": 9.67741935483871,
         "accuracy": 90.76923076923077,
         "time": 4.390695810317993
+    },
+    "mistral-medium-3.1": {
+        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "response": "Hoc autem plebi\u017fcitum foedera e\u017fc rupta, facium e\u017ft quatuorde\u017f",
+        "wer": 44.44444444444444,
+        "cer": 11.29032258064516,
+        "accuracy": 90.32258064516128,
+        "time": 1.518254041671753
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "response": "Hoc autem plebisficitum f\u0153dera \u017fte ruipa, fa\u017ftum e\u017ft quatuorde-",
+        "wer": 55.55555555555556,
+        "cer": 14.516129032258066,
+        "accuracy": 88.88888888888889,
+        "time": 2.010394811630249
+    },
+    "grok-4": {
+        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "response": "Hoc autem plebi\u017fcitum f\u0153dera e\u017f\u017fe rupta,fa\u017ftum e\u017ft quatuorde-",
+        "wer": 33.33333333333333,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 52.05749177932739
     }
 }

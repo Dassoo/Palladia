@@ -110,5 +110,29 @@
         "cer": 19.11764705882353,
         "accuracy": 82.35294117647058,
         "time": 7.149364948272705
+    },
+    "mistral-medium-3.1": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, \u017fe i\u017fta facturos, paratos\u00a2 e\u017f\u017fe & fanct\u00e8 promittere, dumt",
+        "wer": 30.0,
+        "cer": 7.352941176470589,
+        "accuracy": 94.11764705882352,
+        "time": 1.6890239715576172
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent, s\u00e8 \u00edsta fa\u0107turos, paratos \u1fc6 elle & sanct\u00e8 promittere, dint",
+        "wer": 80.0,
+        "cer": 20.588235294117645,
+        "accuracy": 80.88235294117648,
+        "time": 2.515981674194336
+    },
+    "grok-4": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent,\u017fc i\u017fta facturos,paratosq\u0301 e\u017f\u017fe & \u017fanct\u00e8 promittere,dum",
+        "wer": 60.0,
+        "cer": 7.352941176470589,
+        "accuracy": 92.64705882352942,
+        "time": 28.245216131210327
     }
 }

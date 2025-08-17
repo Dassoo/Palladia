@@ -110,5 +110,29 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 4.766024827957153
+    },
+    "mistral-medium-3.1": {
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligitur   tia pugnatur",
+        "wer": 16.666666666666664,
+        "cer": 10.638297872340425,
+        "accuracy": 90.19607843137256,
+        "time": 1.2759060859680176
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibisdes Athenienfium dux eligi- tia pugnatur",
+        "wer": 33.33333333333333,
+        "cer": 4.25531914893617,
+        "accuracy": 95.74468085106383,
+        "time": 2.506911039352417
+    },
+    "grok-4": {
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibiades Athenien\u017fium dux eligi: tia pugnat ur",
+        "wer": 50.0,
+        "cer": 4.25531914893617,
+        "accuracy": 95.83333333333334,
+        "time": 62.15088510513306
     }
 }

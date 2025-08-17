@@ -110,5 +110,21 @@
         "cer": 13.48314606741573,
         "accuracy": 86.51685393258427,
         "time": 4.3173511028289795
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "\u017fonus exigi uidebatur: q\u0301 p: c: lf\u0304 pra\u017ftari potuerit. Po\u017ft ha\u017f uero nonnulli ex no\u017ftris",
+        "wer": 46.666666666666664,
+        "cer": 14.606741573033707,
+        "accuracy": 86.51685393258427,
+        "time": 1.9692609310150146
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "sonus exigi undebat: q\u0303 p.c. l\u012b\u0101m pr\u00e6st\u0101r\u012b potuerit. Pont has uero nonnulli ex noctri\u0219",
+        "wer": 60.0,
+        "cer": 17.97752808988764,
+        "accuracy": 82.02247191011236,
+        "time": 2.4068589210510254
     }
 }

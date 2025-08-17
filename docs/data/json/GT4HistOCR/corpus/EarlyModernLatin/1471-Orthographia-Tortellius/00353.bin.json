@@ -110,5 +110,21 @@
         "cer": 13.414634146341465,
         "accuracy": 87.8048780487805,
         "time": 9.054117918014526
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
+        "response": "scribendam esse: ut karthago captum: currency tefte Quintiliano sit.c.lfa quac ad omnes",
+        "wer": 64.28571428571429,
+        "cer": 25.609756097560975,
+        "accuracy": 79.3103448275862,
+        "time": 2.186216354370117
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
+        "response": "\u017fcribendam e\u017f\u017fe : ut karthago kapur: c\u00f9 te\u017fte Quintiliano 5it:c.1\u00e1 qu\u00e6 ad omnes",
+        "wer": 50.0,
+        "cer": 13.414634146341465,
+        "accuracy": 87.8048780487805,
+        "time": 4.741065979003906
     }
 }

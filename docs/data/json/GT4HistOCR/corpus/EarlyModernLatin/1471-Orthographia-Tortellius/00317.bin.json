@@ -110,5 +110,21 @@
         "cer": 14.102564102564102,
         "accuracy": 85.8974358974359,
         "time": 5.195914030075073
+    },
+    "mistral-medium-3.1": {
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "o\u017ftendemus. pfertur tamen \u017fub uoce ip\u017fius, g. ob cognition\u00e9 litterar\u00fa qu\u00e1dmod\u00f9",
+        "wer": 45.45454545454545,
+        "cer": 11.538461538461538,
+        "accuracy": 89.74358974358975,
+        "time": 1.963404893875122
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "oftendemus , psertur tamen sub uoce spsius . g . ob cognation\u0113 litteray qu\u00e9admod\u016b",
+        "wer": 100.0,
+        "cer": 17.94871794871795,
+        "accuracy": 82.71604938271605,
+        "time": 2.7363028526306152
     }
 }

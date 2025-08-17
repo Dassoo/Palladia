@@ -110,5 +110,21 @@
         "avg_cer": 10.79274977284125,
         "avg_accuracy": 89.54159803297468,
         "avg_time": 6.8434689857743
+    },
+    "mistral-medium-3.1": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 41.918745247622255,
+        "avg_cer": 9.705120858779589,
+        "avg_accuracy": 91.11835714157415,
+        "avg_time": 1.8443156318231062
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 57.577849957529104,
+        "avg_cer": 15.41702237437325,
+        "avg_accuracy": 85.83176581240876,
+        "avg_time": 2.6015961061824453
     }
 }

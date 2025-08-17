@@ -110,5 +110,29 @@
         "cer": 12.903225806451612,
         "accuracy": 88.70967741935483,
         "time": 6.576023817062378
+    },
+    "mistral-medium-3.1": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xime\u0301 ucro\u0300 optima qua\u0300e tellus pra\u0300cipue\u0300 patiebatur a\u017f\u017fiduas in\u0301",
+        "wer": 66.66666666666666,
+        "cer": 22.58064516129032,
+        "accuracy": 78.78787878787878,
+        "time": 1.5838661193847656
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u0207 ucr\u020f optima qu\u00e6\u03d1 tellus pr\u00e6cipu\u0207 paticbatur a\u1e3fsiduas in\u1e3f",
+        "wer": 77.77777777777779,
+        "cer": 14.516129032258066,
+        "accuracy": 85.48387096774194,
+        "time": 2.5627689361572266
+    },
+    "grok-4": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "exim\u00e8 uer\u00f2 optima qu\u00e6 tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "wer": 22.22222222222222,
+        "cer": 4.838709677419355,
+        "accuracy": 96.7741935483871,
+        "time": 17.831440687179565
     }
 }

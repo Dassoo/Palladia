@@ -11,6 +11,7 @@
   "gemini-2.5-pro": "https://ai.google.dev/gemini-api/docs/models?hl=it#gemini-2.5-pro",
   "gemini-2.0-flash": "https://ai.google.dev/gemini-api/docs/models?hl=it#gemini-2.0-flash",
   "mistral-small": "https://docs.mistral.ai/getting-started/models/models_overview/",
+  "mistral-medium-3.1": "https://docs.mistral.ai/getting-started/models/models_overview/",
   "llama-4-scout-17b": "https://console.groq.com/docs/model/meta-llama/llama-4-scout-17b-16e-instruct",
   "llama-4-maverick-17b": "https://console.groq.com/docs/model/meta-llama/llama-4-maverick-17b-128e-instruct",
   "claude-4-opus": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
@@ -21,5 +22,6 @@
   "spotlight": "https://openrouter.ai/arcee-ai/spotlight",
   "kimi-vl-a3b-thinking": "https://openrouter.ai/moonshotai/kimi-vl-a3b-thinking:free",
   "qwen-2.5-vl-72b": "https://openrouter.ai/qwen/qwen2.5-vl-72b-instruct:free",
-  "glm-4.5v": "https://openrouter.ai/z-ai/glm-4.5v"
+  "glm-4.5v": "https://openrouter.ai/z-ai/glm-4.5v",
+  "ernie-4.5-vl-28b-a3b": "https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b"
 }

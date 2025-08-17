@@ -94,5 +94,21 @@
         "cer": 13.953488372093023,
         "accuracy": 88.63636363636364,
         "time": 6.920720100402832
+    },
+    "mistral-medium-3.1": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels vnde v\u00e4",
+        "wer": 22.22222222222222,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 1.141831874847412
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "vn\u0304 van der tymmeringe des tempels vn\u0304e v\u0101",
+        "wer": 44.44444444444444,
+        "cer": 13.953488372093023,
+        "accuracy": 88.37209302325581,
+        "time": 2.126254081726074
     }
 }

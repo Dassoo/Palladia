@@ -110,5 +110,21 @@
         "cer": 8.641975308641975,
         "accuracy": 91.35802469135803,
         "time": 3.8869919776916504
+    },
+    "mistral-medium-3.1": {
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare.Sanecum xoles \u017fpiritus a\u017fperitatem effugi\u00e9tes ubiq; loco a\u017fpirationis ip\u017fi",
+        "wer": 54.54545454545454,
+        "cer": 6.172839506172839,
+        "accuracy": 93.82716049382715,
+        "time": 1.5629189014434814
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare. Sane cum soules spiritus alpentatem effugiu\u0304tes ubiq; loco alpirationis ipsii",
+        "wer": 54.54545454545454,
+        "cer": 14.814814814814813,
+        "accuracy": 86.74698795180723,
+        "time": 2.246788740158081
     }
 }

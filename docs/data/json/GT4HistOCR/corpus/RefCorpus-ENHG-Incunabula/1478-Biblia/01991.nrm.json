@@ -94,5 +94,21 @@
         "cer": 15.909090909090908,
         "accuracy": 84.0909090909091,
         "time": 4.548131942749023
+    },
+    "mistral-medium-3.1": {
+        "gt": "y\u017frahels vnde Dauid \u017floech doet v\u00e3 den v\u00e3 \u017fy",
+        "response": "\u017fprahels onde David floech doet v\u00e5 den v\u00e5 \u017fy",
+        "wer": 66.66666666666666,
+        "cer": 15.909090909090908,
+        "accuracy": 86.36363636363636,
+        "time": 1.178598165512085
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "y\u017frahels vnde Dauid \u017floech doet v\u00e3 den v\u00e3 \u017fy",
+        "response": "psrahels vnde David flocch doet v\u0101 den v\u0101 sy",
+        "wer": 66.66666666666666,
+        "cer": 18.181818181818183,
+        "accuracy": 81.81818181818183,
+        "time": 2.008213996887207
     }
 }

@@ -94,5 +94,21 @@
         "cer": 17.77777777777778,
         "accuracy": 84.44444444444444,
         "time": 8.130985260009766
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
+        "response": "\u017foic \u017fchall alle wegh\u00e9 broet etten vppe m\u00fdnet",
+        "wer": 37.5,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 1.248427152633667
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
+        "response": "sonche all\u25a1 alleweghe broet etten vipe mynet",
+        "wer": 75.0,
+        "cer": 22.22222222222222,
+        "accuracy": 84.44444444444444,
+        "time": 2.0894668102264404
     }
 }

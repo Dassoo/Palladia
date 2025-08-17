@@ -94,5 +94,21 @@
         "cer": 28.888888888888886,
         "accuracy": 73.33333333333333,
         "time": 3.9173240661621094
+    },
+    "mistral-medium-3.1": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "nach f\u00fcr \u017feinen Feind in \u017fein Hertzogin \u017fey \u017fchrey",
+        "wer": 77.77777777777779,
+        "cer": 35.55555555555556,
+        "accuracy": 70.0,
+        "time": 1.4182238578796387
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "nach f\u00fcr der feind in dere Bertzogen dy schrey",
+        "wer": 44.44444444444444,
+        "cer": 17.77777777777778,
+        "accuracy": 82.6086956521739,
+        "time": 4.055776119232178
     }
 }

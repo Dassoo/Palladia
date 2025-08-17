@@ -110,5 +110,29 @@
         "cer": 7.575757575757576,
         "accuracy": 92.42424242424242,
         "time": 9.097061157226562
+    },
+    "mistral-medium-3.1": {
+        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
+        "response": "ria, nec co\u017fultum ire differemus, c\u00f9m ip\u017forum non differatur iniuri",
+        "wer": 27.27272727272727,
+        "cer": 7.575757575757576,
+        "accuracy": 94.02985074626866,
+        "time": 1.8159968852996826
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
+        "response": "ria,nec coc ultum ire differemus,c\u00fcm \u00edpforum non di\u017fferatur iniu",
+        "wer": 63.63636363636363,
+        "cer": 12.121212121212121,
+        "accuracy": 87.87878787878788,
+        "time": 2.356200933456421
+    },
+    "grok-4": {
+        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
+        "response": "ria, nec eos vltum ire differemus, cum ip\u017forum non differatur iniuria",
+        "wer": 27.27272727272727,
+        "cer": 7.575757575757576,
+        "accuracy": 92.7536231884058,
+        "time": 68.24722790718079
     }
 }

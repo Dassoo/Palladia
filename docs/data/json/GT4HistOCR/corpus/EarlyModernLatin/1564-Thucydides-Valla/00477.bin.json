@@ -110,5 +110,29 @@
         "cer": 4.411764705882353,
         "accuracy": 95.58823529411765,
         "time": 7.7655861377716064
+    },
+    "mistral-medium-3.1": {
+        "gt": "tutis etiam con\u017filijs diffidentes, & difficultatibus nunqu\u00e3 uos ere-",
+        "response": "tutis etiam con\u017filijs differentes, & difficultatibus nunqu\u00e3 uo\u017f ere-",
+        "wer": 22.22222222222222,
+        "cer": 4.411764705882353,
+        "accuracy": 95.58823529411765,
+        "time": 1.96323823928833
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tutis etiam con\u017filijs diffidentes, & difficultatibus nunqu\u00e3 uos ere-",
+        "response": "tutis etiam coniilijs diffidentes,& difficultatibus nunqu\u00e3uos ere-",
+        "wer": 55.55555555555556,
+        "cer": 4.411764705882353,
+        "accuracy": 95.58823529411765,
+        "time": 2.2209410667419434
+    },
+    "grok-4": {
+        "gt": "tutis etiam con\u017filijs diffidentes, & difficultatibus nunqu\u00e3 uos ere-",
+        "response": "tutis etiam con\u017fliis diffidentes,& difficultatibus nunqu\u00e3 uos ere-",
+        "wer": 33.33333333333333,
+        "cer": 4.411764705882353,
+        "accuracy": 95.58823529411765,
+        "time": 66.58445310592651
     }
 }

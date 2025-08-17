@@ -110,5 +110,21 @@
         "cer": 9.722222222222223,
         "accuracy": 90.27777777777779,
         "time": 4.388396978378296
+    },
+    "mistral-medium-3.1": {
+        "gt": "s. ut \u017fpargo \u017fpar\u017fi: mergo mer\u017fi. n\u00f5n\u0169\ua757\u1dd3 in x ut rego rexi: pingo pinxi.",
+        "response": "\u017f: ut \u017fpargo \u017fpar\u017fi: mergo mer\u017fi. n\u014dn\u016bq\u0301 in x ut rego rexi: pingo pinxi.",
+        "wer": 14.285714285714285,
+        "cer": 8.333333333333332,
+        "accuracy": 91.66666666666666,
+        "time": 1.7024016380310059
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "s. ut \u017fpargo \u017fpar\u017fi: mergo mer\u017fi. n\u00f5n\u0169\ua757\u1dd3 in x ut rego rexi: pingo pinxi.",
+        "response": "s.ut spargo sparli:mergo merli. n\u014d\u00f1\u016bq in x ut rego rexi:pingo pinxi.",
+        "wer": 64.28571428571429,
+        "cer": 16.666666666666664,
+        "accuracy": 83.33333333333334,
+        "time": 2.704076051712036
     }
 }

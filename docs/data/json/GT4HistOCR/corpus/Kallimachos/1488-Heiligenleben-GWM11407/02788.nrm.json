@@ -94,5 +94,21 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 5.548147916793823
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u017foltu nit vnreyn hey\u017f\u017fen. Da\u017f ge\u017fiht \u017fah er zu",
+        "wer": 33.33333333333333,
+        "cer": 6.521739130434782,
+        "accuracy": 93.47826086956522,
+        "time": 1.484105110168457
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u6eb6ttu nit vnreyn \u0127ey\u00dfen. Das gesi\u0127t \u1233\u122c zu",
+        "wer": 77.77777777777779,
+        "cer": 34.78260869565217,
+        "accuracy": 65.21739130434783,
+        "time": 2.910291910171509
     }
 }

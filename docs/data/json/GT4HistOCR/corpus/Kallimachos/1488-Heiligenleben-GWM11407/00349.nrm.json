@@ -94,5 +94,21 @@
         "cer": 12.82051282051282,
         "accuracy": 87.17948717948718,
         "time": 4.991846799850464
+    },
+    "mistral-medium-3.1": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach Fam Eu\u017ftachius an \u017fy \u017ftat da cr",
+        "wer": 37.5,
+        "cer": 7.6923076923076925,
+        "accuracy": 92.3076923076923,
+        "time": 1.829007863998413
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "\u017farnach \u0113am \u0113ustachius an \u02bbp \u04ddat \u02bba cr",
+        "wer": 87.5,
+        "cer": 25.64102564102564,
+        "accuracy": 74.35897435897436,
+        "time": 3.331881046295166
     }
 }

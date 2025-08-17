@@ -110,5 +110,29 @@
         "cer": 9.090909090909092,
         "accuracy": 90.9090909090909,
         "time": 4.181854963302612
+    },
+    "mistral-medium-3.1": {
+        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
+        "response": "dimittant, qu\u00e0m \u017feiter\u00f9 receperint. Etiam collegx ciu\u017f uncrant,",
+        "wer": 70.0,
+        "cer": 12.121212121212121,
+        "accuracy": 87.87878787878788,
+        "time": 1.4705541133880615
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
+        "response": "d\u012bmittant, qu\u0103m s\u0113 iter\u016b receperint. Et iam colleg\u0119 cius uencrant,",
+        "wer": 70.0,
+        "cer": 12.121212121212121,
+        "accuracy": 87.87878787878788,
+        "time": 1.8953468799591064
+    },
+    "grok-4": {
+        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
+        "response": "dimittant,qu\u00e0m \u017fe iter\u00f9m receperint.Etiam colleg\u00e6 eius uenerant,",
+        "wer": 60.0,
+        "cer": 7.575757575757576,
+        "accuracy": 93.93939393939394,
+        "time": 15.204158067703247
     }
 }

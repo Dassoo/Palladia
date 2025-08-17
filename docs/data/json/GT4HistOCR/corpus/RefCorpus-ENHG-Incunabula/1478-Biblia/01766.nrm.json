@@ -94,5 +94,21 @@
         "cer": 48.0,
         "accuracy": 63.793103448275865,
         "time": 12.741966724395752
+    },
+    "mistral-medium-3.1": {
+        "gt": "cos \u017fone \u00b7 zizara \u017fone \u00b7 thema \u017fone \u00b7 na\u017fia \u017fone \u00b7",
+        "response": "\u03bf\u1f55\u03c2 \u03c6\u03bf\u03bd\u03b5\u03cd\u03b6\u03b1\u03c1\u03b1 \u03c6\u03bf\u03bd\u03b5\u1fe6 \u03b8\u03ad\u03bc\u03b1 \u03c6\u03bf\u03bd\u03b5\u1fe6 \u03bd\u03b1\u03c5\u03ac\u03b3\u03b9\u03b1 \u03c6\u03bf\u03bd\u03b5\u1fe6\u00b7",
+        "wer": 100.0,
+        "cer": 88.0,
+        "accuracy": 14.000000000000002,
+        "time": 1.8551409244537354
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "cos \u017fone \u00b7 zizara \u017fone \u00b7 thema \u017fone \u00b7 na\u017fia \u017fone \u00b7",
+        "response": "\u1f72\u03c2 \u1fc6one \u0123\u012f\u017e\u0101\u1e6fa \u1fc6one \u1e6fhema \u1fc6one nah\u0101 \u1fc6one",
+        "wer": 100.0,
+        "cer": 48.0,
+        "accuracy": 52.0,
+        "time": 2.489572048187256
     }
 }

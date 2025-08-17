@@ -110,5 +110,29 @@
         "cer": 6.122448979591836,
         "accuracy": 95.91836734693877,
         "time": 11.691273927688599
+    },
+    "mistral-medium-3.1": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Nece\u017f\u017fo hocin probrum Laurentij Val",
+        "wer": 50.0,
+        "cer": 8.16326530612245,
+        "accuracy": 93.87755102040816,
+        "time": 1.3027598857879639
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Necego hoc in probum Laurentij Val",
+        "wer": 37.5,
+        "cer": 4.081632653061225,
+        "accuracy": 95.91836734693877,
+        "time": 1.9774401187896729
+    },
+    "grok-4": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Nec ego hoc inprobum Laurentij Vall\u00e6 interpretis.",
+        "wer": 50.0,
+        "cer": 34.69387755102041,
+        "accuracy": 75.80645161290323,
+        "time": 90.2179000377655
     }
 }

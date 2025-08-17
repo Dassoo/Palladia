@@ -110,5 +110,29 @@
         "cer": 7.8125,
         "accuracy": 92.1875,
         "time": 5.289702892303467
+    },
+    "mistral-medium-3.1": {
+        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+        "response": "bantur. Hi autem qui intus erant cum \u017ficuexarentur, legatos Cor",
+        "wer": 27.27272727272727,
+        "cer": 3.125,
+        "accuracy": 96.875,
+        "time": 1.4729840755462646
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+        "response": "bantur.Hiautem quintus erant c\u00e2m sicuexarentur,legatos Cor",
+        "wer": 81.81818181818183,
+        "cer": 12.5,
+        "accuracy": 87.5,
+        "time": 2.3878159523010254
+    },
+    "grok-4": {
+        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+        "response": "bantur.Hi autem qui intus erant cum \u017fiti exarentur,legatos Cor",
+        "wer": 54.54545454545454,
+        "cer": 9.375,
+        "accuracy": 92.1875,
+        "time": 222.49241185188293
     }
 }

@@ -110,5 +110,29 @@
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 8.16821813583374
+    },
+    "mistral-medium-3.1": {
+        "gt": "Quippe centum eis ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "response": "Quippe centum ei\u017f ac uiginti naues fuerunt, cum bellum incepe\u017f.",
+        "wer": 30.0,
+        "cer": 6.451612903225806,
+        "accuracy": 93.65079365079364,
+        "time": 1.7719721794128418
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Quippe centum eis ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "response": "Quippe centum e\u026as ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "wer": 10.0,
+        "cer": 1.6129032258064515,
+        "accuracy": 98.38709677419355,
+        "time": 2.2213618755340576
+    },
+    "grok-4": {
+        "gt": "Quippe centum eis ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "response": "Quippe centum eis ac uiginti naues fuerunt, cum bellum incep\u00e6",
+        "wer": 20.0,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 68.15730404853821
     }
 }

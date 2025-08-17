@@ -110,5 +110,29 @@
         "cer": 4.761904761904762,
         "accuracy": 95.23809523809523,
         "time": 5.974897861480713
+    },
+    "mistral-medium-3.1": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "Cum eo nece\u017f\u017fitatis ventum e\u017f\u017fet, ut inuicem Corinthij Athenien\u017fes",
+        "wer": 44.44444444444444,
+        "cer": 9.523809523809524,
+        "accuracy": 90.9090909090909,
+        "time": 1.6618139743804932
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017fsitatis uentum eff\u00e8t, ut inuicem Corinthij Athenien",
+        "wer": 11.11111111111111,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 1.8636598587036133
+    },
+    "grok-4": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "Cum eo nece\u017f\u017fitas uentum e\u017f\u017fet,ut inuicem Corinthij Athenien",
+        "wer": 44.44444444444444,
+        "cer": 7.936507936507936,
+        "accuracy": 92.06349206349206,
+        "time": 26.8061740398407
     }
 }

@@ -110,5 +110,21 @@
         "cer": 10.81081081081081,
         "accuracy": 89.1891891891892,
         "time": 5.722455978393555
+    },
+    "mistral-medium-3.1": {
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo deb & de\u017f\u017fe",
+        "wer": 28.57142857142857,
+        "cer": 2.7027027027027026,
+        "accuracy": 97.2972972972973,
+        "time": 1.7090020179748535
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus aspiratione: nec eam plenam possidet: ut simili mododeb & deffe",
+        "wer": 57.14285714285714,
+        "cer": 12.162162162162163,
+        "accuracy": 87.83783783783784,
+        "time": 2.759816884994507
     }
 }

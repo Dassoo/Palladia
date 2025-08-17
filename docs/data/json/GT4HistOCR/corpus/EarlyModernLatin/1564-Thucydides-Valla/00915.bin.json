@@ -110,5 +110,29 @@
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 9.128836870193481
+    },
+    "mistral-medium-3.1": {
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudentix gratia, qui principatu quem habemus potia-",
+        "wer": 11.11111111111111,
+        "cer": 1.639344262295082,
+        "accuracy": 98.36065573770492,
+        "time": 1.2674989700317383
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principalqum habemus potia-",
+        "wer": 22.22222222222222,
+        "cer": 6.557377049180328,
+        "accuracy": 93.44262295081968,
+        "time": 2.4442198276519775
+    },
+    "grok-4": {
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis,& prudentia gratia,qui principatu quem habemus potia-",
+        "wer": 55.55555555555556,
+        "cer": 4.918032786885246,
+        "accuracy": 95.08196721311475,
+        "time": 30.475919008255005
     }
 }

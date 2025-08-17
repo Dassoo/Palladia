@@ -110,5 +110,29 @@
         "cer": 10.76923076923077,
         "accuracy": 89.23076923076924,
         "time": 13.625662088394165
+    },
+    "mistral-medium-3.1": {
+        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "response": "fam. V\u017fqueade\u00f2 (ut breui complec\u017ftar) \u017fi quis dicat illos hoc in-",
+        "wer": 33.33333333333333,
+        "cer": 4.615384615384616,
+        "accuracy": 96.92307692307692,
+        "time": 1.470247745513916
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "response": "fam. V\u012bquead\u0113\u014f (ut br\u0113u\u012b compl\u0113ct\u0101r) s\u012b quis dicat illos hoc in-",
+        "wer": 50.0,
+        "cer": 16.923076923076923,
+        "accuracy": 83.07692307692308,
+        "time": 1.8896770477294922
+    },
+    "grok-4": {
+        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "response": "fam. V\u017fque\u00e1co (ut breui complectar) \u017fi quis dicat illos hoc in<",
+        "wer": 33.33333333333333,
+        "cer": 10.76923076923077,
+        "accuracy": 89.23076923076924,
+        "time": 210.5082597732544
     }
 }

@@ -94,5 +94,21 @@
         "cer": 35.714285714285715,
         "accuracy": 68.18181818181817,
         "time": 3.050859212875366
+    },
+    "mistral-medium-3.1": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und al\u017fo emede hier glehebaeten hatte :vnde",
+        "wer": 100.0,
+        "cer": 30.952380952380953,
+        "accuracy": 76.74418604651163,
+        "time": 1.3175389766693115
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und \u0430\u043b\u044b\u0455 eme \u0434\u0435 here glyebaeden hadde : vnde",
+        "wer": 75.0,
+        "cer": 23.809523809523807,
+        "accuracy": 77.27272727272727,
+        "time": 2.027444362640381
     }
 }

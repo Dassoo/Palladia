@@ -94,5 +94,21 @@
         "cer": 23.809523809523807,
         "accuracy": 78.57142857142857,
         "time": 9.953792095184326
+    },
+    "mistral-medium-3.1": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat noth is dat duvth geui\u017ft",
+        "wer": 30.0,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 1.3021771907806396
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat noth is dat du vth geueit",
+        "wer": 10.0,
+        "cer": 2.380952380952381,
+        "accuracy": 97.61904761904762,
+        "time": 2.576409101486206
     }
 }

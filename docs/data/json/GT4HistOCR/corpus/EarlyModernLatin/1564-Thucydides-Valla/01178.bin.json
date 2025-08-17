@@ -110,5 +110,29 @@
         "cer": 6.451612903225806,
         "accuracy": 93.54838709677419,
         "time": 6.030713081359863
+    },
+    "mistral-medium-3.1": {
+        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
+        "response": "Corcyren\u017fibus pariter ac Peloponne\u017fibus gcretis. At nobis re\u00a8",
+        "wer": 37.5,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 1.3645167350769043
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
+        "response": "Corcyren\u1d9c\u1da0ibus pariter ac Peloponnen\u1d9c\u1da0ibus geretis.At nobis re-",
+        "wer": 50.0,
+        "cer": 8.064516129032258,
+        "accuracy": 93.65079365079364,
+        "time": 2.2014520168304443
+    },
+    "grok-4": {
+        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
+        "response": "Corcyr\u00e6n\u017fibus pariter ac Peloponnen\u017fibus gr\u00e6cis.At nobis re-",
+        "wer": 37.5,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 128.60520124435425
     }
 }

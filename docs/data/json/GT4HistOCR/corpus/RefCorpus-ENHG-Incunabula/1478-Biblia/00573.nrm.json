@@ -94,5 +94,21 @@
         "cer": 6.8181818181818175,
         "accuracy": 93.47826086956522,
         "time": 3.360121011734009
+    },
+    "mistral-medium-3.1": {
+        "gt": "Men de \u017fone y\u017frahel pre\u017ftere vnde leuiten v\u00f1",
+        "response": "Men de \u017fone p\u017frahel pre\u017ftere vnde leuiten vn\u0304",
+        "wer": 25.0,
+        "cer": 6.8181818181818175,
+        "accuracy": 93.33333333333333,
+        "time": 1.4822289943695068
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "Men de \u017fone y\u017frahel pre\u017ftere vnde leuiten v\u00f1",
+        "response": "Men de sone \u01a5srael prestere vnde leuiten vi\u0304",
+        "wer": 50.0,
+        "cer": 15.909090909090908,
+        "accuracy": 86.36363636363636,
+        "time": 2.563697338104248
     }
 }

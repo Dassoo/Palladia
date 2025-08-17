@@ -15,17 +15,17 @@ class ConfigLoader:
     
     def __init__(self, config_dir: Optional[Path] = None):
         self.config_dir = config_dir or Path(__file__).parent
-        self.models_config_path = self.config_dir / "yaml" / "model_config.yaml"
-        self.input_config_path = self.config_dir / "yaml" / "input_config.yaml"
+        self._models_config_path = self.config_dir / "yaml" / "model_config.yaml"
+        self._input_config_path = self.config_dir / "yaml" / "input_config.yaml"
     
     def load_models_config(self) -> ModelsConfig:
         """Load and validate models configuration."""
         try:
-            with open(self.models_config_path, 'r') as f:
+            with open(self._models_config_path, 'r') as f:
                 data = yaml.safe_load(f)
             return ModelsConfig(**data)
         except FileNotFoundError:
-            raise FileNotFoundError(f"Models config not found: {self.models_config_path}")
+            raise FileNotFoundError(f"Models config not found: {self._models_config_path}")
         except ValidationError as e:
             console.print(Text("❌ Models configuration validation failed:", style="bold red"))
             for error in e.errors():
@@ -38,11 +38,11 @@ class ConfigLoader:
     def load_input_config(self) -> InputConfig:
         """Load and validate input configuration."""
         try:
-            with open(self.input_config_path, 'r') as f:
+            with open(self._input_config_path, 'r') as f:
                 data = yaml.safe_load(f)
             return InputConfig(**data)
         except FileNotFoundError:
-            raise FileNotFoundError(f"Input config not found: {self.input_config_path}")
+            raise FileNotFoundError(f"Input config not found: {self._input_config_path}")
         except ValidationError as e:
             console.print(Text("❌ Input configuration validation failed:", style="bold red"))
             for error in e.errors():

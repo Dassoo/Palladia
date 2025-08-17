@@ -94,5 +94,21 @@
         "cer": 22.5,
         "accuracy": 79.06976744186046,
         "time": 9.616004943847656
+    },
+    "mistral-medium-3.1": {
+        "gt": "by myneme wyue? By dineme heyl v\u00f1 by dyn",
+        "response": "by m\u017feme wyuc\u017f: By dmeme heyl v\u00f1 by dyn",
+        "wer": 33.33333333333333,
+        "cer": 17.5,
+        "accuracy": 85.0,
+        "time": 1.3167741298675537
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "by myneme wyue? By dineme heyl v\u00f1 by dyn",
+        "response": "by myneme wyue: \u00d0y dmeme bcpl vn\u012b by dyn",
+        "wer": 55.55555555555556,
+        "cer": 22.5,
+        "accuracy": 80.0,
+        "time": 4.421329975128174
     }
 }

@@ -110,5 +110,21 @@
         "cer": 7.228915662650602,
         "accuracy": 92.7710843373494,
         "time": 3.9615721702575684
+    },
+    "mistral-medium-3.1": {
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "a\u017fpiratione \u017fcribenda funt : ut Pyra lyra \u017fyria : & \u017fimiles. Quod quia a doctis oibus",
+        "wer": 35.714285714285715,
+        "cer": 4.819277108433735,
+        "accuracy": 95.29411764705881,
+        "time": 1.595536708831787
+    },
+    "ernie-4.5-vl-28b-a3b": {
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "aspiratione scribenda est Pyra lyra syriac\u0169 similes. Quod quia doctis o\u0129bus",
+        "wer": 57.14285714285714,
+        "cer": 19.27710843373494,
+        "accuracy": 80.72289156626506,
+        "time": 2.656442880630493
     }
 }
