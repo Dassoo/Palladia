@@ -392,7 +392,6 @@ body[data-theme="dark"] {
 
 [data-theme="dark"] .api-structure pre {
     background: #212529;
-    border: 1px solid #495057;
 }
 
 [data-theme="dark"] .api-structure code {
@@ -441,7 +440,7 @@ body[data-theme="dark"] {
 
 [data-theme="dark"] .structure-tabs .tab-button {
     color: #adb5bd;
-    border-right: 1px solid #495057;
+
 }
 
 [data-theme="dark"] .structure-tabs .tab-button:hover {
