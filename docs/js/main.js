@@ -112,7 +112,7 @@ function showCopySuccess(button) {
     setTimeout(() => {
         tooltip.classList.remove('show');
         tooltip.classList.add('hide');
-        
+
         // Remove button copied state and tooltip after hide animation completes
         setTimeout(() => {
             button.className = originalClass;
