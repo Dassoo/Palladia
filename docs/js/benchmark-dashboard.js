@@ -18,6 +18,9 @@ class BenchmarkDashboard {
             await this.loadData();
             await this.loadModelLinks();
 
+            this.renderModelAverages();
+            this.renderResults();
+
             // Handle initial view based on URL
             const currentView = this.router.getCurrentView();
             const params = this.router.getParams();
@@ -1083,7 +1086,10 @@ class BenchmarkDashboard {
 
             // Only apply sticky if the content is still expanded
             if (content.classList.contains('show')) {
-                if (headerRect.top <= 0 && headerRect.bottom > 0) {
+                // Get the current sticky offset (navbar height if visible, 0 otherwise)
+                const stickyOffset = this.getStickyOffset();
+
+                if (headerRect.top <= stickyOffset && headerRect.bottom > stickyOffset) {
                     header.classList.add('sticky');
                 } else {
                     header.classList.remove('sticky');
@@ -1097,6 +1103,15 @@ class BenchmarkDashboard {
 
         // Initial check
         scrollHandler();
+    }
+
+    // Get the current sticky offset based on navbar visibility
+    getStickyOffset() {
+        const navbar = document.getElementById('scroll-navbar');
+        if (navbar && navbar.classList.contains('visible')) {
+            return navbar.offsetHeight;
+        }
+        return 0;
     }
 
     // Remove sticky header behavior

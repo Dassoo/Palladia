@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize copy functionality
     initializeCopyButtons();
+
+    // Initialize scroll navbar
+    initializeScrollNavbar();
 });
 
 // API Code Tabs functionality
@@ -141,4 +144,74 @@ function fallbackCopyTextToClipboard(text, button) {
     }
 
     document.body.removeChild(textArea);
+}
+
+// Scroll navbar
+function initializeScrollNavbar() {
+    const navbar = document.getElementById('scroll-navbar');
+    const socialLinks = document.querySelector('.social-links');
+    
+    if (!navbar || !socialLinks) return;
+
+    let isNavbarVisible = false;
+    let ticking = false;
+
+    function updateStickyOffset(navbarVisible) {
+        // Update CSS custom property for sticky header offset
+        let offset = '0px';
+        if (navbarVisible) {
+            // Get the actual navbar height
+            const navbarHeight = navbar.offsetHeight;
+            offset = `${navbarHeight}px`;
+        }
+        document.documentElement.style.setProperty('--sticky-top-offset', offset);
+    }
+
+    function updateNavbar() {
+        const socialLinksRect = socialLinks.getBoundingClientRect();
+        const socialLinksBottom = socialLinksRect.bottom;
+        
+        // Show navbar when scrolling over the main buttons
+        const shouldShowNavbar = socialLinksBottom < 0;
+
+        if (shouldShowNavbar && !isNavbarVisible) {
+            navbar.classList.add('visible');
+            isNavbarVisible = true;
+            updateStickyOffset(true);
+        } else if (!shouldShowNavbar && isNavbarVisible) {
+            navbar.classList.remove('visible');
+            isNavbarVisible = false;
+            updateStickyOffset(false);
+        }
+
+        ticking = false;
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(updateNavbar);
+            ticking = true;
+        }
+    }
+
+    // Listen for scroll events
+    window.addEventListener('scroll', requestTick, { passive: true });
+    
+    const navbarLinks = navbar.querySelectorAll('a[href^="#"]');
+    navbarLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const href = link.getAttribute('href');
+            const targetElement = document.querySelector(href);
+            
+            if (targetElement) {
+                e.preventDefault();
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+    
+    updateNavbar();
 }

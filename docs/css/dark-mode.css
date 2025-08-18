@@ -95,6 +95,37 @@ body[data-theme="dark"] {
     background-color: rgba(212, 175, 55, 0.15);
 }
 
+/* Dark mode scroll navbar */
+[data-theme="dark"] .scroll-navbar {
+    background: rgba(33, 37, 41, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .navbar-brand {
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .navbar-title {
+    background: linear-gradient(135deg, #e9ecef, #f8f9fa, #ffffff, #e9ecef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+[data-theme="dark"] .navbar-link {
+    background: #343a40;
+    color: #e9ecef;
+}
+
+[data-theme="dark"] .navbar-link:hover {
+    background: #495057;
+}
+
+[data-theme="dark"] .navbar-icon {
+    fill: #e9ecef;
+}
+
 /* Dark mode fixed theme toggle */
 [data-theme="dark"] .fixed-theme-toggle {
     box-shadow: 0 4px 16px rgba(184, 134, 11, 0.6);

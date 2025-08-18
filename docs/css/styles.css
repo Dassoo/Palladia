@@ -296,7 +296,7 @@ a {
 /* Sticky header when expanded */
 .image-result-header.expanded.sticky {
     position: sticky;
-    top: 0;
+    top: var(--sticky-top-offset, 0px);
     z-index: 100;
     background: #f8f9fa;
     border-radius: 0;
@@ -726,11 +726,132 @@ a {
     animation: themeSwitch 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Scroll Navbar */
+.scroll-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    transform: translateY(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-navbar.visible {
+    transform: translateY(0);
+}
+
+.navbar-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.navbar-logo {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navbar-title {
+    font-family: 'Poppins', serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    background: linear-gradient(135deg, #6c757d, #495057, #343a40, #212529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: #495057;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.navbar-link:hover {
+    background: #343a40;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-icon {
+    width: 14px;
+    height: 14px;
+    fill: #ffffff;
+}
+
+/* Mobile responsiveness for navbar */
+@media (max-width: 768px) {
+    .navbar-content {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar-brand {
+        gap: 8px;
+    }
+
+    .navbar-logo {
+        height: 28px;
+    }
+
+    .navbar-title {
+        font-size: 1.3em;
+    }
+
+    .navbar-links {
+        gap: 6px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar-link {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+        gap: 4px;
+    }
+
+    .navbar-icon {
+        width: 12px;
+        height: 12px;
+    }
+}
+
 /* Fixed Theme Toggle Button */
 .fixed-theme-toggle {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 25px;
     z-index: 1000;
     width: 40px;
     height: 40px;
