@@ -13,17 +13,17 @@ themeToggle.addEventListener('click', () => {
     
     console.log('Switching from', currentTheme, 'to', newTheme);
     
-    // Add switching animation class
     themeToggle.classList.add('switching');
     
-    // Apply the new theme after a brief delay for the button animation
+    body.style.opacity = '0.95';
+    
     setTimeout(() => {
         body.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
-    }, 200);
+    }, 150);
     
-    // Remove animation class after animation completes
     setTimeout(() => {
+        body.style.opacity = '1';
         themeToggle.classList.remove('switching');
-    }, 600);
+    }, 400);
 });
