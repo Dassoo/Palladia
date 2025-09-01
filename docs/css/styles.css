@@ -52,8 +52,11 @@ a {
     font-size: 1rem;
     padding: 20px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
 }
 
 
