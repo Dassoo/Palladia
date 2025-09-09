@@ -110,5 +110,13 @@
         "cer": 14.893617021276595,
         "accuracy": 85.1063829787234,
         "time": 2.6359939575195312
+    },
+    "cogito-v2-109b": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "i\u0113el fin:mer de hyllyge fchriff is vitrw\u00eady\u0440ch",
+        "wer": 62.5,
+        "cer": 19.148936170212767,
+        "accuracy": 85.1063829787234,
+        "time": 1.7627758979797363
     }
 }

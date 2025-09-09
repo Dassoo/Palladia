@@ -134,5 +134,13 @@
         "cer": 8.064516129032258,
         "accuracy": 91.93548387096774,
         "time": 128.60520124435425
+    },
+    "cogito-v2-109b": {
+        "gt": "Corcyren\u017fibus pariter ac Peloponnen\u017fibus geretis. At nobis re-",
+        "response": "Corcyrenfibus pariter ac Peloponnenfibus gcretis.At nobis rc,",
+        "wer": 62.5,
+        "cer": 9.67741935483871,
+        "accuracy": 90.32258064516128,
+        "time": 1.9622318744659424
     }
 }

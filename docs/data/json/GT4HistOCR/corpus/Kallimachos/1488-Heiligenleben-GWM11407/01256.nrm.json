@@ -110,5 +110,13 @@
         "cer": 7.894736842105263,
         "accuracy": 92.10526315789474,
         "time": 2.733253002166748
+    },
+    "cogito-v2-109b": {
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "3\u1ee7 c\u00edicmi mal gieng )7\u00e4,cbariug ein fange",
+        "wer": 57.14285714285714,
+        "cer": 36.84210526315789,
+        "accuracy": 68.29268292682927,
+        "time": 1.4145970344543457
     }
 }

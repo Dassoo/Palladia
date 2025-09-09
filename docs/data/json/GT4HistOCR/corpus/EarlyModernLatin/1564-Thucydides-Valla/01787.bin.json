@@ -134,5 +134,13 @@
         "cer": 62.5,
         "accuracy": 50.0,
         "time": 700.8386311531067
+    },
+    "cogito-v2-109b": {
+        "gt": "fuerunt.",
+        "response": "fucriuntg",
+        "wer": 100.0,
+        "cer": 37.5,
+        "accuracy": 66.66666666666666,
+        "time": 1.4092159271240234
     }
 }

@@ -134,5 +134,13 @@
         "cer": 14.705882352941178,
         "accuracy": 86.76470588235294,
         "time": 142.4110541343689
+    },
+    "cogito-v2-109b": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrinfecus fedentibus,h\u00e6c \u00e6\u017ftas extracta e\u017ft,appet\u00eete\u00f3 iam hyc..",
+        "wer": 66.66666666666666,
+        "cer": 16.176470588235293,
+        "accuracy": 85.29411764705883,
+        "time": 1.7163300514221191
     }
 }

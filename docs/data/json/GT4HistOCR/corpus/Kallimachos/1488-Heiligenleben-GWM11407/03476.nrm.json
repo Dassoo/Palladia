@@ -110,5 +110,13 @@
         "cer": 23.25581395348837,
         "accuracy": 79.06976744186046,
         "time": 2.5316128730773926
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
+        "response": "[FchachSaer G\u00ebn\u00f6ch bert3\u00f6g \"as. \u0417n D\u00eb trat",
+        "wer": 88.88888888888889,
+        "cer": 34.883720930232556,
+        "accuracy": 67.44186046511628,
+        "time": 1.9669928550720215
     }
 }

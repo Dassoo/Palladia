@@ -126,5 +126,13 @@
         "cer": 16.666666666666664,
         "accuracy": 83.33333333333334,
         "time": 2.704076051712036
+    },
+    "cogito-v2-109b": {
+        "gt": "s. ut \u017fpargo \u017fpar\u017fi: mergo mer\u017fi. n\u00f5n\u0169\ua757\u1dd3 in x ut rego rexi: pingo pinxi.",
+        "response": "s.ut \u017fpargo \u017fpar\u017fi:mergo mer\u017fi. n\u014dn\u016b\u012fq in x ut rego rexi:p\u0131ngo pinxi.",
+        "wer": 50.0,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 2.9996490478515625
     }
 }

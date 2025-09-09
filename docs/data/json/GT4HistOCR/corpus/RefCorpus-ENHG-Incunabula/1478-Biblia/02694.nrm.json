@@ -110,5 +110,13 @@
         "cer": 23.404255319148938,
         "accuracy": 80.0,
         "time": 2.7229340076446533
+    },
+    "cogito-v2-109b": {
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in \u00e8ren leue-vnd\u0113 o\u00ebk in im bette bode en fint",
+        "wer": 83.33333333333334,
+        "cer": 29.78723404255319,
+        "accuracy": 74.46808510638297,
+        "time": 1.891211986541748
     }
 }

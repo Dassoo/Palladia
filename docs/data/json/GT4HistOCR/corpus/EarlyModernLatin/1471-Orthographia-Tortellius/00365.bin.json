@@ -126,5 +126,13 @@
         "cer": 9.63855421686747,
         "accuracy": 92.7710843373494,
         "time": 3.557537078857422
+    },
+    "cogito-v2-109b": {
+        "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non a\u0169t \u017fic in aliis.",
+        "response": "dicatar retoruel Pyrrus non minus intelleEtus maner ioat eger:non a\u00fcrlic in a!i:s.",
+        "wer": 71.42857142857143,
+        "cer": 16.867469879518072,
+        "accuracy": 85.54216867469879,
+        "time": 1.852513074874878
     }
 }

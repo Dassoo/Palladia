@@ -110,5 +110,13 @@
         "cer": 2.380952380952381,
         "accuracy": 97.61904761904762,
         "time": 2.576409101486206
+    },
+    "cogito-v2-109b": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl bat noth is bat bu vth) geu\u00eait",
+        "wer": 50.0,
+        "cer": 14.285714285714285,
+        "accuracy": 86.04651162790698,
+        "time": 1.872140884399414
     }
 }

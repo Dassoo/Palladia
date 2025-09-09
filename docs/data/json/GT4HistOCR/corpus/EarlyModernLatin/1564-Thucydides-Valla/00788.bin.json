@@ -134,5 +134,13 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 75.39842295646667
+    },
+    "cogito-v2-109b": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur, non patefacientes illi quidem Athenien\u017fibus, pratendentcs",
+        "wer": 14.285714285714285,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 1.2631480693817139
     }
 }

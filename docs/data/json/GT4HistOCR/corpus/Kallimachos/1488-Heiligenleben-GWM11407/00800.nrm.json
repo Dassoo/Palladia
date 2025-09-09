@@ -110,5 +110,13 @@
         "cer": 18.75,
         "accuracy": 81.25,
         "time": 2.8146989345550537
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fter Achalongus vn\u0303 \u017fp\ua75bach. du \u017folt nit ge\u017ftatt\u1ebd",
+        "response": "Her Achalongus vn\u017fprach. Du \u017folt nit ge\u017ftatte\u0305",
+        "wer": 62.5,
+        "cer": 16.666666666666664,
+        "accuracy": 85.41666666666666,
+        "time": 2.710283041000366
     }
 }

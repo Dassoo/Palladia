@@ -126,5 +126,13 @@
         "cer": 24.358974358974358,
         "accuracy": 79.48717948717949,
         "time": 2.653557062149048
+    },
+    "cogito-v2-109b": {
+        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
+        "response": "m\u00f2 \u03c3\u0454'\u03c1\u03c0\u03c4\u03c9 dixerunt f[erpo:& n\u00f2 herpo:\u03c3\u0454\u03be traduxerunt f[ex & n\u00f2 hex:\u03c3\u0454'\u03c0\u03c4\u03b1.f[epre'",
+        "wer": 80.0,
+        "cer": 28.205128205128204,
+        "accuracy": 76.82926829268293,
+        "time": 2.0600998401641846
     }
 }

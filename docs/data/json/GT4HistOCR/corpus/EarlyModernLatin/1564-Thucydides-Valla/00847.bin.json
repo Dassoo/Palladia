@@ -134,5 +134,13 @@
         "cer": 3.0303030303030303,
         "accuracy": 96.96969696969697,
         "time": 52.314170122146606
+    },
+    "cogito-v2-109b": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyrcum murum inferre",
+        "wer": 33.33333333333333,
+        "cer": 6.0606060606060606,
+        "accuracy": 93.93939393939394,
+        "time": 2.030632734298706
     }
 }

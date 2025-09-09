@@ -126,5 +126,13 @@
         "cer": 11.76470588235294,
         "accuracy": 88.23529411764706,
         "time": 1.64215087890625
+    },
+    "cogito-v2-109b": {
+        "gt": "tibus o\u017ftendemus.",
+        "response": "tibus oftendemus.",
+        "wer": 50.0,
+        "cer": 5.88235294117647,
+        "accuracy": 94.11764705882352,
+        "time": 2.1771938800811768
     }
 }

@@ -110,5 +110,13 @@
         "cer": 21.73913043478261,
         "accuracy": 78.72340425531915,
         "time": 3.049916982650757
+    },
+    "cogito-v2-109b": {
+        "gt": "\u00f0 lebet bey des key\u017fers decius \u0292eyt\u1ebd. da wurd\u1ebd",
+        "response": "\u017fiebet bey des Feyfers Decius zeyt\u0113. Da wurde",
+        "wer": 77.77777777777779,
+        "cer": 21.73913043478261,
+        "accuracy": 78.26086956521739,
+        "time": 2.2575058937072754
     }
 }

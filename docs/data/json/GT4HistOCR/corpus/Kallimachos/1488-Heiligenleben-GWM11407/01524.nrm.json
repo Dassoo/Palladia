@@ -110,5 +110,13 @@
         "cer": 8.51063829787234,
         "accuracy": 93.61702127659575,
         "time": 2.9125359058380127
+    },
+    "cogito-v2-109b": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfcc\u00dft. 2tber wer geLert ift vnd Sie Pere mit ge",
+        "wer": 60.0,
+        "cer": 17.02127659574468,
+        "accuracy": 83.33333333333334,
+        "time": 1.6227400302886963
     }
 }

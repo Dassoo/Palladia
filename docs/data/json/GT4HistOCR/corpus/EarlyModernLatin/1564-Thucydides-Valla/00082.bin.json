@@ -134,5 +134,13 @@
         "cer": 4.838709677419355,
         "accuracy": 96.7741935483871,
         "time": 17.831440687179565
+    },
+    "cogito-v2-109b": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "ximie ucr\u00f2 optima quae\u2205 tellus pr\u00e6cipu\u00e8 patiebatur afsiduas in;",
+        "wer": 55.55555555555556,
+        "cer": 12.903225806451612,
+        "accuracy": 87.3015873015873,
+        "time": 2.018075942993164
     }
 }

@@ -134,5 +134,13 @@
         "avg_cer": 12.92963108841251,
         "avg_accuracy": 89.37499184115535,
         "avg_time": 98.74611556529999
+    },
+    "cogito-v2-109b": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla",
+        "images": 58,
+        "avg_wer": 48.25521222072946,
+        "avg_cer": 11.237158212409708,
+        "avg_accuracy": 89.8497092010878,
+        "avg_time": 1.9251739937683632
     }
 }

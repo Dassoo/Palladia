@@ -110,5 +110,13 @@
         "cer": 38.63636363636363,
         "accuracy": 65.9090909090909,
         "time": 2.3471360206604004
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "sech\u017fen.\u017fa ermacht \u017fer Hertzog vnd trachtet",
+        "wer": 71.42857142857143,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 2.3282790184020996
     }
 }

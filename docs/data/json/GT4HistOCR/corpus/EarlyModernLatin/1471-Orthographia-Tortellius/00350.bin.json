@@ -126,5 +126,13 @@
         "cer": 15.384615384615385,
         "accuracy": 86.41975308641975,
         "time": 3.4192450046539307
+    },
+    "cogito-v2-109b": {
+        "gt": "ut diligenti\u017f\u017fmi con\u017fpexere gramatici pro q\u1dd3 Claudius C\u00e6\u017far apud nos anti\u017figma",
+        "response": "ui diligenti\u017f\u017fimi con\u017fpexere grammatici:pro \ua7ac\u00ac Claudius C\u00e6far apud nos ant\u0131\u0331figia",
+        "wer": 63.63636363636363,
+        "cer": 14.102564102564102,
+        "accuracy": 86.41975308641975,
+        "time": 2.2560131549835205
     }
 }

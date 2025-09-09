@@ -126,5 +126,13 @@
         "cer": 17.94871794871795,
         "accuracy": 82.71604938271605,
         "time": 2.7363028526306152
+    },
+    "cogito-v2-109b": {
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "oftendemus. pferturtamen fub uoce ipfi\u1e21. ob cognition\u00e9 litterar\u00e9 qu\u00e9admod\u016b",
+        "wer": 81.81818181818183,
+        "cer": 20.51282051282051,
+        "accuracy": 80.76923076923077,
+        "time": 2.16619610786438
     }
 }

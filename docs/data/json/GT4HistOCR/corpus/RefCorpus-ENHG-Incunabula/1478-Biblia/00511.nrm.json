@@ -110,5 +110,13 @@
         "cer": 21.27659574468085,
         "accuracy": 80.85106382978722,
         "time": 1.9156889915466309
+    },
+    "cogito-v2-109b": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "x\u01bfi befcrue\u016b beft\u00b7w\u016f\u0304 Marcus wertfigwrett m\u0335",
+        "wer": 88.88888888888889,
+        "cer": 34.04255319148936,
+        "accuracy": 68.08510638297872,
+        "time": 1.7893610000610352
     }
 }

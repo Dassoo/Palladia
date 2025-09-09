@@ -110,5 +110,13 @@
         "cer": 9.523809523809524,
         "accuracy": 90.69767441860465,
         "time": 2.7117109298706055
+    },
+    "cogito-v2-109b": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trer Johannes v\u00f1 Paulus haben merlich ers",
+        "wer": 42.857142857142854,
+        "cer": 11.904761904761903,
+        "accuracy": 88.09523809523809,
+        "time": 1.8654890060424805
     }
 }

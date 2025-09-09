@@ -110,5 +110,13 @@
         "cer": 22.5,
         "accuracy": 80.0,
         "time": 4.421329975128174
+    },
+    "cogito-v2-109b": {
+        "gt": "by myneme wyue? By dineme heyl v\u00f1 by dyn",
+        "response": "by myneme wyucs: By dmeme beyl vii by dpn",
+        "wer": 55.55555555555556,
+        "cer": 22.5,
+        "accuracy": 80.48780487804879,
+        "time": 2.5071606636047363
     }
 }

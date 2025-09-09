@@ -126,5 +126,13 @@
         "cer": 40.25974025974026,
         "accuracy": 63.63636363636363,
         "time": 3.520209312438965
+    },
+    "cogito-v2-109b": {
+        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
+        "response": "ponat.n\u00e1 in qbouldi iuefruft\u00f1flumis infckriptionibus f\u00e6pe ego cofpexi.K.DECEMB.",
+        "wer": 90.0,
+        "cer": 32.467532467532465,
+        "accuracy": 74.68354430379746,
+        "time": 2.2322628498077393
     }
 }

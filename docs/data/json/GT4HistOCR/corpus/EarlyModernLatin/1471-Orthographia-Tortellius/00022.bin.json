@@ -126,5 +126,13 @@
         "cer": 41.02564102564102,
         "accuracy": 68.81720430107528,
         "time": 2.6473591327667236
+    },
+    "cogito-v2-109b": {
+        "gt": "forma \u017fignata appar&: & n\u00f5 nouor\u0169 \u00e6olo\ua776 forma de\u017fcribit\u1dd1. Rur\u017fus & \ua751 contrari\u00e3",
+        "response": "forma fignata appar&:&n\u00f5 nouoru\u0129 acologX forma deficribit.Rurfus & p contraria",
+        "wer": 76.92307692307693,
+        "cer": 20.51282051282051,
+        "accuracy": 84.61538461538461,
+        "time": 2.034085988998413
     }
 }

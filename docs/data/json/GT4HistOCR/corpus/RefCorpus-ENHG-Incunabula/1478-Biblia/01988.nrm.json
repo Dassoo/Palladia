@@ -110,5 +110,13 @@
         "cer": 20.454545454545457,
         "accuracy": 80.85106382978722,
         "time": 2.211171865463257
+    },
+    "cogito-v2-109b": {
+        "gt": "zer dat \u017fe vorwonnen weren van y\u017frahel\u017fe vnt",
+        "response": "3et dat fe voorwonnen weren van pfrahel fe vnt",
+        "wer": 62.5,
+        "cer": 18.181818181818183,
+        "accuracy": 82.6086956521739,
+        "time": 1.9081599712371826
     }
 }

@@ -134,5 +134,13 @@
         "cer": 6.976744186046512,
         "accuracy": 95.34883720930233,
         "time": 175.07337379455566
+    },
+    "cogito-v2-109b": {
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olor\u00ed iacet hoc Alimu\u017f\u017fius anno4.",
+        "wer": 50.0,
+        "cer": 11.627906976744185,
+        "accuracy": 90.9090909090909,
+        "time": 4.3633270263671875
     }
 }

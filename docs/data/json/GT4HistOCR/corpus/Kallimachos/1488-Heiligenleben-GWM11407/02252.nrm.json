@@ -110,5 +110,13 @@
         "cer": 7.142857142857142,
         "accuracy": 93.02325581395348,
         "time": 4.49388861656189
+    },
+    "cogito-v2-109b": {
+        "gt": "Darnach kam er auff einen berg da wonet er",
+        "response": "GarnachFam er auff cinenBerg Sa wonet er",
+        "wer": 55.55555555555556,
+        "cer": 16.666666666666664,
+        "accuracy": 83.33333333333334,
+        "time": 1.8861241340637207
     }
 }

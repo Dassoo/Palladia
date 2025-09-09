@@ -110,5 +110,13 @@
         "cer": 33.33333333333333,
         "accuracy": 71.11111111111111,
         "time": 2.8256309032440186
+    },
+    "cogito-v2-109b": {
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "Gen.vnd \u0110a fie \u0110y fpinm\u011bme\u099a \u0110a voz faben.\u0110a",
+        "wer": 100.0,
+        "cer": 35.55555555555556,
+        "accuracy": 64.44444444444444,
+        "time": 1.4511959552764893
     }
 }

@@ -126,5 +126,13 @@
         "cer": 12.5,
         "accuracy": 89.02439024390245,
         "time": 2.350864887237549
+    },
+    "cogito-v2-109b": {
+        "gt": "referente auctore nos. m. qua\u017fi mugiente littera cludimus: qua null\u0169 gr\u00e6ce uerb\u0169",
+        "response": "referente auctore nos .m.quaf. mugiente litt\u00e9ra cludimus:qua null\u00fci gr\u00e6ce uerb\u00fc",
+        "wer": 66.66666666666666,
+        "cer": 12.5,
+        "accuracy": 90.0,
+        "time": 1.9980452060699463
     }
 }

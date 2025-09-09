@@ -134,5 +134,13 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 155.8623812198639
+    },
+    "cogito-v2-109b": {
+        "gt": "eas, quibus ip\u017fe interfui, quasq\u0301; \u017figillatim ab alijs qu\u00e0m potui di-",
+        "response": "eas, quibus ip\ufb02e inter\u017fui, quasq\u0301 \u0142igillatim ab aliis qu\u00e0m potui di.",
+        "wer": 54.54545454545454,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 1.6564431190490723
     }
 }

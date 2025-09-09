@@ -110,5 +110,13 @@
         "cer": 15.909090909090908,
         "accuracy": 86.36363636363636,
         "time": 2.563697338104248
+    },
+    "cogito-v2-109b": {
+        "gt": "Men de \u017fone y\u017frahel pre\u017ftere vnde leuiten v\u00f1",
+        "response": "Men de fone pfrakel preftere vnde leu\u00edten v\u00f1",
+        "wer": 50.0,
+        "cer": 13.636363636363635,
+        "accuracy": 86.36363636363636,
+        "time": 2.2118289470672607
     }
 }

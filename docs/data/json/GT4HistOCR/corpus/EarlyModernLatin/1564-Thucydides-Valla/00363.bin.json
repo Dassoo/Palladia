@@ -134,5 +134,13 @@
         "cer": 7.936507936507936,
         "accuracy": 92.06349206349206,
         "time": 26.8061740398407
+    },
+    "cogito-v2-109b": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017f\u017fitatis ventum e\u017f\u017fet, ut invicem Corinthij Athenic\u00f1",
+        "wer": 44.44444444444444,
+        "cer": 7.936507936507936,
+        "accuracy": 92.06349206349206,
+        "time": 2.694221258163452
     }
 }

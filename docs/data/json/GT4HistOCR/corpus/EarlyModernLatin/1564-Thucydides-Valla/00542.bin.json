@@ -134,5 +134,13 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 26.862677812576294
+    },
+    "cogito-v2-109b": {
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tranfeuntes prohibentur. Corcyrenses ubi colonos ac pr\u00e6fidia",
+        "wer": 57.14285714285714,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 2.455538034439087
     }
 }

@@ -134,5 +134,13 @@
         "cer": 4.25531914893617,
         "accuracy": 95.83333333333334,
         "time": 62.15088510513306
+    },
+    "cogito-v2-109b": {
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibisdes Athenienfium dux eligi: tia pugnatur",
+        "wer": 50.0,
+        "cer": 6.382978723404255,
+        "accuracy": 93.61702127659575,
+        "time": 1.7728090286254883
     }
 }

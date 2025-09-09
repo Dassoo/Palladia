@@ -126,5 +126,13 @@
         "cer": 20.253164556962027,
         "accuracy": 81.81818181818183,
         "time": 2.702148914337158
+    },
+    "cogito-v2-109b": {
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cu!n dictiones no\u017ftras:& quas ex grxcis acceperamus:no\u017fti ut antiq\u016f\u017fimi gr\u00e6cor\u0169",
+        "wer": 66.66666666666666,
+        "cer": 13.924050632911392,
+        "accuracy": 89.87341772151899,
+        "time": 1.4752702713012695
     }
 }

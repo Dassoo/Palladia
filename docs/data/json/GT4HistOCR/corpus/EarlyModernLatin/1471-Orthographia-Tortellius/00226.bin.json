@@ -126,5 +126,13 @@
         "cer": 25.97402597402597,
         "accuracy": 76.62337662337663,
         "time": 2.770050048828125
+    },
+    "cogito-v2-109b": {
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r:ac dicebant \u03b2\u03c1\u03b7\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodus: & non p\u03c1\u03b7\u03c4\u06b6\u03c1",
+        "wer": 35.714285714285715,
+        "cer": 9.090909090909092,
+        "accuracy": 92.20779220779221,
+        "time": 1.9677801132202148
     }
 }

@@ -134,5 +134,13 @@
         "cer": 4.411764705882353,
         "accuracy": 95.58823529411765,
         "time": 66.58445310592651
+    },
+    "cogito-v2-109b": {
+        "gt": "tutis etiam con\u017filijs diffidentes, & difficultatibus nunqu\u00e3 uos ere-",
+        "response": "turis etiam con\u017filiis diffidentes,& difficultatibus nunqu\u00e3uos ere",
+        "wer": 77.77777777777779,
+        "cer": 7.352941176470589,
+        "accuracy": 92.64705882352942,
+        "time": 1.3636066913604736
     }
 }

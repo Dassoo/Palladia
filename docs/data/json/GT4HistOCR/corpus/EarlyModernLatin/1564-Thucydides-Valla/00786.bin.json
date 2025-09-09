@@ -134,5 +134,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 149.82340788841248
+    },
+    "cogito-v2-109b": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medio audacian. Po\u017ftularunt ita que ab eis, ne muros refti,",
+        "wer": 50.0,
+        "cer": 7.8125,
+        "accuracy": 93.84615384615384,
+        "time": 1.3191900253295898
     }
 }

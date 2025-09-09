@@ -134,5 +134,13 @@
         "cer": 11.864406779661017,
         "accuracy": 88.13559322033898,
         "time": 54.68078589439392
+    },
+    "cogito-v2-109b": {
+        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "response": "dccim, Ambraciotarum uigintifeptem, Anactoriorum una, ipfo",
+        "wer": 50.0,
+        "cer": 6.779661016949152,
+        "accuracy": 93.22033898305084,
+        "time": 1.7228777408599854
     }
 }

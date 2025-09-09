@@ -126,5 +126,13 @@
         "cer": 12.162162162162163,
         "accuracy": 87.83783783783784,
         "time": 2.759816884994507
+    },
+    "cogito-v2-109b": {
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus afpiratione: nec cam plenam po\u017f\u017fidet: ut fimili modo de b & de e\u017f\u017fe",
+        "wer": 28.57142857142857,
+        "cer": 5.405405405405405,
+        "accuracy": 94.66666666666667,
+        "time": 2.5127358436584473
     }
 }

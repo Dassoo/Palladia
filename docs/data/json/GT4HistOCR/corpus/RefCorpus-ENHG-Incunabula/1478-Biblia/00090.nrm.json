@@ -110,5 +110,13 @@
         "cer": 20.833333333333336,
         "accuracy": 79.16666666666666,
         "time": 2.2321720123291016
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "\u017fnade enim c\u00e6m herren\u00b7vnde \u017fe brachthen de ae",
+        "wer": 72.72727272727273,
+        "cer": 18.75,
+        "accuracy": 83.33333333333334,
+        "time": 1.6871511936187744
     }
 }

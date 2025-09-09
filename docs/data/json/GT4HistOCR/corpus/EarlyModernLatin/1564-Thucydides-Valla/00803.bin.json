@@ -134,5 +134,13 @@
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 117.11446118354797
+    },
+    "cogito-v2-109b": {
+        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "response": "baris dilap\u017fis.Po\u017ft quod omnes fere in urbes redierunt,nauigan-",
+        "wer": 50.0,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 1.7357099056243896
     }
 }

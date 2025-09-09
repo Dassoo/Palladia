@@ -134,5 +134,13 @@
         "cer": 10.76923076923077,
         "accuracy": 89.23076923076924,
         "time": 210.5082597732544
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "response": "fam.V\u017fque ade\u00f2(utbreuicomple\u0107tar)\u017fi quis dicat illos hoc in.",
+        "wer": 66.66666666666666,
+        "cer": 12.307692307692308,
+        "accuracy": 87.6923076923077,
+        "time": 1.5145411491394043
     }
 }

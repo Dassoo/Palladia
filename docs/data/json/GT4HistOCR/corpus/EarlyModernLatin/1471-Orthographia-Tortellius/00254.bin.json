@@ -126,5 +126,13 @@
         "cer": 9.210526315789473,
         "accuracy": 90.78947368421053,
         "time": 2.6588308811187744
+    },
+    "cogito-v2-109b": {
+        "gt": "tantum In loculis: \u03ba\u03c5\u03ba\u03bd\u03bf\u03c3 cygnus cum g media ut quidam \u017fcribunt. Quin & \ua753 ch",
+        "response": "tantuin Inloculis:\u03ba\u03c5\u03ba\u03bd\u03bf\u03c2 cygnus cum g media ut quidam ferbunt.Quin & F ch'n",
+        "wer": 53.333333333333336,
+        "cer": 15.789473684210526,
+        "accuracy": 88.1578947368421,
+        "time": 1.8978919982910156
     }
 }

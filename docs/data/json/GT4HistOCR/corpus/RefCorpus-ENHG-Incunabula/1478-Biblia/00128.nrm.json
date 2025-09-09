@@ -110,5 +110,13 @@
         "cer": 12.195121951219512,
         "accuracy": 90.47619047619048,
         "time": 1.8573062419891357
+    },
+    "cogito-v2-109b": {
+        "gt": "men al\u017fodane reden hebben \u017fe vns geantwor",
+        "response": "men al\u017fodane xe\u00f0en hebben \u017fe vns geantwors",
+        "wer": 28.57142857142857,
+        "cer": 7.317073170731707,
+        "accuracy": 92.85714285714286,
+        "time": 1.9120142459869385
     }
 }

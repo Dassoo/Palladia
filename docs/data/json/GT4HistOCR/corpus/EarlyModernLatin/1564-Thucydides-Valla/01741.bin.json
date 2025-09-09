@@ -134,5 +134,13 @@
         "cer": 2.941176470588235,
         "accuracy": 98.52941176470588,
         "time": 49.818030834198
+    },
+    "cogito-v2-109b": {
+        "gt": "Primam autem grauitatis in dicendo demon\u017ftrationem hanc fecit: Pyri-",
+        "response": "Primam autem grau\u0131tatis in dicendo demonftrationem hanc fecit: Pyri",
+        "wer": 33.33333333333333,
+        "cer": 4.411764705882353,
+        "accuracy": 95.58823529411765,
+        "time": 2.2523629665374756
     }
 }

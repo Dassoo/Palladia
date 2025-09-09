@@ -134,5 +134,13 @@
         "cer": 22.666666666666664,
         "accuracy": 78.66666666666666,
         "time": 197.32192587852478
+    },
+    "cogito-v2-109b": {
+        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "response": "ritia\u00e6 tribut\u0169 eft.Itaque non licuit ei di\u00fcrius pr\u0119e\u017f\u017fe populo.Prim\u0169m enim",
+        "wer": 50.0,
+        "cer": 9.333333333333334,
+        "accuracy": 92.0,
+        "time": 2.121654987335205
     }
 }

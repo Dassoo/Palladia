@@ -110,5 +110,13 @@
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
         "time": 2.7958829402923584
+    },
+    "cogito-v2-109b": {
+        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
+        "response": "ond auff\u017fer wand gieng jerbzunn Das \u017fy cri",
+        "wer": 70.0,
+        "cer": 20.930232558139537,
+        "accuracy": 79.06976744186046,
+        "time": 2.2303082942962646
     }
 }

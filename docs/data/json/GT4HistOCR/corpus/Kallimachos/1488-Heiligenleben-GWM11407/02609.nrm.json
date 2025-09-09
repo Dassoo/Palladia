@@ -110,5 +110,13 @@
         "cer": 18.181818181818183,
         "accuracy": 81.81818181818183,
         "time": 2.61590313911438
+    },
+    "cogito-v2-109b": {
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen fcharzoffenwarren der welt zu eine",
+        "wer": 62.5,
+        "cer": 18.181818181818183,
+        "accuracy": 84.0909090909091,
+        "time": 1.5967307090759277
     }
 }

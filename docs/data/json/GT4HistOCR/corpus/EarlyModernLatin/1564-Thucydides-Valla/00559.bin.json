@@ -134,5 +134,13 @@
         "cer": 7.352941176470589,
         "accuracy": 92.64705882352942,
         "time": 28.245216131210327
+    },
+    "cogito-v2-109b": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent,fc iftama\u00b0turo\u01bf,parato\u015b\ua751 e\u017f\u017fe & \u017fanct\u0119 promittcre,dunt",
+        "wer": 80.0,
+        "cer": 26.47058823529412,
+        "accuracy": 75.0,
+        "time": 1.7930738925933838
     }
 }

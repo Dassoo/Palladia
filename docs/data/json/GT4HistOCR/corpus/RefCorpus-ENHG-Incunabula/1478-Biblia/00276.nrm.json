@@ -110,5 +110,13 @@
         "cer": 22.22222222222222,
         "accuracy": 80.55555555555556,
         "time": 4.0076868534088135
+    },
+    "cogito-v2-109b": {
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben fe gefchreuen een bekla\u011fin",
+        "wer": 50.0,
+        "cer": 13.88888888888889,
+        "accuracy": 86.48648648648648,
+        "time": 1.2240068912506104
     }
 }

@@ -126,5 +126,13 @@
         "cer": 19.27710843373494,
         "accuracy": 80.72289156626506,
         "time": 2.656442880630493
+    },
+    "cogito-v2-109b": {
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "afpirarione fcribenda funt:ut Pyra lyra fyria:& fimiles.Quod quia a doctis oibus",
+        "wer": 64.28571428571429,
+        "cer": 12.048192771084338,
+        "accuracy": 87.95180722891565,
+        "time": 1.9541971683502197
     }
 }

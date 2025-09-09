@@ -110,5 +110,13 @@
         "cer": 17.77777777777778,
         "accuracy": 82.6086956521739,
         "time": 4.055776119232178
+    },
+    "cogito-v2-109b": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "nachf\u00fcr derfeindin 3reBertzogin dyfchxep",
+        "wer": 100.0,
+        "cer": 28.888888888888886,
+        "accuracy": 71.11111111111111,
+        "time": 1.7697627544403076
     }
 }

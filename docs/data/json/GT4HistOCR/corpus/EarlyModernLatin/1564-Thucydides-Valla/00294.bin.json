@@ -134,5 +134,13 @@
         "cer": 9.230769230769232,
         "accuracy": 92.3076923076923,
         "time": 90.14754366874695
+    },
+    "cogito-v2-109b": {
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt, Epidamnenses nullam fibi uidentes \u00e0 Corcyr\u00ebfibus iniuri\u00e6 20",
+        "wer": 33.33333333333333,
+        "cer": 6.153846153846154,
+        "accuracy": 93.84615384615384,
+        "time": 1.5298619270324707
     }
 }

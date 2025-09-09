@@ -110,5 +110,13 @@
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,
         "time": 2.753283977508545
+    },
+    "cogito-v2-109b": {
+        "gt": "er das ge\u017fp\ua75bach da ver\u017fchwandt die \u017fchu\u017f\u017fel.",
+        "response": "er Das ge\u017fprach Da ver\u017fcBrandt die fchuffel.",
+        "wer": 71.42857142857143,
+        "cer": 18.181818181818183,
+        "accuracy": 81.81818181818183,
+        "time": 1.7501821517944336
     }
 }

@@ -134,5 +134,13 @@
         "cer": 34.69387755102041,
         "accuracy": 75.80645161290323,
         "time": 90.2179000377655
+    },
+    "cogito-v2-109b": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis.Nec ego hoc in probrum Laurentij Val",
+        "wer": 25.0,
+        "cer": 2.0408163265306123,
+        "accuracy": 97.95918367346938,
+        "time": 1.9076192378997803
     }
 }

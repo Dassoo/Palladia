@@ -110,5 +110,13 @@
         "cer": 22.916666666666664,
         "accuracy": 78.0,
         "time": 2.6876261234283447
+    },
+    "cogito-v2-109b": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "r thun folt \u0110zer got wol geuiel.\u0110a fprach er.",
+        "wer": 63.63636363636363,
+        "cer": 18.75,
+        "accuracy": 81.25,
+        "time": 2.203010082244873
     }
 }

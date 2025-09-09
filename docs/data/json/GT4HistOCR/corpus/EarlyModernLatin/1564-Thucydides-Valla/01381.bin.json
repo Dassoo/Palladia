@@ -134,5 +134,13 @@
         "cer": 7.575757575757576,
         "accuracy": 92.7536231884058,
         "time": 68.24722790718079
+    },
+    "cogito-v2-109b": {
+        "gt": "ria, nec eos ultum ire differemus, c\u00f9m ip\u017forum non differatur iniu",
+        "response": "ria,nec cos ultum ire differemus,c\u00f9m ipforum non differaturiniu",
+        "wer": 72.72727272727273,
+        "cer": 7.575757575757576,
+        "accuracy": 92.42424242424242,
+        "time": 1.8193209171295166
     }
 }

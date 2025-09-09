@@ -126,5 +126,13 @@
         "cer": 11.538461538461538,
         "accuracy": 88.46153846153845,
         "time": 2.456763982772827
+    },
+    "cogito-v2-109b": {
+        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Caii.c.littera fignari compenimus:ut alio in loco. C.ENNIAE.P.RVBRIVS",
+        "wer": 71.42857142857143,
+        "cer": 11.538461538461538,
+        "accuracy": 88.46153846153845,
+        "time": 2.09523606300354
     }
 }

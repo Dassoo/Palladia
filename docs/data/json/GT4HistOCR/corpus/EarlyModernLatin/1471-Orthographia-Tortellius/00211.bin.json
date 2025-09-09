@@ -126,5 +126,13 @@
         "cer": 17.441860465116278,
         "accuracy": 84.88372093023256,
         "time": 2.7273149490356445
+    },
+    "cogito-v2-109b": {
+        "gt": "perint: quia in fine \u017fyllab\u00e6 \u017ftare n\u00f5 poterat: loco eius ip\u017fam b lr\u0303am po\u017fuer\u0303t. Id\u1ebdq;",
+        "response": "penat:quia in fine fyllab\u00e6 \u017ftare non poterat:loco eius ip\u017fam blamam po\u017fuerit. Id\u00e9og",
+        "wer": 66.66666666666666,
+        "cer": 17.441860465116278,
+        "accuracy": 84.88372093023256,
+        "time": 1.647156000137329
     }
 }

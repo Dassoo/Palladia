@@ -134,5 +134,13 @@
         "cer": 10.344827586206897,
         "accuracy": 93.10344827586206,
         "time": 41.91146993637085
+    },
+    "cogito-v2-109b": {
+        "gt": "ratus maior, qu\u00e0m quantus unqu\u00e3 maximus uiguit, dum \u017fynce-",
+        "response": "ratus maior,qu\u00e0m quantus unqu\u00e0m maximus uiguit,dum fynce.",
+        "wer": 66.66666666666666,
+        "cer": 10.344827586206897,
+        "accuracy": 91.37931034482759,
+        "time": 1.8964486122131348
     }
 }

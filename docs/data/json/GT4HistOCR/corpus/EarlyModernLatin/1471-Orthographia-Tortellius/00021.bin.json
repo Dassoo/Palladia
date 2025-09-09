@@ -126,5 +126,13 @@
         "cer": 3.614457831325301,
         "accuracy": 96.3855421686747,
         "time": 2.8507890701293945
+    },
+    "cogito-v2-109b": {
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur:Sed cum iuniores adoles tefte Centorino facilius",
+        "wer": 45.45454545454545,
+        "cer": 6.024096385542169,
+        "accuracy": 95.18072289156626,
+        "time": 1.7425181865692139
     }
 }

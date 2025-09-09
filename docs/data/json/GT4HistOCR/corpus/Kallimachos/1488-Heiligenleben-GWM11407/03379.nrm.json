@@ -110,5 +110,13 @@
         "cer": 18.181818181818183,
         "accuracy": 82.6086956521739,
         "time": 2.8591558933258057
+    },
+    "cogito-v2-109b": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit Du mich \u00fcberwindest. Da sprach er was ift",
+        "wer": 55.55555555555556,
+        "cer": 18.181818181818183,
+        "accuracy": 82.22222222222221,
+        "time": 1.6080100536346436
     }
 }

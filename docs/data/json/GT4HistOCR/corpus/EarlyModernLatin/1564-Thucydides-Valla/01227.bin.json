@@ -134,5 +134,13 @@
         "cer": 95.0,
         "accuracy": 50.877192982456144,
         "time": 164.65013718605042
+    },
+    "cogito-v2-109b": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meain magis ne bellum liberis no\u017ftris re\u013cinquamus. Neque cre-",
+        "wer": 22.22222222222222,
+        "cer": 5.0,
+        "accuracy": 95.08196721311475,
+        "time": 2.4262490272521973
     }
 }

@@ -110,5 +110,13 @@
         "cer": 18.181818181818183,
         "accuracy": 81.81818181818183,
         "time": 2.008213996887207
+    },
+    "cogito-v2-109b": {
+        "gt": "y\u017frahels vnde Dauid \u017floech doet v\u00e3 den v\u00e3 \u017fy",
+        "response": "yfrahcls onde David floech doct v\u00e3 den v\u00e3 fy",
+        "wer": 66.66666666666666,
+        "cer": 15.909090909090908,
+        "accuracy": 84.0909090909091,
+        "time": 1.8050310611724854
     }
 }

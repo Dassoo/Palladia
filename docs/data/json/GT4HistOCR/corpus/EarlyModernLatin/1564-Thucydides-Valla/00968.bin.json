@@ -134,5 +134,13 @@
         "cer": 11.267605633802818,
         "accuracy": 89.6103896103896,
         "time": 62.959949016571045
+    },
+    "cogito-v2-109b": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c verba funt, Armo",
+        "wer": 25.0,
+        "cer": 4.225352112676056,
+        "accuracy": 95.77464788732394,
+        "time": 1.533796787261963
     }
 }

@@ -126,5 +126,13 @@
         "cer": 21.59090909090909,
         "accuracy": 78.4090909090909,
         "time": 2.4571101665496826
+    },
+    "cogito-v2-109b": {
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dacere & Icrcibere compeltIt.Vnde tefte Prifciano in.viir.b.antc: s url",
+        "wer": 76.47058823529412,
+        "cer": 20.454545454545457,
+        "accuracy": 81.81818181818183,
+        "time": 1.7348718643188477
     }
 }

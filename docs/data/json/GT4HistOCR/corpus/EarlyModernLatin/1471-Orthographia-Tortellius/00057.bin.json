@@ -126,5 +126,13 @@
         "cer": 16.867469879518072,
         "accuracy": 86.74698795180723,
         "time": 2.205772876739502
+    },
+    "cogito-v2-109b": {
+        "gt": "abiectio litter\u00e6: \ua757\u1dd3 compo\u017fitio de\u017fignetur \u017f\u00e6pi\u017f\u017fime ponunt\u1dd1 \u017fupra locum: \u0169de talis",
+        "response": "abi\u20acctio litterax:q compofitio de\u017fignetur f\u00e6piffime ponunt \u017fupra locum:\u016fde talis",
+        "wer": 72.72727272727273,
+        "cer": 15.66265060240964,
+        "accuracy": 85.54216867469879,
+        "time": 2.3582887649536133
     }
 }

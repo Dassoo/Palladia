@@ -110,5 +110,13 @@
         "cer": 34.78260869565217,
         "accuracy": 65.21739130434783,
         "time": 2.910291910171509
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "[f]oltu nit vnmreyn [f]eyf[\u017f]ten. Das gefiht [\u017f]ah er zu",
+        "wer": 77.77777777777779,
+        "cer": 34.78260869565217,
+        "accuracy": 71.42857142857143,
+        "time": 2.604426145553589
     }
 }

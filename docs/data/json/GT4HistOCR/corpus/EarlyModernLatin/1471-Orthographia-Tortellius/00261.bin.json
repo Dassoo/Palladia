@@ -126,5 +126,13 @@
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,
         "time": 2.349062204360962
+    },
+    "cogito-v2-109b": {
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "i..ic \u00d2\u00f2\u00ec\u00e4:\u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus n\u00ecis adieci:",
+        "wer": 38.46153846153847,
+        "cer": 13.636363636363635,
+        "accuracy": 88.63636363636364,
+        "time": 4.595872163772583
     }
 }

@@ -110,5 +110,13 @@
         "cer": 11.904761904761903,
         "accuracy": 88.37209302325581,
         "time": 2.463932752609253
+    },
+    "cogito-v2-109b": {
+        "gt": "mert vnde hadden vor\u017fpoet na der propheci\u1ebd",
+        "response": "mert vnde hadden voct\u017fpoet na der prophe\u0111\u0113",
+        "wer": 28.57142857142857,
+        "cer": 11.904761904761903,
+        "accuracy": 90.47619047619048,
+        "time": 2.303302049636841
     }
 }

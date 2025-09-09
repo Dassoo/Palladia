@@ -134,5 +134,13 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 54.068670988082886
+    },
+    "cogito-v2-109b": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis \u00eduiuria \u00edllata eft,",
+        "wer": 27.27272727272727,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 1.5681347846984863
     }
 }

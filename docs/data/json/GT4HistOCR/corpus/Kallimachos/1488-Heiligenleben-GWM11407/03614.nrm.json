@@ -110,5 +110,13 @@
         "cer": 34.090909090909086,
         "accuracy": 72.72727272727273,
         "time": 2.705578088760376
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
+        "response": "Fy.ond Faben Das gro\u00df munder. Ja [prach Der",
+        "wer": 88.88888888888889,
+        "cer": 25.0,
+        "accuracy": 75.0,
+        "time": 3.248936891555786
     }
 }

@@ -134,5 +134,13 @@
         "cer": 4.918032786885246,
         "accuracy": 96.72131147540983,
         "time": 38.0127170085907
+    },
+    "cogito-v2-109b": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circundederunt.Etenim cupiditate lucr\u00e2ndi,& qui",
+        "wer": 50.0,
+        "cer": 6.557377049180328,
+        "accuracy": 93.44262295081968,
+        "time": 1.6550767421722412
     }
 }

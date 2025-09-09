@@ -110,5 +110,13 @@
         "cer": 10.416666666666668,
         "accuracy": 89.79591836734694,
         "time": 2.3790640830993652
+    },
+    "cogito-v2-109b": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd beftctet \u017fy an ein erliche \u017ftatt. \u017fa gieng",
+        "wer": 30.0,
+        "cer": 8.333333333333332,
+        "accuracy": 91.83673469387756,
+        "time": 2.040215015411377
     }
 }

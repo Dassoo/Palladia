@@ -126,5 +126,13 @@
         "cer": 20.0,
         "accuracy": 81.25,
         "time": 2.6370010375976562
+    },
+    "cogito-v2-109b": {
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u0101 tran\u017fferimus illam fere femper \u017fua t!gura &' no\u017fe ac pote\u017ftate c\u014dleruamus.",
+        "wer": 50.0,
+        "cer": 10.0,
+        "accuracy": 90.12345679012346,
+        "time": 2.1985840797424316
     }
 }

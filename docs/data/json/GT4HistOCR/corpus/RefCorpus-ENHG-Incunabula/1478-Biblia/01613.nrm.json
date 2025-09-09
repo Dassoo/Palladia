@@ -110,5 +110,13 @@
         "cer": 40.0,
         "accuracy": 60.0,
         "time": 2.1400842666625977
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017feet voer dem begyn E\u017fdre",
+        "response": "fct voer d\u0131n be\u01a3yn Gfdre",
+        "wer": 80.0,
+        "cer": 32.0,
+        "accuracy": 68.0,
+        "time": 2.0280346870422363
     }
 }

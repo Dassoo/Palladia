@@ -134,5 +134,13 @@
         "cer": 12.903225806451612,
         "accuracy": 88.70967741935483,
         "time": 177.91196703910828
+    },
+    "cogito-v2-109b": {
+        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
+        "response": "io iu\u017ftam habere altitudinem murum. Timucrat enim nc \u00e0 Laccdx.",
+        "wer": 40.0,
+        "cer": 11.29032258064516,
+        "accuracy": 88.70967741935483,
+        "time": 1.8607289791107178
     }
 }

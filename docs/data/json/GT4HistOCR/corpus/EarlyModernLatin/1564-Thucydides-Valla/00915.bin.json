@@ -134,5 +134,13 @@
         "cer": 4.918032786885246,
         "accuracy": 95.08196721311475,
         "time": 30.475919008255005
+    },
+    "cogito-v2-109b": {
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudentiax gratia, qui principatu quem habemus potia,",
+        "wer": 22.22222222222222,
+        "cer": 4.918032786885246,
+        "accuracy": 95.16129032258065,
+        "time": 1.4830327033996582
     }
 }

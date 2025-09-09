@@ -134,5 +134,13 @@
         "cer": 1.36986301369863,
         "accuracy": 98.63013698630137,
         "time": 105.35028409957886
+    },
+    "cogito-v2-109b": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum c\u017f\u017fe manife\u017fti\u017f\u017fimis \u017fignis ita fe ue\u017fera habui\u017f\u017fe. Et lice thomi. 40.",
+        "wer": 58.333333333333336,
+        "cer": 10.95890410958904,
+        "accuracy": 90.54054054054053,
+        "time": 1.655447006225586
     }
 }

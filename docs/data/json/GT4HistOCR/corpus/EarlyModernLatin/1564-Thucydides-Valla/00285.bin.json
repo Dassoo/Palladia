@@ -134,5 +134,13 @@
         "cer": 9.375,
         "accuracy": 92.1875,
         "time": 222.49241185188293
+    },
+    "cogito-v2-109b": {
+        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+        "response": "bantur.Hiautem qui intus erant c\u00fcm ficuexarentur,legatos Cor",
+        "wer": 63.63636363636363,
+        "cer": 9.375,
+        "accuracy": 90.625,
+        "time": 2.030642032623291
     }
 }

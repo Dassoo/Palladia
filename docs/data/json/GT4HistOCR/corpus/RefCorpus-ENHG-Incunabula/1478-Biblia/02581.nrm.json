@@ -110,5 +110,13 @@
         "cer": 14.285714285714285,
         "accuracy": 90.47619047619048,
         "time": 2.8487308025360107
+    },
+    "cogito-v2-109b": {
+        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
+        "response": "v\u00f1 leuede na des ghebozt achtehundett v\u00f1de",
+        "wer": 42.857142857142854,
+        "cer": 7.142857142857142,
+        "accuracy": 92.85714285714286,
+        "time": 1.9904839992523193
     }
 }

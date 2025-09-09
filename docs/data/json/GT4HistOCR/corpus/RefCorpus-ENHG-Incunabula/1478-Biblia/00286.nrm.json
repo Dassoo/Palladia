@@ -110,5 +110,13 @@
         "cer": 12.195121951219512,
         "accuracy": 88.09523809523809,
         "time": 2.2000932693481445
+    },
+    "cogito-v2-109b": {
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghelesen voer my v\u00f1 v\u0101",
+        "wer": 25.0,
+        "cer": 4.878048780487805,
+        "accuracy": 95.1219512195122,
+        "time": 1.960468053817749
     }
 }

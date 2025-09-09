@@ -126,5 +126,13 @@
         "cer": 9.75609756097561,
         "accuracy": 92.6829268292683,
         "time": 2.369373083114624
+    },
+    "cogito-v2-109b": {
+        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
+        "response": "birur:Dies hic fextus cum nihil egi die quarte moriat fame.Sed id pr\u00e6cipue refte",
+        "wer": 46.666666666666664,
+        "cer": 8.536585365853659,
+        "accuracy": 91.46341463414635,
+        "time": 1.6057102680206299
     }
 }

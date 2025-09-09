@@ -110,5 +110,13 @@
         "cer": 29.78723404255319,
         "accuracy": 70.2127659574468,
         "time": 4.850648880004883
+    },
+    "cogito-v2-109b": {
+        "gt": "cri\u017ft\u1ebd dy \u0292aub\ua75ber wi\u017f\u017fen. wan\u0303 \u017fy w\u00fcrden \u017fy f\u00fcr",
+        "response": "crift\u0113 dy zaubxcr ro\u00ef\u03a4en. wa\u00f1 \u017fy w\u00fcrden \u017fy f\u00fcr",
+        "wer": 44.44444444444444,
+        "cer": 23.404255319148938,
+        "accuracy": 76.59574468085107,
+        "time": 1.7622859477996826
     }
 }

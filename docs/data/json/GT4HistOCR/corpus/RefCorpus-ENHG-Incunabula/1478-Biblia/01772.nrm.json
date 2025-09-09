@@ -110,5 +110,13 @@
         "cer": 16.216216216216218,
         "accuracy": 83.78378378378379,
         "time": 2.3625810146331787
+    },
+    "cogito-v2-109b": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent\u00b7vnde \u0111one pifrahel wefen yn",
+        "wer": 87.5,
+        "cer": 27.027027027027028,
+        "accuracy": 75.67567567567568,
+        "time": 1.737868070602417
     }
 }

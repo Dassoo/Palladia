@@ -110,5 +110,13 @@
         "cer": 23.25581395348837,
         "accuracy": 76.74418604651163,
         "time": 2.725421905517578
+    },
+    "cogito-v2-109b": {
+        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
+        "response": "vlefch M er gvlterer v\u00f1 eergvftex\u0129 \u0111 \u017faulko",
+        "wer": 100.0,
+        "cer": 32.55813953488372,
+        "accuracy": 72.09302325581395,
+        "time": 1.6286218166351318
     }
 }

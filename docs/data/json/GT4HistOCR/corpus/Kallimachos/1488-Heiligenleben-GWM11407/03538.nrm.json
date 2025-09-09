@@ -110,5 +110,13 @@
         "cer": 8.88888888888889,
         "accuracy": 91.11111111111111,
         "time": 2.8612077236175537
+    },
+    "cogito-v2-109b": {
+        "gt": "pfaffen vnd l\u00e4yen. Der key\u017fer fraget in ob er",
+        "response": "pfaffen vnd layen.\u0110er Ffeyfer fraget in ob er",
+        "wer": 33.33333333333333,
+        "cer": 13.333333333333334,
+        "accuracy": 88.88888888888889,
+        "time": 1.5940818786621094
     }
 }

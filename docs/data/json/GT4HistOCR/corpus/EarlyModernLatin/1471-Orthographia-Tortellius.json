@@ -126,5 +126,13 @@
         "avg_cer": 15.41702237437325,
         "avg_accuracy": 85.83176581240876,
         "avg_time": 2.6015961061824453
+    },
+    "cogito-v2-109b": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 58.55346302538816,
+        "avg_cer": 13.822809898260436,
+        "avg_accuracy": 87.83451529241985,
+        "avg_time": 2.017793444069949
     }
 }

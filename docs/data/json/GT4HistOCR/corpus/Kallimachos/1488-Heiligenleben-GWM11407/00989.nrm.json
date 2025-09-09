@@ -110,5 +110,13 @@
         "cer": 36.36363636363637,
         "accuracy": 66.66666666666666,
         "time": 2.8175690174102783
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fihte. Da \u017fp\ua75bach der heylig gey\u017ft \u0292u im. Nym",
+        "response": "\u017fihte.9a \u017fprach \u017fer Beylig gey\u017ftz zu im. \u017flyn",
+        "wer": 88.88888888888889,
+        "cer": 22.727272727272727,
+        "accuracy": 80.0,
+        "time": 2.407482862472534
     }
 }

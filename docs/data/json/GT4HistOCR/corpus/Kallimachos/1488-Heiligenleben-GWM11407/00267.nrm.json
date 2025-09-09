@@ -110,5 +110,13 @@
         "cer": 18.6046511627907,
         "accuracy": 83.72093023255815,
         "time": 2.7571141719818115
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fus mit der red. vnd \u017fp\ua75bach \u0292u im Symon wes",
+        "response": "Fu\u017f mit der red.vnd \u017fprach zu im.\u015eymon wes",
+        "wer": 70.0,
+        "cer": 16.27906976744186,
+        "accuracy": 83.72093023255815,
+        "time": 1.8374519348144531
     }
 }

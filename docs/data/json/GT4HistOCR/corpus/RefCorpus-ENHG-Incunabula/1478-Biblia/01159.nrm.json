@@ -110,5 +110,13 @@
         "cer": 24.489795918367346,
         "accuracy": 75.51020408163265,
         "time": 3.1141679286956787
+    },
+    "cogito-v2-109b": {
+        "gt": "ne tolmon \u00b7 \u017fone accub \u00b7 \u017fone attita \u00b7 \u017fone \u017fobay",
+        "response": "ne tolmon\u00b7fone acaub\u00b7fone attita\u00b7fone fobay\u0303",
+        "wer": 90.9090909090909,
+        "cer": 24.489795918367346,
+        "accuracy": 77.55102040816327,
+        "time": 1.5959360599517822
     }
 }

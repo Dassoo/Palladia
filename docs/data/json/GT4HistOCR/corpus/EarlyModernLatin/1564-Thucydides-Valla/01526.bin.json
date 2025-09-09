@@ -134,5 +134,13 @@
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 117.0141830444336
+    },
+    "cogito-v2-109b": {
+        "gt": "rantem, ex aduer\u017fo aciem & ip\u017fi in\u017ftruunt, nec mult\u00f2 po\u017ft confli-",
+        "response": "rantcm,cx aducrfo aciem & ipf\u017fi inftruuunt,nec mult\u00f2 p\u00f2\u017ft con\u017fi-",
+        "wer": 72.72727272727273,
+        "cer": 18.461538461538463,
+        "accuracy": 84.61538461538461,
+        "time": 3.2452971935272217
     }
 }

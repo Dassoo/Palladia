@@ -110,5 +110,13 @@
         "avg_cer": 21.360094094261818,
         "avg_accuracy": 80.08442641139986,
         "avg_time": 2.5063735008239747
+    },
+    "cogito-v2-109b": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 62.370731120731115,
+        "avg_cer": 18.70820225348392,
+        "avg_accuracy": 82.9537775878868,
+        "avg_time": 1.8758851846059164
     }
 }

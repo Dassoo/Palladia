@@ -126,5 +126,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 2.096151113510132
+    },
+    "cogito-v2-109b": {
+        "gt": "DE Littera d.",
+        "response": "DE Littera d.",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.1256482601165771
     }
 }

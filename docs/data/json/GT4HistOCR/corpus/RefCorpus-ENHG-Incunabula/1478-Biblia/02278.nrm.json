@@ -110,5 +110,13 @@
         "cer": 26.82926829268293,
         "accuracy": 75.0,
         "time": 2.430746078491211
+    },
+    "cogito-v2-109b": {
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman (Fnde dat gefchach na vele daghen",
+        "wer": 28.57142857142857,
+        "cer": 7.317073170731707,
+        "accuracy": 92.85714285714286,
+        "time": 1.9467651844024658
     }
 }

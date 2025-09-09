@@ -126,5 +126,13 @@
         "cer": 12.82051282051282,
         "accuracy": 87.17948717948718,
         "time": 2.6497321128845215
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fyllabis nomin\u1ebdtur: apud nos uero uocales omnes \ua751 \u017fe prolat\u00e6 nom\u1ebd \u017fu\u0169 o\u017ft\u1ebdd\u0169t.",
+        "response": "fyllabis nomin\u00e9tur:apud nos uero uocales onnes p fc prolata\u00e6 nom\u00e9 fu\u0169 ov\u00e9d\u016br.",
+        "wer": 76.92307692307693,
+        "cer": 19.230769230769234,
+        "accuracy": 82.05128205128204,
+        "time": 2.3000869750976562
     }
 }

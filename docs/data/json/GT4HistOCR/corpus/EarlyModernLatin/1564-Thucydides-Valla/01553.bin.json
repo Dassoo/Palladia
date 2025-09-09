@@ -134,5 +134,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 13.191351175308228
+    },
+    "cogito-v2-109b": {
+        "gt": "Belli Peloponne\u017fiaci",
+        "response": "Belli Peloponnefiac",
+        "wer": 50.0,
+        "cer": 10.0,
+        "accuracy": 90.0,
+        "time": 1.8879649639129639
     }
 }

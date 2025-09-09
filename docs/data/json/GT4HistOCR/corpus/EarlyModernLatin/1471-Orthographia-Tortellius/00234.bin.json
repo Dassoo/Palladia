@@ -126,5 +126,13 @@
         "cer": 13.414634146341465,
         "accuracy": 86.58536585365853,
         "time": 2.7864010334014893
+    },
+    "cogito-v2-109b": {
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "ha\u00f2bere uidebat':& dig\u00e3ma ip\u017fum c\u016b alio fono in di\u00e7tionibus latinis loco ph fc\u0131mbi",
+        "wer": 50.0,
+        "cer": 10.975609756097562,
+        "accuracy": 90.2439024390244,
+        "time": 2.0652427673339844
     }
 }

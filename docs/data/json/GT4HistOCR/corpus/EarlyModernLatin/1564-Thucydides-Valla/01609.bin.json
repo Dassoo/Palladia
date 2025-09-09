@@ -134,5 +134,13 @@
         "cer": 14.754098360655737,
         "accuracy": 86.88524590163934,
         "time": 167.66076517105103
+    },
+    "cogito-v2-109b": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u0119c Corinth\u0129 eger\u00e3t. lidem c\u00f9m oppugnarctur I'o,",
+        "wer": 44.44444444444444,
+        "cer": 11.475409836065573,
+        "accuracy": 90.1639344262295,
+        "time": 2.0326600074768066
     }
 }

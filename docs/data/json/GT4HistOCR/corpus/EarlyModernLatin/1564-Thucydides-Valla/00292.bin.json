@@ -134,5 +134,13 @@
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 68.15730404853821
+    },
+    "cogito-v2-109b": {
+        "gt": "Quippe centum eis ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "response": "Quippe centum eis ac uiginti naues fuerunt,c\u016fm bellum incepe.",
+        "wer": 30.0,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 1.7911350727081299
     }
 }

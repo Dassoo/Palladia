@@ -126,5 +126,13 @@
         "cer": 11.25,
         "accuracy": 90.0,
         "time": 2.2367169857025146
+    },
+    "cogito-v2-109b": {
+        "gt": "ratione apud gr\u00e6cos & no\u017ftros. Nam cum apud eos te\u017fte Quintiliano libro. XII. de",
+        "response": "ratione apud graecos & no\u017ftros. Nam cum apud eos te\u017fte Quinctiliano libro.xii.de",
+        "wer": 35.714285714285715,
+        "cer": 10.0,
+        "accuracy": 92.5,
+        "time": 1.980621099472046
     }
 }

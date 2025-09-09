@@ -110,5 +110,13 @@
         "cer": 48.0,
         "accuracy": 52.0,
         "time": 2.489572048187256
+    },
+    "cogito-v2-109b": {
+        "gt": "cos \u017fone \u00b7 zizara \u017fone \u00b7 thema \u017fone \u00b7 na\u017fia \u017fone \u00b7",
+        "response": "cos fone\u00b7zizara fone\u00b7thema fone\u00b7 nafia fone.",
+        "wer": 91.66666666666666,
+        "cer": 24.0,
+        "accuracy": 76.0,
+        "time": 1.6624269485473633
     }
 }

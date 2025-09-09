@@ -110,5 +110,13 @@
         "cer": 36.95652173913043,
         "accuracy": 63.04347826086957,
         "time": 3.0708441734313965
+    },
+    "cogito-v2-109b": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u012b lote fc los z\u0101\u00b7ri\u012b als dat gebatfcopt wart",
+        "wer": 63.63636363636363,
+        "cer": 23.91304347826087,
+        "accuracy": 76.08695652173914,
+        "time": 1.403012990951538
     }
 }

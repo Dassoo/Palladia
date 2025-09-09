@@ -23,5 +23,9 @@
   "kimi-vl-a3b-thinking": "https://openrouter.ai/moonshotai/kimi-vl-a3b-thinking:free",
   "qwen-2.5-vl-72b": "https://openrouter.ai/qwen/qwen2.5-vl-72b-instruct:free",
   "glm-4.5v": "https://openrouter.ai/z-ai/glm-4.5v",
-  "ernie-4.5-vl-28b-a3b": "https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b"
+  "ernie-4.5-vl-28b-a3b": "https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b",
+  "step3s": "https://openrouter.ai/stepfun-ai/step3",
+  "cogito-v2-109b": "https://openrouter.ai/deepcogito/cogito-v2-preview-llama-109b-moe",
+  "sonoma-sky-alpha": "https://openrouter.ai/openrouter/sonoma-sky-alpha",
+  "sonoma-dusk-alpha": "https://openrouter.ai/openrouter/sonoma-dusk-alpha"
 }

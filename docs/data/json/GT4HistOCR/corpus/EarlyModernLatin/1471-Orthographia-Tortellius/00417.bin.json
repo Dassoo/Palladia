@@ -126,5 +126,13 @@
         "cer": 11.688311688311687,
         "accuracy": 88.31168831168831,
         "time": 2.483642101287842
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fon\u00e3s: quas ut diximus mutuari \u017folemus: quoti\u1ebds illorum no\u0129bus utimur. ne\u017fcio",
+        "response": "fun\u00e4s:quas ut diximus mutuati folem:us:quoties illorum noibus ucinur: nefcio",
+        "wer": 72.72727272727273,
+        "cer": 18.181818181818183,
+        "accuracy": 83.11688311688312,
+        "time": 1.6246469020843506
     }
 }

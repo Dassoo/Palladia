@@ -134,5 +134,13 @@
         "cer": 6.25,
         "accuracy": 93.75,
         "time": 26.753507137298584
+    },
+    "cogito-v2-109b": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "rationc uic toria\u0131n li bi uindica\u00e3res: Corinthij quidem, quod ad no",
+        "wer": 77.77777777777779,
+        "cer": 14.0625,
+        "accuracy": 88.05970149253731,
+        "time": 3.2588937282562256
     }
 }

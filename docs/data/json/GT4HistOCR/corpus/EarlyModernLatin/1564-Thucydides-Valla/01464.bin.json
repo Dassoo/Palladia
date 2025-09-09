@@ -134,5 +134,13 @@
         "cer": 6.451612903225806,
         "accuracy": 93.54838709677419,
         "time": 118.31412506103516
+    },
+    "cogito-v2-109b": {
+        "gt": "tur, tenuit: & in\u017fularum Cycladum dominus, primus in ear\u0169 ple-",
+        "response": "tur,tenuit:\u00c6t infularum Cycladum dominus,primus in ear\u0169 ple.",
+        "wer": 70.0,
+        "cer": 9.67741935483871,
+        "accuracy": 90.32258064516128,
+        "time": 1.4973890781402588
     }
 }

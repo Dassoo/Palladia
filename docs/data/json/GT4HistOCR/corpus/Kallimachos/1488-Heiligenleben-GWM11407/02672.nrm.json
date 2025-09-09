@@ -110,5 +110,13 @@
         "cer": 9.30232558139535,
         "accuracy": 90.69767441860465,
         "time": 2.4297032356262207
+    },
+    "cogito-v2-109b": {
+        "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+        "response": "Pauls ertotet. Danam man Sie pfening. ond",
+        "wer": 62.5,
+        "cer": 11.627906976744185,
+        "accuracy": 88.37209302325581,
+        "time": 1.442011833190918
     }
 }

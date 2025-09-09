@@ -110,5 +110,13 @@
         "cer": 18.6046511627907,
         "accuracy": 81.81818181818183,
         "time": 2.450218915939331
+    },
+    "cogito-v2-109b": {
+        "gt": "vnde \u017fyba \u017fede deme konynge Ja daer is noch",
+        "response": "vude fyda fede deme konynge Ja daer is noch",
+        "wer": 33.33333333333333,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 1.5357451438903809
     }
 }

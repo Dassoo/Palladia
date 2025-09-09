@@ -110,5 +110,13 @@
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 2.2212910652160645
+    },
+    "cogito-v2-109b": {
+        "gt": "vnde bunghen \u00b7 vnde vedelen vnde cymbalen \u00b7",
+        "response": "vnde bunghen-vnde vedelen vnde cymb\u00e4len-",
+        "wer": 62.5,
+        "cer": 13.953488372093023,
+        "accuracy": 86.04651162790698,
+        "time": 1.680711030960083
     }
 }

@@ -126,5 +126,13 @@
         "cer": 7.6923076923076925,
         "accuracy": 92.3076923076923,
         "time": 2.6126708984375
+    },
+    "cogito-v2-109b": {
+        "gt": "quinte \ua753 quinto: die quarte pro quarto. Pomponius in atellana qu\u00e6 metui a\u017fcri-",
+        "response": "quinte p quinto: die quarte pro quarto. Pomponius in atellana qu\u00e6 metui afcri",
+        "wer": 15.384615384615385,
+        "cer": 3.8461538461538463,
+        "accuracy": 96.15384615384616,
+        "time": 1.437110185623169
     }
 }

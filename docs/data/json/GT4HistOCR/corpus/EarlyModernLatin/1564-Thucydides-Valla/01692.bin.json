@@ -134,5 +134,13 @@
         "cer": 7.575757575757576,
         "accuracy": 93.93939393939394,
         "time": 15.204158067703247
+    },
+    "cogito-v2-109b": {
+        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
+        "response": "dimittant,qu\u00e0m fe\u00ecter\u00f9 receperint.Etiam colleg\u00e6 cius uenerant,",
+        "wer": 80.0,
+        "cer": 12.121212121212121,
+        "accuracy": 87.87878787878788,
+        "time": 2.427536964416504
     }
 }

@@ -134,5 +134,13 @@
         "cer": 8.19672131147541,
         "accuracy": 91.93548387096774,
         "time": 175.28606843948364
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "fet modeftiax ipforum uim affcrrc. Sed freti diuuitijs cum alia",
+        "wer": 60.0,
+        "cer": 14.754098360655737,
+        "accuracy": 85.71428571428571,
+        "time": 1.38969087600708
     }
 }

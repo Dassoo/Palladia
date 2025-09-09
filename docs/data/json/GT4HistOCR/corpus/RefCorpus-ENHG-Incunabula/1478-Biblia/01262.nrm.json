@@ -110,5 +110,13 @@
         "cer": 13.953488372093023,
         "accuracy": 88.37209302325581,
         "time": 2.126254081726074
+    },
+    "cogito-v2-109b": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "v\u00f1 van der tymmeringe des tempels, vnde v\u0101",
+        "wer": 33.33333333333333,
+        "cer": 6.976744186046512,
+        "accuracy": 93.02325581395348,
+        "time": 1.6358568668365479
     }
 }

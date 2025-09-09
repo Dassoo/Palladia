@@ -126,5 +126,13 @@
         "cer": 7.0588235294117645,
         "accuracy": 92.94117647058823,
         "time": 2.177962064743042
+    },
+    "cogito-v2-109b": {
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id:quod afpirationis nota erat pro litt\u00e9ra.s.acciper\u00e9t & traducer\u00e9t:&i maxime quia",
+        "wer": 57.14285714285714,
+        "cer": 10.588235294117647,
+        "accuracy": 90.58823529411765,
+        "time": 1.4767959117889404
     }
 }

@@ -110,5 +110,13 @@
         "cer": 15.217391304347828,
         "accuracy": 84.78260869565217,
         "time": 2.6460652351379395
+    },
+    "cogito-v2-109b": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius.rn legt fie als roir fie nurn begeen",
+        "wer": 66.66666666666666,
+        "cer": 21.73913043478261,
+        "accuracy": 82.6086956521739,
+        "time": 1.7345950603485107
     }
 }

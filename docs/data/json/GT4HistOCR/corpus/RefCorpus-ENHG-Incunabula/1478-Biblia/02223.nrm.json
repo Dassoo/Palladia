@@ -110,5 +110,13 @@
         "cer": 23.809523809523807,
         "accuracy": 77.27272727272727,
         "time": 2.027444362640381
+    },
+    "cogito-v2-109b": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und alls eme boe here ghyebaeden hadde :vinde",
+        "wer": 62.5,
+        "cer": 16.666666666666664,
+        "accuracy": 86.66666666666667,
+        "time": 3.071915864944458
     }
 }

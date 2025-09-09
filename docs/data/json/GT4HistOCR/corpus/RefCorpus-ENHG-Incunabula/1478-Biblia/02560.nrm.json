@@ -110,5 +110,13 @@
         "cer": 6.666666666666667,
         "accuracy": 93.33333333333333,
         "time": 2.5177669525146484
+    },
+    "cogito-v2-109b": {
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "de is groter den dat ick wordenen kan gnade.",
+        "wer": 30.0,
+        "cer": 6.666666666666667,
+        "accuracy": 93.33333333333333,
+        "time": 2.2761809825897217
     }
 }

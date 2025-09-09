@@ -110,5 +110,13 @@
         "cer": 10.869565217391305,
         "accuracy": 89.13043478260869,
         "time": 3.418674945831299
+    },
+    "cogito-v2-109b": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "wolten auch wol das fie criften waren. vnd das",
+        "wer": 50.0,
+        "cer": 15.217391304347828,
+        "accuracy": 86.95652173913044,
+        "time": 2.3707079887390137
     }
 }

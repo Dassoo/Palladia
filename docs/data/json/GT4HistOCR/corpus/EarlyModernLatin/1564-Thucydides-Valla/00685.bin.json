@@ -134,5 +134,13 @@
         "cer": 9.67741935483871,
         "accuracy": 92.1875,
         "time": 75.14634108543396
+    },
+    "cogito-v2-109b": {
+        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
+        "response": "nionis errore potius inept\u00e8 non fecimus, id nunc contrario au~",
+        "wer": 20.0,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 2.197672128677368
     }
 }

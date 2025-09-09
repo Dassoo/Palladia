@@ -126,5 +126,13 @@
         "cer": 17.97752808988764,
         "accuracy": 82.02247191011236,
         "time": 2.4068589210510254
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "fonus exigi uidebat: q\u0304q p.c.l\u00edam pr\u00e6ftari potuerit.Po\u017ft ha\u017f uero nonnulli ex no\u017ftris",
+        "wer": 66.66666666666666,
+        "cer": 14.606741573033707,
+        "accuracy": 86.51685393258427,
+        "time": 1.920701026916504
     }
 }

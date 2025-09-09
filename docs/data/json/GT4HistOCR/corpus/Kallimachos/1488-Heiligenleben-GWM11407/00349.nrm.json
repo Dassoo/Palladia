@@ -110,5 +110,13 @@
         "cer": 25.64102564102564,
         "accuracy": 74.35897435897436,
         "time": 3.331881046295166
+    },
+    "cogito-v2-109b": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "GarnachBam Euftachius an Dy Hat Ga er",
+        "wer": 75.0,
+        "cer": 20.51282051282051,
+        "accuracy": 79.48717948717949,
+        "time": 2.154873847961426
     }
 }

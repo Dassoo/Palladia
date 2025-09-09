@@ -110,5 +110,13 @@
         "cer": 22.22222222222222,
         "accuracy": 84.44444444444444,
         "time": 2.0894668102264404
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
+        "response": "fonie\u017fchallaSlemegheaders \nbroetetten:opkemyneet",
+        "wer": 100.0,
+        "cer": 44.44444444444444,
+        "accuracy": 68.75,
+        "time": 1.8936550617218018
     }
 }

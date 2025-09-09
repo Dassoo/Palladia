@@ -126,5 +126,13 @@
         "cer": 26.923076923076923,
         "accuracy": 75.64102564102564,
         "time": 3.5243802070617676
+    },
+    "cogito-v2-109b": {
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "afpirarione adinlicit:q; ux quodammodo mollior\u00e9 4.ps.uolubiliioremq; fon\u016b haib\u00ed:",
+        "wer": 100.0,
+        "cer": 29.48717948717949,
+        "accuracy": 76.25,
+        "time": 2.755789041519165
     }
 }

@@ -110,5 +110,13 @@
         "cer": 40.0,
         "accuracy": 62.0,
         "time": 2.3991200923919678
+    },
+    "cogito-v2-109b": {
+        "gt": "dage \u017fines leu\u1ebddes wer\u1ebd \u00b7 vij \u00b7 h\u0169dert v\u00f1 \u00b7 lxxvij",
+        "response": "dagefines leu\u00ebdes wer\u0113\u00b7vij\u00b7h\u016bd\u0304er t\u1ee7\u00b7lxxxvij",
+        "wer": 100.0,
+        "cer": 32.0,
+        "accuracy": 72.0,
+        "time": 2.1060574054718018
     }
 }

@@ -126,5 +126,13 @@
         "cer": 8.064516129032258,
         "accuracy": 91.93548387096774,
         "time": 2.462885856628418
+    },
+    "cogito-v2-109b": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius:in.s.ut parco par\u017fi:quin & peperci.",
+        "wer": 50.0,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 2.0882909297943115
     }
 }

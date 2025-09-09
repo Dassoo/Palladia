@@ -126,5 +126,13 @@
         "cer": 14.814814814814813,
         "accuracy": 86.74698795180723,
         "time": 2.246788740158081
+    },
+    "cogito-v2-109b": {
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "n\u00e6re.Sane cum xoles fpiritus afper.ratem effugr\u00e9es ubiq; loco afpirationis ipf\u0169",
+        "wer": 72.72727272727273,
+        "cer": 14.814814814814813,
+        "accuracy": 85.18518518518519,
+        "time": 2.074704885482788
     }
 }

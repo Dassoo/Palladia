@@ -134,5 +134,13 @@
         "cer": 1.5384615384615385,
         "accuracy": 98.46153846153847,
         "time": 34.25539493560791
+    },
+    "cogito-v2-109b": {
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati fumus,ac ne fic quidem i\u017fta pro manife\u017ftis",
+        "wer": 27.27272727272727,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 3.708881139755249
     }
 }

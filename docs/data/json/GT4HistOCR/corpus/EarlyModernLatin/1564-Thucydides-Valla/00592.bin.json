@@ -134,5 +134,13 @@
         "cer": 0.0,
         "accuracy": 100.0,
         "time": 28.64932608604431
+    },
+    "cogito-v2-109b": {
+        "gt": "bentibus, Athenien\u017fes proce\u017f\u017ferunt, atque in hunc modum lo-",
+        "response": "bentibus, Athenienfes procefferunt, atque in hunc modum lo.",
+        "wer": 37.5,
+        "cer": 6.779661016949152,
+        "accuracy": 93.22033898305084,
+        "time": 1.4754681587219238
     }
 }

@@ -134,5 +134,13 @@
         "cer": 1.639344262295082,
         "accuracy": 98.36065573770492,
         "time": 11.78579306602478
+    },
+    "cogito-v2-109b": {
+        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
+        "response": "fi Athenienfes aduerfus Potid\u00e6am irent, fe Atticam inuafuros,",
+        "wer": 62.5,
+        "cer": 8.19672131147541,
+        "accuracy": 91.80327868852459,
+        "time": 1.7874510288238525
     }
 }

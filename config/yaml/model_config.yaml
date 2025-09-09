@@ -109,7 +109,7 @@ models:
   link: https://docs.anthropic.com/en/docs/about-claude/models/overview
 - provider: xAI
   id: grok-4-0709
-  enabled: true
+  enabled: false
   api_key_env: XAI_API_KEY
   standard_name: grok-4
   link: https://docs.x.ai/docs/overview
@@ -154,6 +154,30 @@ models:
   api_key_env: OPENROUTER_API_KEY
   standard_name: ernie-4.5-vl-28b-a3b
   link: https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b
+- provider: OpenRouter
+  id: stepfun-ai/step3
+  enabled: false
+  api_key_env: OPENROUTER_API_KEY
+  standard_name: step3s
+  link: https://openrouter.ai/stepfun-ai/step3
+- provider: OpenRouter
+  id: deepcogito/cogito-v2-preview-llama-109b-moe
+  enabled: true
+  api_key_env: OPENROUTER_API_KEY
+  standard_name: cogito-v2-109b
+  link: https://openrouter.ai/deepcogito/cogito-v2-preview-llama-109b-moe
+- provider: OpenRouter
+  id: openrouter/sonoma-sky-alpha
+  enabled: false
+  api_key_env: OPENROUTER_API_KEY
+  standard_name: sonoma-sky-alpha
+  link: https://openrouter.ai/openrouter/sonoma-sky-alpha
+- provider: OpenRouter
+  id: openrouter/sonoma-dusk-alpha
+  enabled: false
+  api_key_env: OPENROUTER_API_KEY
+  standard_name: sonoma-dusk-alpha
+  link: https://openrouter.ai/openrouter/sonoma-dusk-alpha
 - provider: Nebius
   id: Qwen/Qwen2.5-VL-72B-Instruct
   enabled: false

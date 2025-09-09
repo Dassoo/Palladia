@@ -126,5 +126,13 @@
         "cer": 10.526315789473683,
         "accuracy": 89.47368421052632,
         "time": 2.4131739139556885
+    },
+    "cogito-v2-109b": {
+        "gt": "mordeo n\u00f5 momordi cum o: \u017fed c\u0169 e memordi dicebant. Q. Ennius in \u017fatyris me\u0169",
+        "response": "mordeo n\u00f4 momordi cum o:fed c\u00fb e memordi dicebant.Q. Ennius in fatyris meu",
+        "wer": 53.333333333333336,
+        "cer": 9.210526315789473,
+        "accuracy": 90.78947368421053,
+        "time": 1.684471845626831
     }
 }

@@ -110,5 +110,13 @@
         "cer": 29.545454545454547,
         "accuracy": 72.72727272727273,
         "time": 2.4697039127349854
+    },
+    "cogito-v2-109b": {
+        "gt": "nen. vnd das er \u017fein keu\u017fcheyt m\u00f6cht beh\u00fct\u1ebd.",
+        "response": "nen.rnd \u017fas er \u017fein Feufcheyt ni\u1ecdcht Be\u1e23\u00fct\u00eb.",
+        "wer": 75.0,
+        "cer": 25.0,
+        "accuracy": 77.27272727272727,
+        "time": 1.9109680652618408
     }
 }
