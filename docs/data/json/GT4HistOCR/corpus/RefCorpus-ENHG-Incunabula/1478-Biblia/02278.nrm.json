@@ -118,5 +118,13 @@
         "cer": 7.317073170731707,
         "accuracy": 92.85714285714286,
         "time": 1.9467651844024658
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ackerman Ende dat ge\u017fchach na vele daghen",
+        "response": "ackerman Ende dat gelschach na vele daghen",
+        "wer": 14.285714285714285,
+        "cer": 4.878048780487805,
+        "accuracy": 95.23809523809523,
+        "time": 2.635329008102417
     }
 }

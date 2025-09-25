@@ -134,5 +134,13 @@
         "cer": 12.048192771084338,
         "accuracy": 87.95180722891565,
         "time": 1.9541971683502197
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "a\u017fpiratione \u017fcribenda \u017funt: ut Pyra lyra \u017fyria: & \u017fimiles. Quod quia a doctis o\u0129bus",
+        "response": "aspiratione \u017fcribenda \u017funt: ut Pyra lyra fyria: & \u017fimiles. Quod quia a doctis oibus",
+        "wer": 21.428571428571427,
+        "cer": 3.614457831325301,
+        "accuracy": 96.3855421686747,
+        "time": 19.2207670211792
     }
 }

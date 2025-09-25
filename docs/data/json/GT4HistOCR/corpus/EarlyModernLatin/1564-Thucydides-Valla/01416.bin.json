@@ -142,5 +142,13 @@
         "cer": 3.278688524590164,
         "accuracy": 96.72131147540983,
         "time": 2.342499017715454
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ne\u017fo. Qui et\u017fi contra Medos tunc boni fuerunt, nunc quod erga",
+        "response": "ne\u017fo.Qui et\u017fi contra Medos tunc boni fuerunt,nunc quod erga",
+        "wer": 36.36363636363637,
+        "cer": 3.278688524590164,
+        "accuracy": 96.72131147540983,
+        "time": 2.846479892730713
     }
 }

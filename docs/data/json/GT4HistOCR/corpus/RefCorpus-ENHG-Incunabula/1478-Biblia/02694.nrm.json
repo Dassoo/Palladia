@@ -118,5 +118,13 @@
         "cer": 29.78723404255319,
         "accuracy": 74.46808510638297,
         "time": 1.891211986541748
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "in eren leue \u00b7 vnde oek nv in deme dode en \u017fint",
+        "response": "in eren leue vnde oek nv in deme dode en \u017fint",
+        "wer": 8.333333333333332,
+        "cer": 4.25531914893617,
+        "accuracy": 95.74468085106383,
+        "time": 2.456418991088867
     }
 }

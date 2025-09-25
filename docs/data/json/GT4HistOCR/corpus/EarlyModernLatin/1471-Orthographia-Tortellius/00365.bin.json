@@ -134,5 +134,13 @@
         "cer": 16.867469879518072,
         "accuracy": 85.54216867469879,
         "time": 1.852513074874878
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non a\u0169t \u017fic in aliis.",
+        "response": "dicatur retor uel Pyrrus non minus intellectus manet integer: non autlic in a!1:s.",
+        "wer": 21.428571428571427,
+        "cer": 7.228915662650602,
+        "accuracy": 92.7710843373494,
+        "time": 1.9758968353271484
     }
 }

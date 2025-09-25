@@ -134,5 +134,13 @@
         "cer": 5.405405405405405,
         "accuracy": 94.66666666666667,
         "time": 2.5127358436584473
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "penitus a\u017fpiratione: nec eam plenam po\u017f\u017fidet: ut \u017fimili modo de b & d e\u017f\u017fe",
+        "response": "penitus afpiratione:nec eam plenam po\u017f\u017fidet:ut \u017fimili modo de b & d e\u017f\u017fe",
+        "wer": 28.57142857142857,
+        "cer": 4.054054054054054,
+        "accuracy": 95.94594594594594,
+        "time": 2.5362601280212402
     }
 }

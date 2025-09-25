@@ -118,5 +118,13 @@
         "cer": 32.55813953488372,
         "accuracy": 72.09302325581395,
         "time": 1.6286218166351318
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "vle\u017fch Mer gy\u017fter\u1ebd v\u00f1 eergy\u017fter\u1ebd do Saul ko",
+        "response": "vle\u017fch Mer gystere vn eergystere do Saulko",
+        "wer": 62.5,
+        "cer": 13.953488372093023,
+        "accuracy": 86.04651162790698,
+        "time": 2.163422107696533
     }
 }

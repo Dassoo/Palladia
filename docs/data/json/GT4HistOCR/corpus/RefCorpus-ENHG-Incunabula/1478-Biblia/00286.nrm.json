@@ -118,5 +118,13 @@
         "cer": 4.878048780487805,
         "accuracy": 95.1219512195122,
         "time": 1.960468053817749
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "hebbet is apenbare ghele\u017fen voer my v\u00f1 v\u00e3",
+        "response": "hebbet is apenbare ghelefen voer my vn v\u00e3",
+        "wer": 25.0,
+        "cer": 4.878048780487805,
+        "accuracy": 95.1219512195122,
+        "time": 1.9865291118621826
     }
 }

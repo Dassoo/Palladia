@@ -118,5 +118,13 @@
         "cer": 21.73913043478261,
         "accuracy": 78.26086956521739,
         "time": 1.9829518795013428
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "chor: do \u017fteckede Oza vth \u017fijn hant tho der ar",
+        "response": "choe:do \u017ftreckede Oza vth \u017fijn hant tho der ae",
+        "wer": 40.0,
+        "cer": 8.695652173913043,
+        "accuracy": 93.47826086956522,
+        "time": 4.375225067138672
     }
 }

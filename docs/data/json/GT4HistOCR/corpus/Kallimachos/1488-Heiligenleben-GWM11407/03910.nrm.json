@@ -118,5 +118,13 @@
         "cer": 15.909090909090908,
         "accuracy": 84.0909090909091,
         "time": 2.3282790184020996
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fech\u017fen. da erwacht der hert\u0292og vnd trachtet",
+        "response": "\u017fech\u017fen. Da erwacht Der Hertzog vnd trachtet",
+        "wer": 42.857142857142854,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 3.9108810424804688
     }
 }

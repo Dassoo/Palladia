@@ -142,5 +142,13 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 2.197672128677368
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
+        "response": "nionis errore potius inept\u00e8 non fecimus, id nunc contrari\u00f2 au-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.364206075668335
     }
 }

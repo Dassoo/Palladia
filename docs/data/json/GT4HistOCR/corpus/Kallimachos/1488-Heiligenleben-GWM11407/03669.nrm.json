@@ -118,5 +118,13 @@
         "cer": 20.930232558139537,
         "accuracy": 79.06976744186046,
         "time": 2.2303082942962646
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "vnd au\u00df der wand gieng der b\ua75bunn das dy cri",
+        "response": "vnd auf der wand gieng der brunn das dy. cri",
+        "wer": 30.0,
+        "cer": 6.976744186046512,
+        "accuracy": 93.18181818181817,
+        "time": 2.4277689456939697
     }
 }

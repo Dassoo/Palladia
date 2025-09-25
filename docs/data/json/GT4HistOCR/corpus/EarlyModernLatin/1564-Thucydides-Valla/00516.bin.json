@@ -142,5 +142,13 @@
         "cer": 10.95890410958904,
         "accuracy": 90.54054054054053,
         "time": 1.655447006225586
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "tum e\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe. Et licet homi- 40",
+        "response": "tum c\u017f\u017fe manife\u017fti\u017fsimis \u017fignis ita \u017fe uetera habui\u017f\u017fe.Et licet homi\u00b7 40\u00b7",
+        "wer": 41.66666666666667,
+        "cer": 5.47945205479452,
+        "accuracy": 95.8904109589041,
+        "time": 2.5236291885375977
     }
 }

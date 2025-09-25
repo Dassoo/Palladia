@@ -142,5 +142,13 @@
         "cer": 16.129032258064516,
         "accuracy": 84.84848484848484,
         "time": 1.542201042175293
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Hoc autem plebi\u017fcitum \u017f\u0153dera e\u017f\u017fe rupta, factum e\u017ft quatuorde-",
+        "response": "Hoc autem plebificitum f\u0153dera effe rupta, factum e\u017ft quatuorde-",
+        "wer": 33.33333333333333,
+        "cer": 8.064516129032258,
+        "accuracy": 92.06349206349206,
+        "time": 2.3912911415100098
     }
 }

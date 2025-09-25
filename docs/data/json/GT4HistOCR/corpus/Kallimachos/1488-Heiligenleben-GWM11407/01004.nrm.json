@@ -118,5 +118,13 @@
         "cer": 28.888888888888886,
         "accuracy": 71.11111111111111,
         "time": 1.7697627544403076
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "nach f\u016fr der feind in dye hert\u0292ogin dy \u017fch\ua75bey",
+        "response": "nach f\u00fcr der feind in dye hertzogin dy schrey",
+        "wer": 33.33333333333333,
+        "cer": 8.88888888888889,
+        "accuracy": 91.11111111111111,
+        "time": 3.7824718952178955
     }
 }

@@ -142,5 +142,13 @@
         "cer": 16.666666666666664,
         "accuracy": 85.0,
         "time": 1.7770791053771973
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "cape\u017f\u017fentes. Quippe uerebantur pr\u00e6fecti, Athenien\u017fium pr\u00e6ce-",
+        "response": "capellentes. Quippe uerebantur pr\u00e6fecti, Athenienfium pr\u00e6ce-",
+        "wer": 33.33333333333333,
+        "cer": 5.0,
+        "accuracy": 95.0,
+        "time": 2.300772190093994
     }
 }

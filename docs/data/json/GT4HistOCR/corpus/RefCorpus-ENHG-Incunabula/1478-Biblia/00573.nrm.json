@@ -118,5 +118,13 @@
         "cer": 13.636363636363635,
         "accuracy": 86.36363636363636,
         "time": 2.2118289470672607
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Men de \u017fone y\u017frahel pre\u017ftere vnde leuiten v\u00f1",
+        "response": "Men de fone y\u017frahel pre\u017ftere vnde leuiten v\u00f1",
+        "wer": 12.5,
+        "cer": 2.272727272727273,
+        "accuracy": 97.72727272727273,
+        "time": 2.442479133605957
     }
 }

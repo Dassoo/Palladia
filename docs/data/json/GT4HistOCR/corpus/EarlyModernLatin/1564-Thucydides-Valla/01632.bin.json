@@ -142,5 +142,13 @@
         "cer": 11.29032258064516,
         "accuracy": 89.0625,
         "time": 2.4651520252227783
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u0169 cum illis ad mouen-",
+        "response": "pal\u00e0m legatione mi\u017f\u017fa, \u017fed cl\u00e0m non minim\u00f9m cum illis ad mouen-",
+        "wer": 9.090909090909092,
+        "cer": 3.225806451612903,
+        "accuracy": 96.82539682539682,
+        "time": 2.5735859870910645
     }
 }

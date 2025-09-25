@@ -142,5 +142,13 @@
         "cer": 4.918032786885246,
         "accuracy": 95.16129032258065,
         "time": 1.4830327033996582
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "response": "tatis, & prudenti\u00e6 gratia, qui principatu quem habemus potia-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.1874377727508545
     }
 }

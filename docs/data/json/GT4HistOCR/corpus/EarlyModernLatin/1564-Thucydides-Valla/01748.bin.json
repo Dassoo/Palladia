@@ -142,5 +142,13 @@
         "cer": 9.333333333333334,
         "accuracy": 92.0,
         "time": 2.121654987335205
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "riti\u00e6 tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "response": "ritia tribut\u0169 e\u017ft. Itaque non licuit ei diutius pr\u0119e\u017f\u017fe populo. Prim\u00f9m enim",
+        "wer": 8.333333333333332,
+        "cer": 1.3333333333333335,
+        "accuracy": 98.66666666666667,
+        "time": 2.5058679580688477
     }
 }

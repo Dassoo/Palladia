@@ -118,5 +118,13 @@
         "cer": 6.976744186046512,
         "accuracy": 93.02325581395348,
         "time": 1.6358568668365479
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "v\u00f1 van der tymmeringe des tempels \u00b7 vnde v\u00e3",
+        "response": "vn van der tymmeringe des tempels. vnde v\u0101",
+        "wer": 44.44444444444444,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 1.8069510459899902
     }
 }

@@ -134,5 +134,13 @@
         "cer": 13.414634146341465,
         "accuracy": 87.8048780487805,
         "time": 1.975250005722046
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fcribendam e\u017f\u017fe: ut karthago kaput: c\u0169 te\u017fte Quintiliano \u017fit. c. lr\u0303a qu\u00e6 ad omnes",
+        "response": "\u017fcribendam e\u017f\u017fe: ut karthago kapur: c\u016b te\u017fte Quintiliano \u017fit.c.l\u00eda qu\u00e6 ad omnes",
+        "wer": 35.714285714285715,
+        "cer": 7.317073170731707,
+        "accuracy": 92.6829268292683,
+        "time": 4.001205921173096
     }
 }

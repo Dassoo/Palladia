@@ -118,5 +118,13 @@
         "cer": 16.666666666666664,
         "accuracy": 86.66666666666667,
         "time": 3.071915864944458
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "uid alls eme de here ghebaeden hadde: vnde",
+        "response": "und als eme de here ghebaeden hadde: vn de",
+        "wer": 50.0,
+        "cer": 7.142857142857142,
+        "accuracy": 95.23809523809523,
+        "time": 2.526313066482544
     }
 }

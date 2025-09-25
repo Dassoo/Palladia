@@ -118,5 +118,13 @@
         "cer": 8.695652173913043,
         "accuracy": 91.30434782608695,
         "time": 2.4184720516204834
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich \u0292u",
+        "response": "wie vnmen\u017fchlich i\u017ft den iuden das \u017fie \u017fich zu",
+        "wer": 11.11111111111111,
+        "cer": 2.1739130434782608,
+        "accuracy": 97.82608695652173,
+        "time": 4.491540193557739
     }
 }

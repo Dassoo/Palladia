@@ -118,5 +118,13 @@
         "cer": 32.0,
         "accuracy": 72.0,
         "time": 2.1060574054718018
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "dage \u017fines leu\u1ebddes wer\u1ebd \u00b7 vij \u00b7 h\u0169dert v\u00f1 \u00b7 lxxvij",
+        "response": "dage hines leu\u0113des were\u00b7vij\u00b7h\u016bdert v\u00f1\u00b7lxxvij",
+        "wer": 90.9090909090909,
+        "cer": 20.0,
+        "accuracy": 80.0,
+        "time": 4.397516965866089
     }
 }

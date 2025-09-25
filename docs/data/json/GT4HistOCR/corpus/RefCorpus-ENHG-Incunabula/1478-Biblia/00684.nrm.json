@@ -118,5 +118,13 @@
         "cer": 44.44444444444444,
         "accuracy": 68.75,
         "time": 1.8936550617218018
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fone \u017fchall alle weghe broet etten vppe myner",
+        "response": "fon\u0113 \u017fchall alle wegh\u0113 broet etten \u00b7 vppe mynet",
+        "wer": 50.0,
+        "cer": 13.333333333333334,
+        "accuracy": 87.2340425531915,
+        "time": 2.379570960998535
     }
 }

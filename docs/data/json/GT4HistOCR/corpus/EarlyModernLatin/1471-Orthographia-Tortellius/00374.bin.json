@@ -134,5 +134,13 @@
         "cer": 10.0,
         "accuracy": 92.5,
         "time": 1.980621099472046
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ratione apud gr\u00e6cos & no\u017ftros. Nam cum apud eos te\u017fte Quintiliano libro. XII. de",
+        "response": "ratione apud gr\u00e6cos & no\u017ftros. Nam cum apud eos te\u017fte Quintiliano libro.xii.de",
+        "wer": 21.428571428571427,
+        "cer": 6.25,
+        "accuracy": 93.75,
+        "time": 2.388152837753296
     }
 }

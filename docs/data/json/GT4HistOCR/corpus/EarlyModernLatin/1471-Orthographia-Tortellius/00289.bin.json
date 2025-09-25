@@ -134,5 +134,13 @@
         "cer": 6.451612903225806,
         "accuracy": 93.54838709677419,
         "time": 2.0882909297943115
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "duxi noceo noxa noxius: in. s. ut parco par\u017fi: quin & peperci.",
+        "response": "duxi noceo noxa noxius: in.s.ut parco par\u017fi: quin & peperci.",
+        "wer": 25.0,
+        "cer": 3.225806451612903,
+        "accuracy": 96.7741935483871,
+        "time": 2.5369982719421387
     }
 }

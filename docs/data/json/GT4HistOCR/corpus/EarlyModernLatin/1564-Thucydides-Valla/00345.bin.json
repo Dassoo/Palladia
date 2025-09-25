@@ -142,5 +142,13 @@
         "cer": 6.153846153846154,
         "accuracy": 93.84615384615384,
         "time": 2.552320957183838
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "deficiant. At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "response": "deficiant.At Potid\u00e6en\u017fes mi\u017fsis ad Athenien\u017fes legatis, \u017fi fort\u00e8",
+        "wer": 22.22222222222222,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 28.530086278915405
     }
 }

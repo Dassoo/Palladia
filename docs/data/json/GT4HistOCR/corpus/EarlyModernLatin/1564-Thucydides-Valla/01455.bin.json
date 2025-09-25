@@ -142,5 +142,13 @@
         "cer": 12.307692307692308,
         "accuracy": 87.6923076923077,
         "time": 1.5145411491394043
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "response": "fam. V\u017fque ade\u00f2 (ut breui complectar) \u017fi quis dicat illos hoc in-",
+        "wer": 8.333333333333332,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 2.184462785720825
     }
 }

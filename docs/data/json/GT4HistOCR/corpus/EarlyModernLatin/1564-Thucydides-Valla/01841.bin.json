@@ -142,5 +142,13 @@
         "cer": 16.176470588235293,
         "accuracy": 85.29411764705883,
         "time": 1.7163300514221191
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "altrin\u017fecus \u017fedentibus, h\u00e6c \u00e6\u017ftas extracta e\u017ft, appet\u1ebdteq\u0301; iam hye-",
+        "response": "altrinfecus fcdentibus,h\u00e6c altas extracta e\u017ft,appctcte\u03c6 iam hye-",
+        "wer": 66.66666666666666,
+        "cer": 17.647058823529413,
+        "accuracy": 82.35294117647058,
+        "time": 2.236067056655884
     }
 }

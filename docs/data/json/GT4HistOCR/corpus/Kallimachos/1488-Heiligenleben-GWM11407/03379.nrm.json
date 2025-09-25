@@ -118,5 +118,13 @@
         "cer": 18.181818181818183,
         "accuracy": 82.22222222222221,
         "time": 1.6080100536346436
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "mit du mich vberwinde\u017ft. Da \u017fp\ua75bach er w\u0292 i\u017ft",
+        "response": "mit du mich \u00fcberwindest. Da sprach er wz ist",
+        "wer": 44.44444444444444,
+        "cer": 13.636363636363635,
+        "accuracy": 86.36363636363636,
+        "time": 4.14874005317688
     }
 }

@@ -142,5 +142,13 @@
         "cer": 2.0408163265306123,
         "accuracy": 97.95918367346938,
         "time": 1.9076192378997803
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "interpretis. Nec ego hoc in probrum Laurentij Val",
+        "response": "interpretis. Nec ego hoc in probrum Laurentij Val.",
+        "wer": 12.5,
+        "cer": 2.0408163265306123,
+        "accuracy": 98.0,
+        "time": 2.5033252239227295
     }
 }

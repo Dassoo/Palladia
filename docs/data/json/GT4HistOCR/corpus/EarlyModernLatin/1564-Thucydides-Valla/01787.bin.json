@@ -142,5 +142,13 @@
         "cer": 37.5,
         "accuracy": 66.66666666666666,
         "time": 1.4092159271240234
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "fuerunt.",
+        "response": "fuerung",
+        "wer": 100.0,
+        "cer": 25.0,
+        "accuracy": 75.0,
+        "time": 29.145364999771118
     }
 }

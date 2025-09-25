@@ -118,5 +118,13 @@
         "cer": 22.727272727272727,
         "accuracy": 80.0,
         "time": 2.407482862472534
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fihte. Da \u017fp\ua75bach der heylig gey\u017ft \u0292u im. Nym",
+        "response": "\u017fihte. Da \u017fprach der heylig geyst zu im. Vnym",
+        "wer": 44.44444444444444,
+        "cer": 11.363636363636363,
+        "accuracy": 88.88888888888889,
+        "time": 3.1450350284576416
     }
 }

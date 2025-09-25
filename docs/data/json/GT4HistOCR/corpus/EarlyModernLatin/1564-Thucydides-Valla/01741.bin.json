@@ -142,5 +142,13 @@
         "cer": 4.411764705882353,
         "accuracy": 95.58823529411765,
         "time": 2.2523629665374756
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Primam autem grauitatis in dicendo demon\u017ftrationem hanc fecit: Pyri-",
+        "response": "Primam autem gravitatis in dicendo demonstrationem hanc fecit: Pyri-",
+        "wer": 22.22222222222222,
+        "cer": 2.941176470588235,
+        "accuracy": 97.05882352941177,
+        "time": 3.8203978538513184
     }
 }

@@ -134,5 +134,13 @@
         "cer": 3.8461538461538463,
         "accuracy": 96.15384615384616,
         "time": 1.437110185623169
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "quinte \ua753 quinto: die quarte pro quarto. Pomponius in atellana qu\u00e6 metui a\u017fcri-",
+        "response": "quinte p quinto: die quarte pro quarto. Pomponius in arellana qu\u00e6 metui afcri-",
+        "wer": 23.076923076923077,
+        "cer": 3.8461538461538463,
+        "accuracy": 96.15384615384616,
+        "time": 2.2253410816192627
     }
 }

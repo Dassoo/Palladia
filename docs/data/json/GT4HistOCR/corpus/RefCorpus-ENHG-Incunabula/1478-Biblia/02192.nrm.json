@@ -118,5 +118,13 @@
         "cer": 13.953488372093023,
         "accuracy": 86.04651162790698,
         "time": 1.680711030960083
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "vnde bunghen \u00b7 vnde vedelen vnde cymbalen \u00b7",
+        "response": "vnde bunghen\u00b7vnde wedelen vnde cymbalen\u00b7",
+        "wer": 75.0,
+        "cer": 9.30232558139535,
+        "accuracy": 90.69767441860465,
+        "time": 2.2071638107299805
     }
 }

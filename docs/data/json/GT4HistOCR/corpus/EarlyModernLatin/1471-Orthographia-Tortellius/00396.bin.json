@@ -134,5 +134,13 @@
         "cer": 13.580246913580247,
         "accuracy": 86.41975308641975,
         "time": 2.030494213104248
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "per\u017fe\ua757t\u1dd1: & inept\u0169 \ua757d re\u017fpectu \u017foni quod apud illos ex dig\u00e3ma re\u017fultabat: efflare",
+        "response": "perfeq\u1e6d:& inept\u0169 qd refpectu foni quod apud illos ex dig\u0101ma refultabat:efflare",
+        "wer": 61.53846153846154,
+        "cer": 13.580246913580247,
+        "accuracy": 86.41975308641975,
+        "time": 2.265636682510376
     }
 }

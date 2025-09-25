@@ -118,5 +118,13 @@
         "cer": 36.84210526315789,
         "accuracy": 68.29268292682927,
         "time": 1.4145970344543457
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u01b7u einem mal gieng Macharius ein lange",
+        "response": "Zu cinem mal gieng Macharius ein lange",
+        "wer": 28.57142857142857,
+        "cer": 5.263157894736842,
+        "accuracy": 94.73684210526315,
+        "time": 2.214138984680176
     }
 }

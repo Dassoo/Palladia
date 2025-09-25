@@ -142,5 +142,13 @@
         "cer": 3.225806451612903,
         "accuracy": 96.7741935483871,
         "time": 1.2631480693817139
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "tur, non patefacientes illi quidem Athenien\u017fibus, pr\u00e6tendentes",
+        "response": "tur,non patcfacientes illi quidcm Athenienfibus, pr\u00e6tendentes",
+        "wer": 71.42857142857143,
+        "cer": 6.451612903225806,
+        "accuracy": 93.54838709677419,
+        "time": 2.0666661262512207
     }
 }

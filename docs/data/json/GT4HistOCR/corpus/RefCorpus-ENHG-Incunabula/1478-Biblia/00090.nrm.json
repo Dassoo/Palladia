@@ -118,5 +118,13 @@
         "cer": 18.75,
         "accuracy": 83.33333333333334,
         "time": 1.6871511936187744
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fnade en in erem herren \u00b7 vnde \u017fe brachten de ar",
+        "response": "f. nade en in eem herren \u00b7 vnde \u017fe brachten de ar",
+        "wer": 27.27272727272727,
+        "cer": 8.333333333333332,
+        "accuracy": 93.87755102040816,
+        "time": 3.2378628253936768
     }
 }

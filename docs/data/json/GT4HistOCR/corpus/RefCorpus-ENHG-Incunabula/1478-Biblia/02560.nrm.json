@@ -118,5 +118,13 @@
         "cer": 6.666666666666667,
         "accuracy": 93.33333333333333,
         "time": 2.2761809825897217
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "de is groter den dat ick vordenen kan gnade \u00b7",
+        "response": "de is groter den dat ick worden kan gnade.",
+        "wer": 30.0,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 2.0143849849700928
     }
 }

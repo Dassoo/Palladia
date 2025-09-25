@@ -142,5 +142,13 @@
         "cer": 14.754098360655737,
         "accuracy": 85.71428571428571,
         "time": 1.38969087600708
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "response": "\u017fet mode\u017fti\u00e6 ip\u017forum uim afferre. Sed freti diuitijs c\u00f9m alia",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.550755023956299
     }
 }

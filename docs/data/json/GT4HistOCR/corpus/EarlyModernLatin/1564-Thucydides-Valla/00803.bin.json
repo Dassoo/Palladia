@@ -142,5 +142,13 @@
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 1.7357099056243896
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "baris dilap\u017fis. Po\u017ft quod omnes fer\u00e8 in urbes redierunt, nauigan-",
+        "response": "baris dilapsis. Post quod omnes fere in urbes redierunt, nauigan-",
+        "wer": 30.0,
+        "cer": 4.615384615384616,
+        "accuracy": 95.38461538461539,
+        "time": 2.488255023956299
     }
 }

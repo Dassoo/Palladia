@@ -118,5 +118,13 @@
         "cer": 18.75,
         "accuracy": 81.25,
         "time": 2.203010082244873
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "er thun \u017folt d\u0292 er got wol geuiel. da \u017fp\ua75bach er.",
+        "response": "er thun \u017folt dz er got wol geuiel.Da \u017fprach er.",
+        "wer": 36.36363636363637,
+        "cer": 8.333333333333332,
+        "accuracy": 91.66666666666666,
+        "time": 35.71179485321045
     }
 }

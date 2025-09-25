@@ -134,5 +134,13 @@
         "cer": 29.48717948717949,
         "accuracy": 76.25,
         "time": 2.755789041519165
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "a\u017fpirati\u00f5e adinuenit: qu\u00e6 quod\u00e3modo mollior\u1ebd \ua757\u1dd3. ps. uolubilioremq; \u017fon\u0169 hab&:",
+        "response": "a\u017fpiratioe adinuicinit:qu\u00e6 quodammodo mollior\u00e9 q.ps.uolubilioremq; fon\u0169 habi:",
+        "wer": 100.0,
+        "cer": 17.94871794871795,
+        "accuracy": 85.8974358974359,
+        "time": 2.5073421001434326
     }
 }

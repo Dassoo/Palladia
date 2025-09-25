@@ -118,5 +118,13 @@
         "cer": 19.148936170212767,
         "accuracy": 85.1063829787234,
         "time": 1.7627758979797363
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "idel \u017fin: mer de hyllyge \u017fchrifft is vitwendych",
+        "response": "idel \u017fin:mer de hyllyge \u017fchrift is vitwendych",
+        "wer": 37.5,
+        "cer": 4.25531914893617,
+        "accuracy": 95.74468085106383,
+        "time": 2.4955830574035645
     }
 }

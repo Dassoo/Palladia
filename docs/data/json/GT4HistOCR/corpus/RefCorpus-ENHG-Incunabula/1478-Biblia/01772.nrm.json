@@ -118,5 +118,13 @@
         "cer": 27.027027027027028,
         "accuracy": 75.67567567567568,
         "time": 1.737868070602417
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "maent \u00b7 vnde de \u017fone y\u017frahel weren yn",
+        "response": "maent\u00b7vnde de lone y\u017frahel weren yn",
+        "wer": 50.0,
+        "cer": 8.108108108108109,
+        "accuracy": 91.8918918918919,
+        "time": 2.0622799396514893
     }
 }

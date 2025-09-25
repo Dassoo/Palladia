@@ -142,5 +142,13 @@
         "cer": 12.903225806451612,
         "accuracy": 87.3015873015873,
         "time": 2.018075942993164
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "xim\u00e8 uer\u00f2 optima qu\u00e6q; tellus pr\u00e6cipu\u00e8 patiebatur a\u017fsiduas in-",
+        "response": "xim\u00e8 ucr\u00f2 optima qu\u00e6p tellus pr\u00e6cipu\u00e8 patiebatur afsiduas in\u00b7",
+        "wer": 44.44444444444444,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 2.06197190284729
     }
 }

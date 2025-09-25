@@ -142,5 +142,13 @@
         "cer": 8.064516129032258,
         "accuracy": 91.93548387096774,
         "time": 2.455538034439087
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "tran\u017feuntes prohiberentur. Corcyren\u017fes ubi colonos ac pr\u00e6\u017fidia",
+        "response": "tranfeuntes prohiberentur. Corcyrenfes ubi colonos ac pr\u00e6fidia",
+        "wer": 42.857142857142854,
+        "cer": 4.838709677419355,
+        "accuracy": 95.16129032258065,
+        "time": 2.418715000152588
     }
 }

@@ -142,5 +142,13 @@
         "cer": 6.557377049180328,
         "accuracy": 93.44262295081968,
         "time": 1.6550767421722412
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "muris urbem circundederunrt Etenim cupiditate lucrandi, & qui",
+        "response": "muris urbem circumdederunt. Etenim cupiditate lucrandi, & qui",
+        "wer": 12.5,
+        "cer": 4.918032786885246,
+        "accuracy": 96.72131147540983,
+        "time": 4.3897740840911865
     }
 }

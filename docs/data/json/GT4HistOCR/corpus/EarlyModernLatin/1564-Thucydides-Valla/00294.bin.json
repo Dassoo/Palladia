@@ -142,5 +142,13 @@
         "cer": 6.153846153846154,
         "accuracy": 93.84615384615384,
         "time": 1.5298619270324707
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "runt, Epidamnen\u017fes nullam \u017fibi uidentes \u00e0 Corcyr\u1ebd\u017fibus iniuri\u00e6 20",
+        "response": "runt,Epidamnenses nullam fibi uidentes \u00e0 Corcyrelibus iniurias 20",
+        "wer": 55.55555555555556,
+        "cer": 10.76923076923077,
+        "accuracy": 90.76923076923077,
+        "time": 2.6941299438476562
     }
 }

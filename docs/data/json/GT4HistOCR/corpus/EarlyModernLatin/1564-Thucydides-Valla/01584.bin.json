@@ -142,5 +142,13 @@
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 1.5681347846984863
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata e\u017ft,",
+        "response": "procul \u00e0 periculo aberant, non quando & nobis iuiuria illata est,",
+        "wer": 9.090909090909092,
+        "cer": 1.5384615384615385,
+        "accuracy": 98.46153846153847,
+        "time": 1.9836270809173584
     }
 }

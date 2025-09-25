@@ -134,5 +134,13 @@
         "cer": 6.024096385542169,
         "accuracy": 95.18072289156626,
         "time": 1.7425181865692139
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "rationis: uel exilitatis annotatur: Sed cum iuniores \u00e6oles te\u017fte Cen\u017forino facilius",
+        "response": "rationis: uel exilitatis annotatur:Sed cum iuniores \u00e6oles te\u017fte Cenforino facilius",
+        "wer": 27.27272727272727,
+        "cer": 2.4096385542168677,
+        "accuracy": 97.59036144578313,
+        "time": 4.827096939086914
     }
 }

@@ -134,5 +134,13 @@
         "cer": 9.090909090909092,
         "accuracy": 92.20779220779221,
         "time": 1.9677801132202148
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "nebant ip\u017fi r: ac dicebant \u03b2\u03c1\u03ae\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1F\u03ae\u03c4\u03c9\u03c1",
+        "response": "nebant ip\u017fi r:ac dicebant \u03b2\u03c1\u03b7\u0303\u03c4\u03c9\u03c1 pro rhetor: \u03b2\u03c1\u03bf\u0303\u03b4\u03bf\u03c3 pro rhodos: & non \u03c1\u03b5\u0303\u03b7\u03c4\u03c9\u03c1",
+        "wer": 35.714285714285715,
+        "cer": 9.090909090909092,
+        "accuracy": 92.40506329113924,
+        "time": 3.323288679122925
     }
 }

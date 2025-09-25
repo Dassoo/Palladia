@@ -1,4 +1,4 @@
 input:
-- path: GT4HistOCR/corpus/Kallimachos/1488-Heiligenleben-GWM11407
-  images_to_process: 2
+- path: GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia
+  images_to_process: 30
   prioritize_scanned: true

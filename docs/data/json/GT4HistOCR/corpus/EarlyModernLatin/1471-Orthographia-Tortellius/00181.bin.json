@@ -134,5 +134,13 @@
         "cer": 9.210526315789473,
         "accuracy": 90.78947368421053,
         "time": 1.684471845626831
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "mordeo n\u00f5 momordi cum o: \u017fed c\u0169 e memordi dicebant. Q. Ennius in \u017fatyris me\u0169",
+        "response": "mordeo no momordi cum o:fed c\u016b ememordi dicebant.Q.Ennius in fatyris me\u016b",
+        "wer": 73.33333333333333,
+        "cer": 11.842105263157894,
+        "accuracy": 88.1578947368421,
+        "time": 2.0632882118225098
     }
 }

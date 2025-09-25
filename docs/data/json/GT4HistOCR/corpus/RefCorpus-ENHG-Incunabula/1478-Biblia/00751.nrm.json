@@ -118,5 +118,13 @@
         "cer": 23.91304347826087,
         "accuracy": 76.08695652173914,
         "time": 1.403012990951538
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "v\u00f1 lete \u017fe los g\u00e3 \u00b7 v\u00f1 als dat gebat\u017fcopt wart",
+        "response": "v\u00f1 lete \u017fc los g\u0101\u00b7r\u00f1 als dat gebat\u017fcopt wart",
+        "wer": 36.36363636363637,
+        "cer": 10.869565217391305,
+        "accuracy": 89.13043478260869,
+        "time": 2.061021327972412
     }
 }

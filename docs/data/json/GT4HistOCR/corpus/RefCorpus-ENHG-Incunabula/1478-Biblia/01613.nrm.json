@@ -118,5 +118,13 @@
         "cer": 32.0,
         "accuracy": 68.0,
         "time": 2.0280346870422363
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017feet voer dem begyn E\u017fdre",
+        "response": "\u017fect voer win begyn E\u017fdre",
+        "wer": 40.0,
+        "cer": 16.0,
+        "accuracy": 84.0,
+        "time": 1.6113758087158203
     }
 }

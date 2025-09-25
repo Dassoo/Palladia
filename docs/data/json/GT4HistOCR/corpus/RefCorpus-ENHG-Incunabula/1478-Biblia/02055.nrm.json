@@ -118,5 +118,13 @@
         "cer": 22.5,
         "accuracy": 80.48780487804879,
         "time": 2.5071606636047363
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "by myneme wyue? By dineme heyl v\u00f1 by dyn",
+        "response": "by myneme wyuc: By dmeme heyl v\u00f1 by dyn",
+        "wer": 22.22222222222222,
+        "cer": 10.0,
+        "accuracy": 90.0,
+        "time": 2.1605920791625977
     }
 }

@@ -142,5 +142,13 @@
         "cer": 6.349206349206349,
         "accuracy": 95.23809523809523,
         "time": 1.4237949848175049
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "quod nobis contumelio\u017fum e\u017ft, tamen litigio\u017fi putamur: neq; eo-",
+        "response": "quod nobis contumelio\u017fum e\u017ft,tamen litigio\u017fi putamur:neq; co-",
+        "wer": 55.55555555555556,
+        "cer": 4.761904761904762,
+        "accuracy": 95.23809523809523,
+        "time": 16.76185393333435
     }
 }

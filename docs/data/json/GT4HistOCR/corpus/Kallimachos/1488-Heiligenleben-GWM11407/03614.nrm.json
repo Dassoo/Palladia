@@ -118,5 +118,13 @@
         "cer": 25.0,
         "accuracy": 75.0,
         "time": 3.248936891555786
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fy. vnd \u017fahen das gro\u00df wunder. da \u017fp\ua75bach der",
+        "response": "\u017fy. vnd \u017fahen das gro\u00df wunder. Da \u017fprach der",
+        "wer": 22.22222222222222,
+        "cer": 4.545454545454546,
+        "accuracy": 95.45454545454545,
+        "time": 2.234434127807617
     }
 }

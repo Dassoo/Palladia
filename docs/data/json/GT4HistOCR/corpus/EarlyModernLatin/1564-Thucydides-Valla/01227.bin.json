@@ -142,5 +142,13 @@
         "cer": 5.0,
         "accuracy": 95.08196721311475,
         "time": 2.4262490272521973
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "meam magis ne bellum liberis no\u017ftris relinquamus. Neque cre-",
+        "response": "meam magis ne bellum liberis nostris relinquamus.Neque cre-",
+        "wer": 33.33333333333333,
+        "cer": 3.3333333333333335,
+        "accuracy": 96.66666666666667,
+        "time": 2.97816801071167
     }
 }

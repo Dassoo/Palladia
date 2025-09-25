@@ -118,5 +118,13 @@
         "cer": 16.666666666666664,
         "accuracy": 83.33333333333334,
         "time": 1.8861241340637207
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Darnach kam er auff einen berg da wonet er",
+        "response": "Darnach kam er auff einen Berg da wonet er",
+        "wer": 11.11111111111111,
+        "cer": 2.380952380952381,
+        "accuracy": 97.61904761904762,
+        "time": 4.593832015991211
     }
 }

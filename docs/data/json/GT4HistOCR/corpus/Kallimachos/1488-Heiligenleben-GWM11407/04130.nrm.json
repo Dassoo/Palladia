@@ -118,5 +118,13 @@
         "cer": 11.904761904761903,
         "accuracy": 88.09523809523809,
         "time": 1.8654890060424805
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "trer Johannes vn\u0303 Paulus haben warlich er\u2e17",
+        "response": "trcr Johannes v\u00f1 Paulus haben werlich er",
+        "wer": 57.14285714285714,
+        "cer": 11.904761904761903,
+        "accuracy": 88.09523809523809,
+        "time": 2.543079137802124
     }
 }

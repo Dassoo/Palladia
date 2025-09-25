@@ -134,5 +134,13 @@
         "avg_cer": 13.822809898260436,
         "avg_accuracy": 87.83451529241985,
         "avg_time": 2.017793444069949
+    },
+    "qwen3-vl-235b-instruct": {
+        "source": "GT4HistOCR/corpus/EarlyModernLatin/1471-Orthographia-Tortellius",
+        "images": 44,
+        "avg_wer": 43.680955853415746,
+        "avg_cer": 8.723573102187594,
+        "avg_accuracy": 91.79662499213961,
+        "avg_time": 5.417665340683677
     }
 }

@@ -134,5 +134,13 @@
         "cer": 16.25,
         "accuracy": 86.25,
         "time": 1.482672929763794
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "& ab\u017fq; compo\u017fitione pr\u00e6po\u017fitionis fuit. d. mutatum in. l. n\u00e3 a \u017fedeo olim \u017fedda",
+        "response": "& ab\u017fq; compo\u017fitione pr\u00e6po\u017fitionis fuit.d.d.mutatum in.l.n\u0101 a fedeo olim fedda",
+        "wer": 57.14285714285714,
+        "cer": 10.0,
+        "accuracy": 91.25,
+        "time": 2.5984017848968506
     }
 }

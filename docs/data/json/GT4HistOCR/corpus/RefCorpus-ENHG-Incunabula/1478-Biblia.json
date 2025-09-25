@@ -118,5 +118,13 @@
         "avg_cer": 18.70820225348392,
         "avg_accuracy": 82.9537775878868,
         "avg_time": 1.8758851846059164
+    },
+    "qwen3-vl-235b-instruct": {
+        "source": "GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia",
+        "images": 30,
+        "avg_wer": 38.33261183261183,
+        "avg_cer": 9.342768175579046,
+        "avg_accuracy": 91.06995492101593,
+        "avg_time": 4.150348734855652
     }
 }

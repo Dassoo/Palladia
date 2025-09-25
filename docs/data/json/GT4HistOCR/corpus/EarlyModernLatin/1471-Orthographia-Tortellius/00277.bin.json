@@ -134,5 +134,13 @@
         "cer": 13.924050632911392,
         "accuracy": 89.87341772151899,
         "time": 1.4752702713012695
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut anti\ua757\u017f\u017fmi gr\u00e6co\ua776",
+        "response": "cum dictiones no\u017ftras: & quas ex gr\u00e6cis acceperamus: no\u017ftri ut antiqui\u017fsimi gr\u00e6corum",
+        "wer": 16.666666666666664,
+        "cer": 10.126582278481013,
+        "accuracy": 90.47619047619048,
+        "time": 4.710712194442749
     }
 }

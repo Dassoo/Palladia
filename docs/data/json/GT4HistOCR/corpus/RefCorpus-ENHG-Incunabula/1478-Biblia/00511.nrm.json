@@ -118,5 +118,13 @@
         "cer": 34.04255319148936,
         "accuracy": 68.08510638297872,
         "time": 1.7893610000610352
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "xp\u0303i be\u017fcreu\u1ebd heft \u00b7 v\u00f1 Marcus wert figurert in",
+        "response": "\u03b3\u03c1\u0304\u03c0\u03b9 be\u017fchreue he\u017ft\u00b7 v\u00f1 Marcus wert figurert in",
+        "wer": 44.44444444444444,
+        "cer": 19.148936170212767,
+        "accuracy": 83.33333333333334,
+        "time": 3.0165319442749023
     }
 }

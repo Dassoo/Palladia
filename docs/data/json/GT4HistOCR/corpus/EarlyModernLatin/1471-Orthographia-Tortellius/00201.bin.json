@@ -134,5 +134,13 @@
         "cer": 20.454545454545457,
         "accuracy": 81.81818181818183,
         "time": 1.7348718643188477
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "& non per. b. dicere & \u017fcribere compellat. Vnde te\u017fte Pri\u017fciano in. viiii. b. ante s uel",
+        "response": "& non per.b.dicere & \u017fcribere compellit. Vnde re\u017fte Prifciano in.viii.b.ante s uel",
+        "wer": 58.82352941176471,
+        "cer": 10.227272727272728,
+        "accuracy": 89.77272727272727,
+        "time": 3.33270001411438
     }
 }

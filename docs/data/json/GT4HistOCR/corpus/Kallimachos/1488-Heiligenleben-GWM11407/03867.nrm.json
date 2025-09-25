@@ -118,5 +118,13 @@
         "cer": 21.73913043478261,
         "accuracy": 82.6086956521739,
         "time": 1.7345950603485107
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "G\ua75bego\ua75bius. vn\u0303 legt \u017fie als wir \u017fie nun begeen",
+        "response": "Gregorius. v\u00f1 legt sie als wir sie nun begeen",
+        "wer": 44.44444444444444,
+        "cer": 13.043478260869565,
+        "accuracy": 86.95652173913044,
+        "time": 3.4866769313812256
     }
 }

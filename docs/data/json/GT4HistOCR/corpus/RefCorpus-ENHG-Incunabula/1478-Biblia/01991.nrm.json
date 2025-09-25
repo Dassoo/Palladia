@@ -118,5 +118,13 @@
         "cer": 15.909090909090908,
         "accuracy": 84.0909090909091,
         "time": 1.8050310611724854
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "y\u017frahels vnde Dauid \u017floech doet v\u00e3 den v\u00e3 \u017fy",
+        "response": "yfrahels vnde David floech doet v\u00e3 den v\u00e3 fy",
+        "wer": 44.44444444444444,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 4.229634046554565
     }
 }

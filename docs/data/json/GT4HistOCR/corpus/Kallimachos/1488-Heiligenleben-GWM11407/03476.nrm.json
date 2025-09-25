@@ -118,5 +118,13 @@
         "cer": 34.883720930232556,
         "accuracy": 67.44186046511628,
         "time": 1.9669928550720215
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fchach da er d\u1ebdnoch hert\u0292og was. Jn d\u1ebd trat",
+        "response": "Schach da er denoch hertzog was. In de trat",
+        "wer": 55.55555555555556,
+        "cer": 11.627906976744185,
+        "accuracy": 88.37209302325581,
+        "time": 32.89463973045349
     }
 }

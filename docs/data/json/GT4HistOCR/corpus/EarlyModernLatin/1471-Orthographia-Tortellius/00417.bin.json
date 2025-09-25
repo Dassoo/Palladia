@@ -134,5 +134,13 @@
         "cer": 18.181818181818183,
         "accuracy": 83.11688311688312,
         "time": 1.6246469020843506
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fon\u00e3s: quas ut diximus mutuari \u017folemus: quoti\u1ebds illorum no\u0129bus utimur. ne\u017fcio",
+        "response": "fon\u00e1s:quas ut diximus mutuari \u017folemus:quoti\u00e9s illorum noibus unimur. nefcio",
+        "wer": 63.63636363636363,
+        "cer": 10.38961038961039,
+        "accuracy": 89.6103896103896,
+        "time": 2.6716148853302
     }
 }

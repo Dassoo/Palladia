@@ -142,5 +142,13 @@
         "cer": 7.352941176470589,
         "accuracy": 92.64705882352942,
         "time": 1.3636066913604736
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "tutis etiam con\u017filijs diffidentes, & difficultatibus nunqu\u00e3 uos ere-",
+        "response": "tutis etiam confilijs diffidentes,& difficultatibus nunqu\u00e3 uos ere-",
+        "wer": 33.33333333333333,
+        "cer": 2.941176470588235,
+        "accuracy": 97.05882352941177,
+        "time": 40.52696895599365
     }
 }

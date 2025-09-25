@@ -118,5 +118,13 @@
         "cer": 14.285714285714285,
         "accuracy": 86.04651162790698,
         "time": 1.872140884399414
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "gades wo vyl dat noth is dat du vth geue\u017ft",
+        "response": "gades wo vyl dat noth is dat du vth geueit",
+        "wer": 10.0,
+        "cer": 2.380952380952381,
+        "accuracy": 97.61904761904762,
+        "time": 2.175320863723755
     }
 }

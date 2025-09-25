@@ -134,5 +134,13 @@
         "cer": 8.536585365853659,
         "accuracy": 91.46341463414635,
         "time": 1.6057102680206299
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "bitur: Dies hic \u017fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue te\u017fte",
+        "response": "bitur: Dies hic fextus cum nihil egi die quarte moriar fame. Sed id pr\u00e6cipue refte",
+        "wer": 13.333333333333334,
+        "cer": 3.6585365853658534,
+        "accuracy": 96.34146341463415,
+        "time": 4.611093997955322
     }
 }

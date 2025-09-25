@@ -118,5 +118,13 @@
         "cer": 16.27906976744186,
         "accuracy": 83.72093023255815,
         "time": 1.8374519348144531
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fus mit der red. vnd \u017fp\ua75bach \u0292u im Symon wes",
+        "response": "\u017fus mit der red. vnd \u017fprach zu im Symon wes",
+        "wer": 20.0,
+        "cer": 4.651162790697675,
+        "accuracy": 95.34883720930233,
+        "time": 2.020148992538452
     }
 }

@@ -134,5 +134,13 @@
         "cer": 5.88235294117647,
         "accuracy": 94.11764705882352,
         "time": 2.1771938800811768
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "tibus o\u017ftendemus.",
+        "response": "tibus oftendemus.",
+        "wer": 50.0,
+        "cer": 5.88235294117647,
+        "accuracy": 94.11764705882352,
+        "time": 1.6479113101959229
     }
 }

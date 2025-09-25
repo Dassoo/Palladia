@@ -118,5 +118,13 @@
         "cer": 35.55555555555556,
         "accuracy": 64.44444444444444,
         "time": 1.4511959552764893
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "hen. vnd da \u017fie dy \u017fpinn\u1ebdweb da vo\ua75b \u017fahen. da",
+        "response": "hen. vnd da sie dy spinn\u0113web da vor sahen. da",
+        "wer": 40.0,
+        "cer": 11.11111111111111,
+        "accuracy": 88.88888888888889,
+        "time": 2.2932708263397217
     }
 }

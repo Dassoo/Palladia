@@ -134,5 +134,13 @@
         "cer": 8.974358974358974,
         "accuracy": 91.02564102564102,
         "time": 2.5066068172454834
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "in \u017fatyra Atticus eximie \u017fi c\u0153nat inquit: Nec nullum cupias cum \u017fit tibi gobio",
+        "response": "in faryra Atticus eximie fi coenat inquit : Nec nullum cupias cum fit tibi gobio",
+        "wer": 42.857142857142854,
+        "cer": 8.974358974358974,
+        "accuracy": 91.25,
+        "time": 2.5406877994537354
     }
 }

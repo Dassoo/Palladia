@@ -134,5 +134,13 @@
         "cer": 14.814814814814813,
         "accuracy": 85.18518518518519,
         "time": 2.074704885482788
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "nare. Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u1ebdtes ubiq; loco a\u017fpirationis ip\u017f\u0169",
+        "response": "nare.Sane cum \u00e6oles \u017fpiritus a\u017fperitatem effugi\u00e9tes ubiq; loco a\u017fpirationis ip\u017fi",
+        "wer": 36.36363636363637,
+        "cer": 3.7037037037037033,
+        "accuracy": 96.29629629629629,
+        "time": 5.30986213684082
     }
 }

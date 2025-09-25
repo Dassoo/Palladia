@@ -142,5 +142,13 @@
         "cer": 11.29032258064516,
         "accuracy": 88.70967741935483,
         "time": 1.8607289791107178
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "10 iu\u017ftam habere altitudinem murum. Timuerat enim ne \u00e0 Laced\u00e6-",
+        "response": "20 iu\u017ftam habere altitudinem murum, Timucrat enim ne \u00e0 Laccda-",
+        "wer": 40.0,
+        "cer": 8.064516129032258,
+        "accuracy": 91.93548387096774,
+        "time": 8.399838924407959
     }
 }

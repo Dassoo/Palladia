@@ -134,5 +134,13 @@
         "cer": 11.11111111111111,
         "accuracy": 88.88888888888889,
         "time": 2.9996490478515625
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "s. ut \u017fpargo \u017fpar\u017fi: mergo mer\u017fi. n\u00f5n\u0169\ua757\u1dd3 in x ut rego rexi: pingo pinxi.",
+        "response": "s. ut \u017fpargo \u017fpar\u017fi: mergo mer\u017fi. n\u014dn\u016bq\u0303 in x ut rego rexi: pingo pinxi.",
+        "wer": 7.142857142857142,
+        "cer": 5.555555555555555,
+        "accuracy": 94.44444444444444,
+        "time": 2.2327277660369873
     }
 }

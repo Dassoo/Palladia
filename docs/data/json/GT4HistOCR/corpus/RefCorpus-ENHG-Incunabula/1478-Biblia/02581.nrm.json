@@ -118,5 +118,13 @@
         "cer": 7.142857142857142,
         "accuracy": 92.85714285714286,
         "time": 1.9904839992523193
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "v\u00f1 leuede na des ghebort achtehundert vnde",
+        "response": "vn leuede na des ghebort achtehundert vnde",
+        "wer": 14.285714285714285,
+        "cer": 2.380952380952381,
+        "accuracy": 97.61904761904762,
+        "time": 2.1962828636169434
     }
 }

@@ -134,5 +134,13 @@
         "cer": 12.82051282051282,
         "accuracy": 91.02564102564102,
         "time": 1.8807179927825928
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "uero \u017fibi hoc nomen datum fuit: quod apud \u00e6oles prius habebat: uidelicet. uau.",
+        "response": "uero \u017fibi hoc nomen datum fuit:quod apud \u00e6oles prius habebat:uidelicet .uau.",
+        "wer": 38.46153846153847,
+        "cer": 5.128205128205128,
+        "accuracy": 96.15384615384616,
+        "time": 4.560513019561768
     }
 }

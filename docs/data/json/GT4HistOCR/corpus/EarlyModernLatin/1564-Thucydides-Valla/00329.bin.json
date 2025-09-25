@@ -142,5 +142,13 @@
         "cer": 8.19672131147541,
         "accuracy": 91.80327868852459,
         "time": 1.7874510288238525
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fi Athenien\u017fes aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inua\u017furos,",
+        "response": "\u017fi Athenienses aduer\u017fus Potid\u00e6am irent, \u017fe Atticam inuafuros,",
+        "wer": 25.0,
+        "cer": 3.278688524590164,
+        "accuracy": 96.72131147540983,
+        "time": 2.3747100830078125
     }
 }

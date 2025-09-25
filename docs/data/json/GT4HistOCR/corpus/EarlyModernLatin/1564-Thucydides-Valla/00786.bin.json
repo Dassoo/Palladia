@@ -142,5 +142,13 @@
         "cer": 7.8125,
         "accuracy": 93.84615384615384,
         "time": 1.3191900253295898
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros refi-",
+        "response": "bello Medico audaciam. Po\u017ftularunt itaque ab eis, ne muros re\u017fi-",
+        "wer": 10.0,
+        "cer": 1.5625,
+        "accuracy": 98.4375,
+        "time": 2.6458048820495605
     }
 }

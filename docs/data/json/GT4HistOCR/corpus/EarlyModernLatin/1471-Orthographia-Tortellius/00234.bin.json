@@ -134,5 +134,13 @@
         "cer": 10.975609756097562,
         "accuracy": 90.2439024390244,
         "time": 2.0652427673339844
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "habere uidebat\u1dd1: & dig\u00e3ma ip\u017fum c\u0169 alio \u017fono in dictionibus latinis loco ph \u017fcribi",
+        "response": "habere uidcbat: & dig\u0101ma ip\u017fum c\u016b alio fono in dictionibus latinis loco ph \u017fcribi",
+        "wer": 28.57142857142857,
+        "cer": 6.097560975609756,
+        "accuracy": 93.90243902439023,
+        "time": 2.7295753955841064
     }
 }

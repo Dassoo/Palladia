@@ -142,5 +142,13 @@
         "cer": 6.0606060606060606,
         "accuracy": 93.93939393939394,
         "time": 2.030632734298706
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "99 arma in Phyreum murum inferre.",
+        "response": "99 arma in Phyr cum murum inferte.",
+        "wer": 50.0,
+        "cer": 9.090909090909092,
+        "accuracy": 91.17647058823529,
+        "time": 2.475461959838867
     }
 }

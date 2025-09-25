@@ -134,5 +134,13 @@
         "cer": 22.5,
         "accuracy": 80.0,
         "time": 1.8377130031585693
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "rationis nota de\u017fignat\u1dd1: ut \u03c1\u03ae\u03c4\u03c9\u03c1 \u03c1\u03bf\u03b4\u03bf\u03c0\u03b7 \u03c1\u03ac\u03c6\u03b1\u03bd\u03bf\u03c3: & \u017fimiles: \ua757\u1dd3obr\u1ebd cum eiu\u017fmodi",
+        "response": "racionis nota de\u017fignat: ut \u03c1\u03ae\u03c4\u03c9\u03c1 \u03c1\u03bf\u0394\u03bf\u03c0\u03b7 \u03c1\u03ac\u03c6\u03b1\u03bd\u03bf\u03c3: & \u017fimiles: q\u0303obr\u00e9 cum eiufmodi",
+        "wer": 41.66666666666667,
+        "cer": 8.75,
+        "accuracy": 91.25,
+        "time": 2.755234956741333
     }
 }

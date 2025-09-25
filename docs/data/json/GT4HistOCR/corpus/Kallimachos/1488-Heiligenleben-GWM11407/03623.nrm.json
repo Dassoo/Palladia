@@ -118,5 +118,13 @@
         "cer": 15.217391304347828,
         "accuracy": 86.95652173913044,
         "time": 2.3707079887390137
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "we\u017ft er auch wol das \u017fie cri\u017ften waren. vnd da",
+        "response": "we\u017ft er auch wol Das \u017fie cri\u017ften waren. vnd Da",
+        "wer": 20.0,
+        "cer": 4.3478260869565215,
+        "accuracy": 95.65217391304348,
+        "time": 3.110795021057129
     }
 }

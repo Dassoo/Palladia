@@ -118,5 +118,13 @@
         "cer": 8.333333333333332,
         "accuracy": 91.83673469387756,
         "time": 2.040215015411377
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "response": "en vnd be\u017ftetet \u017fy an ein erliche \u017ftat. Da gieng",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.8406341075897217
     }
 }

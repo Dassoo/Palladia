@@ -118,5 +118,13 @@
         "cer": 24.0,
         "accuracy": 76.0,
         "time": 1.6624269485473633
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "cos \u017fone \u00b7 zizara \u017fone \u00b7 thema \u017fone \u00b7 na\u017fia \u017fone \u00b7",
+        "response": ":cos lone\u00b7zizara lone\u00b7thema lone\u00b7naha lone\u00b7",
+        "wer": 100.0,
+        "cer": 28.000000000000004,
+        "accuracy": 74.0,
+        "time": 14.697263956069946
     }
 }

@@ -134,5 +134,13 @@
         "cer": 13.636363636363635,
         "accuracy": 88.63636363636364,
         "time": 4.595872163772583
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "h\u00e3c \u017fol\u00e3: \u017fed tres litteras Claudius ip\u017fe te\u017fte Cornelio Tacito prioribus nr\u0303is adiecit:",
+        "response": "In. ic fo: a: fed tres litteras Claudius ip\u017fe t\u00e6te Cornelio Tacito prioribus n\u00ees adiecit:",
+        "wer": 53.84615384615385,
+        "cer": 17.045454545454543,
+        "accuracy": 86.51685393258427,
+        "time": 2.3001630306243896
     }
 }

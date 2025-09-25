@@ -142,5 +142,13 @@
         "cer": 4.615384615384616,
         "accuracy": 95.38461538461539,
         "time": 3.708881139755249
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "uix tandem congregati \u017fumus, ac ne \u017fic quidem i\u017fta pro manife\u017ftis",
+        "response": "uix tandem congregati fumus, ac ne fic quidem ifta pro manifeftis",
+        "wer": 36.36363636363637,
+        "cer": 6.153846153846154,
+        "accuracy": 93.84615384615384,
+        "time": 2.181798219680786
     }
 }

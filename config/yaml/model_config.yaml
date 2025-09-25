@@ -162,22 +162,22 @@ models:
   link: https://openrouter.ai/stepfun-ai/step3
 - provider: OpenRouter
   id: deepcogito/cogito-v2-preview-llama-109b-moe
-  enabled: true
+  enabled: false
   api_key_env: OPENROUTER_API_KEY
   standard_name: cogito-v2-109b
   link: https://openrouter.ai/deepcogito/cogito-v2-preview-llama-109b-moe
 - provider: OpenRouter
-  id: openrouter/sonoma-sky-alpha
+  id: x-ai/grok-4-fast:free
   enabled: false
   api_key_env: OPENROUTER_API_KEY
-  standard_name: sonoma-sky-alpha
-  link: https://openrouter.ai/openrouter/sonoma-sky-alpha
+  standard_name: grok-4-fast
+  link: https://openrouter.ai/x-ai/grok-4-fast:free
 - provider: OpenRouter
-  id: openrouter/sonoma-dusk-alpha
-  enabled: false
+  id: qwen/qwen3-vl-235b-a22b-instruct
+  enabled: true
   api_key_env: OPENROUTER_API_KEY
-  standard_name: sonoma-dusk-alpha
-  link: https://openrouter.ai/openrouter/sonoma-dusk-alpha
+  standard_name: qwen3-vl-235b-instruct
+  link: https://openrouter.ai/qwen/qwen3-vl-235b-a22b-instruct
 - provider: Nebius
   id: Qwen/Qwen2.5-VL-72B-Instruct
   enabled: false

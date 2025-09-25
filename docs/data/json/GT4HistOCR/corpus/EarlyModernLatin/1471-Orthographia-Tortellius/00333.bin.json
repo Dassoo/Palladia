@@ -134,5 +134,13 @@
         "cer": 14.606741573033707,
         "accuracy": 86.51685393258427,
         "time": 1.920701026916504
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017fonus exigi uidebat\u1dd1: \ua757\u1dd3 \ua751. c. lr\u0303am pr\u00e6\u017ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "response": "fonus exigi uidebat: q p.c.lram pr\u00e6ftari potuerit. Po\u017ft has uero nonnulli ex no\u017ftris",
+        "wer": 46.666666666666664,
+        "cer": 10.112359550561797,
+        "accuracy": 89.8876404494382,
+        "time": 11.828212976455688
     }
 }

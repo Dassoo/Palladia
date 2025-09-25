@@ -142,5 +142,13 @@
         "cer": 12.121212121212121,
         "accuracy": 87.87878787878788,
         "time": 2.427536964416504
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "dimittant, qu\u00e0m \u017fe iter\u0169 receperint. Et iam colleg\u00e6 eius uenerant,",
+        "response": "dimittant,qu\u00e0m fe iter\u0169 receperint.Et iam collegx cius uencrant,",
+        "wer": 80.0,
+        "cer": 9.090909090909092,
+        "accuracy": 90.9090909090909,
+        "time": 2.572795867919922
     }
 }

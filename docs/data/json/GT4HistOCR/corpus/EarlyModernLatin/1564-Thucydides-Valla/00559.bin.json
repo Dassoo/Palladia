@@ -142,5 +142,13 @@
         "cer": 26.47058823529412,
         "accuracy": 75.0,
         "time": 1.7930738925933838
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ducerent, \u017fe i\u017fta facturos, paratosq\u0301; e\u017f\u017fe & \u017fanct\u00e8 promittere, dum",
+        "response": "ducerent,\u017fe i\u017fta facturos,paratos'& e\u017f\u017fe & \u017fanct\u00e8 promittere,dunt",
+        "wer": 60.0,
+        "cer": 11.76470588235294,
+        "accuracy": 89.70588235294117,
+        "time": 4.599097967147827
     }
 }

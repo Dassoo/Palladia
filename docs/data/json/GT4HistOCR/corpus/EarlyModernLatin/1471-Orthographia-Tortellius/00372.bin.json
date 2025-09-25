@@ -134,5 +134,13 @@
         "cer": 32.467532467532465,
         "accuracy": 74.68354430379746,
         "time": 2.2322628498077393
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ponat\u1dd1. n\u00e3m \ua757bu\u017fd\u00e3 uetu\u017fti\u017f\u017fimis in\u017fcriptionibus \u017f\u00e6pe ego c\u00f5\u017fpexi. K. DECEMB.",
+        "response": "ponat. na in qbu\u017fda ueru\u017fti\u017f\u017fimis in\u017fcriptionibus f\u00e6pe ego c\u014d\u017fpexi. K. DECEMB.",
+        "wer": 70.0,
+        "cer": 12.987012987012985,
+        "accuracy": 88.46153846153845,
+        "time": 3.8636250495910645
     }
 }

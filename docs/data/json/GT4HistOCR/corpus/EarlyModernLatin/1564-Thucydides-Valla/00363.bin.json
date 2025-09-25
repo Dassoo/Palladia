@@ -142,5 +142,13 @@
         "cer": 7.936507936507936,
         "accuracy": 92.06349206349206,
         "time": 2.694221258163452
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "response": "C\u00f9m eo nece\u017fsitatis uentum e\u017f\u017fet, ut inuicem Corinthij Athenien",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 2.4486191272735596
     }
 }

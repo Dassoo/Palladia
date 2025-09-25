@@ -118,5 +118,13 @@
         "cer": 18.181818181818183,
         "accuracy": 84.0909090909091,
         "time": 1.5967307090759277
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "den edlen \u017fchat\u0292 offenwaren der welt \u0292u ein\u1ebd",
+        "response": "Den edlen Schatz offenwaren der welt zu eine",
+        "wer": 50.0,
+        "cer": 11.363636363636363,
+        "accuracy": 88.63636363636364,
+        "time": 2.2671189308166504
     }
 }

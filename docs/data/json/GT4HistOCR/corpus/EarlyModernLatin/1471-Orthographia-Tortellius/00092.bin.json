@@ -134,5 +134,13 @@
         "cer": 10.588235294117647,
         "accuracy": 90.58823529411765,
         "time": 1.4767959117889404
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "id: quod a\u017fpirationis nota erat pro littera. s. acciper\u1ebdt & traducer\u1ebdt: & maxime quia",
+        "response": "id: quod aspirationis nota erat pro littera.s.acciper\u00e9t & traducer\u00e9t: & maxime quia",
+        "wer": 35.714285714285715,
+        "cer": 5.88235294117647,
+        "accuracy": 94.11764705882352,
+        "time": 2.733042001724243
     }
 }

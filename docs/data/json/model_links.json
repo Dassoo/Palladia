@@ -26,6 +26,6 @@
   "ernie-4.5-vl-28b-a3b": "https://openrouter.ai/baidu/ernie-4.5-vl-28b-a3b",
   "step3s": "https://openrouter.ai/stepfun-ai/step3",
   "cogito-v2-109b": "https://openrouter.ai/deepcogito/cogito-v2-preview-llama-109b-moe",
-  "sonoma-sky-alpha": "https://openrouter.ai/openrouter/sonoma-sky-alpha",
-  "sonoma-dusk-alpha": "https://openrouter.ai/openrouter/sonoma-dusk-alpha"
+  "grok-4-fast": "https://openrouter.ai/x-ai/grok-4-fast:free",
+  "qwen3-vl-235b-instruct": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-instruct"
 }

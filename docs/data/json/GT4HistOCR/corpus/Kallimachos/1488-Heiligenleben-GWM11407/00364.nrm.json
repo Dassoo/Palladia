@@ -118,5 +118,13 @@
         "cer": 25.0,
         "accuracy": 77.27272727272727,
         "time": 1.9109680652618408
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "nen. vnd das er \u017fein keu\u017fcheyt m\u00f6cht beh\u00fct\u1ebd.",
+        "response": "nen.vnd Das er fein Leu\u017fcheyt m\u00f6cht Beh\u00fcte.",
+        "wer": 75.0,
+        "cer": 13.636363636363635,
+        "accuracy": 86.36363636363636,
+        "time": 2.311715841293335
     }
 }

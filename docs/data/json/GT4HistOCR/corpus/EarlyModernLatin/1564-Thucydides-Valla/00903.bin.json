@@ -142,5 +142,13 @@
         "cer": 5.88235294117647,
         "accuracy": 94.11764705882352,
         "time": 1.6148178577423096
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "21 artabazus quis",
+        "response": "21 artabazus quis",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 3.7585690021514893
     }
 }

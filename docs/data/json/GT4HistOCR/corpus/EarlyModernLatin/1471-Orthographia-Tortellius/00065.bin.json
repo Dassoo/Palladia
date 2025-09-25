@@ -134,5 +134,13 @@
         "cer": 28.205128205128204,
         "accuracy": 76.82926829268293,
         "time": 2.0600998401641846
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "m\u00f5 \u03c3\u03ad\u03c1\u03c0\u03c9 dixerunt \u017ferpo: & n\u00f5 herpo: \u03c3\u03b5\u03be traduxerunt \u017fex & n\u00f5 hex: \u03c3\u03ad\u03c0\u03c4\u03b1 \u017fept\u1ebd",
+        "response": "\u03bc\u03cc\u03c3\u03b5\u03c1\u03c0\u03c9 dixerunt \u017ferpo:& n\u014d herpo:\u03c3\u03b5\u03be traduxerunt \u017fex & n\u014d hex:\u03c3\u03b5\u03af\u03c0\u03c0\u03b1 \u017fept\u00e9",
+        "wer": 73.33333333333333,
+        "cer": 16.666666666666664,
+        "accuracy": 84.61538461538461,
+        "time": 8.766327857971191
     }
 }

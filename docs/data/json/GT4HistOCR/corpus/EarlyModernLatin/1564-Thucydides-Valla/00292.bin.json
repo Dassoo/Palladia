@@ -142,5 +142,13 @@
         "cer": 4.838709677419355,
         "accuracy": 95.16129032258065,
         "time": 1.7911350727081299
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Quippe centum eis ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "response": "Quippe centum eis ac uiginti naues fuerunt, c\u00f9m bellum incepe-",
+        "wer": 0.0,
+        "cer": 0.0,
+        "accuracy": 100.0,
+        "time": 1.8812627792358398
     }
 }

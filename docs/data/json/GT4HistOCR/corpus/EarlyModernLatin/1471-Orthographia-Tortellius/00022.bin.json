@@ -134,5 +134,13 @@
         "cer": 20.51282051282051,
         "accuracy": 84.61538461538461,
         "time": 2.034085988998413
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "forma \u017fignata appar&: & n\u00f5 nouor\u0169 \u00e6olo\ua776 forma de\u017fcribit\u1dd1. Rur\u017fus & \ua751 contrari\u00e3",
+        "response": "forma fignata appar&: & n\u014d nouor\u016b \u00e6olo\u03b3 forma defcribit. Rurfus & p contrari\u0101",
+        "wer": 61.53846153846154,
+        "cer": 11.538461538461538,
+        "accuracy": 88.46153846153845,
+        "time": 8.798490285873413
     }
 }

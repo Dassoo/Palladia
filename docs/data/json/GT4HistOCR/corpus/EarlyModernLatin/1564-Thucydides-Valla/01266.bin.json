@@ -142,5 +142,13 @@
         "cer": 6.779661016949152,
         "accuracy": 93.22033898305084,
         "time": 1.7228777408599854
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "decim, Ambraciotarum uiginti\u017feptem, Anactoriorum una, ip\u017fo-",
+        "response": "dccim,Ambraclotarum uigintifeptem,Anactoriorum una, ipfo-",
+        "wer": 83.33333333333334,
+        "cer": 10.16949152542373,
+        "accuracy": 89.83050847457628,
+        "time": 2.8508710861206055
     }
 }

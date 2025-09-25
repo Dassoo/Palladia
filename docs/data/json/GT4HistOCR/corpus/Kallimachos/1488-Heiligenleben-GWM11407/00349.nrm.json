@@ -118,5 +118,13 @@
         "cer": 20.51282051282051,
         "accuracy": 79.48717948717949,
         "time": 2.154873847961426
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Darnach kam Eu\u017ftachius an dy \u017ftat da er",
+        "response": "Darnach kam Eustachius an dy stat da er",
+        "wer": 25.0,
+        "cer": 5.128205128205128,
+        "accuracy": 94.87179487179486,
+        "time": 4.536652088165283
     }
 }

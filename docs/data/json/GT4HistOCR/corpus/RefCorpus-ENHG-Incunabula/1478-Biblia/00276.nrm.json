@@ -118,5 +118,13 @@
         "cer": 13.88888888888889,
         "accuracy": 86.48648648648648,
         "time": 1.2240068912506104
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "kes hebben \u017fe ge\u017fchreu\u1ebd een beklagin",
+        "response": "kes hebben \u017fe ge\u017fchreue een beklagin",
+        "wer": 16.666666666666664,
+        "cer": 2.7777777777777777,
+        "accuracy": 97.22222222222221,
+        "time": 9.08731198310852
     }
 }

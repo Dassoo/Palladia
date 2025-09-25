@@ -134,5 +134,13 @@
         "cer": 11.538461538461538,
         "accuracy": 88.46153846153845,
         "time": 2.09523606300354
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ut Cai\u0169. c. littera \u017fignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+        "response": "ut Cai\u0169.c.littera lignari compen\u017fus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+        "wer": 78.57142857142857,
+        "cer": 14.102564102564102,
+        "accuracy": 85.8974358974359,
+        "time": 4.252586841583252
     }
 }

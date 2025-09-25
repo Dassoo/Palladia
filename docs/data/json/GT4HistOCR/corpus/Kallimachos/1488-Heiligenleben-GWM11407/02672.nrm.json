@@ -118,5 +118,13 @@
         "cer": 11.627906976744185,
         "accuracy": 88.37209302325581,
         "time": 1.442011833190918
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+        "response": "Pauls ertotet. Da nam man Sie pfenning. vnd",
+        "wer": 25.0,
+        "cer": 4.651162790697675,
+        "accuracy": 95.34883720930233,
+        "time": 3.520540952682495
     }
 }

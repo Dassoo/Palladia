@@ -134,5 +134,13 @@
         "cer": 20.51282051282051,
         "accuracy": 80.76923076923077,
         "time": 2.16619610786438
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "o\u017ftendemus. \ua753fertur tamen \u017fub uoce ip\u017fius. g. ob cognation\u1ebd littera\ua776 qu\u1ebdadmod\u0169",
+        "response": "oftendemus. p\u017fentur amen \u017fub voce pius. g. ob cognition\u00e9 litterar, qu\u00e6admodu",
+        "wer": 72.72727272727273,
+        "cer": 17.94871794871795,
+        "accuracy": 83.33333333333334,
+        "time": 4.999114036560059
     }
 }

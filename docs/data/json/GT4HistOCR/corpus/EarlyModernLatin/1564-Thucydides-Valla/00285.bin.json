@@ -142,5 +142,13 @@
         "cer": 9.375,
         "accuracy": 90.625,
         "time": 2.030642032623291
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "bantur. Hi autem qui intus erant c\u00f9m \u017fic uexarentur, legatos Cor",
+        "response": "bantur.Hi autem qui intus erant c\u00f9m ficu exarentur, legatos Cor",
+        "wer": 36.36363636363637,
+        "cer": 6.25,
+        "accuracy": 95.3125,
+        "time": 4.520230054855347
     }
 }

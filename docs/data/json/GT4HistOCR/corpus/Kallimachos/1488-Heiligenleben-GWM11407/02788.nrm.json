@@ -118,5 +118,13 @@
         "cer": 34.78260869565217,
         "accuracy": 71.42857142857143,
         "time": 2.604426145553589
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u017foltu mit vnreyn hey\u017f\u017fen. Das ge\u017fiht \u017fah er \u0292u",
+        "response": "\u017foltu nit vnreyn he\u00ffffen. Das ge\u017fiht \u017fah er zu",
+        "wer": 33.33333333333333,
+        "cer": 10.869565217391305,
+        "accuracy": 89.13043478260869,
+        "time": 4.718167066574097
     }
 }

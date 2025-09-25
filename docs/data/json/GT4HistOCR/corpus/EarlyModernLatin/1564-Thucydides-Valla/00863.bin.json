@@ -142,5 +142,13 @@
         "cer": 6.382978723404255,
         "accuracy": 93.61702127659575,
         "time": 1.7728090286254883
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "alcibiades Athenien\u017fium dux eligi- tia pugnatur",
+        "response": "alcibisdes Athenien\u017fium dux eligi- tia pugnatur",
+        "wer": 16.666666666666664,
+        "cer": 2.127659574468085,
+        "accuracy": 97.87234042553192,
+        "time": 4.229694128036499
     }
 }

@@ -134,5 +134,13 @@
         "cer": 10.0,
         "accuracy": 90.12345679012346,
         "time": 2.1985840797424316
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "no\u017ftr\u00e3 tran\u017fferimus illam fere \u017femper \u017fua figura & no\u0129e ac pote\u017ftate c\u00f5\u017feruamus.",
+        "response": "no\u017ftr\u00e1 tran\u017fi\u0113nimus illam fere \u017femper \u017fua figura & noie ac potellate c\u014dferuamus.",
+        "wer": 41.66666666666667,
+        "cer": 11.25,
+        "accuracy": 88.75,
+        "time": 2.812488079071045
     }
 }

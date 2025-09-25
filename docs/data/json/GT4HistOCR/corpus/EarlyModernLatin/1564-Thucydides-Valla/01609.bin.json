@@ -142,5 +142,13 @@
         "cer": 11.475409836065573,
         "accuracy": 90.1639344262295,
         "time": 2.0326600074768066
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "paratim enim h\u0119c Corinthij eger\u00e3t. Iidem c\u00f9m oppugnaretur Po-",
+        "response": "paratim enim h\u00e6c Corinthij egerat. lidem cum oppugnaretur Po-",
+        "wer": 44.44444444444444,
+        "cer": 6.557377049180328,
+        "accuracy": 93.44262295081968,
+        "time": 25.33394694328308
     }
 }

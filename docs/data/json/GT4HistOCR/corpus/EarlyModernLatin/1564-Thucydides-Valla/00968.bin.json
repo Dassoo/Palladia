@@ -142,5 +142,13 @@
         "cer": 4.225352112676056,
         "accuracy": 95.77464788732394,
         "time": 1.533796787261963
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo-",
+        "response": "ris Pr\u00e6fatione paul\u00f2 po\u017ft initium, ubi in margine h\u00e6c uerba \u017funt, Armo",
+        "wer": 8.333333333333332,
+        "cer": 1.4084507042253522,
+        "accuracy": 98.59154929577466,
+        "time": 2.663421869277954
     }
 }

@@ -142,5 +142,13 @@
         "cer": 14.0625,
         "accuracy": 88.05970149253731,
         "time": 3.2588937282562256
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "ratione uictoriam \u017fibi uindic\u00e3tes: Corinthij quidem, quod ad no-",
+        "response": "ratione uictoriam libi uindic\u0101tes:Corinthij quidem,quod ad no-",
+        "wer": 55.55555555555556,
+        "cer": 6.25,
+        "accuracy": 93.75,
+        "time": 1.9321677684783936
     }
 }

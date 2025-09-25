@@ -118,5 +118,13 @@
         "cer": 2.2222222222222223,
         "accuracy": 97.77777777777777,
         "time": 2.1148128509521484
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "dacht das er im \u017fein genad mitteylet. das ge\u2e17",
+        "response": "dacht das er im fein genad mitteylet. Das ge",
+        "wer": 33.33333333333333,
+        "cer": 6.666666666666667,
+        "accuracy": 93.33333333333333,
+        "time": 29.6994469165802
     }
 }

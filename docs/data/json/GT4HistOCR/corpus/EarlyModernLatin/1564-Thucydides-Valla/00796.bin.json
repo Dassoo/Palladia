@@ -142,5 +142,13 @@
         "cer": 14.492753623188406,
         "accuracy": 85.5072463768116,
         "time": 1.4937388896942139
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "dera rupta uiderentur, accitisq\u0301; \u017focijs dixerunt, \u017fibi quidem uideri",
+        "response": "dera rupta uiderentur, accitis & locis dixerunt, sibi quidem uideri",
+        "wer": 44.44444444444444,
+        "cer": 8.695652173913043,
+        "accuracy": 91.30434782608695,
+        "time": 24.54909086227417
     }
 }

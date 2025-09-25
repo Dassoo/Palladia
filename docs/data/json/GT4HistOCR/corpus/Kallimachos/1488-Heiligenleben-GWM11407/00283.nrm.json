@@ -118,5 +118,13 @@
         "cer": 21.73913043478261,
         "accuracy": 78.26086956521739,
         "time": 2.2575058937072754
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "\u00f0 lebet bey des key\u017fers decius \u0292eyt\u1ebd. da wurd\u1ebd",
+        "response": "D lebet bey des Keyfers Decius zeyt\u0113. Da wurd\u0113",
+        "wer": 66.66666666666666,
+        "cer": 17.391304347826086,
+        "accuracy": 82.6086956521739,
+        "time": 4.541819095611572
     }
 }

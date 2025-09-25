@@ -118,5 +118,13 @@
         "cer": 17.02127659574468,
         "accuracy": 83.33333333333334,
         "time": 1.6227400302886963
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "pfecht. Aber wer gelert i\u017ft vnd die lere mit ge",
+        "response": "pfecht. Aber wer gelert ist vnd die lere mit ge",
+        "wer": 10.0,
+        "cer": 2.127659574468085,
+        "accuracy": 97.87234042553192,
+        "time": 2.868391752243042
     }
 }

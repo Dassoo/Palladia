@@ -142,5 +142,13 @@
         "cer": 11.627906976744185,
         "accuracy": 90.9090909090909,
         "time": 4.3633270263671875
+    },
+    "qwen3-vl-235b-instruct": {
+        "gt": "Thucydides Olori iacet hoc Alimu\u017fius antro.",
+        "response": "Thucydides Olori iacethoc Alimulius antro.",
+        "wer": 50.0,
+        "cer": 4.651162790697675,
+        "accuracy": 95.34883720930233,
+        "time": 5.148449182510376
     }
 }
