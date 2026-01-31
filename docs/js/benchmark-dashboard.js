@@ -21,7 +21,6 @@ class BenchmarkDashboard {
             this.renderModelAverages();
             this.renderResults();
 
-            // Handle initial view based on URL
             const currentView = this.router.getCurrentView();
             const params = this.router.getParams();
             this.handleViewChange(currentView, params);
@@ -43,37 +42,29 @@ class BenchmarkDashboard {
     }
 
     showDashboardView() {
-        // Clean up any sticky headers from details view
         this.cleanupStickyHeaders();
 
-        // Show main dashboard sections
         document.getElementById('model-averages').style.display = 'block';
         document.getElementById('results-container').style.display = 'block';
 
-        // Hide details view (will be created later)
         const detailsView = document.getElementById('details-view');
         if (detailsView) {
             detailsView.style.display = 'none';
         }
 
-        // Render dashboard content
         this.renderModelAverages();
         this.renderResults();
     }
 
     async showDetailsView(category, subcategory) {
-        // Hide dashboard sections
         document.getElementById('results-container').style.display = 'none';
 
-        // Show details view
         const detailsView = document.getElementById('details-view');
         detailsView.style.display = 'block';
 
-        // Update breadcrumb and title
         document.getElementById('breadcrumb-path').textContent = `${category} > ${subcategory}`;
         document.getElementById('details-title').textContent = `${subcategory} - Detailed Results`;
 
-        // Show loading state
         document.getElementById('details-content').innerHTML = '<div class="loading">Loading detailed results...</div>';
 
         try {
@@ -86,28 +77,21 @@ class BenchmarkDashboard {
     }
 
     async loadAndRenderDetails(category, subcategory) {
-        // Get individual files from manifest
         const subcategoryInfo = this.manifest.structure[category]?.[subcategory];
         if (!subcategoryInfo || !subcategoryInfo.individual_files) {
             throw new Error('No individual files found for this category');
         }
 
         const individualFiles = subcategoryInfo.individual_files;
-
-        // Load individual files
         const loadResults = await this.fileLoader.loadIndividualFiles(individualFiles);
 
-        // Handle any loading errors
         this.fileLoader.handleLoadingErrors(loadResults.failed);
 
         if (loadResults.successful.length === 0) {
             throw new Error('No individual files could be loaded');
         }
 
-        // Render the details
         this.renderDetailsContent(loadResults.data, category, subcategory);
-
-        // Set up filtering
         this.setupDetailsControls(loadResults.data);
     }
 
@@ -120,10 +104,8 @@ class BenchmarkDashboard {
             return;
         }
 
-        // Store the original data for sorting
         this.currentImageData = imageFiles;
 
-        // Apply current sorting
         const sortedImageFiles = this.sortImageFiles(imageFiles);
 
         let html = '';

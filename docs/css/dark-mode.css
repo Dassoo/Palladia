@@ -5,7 +5,7 @@
 }
 
 body[data-theme="dark"] {
-    background: url('../images/dashboard/black-marble.png') center center !important;
+    background:rgb(19, 19, 20) center center !important;
     background-size: cover !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
@@ -33,7 +33,6 @@ body[data-theme="dark"] {
 }
 
 [data-theme="dark"] .section {
-    background: rgba(33, 37, 41, 0.8);
     color: #e9ecef;
 }
 
@@ -238,8 +237,7 @@ body[data-theme="dark"] {
 }
 
 [data-theme="dark"] .disclaimer {
-    background: linear-gradient(135deg, rgba(33, 37, 41, 0.9), rgba(52, 58, 64, 0.9));
-    border: 1px solid #adb5bd;
+    background: #212529;
 }
 
 [data-theme="dark"] .disclaimer p,
@@ -253,11 +251,6 @@ body[data-theme="dark"] {
 
 [data-theme="dark"] .metric-step {
     background: linear-gradient(135deg, rgba(33, 37, 41, 0.9), rgba(52, 58, 64, 0.9));
-}
-
-[data-theme="dark"] .step-number {
-    background: linear-gradient(135deg, #adb5bd, #6c757d);
-    color: #212529;
 }
 
 [data-theme="dark"] .step-content h4 {

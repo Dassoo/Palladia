@@ -1,4 +1,3 @@
-// Simple Diff Viewer for text comparison
 class DiffViewer {
     static generateDiff(text1, text2) {
         // Simple word-based diff implementation

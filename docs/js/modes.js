@@ -1,8 +1,6 @@
-// Theme toggle functionality
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
-// Check for saved theme preference or default to light mode
 const currentTheme = localStorage.getItem('theme') || 'light';
 console.log('Initial theme:', currentTheme);
 body.setAttribute('data-theme', currentTheme);

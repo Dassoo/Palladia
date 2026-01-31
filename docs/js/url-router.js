@@ -1,4 +1,3 @@
-// URL Router for handling navigation between dashboard and details view
 class URLRouter {
     constructor() {
         this.currentView = 'dashboard';
@@ -50,7 +49,6 @@ class URLRouter {
 
         window.history.pushState({ view, params }, '', url);
 
-        // Trigger view change
         this.onViewChange(view, params);
     }
 

@@ -1,4 +1,3 @@
-// Individual File Loader for loading detailed image results
 class IndividualFileLoader {
     constructor(fetchFunction) {
         this.fetchWithTimeout = fetchFunction;

@@ -38,26 +38,19 @@ class ModelManager:
         self.root.geometry("800x750")
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
         
-        # Configuration paths
         self.config_path = Path(__file__).parent / '../config/yaml/model_config.yaml'
         self.input_config_path = Path(__file__).parent / '../config/yaml/input_config.yaml'
         
-        # Initialize variables
         self.dataset_path = ctk.StringVar()
-        self.images_count = ctk.StringVar()  # Changed to StringVar to handle empty values
+        self.images_count = ctk.StringVar()
         self.prioritize_scanned = ctk.BooleanVar()
-        
-        # Process tracking
+
         self.running_process = None
-        
-        # Load configurations
+
         self.load_config()
         self.load_input_config()
-        
-        # Start dashboard server
+
         start_dashboard()
-        
-        # Create UI
         self.setup_ui()
     
     def load_config(self):
@@ -65,7 +58,7 @@ class ModelManager:
         try:
             loader = ConfigLoader()
             app_config = loader.load_app_config()
-            update_model_links() # Update links for dashboard on config loading
+            update_model_links()
             
             self.config = {'models': []}
             for model in app_config.models_config.models:

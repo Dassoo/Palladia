@@ -1,30 +1,19 @@
-// Initialize dashboard when page loads
 let dashboard;
 document.addEventListener('DOMContentLoaded', () => {
     dashboard = new BenchmarkDashboard();
 
-    // Set up back button handler
     document.getElementById('back-to-dashboard').addEventListener('click', (e) => {
         e.preventDefault();
         dashboard.navigateBackToDashboard();
     });
 
-    // Initialize API code tabs
     initializeApiTabs();
-
-    // Initialize copy functionality
     initializeCopyButtons();
-
-    // Initialize scroll navbar
     initializeScrollNavbar();
 });
 
-// API Code Tabs functionality
 function initializeApiTabs() {
-    // Initialize usage example tabs
     initializeTabGroup('.code-tabs');
-
-    // Initialize data structure tabs
     initializeTabGroup('.structure-tabs');
 }
 
@@ -39,11 +28,9 @@ function initializeTabGroup(containerSelector) {
         button.addEventListener('click', () => {
             const targetTab = button.getAttribute('data-tab');
 
-            // Remove active class from buttons and panes within this container only
             tabButtons.forEach(btn => btn.classList.remove('active'));
             tabPanes.forEach(pane => pane.classList.remove('active'));
 
-            // Add active class to clicked button and corresponding pane
             button.classList.add('active');
             const targetPane = container.querySelector(`#${targetTab}-tab`);
             if (targetPane) {
