@@ -9,7 +9,9 @@ wheels/
 # Virtual environments
 .venv
 .env
+.gitignore
 
 /GT4HistOCR
 /scripts/
 .DS_Store
+
