@@ -1,0 +1,806 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vñ Paulus haben merlich er",
+    "wer": 42.857142857142854,
+    "cer": 11.904761904761903,
+    "accuracy": 88.09523809523809,
+    "time": 6.024823904037476,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " Paulus haben "
+      ],
+      [
+        -1,
+        "wa"
+      ],
+      [
+        1,
+        "me"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vij Paulus haben werlich er",
+    "wer": 42.857142857142854,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 1.701585054397583,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ij"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trrer Johannes vn̄ Paulus haben werlich erſ",
+    "wer": 57.14285714285714,
+    "cer": 9.523809523809524,
+    "accuracy": 90.69767441860465,
+    "time": 1.876816987991333,
+    "diffs": [
+      [
+        0,
+        "tr"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "er Johannes vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trrer Johannes vn̄ Paulus haben werſlich erſ",
+    "wer": 57.14285714285714,
+    "cer": 11.904761904761903,
+    "accuracy": 88.63636363636364,
+    "time": 2.207836866378784,
+    "diffs": [
+      [
+        0,
+        "tr"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "er Johannes vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "ar"
+      ],
+      [
+        1,
+        "erſ"
+      ],
+      [
+        0,
+        "lich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vnj Paulus haben weerlich ers",
+    "wer": 42.857142857142854,
+    "cer": 9.523809523809524,
+    "accuracy": 90.69767441860465,
+    "time": 3.0748701095581055,
+    "diffs": [
+      [
+        0,
+        "trer Johannes vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "j"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ee"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vñ Paulus haben wierlich erſ",
+    "wer": 42.857142857142854,
+    "cer": 11.904761904761903,
+    "accuracy": 90.47619047619048,
+    "time": 3.0798630714416504,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ie"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-small": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes von Paulus haben merlich ers",
+    "wer": 42.857142857142854,
+    "cer": 11.904761904761903,
+    "accuracy": 90.47619047619048,
+    "time": 1.1199581623077393,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        " Paulus haben "
+      ],
+      [
+        -1,
+        "wa"
+      ],
+      [
+        1,
+        "me"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vij Paulus haben warlich erz",
+    "wer": 28.57142857142857,
+    "cer": 7.142857142857142,
+    "accuracy": 92.85714285714286,
+    "time": 1.7362828254699707,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ij"
+      ],
+      [
+        0,
+        " Paulus haben warlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "z"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vñ Paulus haſken weirlich erſ",
+    "wer": 57.14285714285714,
+    "cer": 16.666666666666664,
+    "accuracy": 86.04651162790698,
+    "time": 16.805763244628906,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " Paulus ha"
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "ſk"
+      ],
+      [
+        0,
+        "en w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ei"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "rter Johannes vn Paulus haben werlich erſ",
+    "wer": 57.14285714285714,
+    "cer": 11.904761904761903,
+    "accuracy": 90.47619047619048,
+    "time": 57.5562379360199,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "er Johannes vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trcr Johannes vn Paulus haben warlich ers",
+    "wer": 42.857142857142854,
+    "cer": 7.142857142857142,
+    "accuracy": 92.85714285714286,
+    "time": 4.798999071121216,
+    "diffs": [
+      [
+        0,
+        "tr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r Johannes vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        " Paulus haben warlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vn Paulus haben merlich erſ",
+    "wer": 42.857142857142854,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 5.612197160720825,
+    "diffs": [
+      [
+        0,
+        "trer Johannes vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        " Paulus haben "
+      ],
+      [
+        -1,
+        "wa"
+      ],
+      [
+        1,
+        "me"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vſi Paulus haben werlich erſt",
+    "wer": 42.857142857142854,
+    "cer": 11.904761904761903,
+    "accuracy": 88.37209302325581,
+    "time": 1.1992380619049072,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ſi"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſt"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vn̄ Paulus haben wierlich ert",
+    "wer": 42.857142857142854,
+    "cer": 9.523809523809524,
+    "accuracy": 90.69767441860465,
+    "time": 2.7117109298706055,
+    "diffs": [
+      [
+        0,
+        "trer Johannes vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ie"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "cogito-v2-109b": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trer Johannes vñ Paulus haben merlich ers",
+    "wer": 42.857142857142854,
+    "cer": 11.904761904761903,
+    "accuracy": 88.09523809523809,
+    "time": 1.8654890060424805,
+    "diffs": [
+      [
+        0,
+        "trer Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " Paulus haben "
+      ],
+      [
+        -1,
+        "wa"
+      ],
+      [
+        1,
+        "me"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "trer Johannes vñ Paulus haben warlich er⸗",
+    "response": "trcr Johannes vñ Paulus haben werlich er",
+    "wer": 57.14285714285714,
+    "cer": 11.904761904761903,
+    "accuracy": 88.09523809523809,
+    "time": 2.543079137802124,
+    "diffs": [
+      [
+        0,
+        "tr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r Johannes v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " Paulus haben w"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "rlich er"
+      ],
+      [
+        -1,
+        "⸗"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 3
+  }
+}

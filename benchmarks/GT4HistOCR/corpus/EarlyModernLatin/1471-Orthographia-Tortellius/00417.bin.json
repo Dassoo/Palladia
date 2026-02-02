@@ -1,0 +1,1352 @@
+{
+  "mistral-small": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonās:quas ſi dixiſſimus mutuari ſolemſ:quotiēs illorum noibiſ ſumur. neſcio",
+    "wer": 72.72727272727273,
+    "cer": 22.07792207792208,
+    "accuracy": 83.11688311688312,
+    "time": 1.4189848899841309,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "s:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas "
+      ],
+      [
+        -1,
+        "ut"
+      ],
+      [
+        1,
+        "ſi"
+      ],
+      [
+        0,
+        " dixi"
+      ],
+      [
+        1,
+        "ſſi"
+      ],
+      [
+        0,
+        "mus mutuari ſolem"
+      ],
+      [
+        -1,
+        "us: "
+      ],
+      [
+        1,
+        "ſ:"
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩbus uti"
+      ],
+      [
+        1,
+        "ibiſ ſu"
+      ],
+      [
+        0,
+        "mur. neſcio"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 17,
+    "insertions": 16
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonãs: quas ut diximus mutuari ſolemus: quoniés illorum noibus utimur. neſcio",
+    "wer": 18.181818181818183,
+    "cer": 3.896103896103896,
+    "accuracy": 96.1038961038961,
+    "time": 1.4382438659667969,
+    "diffs": [
+      [
+        0,
+        "ſonãs: quas ut diximus mutuari ſolemus: quo"
+      ],
+      [
+        -1,
+        "tiẽ"
+      ],
+      [
+        1,
+        "nié"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur. neſcio"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "fonās:quas ut diximus mutuari solemus:quoties illorum noibus utimur. nescio",
+    "wer": 54.54545454545454,
+    "cer": 10.38961038961039,
+    "accuracy": 89.6103896103896,
+    "time": 1.5578551292419434,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "s:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas ut diximus mutuari "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "olemus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur. ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cio"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "fonas:quas ut diximus mutuari ſolemus:quoties illorum noibus utimur. nescio",
+    "wer": 54.54545454545454,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 2.0013749599456787,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "s:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas ut diximus mutuari ſolemus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur. ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cio"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonas: quas ut diximus mutuari ſolemus: quotieſ illorum noibus utimur. neſcio.",
+    "wer": 36.36363636363637,
+    "cer": 6.493506493506493,
+    "accuracy": 93.58974358974359,
+    "time": 2.3041958808898926,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari ſolemus: quoti"
+      ],
+      [
+        -1,
+        "ẽs"
+      ],
+      [
+        1,
+        "eſ"
+      ],
+      [
+        0,
+        " illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur. neſcio"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 73,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonas: quas ut diximus mutuari ſolemus: quotiẽs illorum noſibus utimur. neſcio",
+    "wer": 18.181818181818183,
+    "cer": 3.896103896103896,
+    "accuracy": 96.15384615384616,
+    "time": 2.304123878479004,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari ſolemus: quotiẽs illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "ſi"
+      ],
+      [
+        0,
+        "bus utimur. neſcio"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonas: quas ut diximus mutuari ſolemus: quotiēs illorum noiſibus utimur . neſcio",
+    "wer": 45.45454545454545,
+    "cer": 7.792207792207792,
+    "accuracy": 92.5,
+    "time": 4.163322687149048,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari ſolemus: quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "iſi"
+      ],
+      [
+        0,
+        "bus utimur"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ". neſcio"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 3,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonás: quas ut diximus mutuam folemus:quoties illorum noibus utimur . neſcio",
+    "wer": 63.63636363636363,
+    "cer": 10.38961038961039,
+    "accuracy": 90.9090909090909,
+    "time": 4.992319822311401,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutua"
+      ],
+      [
+        -1,
+        "ri ſ"
+      ],
+      [
+        1,
+        "m f"
+      ],
+      [
+        0,
+        "olemus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ". neſcio"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "claude-4-opus": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonás: quas ut diximus mutuari ſolemus: quotíés illorum noĩbus utimur. neſcio",
+    "wer": 18.181818181818183,
+    "cer": 3.896103896103896,
+    "accuracy": 96.1038961038961,
+    "time": 5.0127480030059814,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari ſolemus: quot"
+      ],
+      [
+        -1,
+        "iẽ"
+      ],
+      [
+        1,
+        "íé"
+      ],
+      [
+        0,
+        "s illorum noĩbus utimur. neſcio"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "o4-mini": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonas: quas ut diximus mutuari solemus: quoties illorum noctibus utimur. neſcio",
+    "wer": 36.36363636363637,
+    "cer": 7.792207792207792,
+    "accuracy": 92.40506329113924,
+    "time": 30.478854179382324,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "olemus: quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "cti"
+      ],
+      [
+        0,
+        "bus utimur. neſcio"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "gemini-2.5-pro": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonás: quas ut diximus mutuari ſolemus: quoties illorum noibus utimur, neſcio",
+    "wer": 36.36363636363637,
+    "cer": 5.194805194805195,
+    "accuracy": 94.8051948051948,
+    "time": 56.125778913497925,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari ſolemus: quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " neſcio"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonas: quas ut diximus mutuari ſolemus: quoties illorum notibus utimur. nescio",
+    "wer": 36.36363636363637,
+    "cer": 6.493506493506493,
+    "accuracy": 93.58974358974359,
+    "time": 25.195817947387695,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari ſolemus: quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "ti"
+      ],
+      [
+        0,
+        "bus utimur. ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cio"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonas: quas ut diximus mutuari ſolemus: quotiẽs illorum noibus utimur . neſcio",
+    "wer": 36.36363636363637,
+    "cer": 3.896103896103896,
+    "accuracy": 96.15384615384616,
+    "time": 130.69882798194885,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "s: quas ut diximus mutuari ſolemus: quotiẽs illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ". neſcio"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonâs:quas ut diximus mutuari folemus:quotiês illorum noibus utimur. nefcio",
+    "wer": 54.54545454545454,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 4.6705098152160645,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        "s:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas ut diximus mutuari "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "olemus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ê"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur. ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cio"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "ſonaſ: quaſi ut diximus mutuani ſolemus : quotieſ illorum noibus utimur. neſcio",
+    "wer": 63.63636363636363,
+    "cer": 11.688311688311687,
+    "accuracy": 88.60759493670885,
+    "time": 1.7373409271240234,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "ãs"
+      ],
+      [
+        1,
+        "aſ"
+      ],
+      [
+        0,
+        ": qua"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſi"
+      ],
+      [
+        0,
+        " ut diximus mutua"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "i ſolemus"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": quoti"
+      ],
+      [
+        -1,
+        "ẽs"
+      ],
+      [
+        1,
+        "eſ"
+      ],
+      [
+        0,
+        " illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur. neſcio"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 7,
+    "insertions": 9
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "Ɔnas:quas ut diximus mutuari solemus:quotiēs illorum noibus utimur. nescio",
+    "wer": 54.54545454545454,
+    "cer": 11.688311688311687,
+    "accuracy": 88.31168831168831,
+    "time": 2.483642101287842,
+    "diffs": [
+      [
+        -1,
+        "ſonã"
+      ],
+      [
+        1,
+        "Ɔna"
+      ],
+      [
+        0,
+        "s:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas ut diximus mutuari "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "olemus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus utimur. ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cio"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "funäs:quas ut diximus mutuati folem:us:quoties illorum noibus ucinur: nefcio",
+    "wer": 72.72727272727273,
+    "cer": 18.181818181818183,
+    "accuracy": 83.11688311688312,
+    "time": 1.6246469020843506,
+    "diffs": [
+      [
+        -1,
+        "ſonã"
+      ],
+      [
+        1,
+        "funä"
+      ],
+      [
+        0,
+        "s:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas ut diximus mutua"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "i "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "olem"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "us:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus u"
+      ],
+      [
+        -1,
+        "tim"
+      ],
+      [
+        1,
+        "cin"
+      ],
+      [
+        0,
+        "ur"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cio"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 15,
+    "insertions": 14
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſonãs: quas ut diximus mutuari ſolemus: quotiẽs illorum noĩbus utimur. neſcio",
+    "response": "fonás:quas ut diximus mutuari ſolemus:quotiés illorum noibus unimur. nefcio",
+    "wer": 63.63636363636363,
+    "cer": 10.38961038961039,
+    "accuracy": 89.6103896103896,
+    "time": 2.6716148853302,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "s:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas ut diximus mutuari ſolemus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quoti"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "s illorum no"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "bus u"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "imur. ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cio"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 8,
+    "insertions": 6
+  }
+}

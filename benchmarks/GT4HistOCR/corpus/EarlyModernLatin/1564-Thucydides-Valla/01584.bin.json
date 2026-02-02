@@ -1,0 +1,701 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberrant, non quando & nobis iniuria illata eft,",
+    "wer": 27.27272727272727,
+    "cer": 4.615384615384616,
+    "accuracy": 95.45454545454545,
+    "time": 1.0832688808441162,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aber"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ant, non quando & nobis i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iuria illata e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "mistral-small": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iuiuria illata eſt.",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.2472929954528809,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis iuiuria illata eſt"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iuuriā illata est,",
+    "wer": 18.181818181818183,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 1.5531518459320068,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis iu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "uri"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " illata e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.7060799598693848,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iuria illata eſt,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant,non quando & nobis iuiuria illata eſt,",
+    "wer": 18.181818181818183,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 2.0792298316955566,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non quando & nobis iuiuria illata eſt,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 2.0412039756774902,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iuria illata eſt,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberrant, non quando & nobis iniuria illata eſt,",
+    "wer": 18.181818181818183,
+    "cer": 3.076923076923077,
+    "accuracy": 96.96969696969697,
+    "time": 4.007559776306152,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aber"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ant, non quando & nobis i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iuria illata eſt,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant,non quando & nobis iniuria illata eſt,",
+    "wer": 27.27272727272727,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 3.19936203956604,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non quando & nobis i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iuria illata eſt,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis íuiuría illata eſt,",
+    "wer": 9.090909090909092,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 12.02249789237976,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "uiur"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "a illata eſt,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant,non quando & nobis iuu﻿ria illata eſt,",
+    "wer": 27.27272727272727,
+    "cer": 4.615384615384616,
+    "accuracy": 96.92307692307692,
+    "time": 7.94726300239563,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non quando & nobis iu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "u"
+      ],
+      [
+        1,
+        "﻿"
+      ],
+      [
+        0,
+        "ria illata eſt,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à perículo aberant, non quando & nobís iuiúria illáta eſt,",
+    "wer": 36.36363636363637,
+    "cer": 6.153846153846154,
+    "accuracy": 93.84615384615384,
+    "time": 58.200955867767334,
+    "diffs": [
+      [
+        0,
+        "procul à per"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "culo aberant, non quando & nob"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "s iui"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "ria ill"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ta eſt,"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iuu ria illata est,",
+    "wer": 27.27272727272727,
+    "cer": 4.615384615384616,
+    "accuracy": 96.92307692307692,
+    "time": 12.879944801330566,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis iu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "u"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "ria illata e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 24.137048959732056,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iuria illata eſt,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iuiuria illata eft,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 15.034563779830933,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis iuiuria illata e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobiſ iuiuria illata eſt,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.4395060539245605,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " iuiuria illata eſt,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iuiuria illata eft,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 4.4275031089782715,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis iuiuria illata e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "grok-4": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iniuria illata eſt,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 54.068670988082886,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iuria illata eſt,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis íuiuria íllata eft,",
+    "wer": 27.27272727272727,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 1.5681347846984863,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "uiuria "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "llata e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "procul à periculo aberant, non quando & nobis iuiuria illata eſt,",
+    "response": "procul à periculo aberant, non quando & nobis iuiuria illata est,",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.9836270809173584,
+    "diffs": [
+      [
+        0,
+        "procul à periculo aberant, non quando & nobis iuiuria illata e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

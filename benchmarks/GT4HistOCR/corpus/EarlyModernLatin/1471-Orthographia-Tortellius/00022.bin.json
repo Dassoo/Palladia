@@ -1,0 +1,1772 @@
+{
+  "mistral-small": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata appar&: & nō nouōrum ſchol. forma deſcribit. Rursus & p contraria",
+    "wer": 53.84615384615385,
+    "cer": 16.666666666666664,
+    "accuracy": 86.07594936708861,
+    "time": 1.6752686500549316,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar&: & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nou"
+      ],
+      [
+        -1,
+        "orũ æoloꝶ"
+      ],
+      [
+        1,
+        "ōrum ſchol."
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "us & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 14,
+    "insertions": 15
+  },
+  "spotlight": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma signata appar&:& nó nouorũ æologi formæ describit.Rursus & p contrariã",
+    "wer": 69.23076923076923,
+    "cer": 14.102564102564102,
+    "accuracy": 87.17948717948718,
+    "time": 1.6734988689422607,
+    "diffs": [
+      [
+        0,
+        "forma "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignata appar&:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " nouorũ æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "gi"
+      ],
+      [
+        0,
+        " form"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        " de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribit"
+      ],
+      [
+        -1,
+        "᷑. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "us & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrariã"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "llama-4-maverick-17b": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata appar&: & nõ nouoru aeolor forma deſcribit'. Rurſus & p contrariam",
+    "wer": 38.46153846153847,
+    "cer": 10.256410256410255,
+    "accuracy": 90.0,
+    "time": 2.0721969604492188,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar&: & nõ nouor"
+      ],
+      [
+        -1,
+        "ũ æ"
+      ],
+      [
+        1,
+        "u ae"
+      ],
+      [
+        0,
+        "olo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        1,
+        "'"
+      ],
+      [
+        0,
+        ". Rurſus & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 9
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata appar&:& no nouoru æology forma defcribit.Rurfus & p contraria",
+    "wer": 69.23076923076923,
+    "cer": 14.102564102564102,
+    "accuracy": 87.17948717948718,
+    "time": 2.192166805267334,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar&:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "gy"
+      ],
+      [
+        0,
+        " forma de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribit"
+      ],
+      [
+        -1,
+        "᷑. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "gpt-4o": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata apparet : & nō nouorum æolor forma deſcribit. Rufus & ꝓ contraria.",
+    "wer": 69.23076923076923,
+    "cer": 16.666666666666664,
+    "accuracy": 86.25,
+    "time": 2.377876043319702,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "et "
+      ],
+      [
+        0,
+        ": & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "um"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Ru"
+      ],
+      [
+        -1,
+        "rſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "ꝓ"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a."
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 11
+  },
+  "gpt-4.1": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata apparet: ⁊ nō nouorū æolorū forma deſcribit. Rufus ⁊ ꝑcontraria",
+    "wer": 76.92307692307693,
+    "cer": 16.666666666666664,
+    "accuracy": 85.8974358974359,
+    "time": 2.488450765609741,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "et"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "⁊"
+      ],
+      [
+        0,
+        " n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rū"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Ru"
+      ],
+      [
+        -1,
+        "rſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us "
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "⁊"
+      ],
+      [
+        0,
+        " ꝑ"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 10
+  },
+  "claude-4-sonnet": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata apparet: & nõ nouorũ æoloꝝ forma deſcribit. Rurſus & p contrariã",
+    "wer": 30.76923076923077,
+    "cer": 6.41025641025641,
+    "accuracy": 94.87179487179486,
+    "time": 4.867254018783569,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "et"
+      ],
+      [
+        0,
+        ": & nõ nouorũ æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ꝝ"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Rurſus & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrariã"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata apparẽt: & nõ nouorũ æoloꝝ forma deſcribiť. Rurſus & p contrariã",
+    "wer": 30.76923076923077,
+    "cer": 7.6923076923076925,
+    "accuracy": 93.58974358974359,
+    "time": 5.591746091842651,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ẽt"
+      ],
+      [
+        0,
+        ": & nõ nouorũ æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ꝝ"
+      ],
+      [
+        0,
+        " forma deſcribi"
+      ],
+      [
+        -1,
+        "t᷑"
+      ],
+      [
+        1,
+        "ť"
+      ],
+      [
+        0,
+        ". Rurſus & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrariã"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma fignata apparetꝑ : & nō nouorū æoloꝓ forma deſcribit͗. Rurfus & ꝑ cōtraria",
+    "wer": 69.23076923076923,
+    "cer": 19.230769230769234,
+    "accuracy": 82.92682926829268,
+    "time": 12.568198919296265,
+    "diffs": [
+      [
+        0,
+        "forma "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "etꝑ "
+      ],
+      [
+        0,
+        ": & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ꝓ"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        1,
+        "͗"
+      ],
+      [
+        0,
+        ". Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us & ꝑ c"
+      ],
+      [
+        -1,
+        "on"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "trari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 14
+  },
+  "gemini-2.5-pro": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata apparuiſſe: & no novorũ æoloy forma deſcribit. Rurſus & ꝑ contrariā",
+    "wer": 46.15384615384615,
+    "cer": 12.82051282051282,
+    "accuracy": 88.88888888888889,
+    "time": 22.982007026672363,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "uiſſe"
+      ],
+      [
+        0,
+        ": & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " no"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "orũ æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Rurſus & ꝑ contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 9
+  },
+  "o4-mini": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata appar&: & nō nouorū æoloγ forma deſcribit. Rurſus & p̄ contrariū",
+    "wer": 46.15384615384615,
+    "cer": 8.974358974358974,
+    "accuracy": 92.3076923076923,
+    "time": 23.033912181854248,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar&: & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "γ"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Rurſus & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p̄"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata appar&: & nō nouoru æoloy forma deſcribit: Rurſus & p̄ contrariū",
+    "wer": 46.15384615384615,
+    "cer": 10.256410256410255,
+    "accuracy": 91.02564102564102,
+    "time": 25.36278200149536,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar&: & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " Rurſus & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p̄"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "gpt-5": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata apparet: & nō nouorū æologiÿ forma deſcribit: Rufus & ꝑ contrariā",
+    "wer": 53.84615384615385,
+    "cer": 15.384615384615385,
+    "accuracy": 87.34177215189874,
+    "time": 118.38580203056335,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "et"
+      ],
+      [
+        0,
+        ": & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "giÿ"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " Ru"
+      ],
+      [
+        -1,
+        "rſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us & ꝑ contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 10
+  },
+  "glm-4.5v": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma fignata appar&: & nō nouorū æology forma defcribit.Rurfus & p contrariā",
+    "wer": 61.53846153846154,
+    "cer": 14.102564102564102,
+    "accuracy": 87.17948717948718,
+    "time": 11.649906158447266,
+    "diffs": [
+      [
+        0,
+        "forma "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignata appar&: & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "gy"
+      ],
+      [
+        0,
+        " forma de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribit"
+      ],
+      [
+        -1,
+        "᷑. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma ſignata apparſ¢: & no nouorùm axoloγ forma deſcribit. Rurſus & p contrarii¢",
+    "wer": 53.84615384615385,
+    "cer": 15.384615384615385,
+    "accuracy": 86.41975308641975,
+    "time": 1.646090030670166,
+    "diffs": [
+      [
+        0,
+        "forma ſignata appar"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ſ¢"
+      ],
+      [
+        0,
+        ": & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ æ"
+      ],
+      [
+        1,
+        "ùm ax"
+      ],
+      [
+        0,
+        "olo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "γ"
+      ],
+      [
+        0,
+        " forma deſcribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Rurſus & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "i¢"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 12
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma signata appar&#8201;&#8201;nõ nouorũ æologũ forma descript&#940;.Rurus &#941; contrariț",
+    "wer": 76.92307692307693,
+    "cer": 41.02564102564102,
+    "accuracy": 68.81720430107528,
+    "time": 2.6473591327667236,
+    "diffs": [
+      [
+        0,
+        "forma "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignata appar&"
+      ],
+      [
+        -1,
+        ": & "
+      ],
+      [
+        1,
+        "#8201;&#8201;"
+      ],
+      [
+        0,
+        "nõ nouorũ æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "gũ"
+      ],
+      [
+        0,
+        " forma de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cri"
+      ],
+      [
+        -1,
+        "bit᷑. "
+      ],
+      [
+        1,
+        "pt&#940;."
+      ],
+      [
+        0,
+        "Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        0,
+        "us &"
+      ],
+      [
+        -1,
+        " ꝑ"
+      ],
+      [
+        1,
+        "#941;"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ț"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 17,
+    "insertions": 32
+  },
+  "cogito-v2-109b": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma fignata appar&:&nõ nouoruĩ acologX forma deficribit.Rurfus & p contraria",
+    "wer": 76.92307692307693,
+    "cer": 20.51282051282051,
+    "accuracy": 84.61538461538461,
+    "time": 2.034085988998413,
+    "diffs": [
+      [
+        0,
+        "forma "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignata appar&:"
+      ],
+      [
+        -1,
+        " & "
+      ],
+      [
+        1,
+        "&"
+      ],
+      [
+        0,
+        "nõ nouor"
+      ],
+      [
+        -1,
+        "ũ æ"
+      ],
+      [
+        1,
+        "uĩ ac"
+      ],
+      [
+        0,
+        "olo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "gX"
+      ],
+      [
+        0,
+        " forma de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "fi"
+      ],
+      [
+        0,
+        "cribit"
+      ],
+      [
+        -1,
+        "᷑. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 15,
+    "insertions": 15
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "forma ſignata appar&: & nõ nouorũ æoloꝶ forma deſcribit᷑. Rurſus & ꝑ contrariã",
+    "response": "forma fignata appar&: & nō nouorū æoloγ forma defcribit. Rurfus & p contrariā",
+    "wer": 61.53846153846154,
+    "cer": 11.538461538461538,
+    "accuracy": 88.46153846153845,
+    "time": 8.798490285873413,
+    "diffs": [
+      [
+        0,
+        "forma "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignata appar&: & n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " nouor"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " æolo"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "γ"
+      ],
+      [
+        0,
+        " forma de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribit"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". Rur"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us & "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " contrari"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 8
+  }
+}

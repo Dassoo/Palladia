@@ -1,0 +1,966 @@
+{
+  "mistral-small": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſone ſchall alle weghen broet etten vppe mynet",
+    "wer": 25.0,
+    "cer": 4.444444444444445,
+    "accuracy": 95.65217391304348,
+    "time": 1.2356560230255127,
+    "diffs": [
+      [
+        0,
+        "ſone ſchall alle weghe"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " broet etten vppe myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "fonde ſchall alle weghe broet etten vppe mynne",
+    "wer": 25.0,
+    "cer": 8.88888888888889,
+    "accuracy": 93.47826086956522,
+    "time": 1.275691032409668,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        1,
+        "d"
+      ],
+      [
+        0,
+        "e ſchall alle weghe broet etten vppe myn"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "e"
+      ],
+      [
+        -1,
+        "r"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſone ſchall alle weghc broet eten · vppe mynct",
+    "wer": 50.0,
+    "cer": 13.333333333333334,
+    "accuracy": 89.13043478260869,
+    "time": 1.8054521083831787,
+    "diffs": [
+      [
+        0,
+        "ſone ſchall alle wegh"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " broet et"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "en"
+      ],
+      [
+        1,
+        " ·"
+      ],
+      [
+        0,
+        " vppe myn"
+      ],
+      [
+        -1,
+        "er"
+      ],
+      [
+        1,
+        "ct"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſone ſchall alle weyhe bᴉoet etten . vppe mynret",
+    "wer": 50.0,
+    "cer": 13.333333333333334,
+    "accuracy": 87.5,
+    "time": 1.8290388584136963,
+    "diffs": [
+      [
+        0,
+        "ſone ſchall alle we"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        "he b"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ᴉ"
+      ],
+      [
+        0,
+        "oet etten"
+      ],
+      [
+        1,
+        " ."
+      ],
+      [
+        0,
+        " vppe myn"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "r"
+      ],
+      [
+        1,
+        "et"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 6
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "foneſchall alle weghe broet etten·vppemynet",
+    "wer": 62.5,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 2.9767260551452637,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſchall alle weghe broet etten"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "vppe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſone ſchall alle weghe brooꝺ etten· vppe mynet",
+    "wer": 37.5,
+    "cer": 8.88888888888889,
+    "accuracy": 91.30434782608695,
+    "time": 3.1146039962768555,
+    "diffs": [
+      [
+        0,
+        "ſone ſchall alle weghe bro"
+      ],
+      [
+        -1,
+        "et"
+      ],
+      [
+        1,
+        "oꝺ"
+      ],
+      [
+        0,
+        " etten"
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        " vppe myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſonẽ ſchall alle weghe broot etten · vꝑe mynet",
+    "wer": 62.5,
+    "cer": 15.555555555555555,
+    "accuracy": 86.95652173913044,
+    "time": 3.9879939556121826,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        " ſchall alle weghe bro"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "t etten "
+      ],
+      [
+        -1,
+        "vpp"
+      ],
+      [
+        1,
+        "· vꝑ"
+      ],
+      [
+        0,
+        "e myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "fonſt fchall alle wege broet etten vppe mynet",
+    "wer": 50.0,
+    "cer": 13.333333333333334,
+    "accuracy": 88.88888888888889,
+    "time": 9.830999851226807,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "e ſ"
+      ],
+      [
+        1,
+        "ſt f"
+      ],
+      [
+        0,
+        "chall alle weg"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        0,
+        "e broet etten vppe myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſone ſchall alle weyhe broet eten: vppæ mynnet",
+    "wer": 50.0,
+    "cer": 13.333333333333334,
+    "accuracy": 89.13043478260869,
+    "time": 23.580963850021362,
+    "diffs": [
+      [
+        0,
+        "ſone ſchall alle we"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        "he broet et"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "en"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " vpp"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        " myn"
+      ],
+      [
+        -1,
+        "er"
+      ],
+      [
+        1,
+        "net"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſone ſchall alle wegh e broet etten · vppe myn ret",
+    "wer": 62.5,
+    "cer": 13.333333333333334,
+    "accuracy": 88.0,
+    "time": 93.46788811683655,
+    "diffs": [
+      [
+        0,
+        "ſone ſchall alle wegh"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "e broet etten"
+      ],
+      [
+        1,
+        " ·"
+      ],
+      [
+        0,
+        " vppe myn"
+      ],
+      [
+        -1,
+        "er"
+      ],
+      [
+        1,
+        " ret"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 7
+  },
+  "glm-4.5v": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "fonieſchall alle weghe boot etten·vippe mpnet",
+    "wer": 75.0,
+    "cer": 20.0,
+    "accuracy": 84.44444444444444,
+    "time": 5.189877033233643,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſchall alle weghe b"
+      ],
+      [
+        -1,
+        "roe"
+      ],
+      [
+        1,
+        "oo"
+      ],
+      [
+        0,
+        "t etten"
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "·vi"
+      ],
+      [
+        0,
+        "ppe m"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "fonſchal alle weghe brot etten. vppſ mynet",
+    "wer": 75.0,
+    "cer": 17.77777777777778,
+    "accuracy": 84.44444444444444,
+    "time": 8.130985260009766,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "e "
+      ],
+      [
+        0,
+        "ſchal"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        0,
+        " alle weghe bro"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "t etten"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " vpp"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "ſoic ſchall alle weghé broet etten vppe mýnet",
+    "wer": 37.5,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 1.248427152633667,
+    "diffs": [
+      [
+        0,
+        "ſo"
+      ],
+      [
+        -1,
+        "ne"
+      ],
+      [
+        1,
+        "ic"
+      ],
+      [
+        0,
+        " ſchall alle wegh"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " broet etten vppe m"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "ý"
+      ],
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "sonche all□ alleweghe broet etten vipe mynet",
+    "wer": 75.0,
+    "cer": 22.22222222222222,
+    "accuracy": 84.44444444444444,
+    "time": 2.0894668102264404,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "e ſ"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        1,
+        "e "
+      ],
+      [
+        0,
+        "all"
+      ],
+      [
+        1,
+        "□"
+      ],
+      [
+        0,
+        " alle"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "weghe broet etten v"
+      ],
+      [
+        -1,
+        "p"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "pe myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "cogito-v2-109b": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "fonieſchallaSlemegheaders \nbroetetten:opkemyneet",
+    "wer": 100.0,
+    "cer": 44.44444444444444,
+    "accuracy": 68.75,
+    "time": 1.8936550617218018,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſchall"
+      ],
+      [
+        -1,
+        " alle weghe "
+      ],
+      [
+        1,
+        "aSlemegheaders \n"
+      ],
+      [
+        0,
+        "broet"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "etten"
+      ],
+      [
+        -1,
+        " vppe "
+      ],
+      [
+        1,
+        ":opke"
+      ],
+      [
+        0,
+        "myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "et"
+      ]
+    ],
+    "matches": 23,
+    "deletions": 22,
+    "insertions": 25
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſone ſchall alle weghe broet etten vppe myner",
+    "response": "fonē ſchall alle weghē broet etten · vppe mynet",
+    "wer": 50.0,
+    "cer": 13.333333333333334,
+    "accuracy": 87.2340425531915,
+    "time": 2.379570960998535,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " ſchall alle wegh"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " broet etten"
+      ],
+      [
+        1,
+        " ·"
+      ],
+      [
+        0,
+        " vppe myne"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 6
+  }
+}

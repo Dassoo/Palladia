@@ -1,0 +1,942 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lоте fe los gā.ri i als dat gebatſcop wart",
+    "wer": 54.54545454545454,
+    "cer": 23.91304347826087,
+    "accuracy": 78.26086956521739,
+    "time": 1.0503051280975342,
+    "diffs": [
+      [
+        0,
+        "vñ l"
+      ],
+      [
+        -1,
+        "ete ſ"
+      ],
+      [
+        1,
+        "оте f"
+      ],
+      [
+        0,
+        "e los g"
+      ],
+      [
+        -1,
+        "ã · vñ"
+      ],
+      [
+        1,
+        "ā.ri i"
+      ],
+      [
+        0,
+        " als dat gebatſcop"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        " wart"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "mistral-small": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lote ſe los gã-rñ als dat gebatſcop wart",
+    "wer": 45.45454545454545,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 1.2406070232391357,
+    "diffs": [
+      [
+        0,
+        "vñ l"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "te ſe los gã"
+      ],
+      [
+        -1,
+        " · v"
+      ],
+      [
+        1,
+        "-r"
+      ],
+      [
+        0,
+        "ñ als dat gebatſcop"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        " wart"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lote sc los gã-ñi als dat gebatscupt wart",
+    "wer": 54.54545454545454,
+    "cer": 21.73913043478261,
+    "accuracy": 80.43478260869566,
+    "time": 1.2556569576263428,
+    "diffs": [
+      [
+        0,
+        "vñ l"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "te "
+      ],
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "sc"
+      ],
+      [
+        0,
+        " los gã"
+      ],
+      [
+        -1,
+        " · vñ"
+      ],
+      [
+        1,
+        "-ñi"
+      ],
+      [
+        0,
+        " als dat gebat"
+      ],
+      [
+        -1,
+        "ſco"
+      ],
+      [
+        1,
+        "scu"
+      ],
+      [
+        0,
+        "pt wart"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "gpt-4.1": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vn lobe ſelos gâ·vn als dat gebatſcopit wart",
+    "wer": 72.72727272727273,
+    "cer": 19.565217391304348,
+    "accuracy": 82.6086956521739,
+    "time": 1.6996419429779053,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " l"
+      ],
+      [
+        -1,
+        "et"
+      ],
+      [
+        1,
+        "ob"
+      ],
+      [
+        0,
+        "e ſe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "los g"
+      ],
+      [
+        -1,
+        "ã · vñ"
+      ],
+      [
+        1,
+        "â·vn"
+      ],
+      [
+        0,
+        " als dat gebatſcop"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t wart"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "gpt-4o": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vnſeſe lob gā vñ als dat gebarket wart",
+    "wer": 63.63636363636363,
+    "cer": 32.608695652173914,
+    "accuracy": 67.3913043478261,
+    "time": 1.944577932357788,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ lete "
+      ],
+      [
+        1,
+        "nſe"
+      ],
+      [
+        0,
+        "ſe lo"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        " g"
+      ],
+      [
+        -1,
+        "ã ·"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " vñ als dat geba"
+      ],
+      [
+        -1,
+        "tſcop"
+      ],
+      [
+        1,
+        "rke"
+      ],
+      [
+        0,
+        "t wart"
+      ]
+    ],
+    "matches": 30,
+    "deletions": 16,
+    "insertions": 8
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vni fete ſe los ga·vn als dat gebatſcopt wart",
+    "wer": 45.45454545454545,
+    "cer": 15.217391304347828,
+    "accuracy": 86.95652173913044,
+    "time": 3.077955961227417,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ l"
+      ],
+      [
+        1,
+        "ni f"
+      ],
+      [
+        0,
+        "ete ſe los g"
+      ],
+      [
+        -1,
+        "ã · vñ"
+      ],
+      [
+        1,
+        "a·vn"
+      ],
+      [
+        0,
+        " als dat gebatſcopt wart"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lotz ſc loz gã·vñ alz dar gebatſcopt wart",
+    "wer": 72.72727272727273,
+    "cer": 17.391304347826086,
+    "accuracy": 82.6086956521739,
+    "time": 3.1243298053741455,
+    "diffs": [
+      [
+        0,
+        "vñ l"
+      ],
+      [
+        -1,
+        "ete"
+      ],
+      [
+        1,
+        "otz"
+      ],
+      [
+        0,
+        " ſ"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " lo"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " gã"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "vñ al"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " da"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " gebatſcopt wart"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "claude-4-opus": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lote ſe los gã · vñ als dar gebarſcopr warr",
+    "wer": 36.36363636363637,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 4.263911962509155,
+    "diffs": [
+      [
+        0,
+        "vñ l"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "te ſe los gã · vñ als da"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " geba"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ſcop"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " war"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vii lobe ſe loſ gā-vn als dat gebatſcopt wart",
+    "wer": 54.54545454545454,
+    "cer": 21.73913043478261,
+    "accuracy": 80.43478260869566,
+    "time": 27.13472080230713,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ let"
+      ],
+      [
+        1,
+        "ii lob"
+      ],
+      [
+        0,
+        "e ſe lo"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " g"
+      ],
+      [
+        -1,
+        "ã · vñ"
+      ],
+      [
+        1,
+        "ā-vn"
+      ],
+      [
+        0,
+        " als dat gebatſcopt wart"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "gpt-5": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lete ſe los gā vñ als dat gebotſcop wart",
+    "wer": 27.27272727272727,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 108.05025267601013,
+    "diffs": [
+      [
+        0,
+        "vñ lete ſe los g"
+      ],
+      [
+        -1,
+        "ã ·"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " vñ als dat geb"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "tſcop"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        " wart"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "v i n l o t e f c l o s g ä . r ī n a l s d a r g e b a t ſ c o p t w a r t",
+    "wer": 100.0,
+    "cer": 82.6086956521739,
+    "accuracy": 49.333333333333336,
+    "time": 6.097995758056641,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ lete ſe los gã · vñ als dat gebatſcopt war"
+      ],
+      [
+        1,
+        " i n l o t e f c l o s g ä . r ī n a l s d a r g e b a t ſ c o p t w a r "
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 44,
+    "insertions": 73
+  },
+  "gemini-2.5-flash": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lahe ſclos gā·rn als dar gebatſcoprt wart",
+    "wer": 72.72727272727273,
+    "cer": 23.91304347826087,
+    "accuracy": 78.26086956521739,
+    "time": 6.9061620235443115,
+    "diffs": [
+      [
+        0,
+        "vñ l"
+      ],
+      [
+        -1,
+        "et"
+      ],
+      [
+        1,
+        "ah"
+      ],
+      [
+        0,
+        "e ſ"
+      ],
+      [
+        -1,
+        "e "
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "los g"
+      ],
+      [
+        -1,
+        "ã · vñ"
+      ],
+      [
+        1,
+        "ā·rn"
+      ],
+      [
+        0,
+        " als da"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " gebatſcop"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "t wart"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "mistral-medium-3.1": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ leſe ſcloſ gä-rñ alſ dat gebatſcopte wart",
+    "wer": 72.72727272727273,
+    "cer": 23.91304347826087,
+    "accuracy": 78.26086956521739,
+    "time": 1.4825499057769775,
+    "diffs": [
+      [
+        0,
+        "vñ le"
+      ],
+      [
+        -1,
+        "te "
+      ],
+      [
+        0,
+        "ſe "
+      ],
+      [
+        1,
+        "ſc"
+      ],
+      [
+        0,
+        "lo"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " g"
+      ],
+      [
+        -1,
+        "ã · v"
+      ],
+      [
+        1,
+        "ä-r"
+      ],
+      [
+        0,
+        "ñ al"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " dat gebatſcopt"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " wart"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vi լէտէ սկ los gă-vի齐 dat gebatscopt wart",
+    "wer": 72.72727272727273,
+    "cer": 36.95652173913043,
+    "accuracy": 63.04347826086957,
+    "time": 3.0708441734313965,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ lete ſe los gã · vñ als"
+      ],
+      [
+        1,
+        "i լէտէ սկ los gă-vի齐"
+      ],
+      [
+        0,
+        " dat gebat"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "copt wart"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 26,
+    "insertions": 21
+  },
+  "cogito-v2-109b": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vī lote fc los zā·riī als dat gebatfcopt wart",
+    "wer": 63.63636363636363,
+    "cer": 23.91304347826087,
+    "accuracy": 76.08695652173914,
+    "time": 1.403012990951538,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        " l"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "te "
+      ],
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        " los "
+      ],
+      [
+        -1,
+        "gã · vñ"
+      ],
+      [
+        1,
+        "zā·riī"
+      ],
+      [
+        0,
+        " als dat gebat"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "copt wart"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "vñ lete ſe los gã · vñ als dat gebatſcopt wart",
+    "response": "vñ lete ſc los gā·rñ als dat gebatſcopt wart",
+    "wer": 36.36363636363637,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 2.061021327972412,
+    "diffs": [
+      [
+        0,
+        "vñ lete ſ"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " los g"
+      ],
+      [
+        -1,
+        "ã · v"
+      ],
+      [
+        1,
+        "ā·r"
+      ],
+      [
+        0,
+        "ñ als dat gebatſcopt wart"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 4
+  }
+}

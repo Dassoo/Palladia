@@ -1,0 +1,773 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: nec ѿ co.",
+    "wer": 33.33333333333333,
+    "cer": 7.936507936507936,
+    "accuracy": 92.1875,
+    "time": 1.3587052822113037,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        -1,
+        "q; eo-"
+      ],
+      [
+        1,
+        "c ѿ co."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "mistral-small": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumeliosum eſt, tamen litigiosi putamur: neq; co-",
+    "wer": 33.33333333333333,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 1.3607120513916016,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelio"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "um eſt, tamen litigio"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "i putamur: neq; "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: necꝗ́ co-",
+    "wer": 22.22222222222222,
+    "cer": 6.349206349206349,
+    "accuracy": 93.75,
+    "time": 1.650007963180542,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        -1,
+        "q; e"
+      ],
+      [
+        1,
+        "cꝗ́ c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "spotlight": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum cſt, tamen litigiosi putamur: neq co,",
+    "wer": 44.44444444444444,
+    "cer": 7.936507936507936,
+    "accuracy": 92.06349206349206,
+    "time": 1.6701340675354004,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſt, tamen litigio"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "i putamur: neq"
+      ],
+      [
+        -1,
+        "; eo-"
+      ],
+      [
+        1,
+        " co,"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "gpt-4o": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: necq; co,",
+    "wer": 22.22222222222222,
+    "cer": 4.761904761904762,
+    "accuracy": 95.3125,
+    "time": 2.233376979827881,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "q; "
+      ],
+      [
+        -1,
+        "eo-"
+      ],
+      [
+        1,
+        "co,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt,tamen litigioſi putamur:neꝫ co-",
+    "wer": 55.55555555555556,
+    "cer": 7.936507936507936,
+    "accuracy": 92.06349206349206,
+    "time": 2.2285029888153076,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen litigioſi putamur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        "q; e"
+      ],
+      [
+        1,
+        "ꝫ c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamus: necp co-",
+    "wer": 33.33333333333333,
+    "cer": 6.349206349206349,
+    "accuracy": 93.65079365079364,
+    "time": 2.9497361183166504,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamu"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        ": ne"
+      ],
+      [
+        -1,
+        "q; e"
+      ],
+      [
+        1,
+        "cp c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt,tamen litigioſi putamur:neq; co-",
+    "wer": 55.55555555555556,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 4.297828912734985,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen litigioſi putamur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "neq; "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt,tamen litigioſi putamur:nēq co,",
+    "wer": 55.55555555555556,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 5.350121974945068,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen litigioſi putamur:"
+      ],
+      [
+        -1,
+        " neq; eo-"
+      ],
+      [
+        1,
+        "nēq co,"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "o4-mini": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: necq̃ co,",
+    "wer": 22.22222222222222,
+    "cer": 6.349206349206349,
+    "accuracy": 93.75,
+    "time": 31.02221393585205,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        -1,
+        "q; eo-"
+      ],
+      [
+        1,
+        "cq̃ co,"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "gemini-2.5-pro": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt,tamen litigioſi putamur:necq co",
+    "wer": 55.55555555555556,
+    "cer": 9.523809523809524,
+    "accuracy": 92.06349206349206,
+    "time": 48.78163123130798,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen litigioſi putamur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        "q; eo-"
+      ],
+      [
+        1,
+        "cq co"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: necq; co,",
+    "wer": 22.22222222222222,
+    "cer": 4.761904761904762,
+    "accuracy": 95.3125,
+    "time": 18.524844884872437,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "q; "
+      ],
+      [
+        -1,
+        "eo-"
+      ],
+      [
+        1,
+        "co,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: necq; co,",
+    "wer": 22.22222222222222,
+    "cer": 4.761904761904762,
+    "accuracy": 95.3125,
+    "time": 30.98239278793335,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "q; "
+      ],
+      [
+        -1,
+        "eo-"
+      ],
+      [
+        1,
+        "co,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "glm-4.5v": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumeliofum eft,tamen litigiofi putamur:neq; co",
+    "wer": 77.77777777777779,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 12.028302192687988,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelio"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "um e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen litigio"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "i putamur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "neq; "
+      ],
+      [
+        -1,
+        "eo-"
+      ],
+      [
+        1,
+        "co"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumeliofum ċṭ,tamen litigiosi putamur:nċþ co~",
+    "wer": 77.77777777777779,
+    "cer": 19.047619047619047,
+    "accuracy": 80.95238095238095,
+    "time": 2.2468080520629883,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelio"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "um "
+      ],
+      [
+        -1,
+        "eſt, "
+      ],
+      [
+        1,
+        "ċṭ,"
+      ],
+      [
+        0,
+        "tamen litigio"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "i putamur:"
+      ],
+      [
+        -1,
+        " neq; eo-"
+      ],
+      [
+        1,
+        "nċþ co~"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 16,
+    "insertions": 12
+  },
+  "mistral-medium-3.1": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobiſ contumelioſum eſt, tamen litigioſi putamur: necq co-",
+    "wer": 33.33333333333333,
+    "cer": 6.349206349206349,
+    "accuracy": 95.23809523809523,
+    "time": 4.470322847366333,
+    "diffs": [
+      [
+        0,
+        "quod nobi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        -1,
+        "q; e"
+      ],
+      [
+        1,
+        "cq c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "grok-4": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt,tamen litigioſi putamur: nec co-",
+    "wer": 44.44444444444444,
+    "cer": 6.349206349206349,
+    "accuracy": 93.65079365079364,
+    "time": 40.03875994682312,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen litigioſi putamur: ne"
+      ],
+      [
+        -1,
+        "q; e"
+      ],
+      [
+        1,
+        "c c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "cogito-v2-109b": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt, tamen litigioſi putamur: necq co,",
+    "wer": 22.22222222222222,
+    "cer": 6.349206349206349,
+    "accuracy": 95.23809523809523,
+    "time": 1.4237949848175049,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt, tamen litigioſi putamur: ne"
+      ],
+      [
+        -1,
+        "q; eo-"
+      ],
+      [
+        1,
+        "cq co,"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "quod nobis contumelioſum eſt, tamen litigioſi putamur: neq; eo-",
+    "response": "quod nobis contumelioſum eſt,tamen litigioſi putamur:neq; co-",
+    "wer": 55.55555555555556,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 16.76185393333435,
+    "diffs": [
+      [
+        0,
+        "quod nobis contumelioſum eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen litigioſi putamur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "neq; "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 1
+  }
+}

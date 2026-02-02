@@ -1,0 +1,574 @@
+{
+  "mistral-small": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "Jäckerman Ende dat geſchach na wêle dagn",
+    "wer": 42.857142857142854,
+    "cer": 14.634146341463413,
+    "accuracy": 87.8048780487805,
+    "time": 1.0529050827026367,
+    "diffs": [
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "Jä"
+      ],
+      [
+        0,
+        "ckerman Ende dat geſchach na "
+      ],
+      [
+        -1,
+        "ve"
+      ],
+      [
+        1,
+        "wê"
+      ],
+      [
+        0,
+        "le dag"
+      ],
+      [
+        -1,
+        "he"
+      ],
+      [
+        0,
+        "n"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geschach na vele daghen",
+    "wer": 14.285714285714285,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 1.220245122909546,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "chach na vele daghen"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geschach na vele daghen",
+    "wer": 14.285714285714285,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 1.6302778720855713,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "chach na vele daghen"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geſchach na vele daghen",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.0932538509368896,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat geſchach na vele daghen"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geſchach na vele daghen",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.8007259368896484,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat geſchach na vele daghen"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geschach na vele daghen",
+    "wer": 14.285714285714285,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 3.688359260559082,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "chach na vele daghen"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geſchach na vele daghen",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 6.204448938369751,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat geſchach na vele daghen"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geſchach na vele daghen",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 7.041438102722168,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat geſchach na vele daghen"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat gelſchach na wle daghen",
+    "wer": 28.57142857142857,
+    "cer": 7.317073170731707,
+    "accuracy": 95.1219512195122,
+    "time": 16.25669813156128,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat ge"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ſchach na "
+      ],
+      [
+        -1,
+        "ve"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "le daghen"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat geſchach na vele daghen",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 23.064783096313477,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat geſchach na vele daghen"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat gelfbach na wle daghien",
+    "wer": 42.857142857142854,
+    "cer": 14.634146341463413,
+    "accuracy": 87.8048780487805,
+    "time": 4.375903844833374,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat ge"
+      ],
+      [
+        -1,
+        "ſch"
+      ],
+      [
+        1,
+        "lfb"
+      ],
+      [
+        0,
+        "ach na "
+      ],
+      [
+        -1,
+        "ve"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "le dagh"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "en"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ꝕnde dar geſchach na viele Tagen",
+    "wer": 57.14285714285714,
+    "cer": 12.195121951219512,
+    "accuracy": 90.2439024390244,
+    "time": 5.716240167617798,
+    "diffs": [
+      [
+        0,
+        "ackerman "
+      ],
+      [
+        -1,
+        "E"
+      ],
+      [
+        1,
+        "Ꝕ"
+      ],
+      [
+        0,
+        "nde da"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " geſchach na v"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ele "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "T"
+      ],
+      [
+        0,
+        "ag"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        0,
+        "en"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman ſinde daſgeſchach na wele daghen",
+    "wer": 57.14285714285714,
+    "cer": 12.195121951219512,
+    "accuracy": 90.2439024390244,
+    "time": 1.254633903503418,
+    "diffs": [
+      [
+        0,
+        "ackerman "
+      ],
+      [
+        -1,
+        "E"
+      ],
+      [
+        1,
+        "ſi"
+      ],
+      [
+        0,
+        "nde da"
+      ],
+      [
+        -1,
+        "t "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "geſchach na "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ele daghen"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman ſünde ſat ꝛelschācḥ na ẇele dāglhen",
+    "wer": 71.42857142857143,
+    "cer": 26.82926829268293,
+    "accuracy": 75.0,
+    "time": 2.430746078491211,
+    "diffs": [
+      [
+        0,
+        "ackerman "
+      ],
+      [
+        -1,
+        "E"
+      ],
+      [
+        1,
+        "ſü"
+      ],
+      [
+        0,
+        "nde "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "at "
+      ],
+      [
+        -1,
+        "geſchach"
+      ],
+      [
+        1,
+        "ꝛelschācḥ"
+      ],
+      [
+        0,
+        " na "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ẇ"
+      ],
+      [
+        0,
+        "ele d"
+      ],
+      [
+        -1,
+        "ag"
+      ],
+      [
+        1,
+        "āgl"
+      ],
+      [
+        0,
+        "hen"
+      ]
+    ],
+    "matches": 28,
+    "deletions": 13,
+    "insertions": 16
+  },
+  "cogito-v2-109b": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman (Fnde dat gefchach na vele daghen",
+    "wer": 28.57142857142857,
+    "cer": 7.317073170731707,
+    "accuracy": 92.85714285714286,
+    "time": 1.9467651844024658,
+    "diffs": [
+      [
+        0,
+        "ackerman "
+      ],
+      [
+        -1,
+        "E"
+      ],
+      [
+        1,
+        "(F"
+      ],
+      [
+        0,
+        "nde dat ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "chach na vele daghen"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ackerman Ende dat geſchach na vele daghen",
+    "response": "ackerman Ende dat gelschach na vele daghen",
+    "wer": 14.285714285714285,
+    "cer": 4.878048780487805,
+    "accuracy": 95.23809523809523,
+    "time": 2.635329008102417,
+    "diffs": [
+      [
+        0,
+        "ackerman Ende dat ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ls"
+      ],
+      [
+        0,
+        "chach na vele daghen"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 2
+  }
+}

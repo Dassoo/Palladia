@@ -1,0 +1,797 @@
+{
+  "mistral-small": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "Uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifestis",
+    "wer": 18.181818181818183,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 1.599458932876587,
+    "diffs": [
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "U"
+      ],
+      [
+        0,
+        "ix tandem congregati ſumus, ac ne ſic quidem iſta pro manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tis"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregrati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "wer": 9.090909090909092,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.48484848484848,
+    "time": 1.6070690155029297,
+    "diffs": [
+      [
+        0,
+        "uix tandem congreg"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ati ſumus, ac ne ſic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati fumus, ac ne fīc quidem ista pro manifestis",
+    "wer": 36.36363636363637,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 1.7066569328308105,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "umus, ac ne "
+      ],
+      [
+        -1,
+        "ſi"
+      ],
+      [
+        1,
+        "fī"
+      ],
+      [
+        0,
+        "c quidem i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ta pro manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tis"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "llama-4-maverick-17b": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregationem fus,ac ne fic quidem ifta pro manifefтис",
+    "wer": 54.54545454545454,
+    "cer": 18.461538461538463,
+    "accuracy": 83.33333333333334,
+    "time": 1.8372306823730469,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati"
+      ],
+      [
+        -1,
+        " ſum"
+      ],
+      [
+        1,
+        "onem f"
+      ],
+      [
+        0,
+        "us,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac ne "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic quidem i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ta pro manife"
+      ],
+      [
+        -1,
+        "ſtis"
+      ],
+      [
+        1,
+        "fтис"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 11,
+    "insertions": 12
+  },
+  "gpt-4o": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uixtandem congregati ſumus, ac neſci quidemiſta pro manifeſtis",
+    "wer": 54.54545454545454,
+    "cer": 7.6923076923076925,
+    "accuracy": 93.84615384615384,
+    "time": 1.9766290187835693,
+    "diffs": [
+      [
+        0,
+        "uix"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tandem congregati ſumus, ac ne"
+      ],
+      [
+        -1,
+        " ſic"
+      ],
+      [
+        1,
+        "ſci"
+      ],
+      [
+        0,
+        " quidem"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.566880941390991,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati ſumus,ac ne ſic quidem iſta pro manifeſtis",
+    "wer": 18.181818181818183,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 5.420982122421265,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati ſumus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac ne ſic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 8.815593004226685,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregatiſumus, ac ne ſic quidem iſta pro manifestis",
+    "wer": 27.27272727272727,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 9.330175876617432,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſumus, ac ne ſic quidem iſta pro manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tis"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tádem cõgregatiſsimus,ac neſcì quidem iſta pro manifeſtis",
+    "wer": 54.54545454545454,
+    "cer": 16.923076923076923,
+    "accuracy": 86.15384615384616,
+    "time": 10.219311714172363,
+    "diffs": [
+      [
+        0,
+        "uix t"
+      ],
+      [
+        -1,
+        "an"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "dem c"
+      ],
+      [
+        -1,
+        "on"
+      ],
+      [
+        1,
+        "õ"
+      ],
+      [
+        0,
+        "gregati"
+      ],
+      [
+        -1,
+        " ſu"
+      ],
+      [
+        1,
+        "ſsi"
+      ],
+      [
+        0,
+        "mus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac ne"
+      ],
+      [
+        -1,
+        " ſic"
+      ],
+      [
+        1,
+        "ſcì"
+      ],
+      [
+        0,
+        " quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 12,
+    "insertions": 8
+  },
+  "gemini-2.5-pro": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregatiſumus, ac ne ſíc quidem iſta pro manifeſtis",
+    "wer": 27.27272727272727,
+    "cer": 3.076923076923077,
+    "accuracy": 98.46153846153847,
+    "time": 18.752411127090454,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſumus, ac ne ſi"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        "c quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 14.77939510345459,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 23.34435272216797,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati f̄umus, ac ne fic quidem ifta pro manifeftis",
+    "wer": 36.36363636363637,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.42424242424242,
+    "time": 3.3710999488830566,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f̄"
+      ],
+      [
+        0,
+        "umus, ac ne "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic quidem i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ta pro manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tis"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati fumus, ac ne ſic quidem iſta pro manifſtis",
+    "wer": 18.181818181818183,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 1.5690534114837646,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "umus, ac ne ſic quidem iſta pro manif"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "ſtis"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "ux我太ン congregatiǔmus, ac ne ǔić quidem iħta pro manifestis",
+    "wer": 63.63636363636363,
+    "cer": 23.076923076923077,
+    "accuracy": 76.92307692307693,
+    "time": 1.840837001800537,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "ix tandem"
+      ],
+      [
+        1,
+        "x我太ン"
+      ],
+      [
+        0,
+        " congregati"
+      ],
+      [
+        -1,
+        " ſu"
+      ],
+      [
+        1,
+        "ǔ"
+      ],
+      [
+        0,
+        "mus, ac ne "
+      ],
+      [
+        -1,
+        "ſic"
+      ],
+      [
+        1,
+        "ǔić"
+      ],
+      [
+        0,
+        " quidem i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ħ"
+      ],
+      [
+        0,
+        "ta pro manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tis"
+      ]
+    ],
+    "matches": 48,
+    "deletions": 17,
+    "insertions": 10
+  },
+  "grok-4": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati ſumus,ac ne ſic quidem iſta pro manifeſtis",
+    "wer": 18.181818181818183,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 34.25539493560791,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati ſumus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac ne ſic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "cogito-v2-109b": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati fumus,ac ne fic quidem iſta pro manifeſtis",
+    "wer": 27.27272727272727,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 3.708881139755249,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "umus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac ne "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic quidem iſta pro manifeſtis"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "uix tandem congregati ſumus, ac ne ſic quidem iſta pro manifeſtis",
+    "response": "uix tandem congregati fumus, ac ne fic quidem ifta pro manifeftis",
+    "wer": 36.36363636363637,
+    "cer": 6.153846153846154,
+    "accuracy": 93.84615384615384,
+    "time": 2.181798219680786,
+    "diffs": [
+      [
+        0,
+        "uix tandem congregati "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "umus, ac ne "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic quidem i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ta pro manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tis"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 4,
+    "insertions": 4
+  }
+}

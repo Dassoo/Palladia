@@ -1,0 +1,1188 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipfir:ac dicebant βpήτωρ pro rhetoris βpoaδooς pro rhodos: & non pFh'tac?",
+    "wer": 50.0,
+    "cer": 24.675324675324674,
+    "accuracy": 78.75,
+    "time": 1.2734463214874268,
+    "diffs": [
+      [
+        0,
+        "nebant ip"
+      ],
+      [
+        -1,
+        "ſi "
+      ],
+      [
+        1,
+        "fi"
+      ],
+      [
+        0,
+        "r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant β"
+      ],
+      [
+        -1,
+        "ρ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ήτωρ pro rhetor"
+      ],
+      [
+        -1,
+        ": βροδοσ"
+      ],
+      [
+        1,
+        "is βpoaδooς"
+      ],
+      [
+        0,
+        " pro rhodos: & non "
+      ],
+      [
+        -1,
+        "ρFήτωρ"
+      ],
+      [
+        1,
+        "pFh'tac?"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 19,
+    "insertions": 22
+  },
+  "spotlight": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r:ac dicebant βριτωρ pto rhetor: βρολοσ pro rhodos: & non pFιτορ",
+    "wer": 42.857142857142854,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 1.82676100730896,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "ι"
+      ],
+      [
+        0,
+        "τωρ p"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "o rhetor: βρο"
+      ],
+      [
+        -1,
+        "δ"
+      ],
+      [
+        1,
+        "λ"
+      ],
+      [
+        0,
+        "οσ pro rhodos: & non "
+      ],
+      [
+        -1,
+        "ρFήτω"
+      ],
+      [
+        1,
+        "pFιτο"
+      ],
+      [
+        0,
+        "ρ"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "gpt-4o": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "ne­bant ipſi r: ac dice­bant βρ῏ῆτωρ pro rhetor: βροΔοσ pro rhodos: Ȣ non ρῖητωρ",
+    "wer": 42.857142857142854,
+    "cer": 10.38961038961039,
+    "accuracy": 90.0,
+    "time": 2.267833709716797,
+    "diffs": [
+      [
+        0,
+        "ne"
+      ],
+      [
+        1,
+        "­"
+      ],
+      [
+        0,
+        "bant ipſi r: ac dice"
+      ],
+      [
+        1,
+        "­"
+      ],
+      [
+        0,
+        "bant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "῏ῆ"
+      ],
+      [
+        0,
+        "τωρ pro rhetor: βρο"
+      ],
+      [
+        -1,
+        "δ"
+      ],
+      [
+        1,
+        "Δ"
+      ],
+      [
+        0,
+        "οσ pro rhodos: "
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "Ȣ"
+      ],
+      [
+        0,
+        " non ρ"
+      ],
+      [
+        -1,
+        "Fή"
+      ],
+      [
+        1,
+        "ῖη"
+      ],
+      [
+        0,
+        "τωρ"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 5,
+    "insertions": 8
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r:ac dicebant βριτωρ pro rhetor: βρολοσ pro rhodos: & non ρητωρ",
+    "wer": 35.714285714285715,
+    "cer": 6.493506493506493,
+    "accuracy": 93.5064935064935,
+    "time": 2.28487491607666,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "ι"
+      ],
+      [
+        0,
+        "τωρ pro rhetor: βρο"
+      ],
+      [
+        -1,
+        "δ"
+      ],
+      [
+        1,
+        "λ"
+      ],
+      [
+        0,
+        "οσ pro rhodos: & non ρ"
+      ],
+      [
+        -1,
+        "Fή"
+      ],
+      [
+        1,
+        "η"
+      ],
+      [
+        0,
+        "τωρ"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r:ac dicebant ρῥήτωρ pro rhetor: βροΔος pro rhodos: & non ρῥήτωρ",
+    "wer": 35.714285714285715,
+    "cer": 7.792207792207792,
+    "accuracy": 93.5064935064935,
+    "time": 2.2701830863952637,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant "
+      ],
+      [
+        -1,
+        "β"
+      ],
+      [
+        0,
+        "ρ"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "ήτωρ pro rhetor: βρο"
+      ],
+      [
+        -1,
+        "δοσ"
+      ],
+      [
+        1,
+        "Δος"
+      ],
+      [
+        0,
+        " pro rhodos: & non ρ"
+      ],
+      [
+        -1,
+        "F"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "ήτωρ"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebaſt ipsi ra:c dicebant ϕritor pro rhetor: ϕro200 pro rhodos: & non ϕritor.",
+    "wer": 50.0,
+    "cer": 31.16883116883117,
+    "accuracy": 71.42857142857143,
+    "time": 3.544713020324707,
+    "diffs": [
+      [
+        0,
+        "neba"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "i r"
+      ],
+      [
+        -1,
+        ": "
+      ],
+      [
+        0,
+        "a"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "c dicebant "
+      ],
+      [
+        -1,
+        "βρήτωρ"
+      ],
+      [
+        1,
+        "ϕritor"
+      ],
+      [
+        0,
+        " pro rhetor: "
+      ],
+      [
+        -1,
+        "βροδοσ"
+      ],
+      [
+        1,
+        "ϕro200"
+      ],
+      [
+        0,
+        " pro rhodos: & non "
+      ],
+      [
+        -1,
+        "ρFήτωρ"
+      ],
+      [
+        1,
+        "ϕritor."
+      ]
+    ],
+    "matches": 55,
+    "deletions": 22,
+    "insertions": 22
+  },
+  "gemini-2.5-flash": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebanť ſupιr: ac dicebanť ῥήτωρ pro rhetor: ῥόδοσ pro rhodos: & non ῥῆτωρ",
+    "wer": 50.0,
+    "cer": 19.480519480519483,
+    "accuracy": 81.81818181818183,
+    "time": 3.556457042694092,
+    "diffs": [
+      [
+        0,
+        "neban"
+      ],
+      [
+        -1,
+        "t ipſi "
+      ],
+      [
+        1,
+        "ť ſupι"
+      ],
+      [
+        0,
+        "r: ac diceban"
+      ],
+      [
+        -1,
+        "t βρ"
+      ],
+      [
+        1,
+        "ť ῥ"
+      ],
+      [
+        0,
+        "ήτωρ pro rhetor: "
+      ],
+      [
+        -1,
+        "βρο"
+      ],
+      [
+        1,
+        "ῥό"
+      ],
+      [
+        0,
+        "δοσ pro rhodos: & non "
+      ],
+      [
+        -1,
+        "ρFή"
+      ],
+      [
+        1,
+        "ῥῆ"
+      ],
+      [
+        0,
+        "τωρ"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 17,
+    "insertions": 13
+  },
+  "claude-4-sonnet": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r: ac dicebant ῥητωρ pro rhetor: ῥοδοσ pro rhodos: & non ρῆτερ",
+    "wer": 21.428571428571427,
+    "cer": 10.38961038961039,
+    "accuracy": 89.6103896103896,
+    "time": 4.556442022323608,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r: ac dicebant "
+      ],
+      [
+        -1,
+        "βρή"
+      ],
+      [
+        1,
+        "ῥη"
+      ],
+      [
+        0,
+        "τωρ pro rhetor: "
+      ],
+      [
+        -1,
+        "βρ"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "οδοσ pro rhodos: & non ρ"
+      ],
+      [
+        -1,
+        "Fήτω"
+      ],
+      [
+        1,
+        "ῆτε"
+      ],
+      [
+        0,
+        "ρ"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "claude-4-opus": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r: ac dicebant θρήτωρ pro rhetor: θρόδιος pro rhodos: & non ῥῆτωρ",
+    "wer": 21.428571428571427,
+    "cer": 10.38961038961039,
+    "accuracy": 90.9090909090909,
+    "time": 4.899792909622192,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r: ac dicebant "
+      ],
+      [
+        -1,
+        "β"
+      ],
+      [
+        1,
+        "θ"
+      ],
+      [
+        0,
+        "ρήτωρ pro rhetor: "
+      ],
+      [
+        -1,
+        "βροδοσ"
+      ],
+      [
+        1,
+        "θρόδιος"
+      ],
+      [
+        0,
+        " pro rhodos: & non "
+      ],
+      [
+        -1,
+        "ρFή"
+      ],
+      [
+        1,
+        "ῥῆ"
+      ],
+      [
+        0,
+        "τωρ"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "gemini-2.5-pro": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r: ac dicebant ῥήτωρ pro rhetor: ῥοδος pro rhodos: & non ῥήτωρ",
+    "wer": 21.428571428571427,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 21.199223041534424,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r: ac dicebant "
+      ],
+      [
+        -1,
+        "βρ"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "ήτωρ pro rhetor: "
+      ],
+      [
+        -1,
+        "βρ"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "οδο"
+      ],
+      [
+        -1,
+        "σ"
+      ],
+      [
+        1,
+        "ς"
+      ],
+      [
+        0,
+        " pro rhodos: & non "
+      ],
+      [
+        -1,
+        "ρF"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "ήτωρ"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r:ac dicebant βρητωρ pro rhetor: βροδοσο pro rhodos: & non pρήτωρ",
+    "wer": 35.714285714285715,
+    "cer": 6.493506493506493,
+    "accuracy": 96.1038961038961,
+    "time": 27.112089157104492,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "η"
+      ],
+      [
+        0,
+        "τωρ pro rhetor: βροδοσ"
+      ],
+      [
+        1,
+        "ο"
+      ],
+      [
+        0,
+        " pro rhodos: & non "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ρ"
+      ],
+      [
+        -1,
+        "F"
+      ],
+      [
+        0,
+        "ήτωρ"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r:ac dicebant ῥήτωρ pro rhetor: ῥόδος pro rhodos: & non ῥήταρ",
+    "wer": 35.714285714285715,
+    "cer": 12.987012987012985,
+    "accuracy": 87.01298701298701,
+    "time": 21.84411883354187,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant "
+      ],
+      [
+        -1,
+        "βρ"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "ήτωρ pro rhetor: "
+      ],
+      [
+        -1,
+        "βρο"
+      ],
+      [
+        1,
+        "ῥό"
+      ],
+      [
+        0,
+        "δο"
+      ],
+      [
+        -1,
+        "σ"
+      ],
+      [
+        1,
+        "ς"
+      ],
+      [
+        0,
+        " pro rhodos: & non "
+      ],
+      [
+        -1,
+        "ρF"
+      ],
+      [
+        1,
+        "ῥ"
+      ],
+      [
+        0,
+        "ήτ"
+      ],
+      [
+        -1,
+        "ω"
+      ],
+      [
+        1,
+        "α"
+      ],
+      [
+        0,
+        "ρ"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 10,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r: ac dicebant βρητωρ pro rhetor: βροδοσ pro rhodos: & non ρhητωρ",
+    "wer": 14.285714285714285,
+    "cer": 3.896103896103896,
+    "accuracy": 96.1038961038961,
+    "time": 151.65009212493896,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r: ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "η"
+      ],
+      [
+        0,
+        "τωρ pro rhetor: βροδοσ pro rhodos: & non ρ"
+      ],
+      [
+        -1,
+        "Fή"
+      ],
+      [
+        1,
+        "hη"
+      ],
+      [
+        0,
+        "τωρ"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r: ac dicebant βριτῶν pro rhetor: βροδος pro rhodos: & non ρFιτρωρ",
+    "wer": 21.428571428571427,
+    "cer": 7.792207792207792,
+    "accuracy": 92.3076923076923,
+    "time": 5.144529819488525,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r: ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ήτωρ"
+      ],
+      [
+        1,
+        "ιτῶν"
+      ],
+      [
+        0,
+        " pro rhetor: βροδο"
+      ],
+      [
+        -1,
+        "σ"
+      ],
+      [
+        1,
+        "ς"
+      ],
+      [
+        0,
+        " pro rhodos: & non ρF"
+      ],
+      [
+        -1,
+        "ήτ"
+      ],
+      [
+        1,
+        "ιτρ"
+      ],
+      [
+        0,
+        "ωρ"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "mistral-medium-3.1": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant iplſi r: ac dicebant βρῖτωπ προ rhetor: βποζο προ rhodos: & non φιλεῖπ",
+    "wer": 42.857142857142854,
+    "cer": 23.376623376623375,
+    "accuracy": 77.92207792207793,
+    "time": 1.8599166870117188,
+    "diffs": [
+      [
+        0,
+        "nebant ip"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ſi r: ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "ῖ"
+      ],
+      [
+        0,
+        "τω"
+      ],
+      [
+        -1,
+        "ρ pro"
+      ],
+      [
+        1,
+        "π προ"
+      ],
+      [
+        0,
+        " rhetor: β"
+      ],
+      [
+        -1,
+        "ροδοσ pro"
+      ],
+      [
+        1,
+        "ποζο προ"
+      ],
+      [
+        0,
+        " rhodos: & non "
+      ],
+      [
+        -1,
+        "ρFήτωρ"
+      ],
+      [
+        1,
+        "φιλεῖπ"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 21,
+    "insertions": 21
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ἰπῆι ῥ:ακ diciebant Βριτώρ pro rhetor: ΒροΔoer pro rhodos: & non ρἱτώρ",
+    "wer": 50.0,
+    "cer": 25.97402597402597,
+    "accuracy": 76.62337662337663,
+    "time": 2.770050048828125,
+    "diffs": [
+      [
+        0,
+        "nebant "
+      ],
+      [
+        -1,
+        "ipſi r: ac"
+      ],
+      [
+        1,
+        "ἰπῆι ῥ:ακ"
+      ],
+      [
+        0,
+        " dic"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ebant "
+      ],
+      [
+        -1,
+        "βρήτω"
+      ],
+      [
+        1,
+        "Βριτώ"
+      ],
+      [
+        0,
+        "ρ pro rhetor: "
+      ],
+      [
+        -1,
+        "β"
+      ],
+      [
+        1,
+        "Β"
+      ],
+      [
+        0,
+        "ρο"
+      ],
+      [
+        -1,
+        "δοσ"
+      ],
+      [
+        1,
+        "Δoer"
+      ],
+      [
+        0,
+        " pro rhodos: & non ρ"
+      ],
+      [
+        -1,
+        "Fήτω"
+      ],
+      [
+        1,
+        "ἱτώ"
+      ],
+      [
+        0,
+        "ρ"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 23,
+    "insertions": 23
+  },
+  "cogito-v2-109b": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r:ac dicebant βρητωρ pro rhetor: βροδοσ pro rhodus: & non pρητڶρ",
+    "wer": 35.714285714285715,
+    "cer": 9.090909090909092,
+    "accuracy": 92.20779220779221,
+    "time": 1.9677801132202148,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "η"
+      ],
+      [
+        0,
+        "τωρ pro rhetor: βροδοσ pro rhod"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "s: & non "
+      ],
+      [
+        -1,
+        "ρFήτω"
+      ],
+      [
+        1,
+        "pρητڶ"
+      ],
+      [
+        0,
+        "ρ"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "nebant ipſi r: ac dicebant βρήτωρ pro rhetor: βροδοσ pro rhodos: & non ρFήτωρ",
+    "response": "nebant ipſi r:ac dicebant βρη̃τωρ pro rhetor: βρο̃δοσ pro rhodos: & non ρε̃ητωρ",
+    "wer": 35.714285714285715,
+    "cer": 9.090909090909092,
+    "accuracy": 92.40506329113924,
+    "time": 3.323288679122925,
+    "diffs": [
+      [
+        0,
+        "nebant ipſi r:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ac dicebant βρ"
+      ],
+      [
+        -1,
+        "ή"
+      ],
+      [
+        1,
+        "η̃"
+      ],
+      [
+        0,
+        "τωρ pro rhetor: βρο"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        "δοσ pro rhodos: & non ρ"
+      ],
+      [
+        -1,
+        "Fή"
+      ],
+      [
+        1,
+        "ε̃η"
+      ],
+      [
+        0,
+        "τωρ"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 4,
+    "insertions": 6
+  }
+}

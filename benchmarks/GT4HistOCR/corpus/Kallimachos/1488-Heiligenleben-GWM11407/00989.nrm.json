@@ -1,0 +1,1146 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "libte. Daſprach der heylig geyſt zu im. Jn ym",
+    "wer": 66.66666666666666,
+    "cer": 18.181818181818183,
+    "accuracy": 84.44444444444444,
+    "time": 1.2782511711120605,
+    "diffs": [
+      [
+        -1,
+        "ſih"
+      ],
+      [
+        1,
+        "lib"
+      ],
+      [
+        0,
+        "te. Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "Jn "
+      ],
+      [
+        0,
+        "ym"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "spotlight": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "sihte. Da sprach der Heylig geyst zu im. Vlym",
+    "wer": 66.66666666666666,
+    "cer": 18.181818181818183,
+    "accuracy": 82.22222222222221,
+    "time": 1.4436969757080078,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ihte. Da "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "eylig gey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "Vl"
+      ],
+      [
+        0,
+        "ym"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "gpt-4o": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſichte. Da ſprach der ſeylig geſt zu im. Nym",
+    "wer": 55.55555555555556,
+    "cer": 11.363636363636363,
+    "accuracy": 90.9090909090909,
+    "time": 2.0693130493164062,
+    "diffs": [
+      [
+        0,
+        "ſi"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "hte. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "eylig ge"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        0,
+        "ſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. Nym"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſihte. Da ſprach der heylig geyſt zu im. VVm",
+    "wer": 33.33333333333333,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 2.1442081928253174,
+    "diffs": [
+      [
+        0,
+        "ſihte. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "Ny"
+      ],
+      [
+        1,
+        "VV"
+      ],
+      [
+        0,
+        "m"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſihe. Da ſprach der heylig geyſt zu im. I Tym",
+    "wer": 55.55555555555556,
+    "cer": 13.636363636363635,
+    "accuracy": 88.88888888888889,
+    "time": 3.432868003845215,
+    "diffs": [
+      [
+        0,
+        "ſih"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "e. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "I T"
+      ],
+      [
+        0,
+        "ym"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſichte. Da ſprach der heylig geyſt zu im. Nym",
+    "wer": 33.33333333333333,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.33333333333333,
+    "time": 6.62028694152832,
+    "diffs": [
+      [
+        0,
+        "ſi"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "hte. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. Nym"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſihte.Daſprach der Heyliggeiſt zu im.Vlym",
+    "wer": 88.88888888888889,
+    "cer": 20.454545454545457,
+    "accuracy": 79.54545454545455,
+    "time": 5.297379970550537,
+    "diffs": [
+      [
+        0,
+        "ſihte."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "eylig"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ge"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im."
+      ],
+      [
+        -1,
+        " N"
+      ],
+      [
+        1,
+        "Vl"
+      ],
+      [
+        0,
+        "ym"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſihtē. Daſ ſprach ſer heylig geyſt zu im. Vlym",
+    "wer": 66.66666666666666,
+    "cer": 15.909090909090908,
+    "accuracy": 84.78260869565217,
+    "time": 1.4739210605621338,
+    "diffs": [
+      [
+        0,
+        "ſiht"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ". Da"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "Vl"
+      ],
+      [
+        0,
+        "ym"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "gpt-5-mini": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "Sihe. Da ſprach der heylig geyſt zu ihm.",
+    "wer": 55.55555555555556,
+    "cer": 20.454545454545457,
+    "accuracy": 81.81818181818183,
+    "time": 24.623345851898193,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ih"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "e. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u i"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "m."
+      ],
+      [
+        -1,
+        " Nym"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſihte. Da ſprach der heylig geyſt zu im. Nym",
+    "wer": 22.22222222222222,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 39.722816944122314,
+    "diffs": [
+      [
+        0,
+        "ſihte. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. Nym"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "Fibte. Daſspach der heylig geſt zu im. Vſlymz",
+    "wer": 66.66666666666666,
+    "cer": 25.0,
+    "accuracy": 82.22222222222221,
+    "time": 16.25185990333557,
+    "diffs": [
+      [
+        -1,
+        "ſih"
+      ],
+      [
+        1,
+        "Fib"
+      ],
+      [
+        0,
+        "te. Da"
+      ],
+      [
+        -1,
+        " ſpꝛ"
+      ],
+      [
+        1,
+        "ſsp"
+      ],
+      [
+        0,
+        "ach der heylig ge"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        0,
+        "ſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "Vſl"
+      ],
+      [
+        0,
+        "ym"
+      ],
+      [
+        1,
+        "z"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 10,
+    "insertions": 11
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſiſte. Da ſprach der heylig geyſt zu im. Tyms",
+    "wer": 44.44444444444444,
+    "cer": 11.363636363636363,
+    "accuracy": 88.88888888888889,
+    "time": 13.976409912109375,
+    "diffs": [
+      [
+        0,
+        "ſi"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "te. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig geyſt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "T"
+      ],
+      [
+        0,
+        "ym"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſechſte. Da ſprach Der Heylig geyſtzu im. Nym",
+    "wer": 66.66666666666666,
+    "cer": 18.181818181818183,
+    "accuracy": 84.44444444444444,
+    "time": 1.516273021697998,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "ih"
+      ],
+      [
+        1,
+        "echſ"
+      ],
+      [
+        0,
+        "te. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "eylig geyſt"
+      ],
+      [
+        -1,
+        " ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. Nym"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "sǃhte. Ða spracḥ ˈder ˈheylig ɡeɪst ˈzu ɪm. Ⱳlym",
+    "wer": 100.0,
+    "cer": 36.36363636363637,
+    "accuracy": 66.66666666666666,
+    "time": 2.8175690174102783,
+    "diffs": [
+      [
+        -1,
+        "ſi"
+      ],
+      [
+        1,
+        "sǃ"
+      ],
+      [
+        0,
+        "hte. "
+      ],
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "Ð"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſpꝛach "
+      ],
+      [
+        1,
+        "spracḥ ˈ"
+      ],
+      [
+        0,
+        "der "
+      ],
+      [
+        1,
+        "ˈ"
+      ],
+      [
+        0,
+        "heylig "
+      ],
+      [
+        -1,
+        "geyſt ʒ"
+      ],
+      [
+        1,
+        "ɡeɪst ˈz"
+      ],
+      [
+        0,
+        "u "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ɪ"
+      ],
+      [
+        0,
+        "m. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "Ⱳl"
+      ],
+      [
+        0,
+        "ym"
+      ]
+    ],
+    "matches": 25,
+    "deletions": 19,
+    "insertions": 23
+  },
+  "cogito-v2-109b": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſihte.9a ſprach ſer Beylig geyſtz zu im. ſlyn",
+    "wer": 88.88888888888889,
+    "cer": 22.727272727272727,
+    "accuracy": 80.0,
+    "time": 2.407482862472534,
+    "diffs": [
+      [
+        0,
+        "ſihte."
+      ],
+      [
+        -1,
+        " D"
+      ],
+      [
+        1,
+        "9"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "eylig geyſt"
+      ],
+      [
+        -1,
+        " ʒ"
+      ],
+      [
+        1,
+        "z z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "Nym"
+      ],
+      [
+        1,
+        "ſlyn"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 10,
+    "insertions": 11
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſihte. Da ſpꝛach der heylig geyſt ʒu im. Nym",
+    "response": "ſihte. Da ſprach der heylig geyst zu im. Vnym",
+    "wer": 44.44444444444444,
+    "cer": 11.363636363636363,
+    "accuracy": 88.88888888888889,
+    "time": 3.1450350284576416,
+    "diffs": [
+      [
+        0,
+        "ſihte. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der heylig gey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im. "
+      ],
+      [
+        -1,
+        "N"
+      ],
+      [
+        1,
+        "Vn"
+      ],
+      [
+        0,
+        "ym"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 5
+  }
+}

@@ -1,0 +1,1008 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nunc fcribatur.Sed fupra uocalem annotetur:unde iam fcribitur επτιλνοσ",
+    "wer": 72.72727272727273,
+    "cer": 13.924050632911392,
+    "accuracy": 87.34177215189874,
+    "time": 1.445387840270996,
+    "diffs": [
+      [
+        0,
+        "tionis n"
+      ],
+      [
+        -1,
+        "ota ſ"
+      ],
+      [
+        1,
+        "unc f"
+      ],
+      [
+        0,
+        "cribatur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "upra uocalem annotetur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "unde iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribitur ε"
+      ],
+      [
+        -1,
+        "ρ"
+      ],
+      [
+        0,
+        "π"
+      ],
+      [
+        1,
+        "τ"
+      ],
+      [
+        0,
+        "ιλ"
+      ],
+      [
+        -1,
+        "λ"
+      ],
+      [
+        1,
+        "ν"
+      ],
+      [
+        0,
+        "οσ"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "mistral-small": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota ſcribatur. Sed ſupra vocalem annotetur: unde iam ſcribitur ἐπὶ ἀλλο",
+    "wer": 27.27272727272727,
+    "cer": 8.860759493670885,
+    "accuracy": 93.67088607594937,
+    "time": 1.7376811504364014,
+    "diffs": [
+      [
+        0,
+        "tionis nota ſcribatur. Sed ſupra "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ocalem annotetur: unde iam ſcribitur "
+      ],
+      [
+        -1,
+        "ερπι"
+      ],
+      [
+        1,
+        "ἐπὶ ἀ"
+      ],
+      [
+        0,
+        "λλο"
+      ],
+      [
+        -1,
+        "σ"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "spotlight": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota scribatur. Sed supra uocal em annotetur: unde iam scribitur ερπιλλοσ",
+    "wer": 45.45454545454545,
+    "cer": 5.063291139240507,
+    "accuracy": 95.0,
+    "time": 1.9327418804168701,
+    "diffs": [
+      [
+        0,
+        "tionis nota "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribatur. Sed "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "upra uocal"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "em annotetur: unde iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribitur ερπιλλοσ"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis notâ ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπίλληοσ",
+    "wer": 18.181818181818183,
+    "cer": 6.329113924050633,
+    "accuracy": 94.9367088607595,
+    "time": 2.169377088546753,
+    "diffs": [
+      [
+        0,
+        "tionis not"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        " ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur "
+      ],
+      [
+        -1,
+        "ερπι"
+      ],
+      [
+        1,
+        "ἐπί"
+      ],
+      [
+        0,
+        "λλ"
+      ],
+      [
+        1,
+        "η"
+      ],
+      [
+        0,
+        "οσ"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπὶ λλος",
+    "wer": 18.181818181818183,
+    "cer": 6.329113924050633,
+    "accuracy": 94.9367088607595,
+    "time": 2.9292309284210205,
+    "diffs": [
+      [
+        0,
+        "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur "
+      ],
+      [
+        -1,
+        "ερπι"
+      ],
+      [
+        1,
+        "ἐπὶ "
+      ],
+      [
+        0,
+        "λλο"
+      ],
+      [
+        -1,
+        "σ"
+      ],
+      [
+        1,
+        "ς"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "claude-4-sonnet": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota ſcribatur.Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπιλλοσ",
+    "wer": 27.27272727272727,
+    "cer": 3.79746835443038,
+    "accuracy": 96.20253164556962,
+    "time": 5.05485987663269,
+    "diffs": [
+      [
+        0,
+        "tionis nota ſcribatur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed ſupra uocalem annotetur: unde iam ſcribitur "
+      ],
+      [
+        -1,
+        "ερ"
+      ],
+      [
+        1,
+        "ἐ"
+      ],
+      [
+        0,
+        "πιλλοσ"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐφ᾽ ἑλλάδος",
+    "wer": 18.181818181818183,
+    "cer": 10.126582278481013,
+    "accuracy": 90.2439024390244,
+    "time": 5.962764024734497,
+    "diffs": [
+      [
+        0,
+        "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur "
+      ],
+      [
+        -1,
+        "ερπιλλοσ"
+      ],
+      [
+        1,
+        "ἐφ᾽ ἑλλάδος"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 8,
+    "insertions": 11
+  },
+  "gemini-2.5-flash": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur:undeiam ſcribitur ꝑ εριλλοσ",
+    "wer": 45.45454545454545,
+    "cer": 6.329113924050633,
+    "accuracy": 96.20253164556962,
+    "time": 6.13182520866394,
+    "diffs": [
+      [
+        0,
+        "tionis nota ſcribatur. Sed ſupra uocalem annotetur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "unde"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam ſcribitur "
+      ],
+      [
+        1,
+        "ꝑ "
+      ],
+      [
+        0,
+        "ερ"
+      ],
+      [
+        -1,
+        "π"
+      ],
+      [
+        0,
+        "ιλλοσ"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "rtionis nota fcribatur.Sed fupra uocalem annotetur:unde iam fcritur επιλλος",
+    "wer": 72.72727272727273,
+    "cer": 12.658227848101266,
+    "accuracy": 88.60759493670885,
+    "time": 8.927345991134644,
+    "diffs": [
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "tionis nota "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribatur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "upra uocalem annotetur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "unde iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cri"
+      ],
+      [
+        -1,
+        "bi"
+      ],
+      [
+        0,
+        "tur ε"
+      ],
+      [
+        -1,
+        "ρ"
+      ],
+      [
+        0,
+        "πιλλο"
+      ],
+      [
+        -1,
+        "σ"
+      ],
+      [
+        1,
+        "ς"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "gemini-2.5-pro": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur εμπίλλοσ",
+    "wer": 9.090909090909092,
+    "cer": 2.5316455696202533,
+    "accuracy": 97.46835443037975,
+    "time": 39.684799909591675,
+    "diffs": [
+      [
+        0,
+        "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ε"
+      ],
+      [
+        -1,
+        "ρπι"
+      ],
+      [
+        1,
+        "μπί"
+      ],
+      [
+        0,
+        "λλοσ"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "o4-mini": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "rionis notā ſcribatur.Sed ſupra uocalem annotetur: unde iam ſcribitur ἐρτιλλος",
+    "wer": 45.45454545454545,
+    "cer": 7.59493670886076,
+    "accuracy": 93.67088607594937,
+    "time": 59.3116180896759,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ionis not"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " ſcribatur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed ſupra uocalem annotetur: unde iam ſcribitur ε"
+      ],
+      [
+        -1,
+        "ρπ"
+      ],
+      [
+        1,
+        "̓ρτ"
+      ],
+      [
+        0,
+        "ιλλο"
+      ],
+      [
+        -1,
+        "σ"
+      ],
+      [
+        1,
+        "ς"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "rionis nota ſcribatur.Sed ſupra uocalem annotetur: unde iam ſcribitur επιλλος",
+    "wer": 36.36363636363637,
+    "cer": 5.063291139240507,
+    "accuracy": 94.9367088607595,
+    "time": 25.174761295318604,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ionis nota ſcribatur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed ſupra uocalem annotetur: unde iam ſcribitur ε"
+      ],
+      [
+        -1,
+        "ρ"
+      ],
+      [
+        0,
+        "πιλλο"
+      ],
+      [
+        -1,
+        "σ"
+      ],
+      [
+        1,
+        "ς"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis noua ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur επιλλοσ",
+    "wer": 18.181818181818183,
+    "cer": 2.5316455696202533,
+    "accuracy": 97.46835443037975,
+    "time": 64.45492315292358,
+    "diffs": [
+      [
+        0,
+        "tionis no"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "a ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ε"
+      ],
+      [
+        -1,
+        "ρ"
+      ],
+      [
+        0,
+        "πιλλοσ"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota fcribatur. Sed fupra uocalem annotetur: unde iam fcribitur εpmiλλoo",
+    "wer": 36.36363636363637,
+    "cer": 10.126582278481013,
+    "accuracy": 89.87341772151899,
+    "time": 9.142827033996582,
+    "diffs": [
+      [
+        0,
+        "tionis nota "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribatur. Sed "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "upra uocalem annotetur: unde iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribitur ε"
+      ],
+      [
+        -1,
+        "ρπιλλοσ"
+      ],
+      [
+        1,
+        "pmiλλoo"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ἐπιλλός",
+    "wer": 9.090909090909092,
+    "cer": 5.063291139240507,
+    "accuracy": 94.9367088607595,
+    "time": 1.910128116607666,
+    "diffs": [
+      [
+        0,
+        "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur "
+      ],
+      [
+        -1,
+        "ερ"
+      ],
+      [
+        1,
+        "ἐ"
+      ],
+      [
+        0,
+        "πιλλ"
+      ],
+      [
+        -1,
+        "οσ"
+      ],
+      [
+        1,
+        "ός"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota scribatur. Sed supra uocalem annotetur: unde iam scribitur erpiλλοσ",
+    "wer": 36.36363636363637,
+    "cer": 8.860759493670885,
+    "accuracy": 91.13924050632912,
+    "time": 2.1220760345458984,
+    "diffs": [
+      [
+        0,
+        "tionis nota "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribatur. Sed "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "upra uocalem annotetur: unde iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribitur "
+      ],
+      [
+        -1,
+        "ερπι"
+      ],
+      [
+        1,
+        "erpi"
+      ],
+      [
+        0,
+        "λλοσ"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nou fcribarur.Sed fupra uocalem annotetur:unde iam fcribitur επτιλοσ",
+    "wer": 72.72727272727273,
+    "cer": 13.924050632911392,
+    "accuracy": 87.34177215189874,
+    "time": 1.930211067199707,
+    "diffs": [
+      [
+        0,
+        "tionis no"
+      ],
+      [
+        -1,
+        "ta ſ"
+      ],
+      [
+        1,
+        "u f"
+      ],
+      [
+        0,
+        "criba"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "upra uocalem annotetur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "unde iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribitur ε"
+      ],
+      [
+        -1,
+        "ρπιλ"
+      ],
+      [
+        1,
+        "πτι"
+      ],
+      [
+        0,
+        "λοσ"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 13,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tionis nota ſcribatur. Sed ſupra uocalem annotetur: unde iam ſcribitur ερπιλλοσ",
+    "response": "tionis nota fcribatur.Sed fupra vocalem annotetur: unde iam fcribitur ερπιλλοσ",
+    "wer": 45.45454545454545,
+    "cer": 6.329113924050633,
+    "accuracy": 93.67088607594937,
+    "time": 2.172889232635498,
+    "diffs": [
+      [
+        0,
+        "tionis nota "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribatur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "upra "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ocalem annotetur: unde iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribitur ερπιλλοσ"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 5,
+    "insertions": 4
+  }
+}

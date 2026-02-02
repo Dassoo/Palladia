@@ -1,0 +1,750 @@
+{
+  "mistral-small": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen. Der Keyser fraget in ob er",
+    "wer": 22.22222222222222,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 1.382148265838623,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "er fraget in ob er"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen und layen. Der Keyser fraget in ob er",
+    "wer": 33.33333333333333,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 1.4131412506103516,
+    "diffs": [
+      [
+        0,
+        "pfaffen "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "er fraget in ob er"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen.Der keyſer fraget in ob er",
+    "wer": 22.22222222222222,
+    "cer": 4.444444444444445,
+    "accuracy": 95.55555555555556,
+    "time": 1.67510986328125,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pſaffen vnd layen. Der Keyſer fraget in ob er",
+    "wer": 33.33333333333333,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 1.966210126876831,
+    "diffs": [
+      [
+        0,
+        "p"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "affen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eyſer fraget in ob er"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+    "wer": 11.11111111111111,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 2.8103928565979004,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+    "wer": 11.11111111111111,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 3.3805389404296875,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+    "wer": 11.11111111111111,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 4.137082815170288,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen.Der keyſer fraget in ob er",
+    "wer": 22.22222222222222,
+    "cer": 4.444444444444445,
+    "accuracy": 95.55555555555556,
+    "time": 11.067753076553345,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+    "wer": 11.11111111111111,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 5.998159170150757,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen. Der Keyſer fraget in ob er",
+    "wer": 22.22222222222222,
+    "cer": 4.444444444444445,
+    "accuracy": 95.55555555555556,
+    "time": 25.696916818618774,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eyſer fraget in ob er"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen.Der Keyſer fraget in oſter",
+    "wer": 55.55555555555556,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 5.976412057876587,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Der "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eyſer fraget in o"
+      ],
+      [
+        -1,
+        "b "
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        "er"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaſſen und layen. Der keyſer fraget in ob er",
+    "wer": 33.33333333333333,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 3.491067886352539,
+    "diffs": [
+      [
+        0,
+        "pfa"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaſſen und layen. Der Keyſer fragt in ob er",
+    "wer": 55.55555555555556,
+    "cer": 13.333333333333334,
+    "accuracy": 86.66666666666667,
+    "time": 1.5181338787078857,
+    "diffs": [
+      [
+        0,
+        "pfa"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eyſer frag"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "t in ob er"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen und layen. Der Keyser fraget in ob er",
+    "wer": 33.33333333333333,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 2.8612077236175537,
+    "diffs": [
+      [
+        0,
+        "pfaffen "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "er fraget in ob er"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "cogito-v2-109b": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen.Đer Ffeyfer fraget in ob er",
+    "wer": 33.33333333333333,
+    "cer": 13.333333333333334,
+    "accuracy": 88.88888888888889,
+    "time": 1.5940818786621094,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen."
+      ],
+      [
+        -1,
+        " D"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "Ff"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "er fraget in ob er"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "pfaffen vnd läyen. Der keyſer fraget in ob er",
+    "response": "pfaffen vnd layen. Der keyſer fraget in ob er",
+    "wer": 11.11111111111111,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 2.873074769973755,
+    "diffs": [
+      [
+        0,
+        "pfaffen vnd l"
+      ],
+      [
+        -1,
+        "ä"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "yen. Der keyſer fraget in ob er"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

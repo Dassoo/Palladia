@@ -1,0 +1,425 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "21 artabazus quis",
+    "response": "21 artſbazus quis",
+    "wer": 33.33333333333333,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 1.0284600257873535,
+    "diffs": [
+      [
+        0,
+        "21 art"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "bazus quis"
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-small": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.07850980758667,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.2293469905853271,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "21 artabazus quis",
+    "response": "2 1 artabazus quis",
+    "wer": 66.66666666666666,
+    "cer": 5.88235294117647,
+    "accuracy": 94.44444444444444,
+    "time": 1.2322030067443848,
+    "diffs": [
+      [
+        0,
+        "2"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "1 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "21 artabazus quis",
+    "response": "2 1 artabazus quis",
+    "wer": 66.66666666666666,
+    "cer": 5.88235294117647,
+    "accuracy": 94.44444444444444,
+    "time": 1.3000741004943848,
+    "diffs": [
+      [
+        0,
+        "2"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "1 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.4696922302246094,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.544628858566284,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "21 artabazus quis",
+    "response": "artabazus quis",
+    "wer": 33.33333333333333,
+    "cer": 17.647058823529413,
+    "accuracy": 82.35294117647058,
+    "time": 3.0189409255981445,
+    "diffs": [
+      [
+        -1,
+        "21 "
+      ],
+      [
+        0,
+        "artabazus quis"
+      ]
+    ],
+    "matches": 14,
+    "deletions": 3,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "21 artabazus quis",
+    "response": "2 1 : artabazus quis",
+    "wer": 100.0,
+    "cer": 17.647058823529413,
+    "accuracy": 85.0,
+    "time": 4.172143220901489,
+    "diffs": [
+      [
+        0,
+        "2"
+      ],
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        " 1 :"
+      ],
+      [
+        0,
+        " artabazus quis"
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "21 artabazus quis",
+    "response": "21 artubazus quis",
+    "wer": 33.33333333333333,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 7.4867730140686035,
+    "diffs": [
+      [
+        0,
+        "21 art"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "bazus quis"
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 10.915503025054932,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 7.762041091918945,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "21 artabazus quis",
+    "response": "2 1 artabazus quis",
+    "wer": 66.66666666666666,
+    "cer": 5.88235294117647,
+    "accuracy": 94.44444444444444,
+    "time": 19.348841190338135,
+    "diffs": [
+      [
+        0,
+        "2"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "1 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "21 artabazus quis",
+    "response": "z z artabazus quis",
+    "wer": 66.66666666666666,
+    "cer": 17.647058823529413,
+    "accuracy": 83.33333333333334,
+    "time": 4.875401973724365,
+    "diffs": [
+      [
+        -1,
+        "21"
+      ],
+      [
+        1,
+        "z z"
+      ],
+      [
+        0,
+        " artabazus quis"
+      ]
+    ],
+    "matches": 15,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.2163989543914795,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "21 artabazus quis",
+    "response": "zi artabazus quis",
+    "wer": 33.33333333333333,
+    "cer": 11.76470588235294,
+    "accuracy": 88.23529411764706,
+    "time": 1.5903751850128174,
+    "diffs": [
+      [
+        -1,
+        "21"
+      ],
+      [
+        1,
+        "zi"
+      ],
+      [
+        0,
+        " artabazus quis"
+      ]
+    ],
+    "matches": 15,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "grok-4": {
+    "gt": "21 artabazus quis",
+    "response": "z 1 artabazus quis",
+    "wer": 66.66666666666666,
+    "cer": 11.76470588235294,
+    "accuracy": 88.88888888888889,
+    "time": 10.341559171676636,
+    "diffs": [
+      [
+        -1,
+        "2"
+      ],
+      [
+        1,
+        "z "
+      ],
+      [
+        0,
+        "1 artabazus quis"
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "21 artabazus quis",
+    "response": "21 artsbazus quis",
+    "wer": 33.33333333333333,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 1.6148178577423096,
+    "diffs": [
+      [
+        0,
+        "21 art"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "bazus quis"
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "21 artabazus quis",
+    "response": "21 artabazus quis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.7585690021514893,
+    "diffs": [
+      [
+        0,
+        "21 artabazus quis"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

@@ -1,0 +1,665 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſfeuntes prohiberentur. Corycrenſes ubi colonos ac præſidia",
+    "wer": 28.57142857142857,
+    "cer": 4.838709677419355,
+    "accuracy": 96.82539682539682,
+    "time": 1.1499478816986084,
+    "diffs": [
+      [
+        0,
+        "tranſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "euntes prohiberentur. Cor"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        0,
+        "y"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "renſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.6119542121887207,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranfeuntesperhiberentur. Corcyrenses ubi colonos ac præsidia",
+    "wer": 57.14285714285714,
+    "cer": 9.67741935483871,
+    "accuracy": 91.93548387096774,
+    "time": 1.6856203079223633,
+    "diffs": [
+      [
+        0,
+        "tran"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "euntes"
+      ],
+      [
+        -1,
+        " pro"
+      ],
+      [
+        1,
+        "per"
+      ],
+      [
+        0,
+        "hiberentur. Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es ubi colonos ac præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "idia"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranfeentes prohiberentur.Corcyrenſes ubi colonos ac præſidia",
+    "wer": 42.857142857142854,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.6726348400115967,
+    "diffs": [
+      [
+        0,
+        "tran"
+      ],
+      [
+        -1,
+        "ſeu"
+      ],
+      [
+        1,
+        "fee"
+      ],
+      [
+        0,
+        "ntes prohiberentur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Corcyrenſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranfuentes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "wer": 14.285714285714285,
+    "cer": 4.838709677419355,
+    "accuracy": 96.7741935483871,
+    "time": 1.7925958633422852,
+    "diffs": [
+      [
+        0,
+        "tran"
+      ],
+      [
+        -1,
+        "ſeu"
+      ],
+      [
+        1,
+        "fue"
+      ],
+      [
+        0,
+        "ntes prohiberentur. Corcyrenſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gemini-2.5-flash": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.1528210639953613,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.6925160884857178,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.7842180728912354,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præsidia",
+    "wer": 14.285714285714285,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 10.001322031021118,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "idia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-small": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohibērentur. Corcyrenſes ubi colonos ac praeſidia",
+    "wer": 28.57142857142857,
+    "cer": 4.838709677419355,
+    "accuracy": 95.3125,
+    "time": 10.84608507156372,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohibe"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        "rentur. Corcyrenſes ubi colonos ac pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "ſidia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 3
+  },
+  "gemini-2.5-pro": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidiá",
+    "wer": 14.285714285714285,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 15.56464409828186,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidi"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "á"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonoſ ac præſidia",
+    "wer": 14.285714285714285,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 12.121805191040039,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colono"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ac præſidia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 15.040473222732544,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranfeuntes prohiberentur. Corcyrenfes ubi colonos ac præſidia",
+    "wer": 28.57142857142857,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 3.809360980987549,
+    "diffs": [
+      [
+        0,
+        "tran"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "euntes prohiberentur. Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "es ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohibeurtur. Corcyrenſes ubicolonos ac præſidia",
+    "wer": 42.857142857142854,
+    "cer": 6.451612903225806,
+    "accuracy": 95.16129032258065,
+    "time": 1.7489960193634033,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohibe"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "r"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        0,
+        "tur. Corcyrenſes ubi"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "colonos ac præſidia"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "transeuntes prohiberentur. Corcyrenfes ubi colonos ac præsidia",
+    "wer": 42.857142857142854,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 2.044919013977051,
+    "diffs": [
+      [
+        0,
+        "tran"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "euntes prohiberentur. Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "es ubi colonos ac præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "idia"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranſeuntes prohiberentur.Corcyrænſes ubi colonos ac præſidia",
+    "wer": 28.57142857142857,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 26.862677812576294,
+    "diffs": [
+      [
+        0,
+        "tranſeuntes prohiberentur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Corcyr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "nſes ubi colonos ac præſidia"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranfeuntes prohibentur. Corcyrenses ubi colonos ac præfidia",
+    "wer": 57.14285714285714,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 2.455538034439087,
+    "diffs": [
+      [
+        0,
+        "tran"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "euntes prohibe"
+      ],
+      [
+        -1,
+        "re"
+      ],
+      [
+        0,
+        "ntur. Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es ubi colonos ac præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "idia"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tranſeuntes prohiberentur. Corcyrenſes ubi colonos ac præſidia",
+    "response": "tranfeuntes prohiberentur. Corcyrenfes ubi colonos ac præfidia",
+    "wer": 42.857142857142854,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 2.418715000152588,
+    "diffs": [
+      [
+        0,
+        "tran"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "euntes prohiberentur. Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "es ubi colonos ac præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "idia"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  }
+}

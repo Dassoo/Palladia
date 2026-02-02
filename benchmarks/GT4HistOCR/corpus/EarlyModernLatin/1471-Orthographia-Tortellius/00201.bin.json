@@ -1,0 +1,1668 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "&amp; non per.b.dicere &amp; iſcribere compellit. Vnde reſte Priſciano in.viin.b.ante s url",
+    "wer": 76.47058823529412,
+    "cer": 21.59090909090909,
+    "accuracy": 85.71428571428571,
+    "time": 1.3526160717010498,
+    "diffs": [
+      [
+        0,
+        "&"
+      ],
+      [
+        1,
+        "amp;"
+      ],
+      [
+        0,
+        " non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere &"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "amp; i"
+      ],
+      [
+        0,
+        "ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eſte Priſciano in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vii"
+      ],
+      [
+        -1,
+        "ii. "
+      ],
+      [
+        1,
+        "n."
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ante s u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "l"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 12,
+    "insertions": 15
+  },
+  "spotlight": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & tenbере compellit. Vnde teste Prisciano in.viii.b.ante s ucl",
+    "wer": 70.58823529411765,
+    "cer": 19.318181818181817,
+    "accuracy": 80.68181818181817,
+    "time": 1.374222993850708,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & "
+      ],
+      [
+        -1,
+        "ſcribere"
+      ],
+      [
+        1,
+        "tenbере"
+      ],
+      [
+        0,
+        " compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "te Pri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ante s u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "l"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 19,
+    "insertions": 12
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & fcribere compellit.Vnde teſte Prifciano in.viii.b.ant:s ucl",
+    "wer": 76.47058823529412,
+    "cer": 14.772727272727273,
+    "accuracy": 85.22727272727273,
+    "time": 2.0358431339263916,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Vnde teſte Pri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ant"
+      ],
+      [
+        -1,
+        "e "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "s u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "l"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 14,
+    "insertions": 6
+  },
+  "gpt-4o": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & ſcribere compellit. Vnde teſte Priſciano in.viii.b.ante s uel",
+    "wer": 47.05882352941176,
+    "cer": 7.954545454545454,
+    "accuracy": 92.04545454545455,
+    "time": 2.226191282272339,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſte Priſciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ante s uel"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 8,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per. b. dicere & ſcribere compellit. Vnde teſte Priſciano in. viii. b. ante s ucl",
+    "wer": 17.647058823529413,
+    "cer": 3.4090909090909087,
+    "accuracy": 96.5909090909091,
+    "time": 2.643364906311035,
+    "diffs": [
+      [
+        0,
+        "& non per. b. dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſte Priſciano in. viii"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        ". b. ante s u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "l"
+      ]
+    ],
+    "matches": 85,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "mistral-small": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b. dicere & ſcribere compelit. Vnde ſeſte Prifciano in viii.b. ante ſ uſ.",
+    "wer": 58.82352941176471,
+    "cer": 12.5,
+    "accuracy": 87.5,
+    "time": 3.0690419673919678,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b. dicere & ſcribere compel"
+      ],
+      [
+        -1,
+        "la"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "eſte Pri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ciano in"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " viii"
+      ],
+      [
+        -1,
+        "i. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "b. ante "
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " u"
+      ],
+      [
+        -1,
+        "el"
+      ],
+      [
+        1,
+        "ſ."
+      ]
+    ],
+    "matches": 76,
+    "deletions": 12,
+    "insertions": 7
+  },
+  "claude-4-sonnet": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & ſcribere compellit.Vnde reſte Priſciano in.viii.b.ante s vel",
+    "wer": 64.70588235294117,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 4.350834846496582,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Vnde "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eſte Priſciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ante s "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "el"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 11,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per. b. dicere & ſcribere compellit. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "wer": 5.88235294117647,
+    "cer": 1.1363636363636365,
+    "accuracy": 98.86363636363636,
+    "time": 4.893679857254028,
+    "diffs": [
+      [
+        0,
+        "& non per. b. dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſte Priſciano in. viiii. b. ante s uel"
+      ]
+    ],
+    "matches": 87,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b. dúcere & ſcribere compellit. Vnde teſte. Priſciano in.viii.b.anecs uel",
+    "wer": 58.82352941176471,
+    "cer": 11.363636363636363,
+    "accuracy": 89.77272727272727,
+    "time": 6.07224702835083,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b. d"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "cere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſte"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " Priſciano in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "viii"
+      ],
+      [
+        -1,
+        "i. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "an"
+      ],
+      [
+        -1,
+        "te "
+      ],
+      [
+        1,
+        "ec"
+      ],
+      [
+        0,
+        "s uel"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 11,
+    "insertions": 6
+  },
+  "o4-mini": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & ſtenbere compellat. Vnde teſte Prisciano in.viii.b. ante’s uſ",
+    "wer": 64.70588235294117,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 31.15613579750061,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & ſ"
+      ],
+      [
+        -1,
+        "cri"
+      ],
+      [
+        1,
+        "ten"
+      ],
+      [
+        0,
+        "bere compellat. Vnde teſte Pri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b. ante"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "’"
+      ],
+      [
+        0,
+        "s u"
+      ],
+      [
+        -1,
+        "el"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 13,
+    "insertions": 7
+  },
+  "gemini-2.5-pro": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b. dicere & ſcribere compellit. Vnde teſt. Priſciano in .viïi.m.b. anꝫs uel",
+    "wer": 52.94117647058824,
+    "cer": 13.636363636363635,
+    "accuracy": 88.63636363636364,
+    "time": 42.557178258895874,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b. dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " Priſciano in"
+      ],
+      [
+        -1,
+        ". viiii. "
+      ],
+      [
+        1,
+        " .viïi.m."
+      ],
+      [
+        0,
+        "b. an"
+      ],
+      [
+        -1,
+        "te "
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        "s uel"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 15,
+    "insertions": 12
+  },
+  "gpt-5-mini": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & ſcribere compellat. Vnde teſte Priſciano in.viii.b.ante's uel",
+    "wer": 47.05882352941176,
+    "cer": 7.954545454545454,
+    "accuracy": 92.04545454545455,
+    "time": 22.187271118164062,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & ſcribere compellat. Vnde teſte Priſciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ante"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "'"
+      ],
+      [
+        0,
+        "s uel"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 8,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & ſcribere compellit. Vnde teſte Priſciano in.viii.b. ante s uel",
+    "wer": 41.17647058823529,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.18181818181817,
+    "time": 63.00495100021362,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſte Priſciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b. ante s uel"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 7,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & fcribere compellit. Vnde teſte Prisciano in.viii.b.ant: ſucl",
+    "wer": 70.58823529411765,
+    "cer": 14.772727272727273,
+    "accuracy": 85.22727272727273,
+    "time": 8.634029865264893,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſte Pri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ciano in."
+      ],
+      [
+        -1,
+        " vi"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iii."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ant"
+      ],
+      [
+        -1,
+        "e s ue"
+      ],
+      [
+        1,
+        ": ſuc"
+      ],
+      [
+        0,
+        "l"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 16,
+    "insertions": 9
+  },
+  "mistral-medium-3.1": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & ſcribere compellit. Vnde teſte Priſciano in viii. b. anteſ uel",
+    "wer": 47.05882352941176,
+    "cer": 7.954545454545454,
+    "accuracy": 92.04545454545455,
+    "time": 1.7240450382232666,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde teſte Priſciano in"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " viii"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        ". b. ante"
+      ],
+      [
+        -1,
+        " s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " uel"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 7,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & tenbere compellat. Vnde tefte Prufiano in.viiij.antes ud",
+    "wer": 70.58823529411765,
+    "cer": 21.59090909090909,
+    "accuracy": 78.4090909090909,
+    "time": 2.4571101665496826,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & "
+      ],
+      [
+        -1,
+        "ſcri"
+      ],
+      [
+        1,
+        "ten"
+      ],
+      [
+        0,
+        "bere compellat. Vnde te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "te Pr"
+      ],
+      [
+        -1,
+        "iſc"
+      ],
+      [
+        1,
+        "uf"
+      ],
+      [
+        0,
+        "iano in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "viii"
+      ],
+      [
+        -1,
+        "i. b. "
+      ],
+      [
+        1,
+        "j."
+      ],
+      [
+        0,
+        "ante"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s u"
+      ],
+      [
+        -1,
+        "el"
+      ],
+      [
+        1,
+        "d"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 20,
+    "insertions": 9
+  },
+  "cogito-v2-109b": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dacere & Icrcibere compeltIt.Vnde tefte Prifciano in.viir.b.antc: s url",
+    "wer": 76.47058823529412,
+    "cer": 20.454545454545457,
+    "accuracy": 81.81818181818183,
+    "time": 1.7348718643188477,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " di"
+      ],
+      [
+        1,
+        "da"
+      ],
+      [
+        0,
+        "cere & "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "cr"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ibere compel"
+      ],
+      [
+        -1,
+        "la"
+      ],
+      [
+        1,
+        "tI"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Vnde te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "te Pri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ciano in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vii"
+      ],
+      [
+        -1,
+        "ii. "
+      ],
+      [
+        1,
+        "r."
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ant"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c:"
+      ],
+      [
+        0,
+        " s u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "l"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 18,
+    "insertions": 13
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "& non per. b. dicere & ſcribere compellat. Vnde teſte Priſciano in. viiii. b. ante s uel",
+    "response": "& non per.b.dicere & ſcribere compellit. Vnde reſte Prifciano in.viii.b.ante s uel",
+    "wer": 58.82352941176471,
+    "cer": 10.227272727272728,
+    "accuracy": 89.77272727272727,
+    "time": 3.33270001411438,
+    "diffs": [
+      [
+        0,
+        "& non per."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dicere & ſcribere compell"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Vnde "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eſte Pri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ciano in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "viii"
+      ],
+      [
+        -1,
+        "i. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "b."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ante s uel"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 10,
+    "insertions": 4
+  }
+}

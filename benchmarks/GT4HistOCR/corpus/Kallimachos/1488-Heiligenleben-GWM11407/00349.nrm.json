@@ -1,0 +1,886 @@
+{
+  "spotlight": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach kam Eustachius an ſy ſtat Sa cr",
+    "wer": 50.0,
+    "cer": 10.256410256410255,
+    "accuracy": 89.74358974358975,
+    "time": 1.686128854751587,
+    "diffs": [
+      [
+        0,
+        "Darnach kam Eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tachius an "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "y ſtat "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach kam Eustachius an dy stat da er",
+    "wer": 25.0,
+    "cer": 5.128205128205128,
+    "accuracy": 94.87179487179486,
+    "time": 1.845702886581421,
+    "diffs": [
+      [
+        0,
+        "Darnach kam Eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tachius an dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tat da er"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach ſam Euſtachius an dy Rat ſaccr",
+    "wer": 50.0,
+    "cer": 15.384615384615385,
+    "accuracy": 84.61538461538461,
+    "time": 2.138287305831909,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "am Euſtachius an dy "
+      ],
+      [
+        -1,
+        "ſt"
+      ],
+      [
+        1,
+        "R"
+      ],
+      [
+        0,
+        "at "
+      ],
+      [
+        -1,
+        "da e"
+      ],
+      [
+        1,
+        "ſacc"
+      ],
+      [
+        0,
+        "r"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "gpt-4o": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach ſam Euſtachius an ſy Stat ſacr",
+    "wer": 62.5,
+    "cer": 15.384615384615385,
+    "accuracy": 84.61538461538461,
+    "time": 2.6568150520324707,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "am Euſtachius an "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "y "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "tat "
+      ],
+      [
+        -1,
+        "da e"
+      ],
+      [
+        1,
+        "ſac"
+      ],
+      [
+        0,
+        "r"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Qarnach Eam Euſtachius an ſp ſtat ſa cr",
+    "wer": 62.5,
+    "cer": 15.384615384615385,
+    "accuracy": 84.61538461538461,
+    "time": 3.109719753265381,
+    "diffs": [
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "Q"
+      ],
+      [
+        0,
+        "arnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "E"
+      ],
+      [
+        0,
+        "am Euſtachius an "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "ſp"
+      ],
+      [
+        0,
+        " ſtat "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach kam Euſtachius an Jy ſtat da er",
+    "wer": 12.5,
+    "cer": 2.564102564102564,
+    "accuracy": 97.43589743589743,
+    "time": 3.6748080253601074,
+    "diffs": [
+      [
+        0,
+        "Darnach kam Euſtachius an "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "y ſtat da er"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach kam Euſtachius an Jn ſtat da er",
+    "wer": 12.5,
+    "cer": 5.128205128205128,
+    "accuracy": 94.87179487179486,
+    "time": 5.086641073226929,
+    "diffs": [
+      [
+        0,
+        "Darnach kam Euſtachius an "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "Jn"
+      ],
+      [
+        0,
+        " ſtat da er"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "llama-4-maverick-17b": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach Zam Euſtagius an Sy ſtat Da cr~",
+    "wer": 62.5,
+    "cer": 17.94871794871795,
+    "accuracy": 84.61538461538461,
+    "time": 13.603257179260254,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "Z"
+      ],
+      [
+        0,
+        "am Euſta"
+      ],
+      [
+        -1,
+        "ch"
+      ],
+      [
+        1,
+        "g"
+      ],
+      [
+        0,
+        "ius an "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "y ſtat "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "er"
+      ],
+      [
+        1,
+        "cr~"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "gpt-5-mini": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach kam Euſtachius an dy ſtat da er",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 12.825666666030884,
+    "diffs": [
+      [
+        0,
+        "Darnach kam Euſtachius an dy ſtat da er"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach kam Euſtachius an dy ſtat ſo er",
+    "wer": 12.5,
+    "cer": 5.128205128205128,
+    "accuracy": 94.87179487179486,
+    "time": 48.93862295150757,
+    "diffs": [
+      [
+        0,
+        "Darnach kam Euſtachius an dy ſtat "
+      ],
+      [
+        -1,
+        "da"
+      ],
+      [
+        1,
+        "ſo"
+      ],
+      [
+        0,
+        " er"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Garnach Fam Euftacchius an Sp ftat da cr",
+    "wer": 75.0,
+    "cer": 20.51282051282051,
+    "accuracy": 80.0,
+    "time": 10.786117792129517,
+    "diffs": [
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "arnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "am Eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tac"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "hius an "
+      ],
+      [
+        -1,
+        "dy ſ"
+      ],
+      [
+        1,
+        "Sp f"
+      ],
+      [
+        0,
+        "tat da "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "gemini-2.5-flash": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach Kam Euſtachius an Sy hat Da er",
+    "wer": 50.0,
+    "cer": 12.82051282051282,
+    "accuracy": 87.17948717948718,
+    "time": 4.991846799850464,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "am Euſtachius an "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "y "
+      ],
+      [
+        -1,
+        "ſt"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "at "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a er"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach Fam Euſtachius an ſy ſtat da cr",
+    "wer": 37.5,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 1.829007863998413,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "am Euſtachius an "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "y ſtat da "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "ſarnach ēam ēustachius an ʻp ӝat ʻa cr",
+    "wer": 87.5,
+    "cer": 25.64102564102564,
+    "accuracy": 74.35897435897436,
+    "time": 3.331881046295166,
+    "diffs": [
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "arnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "am "
+      ],
+      [
+        -1,
+        "Euſ"
+      ],
+      [
+        1,
+        "ēus"
+      ],
+      [
+        0,
+        "tachius an "
+      ],
+      [
+        -1,
+        "dy ſt"
+      ],
+      [
+        1,
+        "ʻp ӝ"
+      ],
+      [
+        0,
+        "at "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ʻ"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r"
+      ]
+    ],
+    "matches": 27,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "cogito-v2-109b": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "GarnachBam Euftachius an Dy Hat Ga er",
+    "wer": 75.0,
+    "cer": 20.51282051282051,
+    "accuracy": 79.48717948717949,
+    "time": 2.154873847961426,
+    "diffs": [
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "arnach"
+      ],
+      [
+        -1,
+        " k"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "am Eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tachius an "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "y "
+      ],
+      [
+        -1,
+        "ſt"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "at "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "a er"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Darnach kam Euſtachius an dy ſtat da er",
+    "response": "Darnach kam Eustachius an dy stat da er",
+    "wer": 25.0,
+    "cer": 5.128205128205128,
+    "accuracy": 94.87179487179486,
+    "time": 4.536652088165283,
+    "diffs": [
+      [
+        0,
+        "Darnach kam Eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tachius an dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tat da er"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

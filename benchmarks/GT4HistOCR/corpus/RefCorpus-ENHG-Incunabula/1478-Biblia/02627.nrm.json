@@ -1,0 +1,1034 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage fines leuēdes were. vij. hūdert vn̄ lxxvij",
+    "wer": 81.81818181818183,
+    "cer": 22.0,
+    "accuracy": 78.0,
+    "time": 1.7277040481567383,
+    "diffs": [
+      [
+        0,
+        "dage "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ ·"
+      ],
+      [
+        1,
+        "e."
+      ],
+      [
+        0,
+        " vij"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " h"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "dert v"
+      ],
+      [
+        -1,
+        "ñ ·"
+      ],
+      [
+        1,
+        "n̄"
+      ],
+      [
+        0,
+        " lxxvij"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 11,
+    "insertions": 8
+  },
+  "spotlight": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dageſines leuẽdes werẽ vii ſt hũdert vii lxvii",
+    "wer": 72.72727272727273,
+    "cer": 22.0,
+    "accuracy": 80.0,
+    "time": 1.6352460384368896,
+    "diffs": [
+      [
+        0,
+        "dage"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſines leuẽdes werẽ "
+      ],
+      [
+        -1,
+        "· vij ·"
+      ],
+      [
+        1,
+        "vii ſt"
+      ],
+      [
+        0,
+        " hũdert v"
+      ],
+      [
+        -1,
+        "ñ ·"
+      ],
+      [
+        1,
+        "ii"
+      ],
+      [
+        0,
+        " lx"
+      ],
+      [
+        -1,
+        "x"
+      ],
+      [
+        0,
+        "vi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 13,
+    "insertions": 9
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage fines leuēdes were·vij·hūdert vn·lxvij",
+    "wer": 90.9090909090909,
+    "cer": 24.0,
+    "accuracy": 76.0,
+    "time": 3.108530044555664,
+    "diffs": [
+      [
+        0,
+        "dage "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũdert vñ · lx"
+      ],
+      [
+        1,
+        "e·vij·hūdert vn·l"
+      ],
+      [
+        0,
+        "xvij"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 26,
+    "insertions": 19
+  },
+  "mistral-small": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage fines leuēdes were·vii·hūdert vn·lxxvii",
+    "wer": 90.9090909090909,
+    "cer": 26.0,
+    "accuracy": 74.0,
+    "time": 1.3581600189208984,
+    "diffs": [
+      [
+        0,
+        "dage "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũ"
+      ],
+      [
+        1,
+        "e·vii·hū"
+      ],
+      [
+        0,
+        "dert v"
+      ],
+      [
+        -1,
+        "ñ · "
+      ],
+      [
+        1,
+        "n·"
+      ],
+      [
+        0,
+        "lxxvi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 19,
+    "insertions": 13
+  },
+  "gpt-4.1": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage ſines leuēes were· vij·hūdert vii·lxxvij",
+    "wer": 81.81818181818183,
+    "cer": 20.0,
+    "accuracy": 80.0,
+    "time": 1.7580950260162354,
+    "diffs": [
+      [
+        0,
+        "dage ſines leu"
+      ],
+      [
+        -1,
+        "ẽd"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "es wer"
+      ],
+      [
+        -1,
+        "ẽ "
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "· vij"
+      ],
+      [
+        -1,
+        " · hũ"
+      ],
+      [
+        1,
+        "·hū"
+      ],
+      [
+        0,
+        "dert v"
+      ],
+      [
+        -1,
+        "ñ · "
+      ],
+      [
+        1,
+        "ii·"
+      ],
+      [
+        0,
+        "lxxvij"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 13,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dagefines leuēdes were· vii· hūdert vñ· lxxvii",
+    "wer": 100.0,
+    "cer": 20.0,
+    "accuracy": 80.0,
+    "time": 3.3919517993927,
+    "diffs": [
+      [
+        0,
+        "dage"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ "
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "· vi"
+      ],
+      [
+        -1,
+        "j "
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "· h"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "dert vñ"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· lxxvi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 10,
+    "insertions": 6
+  },
+  "claude-4-opus": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage ſines leuẽdes wœr· vij· hũdert vñ· lxxvij",
+    "wer": 54.54545454545454,
+    "cer": 10.0,
+    "accuracy": 90.0,
+    "time": 4.045334100723267,
+    "diffs": [
+      [
+        0,
+        "dage ſines leuẽdes w"
+      ],
+      [
+        -1,
+        "erẽ "
+      ],
+      [
+        1,
+        "œr"
+      ],
+      [
+        0,
+        "· vij"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· hũdert vñ"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· lxxvij"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage ſines leuedes werē·vij·hūdert vii·lxxvij",
+    "wer": 81.81818181818183,
+    "cer": 20.0,
+    "accuracy": 80.0,
+    "time": 2.249959945678711,
+    "diffs": [
+      [
+        0,
+        "dage ſines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũ"
+      ],
+      [
+        1,
+        "ē·vij·hū"
+      ],
+      [
+        0,
+        "dert v"
+      ],
+      [
+        -1,
+        "ñ · "
+      ],
+      [
+        1,
+        "ii·"
+      ],
+      [
+        0,
+        "lxxvij"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 17,
+    "insertions": 12
+  },
+  "gpt-5-mini": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage ſines leuēdes werē·vii·hūdert vn·lxxvii",
+    "wer": 81.81818181818183,
+    "cer": 24.0,
+    "accuracy": 76.0,
+    "time": 24.631009817123413,
+    "diffs": [
+      [
+        0,
+        "dage ſines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũ"
+      ],
+      [
+        1,
+        "ē·vii·hū"
+      ],
+      [
+        0,
+        "dert v"
+      ],
+      [
+        -1,
+        "ñ · "
+      ],
+      [
+        1,
+        "n·"
+      ],
+      [
+        0,
+        "lxxvi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 18,
+    "insertions": 12
+  },
+  "gpt-5": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage ſines leuēdes were· vij· hūdert vñ· lxx vij",
+    "wer": 81.81818181818183,
+    "cer": 14.000000000000002,
+    "accuracy": 88.0,
+    "time": 56.28649282455444,
+    "diffs": [
+      [
+        0,
+        "dage ſines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ "
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "· vij"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· h"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "dert vñ"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· lxx"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "vij"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "glm-4.5v": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dageſines leuēdes were·vij·hūdert vŭ·lxxxvij",
+    "wer": 100.0,
+    "cer": 24.0,
+    "accuracy": 78.0,
+    "time": 21.062083959579468,
+    "diffs": [
+      [
+        0,
+        "dage"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũ"
+      ],
+      [
+        1,
+        "e·vij·hū"
+      ],
+      [
+        0,
+        "dert v"
+      ],
+      [
+        -1,
+        "ñ · l"
+      ],
+      [
+        1,
+        "ŭ·lx"
+      ],
+      [
+        0,
+        "xxvij"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 19,
+    "insertions": 13
+  },
+  "gemini-2.5-flash": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "bage ſines leuc̃d̃es wer̃·vij·hüd̃ert vij·lxxvij",
+    "wer": 90.9090909090909,
+    "cer": 30.0,
+    "accuracy": 78.0,
+    "time": 8.77699613571167,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "age ſines leu"
+      ],
+      [
+        -1,
+        "ẽd"
+      ],
+      [
+        1,
+        "c̃d̃"
+      ],
+      [
+        0,
+        "es wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũd"
+      ],
+      [
+        1,
+        "̃·vij·hüd̃"
+      ],
+      [
+        0,
+        "ert v"
+      ],
+      [
+        -1,
+        "ñ · "
+      ],
+      [
+        1,
+        "ij·"
+      ],
+      [
+        0,
+        "lxxvij"
+      ]
+    ],
+    "matches": 30,
+    "deletions": 20,
+    "insertions": 19
+  },
+  "mistral-medium-3.1": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage fines leuædes weré·viij·hüdert viij·lxvij",
+    "wer": 90.9090909090909,
+    "cer": 28.000000000000004,
+    "accuracy": 76.0,
+    "time": 1.8729231357574463,
+    "diffs": [
+      [
+        0,
+        "dage "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũdert vñ · lx"
+      ],
+      [
+        1,
+        "é·viij·hüdert viij·l"
+      ],
+      [
+        0,
+        "xvij"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 26,
+    "insertions": 22
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage Ǝnes leuē̃des wɛɛ̃ ʋij ɦũdɛrt vn ɭxxʋij",
+    "wer": 90.9090909090909,
+    "cer": 40.0,
+    "accuracy": 62.0,
+    "time": 2.3991200923919678,
+    "diffs": [
+      [
+        0,
+        "dage "
+      ],
+      [
+        -1,
+        "ſi"
+      ],
+      [
+        1,
+        "Ǝ"
+      ],
+      [
+        0,
+        "nes leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē̃"
+      ],
+      [
+        0,
+        "des w"
+      ],
+      [
+        -1,
+        "erẽ · vij · hũdert vñ · l"
+      ],
+      [
+        1,
+        "ɛɛ̃ ʋij ɦũdɛrt vn ɭ"
+      ],
+      [
+        0,
+        "xx"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ʋ"
+      ],
+      [
+        0,
+        "ij"
+      ]
+    ],
+    "matches": 21,
+    "deletions": 29,
+    "insertions": 24
+  },
+  "cogito-v2-109b": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dagefines leuëdes werē·vij·hūd̄er tủ·lxxxvij",
+    "wer": 100.0,
+    "cer": 32.0,
+    "accuracy": 72.0,
+    "time": 2.1060574054718018,
+    "diffs": [
+      [
+        0,
+        "dage"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũdert vñ · l"
+      ],
+      [
+        1,
+        "ē·vij·hūd̄er tủ·lx"
+      ],
+      [
+        0,
+        "xxvij"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 26,
+    "insertions": 20
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "dage ſines leuẽdes werẽ · vij · hũdert vñ · lxxvij",
+    "response": "dage hines leuēdes were·vij·hūdert vñ·lxxvij",
+    "wer": 90.9090909090909,
+    "cer": 20.0,
+    "accuracy": 80.0,
+    "time": 4.397516965866089,
+    "diffs": [
+      [
+        0,
+        "dage "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "ines leu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "des wer"
+      ],
+      [
+        -1,
+        "ẽ · vij · hũ"
+      ],
+      [
+        1,
+        "e·vij·hū"
+      ],
+      [
+        0,
+        "dert vñ"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "lxxvij"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 17,
+    "insertions": 11
+  }
+}

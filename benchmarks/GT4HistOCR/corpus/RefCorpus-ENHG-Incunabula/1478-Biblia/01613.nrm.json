@@ -1,0 +1,742 @@
+{
+  "mistral-small": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voer dem begyn Eſdre",
+    "wer": 20.0,
+    "cer": 4.0,
+    "accuracy": 96.0,
+    "time": 1.2717809677124023,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voer dem begyn Eſdre"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſet voer din beſyn Elſdre",
+    "wer": 80.0,
+    "cer": 20.0,
+    "accuracy": 84.0,
+    "time": 1.460721731185913,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "t voer d"
+      ],
+      [
+        -1,
+        "em"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " be"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "yn E"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ſdre"
+      ]
+    ],
+    "matches": 21,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voer dein begyn El dre",
+    "wer": 80.0,
+    "cer": 20.0,
+    "accuracy": 81.48148148148148,
+    "time": 1.5270981788635254,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voer de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " begyn E"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l "
+      ],
+      [
+        0,
+        "dre"
+      ]
+    ],
+    "matches": 22,
+    "deletions": 3,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſeet voer ſin beſyn Eſdre",
+    "wer": 40.0,
+    "cer": 16.0,
+    "accuracy": 84.0,
+    "time": 1.7175438404083252,
+    "diffs": [
+      [
+        0,
+        "ſeet voer "
+      ],
+      [
+        -1,
+        "dem"
+      ],
+      [
+        1,
+        "ſin"
+      ],
+      [
+        0,
+        " be"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "yn Eſdre"
+      ]
+    ],
+    "matches": 21,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "Seet voer dem begyn Eldre",
+    "wer": 40.0,
+    "cer": 8.0,
+    "accuracy": 92.0,
+    "time": 2.7613320350646973,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "eet voer dem begyn E"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "dre"
+      ]
+    ],
+    "matches": 23,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voet dein begyn Eſ dore",
+    "wer": 100.0,
+    "cer": 24.0,
+    "accuracy": 78.57142857142857,
+    "time": 3.4732611179351807,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " begyn Eſ"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        " do"
+      ],
+      [
+        0,
+        "re"
+      ]
+    ],
+    "matches": 21,
+    "deletions": 4,
+    "insertions": 7
+  },
+  "claude-4-opus": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſeer voer dem begyn Eſt dre",
+    "wer": 60.0,
+    "cer": 12.0,
+    "accuracy": 88.88888888888889,
+    "time": 3.4941458702087402,
+    "diffs": [
+      [
+        0,
+        "ſee"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " voer dem begyn Eſ"
+      ],
+      [
+        1,
+        "t "
+      ],
+      [
+        0,
+        "dre"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 1,
+    "insertions": 3
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voer ẋın begyn Eſdre",
+    "wer": 40.0,
+    "cer": 16.0,
+    "accuracy": 84.0,
+    "time": 8.625846147537231,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voer "
+      ],
+      [
+        -1,
+        "dem"
+      ],
+      [
+        1,
+        "ẋın"
+      ],
+      [
+        0,
+        " begyn Eſdre"
+      ]
+    ],
+    "matches": 21,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſet voer den begyn Eſdre",
+    "wer": 40.0,
+    "cer": 8.0,
+    "accuracy": 92.0,
+    "time": 13.74213695526123,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "t voer de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " begyn Eſdre"
+      ]
+    ],
+    "matches": 23,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſiet voer den begyn Eſdre",
+    "wer": 40.0,
+    "cer": 8.0,
+    "accuracy": 92.0,
+    "time": 28.1296808719635,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "et voer de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " begyn Eſdre"
+      ]
+    ],
+    "matches": 23,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voer ðin begyn Eldre",
+    "wer": 60.0,
+    "cer": 20.0,
+    "accuracy": 80.0,
+    "time": 5.84080171585083,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voer "
+      ],
+      [
+        -1,
+        "dem"
+      ],
+      [
+        1,
+        "ðin"
+      ],
+      [
+        0,
+        " begyn E"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "dre"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſet voer den begyn Eß dre",
+    "wer": 80.0,
+    "cer": 16.0,
+    "accuracy": 88.0,
+    "time": 8.719839811325073,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "t voer de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " begyn E"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ß "
+      ],
+      [
+        0,
+        "dre"
+      ]
+    ],
+    "matches": 22,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voer dem begyn Elſdre",
+    "wer": 40.0,
+    "cer": 8.0,
+    "accuracy": 92.3076923076923,
+    "time": 1.1651389598846436,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voer dem begyn E"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ſdre"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voer đèn begýn Ɛѕðê",
+    "wer": 80.0,
+    "cer": 40.0,
+    "accuracy": 60.0,
+    "time": 2.1400842666625977,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voer "
+      ],
+      [
+        -1,
+        "dem"
+      ],
+      [
+        1,
+        "đèn"
+      ],
+      [
+        0,
+        " beg"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "ý"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "Eſdre"
+      ],
+      [
+        1,
+        "Ɛѕðê"
+      ]
+    ],
+    "matches": 15,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "cogito-v2-109b": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "fct voer dın beƣyn Gfdre",
+    "wer": 80.0,
+    "cer": 32.0,
+    "accuracy": 68.0,
+    "time": 2.0280346870422363,
+    "diffs": [
+      [
+        -1,
+        "ſee"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        "t voer d"
+      ],
+      [
+        -1,
+        "em"
+      ],
+      [
+        1,
+        "ın"
+      ],
+      [
+        0,
+        " be"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "ƣ"
+      ],
+      [
+        0,
+        "yn "
+      ],
+      [
+        -1,
+        "Eſ"
+      ],
+      [
+        1,
+        "Gf"
+      ],
+      [
+        0,
+        "dre"
+      ]
+    ],
+    "matches": 17,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſeet voer dem begyn Eſdre",
+    "response": "ſect voer win begyn Eſdre",
+    "wer": 40.0,
+    "cer": 16.0,
+    "accuracy": 84.0,
+    "time": 1.6113758087158203,
+    "diffs": [
+      [
+        0,
+        "ſe"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t voer "
+      ],
+      [
+        -1,
+        "dem"
+      ],
+      [
+        1,
+        "win"
+      ],
+      [
+        0,
+        " begyn Eſdre"
+      ]
+    ],
+    "matches": 21,
+    "deletions": 4,
+    "insertions": 4
+  }
+}

@@ -1,0 +1,1240 @@
+{
+  "spotlight": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nó momordi cum o:fed cúememordi dicebant.Q.Ennius in Satyris meú",
+    "wer": 73.33333333333333,
+    "cer": 13.157894736842104,
+    "accuracy": 86.8421052631579,
+    "time": 1.643531084060669,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " momordi cum o:"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed c"
+      ],
+      [
+        -1,
+        "ũ e "
+      ],
+      [
+        1,
+        "úe"
+      ],
+      [
+        0,
+        "memordi dicebant."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Q."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ennius in "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "atyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ú"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 11,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo no momordi cum o:fed cui ememordi dicebant.Q. Ennius in Satyrs mei",
+    "wer": 66.66666666666666,
+    "cer": 13.157894736842104,
+    "accuracy": 88.1578947368421,
+    "time": 1.6713321208953857,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " momordi cum o:"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ui"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Q. Ennius in "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "atyr"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "s me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "i"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "llama-4-maverick-17b": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o:ſed cũ ememordi dicebant. Q. Ennius in ſatyris meū",
+    "wer": 40.0,
+    "cer": 5.263157894736842,
+    "accuracy": 94.73684210526315,
+    "time": 1.8132474422454834,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſed cũ e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o: ſed cū emordi dicebant. Q. Ennius in ſatyris meū",
+    "wer": 33.33333333333333,
+    "cer": 7.894736842105263,
+    "accuracy": 92.10526315789474,
+    "time": 2.2363719940185547,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o: ſed c"
+      ],
+      [
+        -1,
+        "ũ e m"
+      ],
+      [
+        1,
+        "ū "
+      ],
+      [
+        0,
+        "emordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o: ſed cū ememordi dicebant. Q. Ennius in ſatyris meū",
+    "wer": 33.33333333333333,
+    "cer": 5.263157894736842,
+    "accuracy": 94.73684210526315,
+    "time": 2.3934590816497803,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o: ſed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nó momordi cum o:sed cúememordi dicebant.Q.Ennius in fatyrıs meu",
+    "wer": 73.33333333333333,
+    "cer": 14.473684210526317,
+    "accuracy": 85.52631578947368,
+    "time": 2.9701356887817383,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " momordi cum o:"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ed c"
+      ],
+      [
+        -1,
+        "ũ e "
+      ],
+      [
+        1,
+        "úe"
+      ],
+      [
+        0,
+        "memordi dicebant."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Q."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ennius in "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "atyr"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ı"
+      ],
+      [
+        0,
+        "s me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 12,
+    "insertions": 7
+  },
+  "claude-4-sonnet": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o: ſed cū e memordi dicebant. Q. Ennius in ſatyris meū",
+    "wer": 20.0,
+    "cer": 3.9473684210526314,
+    "accuracy": 96.05263157894737,
+    "time": 4.088431119918823,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o: ſed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e memordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris metrũ",
+    "wer": 6.666666666666667,
+    "cer": 2.631578947368421,
+    "accuracy": 97.43589743589743,
+    "time": 6.477719068527222,
+    "diffs": [
+      [
+        0,
+        "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        1,
+        "tr"
+      ],
+      [
+        0,
+        "ũ"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 0,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nó momordi cum o: ſed úemordi dicebant. Q, Ennius in ſatyris meú",
+    "wer": 40.0,
+    "cer": 11.842105263157894,
+    "accuracy": 88.1578947368421,
+    "time": 6.679020166397095,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " momordi cum o: ſed "
+      ],
+      [
+        -1,
+        "cũ e m"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "emordi dicebant. Q"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ú"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 9,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o:ſed cū ememordi dicebant. Q. Ennius in ſatyris meui",
+    "wer": 46.666666666666664,
+    "cer": 7.894736842105263,
+    "accuracy": 93.42105263157895,
+    "time": 13.623908042907715,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ui"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nó momordi cūm o: ſed cū ememordi dicebant. Q. Ennius in ſatyris meū",
+    "wer": 40.0,
+    "cer": 6.578947368421052,
+    "accuracy": 93.42105263157895,
+    "time": 42.712069034576416,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " momordi c"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "m o: ſed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o: ſed cū ememordi dicebant. Q. Ennius in ſatyris meis",
+    "wer": 33.33333333333333,
+    "cer": 6.578947368421052,
+    "accuracy": 94.73684210526315,
+    "time": 27.049070119857788,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o: ſed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant. Q. Ennius in ſatyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "is"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o: ſed cũ e memordi dicebant. Q, Ennius in ſatyris meũ",
+    "wer": 13.333333333333334,
+    "cer": 2.631578947368421,
+    "accuracy": 97.36842105263158,
+    "time": 60.1402690410614,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o: ſed cũ e memordi dicebant. Q"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " Ennius in ſatyris meũ"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o: fed cū ememordi dicebant.Q.Ennius in fatyris meī",
+    "wer": 66.66666666666666,
+    "cer": 10.526315789473683,
+    "accuracy": 89.47368421052632,
+    "time": 8.48746919631958,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o: "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Q."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ennius in "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "atyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ī"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum o: ſed cū memoridi dicebant. Q. Ennius in ſatyriſ meuī",
+    "wer": 40.0,
+    "cer": 13.157894736842104,
+    "accuracy": 88.60759493670885,
+    "time": 1.6508231163024902,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum o: ſed c"
+      ],
+      [
+        -1,
+        "ũ e"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " memor"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "di dicebant. Q. Ennius in ſatyri"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "uī"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 6,
+    "insertions": 9
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nō momordi cum ō:fed cū ememordi dicebant. Q. Ennius in fatyris mei",
+    "wer": 53.333333333333336,
+    "cer": 10.526315789473683,
+    "accuracy": 89.47368421052632,
+    "time": 2.4131739139556885,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " momordi cum "
+      ],
+      [
+        -1,
+        "o: ſ"
+      ],
+      [
+        1,
+        "ō:f"
+      ],
+      [
+        0,
+        "ed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant. Q. Ennius in "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "atyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "i"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo nô momordi cum o:fed cû e memordi dicebant.Q. Ennius in fatyris meu",
+    "wer": 53.333333333333336,
+    "cer": 9.210526315789473,
+    "accuracy": 90.78947368421053,
+    "time": 1.684471845626831,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ô"
+      ],
+      [
+        0,
+        " momordi cum o:"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "û"
+      ],
+      [
+        0,
+        " e memordi dicebant."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Q. Ennius in "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "atyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "mordeo nõ momordi cum o: ſed cũ e memordi dicebant. Q. Ennius in ſatyris meũ",
+    "response": "mordeo no momordi cum o:fed cū ememordi dicebant.Q.Ennius in fatyris meū",
+    "wer": 73.33333333333333,
+    "cer": 11.842105263157894,
+    "accuracy": 88.1578947368421,
+    "time": 2.0632882118225098,
+    "diffs": [
+      [
+        0,
+        "mordeo n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " momordi cum o:"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "memordi dicebant."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Q."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ennius in "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "atyris me"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 9,
+    "insertions": 5
+  }
+}

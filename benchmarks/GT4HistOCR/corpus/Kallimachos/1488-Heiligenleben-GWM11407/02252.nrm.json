@@ -1,0 +1,678 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg da wonet er",
+    "wer": 11.11111111111111,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 0.9438788890838623,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg da wonet er"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach ſam er auff einen Berg da wonet er",
+    "wer": 22.22222222222222,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 2.063720226287842,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "am er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg da wonet er"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg da wonet er",
+    "wer": 11.11111111111111,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 1.40895414352417,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg da wonet er"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg Da wonet er",
+    "wer": 22.22222222222222,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 2.5898380279541016,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wonet er"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach ſam er auf einen Berg Da wonet er",
+    "wer": 44.44444444444444,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 2.723989963531494,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "am er auf"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        0,
+        " einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wonet er"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen berg da wonet er",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.2223970890045166,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen berg da wonet er"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "mistral-small": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach faſt er auff einen berg da wonet er",
+    "wer": 11.11111111111111,
+    "cer": 7.142857142857142,
+    "accuracy": 93.02325581395348,
+    "time": 1.0952329635620117,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "kam"
+      ],
+      [
+        1,
+        "faſt"
+      ],
+      [
+        0,
+        " er auff einen berg da wonet er"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg Da wonet er",
+    "wer": 22.22222222222222,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 3.813319206237793,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wonet er"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen berg da wonet er",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 8.25240707397461,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen berg da wonet er"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg Da wonet er",
+    "wer": 22.22222222222222,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 13.175104141235352,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wonet er"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg Damonet er",
+    "wer": 33.33333333333333,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 5.279367923736572,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "da w"
+      ],
+      [
+        1,
+        "Dam"
+      ],
+      [
+        0,
+        "onet er"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach Kom er auff einen Berg Sa monet er",
+    "wer": 44.44444444444444,
+    "cer": 11.904761904761903,
+    "accuracy": 88.09523809523809,
+    "time": 4.196160078048706,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "ka"
+      ],
+      [
+        1,
+        "Ko"
+      ],
+      [
+        0,
+        "m er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "onet er"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach Kam er auff einen Berg Da monete er",
+    "wer": 44.44444444444444,
+    "cer": 11.904761904761903,
+    "accuracy": 88.37209302325581,
+    "time": 1.1211278438568115,
+    "diffs": [
+      [
+        0,
+        "Darnach "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "am er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "onet"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " er"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg, da monet er",
+    "wer": 22.22222222222222,
+    "cer": 7.142857142857142,
+    "accuracy": 93.02325581395348,
+    "time": 4.49388861656189,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg"
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " da "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "onet er"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "cogito-v2-109b": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "GarnachFam er auff cinenBerg Sa wonet er",
+    "wer": 55.55555555555556,
+    "cer": 16.666666666666664,
+    "accuracy": 83.33333333333334,
+    "time": 1.8861241340637207,
+    "diffs": [
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "arnach"
+      ],
+      [
+        -1,
+        " k"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "am er auff "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "inen"
+      ],
+      [
+        -1,
+        " b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a wonet er"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Darnach kam er auff einen berg da wonet er",
+    "response": "Darnach kam er auff einen Berg da wonet er",
+    "wer": 11.11111111111111,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 4.593832015991211,
+    "diffs": [
+      [
+        0,
+        "Darnach kam er auff einen "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "erg da wonet er"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

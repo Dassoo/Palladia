@@ -1,0 +1,1069 @@
+{
+  "mistral-small": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe ifta facturos, paratos ſe & ſancte promittere, dum",
+    "wer": 40.0,
+    "cer": 10.294117647058822,
+    "accuracy": 89.70588235294117,
+    "time": 1.2890732288360596,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ta facturos, paratos"
+      ],
+      [
+        -1,
+        "q́; eſ"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "ſe & ſanct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " promittere, dum"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 8,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratosqꝫ eſſe & ſanctè promittere, dunt",
+    "wer": 20.0,
+    "cer": 5.88235294117647,
+    "accuracy": 95.58823529411765,
+    "time": 1.9531760215759277,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratosq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " eſſe & ſanctè promittere, du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducement, se ista facturos, paratosæ & sancte promittere, dunt",
+    "wer": 70.0,
+    "cer": 22.058823529411764,
+    "accuracy": 79.41176470588235,
+    "time": 2.001462936401367,
+    "diffs": [
+      [
+        0,
+        "duce"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "ent, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "e i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ta facturos, paratos"
+      ],
+      [
+        -1,
+        "q́; eſſe"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        " & "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "anct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " promittere, du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 14,
+    "insertions": 8
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent,ſe iſta facturos,paratosſʳ eſſe & ſanctè promittere,dum",
+    "wer": 70.0,
+    "cer": 11.76470588235294,
+    "accuracy": 89.70588235294117,
+    "time": 2.1337008476257324,
+    "diffs": [
+      [
+        0,
+        "ducerent,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſe iſta facturos,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "paratos"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "ſʳ"
+      ],
+      [
+        0,
+        " eſſe & ſanct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "è"
+      ],
+      [
+        0,
+        " promittere,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent,ſe iſta facturos,paratosꝑ eſſe & ſancè promittere,dunt",
+    "wer": 70.0,
+    "cer": 13.23529411764706,
+    "accuracy": 88.23529411764706,
+    "time": 2.5521819591522217,
+    "diffs": [
+      [
+        0,
+        "ducerent,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſe iſta facturos,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "paratos"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "ꝑ"
+      ],
+      [
+        0,
+        " eſſe & ſanc"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "è promittere,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 8,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratosq́ue eſſe & ſanctè promittere, dumt",
+    "wer": 20.0,
+    "cer": 4.411764705882353,
+    "accuracy": 95.71428571428572,
+    "time": 2.579414129257202,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratosq́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ue"
+      ],
+      [
+        0,
+        " eſſe & ſanctè promittere, dum"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 1,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratoſq́; eſſe & ſancte promittere, dum",
+    "wer": 20.0,
+    "cer": 2.941176470588235,
+    "accuracy": 97.05882352941177,
+    "time": 3.841214895248413,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, parato"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "q́; eſſe & ſanct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " promittere, dum"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent,ſe iſta facturos,paratosq́; eſſe & ſancte promittere,dum",
+    "wer": 70.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 4.702986001968384,
+    "diffs": [
+      [
+        0,
+        "ducerent,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſe iſta facturos,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "paratosq́; eſſe & ſanct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " promittere,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dunt",
+    "wer": 10.0,
+    "cer": 2.941176470588235,
+    "accuracy": 97.10144927536231,
+    "time": 5.860487937927246,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratosq̃ eſse & ſancte promittere, dum",
+    "wer": 30.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 20.075861930847168,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratosq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " eſ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "e & ſanct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " promittere, dum"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gemini-2.5-pro": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratosq́ eſſe & ſanctè promittere, dumt",
+    "wer": 20.0,
+    "cer": 2.941176470588235,
+    "accuracy": 98.52941176470588,
+    "time": 27.795146226882935,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratosq́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " eſſe & ſanctè promittere, dum"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratosq̄ eſſe & ſanctē promittere, dum",
+    "wer": 20.0,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 16.64052104949951,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratosq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        " eſſe & ſanct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " promittere, dum"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratosq; eſſe & ſanctè promittere, dunt",
+    "wer": 20.0,
+    "cer": 4.411764705882353,
+    "accuracy": 97.05882352941177,
+    "time": 30.845517873764038,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratosq"
+      ],
+      [
+        -1,
+        "́"
+      ],
+      [
+        0,
+        "; eſſe & ſanctè promittere, du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent,fe ifta facturos,paratosϛ effe & fanctè promittere,dunt",
+    "wer": 90.0,
+    "cer": 19.11764705882353,
+    "accuracy": 82.35294117647058,
+    "time": 7.149364948272705,
+    "diffs": [
+      [
+        0,
+        "ducerent,"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ta facturos,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "paratos"
+      ],
+      [
+        -1,
+        "q́; eſſ"
+      ],
+      [
+        1,
+        "ϛ eff"
+      ],
+      [
+        0,
+        "e & "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "anctè promittere,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 14,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, ſe iſta facturos, paratos¢ eſſe & fanctè promittere, dumt",
+    "wer": 30.0,
+    "cer": 7.352941176470589,
+    "accuracy": 94.11764705882352,
+    "time": 1.6890239715576172,
+    "diffs": [
+      [
+        0,
+        "ducerent, ſe iſta facturos, paratos"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "¢"
+      ],
+      [
+        0,
+        " eſſe & "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "anctè promittere, dum"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent, sè ísta faćturos, paratos ῆ elle & sanctè promittere, dint",
+    "wer": 80.0,
+    "cer": 20.588235294117645,
+    "accuracy": 80.88235294117648,
+    "time": 2.515981674194336,
+    "diffs": [
+      [
+        0,
+        "ducerent, "
+      ],
+      [
+        -1,
+        "ſe iſ"
+      ],
+      [
+        1,
+        "sè ís"
+      ],
+      [
+        0,
+        "ta fa"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ć"
+      ],
+      [
+        0,
+        "turos, paratos"
+      ],
+      [
+        -1,
+        "q́; eſſ"
+      ],
+      [
+        1,
+        " ῆ ell"
+      ],
+      [
+        0,
+        "e & "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "anctè promittere, d"
+      ],
+      [
+        -1,
+        "um"
+      ],
+      [
+        1,
+        "int"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 16,
+    "insertions": 16
+  },
+  "grok-4": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent,ſc iſta facturos,paratosq́ eſſe & ſanctè promittere,dum",
+    "wer": 60.0,
+    "cer": 7.352941176470589,
+    "accuracy": 92.64705882352942,
+    "time": 28.245216131210327,
+    "diffs": [
+      [
+        0,
+        "ducerent,"
+      ],
+      [
+        -1,
+        " ſe"
+      ],
+      [
+        1,
+        "ſc"
+      ],
+      [
+        0,
+        " iſta facturos,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "paratosq́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " eſſe & ſanctè promittere,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent,fc iftama°turoƿ,paratośꝑ eſſe & ſanctę promittcre,dunt",
+    "wer": 80.0,
+    "cer": 26.47058823529412,
+    "accuracy": 75.0,
+    "time": 1.7930738925933838,
+    "diffs": [
+      [
+        0,
+        "ducerent,"
+      ],
+      [
+        -1,
+        " ſe"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ta"
+      ],
+      [
+        -1,
+        " fac"
+      ],
+      [
+        1,
+        "ma°"
+      ],
+      [
+        0,
+        "turo"
+      ],
+      [
+        -1,
+        "s, "
+      ],
+      [
+        1,
+        "ƿ,"
+      ],
+      [
+        0,
+        "parato"
+      ],
+      [
+        -1,
+        "sq́;"
+      ],
+      [
+        1,
+        "śꝑ"
+      ],
+      [
+        0,
+        " eſſe & ſanct"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "ę"
+      ],
+      [
+        0,
+        " promitt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "re,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 49,
+    "deletions": 19,
+    "insertions": 14
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ducerent, ſe iſta facturos, paratosq́; eſſe & ſanctè promittere, dum",
+    "response": "ducerent,ſe iſta facturos,paratos'& eſſe & ſanctè promittere,dunt",
+    "wer": 60.0,
+    "cer": 11.76470588235294,
+    "accuracy": 89.70588235294117,
+    "time": 4.599097967147827,
+    "diffs": [
+      [
+        0,
+        "ducerent,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſe iſta facturos,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "paratos"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "'&"
+      ],
+      [
+        0,
+        " eſſe & ſanctè promittere,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "du"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nt"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 7,
+    "insertions": 4
+  }
+}

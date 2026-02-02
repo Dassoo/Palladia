@@ -1,0 +1,1133 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm fe iterum receperint.Etiam collegæ cius uncrant,",
+    "wer": 90.0,
+    "cer": 13.636363636363635,
+    "accuracy": 87.87878787878788,
+    "time": 1.1114580631256104,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "um"
+      ],
+      [
+        0,
+        " receperint."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ius u"
+      ],
+      [
+        -1,
+        "ene"
+      ],
+      [
+        1,
+        "nc"
+      ],
+      [
+        0,
+        "rant,"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàm ſe iterùm receperint. Etiam collegxius ucrant.",
+    "wer": 60.0,
+    "cer": 15.151515151515152,
+    "accuracy": 86.36363636363636,
+    "time": 1.3406310081481934,
+    "diffs": [
+      [
+        0,
+        "dimittant, quàm ſe iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ùm"
+      ],
+      [
+        0,
+        " receperint. Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam colleg"
+      ],
+      [
+        -1,
+        "æ e"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        "ius u"
+      ],
+      [
+        -1,
+        "ene"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rant"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "spotlight": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàin fe iterũ receperint. Et iam collegæ cius ucncrant,",
+    "wer": 40.0,
+    "cer": 9.090909090909092,
+    "accuracy": 91.04477611940298,
+    "time": 1.6570930480957031,
+    "diffs": [
+      [
+        0,
+        "dimittant, quà"
+      ],
+      [
+        -1,
+        "m ſ"
+      ],
+      [
+        1,
+        "in f"
+      ],
+      [
+        0,
+        "e iterũ receperint. Et iam collegæ "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ius u"
+      ],
+      [
+        -1,
+        "ene"
+      ],
+      [
+        1,
+        "cnc"
+      ],
+      [
+        0,
+        "rant,"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "gpt-4o": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimit­tant, quàm ſe iterùm receperint. Etiam collegæ cius venerant,",
+    "wer": 60.0,
+    "cer": 9.090909090909092,
+    "accuracy": 92.53731343283582,
+    "time": 1.796659231185913,
+    "diffs": [
+      [
+        0,
+        "dimit"
+      ],
+      [
+        1,
+        "­"
+      ],
+      [
+        0,
+        "tant, quàm ſe iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ùm"
+      ],
+      [
+        0,
+        " receperint. Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ius "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "enerant,"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm fe iterũ receperint.Et iam collegx cius ucncrant,",
+    "wer": 80.0,
+    "cer": 10.606060606060606,
+    "accuracy": 89.39393939393939,
+    "time": 1.777482271194458,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e iterũ receperint."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et iam colleg"
+      ],
+      [
+        -1,
+        "æ e"
+      ],
+      [
+        1,
+        "x c"
+      ],
+      [
+        0,
+        "ius u"
+      ],
+      [
+        -1,
+        "ene"
+      ],
+      [
+        1,
+        "cnc"
+      ],
+      [
+        0,
+        "rant,"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "gpt-4.1": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàm ſe iterū receperint. Etiam collegæ eius uenerant,",
+    "wer": 30.0,
+    "cer": 3.0303030303030303,
+    "accuracy": 96.96969696969697,
+    "time": 1.8065440654754639,
+    "diffs": [
+      [
+        0,
+        "dimittant, quàm ſe iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " receperint. Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ eius uenerant,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.696040153503418,
+    "diffs": [
+      [
+        0,
+        "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàm ſeiterũ receperint. Etiam collegæ eius uenerant,",
+    "wer": 40.0,
+    "cer": 3.0303030303030303,
+    "accuracy": 96.96969696969697,
+    "time": 3.9488439559936523,
+    "diffs": [
+      [
+        0,
+        "dimittant, quàm ſe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iterũ receperint. Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ eius uenerant,"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàm ſe iterũ recẽperint. Et iam collegæ eius uenerãt,",
+    "wer": 20.0,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 4.4445960521698,
+    "diffs": [
+      [
+        0,
+        "dimittant, quàm ſe iterũ rec"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        "perint. Et iam collegæ eius uener"
+      ],
+      [
+        -1,
+        "an"
+      ],
+      [
+        1,
+        "ã"
+      ],
+      [
+        0,
+        "t,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàm ſe iterū receperint. Eriam collegæcius uenerant,",
+    "wer": 50.0,
+    "cer": 7.575757575757576,
+    "accuracy": 92.42424242424242,
+    "time": 24.42177414894104,
+    "diffs": [
+      [
+        0,
+        "dimittant, quàm ſe iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " receperint. E"
+      ],
+      [
+        -1,
+        "t "
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "iam collegæ"
+      ],
+      [
+        -1,
+        " e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ius uenerant,"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gemini-2.5-pro": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quám ſeiterũ receperint. Etiam collegæ eius uenerant,",
+    "wer": 50.0,
+    "cer": 7.575757575757576,
+    "accuracy": 93.93939393939394,
+    "time": 43.304638147354126,
+    "diffs": [
+      [
+        0,
+        "dimittant, qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "m ſe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " receperint. Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ eius uenerant,"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm ſe iterū receperint. Etiam collegæ citius uenerant,",
+    "wer": 60.0,
+    "cer": 9.090909090909092,
+    "accuracy": 93.93939393939394,
+    "time": 26.716336011886597,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm ſe iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " receperint. Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "cit"
+      ],
+      [
+        0,
+        "ius uenerant,"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm ſe iterũ receperint.Etiam collegæ eius uenerant,",
+    "wer": 50.0,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 86.01895666122437,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm ſe iterũ receperint."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ eius uenerant,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 3,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm fe iterũ receperint.Etiam collegæ cius uencrant,",
+    "wer": 80.0,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 4.181854963302612,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e iterũ receperint."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ius uen"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rant,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant, quàm ſeiterù receperint. Etiam collegx ciuſ uncrant,",
+    "wer": 70.0,
+    "cer": 12.121212121212121,
+    "accuracy": 87.87878787878788,
+    "time": 1.4705541133880615,
+    "diffs": [
+      [
+        0,
+        "dimittant, quàm ſe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        " receperint. Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam colleg"
+      ],
+      [
+        -1,
+        "æ e"
+      ],
+      [
+        1,
+        "x c"
+      ],
+      [
+        0,
+        "iu"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " u"
+      ],
+      [
+        -1,
+        "ene"
+      ],
+      [
+        1,
+        "nc"
+      ],
+      [
+        0,
+        "rant,"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dīmittant, quăm sē iterū receperint. Et iam collegę cius uencrant,",
+    "wer": 70.0,
+    "cer": 12.121212121212121,
+    "accuracy": 87.87878787878788,
+    "time": 1.8953468799591064,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        "mittant, qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "ă"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "sē"
+      ],
+      [
+        0,
+        " iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " receperint. Et iam colleg"
+      ],
+      [
+        -1,
+        "æ e"
+      ],
+      [
+        1,
+        "ę c"
+      ],
+      [
+        0,
+        "ius uen"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rant,"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "grok-4": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm ſe iterùm receperint.Etiam collegæ eius uenerant,",
+    "wer": 60.0,
+    "cer": 7.575757575757576,
+    "accuracy": 93.93939393939394,
+    "time": 15.204158067703247,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm ſe iter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ùm"
+      ],
+      [
+        0,
+        " receperint."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ eius uenerant,"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm feìterù receperint.Etiam collegæ cius uenerant,",
+    "wer": 80.0,
+    "cer": 12.121212121212121,
+    "accuracy": 87.87878787878788,
+    "time": 2.427536964416504,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm "
+      ],
+      [
+        -1,
+        "ſe i"
+      ],
+      [
+        1,
+        "feì"
+      ],
+      [
+        0,
+        "ter"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        " receperint."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iam collegæ "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ius uenerant,"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "dimittant, quàm ſe iterũ receperint. Et iam collegæ eius uenerant,",
+    "response": "dimittant,quàm fe iterũ receperint.Et iam collegx cius uencrant,",
+    "wer": 80.0,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 2.572795867919922,
+    "diffs": [
+      [
+        0,
+        "dimittant,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e iterũ receperint."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et iam colleg"
+      ],
+      [
+        -1,
+        "æ e"
+      ],
+      [
+        1,
+        "x c"
+      ],
+      [
+        0,
+        "ius uen"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rant,"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 7,
+    "insertions": 5
+  }
+}

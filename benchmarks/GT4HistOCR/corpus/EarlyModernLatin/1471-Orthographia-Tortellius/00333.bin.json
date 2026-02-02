@@ -1,0 +1,1236 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi uidebatur: q̃ p.c. lram praeftari potuerit. Poſt has uero nonnulli ex noſtris",
+    "wer": 40.0,
+    "cer": 11.235955056179774,
+    "accuracy": 91.01123595505618,
+    "time": 1.371816873550415,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑: ꝗᷓ ꝑ. "
+      ],
+      [
+        1,
+        "ur: q̃ p."
+      ],
+      [
+        0,
+        "c. lr"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am pr"
+      ],
+      [
+        -1,
+        "æſ"
+      ],
+      [
+        1,
+        "aef"
+      ],
+      [
+        0,
+        "tari potuerit. Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 12,
+    "insertions": 12
+  },
+  "spotlight": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "sonus exigi uidebat: ŋ p.c.lřam præſtari potuerit. Post has uero nonnulli ex nostris",
+    "wer": 53.333333333333336,
+    "cer": 12.359550561797752,
+    "accuracy": 87.64044943820225,
+    "time": 1.5611681938171387,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "onus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. c. lr̃"
+      ],
+      [
+        1,
+        "ŋ p.c.lř"
+      ],
+      [
+        0,
+        "am præſtari potuerit. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t has uero nonnulli ex no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tris"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 16,
+    "insertions": 11
+  },
+  "mistral-small": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "Sonus exigi uidebatur: q. p. c. l. tam praestari potuerit. Post has uero nonnulli ex noſtris",
+    "wer": 53.333333333333336,
+    "cer": 14.606741573033707,
+    "accuracy": 85.86956521739131,
+    "time": 1.6135830879211426,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "onus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑: ꝗᷓ ꝑ"
+      ],
+      [
+        1,
+        "ur: q. p"
+      ],
+      [
+        0,
+        ". c. l"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        ". t"
+      ],
+      [
+        0,
+        "am pr"
+      ],
+      [
+        -1,
+        "æſ"
+      ],
+      [
+        1,
+        "aes"
+      ],
+      [
+        0,
+        "tari potuerit. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 13,
+    "insertions": 16
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonvs exigi videbat:q p.c.lram præſtari potvcrit.Poſt has uero nonnulli ex noſtris",
+    "wer": 53.333333333333336,
+    "cer": 14.606741573033707,
+    "accuracy": 85.39325842696628,
+    "time": 2.390408992767334,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "s exigi "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "idebat"
+      ],
+      [
+        -1,
+        "᷑: ꝗᷓ ꝑ. "
+      ],
+      [
+        1,
+        ":q p."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "lr"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am præſtari pot"
+      ],
+      [
+        -1,
+        "ue"
+      ],
+      [
+        1,
+        "vc"
+      ],
+      [
+        0,
+        "rit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 16,
+    "insertions": 9
+  },
+  "gpt-4o": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi videbat: ꝙ p. c. ſtiam præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "wer": 26.666666666666668,
+    "cer": 8.98876404494382,
+    "accuracy": 91.01123595505618,
+    "time": 2.752331018447876,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "idebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ"
+      ],
+      [
+        1,
+        "ꝙ p"
+      ],
+      [
+        0,
+        ". c. "
+      ],
+      [
+        -1,
+        "lr̃"
+      ],
+      [
+        1,
+        "ſti"
+      ],
+      [
+        0,
+        "am præſtari potuerit. Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "gpt-4.1": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi uidebat: qꝑ p. c. liam præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "wer": 26.666666666666668,
+    "cer": 6.741573033707865,
+    "accuracy": 93.25842696629213,
+    "time": 4.252344846725464,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ"
+      ],
+      [
+        1,
+        "qꝑ p"
+      ],
+      [
+        0,
+        ". c. l"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "am præſtari potuerit. Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 82,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "claude-4-sonnet": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi uidebat: q̄ p.c.l ſam præſtari potuent.Poſt has uero nonnulli ex noſtris",
+    "wer": 46.666666666666664,
+    "cer": 12.359550561797752,
+    "accuracy": 87.64044943820225,
+    "time": 4.721671104431152,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. c. lr̃"
+      ],
+      [
+        1,
+        "q̄ p.c.l ſ"
+      ],
+      [
+        0,
+        "am præſtari potue"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 16,
+    "insertions": 11
+  },
+  "claude-4-opus": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi uidebat: q̃ p.c.lram præſtari potuerat.Poſt has uero nonnulli ex noſtris",
+    "wer": 46.666666666666664,
+    "cer": 10.112359550561797,
+    "accuracy": 89.8876404494382,
+    "time": 5.828432083129883,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. "
+      ],
+      [
+        1,
+        "q̃ p."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "lr"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am præſtari potuer"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 11,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſanus exigĩ uidebat: q̃ p.c.l. r̃am præſtan potuerit. Poſt hæc uero nonnulli ex noſtris",
+    "wer": 60.0,
+    "cer": 15.730337078651685,
+    "accuracy": 86.51685393258427,
+    "time": 12.24026894569397,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "nus exig"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ĩ"
+      ],
+      [
+        0,
+        " uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. c. l"
+      ],
+      [
+        1,
+        "q̃ p.c.l. "
+      ],
+      [
+        0,
+        "r̃am præſta"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " potuerit. Poſt h"
+      ],
+      [
+        -1,
+        "as"
+      ],
+      [
+        1,
+        "æc"
+      ],
+      [
+        0,
+        " uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 17,
+    "insertions": 15
+  },
+  "o4-mini": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi uidebar: qͣ p.e.ſtam præſtari potuẽt.Poſt haſ uero nonnulli ex noſtris",
+    "wer": 53.333333333333336,
+    "cer": 17.97752808988764,
+    "accuracy": 82.02247191011236,
+    "time": 50.361310958862305,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi uideba"
+      ],
+      [
+        -1,
+        "t᷑: ꝗᷓ ꝑ. c. lr̃"
+      ],
+      [
+        1,
+        "r: qͣ p.e.ſt"
+      ],
+      [
+        0,
+        "am præſtari potu"
+      ],
+      [
+        -1,
+        "eri"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt ha"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 21,
+    "insertions": 14
+  },
+  "gemini-2.5-pro": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonis exigi uidebat̃: q̃ p.c.l.rām præſtari potuerit. Poſt uero nonnulli ex noſtris",
+    "wer": 46.666666666666664,
+    "cer": 15.730337078651685,
+    "accuracy": 86.51685393258427,
+    "time": 66.22334504127502,
+    "diffs": [
+      [
+        0,
+        "ſon"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. c. lr̃a"
+      ],
+      [
+        1,
+        "q̃ p.c.l.rā"
+      ],
+      [
+        0,
+        "m præſtari potuerit. Poſt "
+      ],
+      [
+        -1,
+        "has "
+      ],
+      [
+        0,
+        "uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 19,
+    "insertions": 14
+  },
+  "gpt-5-mini": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi uidebar: qͣ p.c. liram præstari potuerit. Poſt has uero nonnulli ex noſtris",
+    "wer": 40.0,
+    "cer": 10.112359550561797,
+    "accuracy": 91.01123595505618,
+    "time": 25.620750188827515,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi uideba"
+      ],
+      [
+        -1,
+        "t᷑: ꝗᷓ ꝑ. "
+      ],
+      [
+        1,
+        "r: qͣ p."
+      ],
+      [
+        0,
+        "c. l"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "r"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tari potuerit. Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 12,
+    "insertions": 10
+  },
+  "gpt-5": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "fœnus exigi uidebat: q̄ p.c.niam præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "wer": 40.0,
+    "cer": 12.359550561797752,
+    "accuracy": 87.64044943820225,
+    "time": 104.04373407363892,
+    "diffs": [
+      [
+        -1,
+        "ſo"
+      ],
+      [
+        1,
+        "fœ"
+      ],
+      [
+        0,
+        "nus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. c. lr̃"
+      ],
+      [
+        1,
+        "q̄ p.c.ni"
+      ],
+      [
+        0,
+        "am præſtari potuerit. Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 15,
+    "insertions": 11
+  },
+  "glm-4.5v": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "fonus exigi uidebat: q p.c.lſiam præftari potuit. Poſt has uero nonnulli ex noſtris",
+    "wer": 53.333333333333336,
+    "cer": 13.48314606741573,
+    "accuracy": 86.51685393258427,
+    "time": 4.3173511028289795,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "onus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. c. lr̃"
+      ],
+      [
+        1,
+        "q p.c.lſi"
+      ],
+      [
+        0,
+        "am præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tari potu"
+      ],
+      [
+        -1,
+        "er"
+      ],
+      [
+        0,
+        "it. Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 17,
+    "insertions": 11
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "ſonus exigi uidebatur: q́ p: c: lf̄ praſtari potuerit. Poſt haſ uero nonnulli ex noſtris",
+    "wer": 46.666666666666664,
+    "cer": 14.606741573033707,
+    "accuracy": 86.51685393258427,
+    "time": 1.9692609310150146,
+    "diffs": [
+      [
+        0,
+        "ſonus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑: ꝗᷓ ꝑ."
+      ],
+      [
+        1,
+        "ur: q́ p:"
+      ],
+      [
+        0,
+        " c"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " l"
+      ],
+      [
+        -1,
+        "r̃am"
+      ],
+      [
+        1,
+        "f̄"
+      ],
+      [
+        0,
+        " pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ſtari potuerit. Poſt ha"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 15,
+    "insertions": 14
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "sonus exigi undebat: q̃ p.c. līām præstārī potuerit. Pont has uero nonnulli ex noctriș",
+    "wer": 60.0,
+    "cer": 17.97752808988764,
+    "accuracy": 82.02247191011236,
+    "time": 2.4068589210510254,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "onus exigi u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "debat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. "
+      ],
+      [
+        1,
+        "q̃ p."
+      ],
+      [
+        0,
+        "c. l"
+      ],
+      [
+        -1,
+        "r̃a"
+      ],
+      [
+        1,
+        "īā"
+      ],
+      [
+        0,
+        "m præ"
+      ],
+      [
+        -1,
+        "ſtari"
+      ],
+      [
+        1,
+        "stārī"
+      ],
+      [
+        0,
+        " potuerit. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "t has uero nonnulli ex no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "tri"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ș"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 20,
+    "insertions": 17
+  },
+  "cogito-v2-109b": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "fonus exigi uidebat: q̄q p.c.líam præftari potuerit.Poſt haſ uero nonnulli ex noſtris",
+    "wer": 66.66666666666666,
+    "cer": 14.606741573033707,
+    "accuracy": 86.51685393258427,
+    "time": 1.920701026916504,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "onus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. c. lr̃"
+      ],
+      [
+        1,
+        "q̄q p.c.lí"
+      ],
+      [
+        0,
+        "am præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tari potuerit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt ha"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 17,
+    "insertions": 13
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſonus exigi uidebat᷑: ꝗᷓ ꝑ. c. lr̃am præſtari potuerit. Poſt has uero nonnulli ex noſtris",
+    "response": "fonus exigi uidebat: q p.c.lram præftari potuerit. Poſt has uero nonnulli ex noſtris",
+    "wer": 46.666666666666664,
+    "cer": 10.112359550561797,
+    "accuracy": 89.8876404494382,
+    "time": 11.828212976455688,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "onus exigi uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ ꝑ. "
+      ],
+      [
+        1,
+        "q p."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "lr"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am præ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tari potuerit. Poſt has uero nonnulli ex noſtris"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 11,
+    "insertions": 6
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxſi noceo noxa noxius:inſ. ut parco parſi:quin & peperci.",
+    "wer": 50.0,
+    "cer": 9.67741935483871,
+    "accuracy": 91.93548387096774,
+    "time": 1.2026331424713135,
+    "diffs": [
+      [
+        0,
+        "dux"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "i noceo noxa noxius:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in"
+      ],
+      [
+        -1,
+        ". s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        ". ut parco parſi:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quin & peperci."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "mistral-small": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in. s. ut parco pari: quin & peperci.",
+    "wer": 8.333333333333332,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 1.4998071193695068,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in. s. ut parco par"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        0,
+        "i: quin & peperci."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius:in.s.ut parco parsi:quin & peperci.",
+    "wer": 50.0,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 1.799943208694458,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco par"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "i:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quin & peperci."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.002742052078247,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci."
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in. ſ. ut parco parſi: quin & peperci.",
+    "wer": 8.333333333333332,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 2.491569995880127,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in. "
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        ". ut parco parſi: quin & peperci."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius:in.s.ut parco parſi:quin&peperci.",
+    "wer": 66.66666666666666,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 2.9685380458831787,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco parſi:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quin"
+      ],
+      [
+        -1,
+        " & "
+      ],
+      [
+        1,
+        "&"
+      ],
+      [
+        0,
+        "peperci."
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in.s.ut parco parſi: quun & peperci.",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 3.747633934020996,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco parſi: qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "n & peperci."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in.ſ. ut parco parſi: quun & peperci.",
+    "wer": 25.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 3.9803988933563232,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in."
+      ],
+      [
+        -1,
+        " s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        ". ut parco parſi: qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "n & peperci."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in.s.ut parco parſi: quin & pepęrci.",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 5.443154811859131,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco parſi: quin & pep"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ę"
+      ],
+      [
+        0,
+        "rci."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in.s.ut parco parſi: quīn & peperci.",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 22.596927881240845,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco parſi: qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        "n & peperci."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxiuſ: in ſ.ut parco parſi:quun & peperci.",
+    "wer": 50.0,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 66.4888768196106,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxiu"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        ": in"
+      ],
+      [
+        -1,
+        ". s. "
+      ],
+      [
+        1,
+        " ſ."
+      ],
+      [
+        0,
+        "ut parco parſi:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "n & peperci."
+      ]
+    ],
+    "matches": 54,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in.s. ut parco parſi: quin & peperci.",
+    "wer": 16.666666666666664,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 11.321659088134766,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s. ut parco parſi: quin & peperci."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 44.390738010406494,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci."
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius:in.s.ut parco parfi:quin & peperci.",
+    "wer": 50.0,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 4.089566946029663,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco par"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "i:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quin & peperci."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius : in ſ. ut parco parſi : quin & peperci.",
+    "wer": 50.0,
+    "cer": 6.451612903225806,
+    "accuracy": 95.23809523809523,
+    "time": 2.1603660583496094,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": in"
+      ],
+      [
+        -1,
+        ". s"
+      ],
+      [
+        1,
+        " ſ"
+      ],
+      [
+        0,
+        ". ut parco parſi"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": quin & peperci."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius:in.s.ut parco parli:quin & peperci.",
+    "wer": 50.0,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 2.462885856628418,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco par"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "i:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quin & peperci."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius:in.s.ut parco parſi:quin & peperci.",
+    "wer": 50.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 2.0882909297943115,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco parſi:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quin & peperci."
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 0
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "duxi noceo noxa noxius: in. s. ut parco parſi: quin & peperci.",
+    "response": "duxi noceo noxa noxius: in.s.ut parco parſi: quin & peperci.",
+    "wer": 25.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 2.5369982719421387,
+    "diffs": [
+      [
+        0,
+        "duxi noceo noxa noxius: in."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut parco parſi: quin & peperci."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 0
+  }
+}

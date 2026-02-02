@@ -1,0 +1,894 @@
+{
+  "spotlight": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertotet. Dann man die pfenning. end",
+    "wer": 37.5,
+    "cer": 11.627906976744185,
+    "accuracy": 88.37209302325581,
+    "time": 1.5802388191223145,
+    "diffs": [
+      [
+        0,
+        "Pauls ertotet. "
+      ],
+      [
+        -1,
+        "da nam"
+      ],
+      [
+        1,
+        "Dann"
+      ],
+      [
+        0,
+        " man die pfenning. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "nd"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls erto̅tet. Sa̅nam man ſie pfennig.",
+    "wer": 75.0,
+    "cer": 20.930232558139537,
+    "accuracy": 81.3953488372093,
+    "time": 1.6319177150726318,
+    "diffs": [
+      [
+        0,
+        "Pauls erto"
+      ],
+      [
+        1,
+        "̅"
+      ],
+      [
+        0,
+        "tet. "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Sa̅"
+      ],
+      [
+        0,
+        "nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ie pfenni"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "g."
+      ],
+      [
+        -1,
+        " vnd"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Paulſ ertotet. Da nam man die pfenning. vnd",
+    "wer": 25.0,
+    "cer": 4.651162790697675,
+    "accuracy": 95.34883720930233,
+    "time": 2.0551769733428955,
+    "diffs": [
+      [
+        0,
+        "Paul"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ertotet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a nam man die pfenning. vnd"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertotet.Ia naim man die pfenning.end",
+    "wer": 62.5,
+    "cer": 11.627906976744185,
+    "accuracy": 90.69767441860465,
+    "time": 2.1869771480560303,
+    "diffs": [
+      [
+        0,
+        "Pauls ertotet."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "a na"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "m man die pfenning."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "nd"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Paulſ ertotet. Da nam man Die pſenning. vnd",
+    "wer": 50.0,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 2.620144844055176,
+    "diffs": [
+      [
+        0,
+        "Paul"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ertotet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ie p"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "enning. vnd"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertötet. Ja ſtan man die pfenning vnd",
+    "wer": 50.0,
+    "cer": 13.953488372093023,
+    "accuracy": 88.37209302325581,
+    "time": 3.109250783920288,
+    "diffs": [
+      [
+        0,
+        "Pauls ert"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ö"
+      ],
+      [
+        0,
+        "tet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "nam"
+      ],
+      [
+        1,
+        "ſtan"
+      ],
+      [
+        0,
+        " man die pfenning"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " vnd"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "llama-4-maverick-17b": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "paulser tot.et. Sa nam man Sie pfenning. vnd",
+    "wer": 50.0,
+    "cer": 13.953488372093023,
+    "accuracy": 88.63636363636364,
+    "time": 10.545216083526611,
+    "diffs": [
+      [
+        -1,
+        "P"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "auls"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "tot"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "et. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie pfenning. vnd"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls entotet. Saman man die pfenning vnd",
+    "wer": 50.0,
+    "cer": 13.953488372093023,
+    "accuracy": 86.04651162790698,
+    "time": 10.682673931121826,
+    "diffs": [
+      [
+        0,
+        "Pauls e"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "totet. "
+      ],
+      [
+        -1,
+        "da nam"
+      ],
+      [
+        1,
+        "Saman"
+      ],
+      [
+        0,
+        " man die pfenning"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " vnd"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Paulſ ertötet. Ja nahm man die pfennig und",
+    "wer": 75.0,
+    "cer": 16.27906976744186,
+    "accuracy": 86.04651162790698,
+    "time": 16.78178596496582,
+    "diffs": [
+      [
+        0,
+        "Paul"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ert"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ö"
+      ],
+      [
+        0,
+        "tet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a na"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "m man die pfenni"
+      ],
+      [
+        -1,
+        "ng. v"
+      ],
+      [
+        1,
+        "g u"
+      ],
+      [
+        0,
+        "nd"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "gpt-5": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertotet. Da nam man Die pfennig.vnd",
+    "wer": 50.0,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 86.77220034599304,
+    "diffs": [
+      [
+        0,
+        "Pauls ertotet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ie pfenni"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "g."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Paulſ ertotet. Danam man Die pfenning. end",
+    "wer": 62.5,
+    "cer": 11.627906976744185,
+    "accuracy": 88.37209302325581,
+    "time": 15.350393295288086,
+    "diffs": [
+      [
+        0,
+        "Paul"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ertotet. "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Da"
+      ],
+      [
+        0,
+        "nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ie pfenning. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "nd"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Paulſ ertotet. So man man Sie pfenning. vnd",
+    "wer": 50.0,
+    "cer": 13.953488372093023,
+    "accuracy": 86.04651162790698,
+    "time": 6.095175266265869,
+    "diffs": [
+      [
+        0,
+        "Paul"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ertotet. "
+      ],
+      [
+        -1,
+        "da nam"
+      ],
+      [
+        1,
+        "So man"
+      ],
+      [
+        0,
+        " man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie pfenning. vnd"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "mistral-medium-3.1": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertotet. Da nam man Siepfenning. vnd",
+    "wer": 37.5,
+    "cer": 6.976744186046512,
+    "accuracy": 93.02325581395348,
+    "time": 1.3169198036193848,
+    "diffs": [
+      [
+        0,
+        "Pauls ertotet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "pfenning. vnd"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertotet. Ja nam man Sie pfenning.end",
+    "wer": 50.0,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 2.4297032356262207,
+    "diffs": [
+      [
+        0,
+        "Pauls ertotet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie pfenning."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "nd"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "cogito-v2-109b": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertotet. Danam man Sie pfening. ond",
+    "wer": 62.5,
+    "cer": 11.627906976744185,
+    "accuracy": 88.37209302325581,
+    "time": 1.442011833190918,
+    "diffs": [
+      [
+        0,
+        "Pauls ertotet. "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Da"
+      ],
+      [
+        0,
+        "nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie pfen"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "ing. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Pauls ertotet. da nam man die pfenning. vnd",
+    "response": "Pauls ertotet. Da nam man Sie pfenning. vnd",
+    "wer": 25.0,
+    "cer": 4.651162790697675,
+    "accuracy": 95.34883720930233,
+    "time": 3.520540952682495,
+    "diffs": [
+      [
+        0,
+        "Pauls ertotet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a nam man "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie pfenning. vnd"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

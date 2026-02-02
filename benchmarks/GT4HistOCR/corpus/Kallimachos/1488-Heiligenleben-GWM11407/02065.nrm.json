@@ -1,0 +1,1326 @@
+{
+  "qwen-2.5-vl-72b": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "hen.vnd das sie Sy spinnēweb la vor fahen.Da",
+    "wer": 100.0,
+    "cer": 24.444444444444443,
+    "accuracy": 77.77777777777779,
+    "time": 2.0609750747680664,
+    "diffs": [
+      [
+        0,
+        "hen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd da"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "s s"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "y "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pinn"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "web "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ ſ"
+      ],
+      [
+        1,
+        "r f"
+      ],
+      [
+        0,
+        "ahen."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "mistral-small": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Ben. vnd ſaſſie ſy ſpinnēwech ſa voſ ſahen.",
+    "wer": 80.0,
+    "cer": 26.666666666666668,
+    "accuracy": 75.55555555555556,
+    "time": 2.0943360328674316,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "en. vnd "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "ſaſ"
+      ],
+      [
+        0,
+        "ſie "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "y ſpinn"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "we"
+      ],
+      [
+        -1,
+        "b d"
+      ],
+      [
+        1,
+        "ch ſ"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ſahen."
+      ],
+      [
+        -1,
+        " da"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 13,
+    "insertions": 11
+  },
+  "gpt-4o": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Den. vnᵭ Daſſie So ſpinner erbs La vor. ſahen. Sa",
+    "wer": 90.0,
+    "cer": 33.33333333333333,
+    "accuracy": 69.38775510204081,
+    "time": 2.360705852508545,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en. vn"
+      ],
+      [
+        -1,
+        "d da "
+      ],
+      [
+        1,
+        "ᵭ Daſ"
+      ],
+      [
+        0,
+        "ſie "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "So"
+      ],
+      [
+        0,
+        " ſpinn"
+      ],
+      [
+        -1,
+        "ẽweb d"
+      ],
+      [
+        1,
+        "er erbs L"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r."
+      ],
+      [
+        0,
+        " ſahen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 29,
+    "deletions": 16,
+    "insertions": 20
+  },
+  "gpt-4.1": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "hen. vnd das ſie dy ſpinnēweb da vor ſahen. da",
+    "wer": 30.0,
+    "cer": 6.666666666666667,
+    "accuracy": 93.47826086956522,
+    "time": 2.511168956756592,
+    "diffs": [
+      [
+        0,
+        "hen. vnd da"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        " ſie dy ſpinn"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "web da vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " ſahen. da"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Hen. und das sie ihr spinnëweb la vor sahen. da",
+    "wer": 90.0,
+    "cer": 26.666666666666668,
+    "accuracy": 74.46808510638297,
+    "time": 3.6948182582855225,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "en. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd da"
+      ],
+      [
+        -1,
+        " ſie dy ſ"
+      ],
+      [
+        1,
+        "s sie ihr s"
+      ],
+      [
+        0,
+        "pinn"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        "web "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ ſ"
+      ],
+      [
+        1,
+        "r s"
+      ],
+      [
+        0,
+        "ahen. da"
+      ]
+    ],
+    "matches": 29,
+    "deletions": 16,
+    "insertions": 18
+  },
+  "claude-4-sonnet": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Hen vnd da ſie dy ſpinnereb da vor ſahen. da",
+    "wer": 30.0,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 3.8424160480499268,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "en"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " vnd da ſie dy ſpinn"
+      ],
+      [
+        -1,
+        "ẽw"
+      ],
+      [
+        1,
+        "er"
+      ],
+      [
+        0,
+        "eb da vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " ſahen. da"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "ſehen.vnd da ſie Ihn ſpinneweb da vor ſahen.da",
+    "wer": 70.0,
+    "cer": 20.0,
+    "accuracy": 84.78260869565217,
+    "time": 6.484057903289795,
+    "diffs": [
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "hen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd da ſie "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "Ihn"
+      ],
+      [
+        0,
+        " ſpinn"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "web da vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " ſahen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "da"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "llama-4-maverick-17b": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Gen.vnd Da ſie Dy ſpinnērech Da voz ſahen. Da",
+    "wer": 80.0,
+    "cer": 24.444444444444443,
+    "accuracy": 77.77777777777779,
+    "time": 10.610194206237793,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "en."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſie "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "y ſpinn"
+      ],
+      [
+        -1,
+        "ẽweb d"
+      ],
+      [
+        1,
+        "ērech D"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " ſahen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 12,
+    "insertions": 12
+  },
+  "gpt-5-mini": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Den. vnd da ſie dy ſpinnereb da vor ſahen. da",
+    "wer": 30.0,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 16.39660096168518,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en. vnd da ſie dy ſpinn"
+      ],
+      [
+        -1,
+        "ẽw"
+      ],
+      [
+        1,
+        "er"
+      ],
+      [
+        0,
+        "eb da vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " ſahen. da"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "hen. vnd Da ſie ſpinnēnd Da vor ſahen. ſa",
+    "wer": 60.0,
+    "cer": 24.444444444444443,
+    "accuracy": 75.55555555555556,
+    "time": 111.09793162345886,
+    "diffs": [
+      [
+        0,
+        "hen. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſie "
+      ],
+      [
+        -1,
+        "dy "
+      ],
+      [
+        0,
+        "ſpinn"
+      ],
+      [
+        -1,
+        "ẽweb d"
+      ],
+      [
+        1,
+        "ēnd D"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " ſahen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 12,
+    "insertions": 8
+  },
+  "glm-4.5v": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Gen.ond daſie ſpinnērcb da voz faſhen.da",
+    "wer": 90.0,
+    "cer": 31.11111111111111,
+    "accuracy": 71.11111111111111,
+    "time": 5.107717752456665,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "en."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſie "
+      ],
+      [
+        -1,
+        "dy "
+      ],
+      [
+        0,
+        "ſpinn"
+      ],
+      [
+        -1,
+        "ẽwe"
+      ],
+      [
+        1,
+        "ērc"
+      ],
+      [
+        0,
+        "b da vo"
+      ],
+      [
+        -1,
+        "ꝛ ſa"
+      ],
+      [
+        1,
+        "z faſ"
+      ],
+      [
+        0,
+        "hen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "da"
+      ]
+    ],
+    "matches": 30,
+    "deletions": 15,
+    "insertions": 10
+  },
+  "gemini-2.5-flash": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Ben. vnd Saſſie Sy ſpiñnende Sa voz ſaben. Sa",
+    "wer": 90.0,
+    "cer": 28.888888888888886,
+    "accuracy": 73.91304347826086,
+    "time": 10.006366968154907,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "en. vnd "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Saſ"
+      ],
+      [
+        0,
+        "ſie "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "y ſpin"
+      ],
+      [
+        -1,
+        "nẽweb d"
+      ],
+      [
+        1,
+        "̃nende S"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " ſa"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "en. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 30,
+    "deletions": 15,
+    "insertions": 16
+  },
+  "mistral-medium-3.1": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Ben. vnd Daſie ſy ſpinnēwecb Da vor ſahen. Da",
+    "wer": 80.0,
+    "cer": 20.0,
+    "accuracy": 82.22222222222221,
+    "time": 1.4204659461975098,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "en. vnd "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Da"
+      ],
+      [
+        0,
+        "ſie "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "y ſpinn"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "we"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "b "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a vo"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " ſahen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "ſten.vnd ſa ſie ſy ſpίνnēřweb ʒa ʋor ʂahen.Ǝa",
+    "wer": 90.0,
+    "cer": 33.33333333333333,
+    "accuracy": 71.11111111111111,
+    "time": 2.8256309032440186,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        "en."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a ſie "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "y ſp"
+      ],
+      [
+        -1,
+        "innẽ"
+      ],
+      [
+        1,
+        "ίνnēř"
+      ],
+      [
+        0,
+        "web "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ʒ"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "voꝛ ſ"
+      ],
+      [
+        1,
+        "ʋor ʂ"
+      ],
+      [
+        0,
+        "ahen."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "Ǝ"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 29,
+    "deletions": 16,
+    "insertions": 16
+  },
+  "cogito-v2-109b": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "Gen.vnd Đa fie Đy fpinměmeচ Đa voz faben.Đa",
+    "wer": 100.0,
+    "cer": 35.55555555555556,
+    "accuracy": 64.44444444444444,
+    "time": 1.4511959552764893,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "en."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        "y "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pin"
+      ],
+      [
+        -1,
+        "nẽweb da voꝛ ſah"
+      ],
+      [
+        1,
+        "měmeচ Đa voz fab"
+      ],
+      [
+        0,
+        "en."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 21,
+    "deletions": 24,
+    "insertions": 22
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "hen. vnd da ſie dy ſpinnẽweb da voꝛ ſahen. da",
+    "response": "hen. vnd da sie dy spinnēweb da vor sahen. da",
+    "wer": 40.0,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 2.2932708263397217,
+    "diffs": [
+      [
+        0,
+        "hen. vnd da "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pinn"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "web da vo"
+      ],
+      [
+        -1,
+        "ꝛ ſ"
+      ],
+      [
+        1,
+        "r s"
+      ],
+      [
+        0,
+        "ahen. da"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 6
+  }
+}

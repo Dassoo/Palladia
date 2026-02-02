@@ -1,0 +1,1050 @@
+{
+  "mistral-small": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "fechſen. Da erwacht der Hertzog und trachtet",
+    "wer": 57.14285714285714,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 1.5058860778808594,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "echſen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwacht der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd trachtet"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſen.Da erwacht Der Hertzog vnd trachtet",
+    "wer": 57.14285714285714,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 1.9650368690490723,
+    "diffs": [
+      [
+        0,
+        "ſechſen."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwacht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſen. Da erwachſt der Hertczog vnd trachtet",
+    "wer": 42.857142857142854,
+    "cer": 11.363636363636363,
+    "accuracy": 89.13043478260869,
+    "time": 2.060624122619629,
+    "diffs": [
+      [
+        0,
+        "ſechſen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwach"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "cz"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſten. Da erwacht der Hertzog vnd trachtet",
+    "wer": 42.857142857142854,
+    "cer": 9.090909090909092,
+    "accuracy": 91.11111111111111,
+    "time": 2.1295971870422363,
+    "diffs": [
+      [
+        0,
+        "ſechſ"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "en. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwacht der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſten. Ja erwacht der herzog vnd trachtet",
+    "wer": 42.857142857142854,
+    "cer": 9.090909090909092,
+    "accuracy": 93.18181818181817,
+    "time": 3.823451280593872,
+    "diffs": [
+      [
+        0,
+        "ſechſ"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "en. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a erwacht der her"
+      ],
+      [
+        -1,
+        "tʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "Sechsen. Da erwacht der Hertzog und trachet",
+    "wer": 71.42857142857143,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 3.8275959491729736,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ech"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "en. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwacht der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd trach"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "et"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "claude-4-opus": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſen. da erwacht der hertzog vnd trachtet",
+    "wer": 14.285714285714285,
+    "cer": 2.272727272727273,
+    "accuracy": 97.72727272727273,
+    "time": 4.244266033172607,
+    "diffs": [
+      [
+        0,
+        "ſechſen. da erwacht der hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "Teuchſen. Da ermacht der Hertzog vnd trachtet",
+    "wer": 57.14285714285714,
+    "cer": 13.636363636363635,
+    "accuracy": 86.66666666666667,
+    "time": 10.314631938934326,
+    "diffs": [
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "Teu"
+      ],
+      [
+        0,
+        "chſen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a er"
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "acht der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "gpt-5-mini": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſen.da erwaecht der hertzog vnd trachtet",
+    "wer": 57.14285714285714,
+    "cer": 6.8181818181818175,
+    "accuracy": 95.45454545454545,
+    "time": 15.138519048690796,
+    "diffs": [
+      [
+        0,
+        "ſechſen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "da erwa"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "cht der hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "Sechſten. Da erwacht der Hertzog vnd trachtet",
+    "wer": 42.857142857142854,
+    "cer": 11.363636363636363,
+    "accuracy": 88.88888888888889,
+    "time": 51.92122769355774,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "echſ"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "en. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwacht der "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "glm-4.5v": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "Fechſen.Da ermacht Der Hertzog vnd trachtet",
+    "wer": 71.42857142857143,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 6.49630880355835,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "echſen."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a er"
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "acht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſen. Sa ermacht ſer hertzog vnd trachtet",
+    "wer": 57.14285714285714,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 4.766428232192993,
+    "diffs": [
+      [
+        0,
+        "ſechſen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a er"
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "acht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſen. Da erwacht Der Hertzog und trachtet",
+    "wer": 57.14285714285714,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 1.9417271614074707,
+    "diffs": [
+      [
+        0,
+        "ſechſen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwacht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd trachtet"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechßen.Daerwacht дерԁերбертzoг und trachtet",
+    "wer": 85.71428571428571,
+    "cer": 38.63636363636363,
+    "accuracy": 65.9090909090909,
+    "time": 2.3471360206604004,
+    "diffs": [
+      [
+        0,
+        "ſech"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        "en."
+      ],
+      [
+        -1,
+        " da "
+      ],
+      [
+        1,
+        "Da"
+      ],
+      [
+        0,
+        "erwacht "
+      ],
+      [
+        -1,
+        "der hertʒog v"
+      ],
+      [
+        1,
+        "дерԁերбертzoг u"
+      ],
+      [
+        0,
+        "nd trachtet"
+      ]
+    ],
+    "matches": 26,
+    "deletions": 18,
+    "insertions": 18
+  },
+  "cogito-v2-109b": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "sechſen.ſa ermacht ſer Hertzog vnd trachtet",
+    "wer": 71.42857142857143,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 2.3282790184020996,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "echſen."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a er"
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "acht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſechſen. da erwacht der hertʒog vnd trachtet",
+    "response": "ſechſen. Da erwacht Der Hertzog vnd trachtet",
+    "wer": 42.857142857142854,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 3.9108810424804688,
+    "diffs": [
+      [
+        0,
+        "ſechſen. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a erwacht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og vnd trachtet"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  }
+}

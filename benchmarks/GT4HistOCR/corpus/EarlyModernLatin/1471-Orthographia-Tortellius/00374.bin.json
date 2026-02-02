@@ -1,0 +1,760 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. xij. de",
+    "wer": 7.142857142857142,
+    "cer": 3.75,
+    "accuracy": 96.25,
+    "time": 1.4033310413360596,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. "
+      ],
+      [
+        -1,
+        "XII"
+      ],
+      [
+        1,
+        "xij"
+      ],
+      [
+        0,
+        ". de"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & nostros. Nam cum apud eos teſte Quintiliano libro.xii.de",
+    "wer": 28.57142857142857,
+    "cer": 7.5,
+    "accuracy": 92.5,
+    "time": 1.537489891052246,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tros. Nam cum apud eos teſte Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud graecos & nostros. Nam cum apud eos teste Quintiliano libro.xii.de",
+    "wer": 42.857142857142854,
+    "cer": 11.25,
+    "accuracy": 90.0,
+    "time": 1.6853656768798828,
+    "diffs": [
+      [
+        0,
+        "ratione apud gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cos & no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tros. Nam cum apud eos te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "te Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "gpt-4.1": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud graecos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii. de",
+    "wer": 14.285714285714285,
+    "cer": 6.25,
+    "accuracy": 93.82716049382715,
+    "time": 1.91609787940979,
+    "diffs": [
+      [
+        0,
+        "ratione apud gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cos & noſtros. Nam cum apud eos teſte Quintiliano libro. "
+      ],
+      [
+        -1,
+        "XII"
+      ],
+      [
+        1,
+        "xii"
+      ],
+      [
+        0,
+        ". de"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro.xii.de",
+    "wer": 21.428571428571427,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 2.031078815460205,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii. de",
+    "wer": 7.142857142857142,
+    "cer": 3.75,
+    "accuracy": 96.25,
+    "time": 3.8708717823028564,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. "
+      ],
+      [
+        -1,
+        "XII"
+      ],
+      [
+        1,
+        "xii"
+      ],
+      [
+        0,
+        ". de"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud graecos & nostros.Nam cum apud eos teſte Quintiliano libro.xii.de",
+    "wer": 42.857142857142854,
+    "cer": 11.25,
+    "accuracy": 90.0,
+    "time": 4.159491062164307,
+    "diffs": [
+      [
+        0,
+        "ratione apud gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cos & no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tros."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Nam cum apud eos teſte Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "claude-4-opus": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii. de",
+    "wer": 7.142857142857142,
+    "cer": 3.75,
+    "accuracy": 96.25,
+    "time": 4.7126219272613525,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. "
+      ],
+      [
+        -1,
+        "XII"
+      ],
+      [
+        1,
+        "xii"
+      ],
+      [
+        0,
+        ". de"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gemini-2.5-flash": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii.de",
+    "wer": 14.285714285714285,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 7.617121934890747,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. "
+      ],
+      [
+        -1,
+        "XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "racione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro .xii. de",
+    "wer": 21.428571428571427,
+    "cer": 7.5,
+    "accuracy": 93.75,
+    "time": 10.796375751495361,
+    "diffs": [
+      [
+        0,
+        "ra"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro"
+      ],
+      [
+        -1,
+        ". XII"
+      ],
+      [
+        1,
+        " .xii"
+      ],
+      [
+        0,
+        ". de"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "o4-mini": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud graecos & noſtros. Nam cum apud eos teſte Quintiliano libro.xii.de",
+    "wer": 28.57142857142857,
+    "cer": 8.75,
+    "accuracy": 92.5,
+    "time": 43.06023192405701,
+    "diffs": [
+      [
+        0,
+        "ratione apud gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cos & noſtros. Nam cum apud eos teſte Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud graecos & noſtros. Nam cum apud eos teſte Quintiliano libro. xii. de",
+    "wer": 14.285714285714285,
+    "cer": 6.25,
+    "accuracy": 93.82716049382715,
+    "time": 19.3225040435791,
+    "diffs": [
+      [
+        0,
+        "ratione apud gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cos & noſtros. Nam cum apud eos teſte Quintiliano libro. "
+      ],
+      [
+        -1,
+        "XII"
+      ],
+      [
+        1,
+        "xii"
+      ],
+      [
+        0,
+        ". de"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & noſtros.Nam cum apud eos teſte Quintiliano libro.xii.de",
+    "wer": 35.714285714285715,
+    "cer": 7.5,
+    "accuracy": 92.5,
+    "time": 35.88360595703125,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & noſtros."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Nam cum apud eos teſte Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "glm-4.5v": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & nostros.Nam cum apud eos teste Quintiliano libro.xii.de",
+    "wer": 42.857142857142854,
+    "cer": 10.0,
+    "accuracy": 90.0,
+    "time": 10.571879863739014,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tros."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Nam cum apud eos te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "te Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud Græcos & noſtros. Nam cum apud eos teſte Quintiliano libro xii. de",
+    "wer": 21.428571428571427,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 1.5380709171295166,
+    "diffs": [
+      [
+        0,
+        "ratione apud "
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "ræcos & noſtros. Nam cum apud eos teſte Quintiliano libro"
+      ],
+      [
+        -1,
+        ". XII"
+      ],
+      [
+        1,
+        " xii"
+      ],
+      [
+        0,
+        ". de"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud graecos & noftros. Nam cum apud eos tefte Quintiliano libro.xi.de",
+    "wer": 42.857142857142854,
+    "cer": 11.25,
+    "accuracy": 90.0,
+    "time": 2.2367169857025146,
+    "diffs": [
+      [
+        0,
+        "ratione apud gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cos & no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tros. Nam cum apud eos te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "te Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xi."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud graecos & noſtros. Nam cum apud eos teſte Quinctiliano libro.xii.de",
+    "wer": 35.714285714285715,
+    "cer": 10.0,
+    "accuracy": 92.5,
+    "time": 1.980621099472046,
+    "diffs": [
+      [
+        0,
+        "ratione apud gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cos & noſtros. Nam cum apud eos teſte Quin"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "tiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro. XII. de",
+    "response": "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro.xii.de",
+    "wer": 21.428571428571427,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 2.388152837753296,
+    "diffs": [
+      [
+        0,
+        "ratione apud græcos & noſtros. Nam cum apud eos teſte Quintiliano libro."
+      ],
+      [
+        -1,
+        " XII. "
+      ],
+      [
+        1,
+        "xii."
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 6,
+    "insertions": 4
+  }
+}

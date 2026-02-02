@@ -1,4 +1,0 @@
-input:
-- path: GT4HistOCR/corpus/RefCorpus-ENHG-Incunabula/1478-Biblia
-  images_to_process: 30
-  prioritize_scanned: true

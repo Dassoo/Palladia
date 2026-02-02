@@ -1,0 +1,925 @@
+{
+  "spotlight": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tcnuit:&insularumCycladumdominus,primusinearúple-",
+    "wer": 100.0,
+    "cer": 19.35483870967742,
+    "accuracy": 80.64516129032258,
+    "time": 1.5523228645324707,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " te"
+      ],
+      [
+        1,
+        "tc"
+      ],
+      [
+        0,
+        "nuit:"
+      ],
+      [
+        -1,
+        " & "
+      ],
+      [
+        1,
+        "&"
+      ],
+      [
+        0,
+        "in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ularum"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Cycladum"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ear"
+      ],
+      [
+        -1,
+        "ũ "
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "ple-"
+      ]
+    ],
+    "matches": 48,
+    "deletions": 14,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, ſcnuuit: & inſularum Cycladum dominus, primus in earŭ ple-",
+    "wer": 20.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.65079365079364,
+    "time": 1.582524299621582,
+    "diffs": [
+      [
+        0,
+        "tur, "
+      ],
+      [
+        -1,
+        "ten"
+      ],
+      [
+        1,
+        "ſcnu"
+      ],
+      [
+        0,
+        "uit: & inſularum Cycladum dominus, primus in ear"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ŭ"
+      ],
+      [
+        0,
+        " ple-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tenuit:& insularum Cycladum dominus,primus in earũ ple-",
+    "wer": 60.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 1.5908288955688477,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tenuit:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ularum Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in earũ ple-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple.",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 1.6613588333129883,
+    "diffs": [
+      [
+        0,
+        "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuit: & insularum Cycladum dominus, primus in earū ple,",
+    "wer": 30.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.721785068511963,
+    "diffs": [
+      [
+        0,
+        "tur, tenuit: & in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ularum Cycladum dominus, primus in ear"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " ple"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "llama-4-maverick-17b": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tcnuit:&X inſularum Cycladum dominus,primus in earū ple-",
+    "wer": 60.0,
+    "cer": 9.67741935483871,
+    "accuracy": 91.93548387096774,
+    "time": 1.835771083831787,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " te"
+      ],
+      [
+        1,
+        "tc"
+      ],
+      [
+        0,
+        "nuit:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "&"
+      ],
+      [
+        1,
+        "X"
+      ],
+      [
+        0,
+        " inſularum Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in ear"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " ple-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.5820071697235107,
+    "diffs": [
+      [
+        0,
+        "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuït: & infularū Cycladum dominus,primus in carũ ple",
+    "wer": 60.0,
+    "cer": 11.29032258064516,
+    "accuracy": 88.70967741935483,
+    "time": 6.548022031784058,
+    "diffs": [
+      [
+        0,
+        "tur, tenu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ï"
+      ],
+      [
+        0,
+        "t: & in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ular"
+      ],
+      [
+        -1,
+        "um"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "arũ ple"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tenuit: & inſularum Cycladum dominus,primus in earũ ple-",
+    "wer": 40.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 10.873832941055298,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tenuit: & inſularum Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in earũ ple-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tenuit: & inſularium Cycladum dominus,primus in earũ ple-",
+    "wer": 50.0,
+    "cer": 4.838709677419355,
+    "accuracy": 96.7741935483871,
+    "time": 15.332464218139648,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tenuit: & inſular"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "um Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in earũ ple-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuit: ⁊ inſularum Cycladum dominus, primus in carũ ple-",
+    "wer": 20.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.65079365079364,
+    "time": 60.35723924636841,
+    "diffs": [
+      [
+        0,
+        "tur, tenuit: "
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "⁊"
+      ],
+      [
+        0,
+        " inſularum Cycladum dominus, primus in "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ar"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " ple-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 14.198741912841797,
+    "diffs": [
+      [
+        0,
+        "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple,",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 42.44177603721619,
+    "diffs": [
+      [
+        0,
+        "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tcnuit:& infularum Cycladum dominus,primus in earũ ple-",
+    "wer": 60.0,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 10.028615951538086,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " te"
+      ],
+      [
+        1,
+        "tc"
+      ],
+      [
+        0,
+        "nuit:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ularum Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in earũ ple-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tcnuit: & infularum Cycladum dominus, primus in earum ple:",
+    "wer": 40.0,
+    "cer": 8.064516129032258,
+    "accuracy": 92.06349206349206,
+    "time": 1.465423822402954,
+    "diffs": [
+      [
+        0,
+        "tur, t"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "nuit: & in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ularum Cycladum dominus, primus in ear"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "um"
+      ],
+      [
+        0,
+        " ple"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tcnuit:&inſularum Cycladum dominũ,primus in earũ ple-",
+    "wer": 60.0,
+    "cer": 11.29032258064516,
+    "accuracy": 88.70967741935483,
+    "time": 2.5961709022521973,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " te"
+      ],
+      [
+        1,
+        "tc"
+      ],
+      [
+        0,
+        "nuit:"
+      ],
+      [
+        -1,
+        " & "
+      ],
+      [
+        1,
+        "&"
+      ],
+      [
+        0,
+        "inſularum Cycladum domin"
+      ],
+      [
+        -1,
+        "us, "
+      ],
+      [
+        1,
+        "ũ,"
+      ],
+      [
+        0,
+        "primus in earũ ple-"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 10,
+    "insertions": 5
+  },
+  "grok-4": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tenuit. & inſularum Cycladum dominus,primus in earū ple-",
+    "wer": 50.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 118.31412506103516,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tenuit"
+      ],
+      [
+        -1,
+        ":"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " & inſularum Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in ear"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " ple-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur,tenuit:Æt infularum Cycladum dominus,primus in earũ ple.",
+    "wer": 70.0,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 1.4973890781402588,
+    "diffs": [
+      [
+        0,
+        "tur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tenuit:"
+      ],
+      [
+        -1,
+        " &"
+      ],
+      [
+        1,
+        "Æt"
+      ],
+      [
+        0,
+        " in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ularum Cycladum dominus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "primus in earũ ple"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tur, tenuit: & inſularum Cycladum dominus, primus in earũ ple-",
+    "response": "tur, tenuit: & insularum Cycladum dominus, primus in earũ ple-",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 2.7362332344055176,
+    "diffs": [
+      [
+        0,
+        "tur, tenuit: & in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ularum Cycladum dominus, primus in earũ ple-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

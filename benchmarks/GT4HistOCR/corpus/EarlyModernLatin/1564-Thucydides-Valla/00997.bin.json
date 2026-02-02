@@ -1,0 +1,1025 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "caſ,quibus ipſe interfui,quasóꝑ ſigillatim ab aliis quam potui di-",
+    "wer": 54.54545454545454,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 1.1893339157104492,
+    "diffs": [
+      [
+        -1,
+        "eas, "
+      ],
+      [
+        1,
+        "caſ,"
+      ],
+      [
+        0,
+        "quibus ipſe interfui,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quas"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "óꝑ"
+      ],
+      [
+        0,
+        " ſigillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m potui di-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 11,
+    "insertions": 8
+  },
+  "mistral-small": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "eas, quibus ipse interfuit, quasſigillatim ab aliis quam potuidi-",
+    "wer": 72.72727272727273,
+    "cer": 13.043478260869565,
+    "accuracy": 88.40579710144928,
+    "time": 1.3413450717926025,
+    "diffs": [
+      [
+        0,
+        "eas, quibus ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "e interfui"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        ", quas"
+      ],
+      [
+        -1,
+        "q́; "
+      ],
+      [
+        0,
+        "ſigillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m potui"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "di-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 8,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "ecas, quibus ipſe interfui, quasqꝫ ſigillatim ab aliis quàm potui di-",
+    "wer": 27.27272727272727,
+    "cer": 5.797101449275362,
+    "accuracy": 95.65217391304348,
+    "time": 1.8198471069335938,
+    "diffs": [
+      [
+        0,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus ipſe interfui, quasq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " ſigillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s quàm potui di-"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "eas, quibus ipſe interfui, quasqꝫ ſigillatim ab aliis quàm potui di-",
+    "wer": 18.181818181818183,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 1.8683249950408936,
+    "diffs": [
+      [
+        0,
+        "eas, quibus ipſe interfui, quasq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " ſigillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s quàm potui di-"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibus ipse interfui, quasœ sigillatim ab alijs quàm potui di-",
+    "wer": 36.36363636363637,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 1.885915756225586,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "e interfui, quas"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        "œ s"
+      ],
+      [
+        0,
+        "igillatim ab alijs quàm potui di-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas,quibus ipſe interfui,quaſo ſigillatim ab alijs quàm potui di-",
+    "wer": 36.36363636363637,
+    "cer": 10.144927536231885,
+    "accuracy": 89.85507246376811,
+    "time": 2.80307674407959,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quibus ipſe interfui,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qua"
+      ],
+      [
+        -1,
+        "sq́;"
+      ],
+      [
+        1,
+        "ſo"
+      ],
+      [
+        0,
+        " ſigillatim ab alijs quàm potui di-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "eas, quibus ipſe interfui, quasq́; ſigillàtim ab alijs quàm potui di-",
+    "wer": 9.090909090909092,
+    "cer": 1.4492753623188406,
+    "accuracy": 98.55072463768117,
+    "time": 3.84173583984375,
+    "diffs": [
+      [
+        0,
+        "eas, quibus ipſe interfui, quasq́; ſigill"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "à"
+      ],
+      [
+        0,
+        "tim ab alijs quàm potui di-"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibus ipſe interfui, quaſq́ ſigillatim ab alijs quàm potui di-",
+    "wer": 18.181818181818183,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 4.18799901008606,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus ipſe interfui, qua"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "q́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " ſigillatim ab alijs quàm potui di-"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibus ipſe interfui, quaſq́; figillatim ab alijs quàm potui di-",
+    "wer": 36.36363636363637,
+    "cer": 7.246376811594203,
+    "accuracy": 92.85714285714286,
+    "time": 4.924983739852905,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus ipſe interfui, qua"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "q́; "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "igillatim ab alijs qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "à"
+      ],
+      [
+        0,
+        "m potui di-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "o4-mini": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibus ipſe interfui, quasqꝑ ſigillatim ab aliis quàm potuiddi-",
+    "wer": 45.45454545454545,
+    "cer": 7.246376811594203,
+    "accuracy": 92.7536231884058,
+    "time": 20.323885202407837,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus ipſe interfui, quasq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "ꝑ"
+      ],
+      [
+        0,
+        " ſigillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s quàm potui"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "d"
+      ],
+      [
+        0,
+        "di-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas,quibus ipſe interfui, quaſq́ ſigillatim ab alijs quàm potui di,",
+    "wer": 36.36363636363637,
+    "cer": 7.246376811594203,
+    "accuracy": 92.7536231884058,
+    "time": 28.040772914886475,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quibus ipſe interfui, qua"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "q́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " ſigillatim ab alijs quàm potui di"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 64,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "eas, quibus ipſe interfui, quasq; ſigillatim ab aliis quàm potui di-",
+    "wer": 18.181818181818183,
+    "cer": 2.898550724637681,
+    "accuracy": 97.10144927536231,
+    "time": 20.845142126083374,
+    "diffs": [
+      [
+        0,
+        "eas, quibus ipſe interfui, quasq"
+      ],
+      [
+        -1,
+        "́"
+      ],
+      [
+        0,
+        "; ſigillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s quàm potui di-"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "eas, quibus ipſe interfui, quasq; ſigillatim ab alijs quàm potui di-",
+    "wer": 9.090909090909092,
+    "cer": 1.4492753623188406,
+    "accuracy": 98.55072463768117,
+    "time": 41.122299909591675,
+    "diffs": [
+      [
+        0,
+        "eas, quibus ipſe interfui, quasq"
+      ],
+      [
+        -1,
+        "́"
+      ],
+      [
+        0,
+        "; ſigillatim ab alijs quàm potui di-"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas,quibus ipſe interfui,quasq̃ figillatim ab alijs quam potuidi.",
+    "wer": 72.72727272727273,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 3.9125301837921143,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quibus ipſe interfui,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quasq"
+      ],
+      [
+        -1,
+        "́; ſ"
+      ],
+      [
+        1,
+        "̃ f"
+      ],
+      [
+        0,
+        "igillatim ab alijs qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m potui"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "di"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 10,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibuſipſe interfui, quaſi figillatim ab alijs quam potui di-",
+    "wer": 54.54545454545454,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 1.4505329132080078,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibu"
+      ],
+      [
+        -1,
+        "s "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ipſe interfui, qua"
+      ],
+      [
+        -1,
+        "sq́; ſ"
+      ],
+      [
+        1,
+        "ſi f"
+      ],
+      [
+        0,
+        "igillatim ab alijs qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m potui di-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibus ſple interfuei, quas ſigillatim ab alijs quàm potui di-",
+    "wer": 36.36363636363637,
+    "cer": 10.144927536231885,
+    "accuracy": 91.30434782608695,
+    "time": 2.0649001598358154,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus "
+      ],
+      [
+        -1,
+        "ipſ"
+      ],
+      [
+        1,
+        "ſpl"
+      ],
+      [
+        0,
+        "e interfu"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "i, quas"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        0,
+        " ſigillatim ab alijs quàm potui di-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "grok-4": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibus ipſe interfui, quas̄ ſigillatim ab aliis quam potui di-",
+    "wer": 36.36363636363637,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 155.8623812198639,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus ipſe interfui, quas"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        " ſigillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m potui di-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "cogito-v2-109b": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "eas, quibus ipﬂe interſui, quasq́ łigillatim ab aliis quàm potui di.",
+    "wer": 54.54545454545454,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 1.6564431190490723,
+    "diffs": [
+      [
+        0,
+        "eas, quibus ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ﬂ"
+      ],
+      [
+        0,
+        "e inter"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ui, quasq́"
+      ],
+      [
+        -1,
+        "; ſ"
+      ],
+      [
+        1,
+        " ł"
+      ],
+      [
+        0,
+        "igillatim ab ali"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s quàm potui di"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "eas, quibus ipſe interfui, quasq́; ſigillatim ab alijs quàm potui di-",
+    "response": "cas, quibus ipſe interfui, quasq́ figillatim ab alijs quàm potui di-",
+    "wer": 27.27272727272727,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 3.4832990169525146,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "as, quibus ipſe interfui, quasq́"
+      ],
+      [
+        -1,
+        "; ſ"
+      ],
+      [
+        1,
+        " f"
+      ],
+      [
+        0,
+        "igillatim ab alijs quàm potui di-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 4,
+    "insertions": 3
+  }
+}

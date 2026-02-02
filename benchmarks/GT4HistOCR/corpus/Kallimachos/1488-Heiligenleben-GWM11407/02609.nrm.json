@@ -1,0 +1,1094 @@
+{
+  "qwen-2.5-vl-72b": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen Schatz offenwaren der welt zu eine",
+    "wer": 50.0,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 1.8627429008483887,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offenwaren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "spotlight": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſcharzoffenwaren der weſt zu eine",
+    "wer": 75.0,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 1.8890109062194824,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſcha"
+      ],
+      [
+        -1,
+        "tʒ "
+      ],
+      [
+        1,
+        "rz"
+      ],
+      [
+        0,
+        "offenwaren der we"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſchatz offenwaren Der welt zu einer",
+    "wer": 62.5,
+    "cer": 13.636363636363635,
+    "accuracy": 86.66666666666667,
+    "time": 1.8941729068756104,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſchat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offenwaren "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "er"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gpt-4.1": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſchatz offemwaren der welt zu eineñ",
+    "wer": 62.5,
+    "cer": 13.636363636363635,
+    "accuracy": 86.66666666666667,
+    "time": 2.278900146484375,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſchat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offe"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "waren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "eñ"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gpt-4o": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſchwarz offinwaren der welt zu eine⸗",
+    "wer": 62.5,
+    "cer": 18.181818181818183,
+    "accuracy": 82.6086956521739,
+    "time": 2.346892833709717,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſch"
+      ],
+      [
+        -1,
+        "atʒ"
+      ],
+      [
+        1,
+        "warz"
+      ],
+      [
+        0,
+        " off"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "nwaren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e⸗"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 9
+  },
+  "claude-4-sonnet": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſchatz offenwaren Der welt zu einẽ",
+    "wer": 50.0,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 3.909615993499756,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſchat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offenwaren "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u einẽ"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "den edlen ſchatz offenwaren der welt zu einẽ",
+    "wer": 25.0,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 4.375741958618164,
+    "diffs": [
+      [
+        0,
+        "den edlen ſchat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offenwaren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u einẽ"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "llama-4-maverick-17b": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen fcharz offenwaren der wolt zu eine",
+    "wer": 62.5,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 10.628501176834106,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cha"
+      ],
+      [
+        -1,
+        "tʒ"
+      ],
+      [
+        1,
+        "rz"
+      ],
+      [
+        0,
+        " offenwaren der w"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "lt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "gpt-5-mini": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſcharz offenbaren der welt zu einẽ",
+    "wer": 50.0,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 31.02036142349243,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſcha"
+      ],
+      [
+        -1,
+        "tʒ"
+      ],
+      [
+        1,
+        "rz"
+      ],
+      [
+        0,
+        " offen"
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "aren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u einẽ"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſchatz offenbaren Der welt zu einē",
+    "wer": 75.0,
+    "cer": 15.909090909090908,
+    "accuracy": 84.44444444444444,
+    "time": 64.38871097564697,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſchat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offen"
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "aren "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "glm-4.5v": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſcharzoffenwaren der welt zu eine",
+    "wer": 62.5,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 4.219031095504761,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſcha"
+      ],
+      [
+        -1,
+        "tʒ "
+      ],
+      [
+        1,
+        "rz"
+      ],
+      [
+        0,
+        "offenwaren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Sen edlen ſchatz offenwaren Der welt zu einer",
+    "wer": 62.5,
+    "cer": 13.636363636363635,
+    "accuracy": 86.66666666666667,
+    "time": 5.462435960769653,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "en edlen ſchat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offenwaren "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "er"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen ſchatz offenbaren der welt zu einé",
+    "wer": 62.5,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 1.3050510883331299,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen ſchat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offen"
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "aren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen Schärz offenwaren Der welt zu einē",
+    "wer": 62.5,
+    "cer": 18.181818181818183,
+    "accuracy": 81.81818181818183,
+    "time": 2.61590313911438,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "atʒ"
+      ],
+      [
+        1,
+        "ärz"
+      ],
+      [
+        0,
+        " offenwaren "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen fcharzoffenwarren der welt zu eine",
+    "wer": 62.5,
+    "cer": 18.181818181818183,
+    "accuracy": 84.0909090909091,
+    "time": 1.5967307090759277,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cha"
+      ],
+      [
+        -1,
+        "tʒ "
+      ],
+      [
+        1,
+        "rz"
+      ],
+      [
+        0,
+        "offenwar"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "en der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "den edlen ſchatʒ offenwaren der welt ʒu einẽ",
+    "response": "Den edlen Schatz offenwaren der welt zu eine",
+    "wer": 50.0,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 2.2671189308166504,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en edlen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chat"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " offenwaren der welt "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u ein"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 5
+  }
+}

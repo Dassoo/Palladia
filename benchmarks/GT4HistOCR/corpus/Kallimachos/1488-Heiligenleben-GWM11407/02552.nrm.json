@@ -1,0 +1,818 @@
+{
+  "qwen-2.5-vl-72b": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im fein genad mitteylet. Das ge",
+    "wer": 33.33333333333333,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 1.7118160724639893,
+    "diffs": [
+      [
+        0,
+        "dacht das er im "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein genad mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im fein genad mitteylet. Das ges",
+    "wer": 33.33333333333333,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 1.8108012676239014,
+    "diffs": [
+      [
+        0,
+        "dacht das er im "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein genad mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im ſein gnade mitteylet. Das geſ",
+    "wer": 33.33333333333333,
+    "cer": 8.88888888888889,
+    "accuracy": 93.33333333333333,
+    "time": 2.0434410572052,
+    "diffs": [
+      [
+        0,
+        "dacht das er im ſein g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "nad"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im ſein genad mitteylet. Das geſ",
+    "wer": 22.22222222222222,
+    "cer": 4.444444444444445,
+    "accuracy": 95.55555555555556,
+    "time": 2.9240479469299316,
+    "diffs": [
+      [
+        0,
+        "dacht das er im ſein genad mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht Das er im ſein genad mitteylet. Das ge/",
+    "wer": 33.33333333333333,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 3.3489248752593994,
+    "diffs": [
+      [
+        0,
+        "dacht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er im ſein genad mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "/"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dåcht das er im ſein genad mitterſet. das ke/",
+    "wer": 33.33333333333333,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 3.69818115234375,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "å"
+      ],
+      [
+        0,
+        "cht das er im ſein genad mitte"
+      ],
+      [
+        -1,
+        "yl"
+      ],
+      [
+        1,
+        "rſ"
+      ],
+      [
+        0,
+        "et. das "
+      ],
+      [
+        -1,
+        "ge⸗"
+      ],
+      [
+        1,
+        "ke/"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht ſas er im fein genad mitteylet. Das geſ",
+    "wer": 44.44444444444444,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 3.839728832244873,
+    "diffs": [
+      [
+        0,
+        "dacht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "as er im "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein genad mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im sein genad mitteylct. Das geſch",
+    "wer": 44.44444444444444,
+    "cer": 13.333333333333334,
+    "accuracy": 87.2340425531915,
+    "time": 10.597933053970337,
+    "diffs": [
+      [
+        0,
+        "dacht das er im "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ein genad mitteyl"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſch"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im ſein genad mitteyſet. Das geſ",
+    "wer": 33.33333333333333,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 19.47112488746643,
+    "diffs": [
+      [
+        0,
+        "dacht das er im ſein genad mittey"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "et. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im ſein genad mitteylet. Das geſ",
+    "wer": 22.22222222222222,
+    "cer": 4.444444444444445,
+    "accuracy": 95.55555555555556,
+    "time": 50.180469036102295,
+    "diffs": [
+      [
+        0,
+        "dacht das er im ſein genad mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im fein genad mitteyfet. Das ges",
+    "wer": 44.44444444444444,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 8.94854187965393,
+    "diffs": [
+      [
+        0,
+        "dacht das er im "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein genad mittey"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "et. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht Das er im ſein gnad mitterleyſet. Das gel",
+    "wer": 55.55555555555556,
+    "cer": 17.77777777777778,
+    "accuracy": 85.1063829787234,
+    "time": 6.4499969482421875,
+    "diffs": [
+      [
+        0,
+        "dacht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er im ſein g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "nad mitte"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "le"
+      ],
+      [
+        1,
+        "yſe"
+      ],
+      [
+        0,
+        "t. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "l"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "mistral-medium-3.1": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht Daß er in ſein genad mitteylet. Daß geſt",
+    "wer": 44.44444444444444,
+    "cer": 15.555555555555555,
+    "accuracy": 84.78260869565217,
+    "time": 1.642535924911499,
+    "diffs": [
+      [
+        0,
+        "dacht "
+      ],
+      [
+        -1,
+        "das"
+      ],
+      [
+        1,
+        "Daß"
+      ],
+      [
+        0,
+        " er i"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " ſein genad mitteylet. "
+      ],
+      [
+        -1,
+        "das"
+      ],
+      [
+        1,
+        "Daß"
+      ],
+      [
+        0,
+        " ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſt"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht Das er im ſein genand mitteylet. Dasゲル",
+    "wer": 44.44444444444444,
+    "cer": 15.555555555555555,
+    "accuracy": 86.66666666666667,
+    "time": 3.2515881061553955,
+    "diffs": [
+      [
+        0,
+        "dacht "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er im ſein gena"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as"
+      ],
+      [
+        -1,
+        " ge⸗"
+      ],
+      [
+        1,
+        "ゲル"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im ſein genad mitteylet. das geſ",
+    "wer": 11.11111111111111,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 2.1148128509521484,
+    "diffs": [
+      [
+        0,
+        "dacht das er im ſein genad mitteylet. das ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "dacht das er im ſein genad mitteylet. das ge⸗",
+    "response": "dacht das er im fein genad mitteylet. Das ge",
+    "wer": 33.33333333333333,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 29.6994469165802,
+    "diffs": [
+      [
+        0,
+        "dacht das er im "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein genad mitteylet. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ge"
+      ],
+      [
+        -1,
+        "⸗"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 2
+  }
+}

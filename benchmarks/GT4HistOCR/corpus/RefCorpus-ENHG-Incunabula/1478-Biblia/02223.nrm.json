@@ -1,0 +1,1086 @@
+{
+  "spotlight": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und als eme de here gliebaeden hadde:vn de",
+    "wer": 62.5,
+    "cer": 14.285714285714285,
+    "accuracy": 90.47619047619048,
+    "time": 1.3864550590515137,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        0,
+        "s eme de here g"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "li"
+      ],
+      [
+        0,
+        "ebaeden hadde:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vn"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-small": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alſ eme de here glyebraeden hadde : vnde",
+    "wer": 62.5,
+    "cer": 16.666666666666664,
+    "accuracy": 86.36363636363636,
+    "time": 1.4293861389160156,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "ls"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " eme de here g"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ly"
+      ],
+      [
+        0,
+        "eb"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "aeden hadde"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": vnde"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "gpt-4.1": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alls ẽme ds herre ghebaͤden hadde : unde",
+    "wer": 100.0,
+    "cer": 16.666666666666664,
+    "accuracy": 84.0909090909091,
+    "time": 2.1006929874420166,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d alls "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        "me d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        " her"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "e gheba"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ͤ"
+      ],
+      [
+        0,
+        "den hadde"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nde"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "gpt-4o": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alſ er mbeſ here ghebaeden hadde: vnde",
+    "wer": 50.0,
+    "cer": 19.047619047619047,
+    "accuracy": 85.71428571428571,
+    "time": 2.1066439151763916,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "ls eme de"
+      ],
+      [
+        1,
+        "ſ er mbeſ"
+      ],
+      [
+        0,
+        " here ghebaeden hadde: vnde"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "claude-4-sonnet": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "uiꝺ aliſ erne ꝺe here glycka eꝺen haꝺꝺe: vn ꝺe",
+    "wer": 100.0,
+    "cer": 38.095238095238095,
+    "accuracy": 65.21739130434783,
+    "time": 3.327298164367676,
+    "diffs": [
+      [
+        0,
+        "ui"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ꝺ"
+      ],
+      [
+        0,
+        " al"
+      ],
+      [
+        -1,
+        "ls em"
+      ],
+      [
+        1,
+        "iſ ern"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ꝺ"
+      ],
+      [
+        0,
+        "e here g"
+      ],
+      [
+        -1,
+        "hebaed"
+      ],
+      [
+        1,
+        "lycka eꝺ"
+      ],
+      [
+        0,
+        "en ha"
+      ],
+      [
+        -1,
+        "dd"
+      ],
+      [
+        1,
+        "ꝺꝺ"
+      ],
+      [
+        0,
+        "e: vn"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        " ꝺ"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 26,
+    "deletions": 16,
+    "insertions": 20
+  },
+  "claude-4-opus": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alſo eine de here ghebaeden hadde: wilde",
+    "wer": 50.0,
+    "cer": 19.047619047619047,
+    "accuracy": 81.81818181818183,
+    "time": 3.7571308612823486,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "ls em"
+      ],
+      [
+        1,
+        "ſo ein"
+      ],
+      [
+        0,
+        "e de here ghebaeden hadde: "
+      ],
+      [
+        -1,
+        "vn"
+      ],
+      [
+        1,
+        "wil"
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 8,
+    "insertions": 10
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alſs eme de here glichbaeden hadde:vn de",
+    "wer": 62.5,
+    "cer": 19.047619047619047,
+    "accuracy": 86.36363636363636,
+    "time": 4.53317403793335,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "s eme de here g"
+      ],
+      [
+        1,
+        "lic"
+      ],
+      [
+        0,
+        "h"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "baeden hadde:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vn"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "llama-4-maverick-17b": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alls eme de here ghyebaeden hadde : vñ de",
+    "wer": 75.0,
+    "cer": 11.904761904761903,
+    "accuracy": 88.88888888888889,
+    "time": 9.81905198097229,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d alls eme de here gh"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        "ebaeden hadde"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": v"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "ñ "
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und als hem de here ghebaeden hadde: vnde",
+    "wer": 37.5,
+    "cer": 9.523809523809524,
+    "accuracy": 92.85714285714286,
+    "time": 30.079185009002686,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        0,
+        "s "
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "em"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        " de here ghebaeden hadde: vnde"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alls arme do here ghebaeden hadde : vnde",
+    "wer": 62.5,
+    "cer": 11.904761904761903,
+    "accuracy": 88.63636363636364,
+    "time": 48.64857602119446,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d alls "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ar"
+      ],
+      [
+        0,
+        "me d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " here ghebaeden hadde"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": vnde"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 5
+  },
+  "glm-4.5v": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alß eme de here ghebæden hadde: vnto",
+    "wer": 50.0,
+    "cer": 16.666666666666664,
+    "accuracy": 83.33333333333334,
+    "time": 4.100507020950317,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "ls"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        " eme de here gheb"
+      ],
+      [
+        -1,
+        "ae"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "den hadde: vn"
+      ],
+      [
+        -1,
+        "de"
+      ],
+      [
+        1,
+        "to"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und allo rmeſte here gleichaſten ſadde :vnte",
+    "wer": 87.5,
+    "cer": 35.714285714285715,
+    "accuracy": 68.18181818181817,
+    "time": 3.050859212875366,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d all"
+      ],
+      [
+        -1,
+        "s eme d"
+      ],
+      [
+        1,
+        "o rmeſt"
+      ],
+      [
+        0,
+        "e here g"
+      ],
+      [
+        -1,
+        "hebaed"
+      ],
+      [
+        1,
+        "leichaſt"
+      ],
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "adde"
+      ],
+      [
+        -1,
+        ":"
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "vn"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 25,
+    "deletions": 17,
+    "insertions": 19
+  },
+  "mistral-medium-3.1": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alſo emede hier glehebaeten hatte :vnde",
+    "wer": 100.0,
+    "cer": 30.952380952380953,
+    "accuracy": 76.74418604651163,
+    "time": 1.3175389766693115,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "ls"
+      ],
+      [
+        1,
+        "ſo"
+      ],
+      [
+        0,
+        " eme"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "de h"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "er"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        " g"
+      ],
+      [
+        1,
+        "le"
+      ],
+      [
+        0,
+        "hebae"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "en ha"
+      ],
+      [
+        -1,
+        "dde: "
+      ],
+      [
+        1,
+        "tte :"
+      ],
+      [
+        0,
+        "vnde"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 11,
+    "insertions": 12
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und алыѕ eme де here glyebaeden hadde : vnde",
+    "wer": 75.0,
+    "cer": 23.809523809523807,
+    "accuracy": 77.27272727272727,
+    "time": 2.027444362640381,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d "
+      ],
+      [
+        -1,
+        "alls"
+      ],
+      [
+        1,
+        "алыѕ"
+      ],
+      [
+        0,
+        " eme "
+      ],
+      [
+        -1,
+        "de"
+      ],
+      [
+        1,
+        "де"
+      ],
+      [
+        0,
+        " here g"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ly"
+      ],
+      [
+        0,
+        "ebaeden hadde"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": vnde"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 8,
+    "insertions": 10
+  },
+  "cogito-v2-109b": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und alls eme boe here ghyebaeden hadde :vinde",
+    "wer": 62.5,
+    "cer": 16.666666666666664,
+    "accuracy": 86.66666666666667,
+    "time": 3.071915864944458,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d alls eme "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "bo"
+      ],
+      [
+        0,
+        "e here gh"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        "ebaeden hadde"
+      ],
+      [
+        -1,
+        ": v"
+      ],
+      [
+        1,
+        " :vi"
+      ],
+      [
+        0,
+        "nde"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 8
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "uid alls eme de here ghebaeden hadde: vnde",
+    "response": "und als eme de here ghebaeden hadde: vn de",
+    "wer": 50.0,
+    "cer": 7.142857142857142,
+    "accuracy": 95.23809523809523,
+    "time": 2.526313066482544,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "d al"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        0,
+        "s eme de here ghebaeden hadde: vn"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

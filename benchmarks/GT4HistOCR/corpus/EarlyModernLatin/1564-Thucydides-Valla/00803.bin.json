@@ -1,0 +1,745 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.1914539337158203,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "mistral-small": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapsis. Post quod omnes fere in urbes redierunt, nauigan-",
+    "wer": 30.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 1.3348989486694336,
+    "diffs": [
+      [
+        0,
+        "baris dilap"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "is. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapsis. Post quod omnes ferè in urbes redierunt, nauigan-",
+    "wer": 20.0,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 1.7078425884246826,
+    "diffs": [
+      [
+        0,
+        "baris dilap"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "is. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t quod omnes ferè in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis.Poſt quod omnes ferè in urbes redierunt,nauigan-",
+    "wer": 40.0,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 1.86198091506958,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt quod omnes ferè in urbes redierunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nauigan-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "wer": 10.0,
+    "cer": 3.076923076923077,
+    "accuracy": 96.96969696969697,
+    "time": 2.4110591411590576,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis. Poſt quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "è"
+      ],
+      [
+        0,
+        " in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "bariſ dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 2.5223381519317627,
+    "diffs": [
+      [
+        0,
+        "bari"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis.Poſt quod omnes fere in urbes redierunt,nauigan-",
+    "wer": 50.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 3.5658679008483887,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " in urbes redierunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nauigan-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "barís dilapſis. Poſt quod omnes ſeré in urbes redicrunt,nauigan-",
+    "wer": 40.0,
+    "cer": 9.230769230769232,
+    "accuracy": 92.3076923076923,
+    "time": 6.112123012542725,
+    "diffs": [
+      [
+        0,
+        "bar"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "s dilapſis. Poſt quod omnes "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " in urbes redi"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "runt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nauigan-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "barís dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 17.041353940963745,
+    "diffs": [
+      [
+        0,
+        "bar"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "s dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapsis. Poſt quod omnes fere in urbes redierunt, nauigaṉ-",
+    "wer": 30.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 35.87118124961853,
+    "diffs": [
+      [
+        0,
+        "baris dilap"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "is. Poſt quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " in urbes redierunt, nauiga"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "ṉ"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gemini-2.5-pro": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "barís dilapſis. Poſt quod omnes ſerè in urbes redierunt,nauigan-",
+    "wer": 40.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 46.64904284477234,
+    "diffs": [
+      [
+        0,
+        "bar"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "s dilapſis. Poſt quod omnes "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "erè in urbes redierunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nauigan-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapsis. Poſt quod omnes fere in urbes redierunt, nauigant-",
+    "wer": 30.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.45454545454545,
+    "time": 10.579588651657104,
+    "diffs": [
+      [
+        0,
+        "baris dilap"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "is. Poſt quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " in urbes redierunt, nauigan"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt,nauigan-",
+    "wer": 20.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 49.614269971847534,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis. Poſt quod omnes ferè in urbes redierunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nauigan-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapfis.Poſt quod omnes ferè in urbes redierunt,nauigan-",
+    "wer": 40.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 3.852102041244507,
+    "diffs": [
+      [
+        0,
+        "baris dilap"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "is."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt quod omnes ferè in urbes redierunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nauigan-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.551110029220581,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.5846199989318848,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "grok-4": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis. Poſt quod omnes fere in urbes redierunt, nauigā-",
+    "wer": 20.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 117.11446118354797,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis. Poſt quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " in urbes redierunt, nauig"
+      ],
+      [
+        -1,
+        "an"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapſis.Poſt quod omnes fere in urbes redierunt,nauigan-",
+    "wer": 50.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 1.7357099056243896,
+    "diffs": [
+      [
+        0,
+        "baris dilapſis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Poſt quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " in urbes redierunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nauigan-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "baris dilapſis. Poſt quod omnes ferè in urbes redierunt, nauigan-",
+    "response": "baris dilapsis. Post quod omnes fere in urbes redierunt, nauigan-",
+    "wer": 30.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 2.488255023956299,
+    "diffs": [
+      [
+        0,
+        "baris dilap"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "is. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t quod omnes fer"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " in urbes redierunt, nauigan-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 3
+  }
+}

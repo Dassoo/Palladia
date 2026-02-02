@@ -1,0 +1,1046 @@
+{
+  "qwen-2.5-vl-72b": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "\"în éren leue-vnde oek nv în deme doode en fint",
+    "wer": 66.66666666666666,
+    "cer": 19.148936170212767,
+    "accuracy": 85.1063829787234,
+    "time": 2.926332950592041,
+    "diffs": [
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "\"î"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "ren leue"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        "vnde oek nv "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "î"
+      ],
+      [
+        0,
+        "n deme do"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "de en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "mistral-small": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "In eren leue vnde oek nu in deme dote en fint",
+    "wer": 41.66666666666667,
+    "cer": 12.76595744680851,
+    "accuracy": 87.2340425531915,
+    "time": 1.1697239875793457,
+    "diffs": [
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n eren leue"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " vnde oek n"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " in deme do"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "e en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in ēren leue vnde oēk nv in dette doze en fint",
+    "wer": 50.0,
+    "cer": 17.02127659574468,
+    "accuracy": 85.1063829787234,
+    "time": 1.1799638271331787,
+    "diffs": [
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "ren leue"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " vnde o"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "k nv in de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "tt"
+      ],
+      [
+        0,
+        "e do"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "e en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "spotlight": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eren leue-unde oek nu in deme dode en fint",
+    "wer": 41.66666666666667,
+    "cer": 12.76595744680851,
+    "accuracy": 87.2340425531915,
+    "time": 1.3308699131011963,
+    "diffs": [
+      [
+        0,
+        "in eren leue"
+      ],
+      [
+        -1,
+        " · v"
+      ],
+      [
+        1,
+        "-u"
+      ],
+      [
+        0,
+        "nde oek n"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " in deme dode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eren leue ⁊ vnde oeck nv in deme dode en sint",
+    "wer": 25.0,
+    "cer": 6.382978723404255,
+    "accuracy": 93.75,
+    "time": 2.3115530014038086,
+    "diffs": [
+      [
+        0,
+        "in eren leue "
+      ],
+      [
+        -1,
+        "·"
+      ],
+      [
+        1,
+        "⁊"
+      ],
+      [
+        0,
+        " vnde oe"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "k nv in deme dode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in êren leue-vnde oek nv in deme dode en fint",
+    "wer": 41.66666666666667,
+    "cer": 10.638297872340425,
+    "accuracy": 89.36170212765957,
+    "time": 3.0140650272369385,
+    "diffs": [
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ê"
+      ],
+      [
+        0,
+        "ren leue"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        "vnde oek nv in deme dode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in ēren leue vnde oek nu in deme dode en ſint",
+    "wer": 25.0,
+    "cer": 8.51063829787234,
+    "accuracy": 91.48936170212765,
+    "time": 3.459178924560547,
+    "diffs": [
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "ren leue"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " vnde oek n"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " in deme dode en ſint"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eeren leue vnde oœk nv in deme dode en fint",
+    "wer": 33.33333333333333,
+    "cer": 10.638297872340425,
+    "accuracy": 91.48936170212765,
+    "time": 1.6649787425994873,
+    "diffs": [
+      [
+        0,
+        "in "
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "eren leue"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " vnde o"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "œ"
+      ],
+      [
+        0,
+        "k nv in deme dode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eeren leue-vnde ock nu in denne dode en ſint",
+    "wer": 58.333333333333336,
+    "cer": 17.02127659574468,
+    "accuracy": 87.2340425531915,
+    "time": 19.613140106201172,
+    "diffs": [
+      [
+        0,
+        "in "
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "eren leue"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        "vnde o"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "k n"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " in de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nn"
+      ],
+      [
+        0,
+        "e dode en ſint"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eren leue vnde oeck nu in denne dode en ſint.",
+    "wer": 41.66666666666667,
+    "cer": 14.893617021276595,
+    "accuracy": 89.58333333333334,
+    "time": 72.86802697181702,
+    "diffs": [
+      [
+        0,
+        "in eren leue"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " vnde oe"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "k n"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " in de"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "nn"
+      ],
+      [
+        0,
+        "e dode en ſint"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 43,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "glm-4.5v": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eren leue vnnd oek nv im demedode en fint",
+    "wer": 50.0,
+    "cer": 14.893617021276595,
+    "accuracy": 87.2340425531915,
+    "time": 7.368930816650391,
+    "diffs": [
+      [
+        0,
+        "in eren leue "
+      ],
+      [
+        -1,
+        "· vnde"
+      ],
+      [
+        1,
+        "vnnd"
+      ],
+      [
+        0,
+        " oek nv i"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        " deme"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in ëren leuëͤrnc Sö oek ñ m demme dode en ſnit",
+    "wer": 66.66666666666666,
+    "cer": 34.04255319148936,
+    "accuracy": 72.3404255319149,
+    "time": 18.946444988250732,
+    "diffs": [
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        "ren leu"
+      ],
+      [
+        -1,
+        "e · vnde oek nv in"
+      ],
+      [
+        1,
+        "ëͤrnc Sö oek ñ m"
+      ],
+      [
+        0,
+        " dem"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "e dode en ſ"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 27,
+    "deletions": 20,
+    "insertions": 19
+  },
+  "mistral-medium-3.1": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eren leue vnde ock ny in deme dode en findt",
+    "wer": 33.33333333333333,
+    "cer": 12.76595744680851,
+    "accuracy": 89.36170212765957,
+    "time": 1.1791050434112549,
+    "diffs": [
+      [
+        0,
+        "in eren leue"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " vnde o"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "k n"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        " in deme dode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "in"
+      ],
+      [
+        1,
+        "d"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "``in ērēn lêuē  ̄vndē oek nī in deme dode en hint",
+    "wer": 58.333333333333336,
+    "cer": 23.404255319148938,
+    "accuracy": 80.0,
+    "time": 2.7229340076446533,
+    "diffs": [
+      [
+        1,
+        "``"
+      ],
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "ere"
+      ],
+      [
+        1,
+        "ērē"
+      ],
+      [
+        0,
+        "n l"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ê"
+      ],
+      [
+        0,
+        "ue"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "̄  ̄"
+      ],
+      [
+        0,
+        "vnd"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " oek n"
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        " in deme dode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 10,
+    "insertions": 13
+  },
+  "cogito-v2-109b": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in èren leue-vndē oëk in im bette bode en fint",
+    "wer": 83.33333333333334,
+    "cer": 29.78723404255319,
+    "accuracy": 74.46808510638297,
+    "time": 1.891211986541748,
+    "diffs": [
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "è"
+      ],
+      [
+        0,
+        "ren leue"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        "vnd"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " o"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        "k "
+      ],
+      [
+        -1,
+        "nv in dem"
+      ],
+      [
+        1,
+        "in im bett"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "ode en "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "int"
+      ]
+    ],
+    "matches": 30,
+    "deletions": 17,
+    "insertions": 16
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "in eren leue · vnde oek nv in deme dode en ſint",
+    "response": "in eren leue vnde oek nv in deme dode en ſint",
+    "wer": 8.333333333333332,
+    "cer": 4.25531914893617,
+    "accuracy": 95.74468085106383,
+    "time": 2.456418991088867,
+    "diffs": [
+      [
+        0,
+        "in eren leue"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " vnde oek nv in deme dode en ſint"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 0
+  }
+}

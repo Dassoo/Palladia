@@ -1,0 +1,737 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaquc ab eis, ne muros refi.",
+    "wer": 20.0,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 1.0576679706573486,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaqu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " ab eis, ne muros refi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "mistral-small": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Postularunque ab eis, ne muros refi",
+    "wer": 30.0,
+    "cer": 10.9375,
+    "accuracy": 89.0625,
+    "time": 1.309324026107788,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tularun"
+      ],
+      [
+        -1,
+        "t ita"
+      ],
+      [
+        0,
+        "que ab eis, ne muros refi"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 7,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Postularunt itaque ab eis, ne muros refi,",
+    "wer": 20.0,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 1.4177031517028809,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tularunt itaque ab eis, ne muros refi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros ref-",
+    "wer": 10.0,
+    "cer": 1.5625,
+    "accuracy": 98.4375,
+    "time": 1.749453067779541,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros ref"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam.Postularunt itaque ab eis,ne muros refi.",
+    "wer": 50.0,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 1.9792799949645996,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tularunt itaque ab eis,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ne muros refi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.02927303314209,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaꝗ ab eis, ne muros refi-",
+    "wer": 10.0,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 3.762662887573242,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt ita"
+      ],
+      [
+        -1,
+        "que"
+      ],
+      [
+        1,
+        "ꝗ"
+      ],
+      [
+        0,
+        " ab eis, ne muros refi-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.356703996658325,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam, Postularunt itaque ab eis, ne muros reſi-",
+    "wer": 30.0,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 8.578405141830444,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tularunt itaque ab eis, ne muros re"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "i-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gemini-2.5-pro": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itáque ab eis, ne muros refi-",
+    "wer": 10.0,
+    "cer": 1.5625,
+    "accuracy": 98.4375,
+    "time": 36.42515182495117,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt it"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "que ab eis, ne muros refi-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularuntunitiaque ab eis, ne muros reſti-",
+    "wer": 30.0,
+    "cer": 7.8125,
+    "accuracy": 92.53731343283582,
+    "time": 55.991178035736084,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "un"
+      ],
+      [
+        0,
+        "it"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "aque ab eis, ne muros re"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        "i-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros reſi",
+    "wer": 10.0,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 5.838242053985596,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros re"
+      ],
+      [
+        -1,
+        "fi-"
+      ],
+      [
+        1,
+        "ſi"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros ref-",
+    "wer": 10.0,
+    "cer": 1.5625,
+    "accuracy": 98.4375,
+    "time": 33.37690019607544,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros ref"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medicoaudaciam.Poftularuntitaque ab eis,nemuros refi-",
+    "wer": 70.0,
+    "cer": 9.375,
+    "accuracy": 90.625,
+    "time": 12.22294020652771,
+    "diffs": [
+      [
+        0,
+        "bello Medico"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "audaciam."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tularunt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "itaque ab eis,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "muros refi-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 6,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaqq ab eis, nemuros refi-",
+    "wer": 30.0,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 2.0023128986358643,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaq"
+      ],
+      [
+        -1,
+        "ue"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        " ab eis, ne"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "muros refi-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Médico audáciam. Póttularunt iótaqué ab eis, ne múros refì",
+    "wer": 60.0,
+    "cer": 14.0625,
+    "accuracy": 87.5,
+    "time": 2.16617488861084,
+    "diffs": [
+      [
+        0,
+        "bello M"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "dico aud"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ciam. P"
+      ],
+      [
+        -1,
+        "oſ"
+      ],
+      [
+        1,
+        "ót"
+      ],
+      [
+        0,
+        "tularunt i"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        "taqu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ab eis, ne m"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "ros ref"
+      ],
+      [
+        -1,
+        "i-"
+      ],
+      [
+        1,
+        "ì"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "grok-4": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 149.82340788841248,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "cogito-v2-109b": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medio audacian. Poſtularunt ita que ab eis, ne muros refti,",
+    "wer": 50.0,
+    "cer": 7.8125,
+    "accuracy": 93.84615384615384,
+    "time": 1.3191900253295898,
+    "diffs": [
+      [
+        0,
+        "bello Medi"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        0,
+        "o audacia"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        ". Poſtularunt ita"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "que ab eis, ne muros ref"
+      ],
+      [
+        -1,
+        "i-"
+      ],
+      [
+        1,
+        "ti,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros refi-",
+    "response": "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros reſi-",
+    "wer": 10.0,
+    "cer": 1.5625,
+    "accuracy": 98.4375,
+    "time": 2.6458048820495605,
+    "diffs": [
+      [
+        0,
+        "bello Medico audaciam. Poſtularunt itaque ab eis, ne muros re"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "i-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

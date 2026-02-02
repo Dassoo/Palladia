@@ -1,0 +1,316 @@
+{
+  "mistral-small": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.1560282707214355,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.4546658992767334,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.4839768409729004,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.5005829334259033,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.6708788871765137,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "llama-4-maverick-17b": {
+    "gt": "DE Littera d.",
+    "response": "DE Litera d.",
+    "wer": 33.33333333333333,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 2.519184112548828,
+    "diffs": [
+      [
+        0,
+        "DE Lit"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "era d."
+      ]
+    ],
+    "matches": 12,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.646001100540161,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.7930657863616943,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.9029428958892822,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.5628180503845215,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 7.650170087814331,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.744202136993408,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 7.8781280517578125,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.400084018707275,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "mistral-medium-3.1": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.0548460483551025,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.096151113510132,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "cogito-v2-109b": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.1256482601165771,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "DE Littera d.",
+    "response": "DE Littera d.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.7691497802734375,
+    "diffs": [
+      [
+        0,
+        "DE Littera d."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

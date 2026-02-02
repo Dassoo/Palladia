@@ -1,0 +1,1248 @@
+{
+  "mistral-small": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caii.c.littera ſignari compemerimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 71.42857142857143,
+    "cer": 12.82051282051282,
+    "accuracy": 89.74358974358975,
+    "time": 1.7612559795379639,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "i."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari compe"
+      ],
+      [
+        1,
+        "me"
+      ],
+      [
+        0,
+        "rimus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caii.c.littera fignari comperimus ut alio in loco. C.ENNIAE.P.RVBRIVS",
+    "wer": 64.28571428571429,
+    "cer": 10.256410256410255,
+    "accuracy": 89.74358974358975,
+    "time": 2.3177459239959717,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "i."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignari comperimus"
+      ],
+      [
+        -1,
+        ":"
+      ],
+      [
+        0,
+        " ut alio in loco. C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiú.c.littera signari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 78.57142857142857,
+    "cer": 11.538461538461538,
+    "accuracy": 88.46153846153845,
+    "time": 2.3204879760742188,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "ú."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignari comperimus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiu.c.littera ſignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 57.14285714285714,
+    "cer": 8.974358974358974,
+    "accuracy": 91.02564102564102,
+    "time": 2.910982131958008,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "u."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari comperimus: ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiu͂.c.littera ſignari compenſimus: ut\n\nalio in loco. C.ENNIAE.P.RVBRIVS",
+    "wer": 57.14285714285714,
+    "cer": 14.102564102564102,
+    "accuracy": 89.74358974358975,
+    "time": 3.7689857482910156,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "u͂."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari compe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "nſ"
+      ],
+      [
+        0,
+        "imus: ut"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "\n\n"
+      ],
+      [
+        0,
+        "alio in loco. C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "gpt-4.1": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiū.c.littera ſignari comperimus: ut alio in loco. C.ENNIAE.P.RVBRIVS",
+    "wer": 50.0,
+    "cer": 8.974358974358974,
+    "accuracy": 92.3076923076923,
+    "time": 3.9030869007110596,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "ū."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari comperimus: ut alio in loco. C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut C21u.c.littera ſignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 57.14285714285714,
+    "cer": 11.538461538461538,
+    "accuracy": 88.46153846153845,
+    "time": 4.078812122344971,
+    "diffs": [
+      [
+        0,
+        "ut C"
+      ],
+      [
+        -1,
+        "aiũ. "
+      ],
+      [
+        1,
+        "21u."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari comperimus: ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Cāu.c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "wer": 14.285714285714285,
+    "cer": 5.128205128205128,
+    "accuracy": 94.87179487179486,
+    "time": 4.908212184906006,
+    "diffs": [
+      [
+        0,
+        "ut C"
+      ],
+      [
+        -1,
+        "aiũ. "
+      ],
+      [
+        1,
+        "āu."
+      ],
+      [
+        0,
+        "c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiu͂.c.littera ſignari comperimus: ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 57.14285714285714,
+    "cer": 10.256410256410255,
+    "accuracy": 91.02564102564102,
+    "time": 6.173499822616577,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "u͂."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari comperimus: ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 3
+  },
+  "o4-mini": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiu. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "wer": 7.142857142857142,
+    "cer": 1.282051282051282,
+    "accuracy": 98.71794871794873,
+    "time": 20.63515019416809,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        ". c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Cauſa c. littera ſignari comperimus:ut alio in loco. C.ENNI.AE.P.RVBRIVS",
+    "wer": 50.0,
+    "cer": 10.256410256410255,
+    "accuracy": 91.02564102564102,
+    "time": 98.32602500915527,
+    "diffs": [
+      [
+        0,
+        "ut Ca"
+      ],
+      [
+        -1,
+        "iũ."
+      ],
+      [
+        1,
+        "uſa"
+      ],
+      [
+        0,
+        " c. littera ſignari comperimus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco. C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNI"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "AE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiu.c.littera ſignari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 71.42857142857143,
+    "cer": 10.256410256410255,
+    "accuracy": 89.74358974358975,
+    "time": 12.421217679977417,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "u."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari comperimus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiū. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "wer": 7.142857142857142,
+    "cer": 1.282051282051282,
+    "accuracy": 98.71794871794873,
+    "time": 62.32935118675232,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        ". c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Cauū.c.littera fignari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 78.57142857142857,
+    "cer": 12.82051282051282,
+    "accuracy": 87.17948717948718,
+    "time": 11.752640008926392,
+    "diffs": [
+      [
+        0,
+        "ut Ca"
+      ],
+      [
+        -1,
+        "iũ. "
+      ],
+      [
+        1,
+        "uū."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignari comperimus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiſ.c.littera ſignari compérimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "wer": 28.57142857142857,
+    "cer": 5.128205128205128,
+    "accuracy": 94.87179487179486,
+    "time": 1.5804691314697266,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "ſ."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari comp"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "rimus: ut alio in loco. C. ENNIAE. P. RVBRIVS"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caſ.c.littera ſignari comperimus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 71.42857142857143,
+    "cer": 11.538461538461538,
+    "accuracy": 88.46153846153845,
+    "time": 2.456763982772827,
+    "diffs": [
+      [
+        0,
+        "ut Ca"
+      ],
+      [
+        -1,
+        "iũ. "
+      ],
+      [
+        1,
+        "ſ."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera ſignari comperimus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caii.c.littera fignari compenimus:ut alio in loco. C.ENNIAE.P.RVBRIVS",
+    "wer": 71.42857142857143,
+    "cer": 11.538461538461538,
+    "accuracy": 88.46153846153845,
+    "time": 2.09523606300354,
+    "diffs": [
+      [
+        0,
+        "ut Cai"
+      ],
+      [
+        -1,
+        "ũ. "
+      ],
+      [
+        1,
+        "i."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignari compe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "imus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco. C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ut Caiũ. c. littera ſignari comperimus: ut alio in loco. C. ENNIAE. P. RVBRIVS",
+    "response": "ut Caiũ.c.littera lignari compenſus:ut alio in loco.C.ENNIAE.P.RVBRIVS",
+    "wer": 78.57142857142857,
+    "cer": 14.102564102564102,
+    "accuracy": 85.8974358974359,
+    "time": 4.252586841583252,
+    "diffs": [
+      [
+        0,
+        "ut Caiũ."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "littera "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ignari compe"
+      ],
+      [
+        -1,
+        "rim"
+      ],
+      [
+        1,
+        "nſ"
+      ],
+      [
+        0,
+        "us:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut alio in loco."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "C."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ENNIAE."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "P."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "RVBRIVS"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 3
+  }
+}

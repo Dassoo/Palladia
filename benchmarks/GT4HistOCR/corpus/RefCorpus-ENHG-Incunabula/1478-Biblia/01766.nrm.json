@@ -1,0 +1,1354 @@
+{
+  "spotlight": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "cos fone-izara fone- thema fone- nafia fone-",
+    "wer": 83.33333333333334,
+    "cer": 30.0,
+    "accuracy": 70.0,
+    "time": 1.2748050689697266,
+    "diffs": [
+      [
+        0,
+        "cos "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · z"
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        "izara "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        " thema "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        " na"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ia "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "-"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 15,
+    "insertions": 9
+  },
+  "mistral-small": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "ὅς ϕονῆ ϕιγαρᾶ ϕονῆ θῆμα ϕονῆ ναϕᾶ ϕονῆ",
+    "wer": 100.0,
+    "cer": 86.0,
+    "accuracy": 14.000000000000002,
+    "time": 1.3062419891357422,
+    "diffs": [
+      [
+        -1,
+        "cos ſone · zizara ſone · thema ſone · naſia ſone ·"
+      ],
+      [
+        1,
+        "ὅς ϕονῆ ϕιγαρᾶ ϕονῆ θῆμα ϕονῆ ναϕᾶ ϕονῆ"
+      ]
+    ],
+    "matches": 0,
+    "deletions": 50,
+    "insertions": 39
+  },
+  "gpt-4.1": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "ros ſone· zizada ſone· thema ſone· naka ſone·",
+    "wer": 91.66666666666666,
+    "cer": 16.0,
+    "accuracy": 84.0,
+    "time": 1.5461320877075195,
+    "diffs": [
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "os ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· ziza"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "d"
+      ],
+      [
+        0,
+        "a ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· thema ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· na"
+      ],
+      [
+        -1,
+        "ſi"
+      ],
+      [
+        1,
+        "k"
+      ],
+      [
+        0,
+        "a ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 8,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "rœs ſone· ziazara ſone· thēma ſone· naba ſone·",
+    "wer": 100.0,
+    "cer": 20.0,
+    "accuracy": 84.0,
+    "time": 2.406917095184326,
+    "diffs": [
+      [
+        -1,
+        "co"
+      ],
+      [
+        1,
+        "rœ"
+      ],
+      [
+        0,
+        "s ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· zi"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "zara ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· the"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        "ma ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· na"
+      ],
+      [
+        -1,
+        "ſi"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "a ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "cos fone·zigara fone· thēma fone· nafia fone·",
+    "wer": 91.66666666666666,
+    "cer": 24.0,
+    "accuracy": 76.0,
+    "time": 2.713726043701172,
+    "diffs": [
+      [
+        0,
+        "cos "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "zi"
+      ],
+      [
+        -1,
+        "z"
+      ],
+      [
+        1,
+        "g"
+      ],
+      [
+        0,
+        "ara "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· th"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "ma "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· na"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ia "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 13,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "ſos ſone-ꝓzara ſone· thema ſone· naſia ſone·",
+    "wer": 83.33333333333334,
+    "cer": 18.0,
+    "accuracy": 82.0,
+    "time": 3.8576478958129883,
+    "diffs": [
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "os ſone"
+      ],
+      [
+        -1,
+        " · zi"
+      ],
+      [
+        1,
+        "-ꝓ"
+      ],
+      [
+        0,
+        "zara ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· thema ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· naſia ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 9,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "τος ſone · ἡ παρα ſone · thema ſone · παϱα ſone ·",
+    "wer": 33.33333333333333,
+    "cer": 28.000000000000004,
+    "accuracy": 72.0,
+    "time": 3.9545540809631348,
+    "diffs": [
+      [
+        -1,
+        "cos"
+      ],
+      [
+        1,
+        "τος"
+      ],
+      [
+        0,
+        " ſone · "
+      ],
+      [
+        -1,
+        "zizara"
+      ],
+      [
+        1,
+        "ἡ παρα"
+      ],
+      [
+        0,
+        " ſone · thema ſone · "
+      ],
+      [
+        -1,
+        "naſia"
+      ],
+      [
+        1,
+        "παϱα"
+      ],
+      [
+        0,
+        " ſone ·"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 14,
+    "insertions": 13
+  },
+  "llama-4-maverick-17b": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "cos ſone zizara ſone: thema ſone: nafcia ſone.",
+    "wer": 66.66666666666666,
+    "cer": 20.0,
+    "accuracy": 82.0,
+    "time": 7.975914001464844,
+    "diffs": [
+      [
+        0,
+        "cos ſone"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " zizara ſone"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " thema ſone"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " na"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        "ia ſone"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "·fos ſone·:izara ſone: thema ſone· nafia ſone·",
+    "wer": 91.66666666666666,
+    "cer": 20.0,
+    "accuracy": 82.0,
+    "time": 23.700881004333496,
+    "diffs": [
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "·f"
+      ],
+      [
+        0,
+        "os ſone"
+      ],
+      [
+        -1,
+        " · z"
+      ],
+      [
+        1,
+        "·:"
+      ],
+      [
+        0,
+        "izara ſone"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " thema ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· na"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ia ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 10,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "cos ſone· zijara ſone· thjema ſone· nahia ſone·",
+    "wer": 91.66666666666666,
+    "cer": 14.000000000000002,
+    "accuracy": 88.0,
+    "time": 72.26888394355774,
+    "diffs": [
+      [
+        0,
+        "cos ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· zi"
+      ],
+      [
+        -1,
+        "z"
+      ],
+      [
+        1,
+        "j"
+      ],
+      [
+        0,
+        "ara ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· th"
+      ],
+      [
+        1,
+        "j"
+      ],
+      [
+        0,
+        "ema ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· na"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "ia ſone"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "coʃfone·ziʒara fone·thema fone·naʃa fone-",
+    "wer": 100.0,
+    "cer": 34.0,
+    "accuracy": 66.0,
+    "time": 9.418953895568848,
+    "diffs": [
+      [
+        0,
+        "co"
+      ],
+      [
+        -1,
+        "s ſone · "
+      ],
+      [
+        1,
+        "ʃfone·"
+      ],
+      [
+        0,
+        "zi"
+      ],
+      [
+        -1,
+        "z"
+      ],
+      [
+        1,
+        "ʒ"
+      ],
+      [
+        0,
+        "ara "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "thema "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · naſi"
+      ],
+      [
+        1,
+        "·naʃ"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "-"
+      ]
+    ],
+    "matches": 25,
+    "deletions": 25,
+    "insertions": 16
+  },
+  "gemini-2.5-flash": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "ꝙs: fone ꝓ fone ꝓ: zizara fone ꝓ: thjema fone ꝓ: naha fone",
+    "wer": 100.0,
+    "cer": 48.0,
+    "accuracy": 63.793103448275865,
+    "time": 12.741966724395752,
+    "diffs": [
+      [
+        -1,
+        "cos ſ"
+      ],
+      [
+        1,
+        "ꝙs: fone ꝓ f"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "·"
+      ],
+      [
+        1,
+        "ꝓ:"
+      ],
+      [
+        0,
+        " zizara "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "·"
+      ],
+      [
+        1,
+        "ꝓ:"
+      ],
+      [
+        0,
+        " th"
+      ],
+      [
+        1,
+        "j"
+      ],
+      [
+        0,
+        "ema "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "·"
+      ],
+      [
+        1,
+        "ꝓ:"
+      ],
+      [
+        0,
+        " na"
+      ],
+      [
+        -1,
+        "ſi"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 15,
+    "insertions": 23
+  },
+  "mistral-medium-3.1": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "οὕς φονεύζαρα φονεῦ θέμα φονεῦ ναυάγια φονεῦ·",
+    "wer": 100.0,
+    "cer": 88.0,
+    "accuracy": 14.000000000000002,
+    "time": 1.8551409244537354,
+    "diffs": [
+      [
+        -1,
+        "cos ſone · zizara ſone · thema ſone · naſia ſone "
+      ],
+      [
+        1,
+        "οὕς φονεύζαρα φονεῦ θέμα φονεῦ ναυάγια φονεῦ"
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 1,
+    "deletions": 49,
+    "insertions": 44
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "ὲς ῆone ģįžāṯa ῆone ṯhema ῆone nahā ῆone",
+    "wer": 100.0,
+    "cer": 48.0,
+    "accuracy": 52.0,
+    "time": 2.489572048187256,
+    "diffs": [
+      [
+        -1,
+        "cos ſone · zizar"
+      ],
+      [
+        1,
+        "ὲς ῆone ģįžāṯ"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ῆ"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "· t"
+      ],
+      [
+        1,
+        "ṯ"
+      ],
+      [
+        0,
+        "hema "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ῆ"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        0,
+        " na"
+      ],
+      [
+        -1,
+        "ſia ſ"
+      ],
+      [
+        1,
+        "hā ῆ"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 30,
+    "insertions": 20
+  },
+  "cogito-v2-109b": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": "cos fone·zizara fone·thema fone· nafia fone.",
+    "wer": 91.66666666666666,
+    "cer": 24.0,
+    "accuracy": 76.0,
+    "time": 1.6624269485473633,
+    "diffs": [
+      [
+        0,
+        "cos "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "zizara "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "thema "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· na"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ia "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 36,
+    "deletions": 14,
+    "insertions": 8
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "cos ſone · zizara ſone · thema ſone · naſia ſone ·",
+    "response": ":cos lone·zizara lone·thema lone·naha lone·",
+    "wer": 100.0,
+    "cer": 28.000000000000004,
+    "accuracy": 74.0,
+    "time": 14.697263956069946,
+    "diffs": [
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "cos "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "zizara "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "thema "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " · naſi"
+      ],
+      [
+        1,
+        "·nah"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "one"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 18,
+    "insertions": 11
+  }
+}

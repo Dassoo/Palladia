@@ -1,0 +1,1664 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor ēſt here fuſſit: atq3 eadē cras. Silirer Martialis libro primo epigrammatū:",
+    "wer": 50.0,
+    "cer": 15.294117647058824,
+    "accuracy": 86.20689655172413,
+    "time": 1.2718217372894287,
+    "diffs": [
+      [
+        0,
+        "hodie minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "ēſt"
+      ],
+      [
+        0,
+        " here fu"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "it: atq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "3"
+      ],
+      [
+        0,
+        " ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "li"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "er Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 10,
+    "insertions": 12
+  },
+  "spotlight": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor éqh ere fuit: atq; eadé cras. Siliter Martialis libro primo epigrámatu:",
+    "wer": 42.857142857142854,
+    "cer": 10.588235294117647,
+    "accuracy": 89.41176470588236,
+    "time": 1.3972227573394775,
+    "diffs": [
+      [
+        0,
+        "hodie minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ h"
+      ],
+      [
+        1,
+        "éqh "
+      ],
+      [
+        0,
+        "ere fuit: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor éq̄here fuit: atq; eadé cras.Siliter Martialis libro primo epigrámatū;",
+    "wer": 50.0,
+    "cer": 12.941176470588237,
+    "accuracy": 87.05882352941177,
+    "time": 2.1933679580688477,
+    "diffs": [
+      [
+        0,
+        "hodie minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ "
+      ],
+      [
+        1,
+        "éq̄"
+      ],
+      [
+        0,
+        "here fuit: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cras."
+      ],
+      [
+        -1,
+        " Sĩ"
+      ],
+      [
+        1,
+        "Si"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "ū;"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 12,
+    "insertions": 9
+  },
+  "gpt-4.1": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hoſic minor eſt, here fuit : atqꝫ eadé cras. Similiter Martialis libro primo epigramatū :",
+    "wer": 71.42857142857143,
+    "cer": 20.0,
+    "accuracy": 81.31868131868131,
+    "time": 2.3210880756378174,
+    "diffs": [
+      [
+        0,
+        "ho"
+      ],
+      [
+        -1,
+        "die"
+      ],
+      [
+        1,
+        "ſic"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "eſt,"
+      ],
+      [
+        0,
+        " here fuit"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": atq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "imi"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū "
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 12,
+    "insertions": 18
+  },
+  "mistral-small": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodic minor éqhere fuit: atq eadé cras. Siliter Martialis libro primo epigrammatúſ",
+    "wer": 57.14285714285714,
+    "cer": 15.294117647058824,
+    "accuracy": 85.88235294117646,
+    "time": 2.6066391468048096,
+    "diffs": [
+      [
+        0,
+        "hodi"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ "
+      ],
+      [
+        1,
+        "éq"
+      ],
+      [
+        0,
+        "here fuit: atq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "úſ"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 12,
+    "insertions": 9
+  },
+  "gpt-4o": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor eſt quī herē fuit: atq; eadē cras. \nSimilter Martialis libro primo epigramatu;",
+    "wer": 42.857142857142854,
+    "cer": 17.647058823529413,
+    "accuracy": 83.33333333333334,
+    "time": 3.506175994873047,
+    "diffs": [
+      [
+        0,
+        "hodie minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "eſt quī"
+      ],
+      [
+        0,
+        " her"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " fuit: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras. "
+      ],
+      [
+        -1,
+        "Sĩli"
+      ],
+      [
+        1,
+        "\nSimil"
+      ],
+      [
+        0,
+        "ter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "u;"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 13,
+    "insertions": 18
+  },
+  "claude-4-sonnet": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor ẽq̃ here fuit: atq̃ eade cras. Siliter Martialis libro primo epigramatũ:",
+    "wer": 42.857142857142854,
+    "cer": 8.235294117647058,
+    "accuracy": 91.76470588235294,
+    "time": 3.938081979751587,
+    "diffs": [
+      [
+        0,
+        "hodie minor ẽ"
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        " here fuit: atq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "matũ:"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "claude-4-opus": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor ẽ q̃ heri fuit: atq; eadẽ cras. Sic liter Martialis libro primo epigrãmatũ:",
+    "wer": 28.57142857142857,
+    "cer": 7.0588235294117645,
+    "accuracy": 93.10344827586206,
+    "time": 4.971675872802734,
+    "diffs": [
+      [
+        0,
+        "hodie minor ẽ "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        " her"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " fuit: atq; eadẽ cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "ic "
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigrãmatũ:"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor ē q̄ ſuperit: arq; eadē cras. Siliter Martialis libro primo epigrammati:",
+    "wer": 57.14285714285714,
+    "cer": 17.647058823529413,
+    "accuracy": 84.70588235294117,
+    "time": 9.790014266967773,
+    "diffs": [
+      [
+        0,
+        "hodie minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ here fu"
+      ],
+      [
+        1,
+        "ē q̄ ſuper"
+      ],
+      [
+        0,
+        "it: a"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "q; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 17,
+    "insertions": 16
+  },
+  "o4-mini": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hoſic minor ēq̄ here fuit: atq; eadē cras. Siliter Martialiſ libro primo epigramatu;",
+    "wer": 50.0,
+    "cer": 14.117647058823529,
+    "accuracy": 85.88235294117646,
+    "time": 49.69138264656067,
+    "diffs": [
+      [
+        0,
+        "ho"
+      ],
+      [
+        -1,
+        "die"
+      ],
+      [
+        1,
+        "ſic"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "ēq̄"
+      ],
+      [
+        0,
+        " here fuit: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martiali"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "u;"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 13,
+    "insertions": 12
+  },
+  "gemini-2.5-pro": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor ē q̄ here fuit: atq; eadē cras. Siliter Martialis libro primo epigrammatū:",
+    "wer": 35.714285714285715,
+    "cer": 12.941176470588237,
+    "accuracy": 87.64044943820225,
+    "time": 105.11292314529419,
+    "diffs": [
+      [
+        0,
+        "hodie minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "ē q̄"
+      ],
+      [
+        0,
+        " here fuit: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 8,
+    "insertions": 12
+  },
+  "gpt-5-mini": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hoſic minor ē q̄ here fuit: atq; eadē cras. Siliter Martialis libro primo epigramatu;",
+    "wer": 42.857142857142854,
+    "cer": 11.76470588235294,
+    "accuracy": 88.23529411764706,
+    "time": 21.37953782081604,
+    "diffs": [
+      [
+        0,
+        "ho"
+      ],
+      [
+        -1,
+        "die"
+      ],
+      [
+        1,
+        "ſic"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "ē q̄"
+      ],
+      [
+        0,
+        " here fuit: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "u;"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 12,
+    "insertions": 12
+  },
+  "gpt-5": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "holic minoreq; heres fuit: atq; eadé cras. Similiter Martialis libro primo epigramatũ:",
+    "wer": 57.14285714285714,
+    "cer": 17.647058823529413,
+    "accuracy": 85.0574712643678,
+    "time": 79.77681994438171,
+    "diffs": [
+      [
+        0,
+        "ho"
+      ],
+      [
+        -1,
+        "die"
+      ],
+      [
+        1,
+        "lic"
+      ],
+      [
+        0,
+        " minor"
+      ],
+      [
+        -1,
+        " ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "eq;"
+      ],
+      [
+        0,
+        " here"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        " fuit: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cras. S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "imi"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 12,
+    "insertions": 14
+  },
+  "glm-4.5v": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodic minor ēq herefuit:arq; eadē cras.Siliter Martialis libro primo epigramatū;",
+    "wer": 71.42857142857143,
+    "cer": 16.470588235294116,
+    "accuracy": 83.52941176470588,
+    "time": 16.600870847702026,
+    "diffs": [
+      [
+        0,
+        "hodi"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "ēq"
+      ],
+      [
+        0,
+        " here"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "fuit:"
+      ],
+      [
+        -1,
+        " at"
+      ],
+      [
+        1,
+        "ar"
+      ],
+      [
+        0,
+        "q; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras."
+      ],
+      [
+        -1,
+        " Sĩ"
+      ],
+      [
+        1,
+        "Si"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "ū;"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 16,
+    "insertions": 11
+  },
+  "mistral-medium-3.1": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodic minor èq here fuìt: atq; eadé craſ. Siliter Martialis libro primo epigrammatu͂:",
+    "wer": 57.14285714285714,
+    "cer": 15.294117647058824,
+    "accuracy": 87.05882352941177,
+    "time": 1.5903129577636719,
+    "diffs": [
+      [
+        0,
+        "hodi"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "èq"
+      ],
+      [
+        0,
+        " here fu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ì"
+      ],
+      [
+        0,
+        "t: atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cra"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        ". S"
+      ],
+      [
+        -1,
+        "ĩ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u͂"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 11,
+    "insertions": 11
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodie minor ē qherē fuit:atq; eadē cras.Sīliter Martialis libro primo epigrāmatīq;",
+    "wer": 64.28571428571429,
+    "cer": 15.294117647058824,
+    "accuracy": 85.88235294117646,
+    "time": 4.096858263015747,
+    "diffs": [
+      [
+        0,
+        "hodie minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ "
+      ],
+      [
+        1,
+        "ē q"
+      ],
+      [
+        0,
+        "her"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " fuit:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " cras."
+      ],
+      [
+        -1,
+        " Sĩ"
+      ],
+      [
+        1,
+        "Sī"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "īq;"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 14,
+    "insertions": 11
+  },
+  "cogito-v2-109b": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hodic minor éíẏ here fuiit:arhq3 eadé cras.Silier Materialis libro primo epigrāmatư",
+    "wer": 71.42857142857143,
+    "cer": 23.52941176470588,
+    "accuracy": 81.17647058823529,
+    "time": 1.9664537906646729,
+    "diffs": [
+      [
+        0,
+        "hodi"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "éíẏ"
+      ],
+      [
+        0,
+        " here fui"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " atq;"
+      ],
+      [
+        1,
+        "arhq3"
+      ],
+      [
+        0,
+        " ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cras."
+      ],
+      [
+        -1,
+        " Sĩ"
+      ],
+      [
+        1,
+        "Si"
+      ],
+      [
+        0,
+        "li"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "er Ma"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        "t"
+      ],
+      [
+        1,
+        "er"
+      ],
+      [
+        0,
+        "ialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "mat"
+      ],
+      [
+        -1,
+        "ũ:"
+      ],
+      [
+        1,
+        "ư"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 19,
+    "insertions": 17
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "hodie minor ẽ ꝗᷓ here fuit: atq; eadẽ cras. Sĩliter Martialis libro primo epigrãmatũ:",
+    "response": "hoſic minor éq herefuit:atq; eadé cras.Siliter Martialis libro primo epigramatũ;",
+    "wer": 71.42857142857143,
+    "cer": 15.294117647058824,
+    "accuracy": 84.70588235294117,
+    "time": 30.514185905456543,
+    "diffs": [
+      [
+        0,
+        "ho"
+      ],
+      [
+        -1,
+        "die"
+      ],
+      [
+        1,
+        "ſic"
+      ],
+      [
+        0,
+        " minor "
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "éq"
+      ],
+      [
+        0,
+        " here"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "fuit:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "atq; ead"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " cras."
+      ],
+      [
+        -1,
+        " Sĩ"
+      ],
+      [
+        1,
+        "Si"
+      ],
+      [
+        0,
+        "liter Martialis libro primo epigr"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "matũ"
+      ],
+      [
+        -1,
+        ":"
+      ],
+      [
+        1,
+        ";"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 15,
+    "insertions": 10
+  }
+}

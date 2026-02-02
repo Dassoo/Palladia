@@ -1,0 +1,805 @@
+{
+  "mistral-small": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quam quantus unquâ maximus uiguit, dum lynce-",
+    "wer": 33.33333333333333,
+    "cer": 5.172413793103448,
+    "accuracy": 94.82758620689656,
+    "time": 1.2288179397583008,
+    "diffs": [
+      [
+        0,
+        "ratus maior, qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        " maximus uiguit, dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ynce-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior,quàm quantus unquã maximus uiguit,dum fynce.",
+    "wer": 55.55555555555556,
+    "cer": 6.896551724137931,
+    "accuracy": 93.10344827586206,
+    "time": 1.2330591678619385,
+    "diffs": [
+      [
+        0,
+        "ratus maior,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm quantus unquã maximus uiguit,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 54,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquā maximus uiguit, dum fynce-",
+    "wer": 22.22222222222222,
+    "cer": 3.4482758620689653,
+    "accuracy": 96.55172413793103,
+    "time": 1.2631709575653076,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " maximus uiguit, dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus quã maximus uiguit, dum ſynce.",
+    "wer": 22.22222222222222,
+    "cer": 5.172413793103448,
+    "accuracy": 94.82758620689656,
+    "time": 2.100813865661621,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus "
+      ],
+      [
+        -1,
+        "un"
+      ],
+      [
+        0,
+        "quã maximus uiguit, dum ſynce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 55,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquàm maximus uiguit, dum ſynce.",
+    "wer": 22.22222222222222,
+    "cer": 5.172413793103448,
+    "accuracy": 94.91525423728814,
+    "time": 2.3167078495025635,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "àm"
+      ],
+      [
+        0,
+        " maximus uiguit, dum ſynce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 56,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior,quam quantus unquâ maximus uiguit,dum ſynce-",
+    "wer": 55.55555555555556,
+    "cer": 6.896551724137931,
+    "accuracy": 93.10344827586206,
+    "time": 3.347135066986084,
+    "diffs": [
+      [
+        0,
+        "ratus maior,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        " maximus uiguit,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum ſynce-"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquã maximus viguit, dum ſynce",
+    "wer": 22.22222222222222,
+    "cer": 3.4482758620689653,
+    "accuracy": 96.55172413793103,
+    "time": 4.129773139953613,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unquã maximus "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iguit, dum ſynce"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquã maximus uiguit, dum ſyncẽ",
+    "wer": 11.11111111111111,
+    "cer": 3.4482758620689653,
+    "accuracy": 96.55172413793103,
+    "time": 4.241533279418945,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unquã maximus uiguit, dum ſync"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "ẽ"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior,quàm quantus unquã maximus uiguit,dum fynce-",
+    "wer": 55.55555555555556,
+    "cer": 5.172413793103448,
+    "accuracy": 94.82758620689656,
+    "time": 6.9870240688323975,
+    "diffs": [
+      [
+        0,
+        "ratus maior,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm quantus unquã maximus uiguit,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquà maximus uiguit, dum ſynce-",
+    "wer": 11.11111111111111,
+    "cer": 1.7241379310344827,
+    "accuracy": 98.27586206896551,
+    "time": 7.1546311378479,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "à"
+      ],
+      [
+        0,
+        " maximus uiguit, dum ſynce-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maiòr, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "wer": 11.11111111111111,
+    "cer": 1.7241379310344827,
+    "accuracy": 98.27586206896551,
+    "time": 19.060578107833862,
+    "diffs": [
+      [
+        0,
+        "ratus mai"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ò"
+      ],
+      [
+        0,
+        "r, quàm quantus unquã maximus uiguit, dum ſynce-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquâ maximus uiguit, dum ſynce-",
+    "wer": 11.11111111111111,
+    "cer": 1.7241379310344827,
+    "accuracy": 98.27586206896551,
+    "time": 16.437369108200073,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        " maximus uiguit, dum ſynce-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unq̃ maximus uiguit, dum ſynce,",
+    "wer": 22.22222222222222,
+    "cer": 5.172413793103448,
+    "accuracy": 94.82758620689656,
+    "time": 54.690462827682495,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unq"
+      ],
+      [
+        -1,
+        "uã"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " maximus uiguit, dum ſynce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 55,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior,quàm quantus unquã maximus uigit,dum fynce-",
+    "wer": 55.55555555555556,
+    "cer": 6.896551724137931,
+    "accuracy": 93.10344827586206,
+    "time": 3.922435760498047,
+    "diffs": [
+      [
+        0,
+        "ratus maior,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm quantus unquã maximus uig"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        0,
+        "it,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce-"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquã maximus uiguit, dum fynceſ.",
+    "wer": 11.11111111111111,
+    "cer": 5.172413793103448,
+    "accuracy": 94.91525423728814,
+    "time": 1.2943809032440186,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unquã maximus uiguit, dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "ſ."
+      ]
+    ],
+    "matches": 56,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior, quàm quantus unquâ maximus uiguit, dum fynce-",
+    "wer": 22.22222222222222,
+    "cer": 3.4482758620689653,
+    "accuracy": 96.55172413793103,
+    "time": 2.4723219871520996,
+    "diffs": [
+      [
+        0,
+        "ratus maior, quàm quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        " maximus uiguit, dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "grok-4": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "cratus maior,quàm quantus unquàm maximus uiguit,dum fynce-",
+    "wer": 77.77777777777779,
+    "cer": 10.344827586206897,
+    "accuracy": 93.10344827586206,
+    "time": 41.91146993637085,
+    "diffs": [
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ratus maior,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "àm"
+      ],
+      [
+        0,
+        " maximus uiguit,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce-"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "cogito-v2-109b": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior,quàm quantus unquàm maximus uiguit,dum fynce.",
+    "wer": 66.66666666666666,
+    "cer": 10.344827586206897,
+    "accuracy": 91.37931034482759,
+    "time": 1.8964486122131348,
+    "diffs": [
+      [
+        0,
+        "ratus maior,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm quantus unqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "àm"
+      ],
+      [
+        0,
+        " maximus uiguit,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 53,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ratus maior, quàm quantus unquã maximus uiguit, dum ſynce-",
+    "response": "ratus maior,quàm quantus unquã maximus uiguit,dum fynce-",
+    "wer": 55.55555555555556,
+    "cer": 5.172413793103448,
+    "accuracy": 94.82758620689656,
+    "time": 3.0652451515197754,
+    "diffs": [
+      [
+        0,
+        "ratus maior,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quàm quantus unquã maximus uiguit,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ynce-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 3,
+    "insertions": 1
+  }
+}

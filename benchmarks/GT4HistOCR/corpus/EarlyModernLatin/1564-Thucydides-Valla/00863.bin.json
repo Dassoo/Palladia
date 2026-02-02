@@ -1,0 +1,581 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibisdes Athenienſium dux eligi. tia pugnatur",
+    "wer": 33.33333333333333,
+    "cer": 4.25531914893617,
+    "accuracy": 95.74468085106383,
+    "time": 0.9990360736846924,
+    "diffs": [
+      [
+        0,
+        "alcibi"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "des Athenienſium dux eligi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " tia pugnatur"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "mistral-small": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.148756980895996,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Atheniensium dux eligi- tia pugnatur",
+    "wer": 16.666666666666664,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 1.5844359397888184,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi-\ntia pugnatur",
+    "wer": 33.33333333333333,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 1.585042953491211,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi-"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "\n"
+      ],
+      [
+        0,
+        "tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Atheniensium dux eligi- tia pugnatur",
+    "wer": 16.666666666666664,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 1.8816919326782227,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi-\ntia pugnatur",
+    "wer": 33.33333333333333,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 2.4070489406585693,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi-"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "\n"
+      ],
+      [
+        0,
+        "tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibides Athenienſium dux eligi-   tia pugnatur",
+    "wer": 16.666666666666664,
+    "cer": 6.382978723404255,
+    "accuracy": 95.83333333333334,
+    "time": 3.893578052520752,
+    "diffs": [
+      [
+        0,
+        "alcibi"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        0,
+        "des Athenienſium dux eligi-"
+      ],
+      [
+        1,
+        "  "
+      ],
+      [
+        0,
+        " tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "Alcibíades Athenieſium dux eligi- tia pugnatur",
+    "wer": 33.33333333333333,
+    "cer": 6.382978723404255,
+    "accuracy": 93.61702127659575,
+    "time": 4.5701189041137695,
+    "diffs": [
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "A"
+      ],
+      [
+        0,
+        "lcib"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "ades Athenie"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "ſium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi-  \ntia pugnatur",
+    "wer": 0.0,
+    "cer": 4.25531914893617,
+    "accuracy": 95.91836734693877,
+    "time": 8.936710119247437,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi- "
+      ],
+      [
+        1,
+        " \n"
+      ],
+      [
+        0,
+        "tia pugnatur"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi-     tia pugnatur",
+    "wer": 0.0,
+    "cer": 8.51063829787234,
+    "accuracy": 92.15686274509804,
+    "time": 15.139650106430054,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi-"
+      ],
+      [
+        1,
+        "    "
+      ],
+      [
+        0,
+        " tia pugnatur"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi      tia pugnatur",
+    "wer": 16.666666666666664,
+    "cer": 10.638297872340425,
+    "accuracy": 90.19607843137256,
+    "time": 39.21764397621155,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "     "
+      ],
+      [
+        0,
+        " tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibides Athenienſium dux eligi- tia pugnatur",
+    "wer": 16.666666666666664,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 15.724784851074219,
+    "diffs": [
+      [
+        0,
+        "alcibi"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        0,
+        "des Athenienſium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 57.911295890808105,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.766024827957153,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "mistral-medium-3.1": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligitur   tia pugnatur",
+    "wer": 16.666666666666664,
+    "cer": 10.638297872340425,
+    "accuracy": 90.19607843137256,
+    "time": 1.2759060859680176,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "tur  "
+      ],
+      [
+        0,
+        " tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibisdes Athenienfium dux eligi- tia pugnatur",
+    "wer": 33.33333333333333,
+    "cer": 4.25531914893617,
+    "accuracy": 95.74468085106383,
+    "time": 2.506911039352417,
+    "diffs": [
+      [
+        0,
+        "alcibi"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "des Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "grok-4": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibiades Athenienſium dux eligi: tia pugnat ur",
+    "wer": 50.0,
+    "cer": 4.25531914893617,
+    "accuracy": 95.83333333333334,
+    "time": 62.15088510513306,
+    "diffs": [
+      [
+        0,
+        "alcibiades Athenienſium dux eligi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " tia pugnat"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "ur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibisdes Athenienfium dux eligi: tia pugnatur",
+    "wer": 50.0,
+    "cer": 6.382978723404255,
+    "accuracy": 93.61702127659575,
+    "time": 1.7728090286254883,
+    "diffs": [
+      [
+        0,
+        "alcibi"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "des Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ium dux eligi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " tia pugnatur"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "alcibiades Athenienſium dux eligi- tia pugnatur",
+    "response": "alcibisdes Athenienſium dux eligi- tia pugnatur",
+    "wer": 16.666666666666664,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 4.229694128036499,
+    "diffs": [
+      [
+        0,
+        "alcibi"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "des Athenienſium dux eligi- tia pugnatur"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

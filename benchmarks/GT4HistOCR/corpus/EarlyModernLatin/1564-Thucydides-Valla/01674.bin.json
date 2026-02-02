@@ -1,0 +1,1005 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "rationc uictoriā in libi uindicātes: Corinthiñ quidem, quod ad no°",
+    "wer": 77.77777777777779,
+    "cer": 14.0625,
+    "accuracy": 86.36363636363636,
+    "time": 1.277662992477417,
+    "diffs": [
+      [
+        0,
+        "ration"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " uictori"
+      ],
+      [
+        -1,
+        "am ſ"
+      ],
+      [
+        1,
+        "ā in l"
+      ],
+      [
+        0,
+        "ibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "tes: Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " quidem, quod ad no"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "°"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 8,
+    "insertions": 10
+  },
+  "mistral-small": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam ibi vindicates: Corinthĭ quidem, quod ad no",
+    "wer": 44.44444444444444,
+    "cer": 9.375,
+    "accuracy": 90.625,
+    "time": 1.3568148612976074,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        0,
+        "ibi "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "indic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "tes: Corinth"
+      ],
+      [
+        -1,
+        "ij"
+      ],
+      [
+        1,
+        "ĭ"
+      ],
+      [
+        0,
+        " quidem, quod ad no"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione victoriæm libi vindicātes: Corinthi quidem, quod ad no-",
+    "wer": 44.44444444444444,
+    "cer": 9.375,
+    "accuracy": 90.625,
+    "time": 1.7645337581634521,
+    "diffs": [
+      [
+        0,
+        "ratione "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ictori"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ibi "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "indic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "tes: Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        0,
+        " quidem, quod ad no-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam ſibi uindicatēs: Corinthiī quidem, quod ad no-",
+    "wer": 22.22222222222222,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 2.3421566486358643,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam ſibi uindic"
+      ],
+      [
+        -1,
+        "ãte"
+      ],
+      [
+        1,
+        "atē"
+      ],
+      [
+        0,
+        "s: Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        " quidem, quod ad no-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uiCTORiam libi uindicates: Corinthij quidem,quod ad no-",
+    "wer": 55.55555555555556,
+    "cer": 10.9375,
+    "accuracy": 89.0625,
+    "time": 3.4132778644561768,
+    "diffs": [
+      [
+        0,
+        "ratione ui"
+      ],
+      [
+        -1,
+        "ctor"
+      ],
+      [
+        1,
+        "CTOR"
+      ],
+      [
+        0,
+        "iam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "tes: Corinthij quidem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod ad no-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam ſibi uindicates: Corinthij quidem, quod ad no-",
+    "wer": 11.11111111111111,
+    "cer": 1.5625,
+    "accuracy": 98.4375,
+    "time": 3.9822049140930176,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam ſibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "tes: Corinthij quidem, quod ad no-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.716768026351929,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "rationcuiſtoriam ſibi uindicãtes: Corinthiï quidem, quod ad no-",
+    "wer": 33.33333333333333,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 4.912569761276245,
+    "diffs": [
+      [
+        0,
+        "ration"
+      ],
+      [
+        -1,
+        "e "
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ui"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "toriam ſibi uindicãtes: Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ï"
+      ],
+      [
+        0,
+        " quidem, quod ad no-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gemini-2.5-flash": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "racióne uictoriam fibi uindicātes: Corinthïj quidem, quod ad no´",
+    "wer": 55.55555555555556,
+    "cer": 9.375,
+    "accuracy": 90.625,
+    "time": 12.019789695739746,
+    "diffs": [
+      [
+        0,
+        "ra"
+      ],
+      [
+        -1,
+        "tio"
+      ],
+      [
+        1,
+        "ció"
+      ],
+      [
+        0,
+        "ne uictoriam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "tes: Corinth"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ï"
+      ],
+      [
+        0,
+        "j quidem, quod ad no"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "´"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "o4-mini": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "rationc uictoriam ſibi uindicātes:Corinthij quidem, quod ad no-",
+    "wer": 33.33333333333333,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 28.721812963485718,
+    "diffs": [
+      [
+        0,
+        "ration"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " uictoriam ſibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "tes:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Corinthij quidem, quod ad no-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gemini-2.5-pro": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam ſibi uindicãtes: Corinthij̈ quidem, quod ad noſ",
+    "wer": 22.22222222222222,
+    "cer": 3.125,
+    "accuracy": 96.92307692307692,
+    "time": 88.65503191947937,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam ſibi uindicãtes: Corinthij"
+      ],
+      [
+        1,
+        "̈"
+      ],
+      [
+        0,
+        " quidem, quod ad no"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "rationc uictoriam ſibi uindicāres: Corinthij quidem, quod ad no-",
+    "wer": 22.22222222222222,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 21.16883397102356,
+    "diffs": [
+      [
+        0,
+        "ration"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " uictoriam ſibi uindic"
+      ],
+      [
+        -1,
+        "ãt"
+      ],
+      [
+        1,
+        "ār"
+      ],
+      [
+        0,
+        "es: Corinthij quidem, quod ad no-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam ſibi uindicãtes: Corinthï quidem, quod ad no-",
+    "wer": 11.11111111111111,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 42.71295619010925,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam ſibi uindicãtes: Corinth"
+      ],
+      [
+        -1,
+        "ij"
+      ],
+      [
+        1,
+        "ï"
+      ],
+      [
+        0,
+        " quidem, quod ad no-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "rationc uićtoriam fibi uindicātes: Corinthiǐ quidem,quod ad no-",
+    "wer": 77.77777777777779,
+    "cer": 9.375,
+    "accuracy": 90.625,
+    "time": 15.37061095237732,
+    "diffs": [
+      [
+        0,
+        "ration"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " ui"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ć"
+      ],
+      [
+        0,
+        "toriam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "tes: Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ǐ"
+      ],
+      [
+        0,
+        " quidem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod ad no-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "rationcuiſtoriam ſibi uindicatêſ: Corinthij quidem, quod ad no-",
+    "wer": 33.33333333333333,
+    "cer": 9.375,
+    "accuracy": 90.625,
+    "time": 1.460927963256836,
+    "diffs": [
+      [
+        0,
+        "ration"
+      ],
+      [
+        -1,
+        "e "
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ui"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "toriam ſibi uindic"
+      ],
+      [
+        -1,
+        "ãtes"
+      ],
+      [
+        1,
+        "atêſ"
+      ],
+      [
+        0,
+        ": Corinthij quidem, quod ad no-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam ḿibi uindicātes: Corinthiṉ quidem, quod ad no",
+    "wer": 44.44444444444444,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 2.3165228366851807,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ḿ"
+      ],
+      [
+        0,
+        "ibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "tes: Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ṉ"
+      ],
+      [
+        0,
+        " quidem, quod ad no"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriã ibi uindicãtes: Corinthij quidem,quod ad no-",
+    "wer": 44.44444444444444,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 26.753507137298584,
+    "diffs": [
+      [
+        0,
+        "ratione uictori"
+      ],
+      [
+        -1,
+        "am ſ"
+      ],
+      [
+        1,
+        "ã "
+      ],
+      [
+        0,
+        "ibi uindicãtes: Corinthij quidem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod ad no-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "rationc uic toriaın li bi uindicaãres: Corinthij quidem, quod ad no",
+    "wer": 77.77777777777779,
+    "cer": 14.0625,
+    "accuracy": 88.05970149253731,
+    "time": 3.2588937282562256,
+    "diffs": [
+      [
+        0,
+        "ration"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " uic"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "toria"
+      ],
+      [
+        -1,
+        "m ſi"
+      ],
+      [
+        1,
+        "ın li "
+      ],
+      [
+        0,
+        "bi uindic"
+      ],
+      [
+        -1,
+        "ãt"
+      ],
+      [
+        1,
+        "aãr"
+      ],
+      [
+        0,
+        "es: Corinthij quidem, quod ad no"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 8,
+    "insertions": 11
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ratione uictoriam ſibi uindicãtes: Corinthij quidem, quod ad no-",
+    "response": "ratione uictoriam libi uindicātes:Corinthij quidem,quod ad no-",
+    "wer": 55.55555555555556,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 1.9321677684783936,
+    "diffs": [
+      [
+        0,
+        "ratione uictoriam "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ibi uindic"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "tes:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Corinthij quidem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod ad no-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 4,
+    "insertions": 2
+  }
+}

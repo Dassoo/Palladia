@@ -1,0 +1,670 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfccſt.  Aber wer gelerſt iſt vnd Sie lere mit ge",
+    "wer": 30.0,
+    "cer": 10.638297872340425,
+    "accuracy": 89.79591836734694,
+    "time": 0.9333600997924805,
+    "diffs": [
+      [
+        0,
+        "pf"
+      ],
+      [
+        -1,
+        "ech"
+      ],
+      [
+        1,
+        "ccſ"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        " Aber wer geler"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t iſt vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie lere mit ge"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "spotlight": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht. Aber wer gelert ist vnd die lere mit ge",
+    "wer": 10.0,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 1.3245811462402344,
+    "diffs": [
+      [
+        0,
+        "pfecht. Aber wer gelert i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t vnd die lere mit ge"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfcecht. Aber wer gelert iſt vnd dieſſere mit ge",
+    "wer": 30.0,
+    "cer": 6.382978723404255,
+    "accuracy": 93.75,
+    "time": 1.9227967262268066,
+    "diffs": [
+      [
+        0,
+        "pf"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "echt. Aber wer gelert iſt vnd die"
+      ],
+      [
+        -1,
+        " l"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "ere mit ge"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pſecht. Aber wer gelert iſt vnd die Lere mit ge-",
+    "wer": 30.0,
+    "cer": 6.382978723404255,
+    "accuracy": 93.75,
+    "time": 2.119300127029419,
+    "diffs": [
+      [
+        0,
+        "p"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "echt. Aber wer gelert iſt vnd die "
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "L"
+      ],
+      [
+        0,
+        "ere mit ge"
+      ],
+      [
+        1,
+        "-"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.753124952316284,
+    "diffs": [
+      [
+        0,
+        "pfecht. Aber wer gelert iſt vnd die lere mit ge"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.762732982635498,
+    "diffs": [
+      [
+        0,
+        "pfecht. Aber wer gelert iſt vnd die lere mit ge"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht.Aber wer gelert iſt vnd die lere mit ge",
+    "wer": 20.0,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 1.7106602191925049,
+    "diffs": [
+      [
+        0,
+        "pfecht."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Aber wer gelert iſt vnd die lere mit ge"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "mistral-small": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht. Aber wer geſert iſt vnd ſie leſe mit ge",
+    "wer": 30.0,
+    "cer": 6.382978723404255,
+    "accuracy": 93.61702127659575,
+    "time": 1.4277839660644531,
+    "diffs": [
+      [
+        0,
+        "pfecht. Aber wer ge"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ert iſt vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ie le"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "e mit ge"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pſecht. Aber wer g: lert iſt vnd die lere mit ge",
+    "wer": 30.0,
+    "cer": 6.382978723404255,
+    "accuracy": 93.75,
+    "time": 14.760935068130493,
+    "diffs": [
+      [
+        0,
+        "p"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "echt. Aber wer g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        ": "
+      ],
+      [
+        0,
+        "lert iſt vnd die lere mit ge"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 62.189741134643555,
+    "diffs": [
+      [
+        0,
+        "pfecht. Aber wer gelert iſt vnd die lere mit ge"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfeccht.Aber wer gelert iſt vnd Sie lere mit ge",
+    "wer": 30.0,
+    "cer": 6.382978723404255,
+    "accuracy": 95.74468085106383,
+    "time": 5.631922006607056,
+    "diffs": [
+      [
+        0,
+        "pfec"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ht."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Aber wer gelert iſt vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie lere mit ge"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pſecht. Aber wer gelert iſt vnd Sielere mit tge",
+    "wer": 40.0,
+    "cer": 8.51063829787234,
+    "accuracy": 93.61702127659575,
+    "time": 4.773125886917114,
+    "diffs": [
+      [
+        0,
+        "p"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "echt. Aber wer gelert iſt vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "lere mit "
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "ge"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pflecht. Aber wer gelert iſt und Dieſere mit ge",
+    "wer": 40.0,
+    "cer": 10.638297872340425,
+    "accuracy": 91.48936170212765,
+    "time": 1.589676856994629,
+    "diffs": [
+      [
+        0,
+        "pf"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "echt. Aber wer gelert iſt "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ie"
+      ],
+      [
+        -1,
+        " l"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ere mit ge"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht. Aber wer gelernt istvnd Sie lere mit ge",
+    "wer": 40.0,
+    "cer": 8.51063829787234,
+    "accuracy": 93.61702127659575,
+    "time": 2.9125359058380127,
+    "diffs": [
+      [
+        0,
+        "pfecht. Aber wer geler"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "t i"
+      ],
+      [
+        -1,
+        "ſt "
+      ],
+      [
+        1,
+        "st"
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie lere mit ge"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "cogito-v2-109b": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfccßt. 2tber wer geLert ift vnd Sie Pere mit ge",
+    "wer": 60.0,
+    "cer": 17.02127659574468,
+    "accuracy": 83.33333333333334,
+    "time": 1.6227400302886963,
+    "diffs": [
+      [
+        0,
+        "pf"
+      ],
+      [
+        -1,
+        "ech"
+      ],
+      [
+        1,
+        "ccß"
+      ],
+      [
+        0,
+        "t. "
+      ],
+      [
+        -1,
+        "A"
+      ],
+      [
+        1,
+        "2t"
+      ],
+      [
+        0,
+        "ber wer ge"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "L"
+      ],
+      [
+        0,
+        "ert i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "P"
+      ],
+      [
+        0,
+        "ere mit ge"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "pfecht. Aber wer gelert iſt vnd die lere mit ge",
+    "response": "pfecht. Aber wer gelert ist vnd die lere mit ge",
+    "wer": 10.0,
+    "cer": 2.127659574468085,
+    "accuracy": 97.87234042553192,
+    "time": 2.868391752243042,
+    "diffs": [
+      [
+        0,
+        "pfecht. Aber wer gelert i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t vnd die lere mit ge"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

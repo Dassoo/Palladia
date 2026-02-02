@@ -1,0 +1,725 @@
+{
+  "mistral-small": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capellentes. Quippe uerebantur praefecti, Atheniensium prae-",
+    "wer": 66.66666666666666,
+    "cer": 11.666666666666666,
+    "accuracy": 90.0,
+    "time": 1.2203898429870605,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ll"
+      ],
+      [
+        0,
+        "entes. Quippe uerebantur pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "fecti, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ium pr"
+      ],
+      [
+        -1,
+        "æc"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "e-"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "llama-4-maverick-17b": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur praefecti, Athenienſium præce,",
+    "wer": 33.33333333333333,
+    "cer": 5.0,
+    "accuracy": 95.08196721311475,
+    "time": 1.4931859970092773,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "fecti, Athenienſium præce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur præfecti, Atheniensium præ-",
+    "wer": 33.33333333333333,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 1.554847240447998,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur præfecti, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ium præ"
+      ],
+      [
+        -1,
+        "ce"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capellentes. Quippe uerebantur præfecti, Atheniensium præce-",
+    "wer": 33.33333333333333,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 1.7505640983581543,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ll"
+      ],
+      [
+        0,
+        "entes. Quippe uerebantur præfecti, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ium præce-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.780282974243164,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capesſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "wer": 16.666666666666664,
+    "cer": 1.6666666666666667,
+    "accuracy": 98.33333333333333,
+    "time": 2.740825891494751,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ſentes. Quippe uerebantur præfecti, Athenienſium præce-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capellentes. Quìppe uerebantur præfecti, Athenienſium præce",
+    "wer": 50.0,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 2.751810073852539,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ll"
+      ],
+      [
+        0,
+        "entes. Qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ì"
+      ],
+      [
+        0,
+        "ppe uerebantur præfecti, Athenienſium præce"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.7436628341674805,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.609673976898193,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capellentes. Quippe uerebantur præfecti, Athenienſium præce,",
+    "wer": 33.33333333333333,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 12.976031064987183,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ll"
+      ],
+      [
+        0,
+        "entes. Quippe uerebantur præfecti, Athenienſium præce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 57,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "o4-mini": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uetebantur præfecti, Athenienſſium præce-",
+    "wer": 33.33333333333333,
+    "cer": 3.3333333333333335,
+    "accuracy": 96.72131147540983,
+    "time": 26.316234827041626,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe ue"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "ebantur præfecti, Athenienſ"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ium præce-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur præfecti, Athenienſſum praece-",
+    "wer": 33.33333333333333,
+    "cer": 5.0,
+    "accuracy": 95.08196721311475,
+    "time": 17.433391094207764,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur præfecti, Athenienſ"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "um pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "ce-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce,",
+    "wer": 16.666666666666664,
+    "cer": 1.6666666666666667,
+    "accuracy": 98.33333333333333,
+    "time": 23.228891849517822,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſfientes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "wer": 16.666666666666664,
+    "cer": 3.3333333333333335,
+    "accuracy": 96.72131147540983,
+    "time": 8.923335790634155,
+    "diffs": [
+      [
+        0,
+        "capeſ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "fi"
+      ],
+      [
+        0,
+        "entes. Quippe uerebantur præfecti, Athenienſium præce-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capeſſentes. Quippe uerebantur præfecti, Athenienſium praeceſſe",
+    "wer": 16.666666666666664,
+    "cer": 8.333333333333332,
+    "accuracy": 92.06349206349206,
+    "time": 1.6516351699829102,
+    "diffs": [
+      [
+        0,
+        "capeſſentes. Quippe uerebantur præfecti, Athenienſium pr"
+      ],
+      [
+        -1,
+        "æce-"
+      ],
+      [
+        1,
+        "aeceſſe"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 4,
+    "insertions": 7
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "cape fflentes. Quippe uerebantur præfecti, Athenienfium prace-",
+    "wer": 66.66666666666666,
+    "cer": 10.0,
+    "accuracy": 90.32258064516128,
+    "time": 1.9048070907592773,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        " ffl"
+      ],
+      [
+        0,
+        "entes. Quippe uerebantur præfecti, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ium pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ce-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "grok-4": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capientes. Quippe uerebantur præfecti, Atheniensium præ-",
+    "wer": 50.0,
+    "cer": 10.0,
+    "accuracy": 90.0,
+    "time": 27.193392753601074,
+    "diffs": [
+      [
+        0,
+        "cap"
+      ],
+      [
+        -1,
+        "eſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "entes. Quippe uerebantur præfecti, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ium præ"
+      ],
+      [
+        -1,
+        "ce"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capefflentes· Quippe uerebantur præfecti·Athienfium præce,",
+    "wer": 66.66666666666666,
+    "cer": 16.666666666666664,
+    "accuracy": 85.0,
+    "time": 1.7770791053771973,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffl"
+      ],
+      [
+        0,
+        "entes"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        " Quippe uerebantur præfecti"
+      ],
+      [
+        -1,
+        ", "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "Ath"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        0,
+        "ien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ium præce"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 51,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "capeſſentes. Quippe uerebantur præfecti, Athenienſium præce-",
+    "response": "capellentes. Quippe uerebantur præfecti, Athenienfium præce-",
+    "wer": 33.33333333333333,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 2.300772190093994,
+    "diffs": [
+      [
+        0,
+        "cape"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ll"
+      ],
+      [
+        0,
+        "entes. Quippe uerebantur præfecti, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ium præce-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 3,
+    "insertions": 3
+  }
+}

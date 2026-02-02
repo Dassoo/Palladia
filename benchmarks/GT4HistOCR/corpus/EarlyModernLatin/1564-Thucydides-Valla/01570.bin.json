@@ -1,0 +1,721 @@
+{
+  "mistral-small": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modestiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 10.0,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.3678898811340332,
+    "diffs": [
+      [
+        0,
+        "ſet mode"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tiæ ipſorum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "fet modeſtiæ ipſorum uim aſſerre. Sed fretis diuitijs cùm alia",
+    "wer": 30.0,
+    "cer": 6.557377049180328,
+    "accuracy": 93.54838709677419,
+    "time": 1.384066104888916,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "et modeſtiæ ipſorum uim a"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "erre. Sed freti"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        " diuitijs cùm alia"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modestiæ ipforum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 20.0,
+    "cer": 3.278688524590164,
+    "accuracy": 96.72131147540983,
+    "time": 1.675097942352295,
+    "diffs": [
+      [
+        0,
+        "ſet mode"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tiæ ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "orum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "fet modestiæ ipforum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 30.0,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 1.7434990406036377,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "et mode"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tiæ ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "orum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.7854018211364746,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.498059034347534,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim aſſerre. Sed ſreti diuitijs cum alia",
+    "wer": 30.0,
+    "cer": 6.557377049180328,
+    "accuracy": 93.44262295081968,
+    "time": 3.3294689655303955,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim a"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "erre. Sed "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "reti diuitijs c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m alia"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "fet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 10.0,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 3.8153560161590576,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "et modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim aﬀerre. Sed freti diuitijs cùm alia",
+    "wer": 10.0,
+    "cer": 3.278688524590164,
+    "accuracy": 96.72131147540983,
+    "time": 6.6436169147491455,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim a"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ﬀ"
+      ],
+      [
+        0,
+        "erre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 15.260003805160522,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim afſerre. Sed freti diuitijs cùm alia",
+    "wer": 10.0,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 23.61086893081665,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim af"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "erre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 17.225125789642334,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim affcrre. Sed freti diuitijs cùm alia",
+    "wer": 10.0,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 21.007389783859253,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim aff"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiae iſforum uim afferre. Sed freti diuitijs cum alia",
+    "wer": 30.0,
+    "cer": 8.19672131147541,
+    "accuracy": 93.54838709677419,
+    "time": 10.896206140518188,
+    "diffs": [
+      [
+        0,
+        "ſet modeſti"
+      ],
+      [
+        -1,
+        "æ ipſ"
+      ],
+      [
+        1,
+        "ae iſf"
+      ],
+      [
+        0,
+        "orum uim afferre. Sed freti diuitijs c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m alia"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitiijs cum alia",
+    "wer": 20.0,
+    "cer": 3.278688524590164,
+    "accuracy": 96.7741935483871,
+    "time": 1.3905978202819824,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim afferre. Sed freti diuiti"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "js c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m alia"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "fet modestiæ îpforum uim afferre. Sed freti diuitijs cûm alia",
+    "wer": 40.0,
+    "cer": 8.19672131147541,
+    "accuracy": 91.80327868852459,
+    "time": 2.4095518589019775,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "et mode"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tiæ "
+      ],
+      [
+        -1,
+        "ipſ"
+      ],
+      [
+        1,
+        "îpf"
+      ],
+      [
+        0,
+        "orum uim afferre. Sed freti diuitijs c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "û"
+      ],
+      [
+        0,
+        "m alia"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "grok-4": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtia ipſorum uim aſſerre. Sed freti diuitiijs cum alia",
+    "wer": 40.0,
+    "cer": 8.19672131147541,
+    "accuracy": 91.93548387096774,
+    "time": 175.28606843948364,
+    "diffs": [
+      [
+        0,
+        "ſet modeſti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " ipſorum uim a"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "erre. Sed freti diuiti"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "js c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m alia"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "fet modeftiax ipforum uim affcrrc. Sed freti diuuitijs cum alia",
+    "wer": 60.0,
+    "cer": 14.754098360655737,
+    "accuracy": 85.71428571428571,
+    "time": 1.38969087600708,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "et mode"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ax"
+      ],
+      [
+        0,
+        " ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "orum uim aff"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        ". Sed freti diu"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "itijs c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m alia"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 7,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "response": "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.550755023956299,
+    "diffs": [
+      [
+        0,
+        "ſet modeſtiæ ipſorum uim afferre. Sed freti diuitijs cùm alia"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

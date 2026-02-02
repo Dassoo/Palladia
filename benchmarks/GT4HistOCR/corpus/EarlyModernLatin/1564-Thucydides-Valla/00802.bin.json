@@ -1,0 +1,1013 @@
+{
+  "spotlight": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiscitum fœdera cœterum rupta, faciunt est quatuorde-",
+    "wer": 55.55555555555556,
+    "cer": 19.35483870967742,
+    "accuracy": 81.81818181818183,
+    "time": 1.3231327533721924,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebi"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "citum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera "
+      ],
+      [
+        -1,
+        "eſſe"
+      ],
+      [
+        1,
+        "cœterum"
+      ],
+      [
+        0,
+        " rupta, fac"
+      ],
+      [
+        -1,
+        "tum"
+      ],
+      [
+        1,
+        "iunt"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t quatuorde-"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 10,
+    "insertions": 14
+  },
+  "mistral-small": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiscitum ſedera cſſe nupta, factum eſt quatuorde-",
+    "wer": 44.44444444444444,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 1.4810690879821777,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebi"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "citum ſ"
+      ],
+      [
+        -1,
+        "œ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "dera "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe "
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "upta, factum eſt quatuorde-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebifcitum fœdera cſſe ruptā, factum eſt quatuordecim",
+    "wer": 55.55555555555556,
+    "cer": 11.29032258064516,
+    "accuracy": 89.0625,
+    "time": 1.6143519878387451,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebi"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "citum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe rupt"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        ", factum eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "cim"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebifcìtum fœdera cffe rupta,facìum eſt quatuordecim",
+    "wer": 66.66666666666666,
+    "cer": 17.741935483870968,
+    "accuracy": 84.12698412698413,
+    "time": 1.9198799133300781,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebi"
+      ],
+      [
+        -1,
+        "ſci"
+      ],
+      [
+        1,
+        "fcì"
+      ],
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera "
+      ],
+      [
+        -1,
+        "eſſ"
+      ],
+      [
+        1,
+        "cff"
+      ],
+      [
+        0,
+        "e rupta,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "fac"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ì"
+      ],
+      [
+        0,
+        "um eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "cim"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 10,
+    "insertions": 11
+  },
+  "gpt-4.1": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum foedera eſſe rupta, factum eſt quatuorde-",
+    "wer": 11.11111111111111,
+    "cer": 4.838709677419355,
+    "accuracy": 95.23809523809523,
+    "time": 2.0764076709747314,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſœ"
+      ],
+      [
+        1,
+        "foe"
+      ],
+      [
+        0,
+        "dera eſſe rupta, factum eſt quatuorde-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuorde-",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 2.2590951919555664,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera eſſe rupta, factum eſt quatuorde-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuorde.",
+    "wer": 22.22222222222222,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 3.956023931503296,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera eſſe rupta, factum eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuordecimo",
+    "wer": 22.22222222222222,
+    "cer": 8.064516129032258,
+    "accuracy": 92.3076923076923,
+    "time": 4.060302019119263,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera eſſe rupta, factum eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "cimo"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuordecim",
+    "wer": 22.22222222222222,
+    "cer": 6.451612903225806,
+    "accuracy": 93.75,
+    "time": 4.286198139190674,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera eſſe rupta, factum eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "cim"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum ſœdera eſſe noſtra, factum eſt quauuorde",
+    "wer": 22.22222222222222,
+    "cer": 9.67741935483871,
+    "accuracy": 91.93548387096774,
+    "time": 41.35619783401489,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum ſœdera eſſe "
+      ],
+      [
+        -1,
+        "rupt"
+      ],
+      [
+        1,
+        "noſtr"
+      ],
+      [
+        0,
+        "a, factum eſt qua"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "uorde"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gemini-2.5-pro": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuordecim.",
+    "wer": 22.22222222222222,
+    "cer": 8.064516129032258,
+    "accuracy": 92.3076923076923,
+    "time": 58.157089948654175,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera eſſe rupta, factum eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "cim."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum ſcordera eſſe nipra, factum eſt quauuorde",
+    "wer": 33.33333333333333,
+    "cer": 12.903225806451612,
+    "accuracy": 88.88888888888889,
+    "time": 20.43808102607727,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum ſ"
+      ],
+      [
+        -1,
+        "œ"
+      ],
+      [
+        1,
+        "cor"
+      ],
+      [
+        0,
+        "dera eſſe "
+      ],
+      [
+        -1,
+        "rupt"
+      ],
+      [
+        1,
+        "nipr"
+      ],
+      [
+        0,
+        "a, factum eſt qua"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "uorde"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "gpt-5": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum fœdera eſſe rupta, factum eſt quatuorde,",
+    "wer": 22.22222222222222,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 36.34196186065674,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera eſſe rupta, factum eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitarum foedera eſſe rupta, fačtum eſt quatuorde-",
+    "wer": 33.33333333333333,
+    "cer": 9.67741935483871,
+    "accuracy": 90.76923076923077,
+    "time": 4.390695810317993,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcit"
+      ],
+      [
+        1,
+        "ar"
+      ],
+      [
+        0,
+        "um "
+      ],
+      [
+        -1,
+        "ſœ"
+      ],
+      [
+        1,
+        "foe"
+      ],
+      [
+        0,
+        "dera eſſe rupta, fa"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "č"
+      ],
+      [
+        0,
+        "tum eſt quatuorde-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum foedera eſc rupta, facium eſt quatuordeſ",
+    "wer": 44.44444444444444,
+    "cer": 11.29032258064516,
+    "accuracy": 90.32258064516128,
+    "time": 1.518254041671753,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſœ"
+      ],
+      [
+        1,
+        "foe"
+      ],
+      [
+        0,
+        "dera eſ"
+      ],
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " rupta, fac"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "um eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebisficitum fœdera ſte ruipa, faſtum eſt quatuorde-",
+    "wer": 55.55555555555556,
+    "cer": 14.516129032258066,
+    "accuracy": 88.88888888888889,
+    "time": 2.010394811630249,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebi"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "sfi"
+      ],
+      [
+        0,
+        "citum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera "
+      ],
+      [
+        -1,
+        "eſ"
+      ],
+      [
+        0,
+        "ſ"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "e ru"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "p"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "a, fa"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "tum eſt quatuorde-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "grok-4": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebiſcitum fœdera eſſe rupta,faſtum eſt quatuorde-",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 52.05749177932739,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebiſcitum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera eſſe rupta,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "fa"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "tum eſt quatuorde-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebifcirum foedera clſſe rupta, factum eſt quatuorde...",
+    "wer": 44.44444444444444,
+    "cer": 16.129032258064516,
+    "accuracy": 84.84848484848484,
+    "time": 1.542201042175293,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebi"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ci"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "um "
+      ],
+      [
+        -1,
+        "ſœ"
+      ],
+      [
+        1,
+        "foe"
+      ],
+      [
+        0,
+        "dera "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "cl"
+      ],
+      [
+        0,
+        "ſſe rupta, factum eſt quatuorde"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "..."
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 10
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Hoc autem plebiſcitum ſœdera eſſe rupta, factum eſt quatuorde-",
+    "response": "Hoc autem plebificitum fœdera effe rupta, factum eſt quatuorde-",
+    "wer": 33.33333333333333,
+    "cer": 8.064516129032258,
+    "accuracy": 92.06349206349206,
+    "time": 2.3912911415100098,
+    "diffs": [
+      [
+        0,
+        "Hoc autem plebi"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "fi"
+      ],
+      [
+        0,
+        "citum "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "œdera e"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "e rupta, factum eſt quatuorde-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 5
+  }
+}

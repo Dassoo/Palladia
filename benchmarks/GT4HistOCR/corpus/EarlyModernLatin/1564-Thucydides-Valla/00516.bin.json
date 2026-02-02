@@ -1,0 +1,1305 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cſſe manifeltifsimis fignis ita ſe ueter a habuifſe. Et licet homi. 40.",
+    "wer": 66.66666666666666,
+    "cer": 10.95890410958904,
+    "accuracy": 89.33333333333333,
+    "time": 1.192255973815918,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "simis "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignis ita ſe ueter"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "a habui"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ſe. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 67,
+    "deletions": 6,
+    "insertions": 8
+  },
+  "mistral-small": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum ſſe manifestiffimis ſignis ita ſe vetera habuiffe. Et licet homi: 40.",
+    "wer": 50.0,
+    "cer": 12.32876712328767,
+    "accuracy": 89.04109589041096,
+    "time": 1.3224999904632568,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "ſſe manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "ſs"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "etera habui"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "e. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 65,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "spotlight": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cſſe manifestiffimis ſignis ita ſe uetera habuiffe. Et licet homi, 40.",
+    "wer": 41.66666666666667,
+    "cer": 10.95890410958904,
+    "accuracy": 89.1891891891892,
+    "time": 1.4259519577026367,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "ſs"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe uetera habui"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "e. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 66,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "gpt-4o": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifeſtiſsimis ſignis ita ſeuetera habuiſſe. Et licet homi⁎ 4o⁎",
+    "wer": 33.33333333333333,
+    "cer": 5.47945205479452,
+    "accuracy": 95.8904109589041,
+    "time": 1.8463809490203857,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manifeſtiſsimis ſignis ita ſe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uetera habuiſſe. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "⁎"
+      ],
+      [
+        0,
+        " 4"
+      ],
+      [
+        -1,
+        "0"
+      ],
+      [
+        1,
+        "o⁎"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifesſiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi. 40.",
+    "wer": 25.0,
+    "cer": 5.47945205479452,
+    "accuracy": 95.94594594594594,
+    "time": 1.850924015045166,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manife"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "iſsimis ſignis ita ſe uetera habuiſſe. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 71,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cſſe manifestiſſimis ſignis ita ſe vetera habuiſſe.Et licet homi· 40·",
+    "wer": 58.333333333333336,
+    "cer": 9.58904109589041,
+    "accuracy": 91.78082191780823,
+    "time": 2.1353001594543457,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "etera habuiſſe."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifeſtiſſimis ſignis ita ſe uetera habuiſſe.Et licet homi- 4°.",
+    "wer": 33.33333333333333,
+    "cer": 5.47945205479452,
+    "accuracy": 95.8904109589041,
+    "time": 3.682476043701172,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manifeſtiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe uetera habuiſſe."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et licet homi- 4"
+      ],
+      [
+        -1,
+        "0"
+      ],
+      [
+        1,
+        "°."
+      ]
+    ],
+    "matches": 70,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi-",
+    "wer": 8.333333333333332,
+    "cer": 4.10958904109589,
+    "accuracy": 95.8904109589041,
+    "time": 4.151652812957764,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi-"
+      ],
+      [
+        -1,
+        " 40"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 3,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifestiſſimis ſignis ita ſe uetera habuiffe. Et licet homi· 4°.",
+    "wer": 33.33333333333333,
+    "cer": 9.58904109589041,
+    "accuracy": 90.54054054054053,
+    "time": 7.852725982666016,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe uetera habui"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "e. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        " 4"
+      ],
+      [
+        -1,
+        "0"
+      ],
+      [
+        1,
+        "°."
+      ]
+    ],
+    "matches": 67,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "gemini-2.5-flash": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cſſe manifeſtifsimis ſignis ita ſe uetera habuiſſe. Et licet homi. 40.",
+    "wer": 33.33333333333333,
+    "cer": 5.47945205479452,
+    "accuracy": 94.5945945945946,
+    "time": 8.487167119979858,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe manifeſti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "simis ſignis ita ſe uetera habuiſſe. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 70,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifeſtiſſimis ſignis ita ſe uetera habuiſſe. Et licet homi, 40.",
+    "wer": 25.0,
+    "cer": 4.10958904109589,
+    "accuracy": 95.94594594594594,
+    "time": 16.03812313079834,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manifeſtiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe uetera habuiſſe. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 71,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifestiſſimis ſignis ita ſe uetera habuiſſe. Et licet homi· 40·",
+    "wer": 25.0,
+    "cer": 5.47945205479452,
+    "accuracy": 94.5945945945946,
+    "time": 16.305341958999634,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe uetera habuiſſe. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe.Et licet homi, 4ᵒ",
+    "wer": 33.33333333333333,
+    "cer": 4.10958904109589,
+    "accuracy": 95.8904109589041,
+    "time": 83.19970488548279,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " 4"
+      ],
+      [
+        -1,
+        "0"
+      ],
+      [
+        1,
+        "ᵒ"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cffe manifestifsimis fignis ita fe uetera habuiffe.Et licethomi 40",
+    "wer": 66.66666666666666,
+    "cer": 16.43835616438356,
+    "accuracy": 83.56164383561644,
+    "time": 13.249737977981567,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "eſſ"
+      ],
+      [
+        1,
+        "cff"
+      ],
+      [
+        0,
+        "e manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "simis "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignis ita "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e uetera habui"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "e."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et licet"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        0,
+        " 40"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 12,
+    "insertions": 9
+  },
+  "mistral-medium-3.1": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cſſe manifſtiſſimis ſignis ita fe uetera habuiſſe. Et licet homi. 40.",
+    "wer": 41.66666666666667,
+    "cer": 8.21917808219178,
+    "accuracy": 93.15068493150685,
+    "time": 1.7027688026428223,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe manif"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "ſtiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e uetera habuiſſe. Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 68,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum ċffe manifestiṡimiś ṡigniś ιta ċe uetera habuiṡe. Et ılıce homi⁊ 40⁰",
+    "wer": 75.0,
+    "cer": 24.65753424657534,
+    "accuracy": 78.08219178082192,
+    "time": 2.234302043914795,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "eſſ"
+      ],
+      [
+        1,
+        "ċff"
+      ],
+      [
+        0,
+        "e manife"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "ſs"
+      ],
+      [
+        1,
+        "ṡ"
+      ],
+      [
+        0,
+        "imi"
+      ],
+      [
+        -1,
+        "s ſ"
+      ],
+      [
+        1,
+        "ś ṡ"
+      ],
+      [
+        0,
+        "igni"
+      ],
+      [
+        -1,
+        "s i"
+      ],
+      [
+        1,
+        "ś ι"
+      ],
+      [
+        0,
+        "ta "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ċ"
+      ],
+      [
+        0,
+        "e uetera habui"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ṡ"
+      ],
+      [
+        0,
+        "e. Et "
+      ],
+      [
+        -1,
+        "li"
+      ],
+      [
+        1,
+        "ılı"
+      ],
+      [
+        0,
+        "ce"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        " homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "⁊"
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "⁰"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 19,
+    "insertions": 18
+  },
+  "grok-4": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum eſſe manifeſtiſſimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "wer": 8.333333333333332,
+    "cer": 1.36986301369863,
+    "accuracy": 98.63013698630137,
+    "time": 105.35028409957886,
+    "diffs": [
+      [
+        0,
+        "tum eſſe manifeſtiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita ſe uetera habuiſſe. Et licet homi- 40"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cſſe manifeſtiſſimis ſignis ita fe ueſera habuiſſe. Et lice thomi. 40.",
+    "wer": 58.333333333333336,
+    "cer": 10.95890410958904,
+    "accuracy": 90.54054054054053,
+    "time": 1.655447006225586,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe manifeſtiſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "imis ſignis ita "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e ue"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "era habuiſſe. Et lice"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 67,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tum eſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe. Et licet homi- 40",
+    "response": "tum cſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe.Et licet homi· 40·",
+    "wer": 41.66666666666667,
+    "cer": 5.47945205479452,
+    "accuracy": 95.8904109589041,
+    "time": 2.5236291885375977,
+    "diffs": [
+      [
+        0,
+        "tum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ſſe manifeſtiſsimis ſignis ita ſe uetera habuiſſe."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Et licet homi"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        " 40"
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 3,
+    "insertions": 3
+  }
+}

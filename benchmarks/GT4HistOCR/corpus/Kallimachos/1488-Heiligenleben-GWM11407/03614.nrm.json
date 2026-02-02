@@ -1,0 +1,1170 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "Γv. vnd Salycn Das groß wunder. Da fpzach Der",
+    "wer": 66.66666666666666,
+    "cer": 25.0,
+    "accuracy": 75.55555555555556,
+    "time": 1.4282689094543457,
+    "diffs": [
+      [
+        -1,
+        "ſy"
+      ],
+      [
+        1,
+        "Γv"
+      ],
+      [
+        0,
+        ". vnd "
+      ],
+      [
+        -1,
+        "ſahe"
+      ],
+      [
+        1,
+        "Salyc"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as groß wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "fpz"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 12,
+    "insertions": 13
+  },
+  "spotlight": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "sy.vnd sachen das groß rounder. Da sprach Jer",
+    "wer": 77.77777777777779,
+    "cer": 22.727272727272727,
+    "accuracy": 80.0,
+    "time": 3.1799209117889404,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "y."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "ſa"
+      ],
+      [
+        1,
+        "sac"
+      ],
+      [
+        0,
+        "hen das groß "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "ro"
+      ],
+      [
+        0,
+        "under. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "er"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 10,
+    "insertions": 11
+  },
+  "gpt-4.1": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſy. vnd ſahen das greſſwunder. Da ſprach der",
+    "wer": 44.44444444444444,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 3.1796867847442627,
+    "diffs": [
+      [
+        0,
+        "ſy. vnd ſahen das gr"
+      ],
+      [
+        -1,
+        "oß "
+      ],
+      [
+        1,
+        "eſſ"
+      ],
+      [
+        0,
+        "wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſi. vnd ſahen das groſe runder. Da ſprach der",
+    "wer": 55.55555555555556,
+    "cer": 13.636363636363635,
+    "accuracy": 86.66666666666667,
+    "time": 2.722822904586792,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        ". vnd ſahen das gro"
+      ],
+      [
+        -1,
+        "ß w"
+      ],
+      [
+        1,
+        "ſe r"
+      ],
+      [
+        0,
+        "under. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "claude-4-sonnet": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſy.vnd ſahen das groß wunder. Da ſprach der",
+    "wer": 44.44444444444444,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.18181818181817,
+    "time": 3.7176969051361084,
+    "diffs": [
+      [
+        0,
+        "ſy."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd ſahen das groß wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "mistral-small": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſo vond faſſen das grof wunder. Da ſprach Jer.",
+    "wer": 77.77777777777779,
+    "cer": 25.0,
+    "accuracy": 78.26086956521739,
+    "time": 1.7230918407440186,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "y."
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "ſah"
+      ],
+      [
+        1,
+        "faſſ"
+      ],
+      [
+        0,
+        "en das gro"
+      ],
+      [
+        -1,
+        "ß"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        " wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "er"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 35,
+    "deletions": 9,
+    "insertions": 11
+  },
+  "claude-4-opus": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſy.vnd ſahen das groſs wunder. da ſprach der",
+    "wer": 44.44444444444444,
+    "cer": 9.090909090909092,
+    "accuracy": 93.18181818181817,
+    "time": 4.472929954528809,
+    "diffs": [
+      [
+        0,
+        "ſy."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd ſahen das gro"
+      ],
+      [
+        -1,
+        "ß"
+      ],
+      [
+        1,
+        "ſs"
+      ],
+      [
+        0,
+        " wunder. da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "sy.vnd ſahen das groſz rounder.Da ſprach der",
+    "wer": 66.66666666666666,
+    "cer": 20.454545454545457,
+    "accuracy": 84.0909090909091,
+    "time": 2.004187822341919,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "y."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd ſahen das gro"
+      ],
+      [
+        -1,
+        "ß w"
+      ],
+      [
+        1,
+        "ſz ro"
+      ],
+      [
+        0,
+        "under."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gpt-5-mini": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſo. vnd ſahen das groſz Wunder. da ſprach der",
+    "wer": 44.44444444444444,
+    "cer": 11.363636363636363,
+    "accuracy": 88.88888888888889,
+    "time": 19.63423204421997,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        ". vnd ſahen das gro"
+      ],
+      [
+        -1,
+        "ß w"
+      ],
+      [
+        1,
+        "ſz W"
+      ],
+      [
+        0,
+        "under. da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſy. vnd ſahen das groß wunder. Da ſprach der",
+    "wer": 22.22222222222222,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 42.531431913375854,
+    "diffs": [
+      [
+        0,
+        "ſy. vnd ſahen das groß wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "Iv.ond fahen Das grop rounder. Da fpzach Der",
+    "wer": 100.0,
+    "cer": 29.545454545454547,
+    "accuracy": 72.72727272727273,
+    "time": 13.512163877487183,
+    "diffs": [
+      [
+        -1,
+        "ſy. v"
+      ],
+      [
+        1,
+        "Iv.o"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ahen "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as gro"
+      ],
+      [
+        -1,
+        "ß w"
+      ],
+      [
+        1,
+        "p ro"
+      ],
+      [
+        0,
+        "under. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "fpz"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er"
+      ]
+    ],
+    "matches": 29,
+    "deletions": 15,
+    "insertions": 15
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſo. vnd ſahen Das groß wunder. Da ſprach der",
+    "wer": 44.44444444444444,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 11.586232900619507,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        ". vnd ſahen "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as groß wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſy. und ſaſen Daſ groſſ wunder. Da ſprach Ser",
+    "wer": 77.77777777777779,
+    "cer": 20.454545454545457,
+    "accuracy": 80.0,
+    "time": 1.5650238990783691,
+    "diffs": [
+      [
+        0,
+        "ſy. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd ſa"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "das"
+      ],
+      [
+        1,
+        "Daſ"
+      ],
+      [
+        0,
+        " gro"
+      ],
+      [
+        -1,
+        "ß"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        " wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "er"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 9,
+    "insertions": 10
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "sy.vnd SAſhen VAs groſs wunder. VAsprach Ver",
+    "wer": 88.88888888888889,
+    "cer": 34.090909090909086,
+    "accuracy": 72.72727272727273,
+    "time": 2.705578088760376,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "y."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        1,
+        "SA"
+      ],
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        0,
+        "hen "
+      ],
+      [
+        -1,
+        "da"
+      ],
+      [
+        1,
+        "VA"
+      ],
+      [
+        0,
+        "s gro"
+      ],
+      [
+        -1,
+        "ß"
+      ],
+      [
+        1,
+        "ſs"
+      ],
+      [
+        0,
+        " wunder. "
+      ],
+      [
+        -1,
+        "da ſpꝛ"
+      ],
+      [
+        1,
+        "VAspr"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "V"
+      ],
+      [
+        0,
+        "er"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 13,
+    "insertions": 13
+  },
+  "cogito-v2-109b": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "Fy.ond Faben Das groß munder. Ja [prach Der",
+    "wer": 88.88888888888889,
+    "cer": 25.0,
+    "accuracy": 75.0,
+    "time": 3.248936891555786,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "y."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "ſah"
+      ],
+      [
+        1,
+        "Fab"
+      ],
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as groß "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "under. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "[pr"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 13,
+    "insertions": 12
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſy. vnd ſahen das groß wunder. da ſpꝛach der",
+    "response": "ſy. vnd ſahen das groß wunder. Da ſprach der",
+    "wer": 22.22222222222222,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 2.234434127807617,
+    "diffs": [
+      [
+        0,
+        "ſy. vnd ſahen das groß wunder. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach der"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

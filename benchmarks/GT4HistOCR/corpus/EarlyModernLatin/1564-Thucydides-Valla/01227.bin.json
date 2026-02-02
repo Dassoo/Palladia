@@ -1,0 +1,701 @@
+{
+  "spotlight": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meain magis ne bellum liberis nostris relinquamus.Neque cre,",
+    "wer": 55.55555555555556,
+    "cer": 8.333333333333332,
+    "accuracy": 93.33333333333333,
+    "time": 1.2300238609313965,
+    "diffs": [
+      [
+        0,
+        "mea"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " magis ne bellum liberis no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tris relinquamus."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 56,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-small": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "mean magis ne bellum liberis nostris relinquamus. Neque cre-",
+    "wer": 22.22222222222222,
+    "cer": 3.3333333333333335,
+    "accuracy": 96.66666666666667,
+    "time": 1.2421200275421143,
+    "diffs": [
+      [
+        0,
+        "mea"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " magis ne bellum liberis no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tris relinquamus. Neque cre-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "llama-4-maverick-17b": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meain magis ne bellum liberis noſtris relinquamus. Neque cre,",
+    "wer": 22.22222222222222,
+    "cer": 5.0,
+    "accuracy": 95.08196721311475,
+    "time": 1.2314801216125488,
+    "diffs": [
+      [
+        0,
+        "mea"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " magis ne bellum liberis noſtris relinquamus. Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meain magis ne bellum liberis nostris relinquamus.Neque cre-",
+    "wer": 44.44444444444444,
+    "cer": 6.666666666666667,
+    "accuracy": 95.0,
+    "time": 1.6110050678253174,
+    "diffs": [
+      [
+        0,
+        "mea"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " magis ne bellum liberis no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tris relinquamus."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Neque cre-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noſtris relinquamus. Neque cre,",
+    "wer": 11.11111111111111,
+    "cer": 1.6666666666666667,
+    "accuracy": 98.33333333333333,
+    "time": 1.637092113494873,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis noſtris relinquamus. Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noſtris relinquamus.⁊ Neque cre-",
+    "wer": 11.11111111111111,
+    "cer": 1.6666666666666667,
+    "accuracy": 98.36065573770492,
+    "time": 1.9212000370025635,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis noſtris relinquamus."
+      ],
+      [
+        1,
+        "⁊"
+      ],
+      [
+        0,
+        " Neque cre-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magiſ ne bellum liberis noſtris relinquamus. Neque cre",
+    "wer": 22.22222222222222,
+    "cer": 3.3333333333333335,
+    "accuracy": 96.66666666666667,
+    "time": 2.098396062850952,
+    "diffs": [
+      [
+        0,
+        "meam magi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ne bellum liberis noſtris relinquamus. Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noſtris relinquamus.Neque cre-",
+    "wer": 22.22222222222222,
+    "cer": 1.6666666666666667,
+    "accuracy": 98.33333333333333,
+    "time": 3.2445521354675293,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis noſtris relinquamus."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Neque cre-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.714926242828369,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis noſtris relinquamus. Neque cre-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis nostris relinquamus. Neque cre",
+    "wer": 22.22222222222222,
+    "cer": 3.3333333333333335,
+    "accuracy": 96.66666666666667,
+    "time": 15.757997035980225,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tris relinquamus. Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magís ne bellum liberis noſtrís relinquamus. Neque cre,",
+    "wer": 33.33333333333333,
+    "cer": 5.0,
+    "accuracy": 95.16129032258065,
+    "time": 29.815095901489258,
+    "diffs": [
+      [
+        0,
+        "meam magi"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        "s ne bellum liberis noſtri"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        "s relinquamus. Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magiſ ne bellum liberiſ noſtriſ relinquamuſ.Neque cre",
+    "wer": 66.66666666666666,
+    "cer": 10.0,
+    "accuracy": 90.0,
+    "time": 22.947508811950684,
+    "diffs": [
+      [
+        0,
+        "meam magi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ne bellum liberi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " noſtri"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " relinquamu"
+      ],
+      [
+        -1,
+        "s. "
+      ],
+      [
+        1,
+        "ſ."
+      ],
+      [
+        0,
+        "Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noſtris relinquamus.Neque cre,",
+    "wer": 33.33333333333333,
+    "cer": 3.3333333333333335,
+    "accuracy": 96.66666666666667,
+    "time": 26.537763833999634,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis noſtris relinquamus."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noftris reclinquamus.Neque cre",
+    "wer": 44.44444444444444,
+    "cer": 6.666666666666667,
+    "accuracy": 95.0,
+    "time": 7.911998987197876,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tris re"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "linquamus."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.3256688117980957,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis noſtris relinquamus. Neque cre-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis noftris relinquamus. Neque cre-",
+    "wer": 11.11111111111111,
+    "cer": 1.6666666666666667,
+    "accuracy": 98.33333333333333,
+    "time": 1.7138848304748535,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tris relinquamus. Neque cre-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "grok-4": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "eam magis ne bellum liberis noſtris relinquamus.Neque cream magis ne bellum liberis noſtris relinquamus.Neque cre<",
+    "wer": 100.0,
+    "cer": 95.0,
+    "accuracy": 50.877192982456144,
+    "time": 164.65013718605042,
+    "diffs": [
+      [
+        -1,
+        "m"
+      ],
+      [
+        0,
+        "eam magis ne bellum liberis noſtris relinquamus."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "Neque cream magis ne bellum liberis noſtris relinquamus."
+      ],
+      [
+        0,
+        "Neque cre"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "<"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 3,
+    "insertions": 57
+  },
+  "cogito-v2-109b": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meain magis ne bellum liberis noſtris reļinquamus. Neque cre-",
+    "wer": 22.22222222222222,
+    "cer": 5.0,
+    "accuracy": 95.08196721311475,
+    "time": 2.4262490272521973,
+    "diffs": [
+      [
+        0,
+        "mea"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " magis ne bellum liberis noſtris re"
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "ļ"
+      ],
+      [
+        0,
+        "inquamus. Neque cre-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "meam magis ne bellum liberis noſtris relinquamus. Neque cre-",
+    "response": "meam magis ne bellum liberis nostris relinquamus.Neque cre-",
+    "wer": 33.33333333333333,
+    "cer": 3.3333333333333335,
+    "accuracy": 96.66666666666667,
+    "time": 2.97816801071167,
+    "diffs": [
+      [
+        0,
+        "meam magis ne bellum liberis no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tris relinquamus."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Neque cre-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 2,
+    "insertions": 1
+  }
+}

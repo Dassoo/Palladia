@@ -1,0 +1,1372 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ui diligentiffimi conſpexere grāmatic: pro q̈ Claudius Cæſar apud nos antiquig:ria",
+    "wer": 45.45454545454545,
+    "cer": 15.384615384615385,
+    "accuracy": 85.36585365853658,
+    "time": 1.6458020210266113,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffi"
+      ],
+      [
+        0,
+        "mi conſpexere gr"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "matic"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̈"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos anti"
+      ],
+      [
+        -1,
+        "ſigm"
+      ],
+      [
+        1,
+        "quig:ri"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 14
+  },
+  "spotlight": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentissimi conspexere gramicid: pro q Claudius Cæsar apud nos antifigna",
+    "wer": 54.54545454545454,
+    "cer": 15.384615384615385,
+    "accuracy": 88.46153846153845,
+    "time": 1.7292258739471436,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ssi"
+      ],
+      [
+        0,
+        "mi con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pexere gram"
+      ],
+      [
+        -1,
+        "at"
+      ],
+      [
+        0,
+        "ici"
+      ],
+      [
+        1,
+        "d:"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        0,
+        " Claudius Cæ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ar apud nos anti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ig"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "gpt-4.1": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiffimi conſpexere gramatici: pro q̃ Claudius Cæſar apud nos antſigna",
+    "wer": 36.36363636363637,
+    "cer": 8.974358974358974,
+    "accuracy": 92.40506329113924,
+    "time": 1.776003122329712,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffi"
+      ],
+      [
+        0,
+        "mi conſpexere gramatici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos ant"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "ſig"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiffimi confpexere gramatici: pro q Claudius Cæfar apud nos antifigna",
+    "wer": 54.54545454545454,
+    "cer": 11.538461538461538,
+    "accuracy": 89.87341772151899,
+    "time": 1.9973218441009521,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffi"
+      ],
+      [
+        0,
+        "mi con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pexere gramatici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        0,
+        " Claudius Cæ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ar apud nos anti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ig"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "gpt-4o": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiffimi conſpexere grāmatici ꝓq; Claudius Cæſar apud nos antiſigna",
+    "wer": 45.45454545454545,
+    "cer": 12.82051282051282,
+    "accuracy": 88.46153846153845,
+    "time": 2.620657205581665,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffi"
+      ],
+      [
+        0,
+        "mi conſpexere gr"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "matici "
+      ],
+      [
+        -1,
+        "pro qᷓ"
+      ],
+      [
+        1,
+        "ꝓq;"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos antiſig"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiſſimi conſpexere gramatici: pro q̃ Claudius Cæſar apud nos antiſigma",
+    "wer": 27.27272727272727,
+    "cer": 3.8461538461538463,
+    "accuracy": 96.25,
+    "time": 4.056873083114624,
+    "diffs": [
+      [
+        0,
+        "ut diligentiſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi conſpexere gramatici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos antiſigma"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 1,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiſſimi conſpexere grãmatici, pro q̃ Claudius Cæſar apud nos antiſigma",
+    "wer": 27.27272727272727,
+    "cer": 5.128205128205128,
+    "accuracy": 95.0,
+    "time": 4.4852049350738525,
+    "diffs": [
+      [
+        0,
+        "ut diligentiſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi conſpexere gr"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ã"
+      ],
+      [
+        0,
+        "matici"
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos antiſigma"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 2,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiffimi conſpexere grammatici:ꝓ q̈ Claudius Cæſar apud nos antiqua",
+    "wer": 45.45454545454545,
+    "cer": 16.666666666666664,
+    "accuracy": 85.8974358974359,
+    "time": 5.705933094024658,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffi"
+      ],
+      [
+        0,
+        "mi conſpexere gram"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "atici"
+      ],
+      [
+        -1,
+        " pro"
+      ],
+      [
+        1,
+        ":ꝓ"
+      ],
+      [
+        0,
+        " q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̈"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos anti"
+      ],
+      [
+        -1,
+        "ſigm"
+      ],
+      [
+        1,
+        "qu"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "mistral-small": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentissimi conſpexere gramatici: pro q̃ Claudius Cæſar apud nos antiqua",
+    "wer": 36.36363636363637,
+    "cer": 11.538461538461538,
+    "accuracy": 91.02564102564102,
+    "time": 6.9892919063568115,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ssi"
+      ],
+      [
+        0,
+        "mi conſpexere gramatici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos anti"
+      ],
+      [
+        -1,
+        "ſigm"
+      ],
+      [
+        1,
+        "qu"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "o4-mini": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiſſimi conſpexere grāmatici: pro q̃ Claudius Cæsar apud nos antiſignam",
+    "wer": 45.45454545454545,
+    "cer": 8.974358974358974,
+    "accuracy": 91.46341463414635,
+    "time": 16.5844988822937,
+    "diffs": [
+      [
+        0,
+        "ut diligentiſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi conſpexere gra"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        "matici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ar apud nos antiſig"
+      ],
+      [
+        1,
+        "na"
+      ],
+      [
+        0,
+        "m"
+      ],
+      [
+        -1,
+        "a"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 3,
+    "insertions": 7
+  },
+  "gemini-2.5-pro": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiſſimi conſpexere gramatici: pro q̈ Claudius Cæſar apud nos antiq̇na",
+    "wer": 36.36363636363637,
+    "cer": 8.974358974358974,
+    "accuracy": 92.40506329113924,
+    "time": 65.37071800231934,
+    "diffs": [
+      [
+        0,
+        "ut diligentiſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi conſpexere gramatici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̈"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos anti"
+      ],
+      [
+        -1,
+        "ſigm"
+      ],
+      [
+        1,
+        "q̇n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "utdiligentiſſimi conſpectore gramatici: pro q̃ Claudius Cæſar apud nos antiſig:",
+    "wer": 54.54545454545454,
+    "cer": 11.538461538461538,
+    "accuracy": 91.13924050632912,
+    "time": 29.76222515106201,
+    "diffs": [
+      [
+        0,
+        "ut"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "diligentiſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi conſpe"
+      ],
+      [
+        -1,
+        "xe"
+      ],
+      [
+        1,
+        "cto"
+      ],
+      [
+        0,
+        "re gramatici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos antiſig"
+      ],
+      [
+        -1,
+        "ma"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "gpt-5": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiſſimi conſpexere gramatici: ꝓ q̃ Claudius Cæſar apud nos antiſigna",
+    "wer": 45.45454545454545,
+    "cer": 8.974358974358974,
+    "accuracy": 93.58974358974359,
+    "time": 48.54143309593201,
+    "diffs": [
+      [
+        0,
+        "ut diligentiſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi conſpexere gramatici"
+      ],
+      [
+        -1,
+        " pro"
+      ],
+      [
+        1,
+        ": ꝓ"
+      ],
+      [
+        0,
+        " q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæſar apud nos antiſig"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "glm-4.5v": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiffimi confpexere grammatici; pro q Claudius Cæfar apud nos antifig·ma",
+    "wer": 54.54545454545454,
+    "cer": 12.82051282051282,
+    "accuracy": 88.88888888888889,
+    "time": 4.666434049606323,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffi"
+      ],
+      [
+        0,
+        "mi con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pexere gram"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "atici"
+      ],
+      [
+        1,
+        ";"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        0,
+        " Claudius Cæ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ar apud nos anti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ig"
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "ma"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 9
+  },
+  "mistral-medium-3.1": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentißimi conſpexere grammatici: pro q Claudius Ceſar apud nos antiſigna",
+    "wer": 45.45454545454545,
+    "cer": 8.974358974358974,
+    "accuracy": 92.40506329113924,
+    "time": 1.5484731197357178,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ßi"
+      ],
+      [
+        0,
+        "mi conſpexere gram"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "atici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        0,
+        " Claudius C"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "ſar apud nos antiſig"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentiffimi conſpexere gra๪matici:pro ᴗ Claudius Cæfar apud nos antiquigina",
+    "wer": 54.54545454545454,
+    "cer": 15.384615384615385,
+    "accuracy": 86.41975308641975,
+    "time": 3.4192450046539307,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ffi"
+      ],
+      [
+        0,
+        "mi conſpexere gra"
+      ],
+      [
+        1,
+        "๪"
+      ],
+      [
+        0,
+        "matici"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "pro "
+      ],
+      [
+        -1,
+        "qᷓ"
+      ],
+      [
+        1,
+        "ᴗ"
+      ],
+      [
+        0,
+        " Claudius Cæ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ar apud nos anti"
+      ],
+      [
+        -1,
+        "ſigm"
+      ],
+      [
+        1,
+        "quigin"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 13
+  },
+  "cogito-v2-109b": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ui diligentiſſimi conſpexere grammatici:pro Ɡ¬ Claudius Cæfar apud nos antı̱figia",
+    "wer": 63.63636363636363,
+    "cer": 14.102564102564102,
+    "accuracy": 86.41975308641975,
+    "time": 2.2560131549835205,
+    "diffs": [
+      [
+        0,
+        "u"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " diligentiſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi conſpexere gram"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "atici"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "pro "
+      ],
+      [
+        -1,
+        "qᷓ"
+      ],
+      [
+        1,
+        "Ɡ¬"
+      ],
+      [
+        0,
+        " Claudius Cæ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ar apud nos ant"
+      ],
+      [
+        -1,
+        "iſigm"
+      ],
+      [
+        1,
+        "ı̱figi"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 13
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ut diligentiſſmi conſpexere gramatici pro qᷓ Claudius Cæſar apud nos antiſigma",
+    "response": "ut diligentissimi confpexere gramatici: pro q̃ Claudius Cæfar apud nos antifigna",
+    "wer": 54.54545454545454,
+    "cer": 11.538461538461538,
+    "accuracy": 88.75,
+    "time": 27.546045064926147,
+    "diffs": [
+      [
+        0,
+        "ut diligenti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ssi"
+      ],
+      [
+        0,
+        "mi con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pexere gramatici"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " pro q"
+      ],
+      [
+        -1,
+        "ᷓ"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " Claudius Cæ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ar apud nos anti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ig"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 9
+  }
+}

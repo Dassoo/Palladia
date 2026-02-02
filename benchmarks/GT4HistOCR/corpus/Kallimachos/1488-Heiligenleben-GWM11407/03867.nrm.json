@@ -1,0 +1,1194 @@
+{
+  "mistral-small": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius.ſſſſ leſt ſie alſ wir ſie nun begeen",
+    "wer": 44.44444444444444,
+    "cer": 17.391304347826086,
+    "accuracy": 82.6086956521739,
+    "time": 1.5579650402069092,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius."
+      ],
+      [
+        -1,
+        " vñ"
+      ],
+      [
+        1,
+        "ſſſſ"
+      ],
+      [
+        0,
+        " le"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t ſie al"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " wir ſie nun begeen"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius.vñ legt fie als wir fie nun begeen",
+    "wer": 44.44444444444444,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 1.7625541687011719,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius."
+      ],
+      [
+        -1,
+        " vñ"
+      ],
+      [
+        1,
+        "vñ"
+      ],
+      [
+        0,
+        " legt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie als wir "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie nun begeen"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "gpt-4o": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius vnſ legt ſie als wir ſie nun begegnen",
+    "wer": 33.33333333333333,
+    "cer": 13.043478260869565,
+    "accuracy": 89.36170212765957,
+    "time": 1.9847798347473145,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " legt ſie als wir ſie nun bege"
+      ],
+      [
+        1,
+        "gn"
+      ],
+      [
+        0,
+        "en"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius.vij legt ſie als wir ſie nun begeen",
+    "wer": 22.22222222222222,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 1.9921798706054688,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius."
+      ],
+      [
+        -1,
+        " vñ"
+      ],
+      [
+        1,
+        "vij"
+      ],
+      [
+        0,
+        " legt ſie als wir ſie nun begeen"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "spotlight": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius. vn legt sie als voir sie nun begeen",
+    "wer": 55.55555555555556,
+    "cer": 15.217391304347828,
+    "accuracy": 86.95652173913044,
+    "time": 1.997521162033081,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius. vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        " legt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie als "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "vo"
+      ],
+      [
+        0,
+        "ir "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie nun begeen"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius.vñ legt ſie alſ wir ſie nun begeen",
+    "wer": 33.33333333333333,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 3.218778133392334,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius."
+      ],
+      [
+        -1,
+        " vñ"
+      ],
+      [
+        1,
+        "vñ"
+      ],
+      [
+        0,
+        " legt ſie al"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " wir ſie nun begeen"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius. vñ ſegt ſie alſo wir ſie nun betteen",
+    "wer": 55.55555555555556,
+    "cer": 19.565217391304348,
+    "accuracy": 82.97872340425532,
+    "time": 6.17473578453064,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius. v"
+      ],
+      [
+        -1,
+        "ñ l"
+      ],
+      [
+        1,
+        "ñ ſ"
+      ],
+      [
+        0,
+        "egt ſie al"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſo"
+      ],
+      [
+        0,
+        " wir ſie nun be"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "tt"
+      ],
+      [
+        0,
+        "een"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "llama-4-maverick-17b": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius ſon legt fie als roir fie nun begeen",
+    "wer": 55.55555555555556,
+    "cer": 21.73913043478261,
+    "accuracy": 82.6086956521739,
+    "time": 12.3192298412323,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius"
+      ],
+      [
+        -1,
+        ". vñ"
+      ],
+      [
+        1,
+        " ſon"
+      ],
+      [
+        0,
+        " legt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie als "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "ro"
+      ],
+      [
+        0,
+        "ir "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie nun begeen"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "gpt-5-mini": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregoxius. vn legt ſie alſ wir ſie nun begeeren",
+    "wer": 44.44444444444444,
+    "cer": 13.043478260869565,
+    "accuracy": 89.36170212765957,
+    "time": 27.547553062438965,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        "ius. vn"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        " legt ſie al"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " wir ſie nun begee"
+      ],
+      [
+        1,
+        "re"
+      ],
+      [
+        0,
+        "n"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius. vñ legt ſie als wir ſie nun begeen",
+    "wer": 22.22222222222222,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 80.14420104026794,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius. v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " legt ſie als wir ſie nun begeen"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius.vñ legt fie als wir sie nun begteen",
+    "wer": 55.55555555555556,
+    "cer": 17.391304347826086,
+    "accuracy": 84.78260869565217,
+    "time": 10.732153177261353,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius."
+      ],
+      [
+        -1,
+        " vñ"
+      ],
+      [
+        1,
+        "vñ"
+      ],
+      [
+        0,
+        " legt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie als wir "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie nun beg"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "een"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "gemini-2.5-flash": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius. vñ legt ſie als wir ſie nun begeen",
+    "wer": 22.22222222222222,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 5.660886764526367,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius. v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " legt ſie als wir ſie nun begeen"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorinus vſ legt ſie als wir ſie nun begegnen",
+    "wer": 33.33333333333333,
+    "cer": 17.391304347826086,
+    "accuracy": 87.2340425531915,
+    "time": 1.397141933441162,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛi"
+      ],
+      [
+        1,
+        "rin"
+      ],
+      [
+        0,
+        "us"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " legt ſie als wir ſie nun bege"
+      ],
+      [
+        1,
+        "gn"
+      ],
+      [
+        0,
+        "en"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius vñ legt sie als wor sie nur begeen",
+    "wer": 55.55555555555556,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 2.6460652351379395,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " vñ legt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie als w"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "r "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie nu"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " begeen"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "cogito-v2-109b": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius.rn legt fie als roir fie nurn begeen",
+    "wer": 66.66666666666666,
+    "cer": 21.73913043478261,
+    "accuracy": 82.6086956521739,
+    "time": 1.7345950603485107,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius."
+      ],
+      [
+        -1,
+        " vñ"
+      ],
+      [
+        1,
+        "rn"
+      ],
+      [
+        0,
+        " legt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie als "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "ro"
+      ],
+      [
+        0,
+        "ir "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie nu"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "n begeen"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Gꝛegoꝛius. vñ legt ſie als wir ſie nun begeen",
+    "response": "Gregorius. vñ legt sie als wir sie nun begeen",
+    "wer": 44.44444444444444,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 3.4866769313812256,
+    "diffs": [
+      [
+        0,
+        "G"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ego"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ius. v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " legt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie als wir "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie nun begeen"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 5
+  }
+}

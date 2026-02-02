@@ -1,0 +1,573 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentia gratia, qui principatu quem habemus potia.",
+    "wer": 22.22222222222222,
+    "cer": 3.278688524590164,
+    "accuracy": 96.72131147540983,
+    "time": 1.2551240921020508,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudenti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " gratia, qui principatu quem habemus potia"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "mistral-small": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "gratiſ, & prudentix gratia, qui principatu quem habemus potia.",
+    "wer": 33.33333333333333,
+    "cer": 8.19672131147541,
+    "accuracy": 91.93548387096774,
+    "time": 1.2560279369354248,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "gr"
+      ],
+      [
+        0,
+        "ati"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        ", & prudenti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        " gratia, qui principatu quem habemus potia"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "spotlight": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia.",
+    "wer": 11.11111111111111,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.4103140830993652,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia.",
+    "wer": 11.11111111111111,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.596825122833252,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.6432280540466309,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.0010387897491455,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.242984056472778,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "catis, & prudentiæ gratia, qui principatu quem habemus potiâ",
+    "wer": 22.22222222222222,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 4.250556945800781,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "atis, & prudentiæ gratia, qui principatu quem habemus poti"
+      ],
+      [
+        -1,
+        "a-"
+      ],
+      [
+        1,
+        "â"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "catis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 11.11111111111111,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 5.459350109100342,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "atis, & prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 9.713310241699219,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratía, quí príncípátu quem habemus potiá,",
+    "wer": 44.44444444444444,
+    "cer": 11.475409836065573,
+    "accuracy": 88.52459016393442,
+    "time": 40.46108078956604,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ grat"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "a, qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        " pr"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "nc"
+      ],
+      [
+        -1,
+        "ipa"
+      ],
+      [
+        1,
+        "ípá"
+      ],
+      [
+        0,
+        "tu quem habemus poti"
+      ],
+      [
+        -1,
+        "a-"
+      ],
+      [
+        1,
+        "á,"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gpt-5-mini": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 13.533966779708862,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, &’ prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 11.11111111111111,
+    "cer": 1.639344262295082,
+    "accuracy": 98.38709677419355,
+    "time": 28.74693489074707,
+    "diffs": [
+      [
+        0,
+        "tatis, &"
+      ],
+      [
+        1,
+        "’"
+      ],
+      [
+        0,
+        " prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia",
+    "wer": 11.11111111111111,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 9.128836870193481,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "mistral-medium-3.1": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentix gratia, qui principatu quem habemus potia-",
+    "wer": 11.11111111111111,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.2674989700317383,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudenti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        " gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principalqum habemus potia-",
+    "wer": 22.22222222222222,
+    "cer": 6.557377049180328,
+    "accuracy": 93.44262295081968,
+    "time": 2.4442198276519775,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principa"
+      ],
+      [
+        -1,
+        "tu "
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "m habemus potia-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "grok-4": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis,& prudentia gratia,qui principatu quem habemus potia-",
+    "wer": 55.55555555555556,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 30.475919008255005,
+    "diffs": [
+      [
+        0,
+        "tatis,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& prudenti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " gratia,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiax gratia, qui principatu quem habemus potia,",
+    "wer": 22.22222222222222,
+    "cer": 4.918032786885246,
+    "accuracy": 95.16129032258065,
+    "time": 1.4830327033996582,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudenti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ax"
+      ],
+      [
+        0,
+        " gratia, qui principatu quem habemus potia"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "response": "tatis, & prudentiæ gratia, qui principatu quem habemus potia-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.1874377727508545,
+    "diffs": [
+      [
+        0,
+        "tatis, & prudentiæ gratia, qui principatu quem habemus potia-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

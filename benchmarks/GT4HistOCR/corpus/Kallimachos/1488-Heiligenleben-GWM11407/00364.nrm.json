@@ -1,0 +1,1170 @@
+{
+  "spotlight": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen. und das er sein Keuscheyt mocht behüte.",
+    "wer": 62.5,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 1.5423171520233154,
+    "diffs": [
+      [
+        0,
+        "nen. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd das er "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cheyt m"
+      ],
+      [
+        -1,
+        "ö"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "cht behüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.vnd ſas er fein Peuſcheyt möcht behüte.",
+    "wer": 75.0,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 1.830474853515625,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "as er "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "P"
+      ],
+      [
+        0,
+        "euſcheyt möcht behüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen. vnd das er ſein Keuſcheyt möcht Behüte.",
+    "wer": 25.0,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.18181818181817,
+    "time": 1.9703917503356934,
+    "diffs": [
+      [
+        0,
+        "nen. vnd das er ſein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "euſcheyt möcht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ehüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.vnd Das er ſein Keuſcheyt mocht behüte.",
+    "wer": 75.0,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 3.0269458293914795,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er ſein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "euſcheyt m"
+      ],
+      [
+        -1,
+        "ö"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "cht behüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen. vnd das er ſein Keuſcheyt möcht Behüte.",
+    "wer": 25.0,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.18181818181817,
+    "time": 3.3133139610290527,
+    "diffs": [
+      [
+        0,
+        "nen. vnd das er ſein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "euſcheyt möcht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ehüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen, vnd das er ſein keuſcheyt moͤcht behuͤten.",
+    "wer": 37.5,
+    "cer": 15.909090909090908,
+    "accuracy": 85.1063829787234,
+    "time": 3.683879852294922,
+    "diffs": [
+      [
+        0,
+        "nen"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " vnd das er ſein keuſcheyt m"
+      ],
+      [
+        -1,
+        "ö"
+      ],
+      [
+        1,
+        "oͤ"
+      ],
+      [
+        0,
+        "cht beh"
+      ],
+      [
+        -1,
+        "ütẽ"
+      ],
+      [
+        1,
+        "uͤten"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.vnd das er ſein keuſcheyt möcht behüte.",
+    "wer": 37.5,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 3.7842140197753906,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd das er ſein keuſcheyt möcht behüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.vnd Das er fein Feufcheyt mächt Behütē.",
+    "wer": 87.5,
+    "cer": 18.181818181818183,
+    "accuracy": 81.81818181818183,
+    "time": 10.729961156845093,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cheyt m"
+      ],
+      [
+        -1,
+        "ö"
+      ],
+      [
+        1,
+        "ä"
+      ],
+      [
+        0,
+        "cht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ehüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "gpt-5-mini": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.und das er ſein keuſcheyt möcht behüte.",
+    "wer": 37.5,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.18181818181817,
+    "time": 18.39175772666931,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd das er ſein keuſcheyt möcht behüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen. vnd das er ſein Keuſcheyt möcht Behüte.",
+    "wer": 25.0,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.18181818181817,
+    "time": 62.843146085739136,
+    "diffs": [
+      [
+        0,
+        "nen. vnd das er ſein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "euſcheyt möcht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ehüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.ond Das er fein Leufcheyt möcht Behüte.",
+    "wer": 75.0,
+    "cer": 18.181818181818183,
+    "accuracy": 81.81818181818183,
+    "time": 3.7949130535125732,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "L"
+      ],
+      [
+        0,
+        "eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cheyt möcht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ehüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "gemini-2.5-flash": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen. vnd Das er ſein Keuſchheit möcht Behuͤte.",
+    "wer": 37.5,
+    "cer": 18.181818181818183,
+    "accuracy": 82.6086956521739,
+    "time": 12.038145065307617,
+    "diffs": [
+      [
+        0,
+        "nen. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er ſein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "euſch"
+      ],
+      [
+        -1,
+        "ey"
+      ],
+      [
+        1,
+        "hei"
+      ],
+      [
+        0,
+        "t möcht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "eh"
+      ],
+      [
+        -1,
+        "ütẽ"
+      ],
+      [
+        1,
+        "uͤte"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen: und daſs er fein Peuſcheyt möcht Behüte.",
+    "wer": 75.0,
+    "cer": 15.909090909090908,
+    "accuracy": 84.44444444444444,
+    "time": 1.5990829467773438,
+    "diffs": [
+      [
+        0,
+        "nen"
+      ],
+      [
+        -1,
+        ". v"
+      ],
+      [
+        1,
+        ": u"
+      ],
+      [
+        0,
+        "nd da"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "s er "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "P"
+      ],
+      [
+        0,
+        "euſcheyt möcht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ehüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nenvnd Ʋas er ſein  Komisheyt mocht Behūte.",
+    "wer": 75.0,
+    "cer": 29.545454545454547,
+    "accuracy": 72.72727272727273,
+    "time": 2.4697039127349854,
+    "diffs": [
+      [
+        0,
+        "nen"
+      ],
+      [
+        -1,
+        ". "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Ʋ"
+      ],
+      [
+        0,
+        "as er ſein "
+      ],
+      [
+        -1,
+        "keuſc"
+      ],
+      [
+        1,
+        " Komis"
+      ],
+      [
+        0,
+        "heyt m"
+      ],
+      [
+        -1,
+        "ö"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "cht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "eh"
+      ],
+      [
+        -1,
+        "ütẽ"
+      ],
+      [
+        1,
+        "ūte"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 31,
+    "deletions": 13,
+    "insertions": 12
+  },
+  "cogito-v2-109b": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.rnd ſas er ſein Feufcheyt niọcht Beḣütë.",
+    "wer": 75.0,
+    "cer": 25.0,
+    "accuracy": 77.27272727272727,
+    "time": 1.9109680652618408,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "as er ſein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "eu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cheyt "
+      ],
+      [
+        -1,
+        "mö"
+      ],
+      [
+        1,
+        "niọ"
+      ],
+      [
+        0,
+        "cht "
+      ],
+      [
+        -1,
+        "beh"
+      ],
+      [
+        1,
+        "Beḣ"
+      ],
+      [
+        0,
+        "üt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 33,
+    "deletions": 11,
+    "insertions": 11
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "nen. vnd das er ſein keuſcheyt möcht behütẽ.",
+    "response": "nen.vnd Das er fein Leuſcheyt möcht Behüte.",
+    "wer": 75.0,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 2.311715841293335,
+    "diffs": [
+      [
+        0,
+        "nen."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as er "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ein "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "L"
+      ],
+      [
+        0,
+        "euſcheyt möcht "
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ehüt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 5
+  }
+}

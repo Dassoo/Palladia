@@ -1,0 +1,658 @@
+{
+  "mistral-small": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſpōa ſede deme konynge ſa daer is noch",
+    "wer": 22.22222222222222,
+    "cer": 6.976744186046512,
+    "accuracy": 93.02325581395348,
+    "time": 1.2784368991851807,
+    "diffs": [
+      [
+        0,
+        "vnde ſ"
+      ],
+      [
+        -1,
+        "yb"
+      ],
+      [
+        1,
+        "pō"
+      ],
+      [
+        0,
+        "a ſede deme konynge "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a daer is noch"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde syda fede deme konyngc Ja daer is noch",
+    "wer": 33.33333333333333,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 1.5477020740509033,
+    "diffs": [
+      [
+        0,
+        "vnde "
+      ],
+      [
+        -1,
+        "ſyb"
+      ],
+      [
+        1,
+        "syd"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ede deme konyng"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " Ja daer is noch"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſhoa ſede deme konynge Ia daer is noch",
+    "wer": 22.22222222222222,
+    "cer": 6.976744186046512,
+    "accuracy": 93.02325581395348,
+    "time": 1.7453110218048096,
+    "diffs": [
+      [
+        0,
+        "vnde ſ"
+      ],
+      [
+        -1,
+        "yb"
+      ],
+      [
+        1,
+        "ho"
+      ],
+      [
+        0,
+        "a ſede deme konynge "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "a daer is noch"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſboa ſede deme konynge Ja daer is noch",
+    "wer": 11.11111111111111,
+    "cer": 4.651162790697675,
+    "accuracy": 97.67441860465115,
+    "time": 1.8355669975280762,
+    "diffs": [
+      [
+        0,
+        "vnde ſ"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        0,
+        "b"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "a ſede deme konynge Ja daer is noch"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde lyda ſede deme konynge Ia daer is noch",
+    "wer": 22.22222222222222,
+    "cer": 6.976744186046512,
+    "accuracy": 93.02325581395348,
+    "time": 3.1808362007141113,
+    "diffs": [
+      [
+        0,
+        "vnde "
+      ],
+      [
+        -1,
+        "ſyb"
+      ],
+      [
+        1,
+        "lyd"
+      ],
+      [
+        0,
+        "a ſede deme konynge "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "a daer is noch"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſpꝺa ſeде deme konynge Ja daer is noch",
+    "wer": 22.22222222222222,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 3.46087384223938,
+    "diffs": [
+      [
+        0,
+        "vnde ſ"
+      ],
+      [
+        -1,
+        "yb"
+      ],
+      [
+        1,
+        "pꝺ"
+      ],
+      [
+        0,
+        "a ſe"
+      ],
+      [
+        -1,
+        "de"
+      ],
+      [
+        1,
+        "де"
+      ],
+      [
+        0,
+        " deme konynge Ja daer is noch"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſpꝛa ſede deme konynge Ja daer is noch",
+    "wer": 11.11111111111111,
+    "cer": 4.651162790697675,
+    "accuracy": 95.34883720930233,
+    "time": 4.42144513130188,
+    "diffs": [
+      [
+        0,
+        "vnde ſ"
+      ],
+      [
+        -1,
+        "yb"
+      ],
+      [
+        1,
+        "pꝛ"
+      ],
+      [
+        0,
+        "a ſede deme konynge Ja daer is noch"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "llama-4-maverick-17b": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde fẙa fede deme konynge Jt daer is noch",
+    "wer": 33.33333333333333,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 8.73450517654419,
+    "diffs": [
+      [
+        0,
+        "vnde "
+      ],
+      [
+        -1,
+        "ſyb"
+      ],
+      [
+        1,
+        "fẙ"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ede deme konynge J"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " daer is noch"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſyva ſede deme konynge Ja daer is noch",
+    "wer": 11.11111111111111,
+    "cer": 2.3255813953488373,
+    "accuracy": 97.67441860465115,
+    "time": 20.05643105506897,
+    "diffs": [
+      [
+        0,
+        "vnde ſy"
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "a ſede deme konynge Ja daer is noch"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſoa ſede deme konynge Ia daer is noch",
+    "wer": 22.22222222222222,
+    "cer": 6.976744186046512,
+    "accuracy": 93.02325581395348,
+    "time": 58.44056677818298,
+    "diffs": [
+      [
+        0,
+        "vnde ſ"
+      ],
+      [
+        -1,
+        "yb"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "a ſede deme konynge "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "a daer is noch"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnd ſvoaſede deme konpnge Ja daer is noch",
+    "wer": 44.44444444444444,
+    "cer": 11.627906976744185,
+    "accuracy": 88.37209302325581,
+    "time": 7.489007949829102,
+    "diffs": [
+      [
+        0,
+        "vnd"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        " ſ"
+      ],
+      [
+        -1,
+        "yba "
+      ],
+      [
+        1,
+        "voa"
+      ],
+      [
+        0,
+        "ſede deme kon"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "nge Ja daer is noch"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde fye ſchte deme kouninge Ja daer is noch",
+    "wer": 33.33333333333333,
+    "cer": 18.6046511627907,
+    "accuracy": 84.0909090909091,
+    "time": 2.9274749755859375,
+    "diffs": [
+      [
+        0,
+        "vnde "
+      ],
+      [
+        -1,
+        "ſyba ſed"
+      ],
+      [
+        1,
+        "fye ſcht"
+      ],
+      [
+        0,
+        "e deme ko"
+      ],
+      [
+        -1,
+        "ny"
+      ],
+      [
+        1,
+        "uni"
+      ],
+      [
+        0,
+        "nge Ja daer is noch"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 10,
+    "insertions": 11
+  },
+  "mistral-medium-3.1": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſyoa ſede deme konynge Ja daer is noch",
+    "wer": 11.11111111111111,
+    "cer": 2.3255813953488373,
+    "accuracy": 97.67441860465115,
+    "time": 1.4702990055084229,
+    "diffs": [
+      [
+        0,
+        "vnde ſy"
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "a ſede deme konynge Ja daer is noch"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde sÿoa scede deme koupnge ja daer is noch",
+    "wer": 44.44444444444444,
+    "cer": 18.6046511627907,
+    "accuracy": 81.81818181818183,
+    "time": 2.450218915939331,
+    "diffs": [
+      [
+        0,
+        "vnde "
+      ],
+      [
+        -1,
+        "ſyba ſ"
+      ],
+      [
+        1,
+        "sÿoa sc"
+      ],
+      [
+        0,
+        "ede deme ko"
+      ],
+      [
+        -1,
+        "ny"
+      ],
+      [
+        1,
+        "up"
+      ],
+      [
+        0,
+        "nge "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "j"
+      ],
+      [
+        0,
+        "a daer is noch"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 9,
+    "insertions": 10
+  },
+  "cogito-v2-109b": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vude fyda fede deme konynge Ja daer is noch",
+    "wer": 33.33333333333333,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 1.5357451438903809,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "de "
+      ],
+      [
+        -1,
+        "ſyb"
+      ],
+      [
+        1,
+        "fyd"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ede deme konynge Ja daer is noch"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "vnde ſyba ſede deme konynge Ja daer is noch",
+    "response": "vnde ſvoa ſede deme konynge Ja daer is noch",
+    "wer": 11.11111111111111,
+    "cer": 4.651162790697675,
+    "accuracy": 95.34883720930233,
+    "time": 2.2911269664764404,
+    "diffs": [
+      [
+        0,
+        "vnde ſ"
+      ],
+      [
+        -1,
+        "yb"
+      ],
+      [
+        1,
+        "vo"
+      ],
+      [
+        0,
+        "a ſede deme konynge Ja daer is noch"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

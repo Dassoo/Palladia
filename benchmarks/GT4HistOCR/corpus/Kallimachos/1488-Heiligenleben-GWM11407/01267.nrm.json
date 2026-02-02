@@ -1,0 +1,822 @@
+{
+  "spotlight": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenschlich ist den iuden das sie sich zu",
+    "wer": 55.55555555555556,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 1.7324159145355225,
+    "diffs": [
+      [
+        0,
+        "wie vnmen"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "chlich i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t den iuden das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt Den iuden das fie fich zu",
+    "wer": 44.44444444444444,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 1.738581895828247,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en iuden das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das fie fich zu",
+    "wer": 33.33333333333333,
+    "cer": 6.521739130434782,
+    "accuracy": 93.47826086956522,
+    "time": 2.0101985931396484,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+    "wer": 11.11111111111111,
+    "cer": 2.1739130434782608,
+    "accuracy": 97.82608695652173,
+    "time": 2.2605350017547607,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie unmenschlich iſt den iuden daſs ſie ſich zu",
+    "wer": 33.33333333333333,
+    "cer": 8.695652173913043,
+    "accuracy": 91.48936170212765,
+    "time": 2.754693031311035,
+    "diffs": [
+      [
+        0,
+        "wie "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nmen"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "chlich iſt den iuden da"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "s ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+    "wer": 11.11111111111111,
+    "cer": 2.1739130434782608,
+    "accuracy": 97.82608695652173,
+    "time": 3.2000410556793213,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+    "wer": 11.11111111111111,
+    "cer": 2.1739130434782608,
+    "accuracy": 97.82608695652173,
+    "time": 5.455812215805054,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das fie fich zu",
+    "wer": 33.33333333333333,
+    "cer": 6.521739130434782,
+    "accuracy": 93.47826086956522,
+    "time": 12.533933162689209,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+    "wer": 11.11111111111111,
+    "cer": 2.1739130434782608,
+    "accuracy": 97.82608695652173,
+    "time": 15.40056586265564,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+    "wer": 11.11111111111111,
+    "cer": 2.1739130434782608,
+    "accuracy": 97.82608695652173,
+    "time": 30.200271129608154,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich ift den iuden das fie fich zu",
+    "wer": 44.44444444444444,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 9.41752028465271,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t den iuden das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie unmenſchlich iſt den Juden daß ſie ſich zu",
+    "wer": 44.44444444444444,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 4.670686960220337,
+    "diffs": [
+      [
+        0,
+        "wie "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nmenſchlich iſt den "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "uden da"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        " ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt Den iuden daſſie fich zu",
+    "wer": 55.55555555555556,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 1.4582629203796387,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en iuden da"
+      ],
+      [
+        -1,
+        "s "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ſie "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenschlich ist der uden das sie sich zu",
+    "wer": 77.77777777777779,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 3.922708034515381,
+    "diffs": [
+      [
+        0,
+        "wie vnmen"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "chlich i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t de"
+      ],
+      [
+        -1,
+        "n i"
+      ],
+      [
+        1,
+        "r "
+      ],
+      [
+        0,
+        "uden das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt Den iuden Daſ ſie ſich zu",
+    "wer": 33.33333333333333,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 2.4184720516204834,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "en iuden "
+      ],
+      [
+        -1,
+        "das"
+      ],
+      [
+        1,
+        "Daſ"
+      ],
+      [
+        0,
+        " ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "wie vnmenſchlich iſt den iuden das ſie ſich ʒu",
+    "response": "wie vnmenſchlich iſt den iuden das ſie ſich zu",
+    "wer": 11.11111111111111,
+    "cer": 2.1739130434782608,
+    "accuracy": 97.82608695652173,
+    "time": 4.491540193557739,
+    "diffs": [
+      [
+        0,
+        "wie vnmenſchlich iſt den iuden das ſie ſich "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

@@ -1,0 +1,749 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium,ubi in margine hæc uerba ſunt, Armo-",
+    "wer": 16.666666666666664,
+    "cer": 1.4084507042253522,
+    "accuracy": 98.59154929577466,
+    "time": 1.253795862197876,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ubi in margine hæc uerba ſunt, Armo-"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "mistral-small": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Praefatione paulo poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "wer": 16.666666666666664,
+    "cer": 4.225352112676056,
+    "accuracy": 95.83333333333334,
+    "time": 1.4034631252288818,
+    "diffs": [
+      [
+        0,
+        "ris Pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "fatione paul"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poſt initium, ubi in margine hæc uerba ſunt, Armo-"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Praefatione paulò post initium,ubi in margine hæc uerba sunt, Armo",
+    "wer": 50.0,
+    "cer": 8.450704225352112,
+    "accuracy": 92.95774647887323,
+    "time": 1.4138758182525635,
+    "diffs": [
+      [
+        0,
+        "ris Pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "fatione paulò po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t initium,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ubi in margine hæc uerba "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "unt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.0930581092834473,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "riſ Praſatione paulò pòſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "wer": 25.0,
+    "cer": 5.633802816901409,
+    "accuracy": 94.36619718309859,
+    "time": 2.437955141067505,
+    "diffs": [
+      [
+        0,
+        "ri"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " Pr"
+      ],
+      [
+        -1,
+        "æf"
+      ],
+      [
+        1,
+        "aſ"
+      ],
+      [
+        0,
+        "atione paulò p"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ò"
+      ],
+      [
+        0,
+        "ſt initium, ubi in margine hæc uerba ſunt, Armo-"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatìone paulò poſt initium,ubi in margine hæc verba ſunt, Armo·",
+    "wer": 41.66666666666667,
+    "cer": 5.633802816901409,
+    "accuracy": 94.36619718309859,
+    "time": 2.849374771118164,
+    "diffs": [
+      [
+        0,
+        "ris Præfat"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ì"
+      ],
+      [
+        0,
+        "one paulò poſt initium,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ubi in margine hæc "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "erba ſunt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gemini-2.5-flash": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium,ubi in margine hæc verba ſunt, Armo",
+    "wer": 33.33333333333333,
+    "cer": 4.225352112676056,
+    "accuracy": 95.77464788732394,
+    "time": 2.9853081703186035,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ubi in margine hæc "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "erba ſunt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulo poſt initium, ubi in margine hæc verba ſunt, Armo-",
+    "wer": 16.666666666666664,
+    "cer": 2.8169014084507045,
+    "accuracy": 97.1830985915493,
+    "time": 3.296454906463623,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paul"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poſt initium, ubi in margine hæc "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "erba ſunt, Armo-"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulo poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "wer": 8.333333333333332,
+    "cer": 1.4084507042253522,
+    "accuracy": 98.59154929577466,
+    "time": 4.392506122589111,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paul"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poſt initium, ubi in margine hæc uerba ſunt, Armo-"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfaſtione paulo poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "wer": 16.666666666666664,
+    "cer": 2.8169014084507045,
+    "accuracy": 97.22222222222221,
+    "time": 12.238976001739502,
+    "diffs": [
+      [
+        0,
+        "ris Præfa"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "tione paul"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poſt initium, ubi in margine hæc uerba ſunt, Armo-"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "gemini-2.5-pro": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium, ubíïn margine hæc verba ſunt, Armœ",
+    "wer": 33.33333333333333,
+    "cer": 8.450704225352112,
+    "accuracy": 91.54929577464789,
+    "time": 32.704983949661255,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium, ub"
+      ],
+      [
+        -1,
+        "i i"
+      ],
+      [
+        1,
+        "íï"
+      ],
+      [
+        0,
+        "n margine hæc "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "erba ſunt, Arm"
+      ],
+      [
+        -1,
+        "o-"
+      ],
+      [
+        1,
+        "œ"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 15.79629898071289,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium,ubi in margine hæc uerba ſunt, Armo·",
+    "wer": 25.0,
+    "cer": 2.8169014084507045,
+    "accuracy": 97.1830985915493,
+    "time": 39.83708095550537,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ubi in margine hæc uerba ſunt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poft initium, ubi in margine hæc uerba funt, Armo•",
+    "wer": 25.0,
+    "cer": 4.225352112676056,
+    "accuracy": 95.77464788732394,
+    "time": 8.395915031433105,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t initium, ubi in margine hæc uerba "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "unt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "•"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium, ubi in margine hæc verba ſunt, Armo-",
+    "wer": 8.333333333333332,
+    "cer": 1.4084507042253522,
+    "accuracy": 98.59154929577466,
+    "time": 1.6503779888153076,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium, ubi in margine hæc "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "erba ſunt, Armo-"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulō poīt initium, ubi in margine hæc uerba funt, Armo",
+    "wer": 33.33333333333333,
+    "cer": 5.633802816901409,
+    "accuracy": 94.36619718309859,
+    "time": 2.5745160579681396,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paul"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        "t initium, ubi in margine hæc uerba "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "unt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "Armoris Præfatione paulo poſt initium, ubi in margine hæc uerba ſunt, Armoris",
+    "wer": 25.0,
+    "cer": 11.267605633802818,
+    "accuracy": 89.6103896103896,
+    "time": 62.959949016571045,
+    "diffs": [
+      [
+        1,
+        "Armo"
+      ],
+      [
+        0,
+        "ris Præfatione paul"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poſt initium, ubi in margine hæc uerba ſunt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "ris"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 2,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium, ubi in margine hæc verba funt, Armo",
+    "wer": 25.0,
+    "cer": 4.225352112676056,
+    "accuracy": 95.77464788732394,
+    "time": 1.533796787261963,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium, ubi in margine hæc "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "erba "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "unt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo-",
+    "response": "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo",
+    "wer": 8.333333333333332,
+    "cer": 1.4084507042253522,
+    "accuracy": 98.59154929577466,
+    "time": 2.663421869277954,
+    "diffs": [
+      [
+        0,
+        "ris Præfatione paulò poſt initium, ubi in margine hæc uerba ſunt, Armo"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 1,
+    "insertions": 0
+  }
+}

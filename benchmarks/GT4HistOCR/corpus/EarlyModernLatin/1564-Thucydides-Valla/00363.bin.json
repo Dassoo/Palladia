@@ -1,0 +1,869 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſſitatis uentum eſſet, ut inuicem Corinthij Athenienſ",
+    "wer": 22.22222222222222,
+    "cer": 3.1746031746031744,
+    "accuracy": 96.875,
+    "time": 1.4165229797363281,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis uentum eſſet, ut inuicem Corinthij Athenien"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "mistral-small": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cum eo necessitatis uentum effet, ut inuicem Corinthij Atheni",
+    "wer": 44.44444444444444,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 1.4999477863311768,
+    "diffs": [
+      [
+        0,
+        "C"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m eo nece"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "sitatis uentum e"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "et, ut inuicem Corinthij Atheni"
+      ],
+      [
+        -1,
+        "en"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùme eo necessitatis uentum esſet, ut inuicem Corinthiā Atheniēn",
+    "wer": 55.55555555555556,
+    "cer": 7.936507936507936,
+    "accuracy": 92.1875,
+    "time": 1.7902519702911377,
+    "diffs": [
+      [
+        0,
+        "Cùm"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " eo nece"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "sitatis uentum e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ſet, ut inuicem Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " Atheni"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "n"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo necelfitatis uentum eſſet,ut inuicem Corinthij Athenien",
+    "wer": 33.33333333333333,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 1.9255831241607666,
+    "diffs": [
+      [
+        0,
+        "Cùm eo nece"
+      ],
+      [
+        -1,
+        "ſs"
+      ],
+      [
+        1,
+        "lf"
+      ],
+      [
+        0,
+        "itatis uentum eſſet,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut inuicem Corinthij Athenien"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſsitatis uentum eſſet, ut inuiicem Corinthij Athenien",
+    "wer": 11.11111111111111,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4375,
+    "time": 2.280642032623291,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſsitatis uentum eſſet, ut inui"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "cem Corinthij Athenien"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo necesſitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "wer": 11.11111111111111,
+    "cer": 3.1746031746031744,
+    "accuracy": 98.4126984126984,
+    "time": 2.3366010189056396,
+    "diffs": [
+      [
+        0,
+        "Cùm eo nece"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        0,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis uentum eſſet, ut inuicem Corinthij Athenien"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cum eo neceſſitatis uentum eſſet, ut inuicem Corinthÿ Athenien",
+    "wer": 33.33333333333333,
+    "cer": 6.349206349206349,
+    "accuracy": 93.65079365079364,
+    "time": 3.5652899742126465,
+    "diffs": [
+      [
+        0,
+        "C"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m eo neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis uentum eſſet, ut inuicem Corinth"
+      ],
+      [
+        -1,
+        "ij"
+      ],
+      [
+        1,
+        "ÿ"
+      ],
+      [
+        0,
+        " Athenien"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthii Athenien",
+    "wer": 11.11111111111111,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4126984126984,
+    "time": 5.38426399230957,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " Athenien"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſsìtatis uentum eſſet, ut inuícem Corinthíj Atheníen",
+    "wer": 44.44444444444444,
+    "cer": 6.349206349206349,
+    "accuracy": 93.65079365079364,
+    "time": 9.106391191482544,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſs"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ì"
+      ],
+      [
+        0,
+        "tatis uentum eſſet, ut inu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "cem Corinth"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "j Athen"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "en"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cūm eō neceſſitatis uentum eſſet, ut inuicem Corinthij Atheniēn",
+    "wer": 44.44444444444444,
+    "cer": 6.349206349206349,
+    "accuracy": 93.65079365079364,
+    "time": 18.712591886520386,
+    "diffs": [
+      [
+        0,
+        "C"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "m e"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis uentum eſſet, ut inuicem Corinthij Atheni"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "n"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſſitatis uentum eſſet, ut ínuícem Corinthíj Atheníen",
+    "wer": 44.44444444444444,
+    "cer": 7.936507936507936,
+    "accuracy": 92.06349206349206,
+    "time": 56.507683992385864,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis uentum eſſet, ut "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "nu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "cem Corinth"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "j Athen"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "en"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cŭm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "wer": 11.11111111111111,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4126984126984,
+    "time": 17.97749090194702,
+    "diffs": [
+      [
+        0,
+        "C"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ŭ"
+      ],
+      [
+        0,
+        "m eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 19.093442916870117,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cūm eo neceſſitatis uentum eſſet, ut inuicem Corinthiī Athenien",
+    "wer": 33.33333333333333,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 5.974897861480713,
+    "diffs": [
+      [
+        0,
+        "C"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "m eo neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis uentum eſſet, ut inuicem Corinthi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        " Athenien"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cum eo neceſſitatis ventum eſſet, ut inuicem Corinthij Athenienſes",
+    "wer": 44.44444444444444,
+    "cer": 9.523809523809524,
+    "accuracy": 90.9090909090909,
+    "time": 1.6618139743804932,
+    "diffs": [
+      [
+        0,
+        "C"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m eo neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "entum eſſet, ut inuicem Corinthij Athenien"
+      ],
+      [
+        1,
+        "ſes"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſsitatis uentum effèt, ut inuicem Corinthij Athenien",
+    "wer": 11.11111111111111,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 1.8636598587036133,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſsitatis uentum e"
+      ],
+      [
+        -1,
+        "ſſe"
+      ],
+      [
+        1,
+        "ffè"
+      ],
+      [
+        0,
+        "t, ut inuicem Corinthij Athenien"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cum eo neceſſitas uentum eſſet,ut inuicem Corinthij Athenien",
+    "wer": 44.44444444444444,
+    "cer": 7.936507936507936,
+    "accuracy": 92.06349206349206,
+    "time": 26.8061740398407,
+    "diffs": [
+      [
+        0,
+        "C"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m eo neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ita"
+      ],
+      [
+        -1,
+        "ti"
+      ],
+      [
+        0,
+        "s uentum eſſet,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut inuicem Corinthij Athenien"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſſitatis ventum eſſet, ut invicem Corinthij Athenicñ",
+    "wer": 44.44444444444444,
+    "cer": 7.936507936507936,
+    "accuracy": 92.06349206349206,
+    "time": 2.694221258163452,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "itatis "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "entum eſſet, ut in"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "icem Corinthij Atheni"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        1,
+        "cñ"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "response": "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.4486191272735596,
+    "diffs": [
+      [
+        0,
+        "Cùm eo neceſsitatis uentum eſſet, ut inuicem Corinthij Athenien"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

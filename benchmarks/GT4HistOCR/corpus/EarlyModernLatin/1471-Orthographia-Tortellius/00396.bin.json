@@ -1,0 +1,1244 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqt: & inep rū qd refpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "wer": 38.46153846153847,
+    "cer": 9.876543209876543,
+    "accuracy": 91.35802469135803,
+    "time": 1.481445074081421,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑"
+      ],
+      [
+        1,
+        "feqt"
+      ],
+      [
+        0,
+        ": & inep"
+      ],
+      [
+        -1,
+        "tũ ꝗ"
+      ],
+      [
+        1,
+        " rū q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pectu ſoni quod apud illos ex digãma reſultabat: efflare"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "mistral-small": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfect: & ineptū qd respectu ſoni quod apud illos ex digāma reſultabat: efflare",
+    "wer": 38.46153846153847,
+    "cer": 8.641975308641975,
+    "accuracy": 91.35802469135803,
+    "time": 1.7084770202636719,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑"
+      ],
+      [
+        1,
+        "fect"
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pectu ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma reſultabat: efflare"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "spotlight": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqt:& ineptũ qd respectu ſoni quod apud illos ex digãma resultabat:efflare",
+    "wer": 46.15384615384615,
+    "cer": 9.876543209876543,
+    "accuracy": 90.12345679012346,
+    "time": 2.118772029876709,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑: "
+      ],
+      [
+        1,
+        "feqt:"
+      ],
+      [
+        0,
+        "& ineptũ "
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pectu ſoni quod apud illos ex digãma re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ultabat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "efflare"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 11,
+    "insertions": 8
+  },
+  "gpt-4.1": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqti:& ineptū qd respectu ſoni quod apud illos ex digāma reſultabat:efflare",
+    "wer": 61.53846153846154,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 2.5198872089385986,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑: "
+      ],
+      [
+        1,
+        "feqti:"
+      ],
+      [
+        0,
+        "& inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pectu ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma reſultabat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "efflare"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 13,
+    "insertions": 11
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqt:& ineptũ qd respectu foni quod apud illos ex digāma resultabat:efflare",
+    "wer": 61.53846153846154,
+    "cer": 12.345679012345679,
+    "accuracy": 87.65432098765432,
+    "time": 3.136260747909546,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑: "
+      ],
+      [
+        1,
+        "feqt:"
+      ],
+      [
+        0,
+        "& ineptũ "
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pectu "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "oni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ultabat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "efflare"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 13,
+    "insertions": 10
+  },
+  "gpt-4o": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perſectꝰ : & ineptū qd reſpectu ſoni quod apud illos ex digāma reſultabat : efflare",
+    "wer": 53.84615384615385,
+    "cer": 8.641975308641975,
+    "accuracy": 91.56626506024097,
+    "time": 3.8144588470458984,
+    "diffs": [
+      [
+        0,
+        "perſe"
+      ],
+      [
+        -1,
+        "ꝗt᷑"
+      ],
+      [
+        1,
+        "ctꝰ "
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d reſpectu ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma reſultabat"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": efflare"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 7,
+    "insertions": 9
+  },
+  "claude-4-sonnet": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perſeqſ: & ineptū qd reſpectū ſoni quod apud illos ex digāma reſultabat: eſſlare",
+    "wer": 46.15384615384615,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 4.369351863861084,
+    "diffs": [
+      [
+        0,
+        "perſe"
+      ],
+      [
+        -1,
+        "ꝗt᷑"
+      ],
+      [
+        1,
+        "qſ"
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d reſpect"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma reſultabat: e"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "lare"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "claude-4-opus": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perſeqt̃: & ineptũ qd̃ reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "wer": 15.384615384615385,
+    "cer": 4.938271604938271,
+    "accuracy": 95.1219512195122,
+    "time": 6.607983112335205,
+    "diffs": [
+      [
+        0,
+        "perſe"
+      ],
+      [
+        -1,
+        "ꝗt᷑"
+      ],
+      [
+        1,
+        "qt̃"
+      ],
+      [
+        0,
+        ": & ineptũ "
+      ],
+      [
+        -1,
+        "ꝗd"
+      ],
+      [
+        1,
+        "qd̃"
+      ],
+      [
+        0,
+        " reſpectu ſoni quod apud illos ex digãma reſultabat: efflare"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perſeq̃t: & inꝑu q̃d reſpectu ſoni quod apud illos ex digã reſultabat: efferlare",
+    "wer": 38.46153846153847,
+    "cer": 16.049382716049383,
+    "accuracy": 88.88888888888889,
+    "time": 10.826082229614258,
+    "diffs": [
+      [
+        0,
+        "perſe"
+      ],
+      [
+        -1,
+        "ꝗt᷑"
+      ],
+      [
+        1,
+        "q̃t"
+      ],
+      [
+        0,
+        ": & in"
+      ],
+      [
+        -1,
+        "eptũ ꝗ"
+      ],
+      [
+        1,
+        "ꝑu q̃"
+      ],
+      [
+        0,
+        "d reſpectu ſoni quod apud illos ex digã"
+      ],
+      [
+        -1,
+        "ma"
+      ],
+      [
+        0,
+        " reſultabat: eff"
+      ],
+      [
+        1,
+        "er"
+      ],
+      [
+        0,
+        "lare"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 11,
+    "insertions": 10
+  },
+  "o4-mini": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perſeq̄t̄: & ineptū qd reſpectu ſoni quod apud illos ex digama resultabat: efflare",
+    "wer": 38.46153846153847,
+    "cer": 8.641975308641975,
+    "accuracy": 91.46341463414635,
+    "time": 28.050509929656982,
+    "diffs": [
+      [
+        0,
+        "perſe"
+      ],
+      [
+        -1,
+        "ꝗt᷑"
+      ],
+      [
+        1,
+        "q̄t̄"
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d reſpectu ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ma re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ultabat: efflare"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "gemini-2.5-pro": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfect: & ineptũ qd reſpectu ſoni quod apud illos ex digāma reſultabat: efflare",
+    "wer": 30.76923076923077,
+    "cer": 8.641975308641975,
+    "accuracy": 92.5925925925926,
+    "time": 87.69776391983032,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑"
+      ],
+      [
+        1,
+        "fect"
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ũ q"
+      ],
+      [
+        0,
+        "d reſpectu ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma reſultabat: efflare"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "gpt-5-mini": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perſecq̃: & ineptù qd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "wer": 23.076923076923077,
+    "cer": 6.172839506172839,
+    "accuracy": 93.82716049382715,
+    "time": 21.949856996536255,
+    "diffs": [
+      [
+        0,
+        "perſe"
+      ],
+      [
+        -1,
+        "ꝗt᷑"
+      ],
+      [
+        1,
+        "cq̃"
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ù q"
+      ],
+      [
+        0,
+        "d reſpectu ſoni quod apud illos ex digãma reſultabat: efflare"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfect: & ineptū qd reſpectu ſoni quod apud illos ex digam̄a reſultabat: efflare",
+    "wer": 30.76923076923077,
+    "cer": 8.641975308641975,
+    "accuracy": 92.5925925925926,
+    "time": 75.78689312934875,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑"
+      ],
+      [
+        1,
+        "fect"
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d reſpectu ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ãm"
+      ],
+      [
+        1,
+        "am̄"
+      ],
+      [
+        0,
+        "a reſultabat: efflare"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "glm-4.5v": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqt:& ineptũ qd refpectu foni quod apud illos ex digāma refultabat:efflare",
+    "wer": 61.53846153846154,
+    "cer": 12.345679012345679,
+    "accuracy": 87.65432098765432,
+    "time": 4.526744842529297,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑: "
+      ],
+      [
+        1,
+        "feqt:"
+      ],
+      [
+        0,
+        "& ineptũ "
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pectu "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "oni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ultabat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "efflare"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 13,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfect: & ineptū qd reſpectu ſoni quod apud illos ex digamā reſultabat: efflare",
+    "wer": 30.76923076923077,
+    "cer": 8.641975308641975,
+    "accuracy": 91.35802469135803,
+    "time": 1.5698301792144775,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑"
+      ],
+      [
+        1,
+        "fect"
+      ],
+      [
+        0,
+        ": & inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d reſpectu ſoni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ãma"
+      ],
+      [
+        1,
+        "amā"
+      ],
+      [
+        0,
+        " reſultabat: efflare"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 11,
+    "insertions": 10
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqt:& ineptū qd respectu ṣoni quod apud illos ex digāma respectabat:efflare",
+    "wer": 69.23076923076923,
+    "cer": 17.28395061728395,
+    "accuracy": 83.9506172839506,
+    "time": 2.6485188007354736,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑: "
+      ],
+      [
+        1,
+        "feqt:"
+      ],
+      [
+        0,
+        "& inept"
+      ],
+      [
+        -1,
+        "ũ ꝗ"
+      ],
+      [
+        1,
+        "ū q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pectu "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ṣ"
+      ],
+      [
+        0,
+        "oni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma re"
+      ],
+      [
+        -1,
+        "ſul"
+      ],
+      [
+        1,
+        "spec"
+      ],
+      [
+        0,
+        "tabat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "efflare"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 17,
+    "insertions": 15
+  },
+  "cogito-v2-109b": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqti:& ineprù qd refpectu foni quod apud illos ex digāma refultabat: efflare",
+    "wer": 61.53846153846154,
+    "cer": 13.580246913580247,
+    "accuracy": 86.41975308641975,
+    "time": 2.030494213104248,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑: "
+      ],
+      [
+        1,
+        "feqti:"
+      ],
+      [
+        0,
+        "& inep"
+      ],
+      [
+        -1,
+        "tũ ꝗ"
+      ],
+      [
+        1,
+        "rù q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pectu "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "oni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ultabat: efflare"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 15,
+    "insertions": 14
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "perſeꝗt᷑: & ineptũ ꝗd reſpectu ſoni quod apud illos ex digãma reſultabat: efflare",
+    "response": "perfeqṭ:& ineptũ qd refpectu foni quod apud illos ex digāma refultabat:efflare",
+    "wer": 61.53846153846154,
+    "cer": 13.580246913580247,
+    "accuracy": 86.41975308641975,
+    "time": 2.265636682510376,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "ſeꝗt᷑: "
+      ],
+      [
+        1,
+        "feqṭ:"
+      ],
+      [
+        0,
+        "& ineptũ "
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "d re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pectu "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "oni quod apud illos ex dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma re"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ultabat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "efflare"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 13,
+    "insertions": 10
+  }
+}

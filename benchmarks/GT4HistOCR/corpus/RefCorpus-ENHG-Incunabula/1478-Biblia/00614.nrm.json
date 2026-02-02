@@ -1,0 +1,570 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden voertpoet na der prophedē",
+    "wer": 28.57142857142857,
+    "cer": 11.904761904761903,
+    "accuracy": 88.37209302325581,
+    "time": 2.1219358444213867,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vo"
+      ],
+      [
+        -1,
+        "rſ"
+      ],
+      [
+        1,
+        "ert"
+      ],
+      [
+        0,
+        "poet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "dē"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorspoet na der prophete",
+    "wer": 28.57142857142857,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 1.3922653198242188,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vor"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "poet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "te"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorspoet na der prophédi",
+    "wer": 28.57142857142857,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 1.4331610202789307,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vor"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "poet na der proph"
+      ],
+      [
+        -1,
+        "eciẽ"
+      ],
+      [
+        1,
+        "édi"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorſpoet na der prophecie",
+    "wer": 14.285714285714285,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 2.156871795654297,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vorſpoet na der propheci"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorſpoet na der prophedie",
+    "wer": 14.285714285714285,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 3.3860528469085693,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vorſpoet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "die"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "merr vnde hadden vorſpoct na der prophecie",
+    "wer": 42.857142857142854,
+    "cer": 7.142857142857142,
+    "accuracy": 92.85714285714286,
+    "time": 3.139859914779663,
+    "diffs": [
+      [
+        0,
+        "mer"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " vnde hadden vorſpo"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "t na der propheci"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorſpoet na der prophecíe",
+    "wer": 14.285714285714285,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 3.447359085083008,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vorſpoet na der prophec"
+      ],
+      [
+        -1,
+        "iẽ"
+      ],
+      [
+        1,
+        "íe"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert unde hadden vorſpoet nader prophetiẽ",
+    "wer": 57.14285714285714,
+    "cer": 7.142857142857142,
+    "accuracy": 92.85714285714286,
+    "time": 2.166712999343872,
+    "diffs": [
+      [
+        0,
+        "mert "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nde hadden vorſpoet na"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "der prophe"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "iẽ"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorſpot na der propheċe",
+    "wer": 28.57142857142857,
+    "cer": 9.523809523809524,
+    "accuracy": 90.47619047619048,
+    "time": 17.416601181030273,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vorſpo"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "t na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "ċe"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorſpoet na der prophecié",
+    "wer": 14.285714285714285,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 66.739333152771,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vorſpoet na der propheci"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorfpoet",
+    "wer": 57.14285714285714,
+    "cer": 42.857142857142854,
+    "accuracy": 57.14285714285714,
+    "time": 14.759611129760742,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vor"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "poet"
+      ],
+      [
+        -1,
+        " na der propheciẽ"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 18,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert rude hadden vonſpoet na der propheſedé",
+    "wer": 42.857142857142854,
+    "cer": 19.047619047619047,
+    "accuracy": 81.81818181818183,
+    "time": 4.395563125610352,
+    "diffs": [
+      [
+        0,
+        "mert "
+      ],
+      [
+        -1,
+        "vn"
+      ],
+      [
+        1,
+        "ru"
+      ],
+      [
+        0,
+        "de hadden vo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "ſpoet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "ſedé"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 6,
+    "insertions": 8
+  },
+  "mistral-medium-3.1": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hatten vorſpoet na der prophedé",
+    "wer": 28.57142857142857,
+    "cer": 11.904761904761903,
+    "accuracy": 88.09523809523809,
+    "time": 1.2093219757080078,
+    "diffs": [
+      [
+        0,
+        "mert vnde ha"
+      ],
+      [
+        -1,
+        "dd"
+      ],
+      [
+        1,
+        "tt"
+      ],
+      [
+        0,
+        "en vorſpoet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "dé"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vn̄de hadden vorspoet na der prophedē",
+    "wer": 42.857142857142854,
+    "cer": 11.904761904761903,
+    "accuracy": 88.37209302325581,
+    "time": 2.463932752609253,
+    "diffs": [
+      [
+        0,
+        "mert vn"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        "de hadden vor"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "poet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "dē"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden voctſpoet na der propheđē",
+    "wer": 28.57142857142857,
+    "cer": 11.904761904761903,
+    "accuracy": 90.47619047619048,
+    "time": 2.303302049636841,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ct"
+      ],
+      [
+        0,
+        "ſpoet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "đē"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "mert vnde hadden vorſpoet na der propheciẽ",
+    "response": "mert vnde hadden vorſpoet na der prophedie",
+    "wer": 14.285714285714285,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 2.6438028812408447,
+    "diffs": [
+      [
+        0,
+        "mert vnde hadden vorſpoet na der prophe"
+      ],
+      [
+        -1,
+        "ciẽ"
+      ],
+      [
+        1,
+        "die"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  }
+}

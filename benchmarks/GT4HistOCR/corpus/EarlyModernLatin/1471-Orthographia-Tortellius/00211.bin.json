@@ -1,0 +1,1736 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penat: quia in fine ſyllabæ notare nõ poterat: ideo eius ipſam b líam poluerit. Idéq3",
+    "wer": 40.0,
+    "cer": 16.27906976744186,
+    "accuracy": 86.04651162790698,
+    "time": 1.2934160232543945,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "t: quia in fine ſyllabæ "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "no"
+      ],
+      [
+        0,
+        "tare nõ poterat: "
+      ],
+      [
+        -1,
+        "loc"
+      ],
+      [
+        1,
+        "ide"
+      ],
+      [
+        0,
+        "o eius ipſam b l"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "am po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "uer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽq;"
+      ],
+      [
+        1,
+        "éq3"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 13,
+    "insertions": 12
+  },
+  "mistral-small": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "perſt: quia in fine ſyllabæ ſtare no poterat: loco eius ipſam b lĭam poſuerunt. Idĕq",
+    "wer": 33.33333333333333,
+    "cer": 10.465116279069768,
+    "accuracy": 90.69767441860465,
+    "time": 8.389389038085938,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "in"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t: quia in fine ſyllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poterat: loco eius ipſam b l"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        "ĭ"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "un"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽq;"
+      ],
+      [
+        1,
+        "ĕq"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "spotlight": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penat:quia in fine syllabæ ſtare nó poterat:loco eius ipſam blam poſuerit. Idéq;",
+    "wer": 66.66666666666666,
+    "cer": 13.953488372093023,
+    "accuracy": 87.20930232558139,
+    "time": 1.7198388576507568,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quia in fine "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "yllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " poterat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "loco eius ipſam b"
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 12,
+    "insertions": 6
+  },
+  "gpt-4.1": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "permt: quia in fine ſyllabæ ſtare nō poterat: loco eius ipſam bſram poſuit. Ideōq;",
+    "wer": 40.0,
+    "cer": 12.790697674418606,
+    "accuracy": 88.37209302325581,
+    "time": 2.52639102935791,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "in"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "t: quia in fine ſyllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poterat: loco eius ipſam b"
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "ſr"
+      ],
+      [
+        0,
+        "am poſu"
+      ],
+      [
+        -1,
+        "er̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "eō"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 11,
+    "insertions": 7
+  },
+  "gpt-4o": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "pernſe: quia in fine ȝyllabae ſtare nō poteꝛat: loco eius ipſam īram poſuerit. Ideǫ;",
+    "wer": 53.333333333333336,
+    "cer": 17.441860465116278,
+    "accuracy": 84.88372093023256,
+    "time": 2.8936803340911865,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "int"
+      ],
+      [
+        1,
+        "nſe"
+      ],
+      [
+        0,
+        ": quia in fine "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ȝ"
+      ],
+      [
+        0,
+        "yllab"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " pote"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ꝛ"
+      ],
+      [
+        0,
+        "at: loco eius ipſam "
+      ],
+      [
+        -1,
+        "b lr̃"
+      ],
+      [
+        1,
+        "īr"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽq"
+      ],
+      [
+        1,
+        "eǫ"
+      ],
+      [
+        0,
+        ";"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 15,
+    "insertions": 13
+  },
+  "claude-4-sonnet": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "pertat: quia in fine ſyllabæ ſtare nō poterat: loco eius ipſam b lſam poſuerit. Ideq;",
+    "wer": 33.33333333333333,
+    "cer": 8.13953488372093,
+    "accuracy": 91.86046511627907,
+    "time": 4.459128141403198,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "in"
+      ],
+      [
+        1,
+        "ta"
+      ],
+      [
+        0,
+        "t: quia in fine ſyllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poterat: loco eius ipſam b l"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "pennt:quia in fine fyllaba ſtare nó poterat:loco eius iplam b lram poſuerit. Idéq;",
+    "wer": 66.66666666666666,
+    "cer": 12.790697674418606,
+    "accuracy": 87.20930232558139,
+    "time": 2.2271201610565186,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "nt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quia in fine "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "yllab"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " poterat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "loco eius ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "am b lr"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 11,
+    "insertions": 7
+  },
+  "gemini-2.5-flash": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penac: quia un fine ſyllabæ ſtabare nō poterat: loco eiufipſam bĺram poſuerit. Idéoꝓ",
+    "wer": 66.66666666666666,
+    "cer": 19.767441860465116,
+    "accuracy": 83.72093023255815,
+    "time": 18.399044036865234,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "rint"
+      ],
+      [
+        1,
+        "nac"
+      ],
+      [
+        0,
+        ": quia "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "n fine ſyllabæ ſta"
+      ],
+      [
+        1,
+        "ba"
+      ],
+      [
+        0,
+        "re n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poterat: loco eiu"
+      ],
+      [
+        -1,
+        "s "
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ipſam b"
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "ĺr"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽq;"
+      ],
+      [
+        1,
+        "éoꝓ"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 16,
+    "insertions": 14
+  },
+  "claude-4-opus": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "pennt: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lrãm poſuerit. Idẽqʒ",
+    "wer": 26.666666666666668,
+    "cer": 6.976744186046512,
+    "accuracy": 93.02325581395348,
+    "time": 7.453365087509155,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "nt: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr"
+      ],
+      [
+        -1,
+        "̃a"
+      ],
+      [
+        1,
+        "ã"
+      ],
+      [
+        0,
+        "m poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Idẽq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ʒ"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penit: quia in fine ſyllabæ ſtare nō poterāt: loco eius ipſam bſiram poſuērt. Idēoq̄",
+    "wer": 46.666666666666664,
+    "cer": 13.953488372093023,
+    "accuracy": 87.20930232558139,
+    "time": 21.67585277557373,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t: quia in fine ſyllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poter"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "t: loco eius ipſam b"
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "ſir"
+      ],
+      [
+        0,
+        "am poſu"
+      ],
+      [
+        -1,
+        "er̃"
+      ],
+      [
+        1,
+        "ēr"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽq;"
+      ],
+      [
+        1,
+        "ēoq̄"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 14,
+    "insertions": 12
+  },
+  "gemini-2.5-pro": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penat:quia un ſine ſyllabæ ſtare nõ poterat:loco eius ipſam bírám poſuerit. Idéq;",
+    "wer": 66.66666666666666,
+    "cer": 15.11627906976744,
+    "accuracy": 86.04651162790698,
+    "time": 46.09720540046692,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quia "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ine ſyllabæ ſtare nõ poterat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "loco eius ipſam b"
+      ],
+      [
+        -1,
+        " lr̃a"
+      ],
+      [
+        1,
+        "írá"
+      ],
+      [
+        0,
+        "m poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 13,
+    "insertions": 8
+  },
+  "gpt-5-mini": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "perint: quia in fine ſyllabæ ſtare nō poterat: loco eius ipſam libram poſuerit. Ideoq;",
+    "wer": 33.33333333333333,
+    "cer": 9.30232558139535,
+    "accuracy": 93.02325581395348,
+    "time": 23.790133237838745,
+    "diffs": [
+      [
+        0,
+        "perint: quia in fine ſyllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poterat: loco eius ipſam "
+      ],
+      [
+        -1,
+        "b lr̃"
+      ],
+      [
+        1,
+        "libr"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "eo"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gpt-5": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "ponit: quia in fine ſyllabæ ſtare nō poterat: loco eius ipſam b literam poſuerit. Ideq;",
+    "wer": 33.33333333333333,
+    "cer": 11.627906976744185,
+    "accuracy": 90.80459770114942,
+    "time": 131.9095311164856,
+    "diffs": [
+      [
+        0,
+        "p"
+      ],
+      [
+        -1,
+        "erin"
+      ],
+      [
+        1,
+        "oni"
+      ],
+      [
+        0,
+        "t: quia in fine ſyllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poterat: loco eius ipſam b l"
+      ],
+      [
+        1,
+        "ite"
+      ],
+      [
+        0,
+        "r"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "glm-4.5v": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "pennt:quia in fine fyllabæ ftare nō poterat:loco eius ipfam b líam pofueit. Idēq;",
+    "wer": 73.33333333333333,
+    "cer": 16.27906976744186,
+    "accuracy": 83.72093023255815,
+    "time": 5.02396297454834,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "nt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quia in fine "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "yllabæ "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poterat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "loco eius ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "am b l"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "am po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ue"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 14,
+    "insertions": 9
+  },
+  "mistral-medium-3.1": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "perſæquia in fine ſyllaba stare no poterat: loco eius ipſam b liam poſuereſt. Idéq;",
+    "wer": 53.333333333333336,
+    "cer": 15.11627906976744,
+    "accuracy": 86.04651162790698,
+    "time": 2.2052159309387207,
+    "diffs": [
+      [
+        0,
+        "per"
+      ],
+      [
+        -1,
+        "int: "
+      ],
+      [
+        1,
+        "ſæ"
+      ],
+      [
+        0,
+        "quia in fine ſyllab"
+      ],
+      [
+        -1,
+        "æ ſ"
+      ],
+      [
+        1,
+        "a s"
+      ],
+      [
+        0,
+        "tare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poterat: loco eius ipſam b l"
+      ],
+      [
+        -1,
+        "r̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "eſ"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 13,
+    "insertions": 10
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penat: quia in fine Syllabae itare no poterat: loco eius ipsam b Iram posuerit. Idęqy",
+    "wer": 53.333333333333336,
+    "cer": 17.441860465116278,
+    "accuracy": 84.88372093023256,
+    "time": 2.7273149490356445,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "t: quia in fine "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "yllab"
+      ],
+      [
+        -1,
+        "æ ſ"
+      ],
+      [
+        1,
+        "ae i"
+      ],
+      [
+        0,
+        "tare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " poterat: loco eius ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "am b "
+      ],
+      [
+        -1,
+        "lr̃"
+      ],
+      [
+        1,
+        "Ir"
+      ],
+      [
+        0,
+        "am po"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "uer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽq;"
+      ],
+      [
+        1,
+        "ęqy"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 16,
+    "insertions": 15
+  },
+  "cogito-v2-109b": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penat:quia in fine fyllabæ ſtare non poterat:loco eius ipſam blamam poſuerit. Idéog",
+    "wer": 66.66666666666666,
+    "cer": 17.441860465116278,
+    "accuracy": 84.88372093023256,
+    "time": 1.647156000137329,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quia in fine "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "yllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "on"
+      ],
+      [
+        0,
+        " poterat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "loco eius ipſam b"
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lam"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽq;"
+      ],
+      [
+        1,
+        "éog"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 14,
+    "insertions": 11
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "perint: quia in fine ſyllabæ ſtare nõ poterat: loco eius ipſam b lr̃am poſuer̃t. Idẽq;",
+    "response": "penat:quia in fine ſyllabæ ſtare nō poterat:loco eius ipſam b lram poſuert. Idéq;",
+    "wer": 53.333333333333336,
+    "cer": 10.465116279069768,
+    "accuracy": 90.69767441860465,
+    "time": 3.0004541873931885,
+    "diffs": [
+      [
+        0,
+        "pe"
+      ],
+      [
+        -1,
+        "ri"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quia in fine ſyllabæ ſtare n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " poterat:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "loco eius ipſam b lr"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "am poſuer"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "t. Id"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "q;"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 8,
+    "insertions": 3
+  }
+}

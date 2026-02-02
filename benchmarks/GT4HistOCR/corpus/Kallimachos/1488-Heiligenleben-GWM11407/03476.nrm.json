@@ -1,0 +1,1262 @@
+{
+  "spotlight": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach ſaer ſenoſch hertzog was. In ſe trat",
+    "wer": 77.77777777777779,
+    "cer": 23.25581395348837,
+    "accuracy": 79.06976744186046,
+    "time": 1.7961747646331787,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "ſa"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "no"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "mistral-small": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "ſchach ſa er ſénoch hertzog was. In dé trat",
+    "wer": 55.55555555555556,
+    "cer": 13.953488372093023,
+    "accuracy": 86.04651162790698,
+    "time": 1.91184401512146,
+    "diffs": [
+      [
+        0,
+        "ſchach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſé"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gpt-4o": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach Da er ſenoch hertſog was. In ſeinem",
+    "wer": 77.77777777777779,
+    "cer": 30.23255813953488,
+    "accuracy": 69.76744186046511,
+    "time": 2.154879331588745,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "dẽ trat"
+      ],
+      [
+        1,
+        "ſeinem"
+      ]
+    ],
+    "matches": 30,
+    "deletions": 13,
+    "insertions": 12
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach Daer ſenoch hertzog was. In ſetrat",
+    "wer": 88.88888888888889,
+    "cer": 23.25581395348837,
+    "accuracy": 76.74418604651163,
+    "time": 2.404660940170288,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Da"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "dẽ "
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "trat"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "gpt-4.1": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach Daer ſenoch hertzog was. In ſe̅ trat",
+    "wer": 77.77777777777779,
+    "cer": 23.25581395348837,
+    "accuracy": 79.06976744186046,
+    "time": 2.4496970176696777,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Da"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſe̅"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "claude-4-sonnet": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "ſchach da er Jenoch hertzog was. Jn de trat",
+    "wer": 33.33333333333333,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 3.3816020488739014,
+    "diffs": [
+      [
+        0,
+        "ſchach da er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "Je"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. Jn d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "ſchach da er denoch hertzog was. In dē trat",
+    "wer": 44.44444444444444,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 4.942867279052734,
+    "diffs": [
+      [
+        0,
+        "ſchach da er d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Fchach Saer Senoch hert3og was. Jn dẽ trat",
+    "wer": 55.55555555555556,
+    "cer": 13.953488372093023,
+    "accuracy": 86.04651162790698,
+    "time": 11.370743751525879,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "chach "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "Sa"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "Se"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "3"
+      ],
+      [
+        0,
+        "og was. Jn dẽ trat"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach daer denoch hertzog was. In de trat",
+    "wer": 77.77777777777779,
+    "cer": 13.953488372093023,
+    "accuracy": 86.04651162790698,
+    "time": 10.54150128364563,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach daß er denoch hertzog was. In die trat",
+    "wer": 66.66666666666666,
+    "cer": 16.27906976744186,
+    "accuracy": 84.44444444444444,
+    "time": 81.50342106819153,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach da"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        " er d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ie"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "glm-4.5v": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach daer Enoch hertzog was. In detrat",
+    "wer": 88.88888888888889,
+    "cer": 18.6046511627907,
+    "accuracy": 81.3953488372093,
+    "time": 6.94914984703064,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "E"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n d"
+      ],
+      [
+        -1,
+        "ẽ "
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "trat"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schabß Daer Senoch hertzog was. In Sētrat",
+    "wer": 88.88888888888889,
+    "cer": 27.906976744186046,
+    "accuracy": 72.09302325581395,
+    "time": 13.216592073440552,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "cha"
+      ],
+      [
+        -1,
+        "ch da "
+      ],
+      [
+        1,
+        "bß Da"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "Se"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "dẽ "
+      ],
+      [
+        1,
+        "Sē"
+      ],
+      [
+        0,
+        "trat"
+      ]
+    ],
+    "matches": 29,
+    "deletions": 14,
+    "insertions": 12
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "ſchach daer ſenoch hertzog was. In deſſtrat",
+    "wer": 77.77777777777779,
+    "cer": 18.6046511627907,
+    "accuracy": 83.72093023255815,
+    "time": 1.4322266578674316,
+    "diffs": [
+      [
+        0,
+        "ſchach da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n d"
+      ],
+      [
+        -1,
+        "ẽ "
+      ],
+      [
+        1,
+        "eſſ"
+      ],
+      [
+        0,
+        "trat"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Ǝchach ȳaer Ȼēnoch ehrtzog was. Jn ȼē trat",
+    "wer": 66.66666666666666,
+    "cer": 23.25581395348837,
+    "accuracy": 79.06976744186046,
+    "time": 2.5316128730773926,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "Ǝ"
+      ],
+      [
+        0,
+        "chach "
+      ],
+      [
+        -1,
+        "da "
+      ],
+      [
+        1,
+        "ȳa"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "Ȼē"
+      ],
+      [
+        0,
+        "noch "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        0,
+        "e"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "rt"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. Jn "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "ȼē"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "cogito-v2-109b": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "[FchachSaer Gënöch bert3ög \"as. Зn Dë trat",
+    "wer": 88.88888888888889,
+    "cer": 34.883720930232556,
+    "accuracy": 67.44186046511628,
+    "time": 1.9669928550720215,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "[F"
+      ],
+      [
+        0,
+        "chach"
+      ],
+      [
+        -1,
+        " da er dẽno"
+      ],
+      [
+        1,
+        "Saer Gënö"
+      ],
+      [
+        0,
+        "ch "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒo"
+      ],
+      [
+        1,
+        "3ö"
+      ],
+      [
+        0,
+        "g "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "\""
+      ],
+      [
+        0,
+        "as. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "З"
+      ],
+      [
+        0,
+        "n "
+      ],
+      [
+        -1,
+        "dẽ"
+      ],
+      [
+        1,
+        "Dë"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 24,
+    "deletions": 19,
+    "insertions": 18
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſchach da er dẽnoch hertʒog was. Jn dẽ trat",
+    "response": "Schach da er denoch hertzog was. In de trat",
+    "wer": 55.55555555555556,
+    "cer": 11.627906976744185,
+    "accuracy": 88.37209302325581,
+    "time": 32.89463973045349,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "chach da er d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "noch hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og was. "
+      ],
+      [
+        -1,
+        "J"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "n d"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " trat"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 5,
+    "insertions": 5
+  }
+}

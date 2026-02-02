@@ -1,0 +1,665 @@
+{
+  "mistral-small": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis: deinde, quod",
+    "wer": 12.5,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4126984126984,
+    "time": 1.229048252105713,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis: deinde, qu"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "d"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis : deinde,quòd",
+    "wer": 37.5,
+    "cer": 3.1746031746031744,
+    "accuracy": 98.4126984126984,
+    "time": 1.4561131000518799,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quòd"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.021947145462036,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis: deinde, quòd"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "triam accipientibus, non facientibus,opem feretis : deinde,quòd",
+    "wer": 75.0,
+    "cer": 6.349206349206349,
+    "accuracy": 96.82539682539682,
+    "time": 2.054535150527954,
+    "diffs": [
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "riam accipientibus, non facientibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quòd"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis : deinde, quòd",
+    "wer": 25.0,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4375,
+    "time": 2.3012218475341797,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde, quòd"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.384444236755371,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis: deinde, quòd"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.5400729179382324,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis: deinde, quòd"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis: deinde, quod",
+    "wer": 12.5,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4126984126984,
+    "time": 3.599069833755493,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis: deinde, qu"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "d"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "ríam accipientibus, non facientibus opem feretís: deinde, quòd",
+    "wer": 37.5,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 5.8123459815979,
+    "diffs": [
+      [
+        0,
+        "r"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "am accipientibus, non facientibus"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        0,
+        " opem feret"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "s: deinde, quòd"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis : deinde, quòd",
+    "wer": 25.0,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4375,
+    "time": 17.23221516609192,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde, quòd"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipiéntibus, non faciéntibus opem ferétis : deinde, quòd",
+    "wer": 50.0,
+    "cer": 7.936507936507936,
+    "accuracy": 93.65079365079364,
+    "time": 41.87418818473816,
+    "diffs": [
+      [
+        0,
+        "riam accipi"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "ntibus, non faci"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "ntibus"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        0,
+        " opem fer"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde, quòd"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus,opem feretis: deinde, quod",
+    "wer": 37.5,
+    "cer": 3.1746031746031744,
+    "accuracy": 96.82539682539682,
+    "time": 19.30004596710205,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "opem feretis: deinde, qu"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "d"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus,opem feretis: deinde,quòd",
+    "wer": 50.0,
+    "cer": 3.1746031746031744,
+    "accuracy": 96.82539682539682,
+    "time": 33.41079521179199,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "opem feretis: deinde,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quòd"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis : deinde, quod",
+    "wer": 37.5,
+    "cer": 3.1746031746031744,
+    "accuracy": 96.875,
+    "time": 4.002009868621826,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde, qu"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "d"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis : deinde, quod",
+    "wer": 37.5,
+    "cer": 3.1746031746031744,
+    "accuracy": 96.875,
+    "time": 1.5021519660949707,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde, qu"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "d"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus,opēm feretis: deinde,quōḍ",
+    "wer": 50.0,
+    "cer": 7.936507936507936,
+    "accuracy": 92.06349206349206,
+    "time": 1.884160041809082,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "op"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "m feretis: deinde,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "òd"
+      ],
+      [
+        1,
+        "ōḍ"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "iam accipientibus, non facientibus, opem feret : deinde, quod",
+    "wer": 50.0,
+    "cer": 6.349206349206349,
+    "accuracy": 93.65079365079364,
+    "time": 50.92487597465515,
+    "diffs": [
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        "iam accipientibus, non facientibus, opem feret"
+      ],
+      [
+        -1,
+        "is"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde, qu"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "d"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus,opem feretis : deinde,quòd",
+    "wer": 62.5,
+    "cer": 4.761904761904762,
+    "accuracy": 96.82539682539682,
+    "time": 1.4424140453338623,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quòd"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "riam accipientibus, non facientibus, opem feretis: deinde, quòd",
+    "response": "riam accipientibus, non facientibus, opem feretis : deinde, quòd",
+    "wer": 25.0,
+    "cer": 1.5873015873015872,
+    "accuracy": 98.4375,
+    "time": 2.14689302444458,
+    "diffs": [
+      [
+        0,
+        "riam accipientibus, non facientibus, opem feretis"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": deinde, quòd"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 0,
+    "insertions": 1
+  }
+}

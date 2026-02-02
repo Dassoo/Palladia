@@ -1,0 +1,1214 @@
+{
+  "spotlight": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit du mich überwindest. Dasprach er wziſt",
+    "wer": 55.55555555555556,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 1.6566429138183594,
+    "diffs": [
+      [
+        0,
+        "mit du mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t. Da"
+      ],
+      [
+        -1,
+        " ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ "
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "iſt"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Du mich überwindetſt. Da ſprach er waz iſt",
+    "wer": 44.44444444444444,
+    "cer": 13.636363636363635,
+    "accuracy": 86.95652173913044,
+    "time": 1.6991071701049805,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "ſt. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "az"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Du mich vberwindeſt. Daſprach er wz iſt",
+    "wer": 44.44444444444444,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 1.8126940727233887,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "u mich vberwindeſt. Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit ſu mich überwindest: Da ſprach er vß iſt",
+    "wer": 44.44444444444444,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 1.9628219604492188,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſt."
+      ],
+      [
+        1,
+        "st:"
+      ],
+      [
+        0,
+        " Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er "
+      ],
+      [
+        -1,
+        "wʒ"
+      ],
+      [
+        1,
+        "vß"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gpt-4o": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "nit du mich uberwindest: Daſprach er vnd iſt",
+    "wer": 55.55555555555556,
+    "cer": 20.454545454545457,
+    "accuracy": 81.81818181818183,
+    "time": 3.068776845932007,
+    "diffs": [
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it du mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſt."
+      ],
+      [
+        1,
+        "st:"
+      ],
+      [
+        0,
+        " Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er "
+      ],
+      [
+        -1,
+        "wʒ"
+      ],
+      [
+        1,
+        "vnd"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "claude-4-sonnet": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mir Ju mich yberwindeſt: Da ſprach er wz iſt",
+    "wer": 55.55555555555556,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 3.443831205368042,
+    "diffs": [
+      [
+        0,
+        "mi"
+      ],
+      [
+        -1,
+        "t d"
+      ],
+      [
+        1,
+        "r J"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        "berwindeſt"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "claude-4-opus": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit dir mich vberwindeſt. Da ſprach er wz iſt",
+    "wer": 33.33333333333333,
+    "cer": 9.090909090909092,
+    "accuracy": 91.11111111111111,
+    "time": 5.413086891174316,
+    "diffs": [
+      [
+        0,
+        "mit d"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ir"
+      ],
+      [
+        0,
+        " mich vberwindeſt. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Du mich oberwindelt. Daſprach er wz ift",
+    "wer": 66.66666666666666,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 11.099864959716797,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "t. Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit du mich, überwindeſt. Da sprach er wez iſt",
+    "wer": 44.44444444444444,
+    "cer": 13.636363636363635,
+    "accuracy": 86.95652173913044,
+    "time": 15.874597072601318,
+    "diffs": [
+      [
+        0,
+        "mit du mich"
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        ", ü"
+      ],
+      [
+        0,
+        "berwindeſt. Da "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "ez"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 8
+  },
+  "gpt-5": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Du mich, überwindeſt: Daſprach er waß iſt",
+    "wer": 66.66666666666666,
+    "cer": 18.181818181818183,
+    "accuracy": 84.44444444444444,
+    "time": 93.30578470230103,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "u mich"
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        ", ü"
+      ],
+      [
+        0,
+        "berwindeſt"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "aß"
+      ],
+      [
+        0,
+        " iſt"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "glm-4.5v": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Du mich überwindeſt. Da ſprach er w3iſt",
+    "wer": 55.55555555555556,
+    "cer": 11.363636363636363,
+    "accuracy": 88.63636363636364,
+    "time": 5.940898895263672,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwindeſt. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ "
+      ],
+      [
+        1,
+        "3"
+      ],
+      [
+        0,
+        "iſt"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Zu mich oͤberwindest. Daſpach er ruͤ ist",
+    "wer": 66.66666666666666,
+    "cer": 22.727272727272727,
+    "accuracy": 81.81818181818183,
+    "time": 5.3047027587890625,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Z"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "oͤ"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t. Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        0,
+        "ach er "
+      ],
+      [
+        -1,
+        "wʒ"
+      ],
+      [
+        1,
+        "ruͤ"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "mistral-medium-3.1": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Du mich überwindest. Da ſprach er wz ift",
+    "wer": 55.55555555555556,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 1.2123157978057861,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t. Da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit du mich überwindest. Das sprach er woz ist",
+    "wer": 55.55555555555556,
+    "cer": 18.181818181818183,
+    "accuracy": 82.6086956521739,
+    "time": 2.8591558933258057,
+    "diffs": [
+      [
+        0,
+        "mit du mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t. Da"
+      ],
+      [
+        -1,
+        " ſpꝛ"
+      ],
+      [
+        1,
+        "s spr"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "oz"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 10
+  },
+  "cogito-v2-109b": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit Du mich überwindest. Da sprach er was ift",
+    "wer": 55.55555555555556,
+    "cer": 18.181818181818183,
+    "accuracy": 82.22222222222221,
+    "time": 1.6080100536346436,
+    "diffs": [
+      [
+        0,
+        "mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "u mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t. Da "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "as"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "mit du mich vberwindeſt. Da ſpꝛach er wʒ iſt",
+    "response": "mit du mich überwindest. Da sprach er wz ist",
+    "wer": 44.44444444444444,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 4.14874005317688,
+    "diffs": [
+      [
+        0,
+        "mit du mich "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "berwinde"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t. Da "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach er w"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 7
+  }
+}

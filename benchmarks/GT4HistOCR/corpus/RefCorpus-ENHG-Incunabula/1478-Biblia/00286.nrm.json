@@ -1,0 +1,654 @@
+{
+  "mistral-small": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare gheleſen voer my vii va",
+    "wer": 25.0,
+    "cer": 7.317073170731707,
+    "accuracy": 92.85714285714286,
+    "time": 1.235978364944458,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare gheleſen voer my v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ii"
+      ],
+      [
+        0,
+        " v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare ghelesen voet my vn vã",
+    "wer": 37.5,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 1.504974126815796,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare ghele"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "en voe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " my v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " vã"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbꝛt is apenbare ghelesen voer my vñ v⁀.",
+    "wer": 37.5,
+    "cer": 9.75609756097561,
+    "accuracy": 90.47619047619048,
+    "time": 2.0504441261291504,
+    "diffs": [
+      [
+        0,
+        "hebb"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ꝛ"
+      ],
+      [
+        0,
+        "t is apenbare ghele"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "en voer my vñ v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "⁀."
+      ]
+    ],
+    "matches": 38,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare gheleſen voer my vñ va",
+    "wer": 12.5,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 2.328840970993042,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare gheleſen voer my vñ v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebber is apenbare gheleſen voer my vri vā",
+    "wer": 37.5,
+    "cer": 9.75609756097561,
+    "accuracy": 90.47619047619048,
+    "time": 3.141400098800659,
+    "diffs": [
+      [
+        0,
+        "hebbe"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " is apenbare gheleſen voer my v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ri"
+      ],
+      [
+        0,
+        " v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebber is apenbare gheleſen voer my nñ vã",
+    "wer": 25.0,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 3.7069759368896484,
+    "diffs": [
+      [
+        0,
+        "hebbe"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " is apenbare gheleſen voer my "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "ñ vã"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare ghelesen voet my vñ vã",
+    "wer": 25.0,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 3.709197759628296,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare ghele"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "en voe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " my vñ vã"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "llama-4-maverick-17b": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare ghelesen voet my vñ vã",
+    "wer": 25.0,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 9.957464933395386,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare ghele"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "en voe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " my vñ vã"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare gheleſen voer my vn vã",
+    "wer": 12.5,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 19.404226779937744,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare gheleſen voer my v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " vã"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare gheleſen voer my vñ vā.",
+    "wer": 12.5,
+    "cer": 4.878048780487805,
+    "accuracy": 95.23809523809523,
+    "time": 80.80613803863525,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare gheleſen voer my vñ v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā."
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare gheleſen voet my vñ va",
+    "wer": 25.0,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 3.7037620544433594,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare gheleſen voe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " my vñ v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare gheleſen voer my vīi vā.",
+    "wer": 25.0,
+    "cer": 9.75609756097561,
+    "accuracy": 90.69767441860465,
+    "time": 6.359523057937622,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare gheleſen voer my v"
+      ],
+      [
+        -1,
+        "ñ vã"
+      ],
+      [
+        1,
+        "īi vā."
+      ]
+    ],
+    "matches": 37,
+    "deletions": 4,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet iſapenbare gheleſen voor my vïi vâ",
+    "wer": 62.5,
+    "cer": 14.634146341463413,
+    "accuracy": 87.8048780487805,
+    "time": 1.60642409324646,
+    "diffs": [
+      [
+        0,
+        "hebbet i"
+      ],
+      [
+        -1,
+        "s "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "apenbare gheleſen vo"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "r my v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ïi"
+      ],
+      [
+        0,
+        " v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare ghelesen voet my vi va͞",
+    "wer": 50.0,
+    "cer": 12.195121951219512,
+    "accuracy": 88.09523809523809,
+    "time": 2.2000932693481445,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare ghele"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "en voe"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " my v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a͞"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare ghelesen voer my vñ vā",
+    "wer": 25.0,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 1.960468053817749,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare ghele"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "en voer my vñ v"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "hebbet is apenbare gheleſen voer my vñ vã",
+    "response": "hebbet is apenbare ghelefen voer my vn vã",
+    "wer": 25.0,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 1.9865291118621826,
+    "diffs": [
+      [
+        0,
+        "hebbet is apenbare ghele"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "en voer my v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " vã"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

@@ -1,0 +1,1006 @@
+{
+  "spotlight": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er thun solt ſt er got wuol geuiel. Da sprach er.",
+    "wer": 45.45454545454545,
+    "cer": 14.583333333333334,
+    "accuracy": 85.71428571428571,
+    "time": 1.4353001117706299,
+    "diffs": [
+      [
+        0,
+        "er thun "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "olt "
+      ],
+      [
+        -1,
+        "dʒ"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        " er got w"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "ol geuiel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "gpt-4o": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "x̄ thu ſolt ꝓ er got wol geuiel. Da ſprach er.",
+    "wer": 45.45454545454545,
+    "cer": 14.583333333333334,
+    "accuracy": 85.41666666666666,
+    "time": 3.2944281101226807,
+    "diffs": [
+      [
+        -1,
+        "er"
+      ],
+      [
+        1,
+        "x̄"
+      ],
+      [
+        0,
+        " thu"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        " ſolt "
+      ],
+      [
+        -1,
+        "dʒ"
+      ],
+      [
+        1,
+        "ꝓ"
+      ],
+      [
+        0,
+        " er got wol geuiel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er thun ſolt Iż er got wol geviel. Da ſprach er.",
+    "wer": 36.36363636363637,
+    "cer": 10.416666666666668,
+    "accuracy": 89.58333333333334,
+    "time": 1.9124889373779297,
+    "diffs": [
+      [
+        0,
+        "er thun ſolt "
+      ],
+      [
+        -1,
+        "dʒ"
+      ],
+      [
+        1,
+        "Iż"
+      ],
+      [
+        0,
+        " er got wol ge"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 43,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "llama-4-maverick-17b": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er thun folt Dz er got wol geuiel.Da fpzach er.",
+    "wer": 45.45454545454545,
+    "cer": 14.583333333333334,
+    "accuracy": 85.41666666666666,
+    "time": 0.96238112449646,
+    "diffs": [
+      [
+        0,
+        "er thun "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "olt "
+      ],
+      [
+        -1,
+        "dʒ"
+      ],
+      [
+        1,
+        "Dz"
+      ],
+      [
+        0,
+        " er got wol geuiel."
+      ],
+      [
+        -1,
+        " da ſpꝛ"
+      ],
+      [
+        1,
+        "Da fpz"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 38,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "claude-4-opus": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "r thun ſolt. Vz er got wol geuiel. Ya ſprach er.",
+    "wer": 45.45454545454545,
+    "cer": 12.5,
+    "accuracy": 89.58333333333334,
+    "time": 3.4542388916015625,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "r thun ſolt"
+      ],
+      [
+        -1,
+        " dʒ"
+      ],
+      [
+        1,
+        ". Vz"
+      ],
+      [
+        0,
+        " er got wol geuiel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Y"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 42,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er thun ſolt Jz er got wol geviel. Ja ſprach er.",
+    "wer": 36.36363636363637,
+    "cer": 10.416666666666668,
+    "accuracy": 89.58333333333334,
+    "time": 3.2988688945770264,
+    "diffs": [
+      [
+        0,
+        "er thun ſolt "
+      ],
+      [
+        -1,
+        "dʒ"
+      ],
+      [
+        1,
+        "Jz"
+      ],
+      [
+        0,
+        " er got wol ge"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 43,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "Er thun ſolt ſer got wol geniel. ſa ſprach er.",
+    "wer": 54.54545454545454,
+    "cer": 14.583333333333334,
+    "accuracy": 85.41666666666666,
+    "time": 1.3048210144042969,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "E"
+      ],
+      [
+        0,
+        "r thun ſolt "
+      ],
+      [
+        -1,
+        "dʒ "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er got wol ge"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er thun ſolt Izer got wool geuiel.Da ſprach er.",
+    "wer": 54.54545454545454,
+    "cer": 14.583333333333334,
+    "accuracy": 87.5,
+    "time": 1.817594289779663,
+    "diffs": [
+      [
+        0,
+        "er thun ſolt "
+      ],
+      [
+        -1,
+        "dʒ "
+      ],
+      [
+        1,
+        "Iz"
+      ],
+      [
+        0,
+        "er got wo"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "l geuiel."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 42,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "r thun ſolt da er got wol geuiel. Da ſprach er.",
+    "wer": 36.36363636363637,
+    "cer": 8.333333333333332,
+    "accuracy": 91.66666666666666,
+    "time": 21.872705936431885,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "r thun ſolt d"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " er got wol geuiel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 44,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er thun ſolt daß er got wol gefiel. Da ſprach er.",
+    "wer": 36.36363636363637,
+    "cer": 10.416666666666668,
+    "accuracy": 89.79591836734694,
+    "time": 32.702515840530396,
+    "diffs": [
+      [
+        0,
+        "er thun ſolt d"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "aß"
+      ],
+      [
+        0,
+        " er got wol ge"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "iel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 44,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "glm-4.5v": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "r ſthun ſolſt Dz er got wol geuiel.da ſpzach er.",
+    "wer": 63.63636363636363,
+    "cer": 14.583333333333334,
+    "accuracy": 89.58333333333334,
+    "time": 4.788094997406006,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "r "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "thun ſol"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "dʒ"
+      ],
+      [
+        1,
+        "Dz"
+      ],
+      [
+        0,
+        " er got wol geuiel."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "da ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 43,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er ſithun ſoll Szer got wolgewiel. Sa ſprach er.",
+    "wer": 72.72727272727273,
+    "cer": 20.833333333333336,
+    "accuracy": 83.33333333333334,
+    "time": 11.104416131973267,
+    "diffs": [
+      [
+        0,
+        "er "
+      ],
+      [
+        1,
+        "ſi"
+      ],
+      [
+        0,
+        "thun ſol"
+      ],
+      [
+        -1,
+        "t dʒ "
+      ],
+      [
+        1,
+        "l Sz"
+      ],
+      [
+        0,
+        "er got wol"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ge"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "iel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 39,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "mistral-medium-3.1": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "x thun ſolt er got wol geuiel. Da ſprach er.",
+    "wer": 36.36363636363637,
+    "cer": 14.583333333333334,
+    "accuracy": 85.41666666666666,
+    "time": 1.495116949081421,
+    "diffs": [
+      [
+        -1,
+        "er"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        " thun ſolt "
+      ],
+      [
+        -1,
+        "dʒ "
+      ],
+      [
+        0,
+        "er got wol geuiel. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 41,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "ír thun sóft þer er got wol geuiel. Tha sprach er.",
+    "wer": 45.45454545454545,
+    "cer": 22.916666666666664,
+    "accuracy": 78.0,
+    "time": 2.6876261234283447,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "r thun "
+      ],
+      [
+        -1,
+        "ſolt dʒ"
+      ],
+      [
+        1,
+        "sóft þer"
+      ],
+      [
+        0,
+        " er got wol geuiel. "
+      ],
+      [
+        -1,
+        "da ſpꝛ"
+      ],
+      [
+        1,
+        "Tha spr"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 34,
+    "deletions": 14,
+    "insertions": 16
+  },
+  "cogito-v2-109b": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "r thun folt Đzer got wol geuiel.Đa fprach er.",
+    "wer": 63.63636363636363,
+    "cer": 18.75,
+    "accuracy": 81.25,
+    "time": 2.203010082244873,
+    "diffs": [
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "r thun "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "olt "
+      ],
+      [
+        -1,
+        "dʒ "
+      ],
+      [
+        1,
+        "Đz"
+      ],
+      [
+        0,
+        "er got wol geuiel."
+      ],
+      [
+        -1,
+        " da ſpꝛ"
+      ],
+      [
+        1,
+        "Đa fpr"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 36,
+    "deletions": 12,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "er thun ſolt dʒ er got wol geuiel. da ſpꝛach er.",
+    "response": "er thun ſolt dz er got wol geuiel.Da ſprach er.",
+    "wer": 36.36363636363637,
+    "cer": 8.333333333333332,
+    "accuracy": 91.66666666666666,
+    "time": 35.71179485321045,
+    "diffs": [
+      [
+        0,
+        "er thun ſolt d"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " er got wol geuiel."
+      ],
+      [
+        -1,
+        " d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach er."
+      ]
+    ],
+    "matches": 44,
+    "deletions": 4,
+    "insertions": 3
+  }
+}

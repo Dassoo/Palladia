@@ -1,0 +1,593 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.1895370483398438,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "mistral-small": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos e uestra ditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 20.0,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 1.3495731353759766,
+    "diffs": [
+      [
+        0,
+        "ullos "
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tra ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.604896068572998,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum ſieri, aut etiam nobis",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.6062610149383545,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtraditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 20.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.8207838535308838,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum ſieri, aut etiam nobis",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.888469934463501,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos e ueſtra ditione mercenarios illorum ſteri, aut etiam nobis",
+    "wer": 20.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.38461538461539,
+    "time": 3.4637458324432373,
+    "diffs": [
+      [
+        0,
+        "ullos "
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " ueſtra ditione mercenarios illorum "
+      ],
+      [
+        -1,
+        "fi"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        "eri, aut etiam nobis"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.222358226776123,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos é ueſtra ditióne mercęnarios illorum fieri, aut etiam nobis",
+    "wer": 30.0,
+    "cer": 4.615384615384616,
+    "accuracy": 95.45454545454545,
+    "time": 8.934401035308838,
+    "diffs": [
+      [
+        0,
+        "ullos "
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ueſtra ditio"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        "ne merc"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ę"
+      ],
+      [
+        0,
+        "narios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "o4-mini": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis.",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.48484848484848,
+    "time": 15.497295141220093,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos e' ueſtra ditionė mercenariọs illorum fieri, aut etiám nobis",
+    "wer": 40.0,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.64705882352942,
+    "time": 51.44372367858887,
+    "diffs": [
+      [
+        0,
+        "ullos "
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e'"
+      ],
+      [
+        0,
+        " ueſtra ditione"
+      ],
+      [
+        1,
+        "̇"
+      ],
+      [
+        0,
+        " mercenario"
+      ],
+      [
+        1,
+        "̣"
+      ],
+      [
+        0,
+        "s illorum fieri, aut eti"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "m nobis"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis.",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.48484848484848,
+    "time": 14.894661903381348,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 35.32074189186096,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueftra ditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 10.069295167922974,
+    "diffs": [
+      [
+        0,
+        "ullos è ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tra ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditione mercenarios illorum fieri, autetiam nobis",
+    "wer": 20.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.3757400512695312,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra ditione mercenarios illorum fieri, aut"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "etiam nobis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueftra ditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 2.527189016342163,
+    "diffs": [
+      [
+        0,
+        "ullos è ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tra ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "grok-4": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos é uſ traditione mercenarios illorum fieri,aut etiam nobis",
+    "wer": 50.0,
+    "cer": 7.6923076923076925,
+    "accuracy": 93.84615384615384,
+    "time": 324.5572919845581,
+    "diffs": [
+      [
+        0,
+        "ullos "
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "ſ"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "tra"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ditione mercenarios illorum fieri,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "aut etiam nobis"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueſtra ditiōne mercenarios illorum fieri, aut etiam nobis",
+    "wer": 10.0,
+    "cer": 1.5384615384615385,
+    "accuracy": 98.46153846153847,
+    "time": 1.7386608123779297,
+    "diffs": [
+      [
+        0,
+        "ullos è ueſtra diti"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "ne mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ullos è ueſtra ditione mercenarios illorum fieri, aut etiam nobis",
+    "response": "ullos è ueltraditione mercenarios illorum fieri, aut etiam nobis",
+    "wer": 20.0,
+    "cer": 3.076923076923077,
+    "accuracy": 96.92307692307692,
+    "time": 2.0771398544311523,
+    "diffs": [
+      [
+        0,
+        "ullos è ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "tra"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ditione mercenarios illorum fieri, aut etiam nobis"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 2,
+    "insertions": 1
+  }
+}

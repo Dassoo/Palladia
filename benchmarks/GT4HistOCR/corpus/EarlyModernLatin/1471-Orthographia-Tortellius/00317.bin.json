@@ -1,0 +1,1652 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": ")oftendemus. pfertũ tamen fub uoce ipſius. g. ob cognationē litterarũ quẽadmodũ",
+    "wer": 45.45454545454545,
+    "cer": 11.538461538461538,
+    "accuracy": 89.87341772151899,
+    "time": 1.5458438396453857,
+    "diffs": [
+      [
+        -1,
+        "oſ"
+      ],
+      [
+        1,
+        ")of"
+      ],
+      [
+        0,
+        "tendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fert"
+      ],
+      [
+        -1,
+        "ur"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " tamen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ub uoce ipſius. g. ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rũ"
+      ],
+      [
+        0,
+        " quẽadmodũ"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "mistral-small": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "ostendemus. pfertur tamen ſub uoce ipsius. g. ob cognatione litterar. queadmodum",
+    "wer": 54.54545454545454,
+    "cer": 11.538461538461538,
+    "accuracy": 88.75,
+    "time": 1.556035041809082,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ius. g. ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "r."
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "um"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 9
+  },
+  "spotlight": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus.pfertur tamen ſub uoce ipſius.g.ob cognatione litterarũ quæadmodũ",
+    "wer": 72.72727272727273,
+    "cer": 10.256410256410255,
+    "accuracy": 91.02564102564102,
+    "time": 2.365305185317993,
+    "diffs": [
+      [
+        0,
+        "oſtendemus."
+      ],
+      [
+        -1,
+        " ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "g."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rũ"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "admodũ"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus. ꝑfertur tamen ſub uoce ipſius. g. ob cognitionē litterarū quē admodū",
+    "wer": 45.45454545454545,
+    "cer": 10.256410256410255,
+    "accuracy": 90.0,
+    "time": 2.9622206687927246,
+    "diffs": [
+      [
+        0,
+        "oſtendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "ꝑ"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius. g. ob cogn"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "tion"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rū"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē "
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 8
+  },
+  "gpt-4.1": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus. pfertur tamen ſub uoce ipſius. g. ob cognationẽ litterarũ quẽadmodũ",
+    "wer": 27.27272727272727,
+    "cer": 6.41025641025641,
+    "accuracy": 93.75,
+    "time": 2.9923229217529297,
+    "diffs": [
+      [
+        0,
+        "oſtendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius. g. ob cognationẽ littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rũ"
+      ],
+      [
+        0,
+        " quẽadmod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ũ"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 3,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus.pfertur tamen fub uoce ipſius.g.ob cognationé litterarumqueadmodú",
+    "wer": 81.81818181818183,
+    "cer": 14.102564102564102,
+    "accuracy": 87.17948717948718,
+    "time": 3.1027987003326416,
+    "diffs": [
+      [
+        0,
+        "oſtendemus."
+      ],
+      [
+        -1,
+        " ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur tamen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ub uoce ipſius."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "g."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ "
+      ],
+      [
+        1,
+        "rum"
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ú"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus. pſertur tamen ſub uoce ipſius. g. ob cognationẽ litterarũ. quẽadmodũ",
+    "wer": 18.181818181818183,
+    "cer": 6.41025641025641,
+    "accuracy": 93.75,
+    "time": 4.0857977867126465,
+    "diffs": [
+      [
+        0,
+        "oſtendemus. "
+      ],
+      [
+        -1,
+        "ꝓf"
+      ],
+      [
+        1,
+        "pſ"
+      ],
+      [
+        0,
+        "ertur tamen ſub uoce ipſius. g. ob cognationẽ littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rũ."
+      ],
+      [
+        0,
+        " quẽadmodũ"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 3,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oftendimus, pfertur tamen ſub uoce ipſius. g. ob cognationē literarꝹ quẽadmodũ",
+    "wer": 36.36363636363637,
+    "cer": 10.256410256410255,
+    "accuracy": 91.02564102564102,
+    "time": 5.25766396522522,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tend"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mus"
+      ],
+      [
+        -1,
+        ". ꝓ"
+      ],
+      [
+        1,
+        ", p"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius. g. ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " lit"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "era"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rꝹ"
+      ],
+      [
+        0,
+        " quẽadmodũ"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gemini-2.5-flash": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus, pfertur tamen ſub uoce ipſius.g.ob cognatione litterary quéadmodü",
+    "wer": 72.72727272727273,
+    "cer": 11.538461538461538,
+    "accuracy": 89.74358974358975,
+    "time": 8.857871055603027,
+    "diffs": [
+      [
+        0,
+        "oſtendemus"
+      ],
+      [
+        -1,
+        ". ꝓ"
+      ],
+      [
+        1,
+        ", p"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "g."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ry"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ü"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "o4-mini": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "ostendemus. pfertur tamen ſub uoce ipſius. g. ob cognationé litterary queādmodū",
+    "wer": 45.45454545454545,
+    "cer": 10.256410256410255,
+    "accuracy": 89.87341772151899,
+    "time": 32.12430691719055,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius. g. ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ry"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽa"
+      ],
+      [
+        1,
+        "eā"
+      ],
+      [
+        0,
+        "dmod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "gemini-2.5-pro": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus, pſertur tamen ſub uoce ipſius, g ob cognationé litterarū quéadmodū",
+    "wer": 63.63636363636363,
+    "cer": 12.82051282051282,
+    "accuracy": 88.46153846153845,
+    "time": 77.6057391166687,
+    "diffs": [
+      [
+        0,
+        "oſtendemus"
+      ],
+      [
+        -1,
+        ". ꝓf"
+      ],
+      [
+        1,
+        ", pſ"
+      ],
+      [
+        0,
+        "ertur tamen ſub uoce ipſius"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " g"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rū"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "gpt-5-mini": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "ostendemus. pſertur tamen ſub uoce ipſius.g.ob cognatione litteras quæ admodiu",
+    "wer": 72.72727272727273,
+    "cer": 14.102564102564102,
+    "accuracy": 88.46153846153845,
+    "time": 29.189423084259033,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tendemus. "
+      ],
+      [
+        -1,
+        "ꝓf"
+      ],
+      [
+        1,
+        "pſ"
+      ],
+      [
+        0,
+        "ertur tamen ſub uoce ipſius."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "g."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "æ "
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "iu"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "gpt-5": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus. ꝑfertur tamen ſub uoce ipſius. g. ob cognationẽ litteræ quæ admodũ",
+    "wer": 45.45454545454545,
+    "cer": 8.974358974358974,
+    "accuracy": 92.40506329113924,
+    "time": 84.82254099845886,
+    "diffs": [
+      [
+        0,
+        "oſtendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "ꝑ"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius. g. ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        " litter"
+      ],
+      [
+        -1,
+        "aꝶ"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "æ "
+      ],
+      [
+        0,
+        "admodũ"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "glm-4.5v": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oftendemus.pfertur tamen fub uoce ipſius.g.ob cognatione litteraſqueadmodū",
+    "wer": 81.81818181818183,
+    "cer": 14.102564102564102,
+    "accuracy": 85.8974358974359,
+    "time": 5.195914030075073,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus."
+      ],
+      [
+        -1,
+        " ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur tamen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ub uoce ipſius."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "g."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 7
+  },
+  "mistral-medium-3.1": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oſtendemus. pfertur tamen ſub uoce ipſius, g. ob cognitioné litterarú quádmodù",
+    "wer": 45.45454545454545,
+    "cer": 11.538461538461538,
+    "accuracy": 89.74358974358975,
+    "time": 1.963404893875122,
+    "diffs": [
+      [
+        0,
+        "oſtendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur tamen ſub uoce ipſius"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " g. ob cogn"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "tion"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rú"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽa"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "dmod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oftendemus , psertur tamen sub uoce spsius . g . ob cognationē litteray quéadmodū",
+    "wer": 100.0,
+    "cer": 17.94871794871795,
+    "accuracy": 82.71604938271605,
+    "time": 2.7363028526306152,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus"
+      ],
+      [
+        -1,
+        ". ꝓf"
+      ],
+      [
+        1,
+        " , ps"
+      ],
+      [
+        0,
+        "ertur tamen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ub uoce "
+      ],
+      [
+        -1,
+        "ipſ"
+      ],
+      [
+        1,
+        "sps"
+      ],
+      [
+        0,
+        "ius"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ". g"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ". ob cognation"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 13,
+    "insertions": 16
+  },
+  "cogito-v2-109b": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oftendemus. pferturtamen fub uoce ipfiḡ. ob cognitioné litteraré quéadmodū",
+    "wer": 81.81818181818183,
+    "cer": 20.51282051282051,
+    "accuracy": 80.76923076923077,
+    "time": 2.16619610786438,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus. "
+      ],
+      [
+        -1,
+        "ꝓ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "fertur"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "tamen "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ub uoce ip"
+      ],
+      [
+        -1,
+        "ſius. g"
+      ],
+      [
+        1,
+        "fiḡ"
+      ],
+      [
+        0,
+        ". ob cogn"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "tion"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ré"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 16,
+    "insertions": 12
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "oſtendemus. ꝓfertur tamen ſub uoce ipſius. g. ob cognationẽ litteraꝶ quẽadmodũ",
+    "response": "oftendemus. pſentur amen ſub voce pius. g. ob cognitioné litterar, quæadmodu",
+    "wer": 72.72727272727273,
+    "cer": 17.94871794871795,
+    "accuracy": 83.33333333333334,
+    "time": 4.999114036560059,
+    "diffs": [
+      [
+        0,
+        "o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus. "
+      ],
+      [
+        -1,
+        "ꝓfer"
+      ],
+      [
+        1,
+        "pſen"
+      ],
+      [
+        0,
+        "tur "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "amen ſub "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "oce "
+      ],
+      [
+        -1,
+        "ipſ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ius. g. ob cogn"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "tion"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "r,"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "admod"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 15,
+    "insertions": 13
+  }
+}

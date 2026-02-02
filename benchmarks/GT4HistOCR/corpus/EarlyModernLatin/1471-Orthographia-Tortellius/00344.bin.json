@@ -1,0 +1,468 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "tibus oſtendemus.",
+    "response": "rabus oftendemus.",
+    "wer": 100.0,
+    "cer": 17.647058823529413,
+    "accuracy": 82.35294117647058,
+    "time": 1.050994873046875,
+    "diffs": [
+      [
+        -1,
+        "ti"
+      ],
+      [
+        1,
+        "ra"
+      ],
+      [
+        0,
+        "bus o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus."
+      ]
+    ],
+    "matches": 14,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-small": {
+    "gt": "tibus oſtendemus.",
+    "response": "ſibus ſtendēmus.",
+    "wer": 100.0,
+    "cer": 17.647058823529413,
+    "accuracy": 82.35294117647058,
+    "time": 1.2030909061431885,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ibus "
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        0,
+        "ſtend"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "mus."
+      ]
+    ],
+    "matches": 14,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tibus oſtendemus.",
+    "response": "ribus oſtendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 1.3394689559936523,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ibus oſtendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oſtendemus.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.3639369010925293,
+    "diffs": [
+      [
+        0,
+        "tibus oſtendemus."
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oſtendemus.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.3833379745483398,
+    "diffs": [
+      [
+        0,
+        "tibus oſtendemus."
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "tibus oſtendemus.",
+    "response": "ribus oſtendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 1.7773749828338623,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ibus oſtendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "tibus oſtendemus.",
+    "response": "ſibus oſtendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 2.5095579624176025,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ibus oſtendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "tibus oſtendemus.",
+    "response": "abus oſtendemus.",
+    "wer": 50.0,
+    "cer": 11.76470588235294,
+    "accuracy": 88.23529411764706,
+    "time": 3.233152151107788,
+    "diffs": [
+      [
+        -1,
+        "ti"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "bus oſtendemus."
+      ]
+    ],
+    "matches": 15,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oſtendemus.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.361905097961426,
+    "diffs": [
+      [
+        0,
+        "tibus oſtendemus."
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "tibus oſtendemus.",
+    "response": "nibus oſtendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 4.350276947021484,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "ibus oſtendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oſtendemus.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 12.861011981964111,
+    "diffs": [
+      [
+        0,
+        "tibus oſtendemus."
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "tibus oſtendemus.",
+    "response": "nibus oſtendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 13.497732877731323,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "ibus oſtendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oſtendemus.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 14.08555817604065,
+    "diffs": [
+      [
+        0,
+        "tibus oſtendemus."
+      ]
+    ],
+    "matches": 17,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oftendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 3.5472841262817383,
+    "diffs": [
+      [
+        0,
+        "tibus o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "tibus oſtendemus.",
+    "response": "ſtibus oftendemus.",
+    "wer": 100.0,
+    "cer": 11.76470588235294,
+    "accuracy": 88.88888888888889,
+    "time": 1.0443611145019531,
+    "diffs": [
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "tibus o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus ōftendemus.",
+    "wer": 50.0,
+    "cer": 11.76470588235294,
+    "accuracy": 88.23529411764706,
+    "time": 1.64215087890625,
+    "diffs": [
+      [
+        0,
+        "tibus "
+      ],
+      [
+        -1,
+        "oſ"
+      ],
+      [
+        1,
+        "ōf"
+      ],
+      [
+        0,
+        "tendemus."
+      ]
+    ],
+    "matches": 15,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oftendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 2.1771938800811768,
+    "diffs": [
+      [
+        0,
+        "tibus o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tibus oſtendemus.",
+    "response": "tibus oftendemus.",
+    "wer": 50.0,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 1.6479113101959229,
+    "diffs": [
+      [
+        0,
+        "tibus o"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tendemus."
+      ]
+    ],
+    "matches": 16,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

@@ -1,0 +1,1332 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut karthago kapur: cũ teſſte Quintiliano ſit.c.lía quæ ad omnes",
+    "wer": 50.0,
+    "cer": 8.536585365853659,
+    "accuracy": 93.90243902439023,
+    "time": 1.4672179222106934,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": cũ teſ"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "te Quintiliano ſit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lí"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe: ut karthago kapuri: cu ſeſte Quintiliano ſit.c.lſa quae ad omnes",
+    "wer": 50.0,
+    "cer": 12.195121951219512,
+    "accuracy": 90.2439024390244,
+    "time": 1.6026561260223389,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe: ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ri"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ t"
+      ],
+      [
+        1,
+        "u ſ"
+      ],
+      [
+        0,
+        "eſte Quintiliano ſit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lſ"
+      ],
+      [
+        0,
+        "a qu"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " ad omnes"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "spotlight": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "scribendam esse: ut karthago kapur: cú te ſte Quintiliano fit.c.lrá qux ad omnes",
+    "wer": 71.42857142857143,
+    "cer": 14.634146341463413,
+    "accuracy": 86.58536585365853,
+    "time": 2.007923126220703,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribendam e"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "e: ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        " te"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "ſte Quintiliano "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "it."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "lr"
+      ],
+      [
+        -1,
+        "̃a"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        " qu"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        " ad omnes"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "gpt-4o": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe: ut karthago kaput: cū teſte Quintiliano ſit.",
+    "wer": 42.857142857142854,
+    "cer": 26.82926829268293,
+    "accuracy": 73.17073170731707,
+    "time": 2.5273489952087402,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe: ut karthago kaput: c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " teſte Quintiliano ſit."
+      ],
+      [
+        -1,
+        " c. lr̃a quæ ad omnes"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 22,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut Karthago kaput : cū teſte Quintiliano ſit. c. Ita quæ ad omnes",
+    "wer": 50.0,
+    "cer": 8.536585365853659,
+    "accuracy": 92.7710843373494,
+    "time": 2.6531200408935547,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "arthago kaput"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " teſte Quintiliano ſit. c. "
+      ],
+      [
+        -1,
+        "lr̃"
+      ],
+      [
+        1,
+        "It"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut karthago kaput: cũ teſte Quintiliano ſit.c.Iſa quæ ad omnes",
+    "wer": 35.714285714285715,
+    "cer": 7.317073170731707,
+    "accuracy": 93.90243902439023,
+    "time": 4.205369710922241,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut karthago kaput: cũ teſte Quintiliano ſit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "Iſ"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe: ut karthago kapur: cu teſte Quintiliano fit.c.lía qux ad omnes",
+    "wer": 42.857142857142854,
+    "cer": 9.75609756097561,
+    "accuracy": 90.2439024390244,
+    "time": 5.057401180267334,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe: ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " teſte Quintiliano "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "it."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lí"
+      ],
+      [
+        0,
+        "a qu"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        " ad omnes"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "claude-4-opus": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe: ut karthago kapurĩ cũ teſte Quintiliano ſit.c.lĩa quæ ad omnes",
+    "wer": 28.57142857142857,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 5.923198938369751,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe: ut karthago kapu"
+      ],
+      [
+        -1,
+        "t:"
+      ],
+      [
+        1,
+        "rĩ"
+      ],
+      [
+        0,
+        " cũ teſte Quintiliano ſit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lĩ"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut karthago kapur: cúm iſte Quintiliano fit.c.lía quæ ad omnes",
+    "wer": 57.14285714285714,
+    "cer": 14.634146341463413,
+    "accuracy": 89.02439024390245,
+    "time": 5.904098033905029,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ te"
+      ],
+      [
+        1,
+        "úm i"
+      ],
+      [
+        0,
+        "ſte Quintiliano "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "it."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lí"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 11,
+    "insertions": 11
+  },
+  "o4-mini": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut karthago kapur : cū teste Quintiliano ſit. c’ra quæ ad omnes",
+    "wer": 57.14285714285714,
+    "cer": 12.195121951219512,
+    "accuracy": 91.46341463414635,
+    "time": 17.98614811897278,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r "
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "te Quintiliano ſit. c"
+      ],
+      [
+        -1,
+        ". lr̃"
+      ],
+      [
+        1,
+        "’r"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gemini-2.5-pro": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut karthago kaput uṙ: cũ triſte Qui̇ntiliano ſit.c.líã quæ ad omnes",
+    "wer": 64.28571428571429,
+    "cer": 15.853658536585366,
+    "accuracy": 88.37209302325581,
+    "time": 22.442176818847656,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut karthago kaput"
+      ],
+      [
+        1,
+        " uṙ"
+      ],
+      [
+        0,
+        ": cũ t"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ri"
+      ],
+      [
+        0,
+        "ſte Qui"
+      ],
+      [
+        1,
+        "̇"
+      ],
+      [
+        0,
+        "ntiliano ſit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃a"
+      ],
+      [
+        1,
+        "líã"
+      ],
+      [
+        0,
+        " quæ ad omnes"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 7,
+    "insertions": 11
+  },
+  "gpt-5-mini": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut karthago kapur: cu teſte Quintiliano ſit.c.lra quæ ad omnes",
+    "wer": 50.0,
+    "cer": 7.317073170731707,
+    "accuracy": 93.90243902439023,
+    "time": 25.83265995979309,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " teſte Quintiliano ſit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "lr"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe: ut karthago kaput: cū teſte Quintiliano ſit. alia quæ ad omnes",
+    "wer": 21.428571428571427,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 76.71423101425171,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe: ut karthago kaput: c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " teſte Quintiliano ſit. "
+      ],
+      [
+        -1,
+        "c. lr̃"
+      ],
+      [
+        1,
+        "ali"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "glm-4.5v": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam effe : ut karthago kapur: cū tefte Quintiliano fit.c.lía quæ ad omnes",
+    "wer": 57.14285714285714,
+    "cer": 13.414634146341465,
+    "accuracy": 87.8048780487805,
+    "time": 9.054117918014526,
+    "diffs": [
+      [
+        0,
+        "ſcribendam e"
+      ],
+      [
+        -1,
+        "ſſe"
+      ],
+      [
+        1,
+        "ffe "
+      ],
+      [
+        0,
+        ": ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "te Quintiliano "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "it."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lí"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 12,
+    "insertions": 10
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "scribendam esse: ut karthago captum: currency tefte Quintiliano sit.c.lfa quac ad omnes",
+    "wer": 64.28571428571429,
+    "cer": 25.609756097560975,
+    "accuracy": 79.3103448275862,
+    "time": 2.186216354370117,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribendam e"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "e: ut karthago "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ap"
+      ],
+      [
+        -1,
+        "ut: cũ"
+      ],
+      [
+        1,
+        "tum: currency"
+      ],
+      [
+        0,
+        " te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "te Quintiliano "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "it."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lf"
+      ],
+      [
+        0,
+        "a qu"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ac"
+      ],
+      [
+        0,
+        " ad omnes"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 18,
+    "insertions": 23
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe : ut karthago kapur: cù teſte Quintiliano 5it:c.1á quæ ad omnes",
+    "wer": 50.0,
+    "cer": 13.414634146341465,
+    "accuracy": 87.8048780487805,
+    "time": 4.741065979003906,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        " teſte Quintiliano "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "5"
+      ],
+      [
+        0,
+        "it"
+      ],
+      [
+        -1,
+        ". c. lr̃a"
+      ],
+      [
+        1,
+        ":c.1á"
+      ],
+      [
+        0,
+        " quæ ad omnes"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 12,
+    "insertions": 9
+  },
+  "cogito-v2-109b": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam effe : ut karrhago kapur: cū teſte Quintiliano fit..c.lía quæ ad omnes",
+    "wer": 57.14285714285714,
+    "cer": 13.414634146341465,
+    "accuracy": 87.8048780487805,
+    "time": 1.975250005722046,
+    "diffs": [
+      [
+        0,
+        "ſcribendam e"
+      ],
+      [
+        -1,
+        "ſſe"
+      ],
+      [
+        1,
+        "ffe "
+      ],
+      [
+        0,
+        ": ut kar"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "hago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " teſte Quintiliano "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "it."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lí"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſcribendam eſſe: ut karthago kaput: cũ teſte Quintiliano ſit. c. lr̃a quæ ad omnes",
+    "response": "ſcribendam eſſe: ut karthago kapur: cū teſte Quintiliano ſit.c.lía quæ ad omnes",
+    "wer": 35.714285714285715,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 4.001205921173096,
+    "diffs": [
+      [
+        0,
+        "ſcribendam eſſe: ut karthago kapu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        ": c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " teſte Quintiliano ſit."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "c."
+      ],
+      [
+        -1,
+        " lr̃"
+      ],
+      [
+        1,
+        "lí"
+      ],
+      [
+        0,
+        "a quæ ad omnes"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 7,
+    "insertions": 4
+  }
+}

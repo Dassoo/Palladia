@@ -1,0 +1,3 @@
+source: GT4HistOCR/corpus/EarlyModernLatin/1564-Thucydides-Valla
+images_to_process: 2
+avoid_rescan: True

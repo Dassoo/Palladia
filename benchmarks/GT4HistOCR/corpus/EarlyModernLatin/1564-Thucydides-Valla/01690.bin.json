@@ -1,0 +1,997 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Lacedæx.",
+    "wer": 30.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.65079365079364,
+    "time": 1.1856930255889893,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lacedæ"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "x."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "iustam habere altitudinem murum. Timucrat enim ne à Laccdx",
+    "wer": 40.0,
+    "cer": 12.903225806451612,
+    "accuracy": 87.09677419354838,
+    "time": 1.3032639026641846,
+    "diffs": [
+      [
+        -1,
+        "10 "
+      ],
+      [
+        0,
+        "iu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lac"
+      ],
+      [
+        -1,
+        "edæ-"
+      ],
+      [
+        1,
+        "cdx"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem murum.Timucrat enim ne à Lacedx-",
+    "wer": 40.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 1.670015811920166,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem murum."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Laced"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Lacedæ-",
+    "wer": 20.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 1.8117940425872803,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lacedæ-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Lacedæ-",
+    "wer": 20.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 3.5570390224456787,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lacedæ-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem murum, Timucrat enim ne à Lacedæ-",
+    "wer": 30.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 3.572059154510498,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem murum"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lacedæ-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-small": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "iustam habere altitudinem murum. Timucrat enim ne à Lacedæ",
+    "wer": 40.0,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 4.132702112197876,
+    "diffs": [
+      [
+        -1,
+        "10 "
+      ],
+      [
+        0,
+        "iu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lacedæ"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "wer": 10.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 4.1321632862091064,
+    "diffs": [
+      [
+        -1,
+        "10 "
+      ],
+      [
+        0,
+        "iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "to iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ",
+    "wer": 20.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 6.704621076583862,
+    "diffs": [
+      [
+        -1,
+        "10"
+      ],
+      [
+        1,
+        "to"
+      ],
+      [
+        0,
+        " iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem m̄urum. Timucrat enim ne à Laccda-",
+    "wer": 40.0,
+    "cer": 8.064516129032258,
+    "accuracy": 92.06349206349206,
+    "time": 22.78380584716797,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem m"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        "urum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lac"
+      ],
+      [
+        -1,
+        "edæ"
+      ],
+      [
+        1,
+        "cda"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gemini-2.5-pro": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "to iúſtam habere altitudinem múrum. Timúerat enim ne à Lacedæ",
+    "wer": 50.0,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 34.26889896392822,
+    "diffs": [
+      [
+        -1,
+        "10"
+      ],
+      [
+        1,
+        "to"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "ſtam habere altitudinem m"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "rum. Tim"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "erat enim ne à Lacedæ"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem mūrum. Timucrat enim ne à Laccdax-",
+    "wer": 40.0,
+    "cer": 9.67741935483871,
+    "accuracy": 90.47619047619048,
+    "time": 13.194701194763184,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem m"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "rum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lac"
+      ],
+      [
+        -1,
+        "edæ"
+      ],
+      [
+        1,
+        "cdax"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "gpt-5": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem murum. Timucrat enim ne à Laccda",
+    "wer": 30.0,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 114.95964884757996,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lac"
+      ],
+      [
+        -1,
+        "edæ-"
+      ],
+      [
+        1,
+        "cda"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "glm-4.5v": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuftam habere altitudinem murum, Timucrat enim ne à Laccdax-",
+    "wer": 50.0,
+    "cer": 11.29032258064516,
+    "accuracy": 88.88888888888889,
+    "time": 6.472806930541992,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tam habere altitudinem murum"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lac"
+      ],
+      [
+        -1,
+        "edæ"
+      ],
+      [
+        1,
+        "cdax"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "mistral-medium-3.1": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "iuſtam habere altitudinem murum. Timucrat enim nc à Laccdxſ",
+    "wer": 40.0,
+    "cer": 12.903225806451612,
+    "accuracy": 87.09677419354838,
+    "time": 1.6415448188781738,
+    "diffs": [
+      [
+        -1,
+        "10 "
+      ],
+      [
+        0,
+        "iuſtam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim n"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " à Lac"
+      ],
+      [
+        -1,
+        "edæ-"
+      ],
+      [
+        1,
+        "cdxſ"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "Ұ iuftam habere altitudinem mūrum. Timucrat enim ne à Lacedā̄-",
+    "wer": 50.0,
+    "cer": 11.29032258064516,
+    "accuracy": 90.32258064516128,
+    "time": 1.8919799327850342,
+    "diffs": [
+      [
+        -1,
+        "10"
+      ],
+      [
+        1,
+        "Ұ"
+      ],
+      [
+        0,
+        " iu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tam habere altitudinem m"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "rum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Laced"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ā̄"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "grok-4": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "io. iuſtam habere altitudinem mirum,Timucrat enim nc à Lacedæ-",
+    "wer": 40.0,
+    "cer": 12.903225806451612,
+    "accuracy": 88.70967741935483,
+    "time": 177.91196703910828,
+    "diffs": [
+      [
+        -1,
+        "10"
+      ],
+      [
+        1,
+        "io."
+      ],
+      [
+        0,
+        " iuſtam habere altitudinem m"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "rum"
+      ],
+      [
+        -1,
+        ". "
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        "Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim n"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " à Lacedæ-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "io iuſtam habere altitudinem murum. Timucrat enim nc à Laccdx.",
+    "wer": 40.0,
+    "cer": 11.29032258064516,
+    "accuracy": 88.70967741935483,
+    "time": 1.8607289791107178,
+    "diffs": [
+      [
+        -1,
+        "10"
+      ],
+      [
+        1,
+        "io"
+      ],
+      [
+        0,
+        " iuſtam habere altitudinem murum. Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim n"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        " à Lac"
+      ],
+      [
+        -1,
+        "edæ-"
+      ],
+      [
+        1,
+        "cdx."
+      ]
+    ],
+    "matches": 54,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "10 iuſtam habere altitudinem murum. Timuerat enim ne à Lacedæ-",
+    "response": "20 iuſtam habere altitudinem murum, Timucrat enim ne à Laccda-",
+    "wer": 40.0,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 8.399838924407959,
+    "diffs": [
+      [
+        -1,
+        "1"
+      ],
+      [
+        1,
+        "2"
+      ],
+      [
+        0,
+        "0 iuſtam habere altitudinem murum"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " Timu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rat enim ne à Lac"
+      ],
+      [
+        -1,
+        "edæ"
+      ],
+      [
+        1,
+        "cda"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 6
+  }
+}

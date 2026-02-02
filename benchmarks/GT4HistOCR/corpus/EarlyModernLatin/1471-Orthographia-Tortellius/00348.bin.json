@@ -1,0 +1,1204 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "afpirationem gerentem conceperunt: quá pro .ch. q̃ pulcherrime ponunt:nec nõ &",
+    "wer": 63.63636363636363,
+    "cer": 11.538461538461538,
+    "accuracy": 91.02564102564102,
+    "time": 1.5027861595153809,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        " pro"
+      ],
+      [
+        -1,
+        ". th. ꝗᷓ"
+      ],
+      [
+        1,
+        " .ch. q̃ "
+      ],
+      [
+        0,
+        "pulcherrime ponunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec nõ &"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 11
+  },
+  "spotlight": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aspirationem gerentem conceperunt:quá pro.th.ãpulcherrime ponunt:nec nó &",
+    "wer": 81.81818181818183,
+    "cer": 11.538461538461538,
+    "accuracy": 88.46153846153845,
+    "time": 1.641808032989502,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pirationem gerentem conceperunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "ã"
+      ],
+      [
+        0,
+        "pulcherrime ponunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 4
+  },
+  "mistral-small": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "alſpirationem gerentem conceperunt: quâ pro th. qpulcherrime ponunt: nec nó &",
+    "wer": 45.45454545454545,
+    "cer": 7.6923076923076925,
+    "accuracy": 93.58974358974359,
+    "time": 1.9061710834503174,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ſpirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        " pro"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " th. "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aspirationem gerentem conceperunt: quá pro.th.ꝑpulcherrime ponunt: nec nó &",
+    "wer": 54.54545454545454,
+    "cer": 8.974358974358974,
+    "accuracy": 91.02564102564102,
+    "time": 1.9787063598632812,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "ꝑ"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: qui pro. th. q̃pulcherrime ponunt: nec nō &",
+    "wer": 27.27272727272727,
+    "cer": 5.128205128205128,
+    "accuracy": 94.87179487179486,
+    "time": 2.2240500450134277,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " pro. th. "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: qui pro: th.  ꝓpulcherrime ponunt: nec nō &",
+    "wer": 36.36363636363637,
+    "cer": 6.41025641025641,
+    "accuracy": 93.58974358974359,
+    "time": 2.3862431049346924,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " pro"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " th. "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        " ꝓ"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "claude-4-sonnet": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem concepērunt: qua pro.th.q́pulcherrime ponunt: nec nõ &",
+    "wer": 45.45454545454545,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 4.291549921035767,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem concep"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "runt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "q́"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec nõ &"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: quã pro. d. q̃ pulcherrime ponunt: nec nõ &",
+    "wer": 27.27272727272727,
+    "cer": 6.41025641025641,
+    "accuracy": 94.87179487179486,
+    "time": 4.866655111312866,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: quã pro. "
+      ],
+      [
+        -1,
+        "th. ꝗᷓ"
+      ],
+      [
+        1,
+        "d. q̃ "
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec nõ &"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: quia pro. th̄. q̃pulcherime ponunt: nec nō &",
+    "wer": 36.36363636363637,
+    "cer": 8.974358974358974,
+    "accuracy": 92.40506329113924,
+    "time": 7.847480058670044,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ia"
+      ],
+      [
+        0,
+        " pro. th"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        "pulcher"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        "ime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "o4-mini": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: quā pro.th.ꝑpulcherrime ponunt: nec nō &",
+    "wer": 45.45454545454545,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 19.015483856201172,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "ꝑ"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "gemini-2.5-pro": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt:quia pro th.q̃pulcherrime ponunt:nec nō &",
+    "wer": 72.72727272727273,
+    "cer": 12.82051282051282,
+    "accuracy": 89.74358974358975,
+    "time": 44.70145916938782,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ia"
+      ],
+      [
+        0,
+        " pro"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        "pulcherrime ponunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "gpt-5-mini": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: quā pro.th. qpulcherrime ponunt: nec nō &",
+    "wer": 45.45454545454545,
+    "cer": 6.41025641025641,
+    "accuracy": 93.58974358974359,
+    "time": 20.442677974700928,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th. "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: qui pro.th. qͥ pulcherrime ponunt: nec nō &",
+    "wer": 45.45454545454545,
+    "cer": 7.6923076923076925,
+    "accuracy": 93.58974358974359,
+    "time": 62.45568799972534,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th. "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "qͥ "
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "glm-4.5v": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt:quā pro.th.q̃pulcherrime ponunt:nec nō &",
+    "wer": 72.72727272727273,
+    "cer": 10.256410256410255,
+    "accuracy": 89.74358974358975,
+    "time": 5.740478992462158,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        "pulcherrime ponunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt:quȧ pro.th.ȯpulcherrime ponunt:nec nő &",
+    "wer": 72.72727272727273,
+    "cer": 10.256410256410255,
+    "accuracy": 89.74358974358975,
+    "time": 3.0702779293060303,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ȧ"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "ȯ"
+      ],
+      [
+        0,
+        "pulcherrime ponunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ő"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt : quā pro th. ǣpulcherrime ponunt : nec nō &",
+    "wer": 72.72727272727273,
+    "cer": 11.538461538461538,
+    "accuracy": 90.12345679012346,
+    "time": 4.857293128967285,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " pro"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " th. "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "ǣ"
+      ],
+      [
+        0,
+        "pulcherrime ponunt"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "afpirationem gerentem conceperunt:quâ pro.ch.ċpulcherrimè ponunt:nec nô &",
+    "wer": 81.81818181818183,
+    "cer": 14.102564102564102,
+    "accuracy": 85.8974358974359,
+    "time": 1.9793429374694824,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pirationem gerentem conceperunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "qu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        " pro."
+      ],
+      [
+        -1,
+        " th. ꝗᷓ"
+      ],
+      [
+        1,
+        "ch.ċ"
+      ],
+      [
+        0,
+        "pulcherrim"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "è"
+      ],
+      [
+        0,
+        " ponunt:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ô"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 13,
+    "insertions": 8
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "aſpirationem gerentem conceperunt: quã pro. th. ꝗᷓpulcherrime ponunt: nec nõ &",
+    "response": "aſpirationem gerentem conceperunt: quã pro.th.ꝑpulcherrime ponunt: nec nō &",
+    "wer": 36.36363636363637,
+    "cer": 6.41025641025641,
+    "accuracy": 93.58974358974359,
+    "time": 18.62133026123047,
+    "diffs": [
+      [
+        0,
+        "aſpirationem gerentem conceperunt: quã pro."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "th."
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "ꝑ"
+      ],
+      [
+        0,
+        "pulcherrime ponunt: nec n"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        " &"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 5,
+    "insertions": 2
+  }
+}

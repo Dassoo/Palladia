@@ -1,0 +1,1240 @@
+{
+  "gpt-4.1": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod aſpirationis nota erat pro littera .s. acciperet & traduceret: & maxime quia",
+    "wer": 28.57142857142857,
+    "cer": 4.705882352941177,
+    "accuracy": 96.47058823529412,
+    "time": 2.1052439212799072,
+    "diffs": [
+      [
+        0,
+        "id: quod aſpirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 82,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "llama-4-maverick-17b": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod afpirationis nota erat pro littera .s. acciperét & traduceret: & maxime quia",
+    "wer": 35.714285714285715,
+    "cer": 5.88235294117647,
+    "accuracy": 95.29411764705881,
+    "time": 2.2197868824005127,
+    "diffs": [
+      [
+        0,
+        "id: quod a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-small": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod aſpirationis nota erat pro littera ſ. acciperet & traduceret:& maxime quia",
+    "wer": 50.0,
+    "cer": 7.0588235294117645,
+    "accuracy": 92.94117647058823,
+    "time": 2.2329936027526855,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod aſpirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        ". s"
+      ],
+      [
+        1,
+        " ſ"
+      ],
+      [
+        0,
+        ". acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& maxime quia"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod aspirationis nota erat pro littera.s.acciperét & traducerét:& maxime quia",
+    "wer": 57.14285714285714,
+    "cer": 8.235294117647058,
+    "accuracy": 91.76470588235294,
+    "time": 2.3792409896850586,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pirationis nota erat pro littera."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& maxime quia"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod aspirationis nota erat pro littera.s.acciperét & traducerét:& maxime quia",
+    "wer": 57.14285714285714,
+    "cer": 8.235294117647058,
+    "accuracy": 91.76470588235294,
+    "time": 2.596328020095825,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pirationis nota erat pro littera."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& maxime quia"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod aſpirationis nota erat pro littera .s. acciperét & traducerét: & maxime quia",
+    "wer": 28.57142857142857,
+    "cer": 4.705882352941177,
+    "accuracy": 96.47058823529412,
+    "time": 2.585015058517456,
+    "diffs": [
+      [
+        0,
+        "id: quod aſpirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 82,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod aſpirationis nota erat pro littera.s.acciperet & traduceret:& maxime quia",
+    "wer": 50.0,
+    "cer": 7.0588235294117645,
+    "accuracy": 92.94117647058823,
+    "time": 4.214453935623169,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod aſpirationis nota erat pro littera."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& maxime quia"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod aſpirationis nota erat pro littera .s. acciperét & traducerét: & maxime quia",
+    "wer": 42.857142857142854,
+    "cer": 5.88235294117647,
+    "accuracy": 95.29411764705881,
+    "time": 8.651119947433472,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod aſpirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod aſpirationis nota erat pro littera. s. acciperet & traduceret: & maxime quia",
+    "wer": 14.285714285714285,
+    "cer": 2.3529411764705883,
+    "accuracy": 97.6470588235294,
+    "time": 8.67664098739624,
+    "diffs": [
+      [
+        0,
+        "id: quod aſpirationis nota erat pro littera. s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 83,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod aſpirationis nota erat pro littera .s. acciperet & traduceret: & maxime quia.",
+    "wer": 35.714285714285715,
+    "cer": 5.88235294117647,
+    "accuracy": 95.34883720930233,
+    "time": 14.548643112182617,
+    "diffs": [
+      [
+        0,
+        "id: quod aſpirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 82,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod aſpirationis nota erat ꝓ littera s.acciperét & traducerét:& maxime quia",
+    "wer": 57.14285714285714,
+    "cer": 10.588235294117647,
+    "accuracy": 89.41176470588236,
+    "time": 55.50777006149292,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod aſpirationis nota erat "
+      ],
+      [
+        -1,
+        "pro"
+      ],
+      [
+        1,
+        "ꝓ"
+      ],
+      [
+        0,
+        " littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& maxime quia"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 9,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod aſpirationis nota erat pro littera .s. acciperet & traduceret: & maxime quia",
+    "wer": 28.57142857142857,
+    "cer": 4.705882352941177,
+    "accuracy": 96.47058823529412,
+    "time": 14.10903787612915,
+    "diffs": [
+      [
+        0,
+        "id: quod aſpirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 82,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod aſpirationis nota erat pro littera .s. acciperét & traducerét: & maxime quia",
+    "wer": 28.57142857142857,
+    "cer": 4.705882352941177,
+    "accuracy": 96.47058823529412,
+    "time": 39.10677194595337,
+    "diffs": [
+      [
+        0,
+        "id: quod aſpirationis nota erat pro littera"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 82,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod afpirationis nota erat pro littera.s.acciperet & traduceret:& maxime quia",
+    "wer": 57.14285714285714,
+    "cer": 8.235294117647058,
+    "accuracy": 91.76470588235294,
+    "time": 8.666510105133057,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pirationis nota erat pro littera."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& maxime quia"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "quid: quod aſpirationis nota erat pro littera. s. acciperét & traducerét: & maxime quia",
+    "wer": 21.428571428571427,
+    "cer": 4.705882352941177,
+    "accuracy": 95.40229885057471,
+    "time": 1.738957166671753,
+    "diffs": [
+      [
+        1,
+        "qu"
+      ],
+      [
+        0,
+        "id: quod aſpirationis nota erat pro littera. s. acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 83,
+    "deletions": 2,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod aſpirationis nota erat pro littera.s.acciperēt & traducerēt:& maxime quia",
+    "wer": 50.0,
+    "cer": 7.0588235294117645,
+    "accuracy": 92.94117647058823,
+    "time": 2.177962064743042,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod aſpirationis nota erat pro littera."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& maxime quia"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id:quod afpirationis nota erat pro littéra.s.acciperét & traducerét:&i maxime quia",
+    "wer": 57.14285714285714,
+    "cer": 10.588235294117647,
+    "accuracy": 90.58823529411765,
+    "time": 1.4767959117889404,
+    "diffs": [
+      [
+        0,
+        "id:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quod a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pirationis nota erat pro litt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "ra."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "&"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " maxime quia"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "id: quod aſpirationis nota erat pro littera. s. acciperẽt & traducerẽt: & maxime quia",
+    "response": "id: quod aspirationis nota erat pro littera.s.acciperét & traducerét: & maxime quia",
+    "wer": 35.714285714285715,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 2.733042001724243,
+    "diffs": [
+      [
+        0,
+        "id: quod a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pirationis nota erat pro littera."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "s."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciper"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t & traducer"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "t: & maxime quia"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 5,
+    "insertions": 3
+  }
+}

@@ -1,0 +1,956 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retor uel Pyrrhus non minus intellectus manet integer:non aur lic in a!i:s.",
+    "wer": 42.857142857142854,
+    "cer": 8.433734939759036,
+    "accuracy": 92.7710843373494,
+    "time": 1.314635992050171,
+    "diffs": [
+      [
+        0,
+        "dicatur retor uel Pyrr"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "us non minus intellectus manet integer:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non a"
+      ],
+      [
+        -1,
+        "ũt ſ"
+      ],
+      [
+        1,
+        "ur l"
+      ],
+      [
+        0,
+        "ic in a"
+      ],
+      [
+        -1,
+        "lii"
+      ],
+      [
+        1,
+        "!i:"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 75,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "mistral-small": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retoruel Pyrrus non minus intellectus manet integer: non aut sic in aliſ.",
+    "wer": 35.714285714285715,
+    "cer": 6.024096385542169,
+    "accuracy": 93.97590361445783,
+    "time": 1.4173250198364258,
+    "diffs": [
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrrus non minus intellectus manet integer: non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ic in ali"
+      ],
+      [
+        -1,
+        "is"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 78,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aut ſic in aliis.",
+    "wer": 7.142857142857142,
+    "cer": 1.2048192771084338,
+    "accuracy": 98.79518072289156,
+    "time": 2.227835178375244,
+    "diffs": [
+      [
+        0,
+        "dicatur retor uel Pyrrus non minus intellectus manet integer: non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "t ſic in aliis."
+      ]
+    ],
+    "matches": 82,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retoruel Pyrrus non minus intellectus manet integer:non aut lic in a!s.",
+    "wer": 50.0,
+    "cer": 8.433734939759036,
+    "accuracy": 91.56626506024097,
+    "time": 2.520627021789551,
+    "diffs": [
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrrus non minus intellectus manet integer:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ic in a"
+      ],
+      [
+        -1,
+        "lii"
+      ],
+      [
+        1,
+        "!"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 76,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retoruel Pyrrus non minus intellectus manet integer:non autfic in aliis.",
+    "wer": 42.857142857142854,
+    "cer": 6.024096385542169,
+    "accuracy": 93.97590361445783,
+    "time": 2.646250009536743,
+    "diffs": [
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrrus non minus intellectus manet integer:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non a"
+      ],
+      [
+        -1,
+        "ũt ſ"
+      ],
+      [
+        1,
+        "utf"
+      ],
+      [
+        0,
+        "ic in aliis."
+      ]
+    ],
+    "matches": 77,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retor uel Pyrrus non minus intellectus manet integer: non auiſticin aliis.",
+    "wer": 21.428571428571427,
+    "cer": 6.024096385542169,
+    "accuracy": 95.18072289156626,
+    "time": 2.66146183013916,
+    "diffs": [
+      [
+        0,
+        "dicatur retor uel Pyrrus non minus intellectus manet integer: non a"
+      ],
+      [
+        -1,
+        "ũt ſ"
+      ],
+      [
+        1,
+        "uiſt"
+      ],
+      [
+        0,
+        "ic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in aliis."
+      ]
+    ],
+    "matches": 78,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur rector uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "wer": 7.142857142857142,
+    "cer": 1.2048192771084338,
+    "accuracy": 98.80952380952381,
+    "time": 4.475255012512207,
+    "diffs": [
+      [
+        0,
+        "dicatur re"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "tor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis."
+      ]
+    ],
+    "matches": 83,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": ", dicatur retorſus Pyrrus non minus intellectus manet integerq̃;: non aút lic in al:s.",
+    "wer": 50.0,
+    "cer": 14.457831325301203,
+    "accuracy": 88.37209302325581,
+    "time": 10.873445987701416,
+    "diffs": [
+      [
+        1,
+        ", "
+      ],
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " uel"
+      ],
+      [
+        1,
+        "ſus"
+      ],
+      [
+        0,
+        " Pyrrus non minus intellectus manet integer"
+      ],
+      [
+        1,
+        "q̃;"
+      ],
+      [
+        0,
+        ": non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ic in al"
+      ],
+      [
+        -1,
+        "ii"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 75,
+    "deletions": 8,
+    "insertions": 11
+  },
+  "claude-4-opus": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in alijs.",
+    "wer": 7.142857142857142,
+    "cer": 1.2048192771084338,
+    "accuracy": 98.79518072289156,
+    "time": 11.461411237716675,
+    "diffs": [
+      [
+        0,
+        "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in ali"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "j"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 82,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aut ſic in a:ls.",
+    "wer": 14.285714285714285,
+    "cer": 4.819277108433735,
+    "accuracy": 96.3855421686747,
+    "time": 18.860540866851807,
+    "diffs": [
+      [
+        0,
+        "dicatur retor uel Pyrrus non minus intellectus manet integer: non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "t ſic in a"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "l"
+      ],
+      [
+        -1,
+        "ii"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 80,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gemini-2.5-pro": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "'dicatur retor uel Pyrrus non minus intellectus manet integer:non. aút ſic in a.l.i:s.",
+    "wer": 35.714285714285715,
+    "cer": 8.433734939759036,
+    "accuracy": 93.02325581395348,
+    "time": 37.29368209838867,
+    "diffs": [
+      [
+        1,
+        "'"
+      ],
+      [
+        0,
+        "dicatur retor uel Pyrrus non minus intellectus manet integer:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "t ſic in a"
+      ],
+      [
+        -1,
+        "lii"
+      ],
+      [
+        1,
+        ".l.i:"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 78,
+    "deletions": 5,
+    "insertions": 8
+  },
+  "gpt-5-mini": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retoruel Pyrrus non minus intellectus manet integer: non aut ſic in ali:s.",
+    "wer": 28.57142857142857,
+    "cer": 3.614457831325301,
+    "accuracy": 96.3855421686747,
+    "time": 23.66574716567993,
+    "diffs": [
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrrus non minus intellectus manet integer: non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "t ſic in ali"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 80,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retor uel Pyrrus non minus intellectus manet integer : non aut ſic in aliis.",
+    "wer": 21.428571428571427,
+    "cer": 2.4096385542168677,
+    "accuracy": 97.61904761904762,
+    "time": 84.13456988334656,
+    "diffs": [
+      [
+        0,
+        "dicatur retor uel Pyrrus non minus intellectus manet integer"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        ": non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "t ſic in aliis."
+      ]
+    ],
+    "matches": 82,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retoruel Pyrrus non minus intellectus manet integer:non aũt fic in alıs.",
+    "wer": 42.857142857142854,
+    "cer": 6.024096385542169,
+    "accuracy": 93.97590361445783,
+    "time": 5.177558183670044,
+    "diffs": [
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrrus non minus intellectus manet integer:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non aũt "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic in al"
+      ],
+      [
+        -1,
+        "ii"
+      ],
+      [
+        1,
+        "ı"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 78,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retoruel Pyrrus non minus intellectus manët integer: non aût lic in alũ s.",
+    "wer": 50.0,
+    "cer": 7.228915662650602,
+    "accuracy": 92.7710843373494,
+    "time": 2.5777499675750732,
+    "diffs": [
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrrus non minus intellectus man"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        "t integer: non a"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "û"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ic in al"
+      ],
+      [
+        -1,
+        "ii"
+      ],
+      [
+        1,
+        "ũ "
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 77,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retoruel Pyrrhus non minus intellectus manet integer: non auſtic in aliſ.",
+    "wer": 42.857142857142854,
+    "cer": 9.63855421686747,
+    "accuracy": 92.7710843373494,
+    "time": 3.557537078857422,
+    "diffs": [
+      [
+        0,
+        "dicatur retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrr"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "us non minus intellectus manet integer: non a"
+      ],
+      [
+        -1,
+        "ũt ſ"
+      ],
+      [
+        1,
+        "uſt"
+      ],
+      [
+        0,
+        "ic in ali"
+      ],
+      [
+        -1,
+        "is"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 76,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatar retoruel Pyrrus non minus intelleEtus maner ioat eger:non aürlic in a!i:s.",
+    "wer": 71.42857142857143,
+    "cer": 16.867469879518072,
+    "accuracy": 85.54216867469879,
+    "time": 1.852513074874878,
+    "diffs": [
+      [
+        0,
+        "dicat"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "r retor"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uel Pyrrus non minus intelle"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "E"
+      ],
+      [
+        0,
+        "tus mane"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " i"
+      ],
+      [
+        -1,
+        "nt"
+      ],
+      [
+        1,
+        "oat "
+      ],
+      [
+        0,
+        "eger:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "non a"
+      ],
+      [
+        -1,
+        "ũt ſ"
+      ],
+      [
+        1,
+        "ürl"
+      ],
+      [
+        0,
+        "ic in a"
+      ],
+      [
+        -1,
+        "lii"
+      ],
+      [
+        1,
+        "!i:"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 69,
+    "deletions": 14,
+    "insertions": 13
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "dicatur retor uel Pyrrus non minus intellectus manet integer: non aũt ſic in aliis.",
+    "response": "dicatur retor uel Pyrrus non minus intellectus manet integer: non autlic in a!1:s.",
+    "wer": 21.428571428571427,
+    "cer": 7.228915662650602,
+    "accuracy": 92.7710843373494,
+    "time": 1.9758968353271484,
+    "diffs": [
+      [
+        0,
+        "dicatur retor uel Pyrrus non minus intellectus manet integer: non a"
+      ],
+      [
+        -1,
+        "ũt ſ"
+      ],
+      [
+        1,
+        "utl"
+      ],
+      [
+        0,
+        "ic in a"
+      ],
+      [
+        -1,
+        "lii"
+      ],
+      [
+        1,
+        "!1:"
+      ],
+      [
+        0,
+        "s."
+      ]
+    ],
+    "matches": 76,
+    "deletions": 7,
+    "insertions": 6
+  }
+}

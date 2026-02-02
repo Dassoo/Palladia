@@ -1,0 +1,841 @@
+{
+  "mistral-small": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hi autem qui intus erant cum ſic exarentur, legatos Cor",
+    "wer": 18.181818181818183,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 1.342040777206421,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m ſic "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        0,
+        "exarentur, legatos Cor"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hi autem qui intus erant cum sic uexarentur, legatos Cor",
+    "wer": 18.181818181818183,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 1.4601809978485107,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ic uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hi autem qui intus erant cùm ſicuexarentur, legatos Cor",
+    "wer": 18.181818181818183,
+    "cer": 1.5625,
+    "accuracy": 98.4375,
+    "time": 1.7065317630767822,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi autem qui intus erant cùm ſic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hi autem qui intus erant cùm ficuexarentur,legatos Cor",
+    "wer": 45.45454545454545,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 1.7406878471374512,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi autem qui intus erant cùm "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uexarentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "legatos Cor"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hi autem qui intus erant cùm sicue xarentur, legatos Cor",
+    "wer": 18.181818181818183,
+    "cer": 4.6875,
+    "accuracy": 96.875,
+    "time": 1.8378448486328125,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi autem qui intus erant cùm "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ue"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "xarentur, legatos Cor"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hi autem qui intus erant cum ſic uexarentur,legatos Cor",
+    "wer": 45.45454545454545,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 3.227688789367676,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m ſic uexarentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "legatos Cor"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hiautem qui intus erant cum fic uexarentur, legatos Cor",
+    "wer": 36.36363636363637,
+    "cer": 4.6875,
+    "accuracy": 95.3125,
+    "time": 4.109634876251221,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.296361923217773,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "banur. Hi autem quíntus erant cùm ſic vexarentur, legatos Cor",
+    "wer": 36.36363636363637,
+    "cer": 7.8125,
+    "accuracy": 92.1875,
+    "time": 5.69281792640686,
+    "diffs": [
+      [
+        0,
+        "ban"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "ur. Hi autem qu"
+      ],
+      [
+        -1,
+        "i i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "ntus erant cùm ſic "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "exarentur, legatos Cor"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "wer": 18.181818181818183,
+    "cer": 1.5625,
+    "accuracy": 98.4375,
+    "time": 17.116206169128418,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi autem qui intus erant cùm ſic uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "banur. Hi autem quí intus erant cùm ſic uexarentur, legatos Cor",
+    "wer": 18.181818181818183,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 22.632844924926758,
+    "diffs": [
+      [
+        0,
+        "ban"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "ur. Hi autem qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        " intus erant cùm ſic uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hi autem qui intus erant cùm ſicuexarentur, legatos Cor",
+    "wer": 36.36363636363637,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 18.580308437347412,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi autem qui intus erant cùm ſic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 71.73543810844421,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hi autem qui intus erant cum ficuexarentur,legatos Cor",
+    "wer": 54.54545454545454,
+    "cer": 7.8125,
+    "accuracy": 92.1875,
+    "time": 5.289702892303467,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uexarentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "legatos Cor"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur. Hi autem qui intus erant cum ſicuexarentur, legatos Cor",
+    "wer": 27.27272727272727,
+    "cer": 3.125,
+    "accuracy": 96.875,
+    "time": 1.4729840755462646,
+    "diffs": [
+      [
+        0,
+        "bantur. Hi autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m ſic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uexarentur, legatos Cor"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hiautem quintus erant câm sicuexarentur,legatos Cor",
+    "wer": 81.81818181818183,
+    "cer": 12.5,
+    "accuracy": 87.5,
+    "time": 2.3878159523010254,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "autem qui"
+      ],
+      [
+        -1,
+        " i"
+      ],
+      [
+        0,
+        "ntus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "â"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uexarentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "legatos Cor"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 8,
+    "insertions": 2
+  },
+  "grok-4": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hi autem qui intus erant cum ſiti exarentur,legatos Cor",
+    "wer": 54.54545454545454,
+    "cer": 9.375,
+    "accuracy": 92.1875,
+    "time": 222.49241185188293,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m ſi"
+      ],
+      [
+        -1,
+        "c u"
+      ],
+      [
+        1,
+        "ti "
+      ],
+      [
+        0,
+        "exarentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "legatos Cor"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "cogito-v2-109b": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hiautem qui intus erant cüm ficuexarentur,legatos Cor",
+    "wer": 63.63636363636363,
+    "cer": 9.375,
+    "accuracy": 90.625,
+    "time": 2.030642032623291,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "autem qui intus erant c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uexarentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "legatos Cor"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "bantur. Hi autem qui intus erant cùm ſic uexarentur, legatos Cor",
+    "response": "bantur.Hi autem qui intus erant cùm ficu exarentur, legatos Cor",
+    "wer": 36.36363636363637,
+    "cer": 6.25,
+    "accuracy": 95.3125,
+    "time": 4.520230054855347,
+    "diffs": [
+      [
+        0,
+        "bantur."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Hi autem qui intus erant cùm "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ic"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "u"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "exarentur, legatos Cor"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 3,
+    "insertions": 2
+  }
+}

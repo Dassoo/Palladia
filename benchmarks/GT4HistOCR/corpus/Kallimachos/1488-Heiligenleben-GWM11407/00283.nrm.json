@@ -1,0 +1,1426 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "𝄆lebet bey des keyſers Decius zeyten. Da wurden",
+    "wer": 66.66666666666666,
+    "cer": 19.565217391304348,
+    "accuracy": 82.97872340425532,
+    "time": 0.9672889709472656,
+    "diffs": [
+      [
+        -1,
+        "ð "
+      ],
+      [
+        1,
+        "𝄆"
+      ],
+      [
+        0,
+        "lebet bey des keyſers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "en"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "en"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "spotlight": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "S lebet bey des Keyfers Decius zeyte. Da wurdē",
+    "wer": 66.66666666666666,
+    "cer": 17.391304347826086,
+    "accuracy": 82.6086956521739,
+    "time": 1.6063151359558105,
+    "diffs": [
+      [
+        -1,
+        "ð"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        " lebet bey des "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gpt-4.1": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "S Lsbet bey des Keyſers Decius zeytē. Da wurde",
+    "wer": 77.77777777777779,
+    "cer": 19.565217391304348,
+    "accuracy": 80.43478260869566,
+    "time": 2.0952208042144775,
+    "diffs": [
+      [
+        -1,
+        "ð le"
+      ],
+      [
+        1,
+        "S Ls"
+      ],
+      [
+        0,
+        "bet bey des "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eyſers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "gpt-4o": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "D ſlebet bey Ȝes Keyſers Decius zeyte. Da wurdē",
+    "wer": 88.88888888888889,
+    "cer": 21.73913043478261,
+    "accuracy": 79.16666666666666,
+    "time": 2.3269450664520264,
+    "diffs": [
+      [
+        -1,
+        "ð "
+      ],
+      [
+        1,
+        "D ſ"
+      ],
+      [
+        0,
+        "lebet bey "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Ȝ"
+      ],
+      [
+        0,
+        "es "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eyſers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 9,
+    "insertions": 11
+  },
+  "claude-4-sonnet": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ſlebet bey des keyſers lecius zeyte. da wurde",
+    "wer": 55.55555555555556,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 3.0840163230895996,
+    "diffs": [
+      [
+        -1,
+        "ð "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "lebet bey des keyſers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        ". da wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ö lebet bey des keyſers decius zeytẽ. da wurdẽ",
+    "wer": 22.22222222222222,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 3.604423999786377,
+    "diffs": [
+      [
+        -1,
+        "ð"
+      ],
+      [
+        1,
+        "ö"
+      ],
+      [
+        0,
+        " lebet bey des keyſers decius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eytẽ. da wurdẽ"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ß lebet bey des keyfers decius zeyte. da wurde",
+    "wer": 44.44444444444444,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 6.5188889503479,
+    "diffs": [
+      [
+        -1,
+        "ð"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        " lebet bey des key"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ers decius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        ". da wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ſLeber bey des Keyfers Decius ſeptē. Da wurdē",
+    "wer": 77.77777777777779,
+    "cer": 26.08695652173913,
+    "accuracy": 73.91304347826086,
+    "time": 3.4043667316436768,
+    "diffs": [
+      [
+        -1,
+        "ð l"
+      ],
+      [
+        1,
+        "ſL"
+      ],
+      [
+        0,
+        "ebe"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " bey des "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒeytẽ"
+      ],
+      [
+        1,
+        "ſeptē"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 14,
+    "insertions": 13
+  },
+  "gpt-5-mini": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "Blebet bey des keyſers decivs zeyte: da wurde",
+    "wer": 55.55555555555556,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 34.86251783370972,
+    "diffs": [
+      [
+        -1,
+        "ð "
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "lebet bey des keyſers deci"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "s "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ."
+      ],
+      [
+        1,
+        "e:"
+      ],
+      [
+        0,
+        " da wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "gpt-5": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ß lebet bey des Keyſers Decius zeytē. Da wurdē",
+    "wer": 66.66666666666666,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 59.703641176223755,
+    "diffs": [
+      [
+        -1,
+        "ð"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        " lebet bey des "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "eyſers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "glm-4.5v": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ſlebet bey des ſeyfers decius zeyte.da wurde",
+    "wer": 66.66666666666666,
+    "cer": 17.391304347826086,
+    "accuracy": 82.6086956521739,
+    "time": 3.9156339168548584,
+    "diffs": [
+      [
+        -1,
+        "ð "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "lebet bey des "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ers decius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ. "
+      ],
+      [
+        1,
+        "e."
+      ],
+      [
+        0,
+        "da wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "gemini-2.5-flash": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "Slebet bey Des Eeyſers Decius zeytẽ. Sa wurdẽ",
+    "wer": 77.77777777777779,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 13.769849061965942,
+    "diffs": [
+      [
+        -1,
+        "ð "
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "lebet bey "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "es "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "E"
+      ],
+      [
+        0,
+        "eyſers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eytẽ. "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "a wurdẽ"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ſo Leber bey deſ Keſſers Decius zeyte. Da wurde",
+    "wer": 88.88888888888889,
+    "cer": 26.08695652173913,
+    "accuracy": 74.46808510638297,
+    "time": 1.7270708084106445,
+    "diffs": [
+      [
+        -1,
+        "ð l"
+      ],
+      [
+        1,
+        "ſo L"
+      ],
+      [
+        0,
+        "ebe"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        " bey de"
+      ],
+      [
+        -1,
+        "s key"
+      ],
+      [
+        1,
+        "ſ Keſ"
+      ],
+      [
+        0,
+        "ſers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 14,
+    "insertions": 15
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "Đ lebet bey Đes Ŀeysfers Đecius zeytē. Đa wurdē",
+    "wer": 77.77777777777779,
+    "cer": 21.73913043478261,
+    "accuracy": 78.72340425531915,
+    "time": 3.049916982650757,
+    "diffs": [
+      [
+        -1,
+        "ð"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        " lebet bey "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        "es "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "Ŀ"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "sf"
+      ],
+      [
+        0,
+        "ers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Đ"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 9,
+    "insertions": 10
+  },
+  "cogito-v2-109b": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "ſiebet bey des Feyfers Decius zeytē. Da wurde",
+    "wer": 77.77777777777779,
+    "cer": 21.73913043478261,
+    "accuracy": 78.26086956521739,
+    "time": 2.2575058937072754,
+    "diffs": [
+      [
+        -1,
+        "ð l"
+      ],
+      [
+        1,
+        "ſi"
+      ],
+      [
+        0,
+        "ebet bey des "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ð lebet bey des keyſers decius ʒeytẽ. da wurdẽ",
+    "response": "D lebet bey des Keyfers Decius zeytē. Da wurdē",
+    "wer": 66.66666666666666,
+    "cer": 17.391304347826086,
+    "accuracy": 82.6086956521739,
+    "time": 4.541819095611572,
+    "diffs": [
+      [
+        -1,
+        "ð"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        " lebet bey des "
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "K"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ers "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ecius "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "eyt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a wurd"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 8
+  }
+}

@@ -1,0 +1,1056 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras:& quas ex græcis acceperamus:noſtri ut antiquißimigracoy",
+    "wer": 50.0,
+    "cer": 12.658227848101266,
+    "accuracy": 89.87341772151899,
+    "time": 1.3716349601745605,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& quas ex græcis acceperamus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "quißi"
+      ],
+      [
+        0,
+        "mi"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "co"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "y"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "mistral-small": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cuſt diciones noſtras: & quas ex græcis acceperamus: noſtri ut antiqſimi græci",
+    "wer": 33.33333333333333,
+    "cer": 8.860759493670885,
+    "accuracy": 92.40506329113924,
+    "time": 1.4940400123596191,
+    "diffs": [
+      [
+        0,
+        "cu"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        " dic"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "iones noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "qſi"
+      ],
+      [
+        0,
+        "mi græc"
+      ],
+      [
+        -1,
+        "oꝶ"
+      ],
+      [
+        1,
+        "i"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "spotlight": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperamus: nostri ut antiqui migræcori",
+    "wer": 25.0,
+    "cer": 10.126582278481013,
+    "accuracy": 91.25,
+    "time": 1.7708978652954102,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperamus: no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "qui "
+      ],
+      [
+        0,
+        "mi"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ri"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras:& quas ex græcis acceperamus:noſtri ut antiqui græcorum",
+    "wer": 50.0,
+    "cer": 11.39240506329114,
+    "accuracy": 91.13924050632912,
+    "time": 2.144472122192383,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& quas ex græcis acceperamus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſm"
+      ],
+      [
+        1,
+        "qu"
+      ],
+      [
+        0,
+        "i græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rum"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex graecis acceperamus: noſtri ut antiquiſſimi graecorῡ",
+    "wer": 25.0,
+    "cer": 12.658227848101266,
+    "accuracy": 88.23529411764706,
+    "time": 2.134381055831909,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "qui"
+      ],
+      [
+        0,
+        "ſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi gr"
+      ],
+      [
+        -1,
+        "æcoꝶ"
+      ],
+      [
+        1,
+        "aecorῡ"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 6,
+    "insertions": 12
+  },
+  "gpt-4o": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſsimi græcorƺ ",
+    "wer": 16.666666666666664,
+    "cer": 8.860759493670885,
+    "accuracy": 90.47619047619048,
+    "time": 2.8316891193389893,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "quiſsi"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rƺ "
+      ]
+    ],
+    "matches": 75,
+    "deletions": 4,
+    "insertions": 9
+  },
+  "claude-4-sonnet": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones nostras: & quas ex græcis accepcramus: nostri ut antiquissimi græcorum",
+    "wer": 41.66666666666667,
+    "cer": 15.18987341772152,
+    "accuracy": 85.71428571428571,
+    "time": 3.679788112640381,
+    "diffs": [
+      [
+        0,
+        "cum dictiones no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tras: & quas ex græcis accep"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ramus: no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "quissi"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rum"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 7,
+    "insertions": 12
+  },
+  "gemini-2.5-flash": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiqviſsimi Græcoꝝ,",
+    "wer": 16.666666666666664,
+    "cer": 10.126582278481013,
+    "accuracy": 90.36144578313254,
+    "time": 3.771061897277832,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "qviſsi"
+      ],
+      [
+        0,
+        "mi "
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "ræco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ꝝ,"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 5,
+    "insertions": 9
+  },
+  "claude-4-opus": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperam⁹: noſui ut antiqlſimi græcoꝛ",
+    "wer": 33.33333333333333,
+    "cer": 10.126582278481013,
+    "accuracy": 91.13924050632912,
+    "time": 4.889184951782227,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperam"
+      ],
+      [
+        -1,
+        "us"
+      ],
+      [
+        1,
+        "⁹"
+      ],
+      [
+        0,
+        ": noſ"
+      ],
+      [
+        -1,
+        "tr"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "i ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "qlſi"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ꝛ"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "o4-mini": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis accepteramus: nostri ut antiqſſimi græcor",
+    "wer": 33.33333333333333,
+    "cer": 6.329113924050633,
+    "accuracy": 93.82716049382715,
+    "time": 28.43130922317505,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis accep"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "eramus: no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tri ut anti"
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "ſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "r"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 3,
+    "insertions": 5
+  },
+  "gemini-2.5-pro": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictionis noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſſimi græcoruꝣ,",
+    "wer": 25.0,
+    "cer": 11.39240506329114,
+    "accuracy": 89.41176470588236,
+    "time": 133.61676907539368,
+    "diffs": [
+      [
+        0,
+        "cum diction"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "qui"
+      ],
+      [
+        0,
+        "ſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ruꝣ,"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 3,
+    "insertions": 9
+  },
+  "gpt-5-mini": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſſimi græcor",
+    "wer": 16.666666666666664,
+    "cer": 6.329113924050633,
+    "accuracy": 93.90243902439023,
+    "time": 29.021153926849365,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "qui"
+      ],
+      [
+        0,
+        "ſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "r"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 2,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſſimi græcorū",
+    "wer": 16.666666666666664,
+    "cer": 7.59493670886076,
+    "accuracy": 92.7710843373494,
+    "time": 92.47088503837585,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "qui"
+      ],
+      [
+        0,
+        "ſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rū"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 2,
+    "insertions": 6
+  },
+  "glm-4.5v": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noftras: & quas ex græcis acceperamus:noſtri ut antiqui graecoſ",
+    "wer": 41.66666666666667,
+    "cer": 11.39240506329114,
+    "accuracy": 89.87341772151899,
+    "time": 13.426335096359253,
+    "diffs": [
+      [
+        0,
+        "cum dictiones no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tras: & quas ex græcis acceperamus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſm"
+      ],
+      [
+        1,
+        "qu"
+      ],
+      [
+        0,
+        "i gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "co"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſſimi græcorum",
+    "wer": 16.666666666666664,
+    "cer": 8.860759493670885,
+    "accuracy": 91.66666666666666,
+    "time": 2.429250955581665,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "qui"
+      ],
+      [
+        0,
+        "ſſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rum"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 2,
+    "insertions": 7
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictionarys nostras: & quas ex græcis acceperamus: nostris ut antiquissimis græcorum",
+    "wer": 41.66666666666667,
+    "cer": 20.253164556962027,
+    "accuracy": 81.81818181818183,
+    "time": 2.702148914337158,
+    "diffs": [
+      [
+        0,
+        "cum diction"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ary"
+      ],
+      [
+        0,
+        "s no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tras: & quas ex græcis acceperamus: no"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tri"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        " ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "quissi"
+      ],
+      [
+        0,
+        "mi"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        " græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rum"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 7,
+    "insertions": 16
+  },
+  "cogito-v2-109b": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cu!n dictiones noſtras:& quas ex grxcis acceperamus:noſti ut antiqůſimi græcorũ",
+    "wer": 66.66666666666666,
+    "cer": 13.924050632911392,
+    "accuracy": 89.87341772151899,
+    "time": 1.4752702713012695,
+    "diffs": [
+      [
+        0,
+        "cu"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "!n"
+      ],
+      [
+        0,
+        " dictiones noſtras:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& quas ex gr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        "cis acceperamus:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "noſt"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        "i ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "qůſi"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rũ"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiꝗſſmi græcoꝶ",
+    "response": "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut antiquiſsimi græcorum",
+    "wer": 16.666666666666664,
+    "cer": 10.126582278481013,
+    "accuracy": 90.47619047619048,
+    "time": 4.710712194442749,
+    "diffs": [
+      [
+        0,
+        "cum dictiones noſtras: & quas ex græcis acceperamus: noſtri ut anti"
+      ],
+      [
+        -1,
+        "ꝗſſ"
+      ],
+      [
+        1,
+        "quiſsi"
+      ],
+      [
+        0,
+        "mi græco"
+      ],
+      [
+        -1,
+        "ꝶ"
+      ],
+      [
+        1,
+        "rum"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 4,
+    "insertions": 9
+  }
+}

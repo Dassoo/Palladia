@@ -1,0 +1,865 @@
+{
+  "mistral-small": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palam legatione miſſa, ſed clam non minimū cum illis ad mouen.",
+    "wer": 36.36363636363637,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 1.3813698291778564,
+    "diffs": [
+      [
+        0,
+        "pal"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m legatione miſſa, ſed cl"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione missa, fed clàm non minimũ cum illis ad mouen,",
+    "wer": 27.27272727272727,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 1.4956631660461426,
+    "diffs": [
+      [
+        0,
+        "palàm legatione mi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "a, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed clàm non minimũ cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen",
+    "wer": 9.090909090909092,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 1.9826679229736328,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed clàm non minimùm cum illis ad mouen.",
+    "wer": 18.181818181818183,
+    "cer": 4.838709677419355,
+    "accuracy": 95.23809523809523,
+    "time": 2.238477945327759,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed clàm non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ùm"
+      ],
+      [
+        0,
+        " cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa,fed clàm non minimũ cum illis ad mouen.",
+    "wer": 27.27272727272727,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 2.619615077972412,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa,"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed clàm non minimũ cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palam legatione miſſa, ſed etiam non minimum cum illis ad mouen-",
+    "wer": 27.27272727272727,
+    "cer": 11.29032258064516,
+    "accuracy": 89.0625,
+    "time": 3.6715891361236572,
+    "diffs": [
+      [
+        0,
+        "pal"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m legatione miſſa, ſed "
+      ],
+      [
+        -1,
+        "clà"
+      ],
+      [
+        1,
+        "etia"
+      ],
+      [
+        0,
+        "m non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "um"
+      ],
+      [
+        0,
+        " cum illis ad mouen-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "claude-4-opus": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouẽ-",
+    "wer": 9.090909090909092,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 4.4172608852386475,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mou"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miffa, fed clàm non minimùm cum illis ad mouen.",
+    "wer": 36.36363636363637,
+    "cer": 9.67741935483871,
+    "accuracy": 90.47619047619048,
+    "time": 5.0480451583862305,
+    "diffs": [
+      [
+        0,
+        "palàm legatione mi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "a, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed clàm non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ùm"
+      ],
+      [
+        0,
+        " cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed etiam non minímú cum illis ad moueñ",
+    "wer": 27.27272727272727,
+    "cer": 11.29032258064516,
+    "accuracy": 88.88888888888889,
+    "time": 7.4376139640808105,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed "
+      ],
+      [
+        -1,
+        "clà"
+      ],
+      [
+        1,
+        "etia"
+      ],
+      [
+        0,
+        "m non min"
+      ],
+      [
+        -1,
+        "imũ"
+      ],
+      [
+        1,
+        "ímú"
+      ],
+      [
+        0,
+        " cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "̃"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "o4-mini": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed clàm non minimù cum illis ad mouen.",
+    "wer": 18.181818181818183,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 17.369736909866333,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed clàm non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        " cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gemini-2.5-pro": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatióne miſſa, ſed clàm non minímũ cum illis ad mouev",
+    "wer": 27.27272727272727,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 26.5759539604187,
+    "diffs": [
+      [
+        0,
+        "palàm legati"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        "ne miſſa, ſed clàm non min"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "mũ cum illis ad moue"
+      ],
+      [
+        -1,
+        "n-"
+      ],
+      [
+        1,
+        "v"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed clàm non minimù cum illis ad nouen-",
+    "wer": 18.181818181818183,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 15.922980785369873,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed clàm non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        " cum illis ad "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "ouen-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen,",
+    "wer": 9.090909090909092,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 48.42304873466492,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſta, ſed clàm non minimī cum illis ad mouen-",
+    "wer": 18.181818181818183,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 4.163933038711548,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "a, ſed clàm non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        " cum illis ad mouen-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, fed clam non minimù cum illis ad mouen-",
+    "wer": 27.27272727272727,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.3688769340515137,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed cl"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        " cum illis ad mouen-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione mifTā, fēd clām non minimū cum illīs ad mouen-",
+    "wer": 45.45454545454545,
+    "cer": 12.903225806451612,
+    "accuracy": 87.09677419354838,
+    "time": 2.678740978240967,
+    "diffs": [
+      [
+        0,
+        "palàm legatione mi"
+      ],
+      [
+        -1,
+        "ſſa, ſe"
+      ],
+      [
+        1,
+        "fTā, fē"
+      ],
+      [
+        0,
+        "d cl"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "m non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " cum ill"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        "s ad mouen-"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "grok-4": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "apalam legatione miſſa,ſed clam non minimūt cum illis ad mouen-",
+    "wer": 45.45454545454545,
+    "cer": 9.67741935483871,
+    "accuracy": 92.06349206349206,
+    "time": 146.3039219379425,
+    "diffs": [
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "pal"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m legatione miſſa,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſed cl"
+      ],
+      [
+        -1,
+        "à"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ūt"
+      ],
+      [
+        0,
+        " cum illis ad mouen-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miffa, fed clàm non minimũ cum illis ad inouenr.",
+    "wer": 27.27272727272727,
+    "cer": 11.29032258064516,
+    "accuracy": 89.0625,
+    "time": 2.4651520252227783,
+    "diffs": [
+      [
+        0,
+        "palàm legatione mi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "a, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ed clàm non minimũ cum illis ad "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        "ouen"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "r."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "palàm legatione miſſa, ſed clàm non minimũ cum illis ad mouen-",
+    "response": "palàm legatione miſſa, ſed clàm non minimùm cum illis ad mouen-",
+    "wer": 9.090909090909092,
+    "cer": 3.225806451612903,
+    "accuracy": 96.82539682539682,
+    "time": 2.5735859870910645,
+    "diffs": [
+      [
+        0,
+        "palàm legatione miſſa, ſed clàm non minim"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ùm"
+      ],
+      [
+        0,
+        " cum illis ad mouen-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 2
+  }
+}

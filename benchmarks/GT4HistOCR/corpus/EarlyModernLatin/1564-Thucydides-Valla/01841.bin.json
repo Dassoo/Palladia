@@ -1,0 +1,1177 @@
+{
+  "spotlight": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſcdentibus, hæc æſtas extracta eſt, appctēteç iam hyc-",
+    "wer": 33.33333333333333,
+    "cer": 10.294117647058822,
+    "accuracy": 89.70588235294117,
+    "time": 1.423727035522461,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſ"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "dentibus, hæc æſtas extracta eſt, app"
+      ],
+      [
+        -1,
+        "etẽteq́;"
+      ],
+      [
+        1,
+        "ctēteç"
+      ],
+      [
+        0,
+        " iam hy"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "mistral-small": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrínſecus ſed entibus, hæc æſtas extractæ eſt, appereſq́ iam hye-",
+    "wer": 55.55555555555556,
+    "cer": 11.76470588235294,
+    "accuracy": 91.17647058823529,
+    "time": 1.4351398944854736,
+    "diffs": [
+      [
+        0,
+        "altr"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "nſecus ſed"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "entibus, hæc æſtas extract"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        " eſt, appe"
+      ],
+      [
+        -1,
+        "tẽte"
+      ],
+      [
+        1,
+        "reſ"
+      ],
+      [
+        0,
+        "q́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "llama-4-maverick-17b": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinfecus fcdentibus, hæc æftas extracta eft, appectēteóꝑ iam hyc-",
+    "wer": 66.66666666666666,
+    "cer": 16.176470588235293,
+    "accuracy": 85.29411764705883,
+    "time": 1.8676700592041016,
+    "diffs": [
+      [
+        0,
+        "altrin"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ecus "
+      ],
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        "dentibus, hæc æ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tas extracta e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t, appe"
+      ],
+      [
+        -1,
+        "tẽteq́;"
+      ],
+      [
+        1,
+        "ctēteóꝑ"
+      ],
+      [
+        0,
+        " iam hy"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 13,
+    "insertions": 13
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinfecus ſcdentibus,hæc æſtas extraéta eſt,appetéteφ iam hye-",
+    "wer": 66.66666666666666,
+    "cer": 13.23529411764706,
+    "accuracy": 86.76470588235294,
+    "time": 2.014401912689209,
+    "diffs": [
+      [
+        0,
+        "altrin"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ecus ſ"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "dentibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "hæc æſtas extra"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "ta eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "appet"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "te"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "φ"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc arſtas extracta eſt, appetétêϕiam hye-",
+    "wer": 33.33333333333333,
+    "cer": 11.76470588235294,
+    "accuracy": 89.70588235294117,
+    "time": 2.4872758388519287,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc "
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ar"
+      ],
+      [
+        0,
+        "ſtas extracta eſt, appet"
+      ],
+      [
+        -1,
+        "ẽteq́; "
+      ],
+      [
+        1,
+        "étêϕ"
+      ],
+      [
+        0,
+        "iam hye-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "gpt-4.1": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc aſtas extracta eſt, appetiteqꝫ iam hye-",
+    "wer": 22.22222222222222,
+    "cer": 5.88235294117647,
+    "accuracy": 94.11764705882352,
+    "time": 3.432433843612671,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc "
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ſtas extracta eſt, appet"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "teq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinfecus fcdentibus, hæc æftas extracta eft, appetẽteq́; iam hye-",
+    "wer": 44.44444444444444,
+    "cer": 7.352941176470589,
+    "accuracy": 92.64705882352942,
+    "time": 4.478121995925903,
+    "diffs": [
+      [
+        0,
+        "altrin"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ecus "
+      ],
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        "dentibus, hæc æ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tas extracta e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t, appetẽteq́; iam hye-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "claude-4-sonnet": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetente iam hye-",
+    "wer": 11.11111111111111,
+    "cer": 7.352941176470589,
+    "accuracy": 94.11764705882352,
+    "time": 5.600971937179565,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc æſtas extracta eſt, appet"
+      ],
+      [
+        -1,
+        "ẽteq́;"
+      ],
+      [
+        1,
+        "ente"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc ærſtas extracta eſt, appercréſçéq́ iam hyc_",
+    "wer": 33.33333333333333,
+    "cer": 16.176470588235293,
+    "accuracy": 86.11111111111111,
+    "time": 11.021650075912476,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc æ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ſtas extracta eſt, appe"
+      ],
+      [
+        -1,
+        "tẽte"
+      ],
+      [
+        1,
+        "rcréſçé"
+      ],
+      [
+        0,
+        "q́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " iam hy"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "c_"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 7,
+    "insertions": 11
+  },
+  "o4-mini": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appc̄c̄q̄ iam hyc̄",
+    "wer": 22.22222222222222,
+    "cer": 13.23529411764706,
+    "accuracy": 86.76470588235294,
+    "time": 39.33309316635132,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc æſtas extracta eſt, app"
+      ],
+      [
+        -1,
+        "etẽteq́;"
+      ],
+      [
+        1,
+        "c̄c̄q̄"
+      ],
+      [
+        0,
+        " iam hy"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "c̄"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "gemini-2.5-pro": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc æſtas extracta eſt, apperciſeq́; iam hye-",
+    "wer": 11.11111111111111,
+    "cer": 5.88235294117647,
+    "accuracy": 94.20289855072464,
+    "time": 112.55902576446533,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc æſtas extracta eſt, appe"
+      ],
+      [
+        -1,
+        "tẽt"
+      ],
+      [
+        1,
+        "rciſ"
+      ],
+      [
+        0,
+        "eq́; iam hye-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appcricteqz iam hye",
+    "wer": 22.22222222222222,
+    "cer": 10.294117647058822,
+    "accuracy": 91.17647058823529,
+    "time": 20.62139391899109,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc æſtas extracta eſt, app"
+      ],
+      [
+        -1,
+        "etẽ"
+      ],
+      [
+        1,
+        "cric"
+      ],
+      [
+        0,
+        "teq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        " iam hye"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetetq́ iam hyẽs,",
+    "wer": 22.22222222222222,
+    "cer": 8.823529411764707,
+    "accuracy": 92.64705882352942,
+    "time": 50.07645010948181,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, hæc æſtas extracta eſt, appet"
+      ],
+      [
+        -1,
+        "ẽt"
+      ],
+      [
+        0,
+        "e"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "q́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " iam hy"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "ẽs,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "glm-4.5v": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus fcedentibus,hæc æftas extracta eſt,appetiteq iam hye-",
+    "wer": 55.55555555555556,
+    "cer": 11.76470588235294,
+    "accuracy": 89.70588235294117,
+    "time": 8.90199589729309,
+    "diffs": [
+      [
+        0,
+        "altrinſecus "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        "edentibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "hæc æ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tas extracta eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "appet"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "teq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſcedentibus, hæc eſtas extracta eſt, appertcreφiam hye:",
+    "wer": 55.55555555555556,
+    "cer": 14.705882352941178,
+    "accuracy": 88.23529411764706,
+    "time": 1.7551140785217285,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſ"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "edentibus, hæc "
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "ſtas extracta eſt, appe"
+      ],
+      [
+        -1,
+        "tẽteq́; "
+      ],
+      [
+        1,
+        "rtcreφ"
+      ],
+      [
+        0,
+        "iam hye"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinfecus fedentibus, hæc æftas extራcta eft, appetēteӕ iam hye-",
+    "wer": 66.66666666666666,
+    "cer": 14.705882352941178,
+    "accuracy": 85.29411764705883,
+    "time": 2.3616931438446045,
+    "diffs": [
+      [
+        0,
+        "altrin"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ecus "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "edentibus, hæc æ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tas ext"
+      ],
+      [
+        -1,
+        "ra"
+      ],
+      [
+        1,
+        "ራ"
+      ],
+      [
+        0,
+        "cta e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t, appet"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "te"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "ӕ"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "grok-4": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinſecus ſedentibus, hac æﬅas extracta eﬅ, appetenteꝗ iam hye-",
+    "wer": 44.44444444444444,
+    "cer": 14.705882352941178,
+    "accuracy": 86.76470588235294,
+    "time": 142.4110541343689,
+    "diffs": [
+      [
+        0,
+        "altrinſecus ſedentibus, h"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "c æ"
+      ],
+      [
+        -1,
+        "ſt"
+      ],
+      [
+        1,
+        "ﬅ"
+      ],
+      [
+        0,
+        "as extracta e"
+      ],
+      [
+        -1,
+        "ſt"
+      ],
+      [
+        1,
+        "ﬅ"
+      ],
+      [
+        0,
+        ", appet"
+      ],
+      [
+        -1,
+        "ẽteq́;"
+      ],
+      [
+        1,
+        "enteꝗ"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 11,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinfecus fedentibus,hæc æſtas extracta eſt,appetîteó iam hyc..",
+    "wer": 66.66666666666666,
+    "cer": 16.176470588235293,
+    "accuracy": 85.29411764705883,
+    "time": 1.7163300514221191,
+    "diffs": [
+      [
+        0,
+        "altrin"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ecus "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "edentibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "hæc æſtas extracta eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "appet"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "î"
+      ],
+      [
+        0,
+        "te"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        " iam hy"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "c.."
+      ]
+    ],
+    "matches": 58,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "altrinſecus ſedentibus, hæc æſtas extracta eſt, appetẽteq́; iam hye-",
+    "response": "altrinfecus fcdentibus,hæc altas extracta eſt,appctcteφ iam hye-",
+    "wer": 66.66666666666666,
+    "cer": 17.647058823529413,
+    "accuracy": 82.35294117647058,
+    "time": 2.236067056655884,
+    "diffs": [
+      [
+        0,
+        "altrin"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ecus "
+      ],
+      [
+        -1,
+        "ſe"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        "dentibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "hæc "
+      ],
+      [
+        -1,
+        "æſ"
+      ],
+      [
+        1,
+        "al"
+      ],
+      [
+        0,
+        "tas extracta eſt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "app"
+      ],
+      [
+        -1,
+        "etẽteq́;"
+      ],
+      [
+        1,
+        "ctcteφ"
+      ],
+      [
+        0,
+        " iam hye-"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 15,
+    "insertions": 11
+  }
+}

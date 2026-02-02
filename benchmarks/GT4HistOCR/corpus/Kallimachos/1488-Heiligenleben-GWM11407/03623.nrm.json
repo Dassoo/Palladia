@@ -1,0 +1,878 @@
+{
+  "spotlight": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "wester auch wol das sie cristen waren. und la",
+    "wer": 60.0,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 1.4584190845489502,
+    "diffs": [
+      [
+        0,
+        "we"
+      ],
+      [
+        -1,
+        "ſt "
+      ],
+      [
+        1,
+        "st"
+      ],
+      [
+        0,
+        "er auch wol das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ie cri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ten waren. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "weſter auch wol ſas ſie criſten waren. vnd ſa",
+    "wer": 40.0,
+    "cer": 6.521739130434782,
+    "accuracy": 93.47826086956522,
+    "time": 1.4854578971862793,
+    "diffs": [
+      [
+        0,
+        "weſt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er auch wol "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "as ſie criſten waren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "wester auch wol das ſie criſten waren. vnd da",
+    "wer": 20.0,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 2.233386993408203,
+    "diffs": [
+      [
+        0,
+        "we"
+      ],
+      [
+        -1,
+        "ſt "
+      ],
+      [
+        1,
+        "st"
+      ],
+      [
+        0,
+        "er auch wol das ſie criſten waren. vnd da"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "meſter auch wol das ſie criſten waren. vnd Da",
+    "wer": 30.0,
+    "cer": 6.521739130434782,
+    "accuracy": 93.47826086956522,
+    "time": 2.2431390285491943,
+    "diffs": [
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "eſt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er auch wol das ſie criſten waren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "wester auch wol das fie criften iraren. vnd fa",
+    "wer": 60.0,
+    "cer": 15.217391304347828,
+    "accuracy": 86.95652173913044,
+    "time": 2.5715153217315674,
+    "diffs": [
+      [
+        0,
+        "we"
+      ],
+      [
+        -1,
+        "ſt "
+      ],
+      [
+        1,
+        "st"
+      ],
+      [
+        0,
+        "er auch wol das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie cri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ten "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "ir"
+      ],
+      [
+        0,
+        "aren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "claude-4-sonnet": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "weſt er auch wol Das ſie erſten waren. vnd Da",
+    "wer": 30.0,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 3.3463380336761475,
+    "diffs": [
+      [
+        0,
+        "weſt er auch wol "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ſie "
+      ],
+      [
+        -1,
+        "cri"
+      ],
+      [
+        1,
+        "er"
+      ],
+      [
+        0,
+        "ſten waren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "meſter auch wol das fie criften waren. vnd da:",
+    "wer": 50.0,
+    "cer": 10.869565217391305,
+    "accuracy": 91.30434782608695,
+    "time": 11.751234769821167,
+    "diffs": [
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "eſt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er auch wol das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie cri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ten waren. vnd da"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "weſt er auch wol das ſie criſten waren. vnd da",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 16.73602294921875,
+    "diffs": [
+      [
+        0,
+        "weſt er auch wol das ſie criſten waren. vnd da"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "weſter auch wol das ſie criſten waren. vnd Ja",
+    "wer": 30.0,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 18.043020009994507,
+    "diffs": [
+      [
+        0,
+        "weſt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er auch wol das ſie criſten waren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "wuſt er auch wol Das ſie criſten waren. vnd Ja",
+    "wer": 30.0,
+    "cer": 6.521739130434782,
+    "accuracy": 93.47826086956522,
+    "time": 112.49517321586609,
+    "diffs": [
+      [
+        0,
+        "w"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "ſt er auch wol "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ſie criſten waren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "weſter auch wol das fie criften waren. vnd ſa",
+    "wer": 50.0,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 9.472214937210083,
+    "diffs": [
+      [
+        0,
+        "weſt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er auch wol das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie cri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ten waren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gemini-2.5-flash": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "recſt er auch rool Sas ſie criſten waren. und Sas",
+    "wer": 50.0,
+    "cer": 17.391304347826086,
+    "accuracy": 83.6734693877551,
+    "time": 4.001171112060547,
+    "diffs": [
+      [
+        -1,
+        "we"
+      ],
+      [
+        1,
+        "rec"
+      ],
+      [
+        0,
+        "ſt er auch "
+      ],
+      [
+        -1,
+        "w"
+      ],
+      [
+        1,
+        "ro"
+      ],
+      [
+        0,
+        "ol "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "as ſie criſten waren. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "da"
+      ],
+      [
+        1,
+        "Sas"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "woſter auch wol Daſ ſie criſten waren. und Da",
+    "wer": 50.0,
+    "cer": 13.043478260869565,
+    "accuracy": 86.95652173913044,
+    "time": 1.562535285949707,
+    "diffs": [
+      [
+        0,
+        "w"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "ſt"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er auch wol "
+      ],
+      [
+        -1,
+        "das"
+      ],
+      [
+        1,
+        "Daſ"
+      ],
+      [
+        0,
+        " ſie criſten waren. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": " west er auch wol §as ſie criften waren.vnd §a",
+    "wer": 60.0,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 3.418674945831299,
+    "diffs": [
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "we"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t er auch wol "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "§"
+      ],
+      [
+        0,
+        "as ſie cri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ten waren."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "§"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "wolten auch wol das fie criften waren. vnd das",
+    "wer": 50.0,
+    "cer": 15.217391304347828,
+    "accuracy": 86.95652173913044,
+    "time": 2.3707079887390137,
+    "diffs": [
+      [
+        0,
+        "w"
+      ],
+      [
+        -1,
+        "eſt er"
+      ],
+      [
+        1,
+        "olten"
+      ],
+      [
+        0,
+        " auch wol das "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ie cri"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ten waren. vnd da"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "weſt er auch wol das ſie criſten waren. vnd da",
+    "response": "weſt er auch wol Das ſie criſten waren. vnd Da",
+    "wer": 20.0,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 3.110795021057129,
+    "diffs": [
+      [
+        0,
+        "weſt er auch wol "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "as ſie criſten waren. vnd "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "a"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

@@ -1,0 +1,798 @@
+{
+  "mistral-small": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de fone yſrahel proſtere vnſe leuiten vſi",
+    "wer": 50.0,
+    "cer": 11.363636363636363,
+    "accuracy": 88.88888888888889,
+    "time": 1.2457122802734375,
+    "diffs": [
+      [
+        0,
+        "Men de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one yſrahel pr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "ſtere vn"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "e leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ſi"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "spotlight": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de fone pſrahel prestere vnde leuiten vn",
+    "wer": 50.0,
+    "cer": 9.090909090909092,
+    "accuracy": 90.9090909090909,
+    "time": 1.3042559623718262,
+    "diffs": [
+      [
+        0,
+        "Men de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſrahel pre"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tere vnde leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone iſrahel prieſter vnde leuiten vi⁀",
+    "wer": 37.5,
+    "cer": 11.363636363636363,
+    "accuracy": 91.11111111111111,
+    "time": 2.185551166534424,
+    "diffs": [
+      [
+        0,
+        "Men de ſone "
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ſrahel pr"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "eſter"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        " vnde leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "i⁀"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone Iſrahel preſtew vnde leuiten vii",
+    "wer": 37.5,
+    "cer": 11.363636363636363,
+    "accuracy": 90.9090909090909,
+    "time": 2.533437967300415,
+    "diffs": [
+      [
+        0,
+        "Men de ſone "
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "ſrahel preſte"
+      ],
+      [
+        -1,
+        "re"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        " vnde leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ii"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de fone pſrahel præftere vñe leuiten vn",
+    "wer": 62.5,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 2.5755181312561035,
+    "diffs": [
+      [
+        0,
+        "Men de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſrahel pr"
+      ],
+      [
+        -1,
+        "eſ"
+      ],
+      [
+        1,
+        "æf"
+      ],
+      [
+        0,
+        "tere v"
+      ],
+      [
+        -1,
+        "nd"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        "e leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 7,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone yſrahel praſtere vnde leuiten vñ",
+    "wer": 12.5,
+    "cer": 2.272727272727273,
+    "accuracy": 97.72727272727273,
+    "time": 2.795628786087036,
+    "diffs": [
+      [
+        0,
+        "Men de ſone yſrahel pr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ſtere vnde leuiten vñ"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de fone yſrahel preſtere vnde leuiten vſ",
+    "wer": 25.0,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 3.287623167037964,
+    "diffs": [
+      [
+        0,
+        "Men de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one yſrahel preſtere vnde leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone pſtabel paſtere vnde leuĩden vñ",
+    "wer": 37.5,
+    "cer": 15.909090909090908,
+    "accuracy": 84.0909090909091,
+    "time": 3.902358055114746,
+    "diffs": [
+      [
+        0,
+        "Men de ſone "
+      ],
+      [
+        -1,
+        "yſrah"
+      ],
+      [
+        1,
+        "pſtab"
+      ],
+      [
+        0,
+        "el p"
+      ],
+      [
+        -1,
+        "re"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ſtere vnde leu"
+      ],
+      [
+        -1,
+        "it"
+      ],
+      [
+        1,
+        "ĩd"
+      ],
+      [
+        0,
+        "en vñ"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "gpt-5-mini": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone yſrahel preſtere vnde leuiren vn",
+    "wer": 25.0,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 17.01607394218445,
+    "diffs": [
+      [
+        0,
+        "Men de ſone yſrahel preſtere vnde leui"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "en v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 53.50748014450073,
+    "diffs": [
+      [
+        0,
+        "Men de ſone yſrahel preſtere vnde leuiten vñ"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Mend de fone phrahel preftere vnde leuiten vn",
+    "wer": 62.5,
+    "cer": 13.636363636363635,
+    "accuracy": 86.66666666666667,
+    "time": 6.890933036804199,
+    "diffs": [
+      [
+        0,
+        "Men"
+      ],
+      [
+        1,
+        "d"
+      ],
+      [
+        0,
+        " de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "yſ"
+      ],
+      [
+        1,
+        "ph"
+      ],
+      [
+        0,
+        "rahel pre"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tere vnde leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone yſrahcl prieſtere vnde leuiiten vñ",
+    "wer": 37.5,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.47826086956522,
+    "time": 3.360121011734009,
+    "diffs": [
+      [
+        0,
+        "Men de ſone yſrah"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "l pr"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "eſtere vnde leui"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ten vñ"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 1,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de ſone pſrahel preſtere vnde leuiten vn̄",
+    "wer": 25.0,
+    "cer": 6.8181818181818175,
+    "accuracy": 93.33333333333333,
+    "time": 1.4822289943695068,
+    "diffs": [
+      [
+        0,
+        "Men de ſone "
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſrahel preſtere vnde leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n̄"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de sone ƥsrael prestere vnde leuiten vī",
+    "wer": 50.0,
+    "cer": 15.909090909090908,
+    "accuracy": 86.36363636363636,
+    "time": 2.563697338104248,
+    "diffs": [
+      [
+        0,
+        "Men de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "yſ"
+      ],
+      [
+        1,
+        "ƥs"
+      ],
+      [
+        0,
+        "ra"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        0,
+        "el pre"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tere vnde leuiten v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ī"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "cogito-v2-109b": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de fone pfrakel preftere vnde leuíten vñ",
+    "wer": 50.0,
+    "cer": 13.636363636363635,
+    "accuracy": 86.36363636363636,
+    "time": 2.2118289470672607,
+    "diffs": [
+      [
+        0,
+        "Men de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one "
+      ],
+      [
+        -1,
+        "yſ"
+      ],
+      [
+        1,
+        "pf"
+      ],
+      [
+        0,
+        "ra"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "k"
+      ],
+      [
+        0,
+        "el pre"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tere vnde leu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "ten vñ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Men de ſone yſrahel preſtere vnde leuiten vñ",
+    "response": "Men de fone yſrahel preſtere vnde leuiten vñ",
+    "wer": 12.5,
+    "cer": 2.272727272727273,
+    "accuracy": 97.72727272727273,
+    "time": 2.442479133605957,
+    "diffs": [
+      [
+        0,
+        "Men de "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "one yſrahel preſtere vnde leuiten vñ"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

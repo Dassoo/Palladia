@@ -1,0 +1,610 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beftet Sy an ein erlicſſe ſtat. Da gieng",
+    "wer": 30.0,
+    "cer": 12.5,
+    "accuracy": 89.58333333333334,
+    "time": 1.5403709411621094,
+    "diffs": [
+      [
+        0,
+        "en vnd be"
+      ],
+      [
+        -1,
+        "ſte"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tet "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "y an ein erlic"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "e ſtat. Da gieng"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd bestetet ſy an ein erliche ſtat. Da gieng",
+    "wer": 10.0,
+    "cer": 2.083333333333333,
+    "accuracy": 97.91666666666666,
+    "time": 4.233004093170166,
+    "diffs": [
+      [
+        0,
+        "en vnd be"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tetet ſy an ein erliche ſtat. Da gieng"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtætet ſy an ein erliche ſtat. Da gieng",
+    "wer": 10.0,
+    "cer": 2.083333333333333,
+    "accuracy": 97.91666666666666,
+    "time": 2.3576841354370117,
+    "diffs": [
+      [
+        0,
+        "en vnd beſt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "tet ſy an ein erliche ſtat. Da gieng"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en und beſtetet ſy an ein erliche ſtat. Da gieng",
+    "wer": 10.0,
+    "cer": 2.083333333333333,
+    "accuracy": 97.91666666666666,
+    "time": 3.578831195831299,
+    "diffs": [
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd beſtetet ſy an ein erliche ſtat. Da gieng"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.2834019660949707,
+    "diffs": [
+      [
+        0,
+        "en vnd beſtetet ſy an ein erliche ſtat. Da gieng"
+      ]
+    ],
+    "matches": 48,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtetet ſy an ein erliche ſtat. Da giengt",
+    "wer": 10.0,
+    "cer": 2.083333333333333,
+    "accuracy": 97.95918367346938,
+    "time": 3.7136549949645996,
+    "diffs": [
+      [
+        0,
+        "en vnd beſtetet ſy an ein erliche ſtat. Da gieng"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 48,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "mistral-small": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en ond beſtetet ſyan ein erlicheſtat. Da gieng",
+    "wer": 50.0,
+    "cer": 6.25,
+    "accuracy": 93.75,
+    "time": 1.9173309803009033,
+    "diffs": [
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd beſtetet ſy"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "an ein erliche"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſtat. Da gieng"
+      ]
+    ],
+    "matches": 45,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtetet ſy an ein erliche Stat.Da gieng",
+    "wer": 20.0,
+    "cer": 4.166666666666666,
+    "accuracy": 95.83333333333334,
+    "time": 3.4474639892578125,
+    "diffs": [
+      [
+        0,
+        "en vnd beſtetet ſy an ein erliche "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "tat."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Da gieng"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtetet ſy an ein erliche Stat. Da gieng",
+    "wer": 10.0,
+    "cer": 2.083333333333333,
+    "accuracy": 97.91666666666666,
+    "time": 14.477100133895874,
+    "diffs": [
+      [
+        0,
+        "en vnd beſtetet ſy an ein erliche "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "tat. Da gieng"
+      ]
+    ],
+    "matches": 47,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 80.28935408592224,
+    "diffs": [
+      [
+        0,
+        "en vnd beſtetet ſy an ein erliche ſtat. Da gieng"
+      ]
+    ],
+    "matches": 48,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en und befctet ſyan ein erliche ſtat.Dagtieng",
+    "wer": 70.0,
+    "cer": 16.666666666666664,
+    "accuracy": 85.41666666666666,
+    "time": 10.640167951583862,
+    "diffs": [
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd be"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "fc"
+      ],
+      [
+        0,
+        "tet"
+      ],
+      [
+        -1,
+        "et"
+      ],
+      [
+        0,
+        " ſy"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "an ein erliche ſtat."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "g"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "ieng"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtet ſy an ein erlichẽ ſtat. Dagieng",
+    "wer": 40.0,
+    "cer": 8.333333333333332,
+    "accuracy": 91.66666666666666,
+    "time": 8.816992044448853,
+    "diffs": [
+      [
+        0,
+        "en vnd beſtet"
+      ],
+      [
+        -1,
+        "et"
+      ],
+      [
+        0,
+        " ſy an ein erlich"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        " ſtat. Da"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "gieng"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en und beſtetet ſy an ein erliche ſtat.Da gieng",
+    "wer": 30.0,
+    "cer": 4.166666666666666,
+    "accuracy": 95.83333333333334,
+    "time": 1.409879207611084,
+    "diffs": [
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd beſtetet ſy an ein erliche ſtat."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Da gieng"
+      ]
+    ],
+    "matches": 46,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vond bestetet sy an ein erliche Stat. Âa gieng",
+    "wer": 50.0,
+    "cer": 10.416666666666668,
+    "accuracy": 89.79591836734694,
+    "time": 2.3790640830993652,
+    "diffs": [
+      [
+        0,
+        "en v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd be"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tetet "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "y an ein erliche "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "tat. "
+      ],
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "Â"
+      ],
+      [
+        0,
+        "a gieng"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beftctet ſy an ein erliche ſtatt. ſa gieng",
+    "wer": 30.0,
+    "cer": 8.333333333333332,
+    "accuracy": 91.83673469387756,
+    "time": 2.040215015411377,
+    "diffs": [
+      [
+        0,
+        "en vnd be"
+      ],
+      [
+        -1,
+        "ſte"
+      ],
+      [
+        1,
+        "ftc"
+      ],
+      [
+        0,
+        "tet ſy an ein erliche ſtat"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        ". "
+      ],
+      [
+        -1,
+        "D"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "a gieng"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "response": "en vnd beſtetet ſy an ein erliche ſtat. Da gieng",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.8406341075897217,
+    "diffs": [
+      [
+        0,
+        "en vnd beſtetet ſy an ein erliche ſtat. Da gieng"
+      ]
+    ],
+    "matches": 48,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

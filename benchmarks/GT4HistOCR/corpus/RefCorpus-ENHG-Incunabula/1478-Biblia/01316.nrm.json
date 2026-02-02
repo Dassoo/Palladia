@@ -1,0 +1,654 @@
+{
+  "mistral-small": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vpl dat noth) is dat duvth geuist",
+    "wer": 50.0,
+    "cer": 11.904761904761903,
+    "accuracy": 90.47619047619048,
+    "time": 1.2297391891479492,
+    "diffs": [
+      [
+        0,
+        "gades wo v"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "l dat noth"
+      ],
+      [
+        1,
+        ")"
+      ],
+      [
+        0,
+        " is dat du"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vth geu"
+      ],
+      [
+        -1,
+        "eſ"
+      ],
+      [
+        1,
+        "is"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat nothis dat du vth geuest",
+    "wer": 30.0,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 1.3453030586242676,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "is dat du vth geue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo wy dat north is dat du vth geueit",
+    "wer": 30.0,
+    "cer": 9.523809523809524,
+    "accuracy": 92.85714285714286,
+    "time": 1.6835248470306396,
+    "diffs": [
+      [
+        0,
+        "gades wo "
+      ],
+      [
+        -1,
+        "vyl"
+      ],
+      [
+        1,
+        "wy"
+      ],
+      [
+        0,
+        " dat no"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "th is dat du vth geue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo wyl dat north is dat du vth geueit",
+    "wer": 30.0,
+    "cer": 7.142857142857142,
+    "accuracy": 93.02325581395348,
+    "time": 2.3159501552581787,
+    "diffs": [
+      [
+        0,
+        "gades wo "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "yl dat no"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "th is dat du vth geue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat du vth geuest",
+    "wer": 10.0,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 2.9406399726867676,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du vth geue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat du vyth geueſt",
+    "wer": 10.0,
+    "cer": 2.380952380952381,
+    "accuracy": 97.67441860465115,
+    "time": 3.308305025100708,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du v"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        "th geueſt"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat du veth genest",
+    "wer": 20.0,
+    "cer": 7.142857142857142,
+    "accuracy": 93.02325581395348,
+    "time": 4.213158845901489,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du v"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "th ge"
+      ],
+      [
+        -1,
+        "ueſ"
+      ],
+      [
+        1,
+        "nes"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat du vth geueſt",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 8.983025789260864,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du vth geueſt"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo wyl dat noth is dat du vth geueſt",
+    "wer": 10.0,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 15.16218376159668,
+    "diffs": [
+      [
+        0,
+        "gades wo "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "yl dat noth is dat du vth geueſt"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat du vth geueſt",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 32.001858711242676,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du vth geueſt"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wovldat nothis dat duvth geueit",
+    "wer": 80.0,
+    "cer": 14.285714285714285,
+    "accuracy": 85.71428571428571,
+    "time": 4.100836992263794,
+    "diffs": [
+      [
+        0,
+        "gades wo"
+      ],
+      [
+        -1,
+        " vyl "
+      ],
+      [
+        1,
+        "vl"
+      ],
+      [
+        0,
+        "dat noth"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "is dat du"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vth geue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 8,
+    "insertions": 3
+  },
+  "gemini-2.5-flash": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gadeſ rno yyl dat noth iſ dat vuth geneit",
+    "wer": 70.0,
+    "cer": 23.809523809523807,
+    "accuracy": 78.57142857142857,
+    "time": 9.953792095184326,
+    "diffs": [
+      [
+        0,
+        "gade"
+      ],
+      [
+        -1,
+        "s w"
+      ],
+      [
+        1,
+        "ſ rn"
+      ],
+      [
+        0,
+        "o "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "y"
+      ],
+      [
+        0,
+        "yl dat noth i"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " dat "
+      ],
+      [
+        -1,
+        "du "
+      ],
+      [
+        0,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "th ge"
+      ],
+      [
+        -1,
+        "ueſ"
+      ],
+      [
+        1,
+        "nei"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 11,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat duvth geuiſt",
+    "wer": 30.0,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 1.3021771907806396,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vth geu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ſt"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat du vth geueit",
+    "wer": 10.0,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 2.576409101486206,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du vth geue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl bat noth is bat bu vth) geuêit",
+    "wer": 50.0,
+    "cer": 14.285714285714285,
+    "accuracy": 86.04651162790698,
+    "time": 1.872140884399414,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "at noth is "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "at "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "u vth"
+      ],
+      [
+        1,
+        ")"
+      ],
+      [
+        0,
+        " geu"
+      ],
+      [
+        -1,
+        "eſ"
+      ],
+      [
+        1,
+        "êi"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "gades wo vyl dat noth is dat du vth geueſt",
+    "response": "gades wo vyl dat noth is dat du vth geueit",
+    "wer": 10.0,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 2.175320863723755,
+    "diffs": [
+      [
+        0,
+        "gades wo vyl dat noth is dat du vth geue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "t"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

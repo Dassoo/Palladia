@@ -1,0 +1,352 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "DE Littera C.",
+    "response": "DE Litera C.",
+    "wer": 33.33333333333333,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 1.1342639923095703,
+    "diffs": [
+      [
+        0,
+        "DE Lit"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "era C."
+      ]
+    ],
+    "matches": 12,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "mistral-small": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.1973841190338135,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.256587028503418,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.7880480289459229,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.9269168376922607,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.9757890701293945,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.5446388721466064,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.7184019088745117,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.408715009689331,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera G.",
+    "wer": 33.33333333333333,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 4.259609222412109,
+    "diffs": [
+      [
+        0,
+        "DE Littera "
+      ],
+      [
+        -1,
+        "C"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 12,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 5.240396976470947,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera G.",
+    "wer": 33.33333333333333,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 5.142472267150879,
+    "diffs": [
+      [
+        0,
+        "DE Littera "
+      ],
+      [
+        -1,
+        "C"
+      ],
+      [
+        1,
+        "G"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 12,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 9.353689193725586,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.3782799243927,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "mistral-medium-3.1": {
+    "gt": "DE Littera C.",
+    "response": "DE Littéra C.",
+    "wer": 33.33333333333333,
+    "cer": 7.6923076923076925,
+    "accuracy": 92.3076923076923,
+    "time": 1.0031859874725342,
+    "diffs": [
+      [
+        0,
+        "DE Litt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "ra C."
+      ]
+    ],
+    "matches": 12,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.227797031402588,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "cogito-v2-109b": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.0971670150756836,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "DE Littera C.",
+    "response": "DE Littera C.",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.214331865310669,
+    "diffs": [
+      [
+        0,
+        "DE Littera C."
+      ]
+    ],
+    "matches": 13,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

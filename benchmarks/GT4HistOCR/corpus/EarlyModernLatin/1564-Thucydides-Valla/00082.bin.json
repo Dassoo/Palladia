@@ -1,0 +1,1197 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximiè ucrò optima quæqꝓ tellus præcipuè patiebatur afſiduàs in:",
+    "wer": 55.55555555555556,
+    "cer": 11.29032258064516,
+    "accuracy": 90.47619047619048,
+    "time": 1.1885638236999512,
+    "diffs": [
+      [
+        0,
+        "xim"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "è u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rò optima quæq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ꝓ"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur a"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        0,
+        "idu"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "à"
+      ],
+      [
+        0,
+        "s in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximèucrò optima quaq tellus praecipuè patiebatur afsiduas in:",
+    "wer": 66.66666666666666,
+    "cer": 12.903225806451612,
+    "accuracy": 88.70967741935483,
+    "time": 1.4539687633514404,
+    "diffs": [
+      [
+        0,
+        "ximè"
+      ],
+      [
+        -1,
+        " ue"
+      ],
+      [
+        1,
+        "uc"
+      ],
+      [
+        0,
+        "rò optima qu"
+      ],
+      [
+        -1,
+        "æq;"
+      ],
+      [
+        1,
+        "aq"
+      ],
+      [
+        0,
+        " tellus pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cipuè patiebatur a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "siduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "spotlight": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximé ucrò optima quæœ tellus præcipue patiebatur aſsiduas in",
+    "wer": 55.55555555555556,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 1.449444055557251,
+    "diffs": [
+      [
+        0,
+        "xim"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rò optima quæ"
+      ],
+      [
+        -1,
+        "q;"
+      ],
+      [
+        1,
+        "œ"
+      ],
+      [
+        0,
+        " tellus præcipu"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " patiebatur aſsiduas in"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximèucrò optima quæſtellus præcipuépatiebatur afsiduas in-",
+    "wer": 77.77777777777779,
+    "cer": 12.903225806451612,
+    "accuracy": 87.09677419354838,
+    "time": 1.8475868701934814,
+    "diffs": [
+      [
+        0,
+        "ximè"
+      ],
+      [
+        -1,
+        " ue"
+      ],
+      [
+        1,
+        "uc"
+      ],
+      [
+        0,
+        "rò optima quæ"
+      ],
+      [
+        -1,
+        "q; "
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "tellus præcipu"
+      ],
+      [
+        -1,
+        "è "
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "patiebatur a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "siduas in-"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 9,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè uerò optima quæqꝫ tellus præcipuè patiebatur aſſiduas in",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.988757848739624,
+    "diffs": [
+      [
+        0,
+        "ximè uerò optima quæq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur aſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "iduas in"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè ucrò optima quæqꝫ tellus præcipuè patiebatur aſſiduas in᾽",
+    "wer": 44.44444444444444,
+    "cer": 9.67741935483871,
+    "accuracy": 90.47619047619048,
+    "time": 2.168316125869751,
+    "diffs": [
+      [
+        0,
+        "ximè u"
+      ],
+      [
+        -1,
+        "erò"
+      ],
+      [
+        1,
+        "crò"
+      ],
+      [
+        0,
+        " optima quæq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur aſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "iduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "᾽"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "claude-4-sonnet": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "xime uero optima quæc̨ tellus præcipue patiebatur aſiduas in-",
+    "wer": 55.55555555555556,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 3.6578378677368164,
+    "diffs": [
+      [
+        0,
+        "xim"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " uer"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " optima quæ"
+      ],
+      [
+        -1,
+        "q;"
+      ],
+      [
+        1,
+        "c̨"
+      ],
+      [
+        0,
+        " tellus præcipu"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " patiebatur aſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        0,
+        "iduas in-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè uero optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 4.1303627490997314,
+    "diffs": [
+      [
+        0,
+        "ximè uer"
+      ],
+      [
+        -1,
+        "ò"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " optima quæq; tellus præcipuè patiebatur aſsiduas in-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè ucrò optima quæq tellus præcipuè patiebatur afsiduaſ in",
+    "wer": 44.44444444444444,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 6.23237419128418,
+    "diffs": [
+      [
+        0,
+        "ximè u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rò optima quæq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "sidua"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " in"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "o4-mini": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "· ximè ucro optima quaq° tellus præcipuè patiebatur afſiduas in-",
+    "wer": 44.44444444444444,
+    "cer": 12.903225806451612,
+    "accuracy": 89.0625,
+    "time": 20.63865089416504,
+    "diffs": [
+      [
+        1,
+        "· "
+      ],
+      [
+        0,
+        "ximè u"
+      ],
+      [
+        -1,
+        "erò"
+      ],
+      [
+        1,
+        "cro"
+      ],
+      [
+        0,
+        " optima qu"
+      ],
+      [
+        -1,
+        "æq;"
+      ],
+      [
+        1,
+        "aq°"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur a"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        0,
+        "iduas in-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 9
+  },
+  "gemini-2.5-pro": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè uerò optima quæq́ tellus præcipué patiebatur aſsiduas in",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 43.25813007354736,
+    "diffs": [
+      [
+        0,
+        "ximè uerò optima quæq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        " tellus præcipu"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " patiebatur aſsiduas in"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "nimè uerò optima quæque tellus præcipuè patiebatur aſſiduas in:",
+    "wer": 44.44444444444444,
+    "cer": 8.064516129032258,
+    "accuracy": 92.06349206349206,
+    "time": 30.41277003288269,
+    "diffs": [
+      [
+        -1,
+        "x"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "imè uerò optima quæq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ue"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur aſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "iduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè uerò optima quæq; tellus præcipuè patiebatur aſſiduas in:",
+    "wer": 22.22222222222222,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 107.44024610519409,
+    "diffs": [
+      [
+        0,
+        "ximè uerò optima quæq; tellus præcipuè patiebatur aſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "iduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè ucrò optima quaxq tellus pracipue patiebatu afsiduas in-",
+    "wer": 55.55555555555556,
+    "cer": 12.903225806451612,
+    "accuracy": 88.70967741935483,
+    "time": 6.576023817062378,
+    "diffs": [
+      [
+        0,
+        "ximè u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rò optima qu"
+      ],
+      [
+        -1,
+        "æq;"
+      ],
+      [
+        1,
+        "axq"
+      ],
+      [
+        0,
+        " tellus pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "cipu"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " patiebatu"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        " a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "siduas in-"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "mistral-medium-3.1": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximé ucrò optima quàe tellus pràcipuè patiebatur aſſiduas iń",
+    "wer": 66.66666666666666,
+    "cer": 22.58064516129032,
+    "accuracy": 78.78787878787878,
+    "time": 1.5838661193847656,
+    "diffs": [
+      [
+        0,
+        "xim"
+      ],
+      [
+        -1,
+        "è uerò"
+      ],
+      [
+        1,
+        "é ucrò"
+      ],
+      [
+        0,
+        " optima qu"
+      ],
+      [
+        -1,
+        "æq;"
+      ],
+      [
+        1,
+        "àe"
+      ],
+      [
+        0,
+        " tellus pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "à"
+      ],
+      [
+        0,
+        "cipu"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "è"
+      ],
+      [
+        0,
+        " patiebatur aſ"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "iduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "́"
+      ]
+    ],
+    "matches": 49,
+    "deletions": 13,
+    "insertions": 17
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximȇ ucrȏ optima quæϑ tellus præcipuȇ paticbatur aḿsiduas inḿ",
+    "wer": 77.77777777777779,
+    "cer": 14.516129032258066,
+    "accuracy": 85.48387096774194,
+    "time": 2.5627689361572266,
+    "diffs": [
+      [
+        0,
+        "xim"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "ȇ"
+      ],
+      [
+        0,
+        " u"
+      ],
+      [
+        -1,
+        "erò"
+      ],
+      [
+        1,
+        "crȏ"
+      ],
+      [
+        0,
+        " optima quæ"
+      ],
+      [
+        -1,
+        "q;"
+      ],
+      [
+        1,
+        "ϑ"
+      ],
+      [
+        0,
+        " tellus præcipu"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "ȇ"
+      ],
+      [
+        0,
+        " pati"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "batur a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ḿ"
+      ],
+      [
+        0,
+        "siduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "ḿ"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "grok-4": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "eximè uerò optima quæ tellus præcipuè patiebatur aſsiduas in-",
+    "wer": 22.22222222222222,
+    "cer": 4.838709677419355,
+    "accuracy": 96.7741935483871,
+    "time": 17.831440687179565,
+    "diffs": [
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "ximè uerò optima quæ"
+      ],
+      [
+        -1,
+        "q;"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur aſsiduas in-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximie ucrò optima quae∅ tellus præcipuè patiebatur afsiduas in;",
+    "wer": 55.55555555555556,
+    "cer": 12.903225806451612,
+    "accuracy": 87.3015873015873,
+    "time": 2.018075942993164,
+    "diffs": [
+      [
+        0,
+        "xim"
+      ],
+      [
+        -1,
+        "è"
+      ],
+      [
+        1,
+        "ie"
+      ],
+      [
+        0,
+        " u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rò optima qu"
+      ],
+      [
+        -1,
+        "æq;"
+      ],
+      [
+        1,
+        "ae∅"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "siduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ";"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ximè uerò optima quæq; tellus præcipuè patiebatur aſsiduas in-",
+    "response": "ximè ucrò optima quæp tellus præcipuè patiebatur afsiduas in·",
+    "wer": 44.44444444444444,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 2.06197190284729,
+    "diffs": [
+      [
+        0,
+        "ximè u"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "rò optima quæ"
+      ],
+      [
+        -1,
+        "q;"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " tellus præcipuè patiebatur a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "siduas in"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 5,
+    "insertions": 4
+  }
+}

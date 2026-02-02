@@ -1,0 +1,969 @@
+{
+  "mistral-small": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo.",
+    "wer": 33.33333333333333,
+    "cer": 3.389830508474576,
+    "accuracy": 96.61016949152543,
+    "time": 1.3578448295593262,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "decim,Ambraciotorum uigintiseptem,Anactoriorum una,ipso-",
+    "wer": 100.0,
+    "cer": 10.16949152542373,
+    "accuracy": 89.83050847457628,
+    "time": 1.6339671611785889,
+    "diffs": [
+      [
+        0,
+        "decim,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ambraciot"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "rum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "eptem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Anactoriorum una,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 6,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "decim,Ambraciotarum uigintifeptem,Anactoriorum una, ipfo-",
+    "wer": 83.33333333333334,
+    "cer": 6.779661016949152,
+    "accuracy": 93.22033898305084,
+    "time": 1.7311289310455322,
+    "diffs": [
+      [
+        0,
+        "decim,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ambraciotarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "eptem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Anactoriorum una, ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo᾽",
+    "wer": 33.33333333333333,
+    "cer": 3.389830508474576,
+    "accuracy": 96.61016949152543,
+    "time": 2.2996561527252197,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "᾽"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "deccim, Ambraciotarum uigintiſeptem, Anac ſtoriorum una, ipſo.",
+    "wer": 66.66666666666666,
+    "cer": 6.779661016949152,
+    "accuracy": 93.54838709677419,
+    "time": 2.6911752223968506,
+    "diffs": [
+      [
+        0,
+        "dec"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "im, Ambraciotarum uigintiſeptem, Anac"
+      ],
+      [
+        1,
+        " ſ"
+      ],
+      [
+        0,
+        "toriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 58,
+    "deletions": 1,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "decim, Ambraciotarum uigintiſeptem, Anacoriorum una, ipſo-",
+    "wer": 16.666666666666664,
+    "cer": 1.694915254237288,
+    "accuracy": 98.30508474576271,
+    "time": 3.5548689365386963,
+    "diffs": [
+      [
+        0,
+        "decim, Ambraciotarum uigintiſeptem, Anac"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "oriorum una, ipſo-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo.",
+    "wer": 16.666666666666664,
+    "cer": 1.694915254237288,
+    "accuracy": 98.30508474576271,
+    "time": 3.7017898559570312,
+    "diffs": [
+      [
+        0,
+        "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 58,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "decem, Ambraciotarum uigintifeptem, Anactoriorum una, ipfo-",
+    "wer": 50.0,
+    "cer": 5.084745762711865,
+    "accuracy": 94.91525423728814,
+    "time": 4.4684789180755615,
+    "diffs": [
+      [
+        0,
+        "dec"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "m, Ambraciotarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "eptem, Anactoriorum una, ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "llama-4-maverick-17b": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim, Ambraciotarum uigintifeptem, Anactoriiorum una, ipſo.",
+    "wer": 66.66666666666666,
+    "cer": 6.779661016949152,
+    "accuracy": 93.33333333333333,
+    "time": 8.041913986206055,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim, Ambraciotarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "eptem, Anactori"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "orum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 56,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim, Ambraciotarum uigintiſepteꝛem, Anactoriorum una, ipſo.",
+    "wer": 50.0,
+    "cer": 6.779661016949152,
+    "accuracy": 93.44262295081968,
+    "time": 20.70819401741028,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim, Ambraciotarum uigintiſepte"
+      ],
+      [
+        1,
+        "ꝛe"
+      ],
+      [
+        0,
+        "m, Anactoriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 2,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "decim, Ambraciotarum uígintiſeptem, Anactoriorum una, ípſo.",
+    "wer": 33.33333333333333,
+    "cer": 5.084745762711865,
+    "accuracy": 94.91525423728814,
+    "time": 32.61675405502319,
+    "diffs": [
+      [
+        0,
+        "decim, Ambraciotarum u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "gintiſeptem, Anactoriorum una, "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "pſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 56,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim,Ambraciotarum uigintiſeptem,Anactoriorum una, ipſo.",
+    "wer": 83.33333333333334,
+    "cer": 6.779661016949152,
+    "accuracy": 93.22033898305084,
+    "time": 10.094259023666382,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ambraciotarum uigintiſeptem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Anactoriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 55,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo,",
+    "wer": 33.33333333333333,
+    "cer": 3.389830508474576,
+    "accuracy": 96.61016949152543,
+    "time": 45.80633783340454,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 57,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim,Ambraciotarum uigintifeptem,Anaetoriorum una,ipfo-",
+    "wer": 100.0,
+    "cer": 11.864406779661017,
+    "accuracy": 88.13559322033898,
+    "time": 6.705542802810669,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ambraciotarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "eptem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ana"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "toriorum una,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo:",
+    "wer": 33.33333333333333,
+    "cer": 3.389830508474576,
+    "accuracy": 96.61016949152543,
+    "time": 1.4318130016326904,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "decim, Ambraciotarum uigintifeptem, Anactoriorum una, ipfo-",
+    "wer": 33.33333333333333,
+    "cer": 3.389830508474576,
+    "accuracy": 96.61016949152543,
+    "time": 2.384401321411133,
+    "diffs": [
+      [
+        0,
+        "decim, Ambraciotarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "eptem, Anactoriorum una, ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "grok-4": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim.Ambraciotarum uigintiseptem.Anactoriorum una, ipfo-",
+    "wer": 83.33333333333334,
+    "cer": 11.864406779661017,
+    "accuracy": 88.13559322033898,
+    "time": 54.68078589439392,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim"
+      ],
+      [
+        -1,
+        ", "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "Ambraciotarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "eptem"
+      ],
+      [
+        -1,
+        ", "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "Anactoriorum una, ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim, Ambraciotarum uigintifeptem, Anactoriorum una, ipfo",
+    "wer": 50.0,
+    "cer": 6.779661016949152,
+    "accuracy": 93.22033898305084,
+    "time": 1.7228777408599854,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim, Ambraciotarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "eptem, Anactoriorum una, ip"
+      ],
+      [
+        -1,
+        "ſo-"
+      ],
+      [
+        1,
+        "fo"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "decim, Ambraciotarum uigintiſeptem, Anactoriorum una, ipſo-",
+    "response": "dccim,Ambraclotarum uigintifeptem,Anactoriorum una, ipfo-",
+    "wer": 83.33333333333334,
+    "cer": 10.16949152542373,
+    "accuracy": 89.83050847457628,
+    "time": 2.8508710861206055,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "cim,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Ambrac"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "otarum uiginti"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "eptem,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Anactoriorum una, ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o-"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 6,
+    "insertions": 4
+  }
+}

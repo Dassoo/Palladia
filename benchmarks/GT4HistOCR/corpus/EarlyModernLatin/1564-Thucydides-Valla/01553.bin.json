@@ -1,0 +1,445 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnefiaci",
+    "wer": 50.0,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 1.0128960609436035,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "iaci"
+      ]
+    ],
+    "matches": 19,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-small": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnesiaci",
+    "wer": 50.0,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 1.0826051235198975,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "iaci"
+      ]
+    ],
+    "matches": 19,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnesiacti",
+    "wer": 50.0,
+    "cer": 10.0,
+    "accuracy": 90.47619047619048,
+    "time": 1.2214241027832031,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "iac"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "i"
+      ]
+    ],
+    "matches": 19,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnesiaci",
+    "wer": 50.0,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 1.229383945465088,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "iaci"
+      ]
+    ],
+    "matches": 19,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.30104398727417,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.3475608825683594,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.498504161834717,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.7258591651916504,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 7.602694034576416,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 7.9095070362091064,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnesſiact",
+    "wer": 50.0,
+    "cer": 10.0,
+    "accuracy": 90.47619047619048,
+    "time": 11.486573934555054,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ſiac"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 19,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "gpt-5-mini": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 17.975059986114502,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 28.497808933258057,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.9979779720306396,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "mistral-medium-3.1": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.341413974761963,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnesiact",
+    "wer": 50.0,
+    "cer": 10.0,
+    "accuracy": 90.0,
+    "time": 4.876929044723511,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "iac"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 18,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "grok-4": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponneſiaci",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 13.191351175308228,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponneſiaci"
+      ]
+    ],
+    "matches": 20,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "cogito-v2-109b": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnefiac",
+    "wer": 50.0,
+    "cer": 10.0,
+    "accuracy": 90.0,
+    "time": 1.8879649639129639,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "iac"
+      ],
+      [
+        -1,
+        "i"
+      ]
+    ],
+    "matches": 18,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Belli Peloponneſiaci",
+    "response": "Belli Peloponnesiaci",
+    "wer": 50.0,
+    "cer": 5.0,
+    "accuracy": 95.0,
+    "time": 1.7414751052856445,
+    "diffs": [
+      [
+        0,
+        "Belli Peloponne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "iaci"
+      ]
+    ],
+    "matches": 19,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

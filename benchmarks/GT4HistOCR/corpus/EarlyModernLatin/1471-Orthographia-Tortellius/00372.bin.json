@@ -1,0 +1,1548 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat⁊ má in qbuldá ieruſtimiſ inſcriptionibus ſæpe ego coſpex:.K. DECEMB.",
+    "wer": 70.0,
+    "cer": 24.675324675324674,
+    "accuracy": 79.22077922077922,
+    "time": 1.545381784439087,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nãm ꝗbuſdã uet"
+      ],
+      [
+        1,
+        "⁊ má in qbuldá ier"
+      ],
+      [
+        0,
+        "uſti"
+      ],
+      [
+        -1,
+        "ſſi"
+      ],
+      [
+        0,
+        "mi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " inſcriptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "ſpex"
+      ],
+      [
+        -1,
+        "i. "
+      ],
+      [
+        1,
+        ":."
+      ],
+      [
+        0,
+        "K. DECEMB."
+      ]
+    ],
+    "matches": 52,
+    "deletions": 25,
+    "insertions": 22
+  },
+  "mistral-small": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat. nā in qbusdi uetvssimis inscriptionibus ſpe ego cóſpexī. K. DECEMB.",
+    "wer": 80.0,
+    "cer": 23.376623376623375,
+    "accuracy": 79.22077922077922,
+    "time": 1.7060201168060303,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". n"
+      ],
+      [
+        -1,
+        "ãm ꝗbuſdã uetuſtiſſ"
+      ],
+      [
+        1,
+        "ā in qbusdi uetvss"
+      ],
+      [
+        0,
+        "imis in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "criptionibus ſ"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        0,
+        "pe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        "ſpex"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        ". K. DECEMB."
+      ]
+    ],
+    "matches": 53,
+    "deletions": 24,
+    "insertions": 21
+  },
+  "spotlight": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat.nám qbusdi aetustiffumis inscriptionibus ſæpe ego colpexi.K.DECEMB.",
+    "wer": 80.0,
+    "cer": 20.77922077922078,
+    "accuracy": 79.22077922077922,
+    "time": 1.854884147644043,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nã"
+      ],
+      [
+        1,
+        ".ná"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "bu"
+      ],
+      [
+        -1,
+        "ſdã u"
+      ],
+      [
+        1,
+        "sdi a"
+      ],
+      [
+        0,
+        "etu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "ſſi"
+      ],
+      [
+        1,
+        "ffu"
+      ],
+      [
+        0,
+        "mis in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "criptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õſ"
+      ],
+      [
+        1,
+        "ol"
+      ],
+      [
+        0,
+        "pexi."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "K."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "DECEMB."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 20,
+    "insertions": 16
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat.ná in qbusdiuetuftiffumis infcriptionibus fæpeego colpexi.K.DECEMB.",
+    "wer": 100.0,
+    "cer": 27.27272727272727,
+    "accuracy": 76.62337662337663,
+    "time": 2.0195488929748535,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nãm ꝗbuſdã "
+      ],
+      [
+        1,
+        ".ná in qbusdi"
+      ],
+      [
+        0,
+        "uetu"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ti"
+      ],
+      [
+        -1,
+        "ſſi"
+      ],
+      [
+        1,
+        "ffu"
+      ],
+      [
+        0,
+        "mis in"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "criptionibus "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "æpe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ego c"
+      ],
+      [
+        -1,
+        "õſ"
+      ],
+      [
+        1,
+        "ol"
+      ],
+      [
+        0,
+        "pexi."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "K."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "DECEMB."
+      ]
+    ],
+    "matches": 52,
+    "deletions": 25,
+    "insertions": 21
+  },
+  "gpt-4.1": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat́. nā in qbuſdiueruſſiſſimis inſcriptionibus ſæpe ego coſpexi. K. DECEMB.",
+    "wer": 50.0,
+    "cer": 14.285714285714285,
+    "accuracy": 87.17948717948718,
+    "time": 2.357729911804199,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        ". n"
+      ],
+      [
+        -1,
+        "ãm ꝗ"
+      ],
+      [
+        1,
+        "ā in q"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã "
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ue"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "uſ"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "iſſimis inſcriptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "ſpexi. K. DECEMB."
+      ]
+    ],
+    "matches": 67,
+    "deletions": 10,
+    "insertions": 11
+  },
+  "gpt-4o": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat: nam quibuſdiueruſſimiſ inſcriptionibus ſæpe ego con-  \nſpexi: K.DECEMB.",
+    "wer": 70.0,
+    "cer": 27.27272727272727,
+    "accuracy": 80.76923076923077,
+    "time": 4.022485971450806,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " n"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "qui"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã "
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ue"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "uſ"
+      ],
+      [
+        -1,
+        "tiſ"
+      ],
+      [
+        0,
+        "ſimi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " inſcriptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "on-  \n"
+      ],
+      [
+        0,
+        "ſpexi"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " K."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "DECEMB."
+      ]
+    ],
+    "matches": 63,
+    "deletions": 14,
+    "insertions": 15
+  },
+  "claude-4-sonnet": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat·na in qbuſdam uetuſtiſſimis inſcriptionibus ſæpe ego coſpexi·K·DECEMB·",
+    "wer": 60.0,
+    "cer": 19.480519480519483,
+    "accuracy": 84.4155844155844,
+    "time": 4.323362112045288,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nãm ꝗ"
+      ],
+      [
+        1,
+        "·na in q"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        " uetuſtiſſimis inſcriptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "ſpexi"
+      ],
+      [
+        -1,
+        ". K. "
+      ],
+      [
+        1,
+        "·K·"
+      ],
+      [
+        0,
+        "DECEMB"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 16,
+    "insertions": 15
+  },
+  "claude-4-opus": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat: ná in q̃buſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "wer": 40.0,
+    "cer": 10.38961038961039,
+    "accuracy": 91.13924050632912,
+    "time": 5.307667016983032,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nãm ꝗ"
+      ],
+      [
+        1,
+        ": ná in q̃"
+      ],
+      [
+        0,
+        "buſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB."
+      ]
+    ],
+    "matches": 69,
+    "deletions": 8,
+    "insertions": 10
+  },
+  "gemini-2.5-flash": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat. ná in q́buſdā uetuſtiſsimis inſcriptionibus ſæpe ego cōſpexi:. K.DECEMB.",
+    "wer": 80.0,
+    "cer": 16.883116883116884,
+    "accuracy": 86.25,
+    "time": 11.01197099685669,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". n"
+      ],
+      [
+        -1,
+        "ãm ꝗ"
+      ],
+      [
+        1,
+        "á in q́"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " uetuſtiſ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "imis inſcriptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "ſpexi"
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        ". K."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "DECEMB."
+      ]
+    ],
+    "matches": 68,
+    "deletions": 9,
+    "insertions": 12
+  },
+  "o4-mini": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat. n̄a in qb̄udi uetuſtissimis inſcriptionibus sæpe ego cōspexi : K. DECEMB.",
+    "wer": 80.0,
+    "cer": 23.376623376623375,
+    "accuracy": 80.24691358024691,
+    "time": 45.342199087142944,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". n"
+      ],
+      [
+        -1,
+        "ãm ꝗbuſdã"
+      ],
+      [
+        1,
+        "̄a in qb̄udi"
+      ],
+      [
+        0,
+        " uetuſti"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "imis inſcriptionibus "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "æpe ego c"
+      ],
+      [
+        -1,
+        "õſ"
+      ],
+      [
+        1,
+        "ōs"
+      ],
+      [
+        0,
+        "pexi"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        " :"
+      ],
+      [
+        0,
+        " K. DECEMB."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 16,
+    "insertions": 20
+  },
+  "gemini-2.5-pro": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponať. ná in quibuſdā uetuſtiſſimis inſcriptionibus ſæpe ego cōſpexi: K.DECEMB.",
+    "wer": 70.0,
+    "cer": 18.181818181818183,
+    "accuracy": 85.0,
+    "time": 99.31736183166504,
+    "diffs": [
+      [
+        0,
+        "pona"
+      ],
+      [
+        -1,
+        "t᷑"
+      ],
+      [
+        1,
+        "ť"
+      ],
+      [
+        0,
+        ". n"
+      ],
+      [
+        -1,
+        "ãm ꝗ"
+      ],
+      [
+        1,
+        "á in qui"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " uetuſtiſſimis inſcriptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "ſpexi"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " K."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "DECEMB."
+      ]
+    ],
+    "matches": 67,
+    "deletions": 10,
+    "insertions": 13
+  },
+  "gpt-5-mini": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat.ná in qbuſdi ueruſtiſſimis inſcriptionibus ſepe ego cōspexi: K. DECEMB.",
+    "wer": 60.0,
+    "cer": 16.883116883116884,
+    "accuracy": 87.01298701298701,
+    "time": 30.182536840438843,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nãm ꝗ"
+      ],
+      [
+        1,
+        ".ná in q"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        " ue"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "uſtiſſimis inſcriptionibus ſ"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "pe ego c"
+      ],
+      [
+        -1,
+        "õſ"
+      ],
+      [
+        1,
+        "ōs"
+      ],
+      [
+        0,
+        "pexi"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " K. DECEMB."
+      ]
+    ],
+    "matches": 63,
+    "deletions": 14,
+    "insertions": 14
+  },
+  "gpt-5": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat. nã in quibus diuerſiſſimis inſcriptionibus ſæpe ego cõſpexi : K. DECEMB.",
+    "wer": 70.0,
+    "cer": 20.77922077922078,
+    "accuracy": 84.81012658227847,
+    "time": 122.20676922798157,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". nã"
+      ],
+      [
+        -1,
+        "m ꝗbuſdã uetuſt"
+      ],
+      [
+        1,
+        " in quibus diuerſ"
+      ],
+      [
+        0,
+        "iſſimis inſcriptionibus ſæpe ego cõſpexi"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        " :"
+      ],
+      [
+        0,
+        " K. DECEMB."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 17,
+    "insertions": 19
+  },
+  "glm-4.5v": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat.nām qbuſdā ueruftiſſimis inſcriptionibus ʃepe ego coʃpexi.K.DECEMB.",
+    "wer": 80.0,
+    "cer": 16.883116883116884,
+    "accuracy": 83.11688311688312,
+    "time": 8.518143892288208,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nã"
+      ],
+      [
+        1,
+        ".nā"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "ꝗ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " ue"
+      ],
+      [
+        -1,
+        "tuſ"
+      ],
+      [
+        1,
+        "ruf"
+      ],
+      [
+        0,
+        "tiſſimis inſcriptionibus "
+      ],
+      [
+        -1,
+        "ſæ"
+      ],
+      [
+        1,
+        "ʃe"
+      ],
+      [
+        0,
+        "pe ego c"
+      ],
+      [
+        -1,
+        "õſ"
+      ],
+      [
+        1,
+        "oʃ"
+      ],
+      [
+        0,
+        "pexi."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "K."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "DECEMB."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 16,
+    "insertions": 12
+  },
+  "mistral-medium-3.1": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat náſ in quibuſdá veruſſimiſ inſcriptionibus ſæpe ego coſpexí: K. DECEMB.",
+    "wer": 60.0,
+    "cer": 24.675324675324674,
+    "accuracy": 80.51948051948052,
+    "time": 1.825490951538086,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nãm ꝗbuſdã uetuſti"
+      ],
+      [
+        1,
+        " náſ in quibuſdá veru"
+      ],
+      [
+        0,
+        "ſſimi"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " inſcriptionibus ſæpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "ſpex"
+      ],
+      [
+        -1,
+        "i."
+      ],
+      [
+        1,
+        "í:"
+      ],
+      [
+        0,
+        " K. DECEMB."
+      ]
+    ],
+    "matches": 52,
+    "deletions": 25,
+    "insertions": 25
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponarʷ nɑ ɪn ɢbuɽdʱɪ uɛɾuɽɽɪmmɪs ɪnꞮcrɪptionɪbus Ɪpe eɡo cõᵚpexɪ K DECEMB.",
+    "wer": 100.0,
+    "cer": 40.25974025974026,
+    "accuracy": 63.63636363636363,
+    "time": 3.520209312438965,
+    "diffs": [
+      [
+        0,
+        "pona"
+      ],
+      [
+        -1,
+        "t᷑. nãm ꝗbuſdã uetuſtiſſimis inſ"
+      ],
+      [
+        1,
+        "rʷ nɑ ɪn ɢbuɽdʱɪ uɛɾuɽɽɪmmɪs ɪnꞮ"
+      ],
+      [
+        0,
+        "cr"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ɪ"
+      ],
+      [
+        0,
+        "ption"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ɪ"
+      ],
+      [
+        0,
+        "bus "
+      ],
+      [
+        -1,
+        "ſæ"
+      ],
+      [
+        1,
+        "Ɪ"
+      ],
+      [
+        0,
+        "pe e"
+      ],
+      [
+        -1,
+        "g"
+      ],
+      [
+        1,
+        "ɡ"
+      ],
+      [
+        0,
+        "o cõ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ᵚ"
+      ],
+      [
+        0,
+        "pex"
+      ],
+      [
+        -1,
+        "i."
+      ],
+      [
+        1,
+        "ɪ"
+      ],
+      [
+        0,
+        " K"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " DECEMB."
+      ]
+    ],
+    "matches": 36,
+    "deletions": 41,
+    "insertions": 38
+  },
+  "cogito-v2-109b": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat.ná in qbouldi iuefruftñflumis infckriptionibus fæpe ego cofpexi.K.DECEMB.",
+    "wer": 90.0,
+    "cer": 32.467532467532465,
+    "accuracy": 74.68354430379746,
+    "time": 2.2322628498077393,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑. nãm ꝗbuſdã uetuſtiſſi"
+      ],
+      [
+        1,
+        ".ná in qbouldi iuefruftñflu"
+      ],
+      [
+        0,
+        "mis in"
+      ],
+      [
+        -1,
+        "ſc"
+      ],
+      [
+        1,
+        "fck"
+      ],
+      [
+        0,
+        "riptionibus "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "æpe ego c"
+      ],
+      [
+        -1,
+        "õſ"
+      ],
+      [
+        1,
+        "of"
+      ],
+      [
+        0,
+        "pexi."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "K."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "DECEMB."
+      ]
+    ],
+    "matches": 46,
+    "deletions": 31,
+    "insertions": 33
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ponat᷑. nãm ꝗbuſdã uetuſtiſſimis inſcriptionibus ſæpe ego cõſpexi. K. DECEMB.",
+    "response": "ponat. na in qbuſda ueruſtiſſimis inſcriptionibus fæpe ego cōſpexi. K. DECEMB.",
+    "wer": 70.0,
+    "cer": 12.987012987012985,
+    "accuracy": 88.46153846153845,
+    "time": 3.8636250495910645,
+    "diffs": [
+      [
+        0,
+        "ponat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ". n"
+      ],
+      [
+        -1,
+        "ãm ꝗ"
+      ],
+      [
+        1,
+        "a in q"
+      ],
+      [
+        0,
+        "buſd"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " ue"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "uſtiſſimis inſcriptionibus "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "æpe ego c"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "ſpexi. K. DECEMB."
+      ]
+    ],
+    "matches": 68,
+    "deletions": 9,
+    "insertions": 10
+  }
+}

@@ -1,0 +1,1420 @@
+{
+  "spotlight": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "syllabis nominetur: apud nos uero uocales omnes pſe prolatæ nomé ſuũ oſtédũ.",
+    "wer": 46.15384615384615,
+    "cer": 8.974358974358974,
+    "accuracy": 91.02564102564102,
+    "time": 2.070605754852295,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "yllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolatæ nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſuũ oſt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "dũ"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 71,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "mistral-small": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos vero vocales omnes pſe prolatae nomé ſui ſtēdút.",
+    "wer": 69.23076923076923,
+    "cer": 15.384615384615385,
+    "accuracy": 85.8974358974359,
+    "time": 2.1148290634155273,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ero "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ oſtẽdũ"
+      ],
+      [
+        1,
+        "i ſtēdú"
+      ],
+      [
+        0,
+        "t."
+      ]
+    ],
+    "matches": 63,
+    "deletions": 15,
+    "insertions": 14
+  },
+  "gpt-4o": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolatae nomé ſuiu oſténdūt;",
+    "wer": 53.84615384615385,
+    "cer": 15.384615384615385,
+    "accuracy": 86.25,
+    "time": 2.535281181335449,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "iu"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũt."
+      ],
+      [
+        1,
+        "éndūt;"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 13
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolata nomé ſuũ oſtéduṛ.",
+    "wer": 46.15384615384615,
+    "cer": 10.256410256410255,
+    "accuracy": 89.74358974358975,
+    "time": 2.6690540313720703,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſuũ oſt"
+      ],
+      [
+        -1,
+        "ẽdũt"
+      ],
+      [
+        1,
+        "éduṛ"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolatæ nomé ſuũ obtinēt.",
+    "wer": 38.46153846153847,
+    "cer": 10.256410256410255,
+    "accuracy": 89.74358974358975,
+    "time": 2.7682149410247803,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolatæ nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſuũ o"
+      ],
+      [
+        -1,
+        "ſtẽdũ"
+      ],
+      [
+        1,
+        "btinē"
+      ],
+      [
+        0,
+        "t."
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 8
+  },
+  "gpt-4.1": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos uero uocales omnes pſe prolatae nomé ſuū oſténdūt,",
+    "wer": 53.84615384615385,
+    "cer": 14.102564102564102,
+    "accuracy": 87.34177215189874,
+    "time": 3.311976909637451,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũt."
+      ],
+      [
+        1,
+        "éndūt,"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 12
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos uero uocales omnes ꝑ ſe prolatæ nomé ſuū oſtēdīt.",
+    "wer": 30.76923076923077,
+    "cer": 6.41025641025641,
+    "accuracy": 93.58974358974359,
+    "time": 3.9972760677337646,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes ꝑ ſe prolatæ nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũ"
+      ],
+      [
+        1,
+        "ēdī"
+      ],
+      [
+        0,
+        "t."
+      ]
+    ],
+    "matches": 72,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "claude-4-opus": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominẽtur: apud nos uero uocales omnes p ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "wer": 7.6923076923076925,
+    "cer": 1.282051282051282,
+    "accuracy": 98.71794871794873,
+    "time": 4.934718132019043,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nominẽtur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " ſe prolatæ nomẽ ſuũ oſtẽdũt."
+      ]
+    ],
+    "matches": 77,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominetur: apud nos uero uocales omnes p ſe prolatæ nome ſuũ oſtendũt.",
+    "wer": 30.76923076923077,
+    "cer": 6.41025641025641,
+    "accuracy": 93.67088607594937,
+    "time": 8.797353029251099,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " ſe prolatæ nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " ſuũ oſt"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "en"
+      ],
+      [
+        0,
+        "dũt."
+      ]
+    ],
+    "matches": 74,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gemini-2.5-pro": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nomínétur: apud nos uero uocales omnes p̄ ſe prolatæ nomē ſuū oſtédūnt.",
+    "wer": 38.46153846153847,
+    "cer": 14.102564102564102,
+    "accuracy": 86.58536585365853,
+    "time": 34.411232709884644,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nom"
+      ],
+      [
+        -1,
+        "inẽ"
+      ],
+      [
+        1,
+        "íné"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p̄"
+      ],
+      [
+        0,
+        " ſe prolatæ nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũ"
+      ],
+      [
+        1,
+        "édūn"
+      ],
+      [
+        0,
+        "t."
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 13
+  },
+  "o4-mini": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominētur: apud nos uero uocales omnes p ſe prolatæ nomé ſuū oſtēdūnt,",
+    "wer": 38.46153846153847,
+    "cer": 10.256410256410255,
+    "accuracy": 89.87341772151899,
+    "time": 49.50760102272034,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " ſe prolatæ nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũt."
+      ],
+      [
+        1,
+        "ēdūnt,"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 10
+  },
+  "gpt-5-mini": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominētur: apud nos uero uocales omnes pſe prolatae nomeſū oſtendit,",
+    "wer": 53.84615384615385,
+    "cer": 15.384615384615385,
+    "accuracy": 87.17948717948718,
+    "time": 22.2361958026886,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ "
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũt."
+      ],
+      [
+        1,
+        "endit,"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 12,
+    "insertions": 12
+  },
+  "gpt-5": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos uero uocales omnes p ſe prolatae nomé ſuū oſtédūt,",
+    "wer": 46.15384615384615,
+    "cer": 11.538461538461538,
+    "accuracy": 88.60759493670885,
+    "time": 86.27090382575989,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        " ſe prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũt."
+      ],
+      [
+        1,
+        "édūt,"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 11
+  },
+  "glm-4.5v": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominētur:apud nos uero uocales omnes p fe prolataæ nomé fuũ oftédūt,",
+    "wer": 61.53846153846154,
+    "cer": 14.102564102564102,
+    "accuracy": 87.17948717948718,
+    "time": 6.014995098114014,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "tur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ ſ"
+      ],
+      [
+        1,
+        "p f"
+      ],
+      [
+        0,
+        "e prolat"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "æ nom"
+      ],
+      [
+        -1,
+        "ẽ ſ"
+      ],
+      [
+        1,
+        "é f"
+      ],
+      [
+        0,
+        "uũ o"
+      ],
+      [
+        -1,
+        "ſtẽdũt."
+      ],
+      [
+        1,
+        "ftédūt,"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 15,
+    "insertions": 15
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "ſyllabis nominétur: apud nos uero vocales omnes p̃ fe prolatae nomé ſuū ofténdur.",
+    "wer": 61.53846153846154,
+    "cer": 17.94871794871795,
+    "accuracy": 82.71604938271605,
+    "time": 1.5278511047363281,
+    "diffs": [
+      [
+        0,
+        "ſyllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ ſ"
+      ],
+      [
+        1,
+        "p̃ f"
+      ],
+      [
+        0,
+        "e prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        " ſu"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " o"
+      ],
+      [
+        -1,
+        "ſtẽdũt"
+      ],
+      [
+        1,
+        "fténdur"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 64,
+    "deletions": 14,
+    "insertions": 17
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "syllabis nominētur:apud nos uero uocales omnes pſe prolatæ nomê fuū oſtãdūt.",
+    "wer": 61.53846153846154,
+    "cer": 12.82051282051282,
+    "accuracy": 87.17948717948718,
+    "time": 2.6497321128845215,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "yllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "tur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolatæ nom"
+      ],
+      [
+        -1,
+        "ẽ ſuũ"
+      ],
+      [
+        1,
+        "ê fuū"
+      ],
+      [
+        0,
+        " oſt"
+      ],
+      [
+        -1,
+        "ẽdũ"
+      ],
+      [
+        1,
+        "ãdū"
+      ],
+      [
+        0,
+        "t."
+      ]
+    ],
+    "matches": 65,
+    "deletions": 13,
+    "insertions": 11
+  },
+  "cogito-v2-109b": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "fyllabis nominétur:apud nos uero uocales onnes p fc prolataæ nomé fuũ ovédūr.",
+    "wer": 76.92307692307693,
+    "cer": 19.230769230769234,
+    "accuracy": 82.05128205128204,
+    "time": 2.3000869750976562,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "yllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "apud nos uero uocales o"
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "nes "
+      ],
+      [
+        -1,
+        "ꝑ ſe"
+      ],
+      [
+        1,
+        "p fc"
+      ],
+      [
+        0,
+        " prolat"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "æ nom"
+      ],
+      [
+        -1,
+        "ẽ ſ"
+      ],
+      [
+        1,
+        "é f"
+      ],
+      [
+        0,
+        "uũ o"
+      ],
+      [
+        -1,
+        "ſtẽdũt"
+      ],
+      [
+        1,
+        "védūr"
+      ],
+      [
+        0,
+        "."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 17,
+    "insertions": 16
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſyllabis nominẽtur: apud nos uero uocales omnes ꝑ ſe prolatæ nomẽ ſuũ oſtẽdũt.",
+    "response": "fyllabis nominétur: apud nos uero uocales omnes pſe prolatae noméſuũ oſtédit.",
+    "wer": 61.53846153846154,
+    "cer": 12.82051282051282,
+    "accuracy": 88.46153846153845,
+    "time": 2.873663902282715,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "yllabis nomin"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tur: apud nos uero uocales omnes "
+      ],
+      [
+        -1,
+        "ꝑ "
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſe prolat"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        " nom"
+      ],
+      [
+        -1,
+        "ẽ "
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "ſuũ oſt"
+      ],
+      [
+        -1,
+        "ẽdũ"
+      ],
+      [
+        1,
+        "édi"
+      ],
+      [
+        0,
+        "t."
+      ]
+    ],
+    "matches": 68,
+    "deletions": 10,
+    "insertions": 9
+  }
+}

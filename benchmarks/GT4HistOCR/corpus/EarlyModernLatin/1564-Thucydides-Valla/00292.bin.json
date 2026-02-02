@@ -1,0 +1,617 @@
+{
+  "mistral-small": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis acuiginti naues fuerunt, cum bellum incepe.",
+    "wer": 40.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.3369929790496826,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uiginti naues fuerunt, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cum bellum incepe,",
+    "wer": 20.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 1.4750893115997314,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe.",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 1.8003849983215332,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incep",
+    "wer": 10.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 1.8399600982666016,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incep"
+      ],
+      [
+        -1,
+        "e-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt,cùm bellum incepe-",
+    "wer": 20.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 2.017885208129883,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm bellum incepe-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cum bellum incepe-",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 3.432161808013916,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m bellum incepe-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum cis ac uiginti naues fuerunt, cùm bellum incœpe-",
+    "wer": 20.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 3.9410853385925293,
+    "diffs": [
+      [
+        0,
+        "Quippe centum "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "is ac uiginti naues fuerunt, cùm bellum inc"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "œ"
+      ],
+      [
+        0,
+        "pe-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "llama-4-maverick-17b": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 6.315507888793945,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uigintí naues fuerunt, cùm bellum incepè.",
+    "wer": 20.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 6.349110841751099,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uigint"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        " naues fuerunt, cùm bellum incep"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "è."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "o4-mini": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe.",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 9.426257133483887,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uigintí naues fuerunt, cúm bellum incepe,",
+    "wer": 30.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 51.87762498855591,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uigint"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        " naues fuerunt, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "m bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uigintinaues fuerunt, cùm bellum incepe.",
+    "wer": 30.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 22.357971906661987,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "naues fuerunt, cùm bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe,",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 37.90360975265503,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis acuiginti naues fuerunt,cum bellum incepe-",
+    "wer": 40.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 8.16821813583374,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uiginti naues fuerunt,"
+      ],
+      [
+        -1,
+        " cù"
+      ],
+      [
+        1,
+        "cu"
+      ],
+      [
+        0,
+        "m bellum incepe-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eiſ ac uiginti naues fuerunt, cum bellum incepeſ.",
+    "wer": 30.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.65079365079364,
+    "time": 1.7719721794128418,
+    "diffs": [
+      [
+        0,
+        "Quippe centum ei"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ac uiginti naues fuerunt, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "ſ."
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eɪs ac uiginti naues fuerunt, cùm bellum incepe-",
+    "wer": 10.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 2.2213618755340576,
+    "diffs": [
+      [
+        0,
+        "Quippe centum e"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ɪ"
+      ],
+      [
+        0,
+        "s ac uiginti naues fuerunt, cùm bellum incepe-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "grok-4": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cum bellum incepæ",
+    "wer": 20.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 68.15730404853821,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m bellum incep"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "æ"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt,cům bellum incepe.",
+    "wer": 30.0,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.7911350727081299,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt,"
+      ],
+      [
+        -1,
+        " cù"
+      ],
+      [
+        1,
+        "ců"
+      ],
+      [
+        0,
+        "m bellum incepe"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "response": "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.8812627792358398,
+    "diffs": [
+      [
+        0,
+        "Quippe centum eis ac uiginti naues fuerunt, cùm bellum incepe-"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

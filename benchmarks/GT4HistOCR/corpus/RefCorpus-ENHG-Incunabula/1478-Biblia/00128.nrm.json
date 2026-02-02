@@ -1,0 +1,558 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane reden hebben ſe vns geantwo</pre>",
+    "wer": 14.285714285714285,
+    "cer": 12.195121951219512,
+    "accuracy": 89.13043478260869,
+    "time": 0.8831892013549805,
+    "diffs": [
+      [
+        0,
+        "men alſodane reden hebben ſe vns geantwo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "</pre>"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane reden hebben ſe ſns geantwor",
+    "wer": 14.285714285714285,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 1.1407349109649658,
+    "diffs": [
+      [
+        0,
+        "men alſodane reden hebben ſe "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "ns geantwor"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alsodane reden hebben se vns geantwor",
+    "wer": 28.57142857142857,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 1.3232948780059814,
+    "diffs": [
+      [
+        0,
+        "men al"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "odane reden hebben "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "e vns geantwor"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alsodane reden hebben ſe vnſ geantwort",
+    "wer": 42.857142857142854,
+    "cer": 7.317073170731707,
+    "accuracy": 92.85714285714286,
+    "time": 1.7852318286895752,
+    "diffs": [
+      [
+        0,
+        "men al"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "odane reden hebben ſe vn"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " geantwor"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alsodane reden hebben ſe ons geantwor",
+    "wer": 28.57142857142857,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 2.205889940261841,
+    "diffs": [
+      [
+        0,
+        "men al"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "odane reden hebben ſe "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "ns geantwor"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſo dane wden hebben ſe vns geantwoꝛ",
+    "wer": 57.14285714285714,
+    "cer": 9.75609756097561,
+    "accuracy": 92.6829268292683,
+    "time": 3.3008761405944824,
+    "diffs": [
+      [
+        0,
+        "men alſo"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "dane "
+      ],
+      [
+        -1,
+        "re"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "den hebben ſe vns geantwo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ꝛ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane æden hebben ſe vns geantwoꝛ",
+    "wer": 28.57142857142857,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 3.3061628341674805,
+    "diffs": [
+      [
+        0,
+        "men alſodane "
+      ],
+      [
+        -1,
+        "re"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "den hebben ſe vns geantwo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ꝛ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane ſeden hebben ſe vns geantwor",
+    "wer": 14.285714285714285,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 4.4567790031433105,
+    "diffs": [
+      [
+        0,
+        "men alſodane "
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "eden hebben ſe vns geantwor"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane reden hebben ſe vns geantwor",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 15.071858882904053,
+    "diffs": [
+      [
+        0,
+        "men alſodane reden hebben ſe vns geantwor"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "· men alſodane reden hebben ſe vns geantwor",
+    "wer": 14.285714285714285,
+    "cer": 4.878048780487805,
+    "accuracy": 95.34883720930233,
+    "time": 26.498213052749634,
+    "diffs": [
+      [
+        1,
+        "· "
+      ],
+      [
+        0,
+        "men alſodane reden hebben ſe vns geantwor"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men al∫odane rxd en hebten leſvns geantwor",
+    "wer": 71.42857142857143,
+    "cer": 14.634146341463413,
+    "accuracy": 85.71428571428571,
+    "time": 4.768794059753418,
+    "diffs": [
+      [
+        0,
+        "men al"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "∫"
+      ],
+      [
+        0,
+        "odane r"
+      ],
+      [
+        -1,
+        "ed"
+      ],
+      [
+        1,
+        "xd "
+      ],
+      [
+        0,
+        "en heb"
+      ],
+      [
+        -1,
+        "b"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "en "
+      ],
+      [
+        -1,
+        "ſe "
+      ],
+      [
+        1,
+        "leſ"
+      ],
+      [
+        0,
+        "vns geantwor"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "gemini-2.5-flash": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": ". men alſodane rden hebben ſe vns geantwor",
+    "wer": 28.57142857142857,
+    "cer": 7.317073170731707,
+    "accuracy": 95.23809523809523,
+    "time": 4.677016973495483,
+    "diffs": [
+      [
+        1,
+        ". "
+      ],
+      [
+        0,
+        "men alſodane r"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "den hebben ſe vns geantwor"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane ſeden hebben ſevns geantwor",
+    "wer": 42.857142857142854,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 1.185086965560913,
+    "diffs": [
+      [
+        0,
+        "men alſodane "
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "eden hebben ſe"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vns geantwor"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alsodane reden hebben sevens geantwort",
+    "wer": 57.14285714285714,
+    "cer": 12.195121951219512,
+    "accuracy": 90.47619047619048,
+    "time": 1.8573062419891357,
+    "diffs": [
+      [
+        0,
+        "men al"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "odane reden hebben "
+      ],
+      [
+        -1,
+        "ſe v"
+      ],
+      [
+        1,
+        "seve"
+      ],
+      [
+        0,
+        "ns geantwor"
+      ],
+      [
+        1,
+        "t"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "cogito-v2-109b": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane xeðen hebben ſe vns geantwors",
+    "wer": 28.57142857142857,
+    "cer": 7.317073170731707,
+    "accuracy": 92.85714285714286,
+    "time": 1.9120142459869385,
+    "diffs": [
+      [
+        0,
+        "men alſodane "
+      ],
+      [
+        -1,
+        "red"
+      ],
+      [
+        1,
+        "xeð"
+      ],
+      [
+        0,
+        "en hebben ſe vns geantwor"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "men alſodane reden hebben ſe vns geantwor",
+    "response": "men alſodane reden hebben ſe vns geantwor",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 30.190377950668335,
+    "diffs": [
+      [
+        0,
+        "men alſodane reden hebben ſe vns geantwor"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

@@ -1,0 +1,1224 @@
+{
+  "mistral-small": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebat: & digama ipsum cū alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 28.57142857142857,
+    "cer": 6.097560975609756,
+    "accuracy": 95.1219512195122,
+    "time": 2.756351947784424,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ma ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "um c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere videbat:& digáma ipsum cu alio sono in dictionibus latinis loco ph scribi",
+    "wer": 50.0,
+    "cer": 9.75609756097561,
+    "accuracy": 90.2439024390244,
+    "time": 2.7931721210479736,
+    "diffs": [
+      [
+        0,
+        "habere "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "idebat"
+      ],
+      [
+        -1,
+        "᷑: "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "& dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ma ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "um c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco ph "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribi"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "gpt-4.1": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habetre uidebat: & digáma ipſum cū alio ſono in dictionibus latinis loco ph ſcri",
+    "wer": 35.714285714285715,
+    "cer": 7.317073170731707,
+    "accuracy": 93.90243902439023,
+    "time": 3.481597900390625,
+    "diffs": [
+      [
+        0,
+        "habe"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "re uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio ſono in dictionibus latinis loco ph ſcri"
+      ],
+      [
+        -1,
+        "bi"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "ḥabere uidebat: & digáma ipſum cū alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 28.57142857142857,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 4.005536079406738,
+    "diffs": [
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ḥ"
+      ],
+      [
+        0,
+        "abere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "haœre uidebat: & digáma ipſum cu alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 28.57142857142857,
+    "cer": 6.097560975609756,
+    "accuracy": 93.90243902439023,
+    "time": 4.367640733718872,
+    "diffs": [
+      [
+        0,
+        "ha"
+      ],
+      [
+        -1,
+        "be"
+      ],
+      [
+        1,
+        "œ"
+      ],
+      [
+        0,
+        "re uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "llama-4-maverick-17b": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebatur:& digãma ipfum cũ alio fono in dictionibus latinis loco pḥ fcribi",
+    "wer": 42.857142857142854,
+    "cer": 8.536585365853659,
+    "accuracy": 92.6829268292683,
+    "time": 4.372480154037476,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑: "
+      ],
+      [
+        1,
+        "ur:"
+      ],
+      [
+        0,
+        "& digãma ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "um cũ alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco p"
+      ],
+      [
+        -1,
+        "h ſ"
+      ],
+      [
+        1,
+        "ḥ f"
+      ],
+      [
+        0,
+        "cribi"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "spotlight": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebat: & digáma ipsum cū alio sono in dictionibus latinis loco ph scribi",
+    "wer": 42.857142857142854,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 5.0339930057525635,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ma ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "um c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco ph "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "cribi"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "haćre uidebát: & digíma ipſum cū alio fono in dictionibus latinis loco ph ſc̃ibi",
+    "wer": 42.857142857142854,
+    "cer": 12.195121951219512,
+    "accuracy": 90.36144578313254,
+    "time": 9.078924894332886,
+    "diffs": [
+      [
+        0,
+        "ha"
+      ],
+      [
+        -1,
+        "be"
+      ],
+      [
+        1,
+        "ć"
+      ],
+      [
+        0,
+        "re uideba"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        "t"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "ma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco ph ſc"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        "ibi"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "claude-4-opus": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebatur: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 7.142857142857142,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.59036144578313,
+    "time": 12.337308168411255,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        1,
+        "ur"
+      ],
+      [
+        0,
+        ": & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebat: & digama ipſũ cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 21.428571428571427,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 24.386240005493164,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ma ipſ"
+      ],
+      [
+        -1,
+        "um"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " cũ alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "gemini-2.5-pro": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habére uidebát:& digáma ipſúm cũ alió fono in dictionibus latinis loco ph ſcribi",
+    "wer": 50.0,
+    "cer": 9.75609756097561,
+    "accuracy": 90.2439024390244,
+    "time": 65.76325392723083,
+    "diffs": [
+      [
+        0,
+        "hab"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "re uideb"
+      ],
+      [
+        -1,
+        "at᷑: "
+      ],
+      [
+        1,
+        "át:"
+      ],
+      [
+        0,
+        "& dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ma ipſ"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "m cũ ali"
+      ],
+      [
+        -1,
+        "o ſ"
+      ],
+      [
+        1,
+        "ó f"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "gpt-5-mini": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebat: & digama ipſum cū alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 21.428571428571427,
+    "cer": 3.6585365853658534,
+    "accuracy": 96.34146341463415,
+    "time": 18.847344160079956,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebat: & digãma ipſū cū alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 21.428571428571427,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 62.89628481864929,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & digãma ipſ"
+      ],
+      [
+        -1,
+        "um"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "hàbere uidebat:& digáma ipfum cũ alio fono in dictionibus latinis loco ph fribi",
+    "wer": 50.0,
+    "cer": 9.75609756097561,
+    "accuracy": 90.2439024390244,
+    "time": 4.807591915130615,
+    "diffs": [
+      [
+        0,
+        "h"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "à"
+      ],
+      [
+        0,
+        "bere uidebat"
+      ],
+      [
+        -1,
+        "᷑: "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "& dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "ma ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "um cũ alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco ph "
+      ],
+      [
+        -1,
+        "ſc"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ribi"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebat: & digama ipſum cù alio ſono in dictionibus latinis loco ph ſcribi",
+    "wer": 21.428571428571427,
+    "cer": 3.6585365853658534,
+    "accuracy": 96.34146341463415,
+    "time": 1.7323558330535889,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "ma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        " alio ſono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidebat:& digāma iplum cū alio fono in dictionibus latinis loco ph fōni",
+    "wer": 50.0,
+    "cer": 13.414634146341465,
+    "accuracy": 86.58536585365853,
+    "time": 2.7864010334014893,
+    "diffs": [
+      [
+        0,
+        "habere uidebat"
+      ],
+      [
+        -1,
+        "᷑: "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "& dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "um c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco ph "
+      ],
+      [
+        -1,
+        "ſcrib"
+      ],
+      [
+        1,
+        "fōn"
+      ],
+      [
+        0,
+        "i"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 12,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "haòbere uidebat':& digãma ipſum cū alio fono in diçtionibus latinis loco ph fcımbi",
+    "wer": 50.0,
+    "cer": 10.975609756097562,
+    "accuracy": 90.2439024390244,
+    "time": 2.0652427673339844,
+    "diffs": [
+      [
+        0,
+        "ha"
+      ],
+      [
+        1,
+        "ò"
+      ],
+      [
+        0,
+        "bere uidebat"
+      ],
+      [
+        -1,
+        "᷑: "
+      ],
+      [
+        1,
+        "':"
+      ],
+      [
+        0,
+        "& digãma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ono in di"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ç"
+      ],
+      [
+        0,
+        "tionibus latinis loco ph "
+      ],
+      [
+        -1,
+        "ſcri"
+      ],
+      [
+        1,
+        "fcım"
+      ],
+      [
+        0,
+        "bi"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 10,
+    "insertions": 10
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "habere uidebat᷑: & digãma ipſum cũ alio ſono in dictionibus latinis loco ph ſcribi",
+    "response": "habere uidcbat: & digāma ipſum cū alio fono in dictionibus latinis loco ph ſcribi",
+    "wer": 28.57142857142857,
+    "cer": 6.097560975609756,
+    "accuracy": 93.90243902439023,
+    "time": 2.7295753955841064,
+    "diffs": [
+      [
+        0,
+        "habere uid"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "bat"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        ": & dig"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "ma ipſum c"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " alio "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ono in dictionibus latinis loco ph ſcribi"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 4
+  }
+}

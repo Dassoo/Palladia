@@ -1,0 +1,473 @@
+{
+  "mistral-small": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.0039680004119873,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.1010420322418213,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.1985242366790771,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "13 4",
+    "response": "B  4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.308021068572998,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B "
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.448195219039917,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.9164400100708008,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 2.9127607345581055,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "13 4",
+    "response": "B    4",
+    "wer": 50.0,
+    "cer": 100.0,
+    "accuracy": 33.33333333333333,
+    "time": 3.8241848945617676,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B   "
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 5.162793159484863,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "13 4",
+    "response": "B       4",
+    "wer": 50.0,
+    "cer": 100.0,
+    "accuracy": 22.22222222222222,
+    "time": 13.544996976852417,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B      "
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 7
+  },
+  "gpt-5-mini": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 3.918215036392212,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 5.5691070556640625,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 2.503131866455078,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 2.1899030208587646,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.1890230178833008,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "13 4",
+    "response": "B ④",
+    "wer": 100.0,
+    "cer": 75.0,
+    "accuracy": 25.0,
+    "time": 2.270616054534912,
+    "diffs": [
+      [
+        -1,
+        "13 4"
+      ],
+      [
+        1,
+        "B ④"
+      ]
+    ],
+    "matches": 0,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 10.402681827545166,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.3878247737884521,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "13 4",
+    "response": "B 4",
+    "wer": 50.0,
+    "cer": 50.0,
+    "accuracy": 50.0,
+    "time": 1.635498046875,
+    "diffs": [
+      [
+        -1,
+        "13"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        " 4"
+      ]
+    ],
+    "matches": 2,
+    "deletions": 2,
+    "insertions": 1
+  }
+}

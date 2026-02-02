@@ -1,0 +1,489 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo.",
+    "wer": 12.5,
+    "cer": 1.694915254237288,
+    "accuracy": 98.30508474576271,
+    "time": 1.466181755065918,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 58,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-small": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienses proceſſerunt, atque in hunc modum lo-",
+    "wer": 12.5,
+    "cer": 1.694915254237288,
+    "accuracy": 98.30508474576271,
+    "time": 1.5099921226501465,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienses proceſſerunt, atque in hunc modum lo-",
+    "wer": 12.5,
+    "cer": 1.694915254237288,
+    "accuracy": 98.30508474576271,
+    "time": 2.041213274002075,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus,Athenienses proceſſerunt,atque in hunc modum lo-",
+    "wer": 50.0,
+    "cer": 5.084745762711865,
+    "accuracy": 94.91525423728814,
+    "time": 2.1170449256896973,
+    "diffs": [
+      [
+        0,
+        "bentibus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es proceſſerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienses procesſerunt, atque in hunc modum lo-",
+    "wer": 25.0,
+    "cer": 3.389830508474576,
+    "accuracy": 96.61016949152543,
+    "time": 2.6952261924743652,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es proce"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.0965418815612793,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.7476449012756348,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.034746885299683,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 8.916671991348267,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 13.37828516960144,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 19.828847885131836,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 8.205321073532104,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 22.092164754867554,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienfes procefférunt, atque in hunc modum lo-",
+    "wer": 25.0,
+    "cer": 6.779661016949152,
+    "accuracy": 93.22033898305084,
+    "time": 10.362337112426758,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "es proce"
+      ],
+      [
+        -1,
+        "ſſe"
+      ],
+      [
+        1,
+        "ffé"
+      ],
+      [
+        0,
+        "runt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.5409080982208252,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienses procefferunt, atque in hunc modum lo-",
+    "wer": 25.0,
+    "cer": 5.084745762711865,
+    "accuracy": 94.91525423728814,
+    "time": 2.35482120513916,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es proce"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "erunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 28.64932608604431,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "cogito-v2-109b": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienfes procefferunt, atque in hunc modum lo.",
+    "wer": 37.5,
+    "cer": 6.779661016949152,
+    "accuracy": 93.22033898305084,
+    "time": 1.4754681587219238,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "es proce"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "erunt, atque in hunc modum lo"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 55,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "response": "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.9043660163879395,
+    "diffs": [
+      [
+        0,
+        "bentibus, Athenienſes proceſſerunt, atque in hunc modum lo-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 0,
+    "insertions": 0
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "mistral-small": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur: Dies hic ſextus cum nihil egi die ſarte moriar fame. Sed id praecipue reſte",
+    "wer": 20.0,
+    "cer": 6.097560975609756,
+    "accuracy": 95.1219512195122,
+    "time": 1.4420287609100342,
+    "diffs": [
+      [
+        0,
+        "bitur: Dies hic ſextus cum nihil egi die "
+      ],
+      [
+        -1,
+        "qu"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "arte moriar fame. Sed id pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ae"
+      ],
+      [
+        0,
+        "cipue "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eſte"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur:Dies hic ſextus cum nihil egi die quarte moriar fame.Sed id præcipue teſte",
+    "wer": 26.666666666666668,
+    "cer": 2.4390243902439024,
+    "accuracy": 97.5609756097561,
+    "time": 2.2159719467163086,
+    "diffs": [
+      [
+        0,
+        "bitur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Dies hic ſextus cum nihil egi die quarte moriar fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue teſte"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur:Dies hic sextus cum nihil egi die quarte moriar fame.Sed id præcipue testæ",
+    "wer": 40.0,
+    "cer": 6.097560975609756,
+    "accuracy": 93.90243902439023,
+    "time": 2.2315659523010254,
+    "diffs": [
+      [
+        0,
+        "bitur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Dies hic "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte moriar fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue te"
+      ],
+      [
+        -1,
+        "ſte"
+      ],
+      [
+        1,
+        "stæ"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur: D!es hic ſextus cum nihil egi die quarte moriꝰ fame. Sed id præcipue teſt",
+    "wer": 26.666666666666668,
+    "cer": 6.097560975609756,
+    "accuracy": 93.90243902439023,
+    "time": 2.3820741176605225,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur: D"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "!"
+      ],
+      [
+        0,
+        "es hic ſextus cum nihil egi die quarte mori"
+      ],
+      [
+        -1,
+        "ar"
+      ],
+      [
+        1,
+        "ꝰ"
+      ],
+      [
+        0,
+        " fame. Sed id præcipue teſt"
+      ],
+      [
+        -1,
+        "e"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur: Dies hic fextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte,",
+    "wer": 20.0,
+    "cer": 3.6585365853658534,
+    "accuracy": 96.3855421686747,
+    "time": 2.7840771675109863,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur: Dies hic "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte moriar fame. Sed id præcipue teſte"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 80,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "llama-4-maverick-17b": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur: Dies hic sextus cum nihil egi die quarte morir fame. Sed id precipue reſte",
+    "wer": 33.33333333333333,
+    "cer": 6.097560975609756,
+    "accuracy": 93.90243902439023,
+    "time": 2.8839571475982666,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur: Dies hic "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte mori"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        0,
+        "r fame. Sed id pr"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "cipue "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eſte"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur:Dies hic ſextus cum nihil egi die quarte moriar fame.Sed id præcipue teſte",
+    "wer": 26.666666666666668,
+    "cer": 3.6585365853658534,
+    "accuracy": 96.34146341463415,
+    "time": 4.311827898025513,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Dies hic ſextus cum nihil egi die quarte moriar fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue teſte"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur: Dies hic ſextus cum nihil egi die quartæ moriar fame. Sed id præcipue teſte",
+    "wer": 6.666666666666667,
+    "cer": 1.2195121951219512,
+    "accuracy": 98.78048780487805,
+    "time": 4.318647861480713,
+    "diffs": [
+      [
+        0,
+        "bitur: Dies hic ſextus cum nihil egi die quart"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        " moriar fame. Sed id præcipue teſte"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur: Dies hic ſextus cum nihil ege die quarte morier fame. Sed id præcipue teſto",
+    "wer": 26.666666666666668,
+    "cer": 4.878048780487805,
+    "accuracy": 95.1219512195122,
+    "time": 6.004269123077393,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur: Dies hic ſextus cum nihil eg"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " die quarte mori"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "r fame. Sed id præcipue teſt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur: D: es hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teste",
+    "wer": 20.0,
+    "cer": 3.6585365853658534,
+    "accuracy": 96.3855421686747,
+    "time": 19.18902897834778,
+    "diffs": [
+      [
+        0,
+        "bitur: D"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        ": "
+      ],
+      [
+        0,
+        "es hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue te"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "te"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gemini-2.5-pro": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur: Dies hic ſextus cum nihil egit die quarte moniar fame. Sed id præcipue teſto",
+    "wer": 26.666666666666668,
+    "cer": 4.878048780487805,
+    "accuracy": 95.18072289156626,
+    "time": 41.94787001609802,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur: Dies hic ſextus cum nihil egi"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " die quarte mo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "iar fame. Sed id præcipue teſt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame.Sed id præcipue teſte",
+    "wer": 13.333333333333334,
+    "cer": 1.2195121951219512,
+    "accuracy": 98.78048780487805,
+    "time": 20.227747917175293,
+    "diffs": [
+      [
+        0,
+        "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue teſte"
+      ]
+    ],
+    "matches": 81,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teﬅe,",
+    "wer": 13.333333333333334,
+    "cer": 4.878048780487805,
+    "accuracy": 96.34146341463415,
+    "time": 61.85343098640442,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue te"
+      ],
+      [
+        -1,
+        "ſte"
+      ],
+      [
+        1,
+        "ﬅe,"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "glm-4.5v": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur:D:es hic fextus cum nihil egi die quarte moriar fame.Sed id præcipue tefto",
+    "wer": 40.0,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 3.674449920654297,
+    "diffs": [
+      [
+        0,
+        "bitur:"
+      ],
+      [
+        -1,
+        " Di"
+      ],
+      [
+        1,
+        "D:"
+      ],
+      [
+        0,
+        "es hic "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte moriar fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue te"
+      ],
+      [
+        -1,
+        "ſte"
+      ],
+      [
+        1,
+        "fto"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur:Dieſ hic textus cum nihil egi die quarte moriar fame.Sed id præcipue reſto",
+    "wer": 40.0,
+    "cer": 7.317073170731707,
+    "accuracy": 92.6829268292683,
+    "time": 1.7556169033050537,
+    "diffs": [
+      [
+        0,
+        "bitur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Die"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " hic "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte moriar fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eſt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "o"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur:Dies hiæ sextus cum nihil egi die quarte moriar fame.Sed id præcipue te✔︎lle",
+    "wer": 46.666666666666664,
+    "cer": 9.75609756097561,
+    "accuracy": 92.6829268292683,
+    "time": 2.369373083114624,
+    "diffs": [
+      [
+        0,
+        "bitur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Dies hi"
+      ],
+      [
+        -1,
+        "c ſ"
+      ],
+      [
+        1,
+        "æ s"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte moriar fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue te"
+      ],
+      [
+        -1,
+        "ſt"
+      ],
+      [
+        1,
+        "✔︎ll"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "birur:Dies hic fextus cum nihil egi die quarte moriat fame.Sed id præcipue refte",
+    "wer": 46.666666666666664,
+    "cer": 8.536585365853659,
+    "accuracy": 91.46341463414635,
+    "time": 1.6057102680206299,
+    "diffs": [
+      [
+        0,
+        "bi"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ur:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Dies hic "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte moria"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " fame."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Sed id præcipue "
+      ],
+      [
+        -1,
+        "teſ"
+      ],
+      [
+        1,
+        "ref"
+      ],
+      [
+        0,
+        "te"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "bitur: Dies hic ſextus cum nihil egi die quarte moriar fame. Sed id præcipue teſte",
+    "response": "bitur: Dies hic fextus cum nihil egi die quarte moriar fame. Sed id præcipue refte",
+    "wer": 13.333333333333334,
+    "cer": 3.6585365853658534,
+    "accuracy": 96.34146341463415,
+    "time": 4.611093997955322,
+    "diffs": [
+      [
+        0,
+        "bitur: Dies hic "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "extus cum nihil egi die quarte moriar fame. Sed id præcipue "
+      ],
+      [
+        -1,
+        "teſ"
+      ],
+      [
+        1,
+        "ref"
+      ],
+      [
+        0,
+        "te"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 4,
+    "insertions": 4
+  }
+}

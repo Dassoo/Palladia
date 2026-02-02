@@ -1,0 +1,762 @@
+{
+  "spotlight": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "yn leuede na des gheboort achtehundert vinde",
+    "wer": 42.857142857142854,
+    "cer": 9.523809523809524,
+    "accuracy": 90.9090909090909,
+    "time": 1.3298289775848389,
+    "diffs": [
+      [
+        -1,
+        "vñ"
+      ],
+      [
+        1,
+        "yn"
+      ],
+      [
+        0,
+        " leuede na des ghebo"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "rt achtehundert v"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "nde"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 4
+  },
+  "gpt-4.1": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuete na des gheboͤrt achtͤhundert vnd",
+    "wer": 57.14285714285714,
+    "cer": 9.523809523809524,
+    "accuracy": 92.85714285714286,
+    "time": 1.6673510074615479,
+    "diffs": [
+      [
+        0,
+        "vñ leue"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "e na des ghebo"
+      ],
+      [
+        1,
+        "ͤ"
+      ],
+      [
+        0,
+        "rt acht"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ͤ"
+      ],
+      [
+        0,
+        "hundert vnd"
+      ],
+      [
+        -1,
+        "e"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-small": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuede na des ghebozt achtehundert vnde",
+    "wer": 14.285714285714285,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 1.6705288887023926,
+    "diffs": [
+      [
+        0,
+        "vñ leuede na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "t achtehundert vnde"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuede na des ghebořt achtċhundert vnde",
+    "wer": 28.57142857142857,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 1.8742258548736572,
+    "diffs": [
+      [
+        0,
+        "vñ leuede na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ř"
+      ],
+      [
+        0,
+        "t acht"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ċ"
+      ],
+      [
+        0,
+        "hundert vnde"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "yn leuede na des ghebozt achtehundert vnde",
+    "wer": 28.57142857142857,
+    "cer": 7.142857142857142,
+    "accuracy": 92.85714285714286,
+    "time": 3.4238739013671875,
+    "diffs": [
+      [
+        -1,
+        "vñ"
+      ],
+      [
+        1,
+        "yn"
+      ],
+      [
+        0,
+        " leuede na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "t achtehundert vnde"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ ſeucdz na des gheboot achthundert vnde",
+    "wer": 42.857142857142854,
+    "cer": 11.904761904761903,
+    "accuracy": 88.09523809523809,
+    "time": 3.5913147926330566,
+    "diffs": [
+      [
+        0,
+        "vñ "
+      ],
+      [
+        -1,
+        "l"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "eu"
+      ],
+      [
+        -1,
+        "ede"
+      ],
+      [
+        1,
+        "cdz"
+      ],
+      [
+        0,
+        " na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "t acht"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "hundert vnde"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "claude-4-sonnet": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leucẟe na ðeſ ghebot achthundert vnðe",
+    "wer": 71.42857142857143,
+    "cer": 16.666666666666664,
+    "accuracy": 83.33333333333334,
+    "time": 3.7315402030944824,
+    "diffs": [
+      [
+        0,
+        "vñ leu"
+      ],
+      [
+        -1,
+        "ed"
+      ],
+      [
+        1,
+        "cẟ"
+      ],
+      [
+        0,
+        "e na "
+      ],
+      [
+        -1,
+        "des"
+      ],
+      [
+        1,
+        "ðeſ"
+      ],
+      [
+        0,
+        " ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        "t acht"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "hundert vn"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ð"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "llama-4-maverick-17b": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuede na des ghebozt achtelundert vñde",
+    "wer": 42.857142857142854,
+    "cer": 7.142857142857142,
+    "accuracy": 92.85714285714286,
+    "time": 9.627722978591919,
+    "diffs": [
+      [
+        0,
+        "vñ leuede na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "t achte"
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "undert v"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leude na deſ ghebozt achtvehundert vnde",
+    "wer": 57.14285714285714,
+    "cer": 9.523809523809524,
+    "accuracy": 92.85714285714286,
+    "time": 22.21940302848816,
+    "diffs": [
+      [
+        0,
+        "vñ leu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "de na de"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "t acht"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ehundert vnde"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuede na des gheboet achthundert vnde",
+    "wer": 28.57142857142857,
+    "cer": 4.761904761904762,
+    "accuracy": 95.23809523809523,
+    "time": 78.94153690338135,
+    "diffs": [
+      [
+        0,
+        "vñ leuede na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t acht"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "hundert vnde"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "v̄n leuedx na des ghewoxt achthundert vnde",
+    "wer": 57.14285714285714,
+    "cer": 14.285714285714285,
+    "accuracy": 88.09523809523809,
+    "time": 7.706010818481445,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "̄n"
+      ],
+      [
+        0,
+        " leued"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "x"
+      ],
+      [
+        0,
+        " na des ghe"
+      ],
+      [
+        -1,
+        "bor"
+      ],
+      [
+        1,
+        "wox"
+      ],
+      [
+        0,
+        "t acht"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "hundert vnde"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuet na daß ghebozt achtehundert vndz",
+    "wer": 57.14285714285714,
+    "cer": 14.285714285714285,
+    "accuracy": 85.71428571428571,
+    "time": 7.466139078140259,
+    "diffs": [
+      [
+        0,
+        "vñ leue"
+      ],
+      [
+        -1,
+        "de"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " na d"
+      ],
+      [
+        -1,
+        "es"
+      ],
+      [
+        1,
+        "aß"
+      ],
+      [
+        0,
+        " ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "t achtehundert vnd"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "z"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuede na des gheboſt achtehundert vnde",
+    "wer": 14.285714285714285,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 1.302168846130371,
+    "diffs": [
+      [
+        0,
+        "vñ leuede na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t achtehundert vnde"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vületude na des gheboort achtehundert vide",
+    "wer": 57.14285714285714,
+    "cer": 14.285714285714285,
+    "accuracy": 90.47619047619048,
+    "time": 2.8487308025360107,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ leue"
+      ],
+      [
+        1,
+        "ületu"
+      ],
+      [
+        0,
+        "de na des ghebo"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "rt achtehundert v"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vñ leuede na des ghebozt achtehundett vñde",
+    "wer": 42.857142857142854,
+    "cer": 7.142857142857142,
+    "accuracy": 92.85714285714286,
+    "time": 1.9904839992523193,
+    "diffs": [
+      [
+        0,
+        "vñ leuede na des ghebo"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "t achtehunde"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "t v"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        "de"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "vñ leuede na des ghebort achtehundert vnde",
+    "response": "vn leuede na des ghebort achtehundert vnde",
+    "wer": 14.285714285714285,
+    "cer": 2.380952380952381,
+    "accuracy": 97.61904761904762,
+    "time": 2.1962828636169434,
+    "diffs": [
+      [
+        0,
+        "v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " leuede na des ghebort achtehundert vnde"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

@@ -1,0 +1,1009 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dcra rupta uiderentur, accitisſp focis dixerunt, fibi quidem uideri",
+    "wer": 44.44444444444444,
+    "cer": 10.144927536231885,
+    "accuracy": 89.85507246376811,
+    "time": 1.1260411739349365,
+    "diffs": [
+      [
+        0,
+        "d"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ra rupta uiderentur, accitis"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        "ſp f"
+      ],
+      [
+        0,
+        "oci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        0,
+        "s dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "mistral-small": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitis ſociis dixerunt, sibi quidem uideri",
+    "wer": 33.33333333333333,
+    "cer": 7.246376811594203,
+    "accuracy": 92.7536231884058,
+    "time": 1.3466448783874512,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, accitis"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        0,
+        " ſoci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitisœ sociis dixerunt, sibi quidem uideri",
+    "wer": 33.33333333333333,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 1.48146390914917,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, accitis"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        "œ s"
+      ],
+      [
+        0,
+        "oci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uidere videntur, accitisqꝫ ſociis dixerunt, ſibi quidem uideri",
+    "wer": 44.44444444444444,
+    "cer": 11.594202898550725,
+    "accuracy": 90.41095890410958,
+    "time": 1.670443058013916,
+    "diffs": [
+      [
+        0,
+        "dera rupta uidere"
+      ],
+      [
+        1,
+        " vide"
+      ],
+      [
+        0,
+        "ntur, accitisq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "ꝫ"
+      ],
+      [
+        0,
+        " ſoci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s dixerunt, ſibi quidem uideri"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 3,
+    "insertions": 7
+  },
+  "gpt-4o": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera ruptura uiderentur, accitisqꝫ focijs dixerunt, sibi quidem uideri",
+    "wer": 44.44444444444444,
+    "cer": 8.695652173913043,
+    "accuracy": 92.85714285714286,
+    "time": 1.9151511192321777,
+    "diffs": [
+      [
+        0,
+        "dera rupt"
+      ],
+      [
+        1,
+        "ur"
+      ],
+      [
+        0,
+        "a uiderentur, accitisq"
+      ],
+      [
+        -1,
+        "́; ſ"
+      ],
+      [
+        1,
+        "ꝫ f"
+      ],
+      [
+        0,
+        "ocijs dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gemini-2.5-flash": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitisq́; ſociis dixerunt, ſibi quidem uideri",
+    "wer": 11.11111111111111,
+    "cer": 1.4492753623188406,
+    "accuracy": 98.55072463768117,
+    "time": 3.3744421005249023,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, accitisq́; ſoci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s dixerunt, ſibi quidem uideri"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur,accitis& ſocĳs dixerunt,ſibi quidem uideri",
+    "wer": 55.55555555555556,
+    "cer": 10.144927536231885,
+    "accuracy": 89.85507246376811,
+    "time": 3.6034231185913086,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "accitis"
+      ],
+      [
+        -1,
+        "q́;"
+      ],
+      [
+        1,
+        "&"
+      ],
+      [
+        0,
+        " ſoc"
+      ],
+      [
+        -1,
+        "ij"
+      ],
+      [
+        1,
+        "ĳ"
+      ],
+      [
+        0,
+        "s dixerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſibi quidem uideri"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitisq́; ſociis dixerunt, ſibi quidem uideri",
+    "wer": 11.11111111111111,
+    "cer": 1.4492753623188406,
+    "accuracy": 98.55072463768117,
+    "time": 4.387913942337036,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, accitisq́; ſoci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s dixerunt, ſibi quidem uideri"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "deraruptionuiderentur,accitisꝑlocijsdixerunt,sibiquidemuideri",
+    "wer": 100.0,
+    "cer": 21.73913043478261,
+    "accuracy": 79.71014492753623,
+    "time": 4.804805755615234,
+    "diffs": [
+      [
+        0,
+        "dera"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "rupt"
+      ],
+      [
+        -1,
+        "a "
+      ],
+      [
+        1,
+        "ion"
+      ],
+      [
+        0,
+        "uiderentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "accitis"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        "ꝑl"
+      ],
+      [
+        0,
+        "ocijs"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dixerunt,"
+      ],
+      [
+        -1,
+        " ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibi"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quidem"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uideri"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 14,
+    "insertions": 6
+  },
+  "o4-mini": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accisisq̇ ſociis dixerunt, sibi quidem uideri",
+    "wer": 33.33333333333333,
+    "cer": 7.246376811594203,
+    "accuracy": 92.7536231884058,
+    "time": 24.167645931243896,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, acci"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "isq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "̇"
+      ],
+      [
+        0,
+        " ſoci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "gemini-2.5-pro": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur,accitiſq́ ſocĳs dixerunt,ſibi quidem uiderí",
+    "wer": 66.66666666666666,
+    "cer": 10.144927536231885,
+    "accuracy": 89.85507246376811,
+    "time": 31.34213089942932,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "acciti"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "q́"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        0,
+        " ſoc"
+      ],
+      [
+        -1,
+        "ij"
+      ],
+      [
+        1,
+        "ĳ"
+      ],
+      [
+        0,
+        "s dixerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſibi quidem uider"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accriſisqͤ ſocijs dixerunt, ſibi quidem uideri",
+    "wer": 11.11111111111111,
+    "cer": 5.797101449275362,
+    "accuracy": 95.65217391304348,
+    "time": 29.72859787940979,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, acc"
+      ],
+      [
+        -1,
+        "it"
+      ],
+      [
+        1,
+        "riſ"
+      ],
+      [
+        0,
+        "isq"
+      ],
+      [
+        -1,
+        "́;"
+      ],
+      [
+        1,
+        "ͤ"
+      ],
+      [
+        0,
+        " ſocijs dixerunt, ſibi quidem uideri"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur,accitisq; ſocijs dixerunt,ſibi quidem uideri",
+    "wer": 44.44444444444444,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 47.45969581604004,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "accitisq"
+      ],
+      [
+        -1,
+        "́"
+      ],
+      [
+        0,
+        "; ſocijs dixerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſibi quidem uideri"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 3,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitis & focijs dixerunt, fibi quidem uideri",
+    "wer": 44.44444444444444,
+    "cer": 7.246376811594203,
+    "accuracy": 92.7536231884058,
+    "time": 10.207504749298096,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, accitis"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        " & f"
+      ],
+      [
+        0,
+        "ocijs dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitiſſe ſocijs dixerunt, ſibi quidem uideri",
+    "wer": 11.11111111111111,
+    "cer": 5.797101449275362,
+    "accuracy": 94.20289855072464,
+    "time": 1.4710099697113037,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, acciti"
+      ],
+      [
+        -1,
+        "sq́;"
+      ],
+      [
+        1,
+        "ſſe"
+      ],
+      [
+        0,
+        " ſocijs dixerunt, ſibi quidem uideri"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitis ٺ fociß dixerunt, ٺibi quidem uideri",
+    "wer": 44.44444444444444,
+    "cer": 10.144927536231885,
+    "accuracy": 89.85507246376811,
+    "time": 2.7758560180664062,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, accitis"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        " ٺ f"
+      ],
+      [
+        0,
+        "oci"
+      ],
+      [
+        -1,
+        "js"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        " dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ٺ"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "grok-4": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur,accitisſoctis dixerunt,ſibi quidem uideri",
+    "wer": 55.55555555555556,
+    "cer": 11.594202898550725,
+    "accuracy": 89.85507246376811,
+    "time": 143.34947991371155,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "accitis"
+      ],
+      [
+        -1,
+        "q́; "
+      ],
+      [
+        0,
+        "ſoc"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "i"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        0,
+        "s dixerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ſibi quidem uideri"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupca uiderentur, accicisóƆ, fociñs dixerunt, fíbi quidem uíderi",
+    "wer": 55.55555555555556,
+    "cer": 14.492753623188406,
+    "accuracy": 85.5072463768116,
+    "time": 1.4937388896942139,
+    "diffs": [
+      [
+        0,
+        "dera rup"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "a uiderentur, acci"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "is"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        "óƆ, f"
+      ],
+      [
+        0,
+        "oci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        "s dixerunt, "
+      ],
+      [
+        -1,
+        "ſi"
+      ],
+      [
+        1,
+        "fí"
+      ],
+      [
+        0,
+        "bi quidem u"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "deri"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 11,
+    "insertions": 11
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "dera rupta uiderentur, accitisq́; ſocijs dixerunt, ſibi quidem uideri",
+    "response": "dera rupta uiderentur, accitis & locis dixerunt, sibi quidem uideri",
+    "wer": 44.44444444444444,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 24.54909086227417,
+    "diffs": [
+      [
+        0,
+        "dera rupta uiderentur, accitis"
+      ],
+      [
+        -1,
+        "q́; ſ"
+      ],
+      [
+        1,
+        " & l"
+      ],
+      [
+        0,
+        "oci"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        0,
+        "s dixerunt, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibi quidem uideri"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 7,
+    "insertions": 5
+  }
+}

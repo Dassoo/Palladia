@@ -1,0 +1,657 @@
+{
+  "spotlight": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "fi Athenienſes aduersus Potidæam irent, fe Atticam inuasuros,",
+    "wer": 50.0,
+    "cer": 6.557377049180328,
+    "accuracy": 93.44262295081968,
+    "time": 1.2239501476287842,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "i Athenienſes aduer"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "us Potidæam irent, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuafuros,",
+    "wer": 12.5,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.263556957244873,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "mistral-small": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros.",
+    "wer": 25.0,
+    "cer": 6.557377049180328,
+    "accuracy": 93.44262295081968,
+    "time": 1.3430767059326172,
+    "diffs": [
+      [
+        -1,
+        "ſi "
+      ],
+      [
+        0,
+        "Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 57,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.5641636848449707,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuafuros,",
+    "wer": 12.5,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.81343412399292,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Atheniênſes aduerſus Potidæam irent, ſe Atticam inuaſuros;",
+    "wer": 25.0,
+    "cer": 3.278688524590164,
+    "accuracy": 96.72131147540983,
+    "time": 2.3572757244110107,
+    "diffs": [
+      [
+        0,
+        "ſi Atheni"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ê"
+      ],
+      [
+        0,
+        "nſes aduerſus Potidæam irent, ſe Atticam inuaſuros"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        1,
+        ";"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros.",
+    "wer": 12.5,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 4.220198154449463,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerfus Potidæam irent,ſc Atticam inuafuros,",
+    "wer": 50.0,
+    "cer": 6.557377049180328,
+    "accuracy": 93.44262295081968,
+    "time": 4.225625991821289,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduer"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us Potidæam irent,"
+      ],
+      [
+        -1,
+        " ſe"
+      ],
+      [
+        1,
+        "ſc"
+      ],
+      [
+        0,
+        " Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 11.491648197174072,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam ínuaſuros,",
+    "wer": 12.5,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 12.645709991455078,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "nuaſuros,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 13.134608268737793,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "Si Athenienſes aduerſus Potidaæam irent, ſe Atticam inuaſuros,",
+    "wer": 25.0,
+    "cer": 3.278688524590164,
+    "accuracy": 96.7741935483871,
+    "time": 14.069975852966309,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "i Athenienſes aduerſus Potid"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "æam irent, ſe Atticam inuaſuros,"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 32.760074853897095,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienʃes aduerʃus Potidæam irent, ſe Atticam inuafuros,",
+    "wer": 37.5,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 3.9102699756622314,
+    "diffs": [
+      [
+        0,
+        "ſi Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ʃ"
+      ],
+      [
+        0,
+        "es aduer"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ʃ"
+      ],
+      [
+        0,
+        "us Potidæam irent, ſe Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros.",
+    "wer": 12.5,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.4878900051116943,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros"
+      ],
+      [
+        -1,
+        ","
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "fi Athenienſes aduerſus Potidæam irent, fe Atticam inualuros,",
+    "wer": 37.5,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 1.9214231967926025,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "i Athenienſes aduerſus Potidæam irent, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "grok-4": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros",
+    "wer": 12.5,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 11.78579306602478,
+    "diffs": [
+      [
+        0,
+        "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros"
+      ],
+      [
+        -1,
+        ","
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "cogito-v2-109b": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "fi Athenienfes aduerfus Potidæam irent, fe Atticam inuafuros,",
+    "wer": 62.5,
+    "cer": 8.19672131147541,
+    "accuracy": 91.80327868852459,
+    "time": 1.7874510288238525,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "i Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "es aduer"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us Potidæam irent, "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "e Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſi Athenienſes aduerſus Potidæam irent, ſe Atticam inuaſuros,",
+    "response": "ſi Athenienses aduerſus Potidæam irent, ſe Atticam inuafuros,",
+    "wer": 25.0,
+    "cer": 3.278688524590164,
+    "accuracy": 96.72131147540983,
+    "time": 2.3747100830078125,
+    "diffs": [
+      [
+        0,
+        "ſi Athenien"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "es aduerſus Potidæam irent, ſe Atticam inua"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "uros,"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

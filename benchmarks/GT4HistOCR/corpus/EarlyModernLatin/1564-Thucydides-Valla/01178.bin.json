@@ -1,0 +1,725 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrcnſibus paritcr ac Peloponmenſibus gretis.At nobis re,",
+    "wer": 75.0,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 1.3921480178833008,
+    "diffs": [
+      [
+        0,
+        "Corcyr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "nſibus parit"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "r ac Pelopon"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "enſibus g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "retis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "mistral-small": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnesibus geretis. At nobis re-",
+    "wer": 12.5,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 1.6498041152954102,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponne"
+      ],
+      [
+        -1,
+        "nſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibus geretis. At nobis re-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponneſibus geretis. At nobis re.",
+    "wer": 25.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 1.7783222198486328,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponne"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "ſibus geretis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re,",
+    "wer": 12.5,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 2.095759868621826,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis.At nobis re.",
+    "wer": 37.5,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 2.2330780029296875,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus geretis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gemini-2.5-flash": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re,",
+    "wer": 12.5,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 3.385084867477417,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "claude-4-sonnet": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis.At nobis re-",
+    "wer": 25.0,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 3.734884023666382,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus geretis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "At nobis re-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geftis. At nobis re-",
+    "wer": 12.5,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 4.533156871795654,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus ge"
+      ],
+      [
+        -1,
+        "re"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tis. At nobis re-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re·",
+    "wer": 12.5,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 6.399187088012695,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "·"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re",
+    "wer": 12.5,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 11.601646184921265,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrensibus pariter ac Peloponneſibus geretis. At nobis re-",
+    "wer": 25.0,
+    "cer": 3.225806451612903,
+    "accuracy": 96.7741935483871,
+    "time": 27.88099479675293,
+    "diffs": [
+      [
+        0,
+        "Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibus pariter ac Peloponne"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "ſibus geretis. At nobis re-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrensiſibus pariter ac Peloponneſibus geretis. At nobis re",
+    "wer": 37.5,
+    "cer": 6.451612903225806,
+    "accuracy": 96.7741935483871,
+    "time": 15.418218851089478,
+    "diffs": [
+      [
+        0,
+        "Corcyren"
+      ],
+      [
+        1,
+        "si"
+      ],
+      [
+        0,
+        "ſibus pariter ac Peloponne"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "ſibus geretis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "gpt-5": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re,",
+    "wer": 12.5,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 45.59996223449707,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenfibus pariter ac Peloponnensibus gcretis.At nobis re-",
+    "wer": 50.0,
+    "cer": 6.451612903225806,
+    "accuracy": 93.54838709677419,
+    "time": 6.030713081359863,
+    "diffs": [
+      [
+        0,
+        "Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ibus pariter ac Peloponnen"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ibus g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "retis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "At nobis re-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponneſibus gcretis. At nobis re¨",
+    "wer": 37.5,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.3645167350769043,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponne"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        0,
+        "ſibus g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "retis. At nobis re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "¨"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenᶜᶠibus pariter ac Peloponnenᶜᶠibus geretis.At nobis re-",
+    "wer": 50.0,
+    "cer": 8.064516129032258,
+    "accuracy": 93.65079365079364,
+    "time": 2.2014520168304443,
+    "diffs": [
+      [
+        0,
+        "Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ᶜᶠ"
+      ],
+      [
+        0,
+        "ibus pariter ac Peloponnen"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ᶜᶠ"
+      ],
+      [
+        0,
+        "ibus geretis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "At nobis re-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "grok-4": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrænſibus pariter ac Peloponnenſibus græcis.At nobis re-",
+    "wer": 37.5,
+    "cer": 8.064516129032258,
+    "accuracy": 91.93548387096774,
+    "time": 128.60520124435425,
+    "diffs": [
+      [
+        0,
+        "Corcyr"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "nſibus pariter ac Peloponnenſibus g"
+      ],
+      [
+        -1,
+        "eret"
+      ],
+      [
+        1,
+        "ræc"
+      ],
+      [
+        0,
+        "is."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "At nobis re-"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "cogito-v2-109b": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenfibus pariter ac Peloponnenfibus gcretis.At nobis rc,",
+    "wer": 62.5,
+    "cer": 9.67741935483871,
+    "accuracy": 90.32258064516128,
+    "time": 1.9622318744659424,
+    "diffs": [
+      [
+        0,
+        "Corcyren"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ibus pariter ac Peloponnen"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ibus g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "retis."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "At nobis r"
+      ],
+      [
+        -1,
+        "e-"
+      ],
+      [
+        1,
+        "c,"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "Corcyrenſibus pariter ac Peloponnenſibus geretis. At nobis re-",
+    "response": "Corcyrenſibus pariter ac Peloponnenſibus gcretis. At nobis re-",
+    "wer": 12.5,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 2.4585301876068115,
+    "diffs": [
+      [
+        0,
+        "Corcyrenſibus pariter ac Peloponnenſibus g"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "retis. At nobis re-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

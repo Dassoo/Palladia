@@ -1,0 +1,730 @@
+{
+  "mistral-small": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "De is groter den dat ick wordenen kan gnade",
+    "wer": 30.0,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 1.0507659912109375,
+    "diffs": [
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "e is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick vordenen kan gnade .",
+    "wer": 10.0,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 2.606553792953491,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick vordenen kan gnade "
+      ],
+      [
+        -1,
+        "·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick wordenen kan gnade",
+    "wer": 20.0,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 1.6977808475494385,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "llama-4-maverick-17b": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groeter den dat ick worden kan gnade.",
+    "wer": 40.0,
+    "cer": 13.333333333333334,
+    "accuracy": 88.88888888888889,
+    "time": 0.9560661315917969,
+    "diffs": [
+      [
+        0,
+        "de is gro"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "ter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "orden"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        0,
+        " kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "gpt-4.1": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick worden kan gna­de·",
+    "wer": 30.0,
+    "cer": 11.11111111111111,
+    "accuracy": 91.11111111111111,
+    "time": 1.7336540222167969,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "orden"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        0,
+        " kan gna"
+      ],
+      [
+        1,
+        "­"
+      ],
+      [
+        0,
+        "de"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "·"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick worden kan gnade",
+    "wer": 20.0,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 2.4769082069396973,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "orden"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        0,
+        " kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 1
+  },
+  "claude-4-opus": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ich werdenen kan gnade",
+    "wer": 30.0,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 3.60031795501709,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ic"
+      ],
+      [
+        -1,
+        "k vo"
+      ],
+      [
+        1,
+        "h we"
+      ],
+      [
+        0,
+        "rdenen kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick wordenen kan gnaede.",
+    "wer": 30.0,
+    "cer": 8.88888888888889,
+    "accuracy": 93.33333333333333,
+    "time": 2.875972270965576,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gna"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "de"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de iſ groter den dat ick wordenen kan gnade .",
+    "wer": 30.0,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 19.56548023223877,
+    "diffs": [
+      [
+        0,
+        "de i"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gnade "
+      ],
+      [
+        -1,
+        "·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick wordenen kan gnade ·",
+    "wer": 10.0,
+    "cer": 2.2222222222222223,
+    "accuracy": 97.77777777777777,
+    "time": 41.57440710067749,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gnade ·"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "deis groter dendatick wordenen kangnade-",
+    "wer": 90.0,
+    "cer": 15.555555555555555,
+    "accuracy": 84.44444444444444,
+    "time": 5.7973339557647705,
+    "diffs": [
+      [
+        0,
+        "de"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "is groter den"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "dat"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "-"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 2
+  },
+  "gemini-2.5-flash": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "ꝛ is groter ꝛ dat ich worden kan guade .",
+    "wer": 60.0,
+    "cer": 24.444444444444443,
+    "accuracy": 75.55555555555556,
+    "time": 9.55512809753418,
+    "diffs": [
+      [
+        -1,
+        "de"
+      ],
+      [
+        1,
+        "ꝛ"
+      ],
+      [
+        0,
+        " is groter "
+      ],
+      [
+        -1,
+        "den"
+      ],
+      [
+        1,
+        "ꝛ"
+      ],
+      [
+        0,
+        " dat ic"
+      ],
+      [
+        -1,
+        "k v"
+      ],
+      [
+        1,
+        "h w"
+      ],
+      [
+        0,
+        "orden"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        0,
+        " kan g"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "ade "
+      ],
+      [
+        -1,
+        "·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 33,
+    "deletions": 12,
+    "insertions": 7
+  },
+  "mistral-medium-3.1": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de iſt groſſer den dat ick wordenen kan gnade:",
+    "wer": 50.0,
+    "cer": 15.555555555555555,
+    "accuracy": 86.95652173913044,
+    "time": 1.361708164215088,
+    "diffs": [
+      [
+        0,
+        "de i"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        " gro"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "er den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        ":"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick wordenen kan gnade⁊",
+    "wer": 30.0,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 2.5177669525146484,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "⁊"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "cogito-v2-109b": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick wordenen kan gnade.",
+    "wer": 30.0,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 2.2761809825897217,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "ordenen kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 42,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "de is groter den dat ick vordenen kan gnade ·",
+    "response": "de is groter den dat ick worden kan gnade.",
+    "wer": 30.0,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 2.0143849849700928,
+    "diffs": [
+      [
+        0,
+        "de is groter den dat ick "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "orden"
+      ],
+      [
+        -1,
+        "en"
+      ],
+      [
+        0,
+        " kan gnade"
+      ],
+      [
+        -1,
+        " ·"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 2
+  }
+}

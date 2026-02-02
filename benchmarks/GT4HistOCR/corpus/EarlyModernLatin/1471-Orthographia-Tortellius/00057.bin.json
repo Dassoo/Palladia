@@ -1,0 +1,1428 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio littera:q̃ compofitio defignentur fæpiffime ponunt  fupra locum:ũ de talis",
+    "wer": 81.81818181818183,
+    "cer": 16.867469879518072,
+    "accuracy": 85.54216867469879,
+    "time": 1.2635829448699951,
+    "diffs": [
+      [
+        0,
+        "abiectio litter"
+      ],
+      [
+        -1,
+        "æ: ꝗᷓ"
+      ],
+      [
+        1,
+        "a:q̃"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "igne"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "tur "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "æpi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑ ſ"
+      ],
+      [
+        1,
+        "  f"
+      ],
+      [
+        0,
+        "upra locum:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ũ"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 14,
+    "insertions": 14
+  },
+  "mistral-small": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litterar: q̃ compositio designetur ſapissime ponunt ſupra locum: ūde talis",
+    "wer": 63.63636363636363,
+    "cer": 13.253012048192772,
+    "accuracy": 87.95180722891565,
+    "time": 1.4151921272277832,
+    "diffs": [
+      [
+        0,
+        "abiectio litter"
+      ],
+      [
+        -1,
+        "æ: ꝗᷓ"
+      ],
+      [
+        1,
+        "ar: q̃"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignetur ſ"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "pi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 12,
+    "insertions": 12
+  },
+  "spotlight": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ: ţ compositio designetur sapissime ponunt supra locum: ūde talis",
+    "wer": 63.63636363636363,
+    "cer": 13.253012048192772,
+    "accuracy": 86.74698795180723,
+    "time": 2.5061309337615967,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "ţ"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignetur "
+      ],
+      [
+        -1,
+        "ſæpiſſ"
+      ],
+      [
+        1,
+        "sapiss"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑ ſ"
+      ],
+      [
+        1,
+        " s"
+      ],
+      [
+        0,
+        "upra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 14,
+    "insertions": 12
+  },
+  "gpt-4.1": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ:ꝗ compoſitio deſignetur ſæpiſſime ponunt ſupra locum:ūde talis",
+    "wer": 45.45454545454545,
+    "cer": 6.024096385542169,
+    "accuracy": 93.97590361445783,
+    "time": 2.9575440883636475,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ:"
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "ꝗ"
+      ],
+      [
+        0,
+        " compoſitio deſignetur ſæpiſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum:"
+      ],
+      [
+        -1,
+        " ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 6,
+    "insertions": 2
+  },
+  "gpt-4o": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ:ꝗ compoſitio deſignetur ſæpiſſime ponunt ſupra locum: unde talis",
+    "wer": 36.36363636363637,
+    "cer": 6.024096385542169,
+    "accuracy": 95.18072289156626,
+    "time": 3.1025197505950928,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ:"
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "ꝗ"
+      ],
+      [
+        0,
+        " compoſitio deſignetur ſæpiſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "un"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ: q compofitio defignetur fæpiſſime ponunt fupra locum: ude talis",
+    "wer": 63.63636363636363,
+    "cer": 9.63855421686747,
+    "accuracy": 90.36144578313254,
+    "time": 3.49359393119812,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignetur "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "æpiſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑ ſ"
+      ],
+      [
+        1,
+        " f"
+      ],
+      [
+        0,
+        "upra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiection littera:q compositio designetur fapiffime ponunt fupra locum:ūde talis",
+    "wer": 90.9090909090909,
+    "cer": 18.072289156626507,
+    "accuracy": 83.13253012048193,
+    "time": 4.629188060760498,
+    "diffs": [
+      [
+        0,
+        "abiectio"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " litter"
+      ],
+      [
+        -1,
+        "æ: ꝗᷓ"
+      ],
+      [
+        1,
+        "a:q"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignetur "
+      ],
+      [
+        -1,
+        "ſæpiſſ"
+      ],
+      [
+        1,
+        "fapiff"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑ ſ"
+      ],
+      [
+        1,
+        " f"
+      ],
+      [
+        0,
+        "upra locum:"
+      ],
+      [
+        -1,
+        " ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 18,
+    "insertions": 15
+  },
+  "gemini-2.5-flash": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ:q̄ compoſitio deſignetur ſæpiſſime ponunt ſupra locum:ūde talis",
+    "wer": 45.45454545454545,
+    "cer": 7.228915662650602,
+    "accuracy": 92.7710843373494,
+    "time": 5.171489000320435,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ:"
+      ],
+      [
+        -1,
+        " ꝗᷓ"
+      ],
+      [
+        1,
+        "q̄"
+      ],
+      [
+        0,
+        " compoſitio deſignetur ſæpiſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum:"
+      ],
+      [
+        -1,
+        " ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 77,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio littera: q̃ compoſitio deſignetur ſæpiſſime ponunt ſupra locum: ũ de talis",
+    "wer": 45.45454545454545,
+    "cer": 6.024096385542169,
+    "accuracy": 95.18072289156626,
+    "time": 5.574551105499268,
+    "diffs": [
+      [
+        0,
+        "abiectio litter"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        ": "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        " compoſitio deſignetur ſæpiſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum: ũ"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 79,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "o4-mini": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ: qʒ compositio designetur ſapiſſime ponunt ſupra locum: ũde talis",
+    "wer": 54.54545454545454,
+    "cer": 9.63855421686747,
+    "accuracy": 91.56626506024097,
+    "time": 25.892397165298462,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "qʒ"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignetur ſ"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "piſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 76,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "gemini-2.5-pro": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio littera:q̃ compoſitio deſignetur ſapiſſime ponunt, ſupra locum: ūde talis",
+    "wer": 45.45454545454545,
+    "cer": 9.63855421686747,
+    "accuracy": 91.56626506024097,
+    "time": 130.47055292129517,
+    "diffs": [
+      [
+        0,
+        "abiectio litter"
+      ],
+      [
+        -1,
+        "æ: ꝗᷓ"
+      ],
+      [
+        1,
+        "a:q̃"
+      ],
+      [
+        0,
+        " compoſitio deſignetur ſ"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "piſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " ſupra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gpt-5-mini": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ: q̃ compoſitio deſignetur ſapiſſime ponunt ſupra locum: uide talis",
+    "wer": 36.36363636363637,
+    "cer": 7.228915662650602,
+    "accuracy": 93.97590361445783,
+    "time": 24.538949012756348,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        " compoſitio deſignetur ſ"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "piſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ui"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 78,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ: q̃ compoſitio deſignetur ſæpiſſime ponunt ſupra locum: ũde talis",
+    "wer": 18.181818181818183,
+    "cer": 3.614457831325301,
+    "accuracy": 96.3855421686747,
+    "time": 82.6701147556305,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q̃"
+      ],
+      [
+        0,
+        " compoſitio deſignetur ſæpiſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum: ũde talis"
+      ]
+    ],
+    "matches": 80,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abieƈtio littera:q compoſitio defignetur faſſime ponunt fupra locum:ūde talis",
+    "wer": 81.81818181818183,
+    "cer": 16.867469879518072,
+    "accuracy": 83.13253012048193,
+    "time": 4.775057792663574,
+    "diffs": [
+      [
+        0,
+        "abie"
+      ],
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "ƈ"
+      ],
+      [
+        0,
+        "tio litter"
+      ],
+      [
+        -1,
+        "æ: ꝗᷓ"
+      ],
+      [
+        1,
+        "a:q"
+      ],
+      [
+        0,
+        " compoſitio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ignetur "
+      ],
+      [
+        -1,
+        "ſæpi"
+      ],
+      [
+        1,
+        "fa"
+      ],
+      [
+        0,
+        "ſſime ponunt"
+      ],
+      [
+        -1,
+        "᷑ ſ"
+      ],
+      [
+        1,
+        " f"
+      ],
+      [
+        0,
+        "upra locum:"
+      ],
+      [
+        -1,
+        " ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 16,
+    "insertions": 10
+  },
+  "mistral-medium-3.1": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ: q compositio designetur ſapißime ponunt ſupra locum: ude talis",
+    "wer": 54.54545454545454,
+    "cer": 10.843373493975903,
+    "accuracy": 89.1566265060241,
+    "time": 1.4370229244232178,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignetur ſ"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "pi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 9,
+    "insertions": 6
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiectio litteræ: Þ compositio designetur ꝯpificiȝime ponunt ꝯupra locum: ūde talis",
+    "wer": 63.63636363636363,
+    "cer": 16.867469879518072,
+    "accuracy": 86.74698795180723,
+    "time": 2.205772876739502,
+    "diffs": [
+      [
+        0,
+        "abiectio litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "Þ"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "itio de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignetur "
+      ],
+      [
+        -1,
+        "ſæpiſſ"
+      ],
+      [
+        1,
+        "ꝯpificiȝ"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑ ſ"
+      ],
+      [
+        1,
+        " ꝯ"
+      ],
+      [
+        0,
+        "upra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 14,
+    "insertions": 14
+  },
+  "cogito-v2-109b": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abi€ctio litterax:q compofitio deſignetur fæpiffime ponunt ſupra locum:ůde talis",
+    "wer": 72.72727272727273,
+    "cer": 15.66265060240964,
+    "accuracy": 85.54216867469879,
+    "time": 2.3582887649536133,
+    "diffs": [
+      [
+        0,
+        "abi"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "€"
+      ],
+      [
+        0,
+        "ctio litter"
+      ],
+      [
+        -1,
+        "æ: ꝗᷓ"
+      ],
+      [
+        1,
+        "ax:q"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "itio deſignetur "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "æpi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑"
+      ],
+      [
+        0,
+        " ſupra locum:"
+      ],
+      [
+        -1,
+        " ũ"
+      ],
+      [
+        1,
+        "ů"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 13,
+    "insertions": 10
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "abiectio litteræ: ꝗᷓ compoſitio deſignetur ſæpiſſime ponunt᷑ ſupra locum: ũde talis",
+    "response": "abiection litteræ: q compositione designetur fæpiffime ponunt fupra locum: ūde talis",
+    "wer": 72.72727272727273,
+    "cer": 15.66265060240964,
+    "accuracy": 86.90476190476191,
+    "time": 2.7532339096069336,
+    "diffs": [
+      [
+        0,
+        "abiectio"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " litteræ: "
+      ],
+      [
+        -1,
+        "ꝗᷓ"
+      ],
+      [
+        1,
+        "q"
+      ],
+      [
+        0,
+        " compo"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "itio"
+      ],
+      [
+        1,
+        "ne"
+      ],
+      [
+        0,
+        " de"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ignetur "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "æpi"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "ime ponunt"
+      ],
+      [
+        -1,
+        "᷑ ſ"
+      ],
+      [
+        1,
+        " f"
+      ],
+      [
+        0,
+        "upra locum: "
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "de talis"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 11,
+    "insertions": 12
+  }
+}

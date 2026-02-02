@@ -1,0 +1,950 @@
+{
+  "spotlight": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "choe:do strockede Oza vth fijn hant tho der ae",
+    "wer": 50.0,
+    "cer": 15.217391304347828,
+    "accuracy": 86.95652173913044,
+    "time": 1.2593212127685547,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: do ſte"
+      ],
+      [
+        1,
+        "e:do stro"
+      ],
+      [
+        0,
+        "ckede Oza vth "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ijn hant tho der a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 11,
+    "insertions": 11
+  },
+  "mistral-small": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "choer: do ſtreckede (?) a vth ſijn hant tho der an",
+    "wer": 50.0,
+    "cer": 15.217391304347828,
+    "accuracy": 86.0,
+    "time": 1.4025869369506836,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "r: do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eckede "
+      ],
+      [
+        -1,
+        "Oz"
+      ],
+      [
+        1,
+        "(?) "
+      ],
+      [
+        0,
+        "a vth ſijn hant tho der a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "n"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 7
+  },
+  "gpt-4.1": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "chov: do ſtruckede Oza vth ſin hant tho der ar",
+    "wer": 30.0,
+    "cer": 8.695652173913043,
+    "accuracy": 93.47826086956522,
+    "time": 1.6866328716278076,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        ": do ſt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ru"
+      ],
+      [
+        0,
+        "ckede Oza vth ſi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        0,
+        "n hant tho der ar"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "chot: do ſtruckede Ÿza vth ſijn hant tho der ar",
+    "wer": 30.0,
+    "cer": 8.695652173913043,
+    "accuracy": 91.48936170212765,
+    "time": 2.117105007171631,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        ": do ſt"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ru"
+      ],
+      [
+        0,
+        "ckede "
+      ],
+      [
+        -1,
+        "O"
+      ],
+      [
+        1,
+        "Ÿ"
+      ],
+      [
+        0,
+        "za vth ſijn hant tho der ar"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "cho:do struckede Oza vth ſijñ hant tho der æ",
+    "wer": 50.0,
+    "cer": 17.391304347826086,
+    "accuracy": 84.78260869565217,
+    "time": 2.9767611026763916,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: do ſte"
+      ],
+      [
+        1,
+        ":do stru"
+      ],
+      [
+        0,
+        "ckede Oza vth ſij"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " hant tho der "
+      ],
+      [
+        -1,
+        "ar"
+      ],
+      [
+        1,
+        "æ"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 12,
+    "insertions": 10
+  },
+  "claude-4-sonnet": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "cho: do ſtreckeðe Oꝛa vth ſijn hant tho ðer ar",
+    "wer": 40.0,
+    "cer": 10.869565217391305,
+    "accuracy": 91.30434782608695,
+    "time": 3.450817108154297,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        ": do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ecke"
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ð"
+      ],
+      [
+        0,
+        "e O"
+      ],
+      [
+        -1,
+        "z"
+      ],
+      [
+        1,
+        "ꝛ"
+      ],
+      [
+        0,
+        "a vth ſijn hant tho "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ð"
+      ],
+      [
+        0,
+        "er ar"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "eb oc: do ſtrechede Oza vth fijn hant tho der ar",
+    "wer": 40.0,
+    "cer": 15.217391304347828,
+    "accuracy": 85.41666666666666,
+    "time": 3.552090883255005,
+    "diffs": [
+      [
+        -1,
+        "chor"
+      ],
+      [
+        1,
+        "eb oc"
+      ],
+      [
+        0,
+        ": do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ec"
+      ],
+      [
+        -1,
+        "k"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "ede Oza vth "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ijn hant tho der ar"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 8
+  },
+  "llama-4-maverick-17b": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "cho:do ftruckede Oza vtb fijn bant tho der as",
+    "wer": 70.0,
+    "cer": 19.565217391304348,
+    "accuracy": 82.6086956521739,
+    "time": 9.094669103622437,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: do ſte"
+      ],
+      [
+        1,
+        ":do ftru"
+      ],
+      [
+        0,
+        "ckede Oza vt"
+      ],
+      [
+        -1,
+        "h ſ"
+      ],
+      [
+        1,
+        "b f"
+      ],
+      [
+        0,
+        "ijn "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "ant tho der a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 14,
+    "insertions": 13
+  },
+  "gpt-5-mini": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "cho:do ſtreckede O;a vth ſijn hant tho der ar",
+    "wer": 40.0,
+    "cer": 8.695652173913043,
+    "accuracy": 93.47826086956522,
+    "time": 17.49862289428711,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eckede O"
+      ],
+      [
+        -1,
+        "z"
+      ],
+      [
+        1,
+        ";"
+      ],
+      [
+        0,
+        "a vth ſijn hant tho der ar"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "gpt-5": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "tho: do ſtreckede Oza vth ſin hant tho der ar",
+    "wer": 30.0,
+    "cer": 8.695652173913043,
+    "accuracy": 93.47826086956522,
+    "time": 75.3353488445282,
+    "diffs": [
+      [
+        -1,
+        "c"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "ho"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        ": do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eckede Oza vth ſi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        0,
+        "n hant tho der ar"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "glm-4.5v": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "choz:do ftuckede Oza vth fijn bant tho der as",
+    "wer": 60.0,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 5.226405143737793,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: do ſte"
+      ],
+      [
+        1,
+        "z:do ftu"
+      ],
+      [
+        0,
+        "ckede Oza vth "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ijn "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "ant tho der a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "gemini-2.5-flash": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "cho: do ſtreckede Dꝛa vꝛb ſin hant tho ꝛer as",
+    "wer": 70.0,
+    "cer": 19.565217391304348,
+    "accuracy": 82.6086956521739,
+    "time": 8.73605990409851,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        ": do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eckede "
+      ],
+      [
+        -1,
+        "Oz"
+      ],
+      [
+        1,
+        "Dꝛ"
+      ],
+      [
+        0,
+        "a v"
+      ],
+      [
+        -1,
+        "th"
+      ],
+      [
+        1,
+        "ꝛb"
+      ],
+      [
+        0,
+        " ſi"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        0,
+        "n hant tho "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ꝛ"
+      ],
+      [
+        0,
+        "er a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "mistral-medium-3.1": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "choz: do ſtreckte ōza vth ſijn hant tho der ar",
+    "wer": 30.0,
+    "cer": 10.869565217391305,
+    "accuracy": 91.30434782608695,
+    "time": 1.233933925628662,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        ": do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eck"
+      ],
+      [
+        -1,
+        "ed"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "O"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "za vth ſijn hant tho der ar"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "cho͞:do streckede ꝛäu vth siu͂n hangtho der ao",
+    "wer": 80.0,
+    "cer": 28.26086956521739,
+    "accuracy": 76.08695652173914,
+    "time": 2.0877881050109863,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: do ſt"
+      ],
+      [
+        1,
+        "͞:do str"
+      ],
+      [
+        0,
+        "eckede "
+      ],
+      [
+        -1,
+        "Oza"
+      ],
+      [
+        1,
+        "ꝛäu"
+      ],
+      [
+        0,
+        " vth "
+      ],
+      [
+        -1,
+        "ſij"
+      ],
+      [
+        1,
+        "siu͂"
+      ],
+      [
+        0,
+        "n han"
+      ],
+      [
+        -1,
+        "t "
+      ],
+      [
+        1,
+        "g"
+      ],
+      [
+        0,
+        "tho der a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "o"
+      ]
+    ],
+    "matches": 29,
+    "deletions": 17,
+    "insertions": 17
+  },
+  "cogito-v2-109b": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "cho:do ftuckede Dza vtb fijn bant tho det as",
+    "wer": 90.0,
+    "cer": 21.73913043478261,
+    "accuracy": 78.26086956521739,
+    "time": 1.9829518795013428,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: do ſte"
+      ],
+      [
+        1,
+        ":do ftu"
+      ],
+      [
+        0,
+        "ckede "
+      ],
+      [
+        -1,
+        "O"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "za vt"
+      ],
+      [
+        -1,
+        "h ſ"
+      ],
+      [
+        1,
+        "b f"
+      ],
+      [
+        0,
+        "ijn "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "ant tho de"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "s"
+      ]
+    ],
+    "matches": 30,
+    "deletions": 16,
+    "insertions": 14
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "chor: do ſteckede Oza vth ſijn hant tho der ar",
+    "response": "choe:do ſtreckede Oza vth ſijn hant tho der ae",
+    "wer": 40.0,
+    "cer": 8.695652173913043,
+    "accuracy": 93.47826086956522,
+    "time": 4.375225067138672,
+    "diffs": [
+      [
+        0,
+        "cho"
+      ],
+      [
+        -1,
+        "r: "
+      ],
+      [
+        1,
+        "e:"
+      ],
+      [
+        0,
+        "do ſt"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "eckede Oza vth ſijn hant tho der a"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "e"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  }
+}

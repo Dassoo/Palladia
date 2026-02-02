@@ -1,0 +1,926 @@
+{
+  "mistral-small": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſo mit ſer red. vnd ſprach zu im Symon weſ",
+    "wer": 50.0,
+    "cer": 13.953488372093023,
+    "accuracy": 86.04651162790698,
+    "time": 1.806544303894043,
+    "diffs": [
+      [
+        0,
+        "ſ"
+      ],
+      [
+        -1,
+        "us"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        " mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er red. vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon we"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "Ius mit der red.vnd ſprach zu im Symon wes",
+    "wer": 50.0,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 2.3752171993255615,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "us mit der red."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon wes"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red. und sprach zu im Symon wes",
+    "wer": 30.0,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 2.3824009895324707,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon wes"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red. vnd ſprach zu im. Symon wes",
+    "wer": 30.0,
+    "cer": 6.976744186046512,
+    "accuracy": 93.18181818181817,
+    "time": 2.6466801166534424,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red. vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " Symon wes"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-4o": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red. vnd ſprach zu im. Symon weſ",
+    "wer": 40.0,
+    "cer": 9.30232558139535,
+    "accuracy": 90.9090909090909,
+    "time": 3.2299869060516357,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red. vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " Symon we"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "claude-4-sonnet": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red.vnd ſprach zu im Symon weg",
+    "wer": 50.0,
+    "cer": 9.30232558139535,
+    "accuracy": 90.69767441860465,
+    "time": 4.3171820640563965,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon we"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "g"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red vnd ſprach zu im Symon wes",
+    "wer": 30.0,
+    "cer": 6.976744186046512,
+    "accuracy": 93.02325581395348,
+    "time": 4.626393795013428,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        0,
+        " vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon wes"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red. vnd ſprach zu im. Symon wes",
+    "wer": 30.0,
+    "cer": 6.976744186046512,
+    "accuracy": 93.18181818181817,
+    "time": 10.992836713790894,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red. vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " Symon wes"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "Das mit der red. vnd ſprach zu im. Symon wes",
+    "wer": 40.0,
+    "cer": 11.627906976744185,
+    "accuracy": 88.63636363636364,
+    "time": 24.295536756515503,
+    "diffs": [
+      [
+        -1,
+        "ſu"
+      ],
+      [
+        1,
+        "Da"
+      ],
+      [
+        0,
+        "s mit der red. vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " Symon wes"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red. vnd ſprach zu im. Symon wes",
+    "wer": 30.0,
+    "cer": 6.976744186046512,
+    "accuracy": 93.18181818181817,
+    "time": 33.49627900123596,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red. vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im"
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        " Symon wes"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red.ond fpzach zu im Symon wes",
+    "wer": 40.0,
+    "cer": 11.627906976744185,
+    "accuracy": 88.37209302325581,
+    "time": 11.84786319732666,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red."
+      ],
+      [
+        -1,
+        " v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nd "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "fpz"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon wes"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit Der red. .vnd ſprach zu im Symon meſ",
+    "wer": 50.0,
+    "cer": 13.953488372093023,
+    "accuracy": 86.36363636363636,
+    "time": 10.312368154525757,
+    "diffs": [
+      [
+        0,
+        "ſus mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er red. "
+      ],
+      [
+        1,
+        "."
+      ],
+      [
+        0,
+        "vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon "
+      ],
+      [
+        -1,
+        "wes"
+      ],
+      [
+        1,
+        "meſ"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "fus mit der red. und ſprach zu im Symon weſ",
+    "wer": 50.0,
+    "cer": 11.627906976744185,
+    "accuracy": 88.37209302325581,
+    "time": 1.3954370021820068,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "us mit der red. "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "nd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon we"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit Ãſer red.vnd sprach ſu im Ãœmon wes",
+    "wer": 60.0,
+    "cer": 18.6046511627907,
+    "accuracy": 83.72093023255815,
+    "time": 2.7571141719818115,
+    "diffs": [
+      [
+        0,
+        "ſus mit "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "Ãſ"
+      ],
+      [
+        0,
+        "er red."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd "
+      ],
+      [
+        -1,
+        "ſpꝛ"
+      ],
+      [
+        1,
+        "spr"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "u im "
+      ],
+      [
+        -1,
+        "Sy"
+      ],
+      [
+        1,
+        "Ãœ"
+      ],
+      [
+        0,
+        "mon wes"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "Fuſ mit der red.vnd ſprach zu im.Şymon wes",
+    "wer": 70.0,
+    "cer": 16.27906976744186,
+    "accuracy": 83.72093023255815,
+    "time": 1.8374519348144531,
+    "diffs": [
+      [
+        -1,
+        "ſus"
+      ],
+      [
+        1,
+        "Fuſ"
+      ],
+      [
+        0,
+        " mit der red."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im"
+      ],
+      [
+        -1,
+        " S"
+      ],
+      [
+        1,
+        ".Ş"
+      ],
+      [
+        0,
+        "ymon wes"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſus mit der red. vnd ſpꝛach ʒu im Symon wes",
+    "response": "ſus mit der red. vnd ſprach zu im Symon wes",
+    "wer": 20.0,
+    "cer": 4.651162790697675,
+    "accuracy": 95.34883720930233,
+    "time": 2.020148992538452,
+    "diffs": [
+      [
+        0,
+        "ſus mit der red. vnd ſp"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ach "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u im Symon wes"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 2,
+    "insertions": 2
+  }
+}

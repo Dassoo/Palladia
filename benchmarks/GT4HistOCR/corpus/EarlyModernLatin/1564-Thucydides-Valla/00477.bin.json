@@ -1,0 +1,953 @@
+{
+  "spotlight": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam consilijs diffidentes,& difficultatibus nunquãuos ere-",
+    "wer": 55.55555555555556,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 1.3155889511108398,
+    "diffs": [
+      [
+        0,
+        "tutis etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ilijs diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunquã"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uos ere-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "mistral-small": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam confiliis diffidentes, & difficultatibus nunquam ere-",
+    "wer": 33.33333333333333,
+    "cer": 10.294117647058822,
+    "accuracy": 89.70588235294117,
+    "time": 1.3348569869995117,
+    "diffs": [
+      [
+        0,
+        "tutis etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ili"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s diffidentes, & difficultatibus nunqu"
+      ],
+      [
+        -1,
+        "ã uos"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        " ere-"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 7,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "turis etiam confiliis diffidentes,& difficultatibus nunquam uos ere.",
+    "wer": 66.66666666666666,
+    "cer": 10.294117647058822,
+    "accuracy": 91.17647058823529,
+    "time": 1.4632492065429688,
+    "diffs": [
+      [
+        0,
+        "tu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "is etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ili"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        " uos ere"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 62,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "gpt-4.1": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam conſilijs diffidentes, & difficultatibus nunquā uos ere-",
+    "wer": 11.11111111111111,
+    "cer": 1.4705882352941175,
+    "accuracy": 98.52941176470588,
+    "time": 1.632190227508545,
+    "diffs": [
+      [
+        0,
+        "tutis etiam conſilijs diffidentes, & difficultatibus nunqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        " uos ere-"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4o": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.6913862228393555,
+    "diffs": [
+      [
+        0,
+        "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam conſilijs diffidentes,& difficultatibus nunquaũuos ere-",
+    "wer": 44.44444444444444,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 2.6053099632263184,
+    "diffs": [
+      [
+        0,
+        "tutis etiam conſilijs diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunqu"
+      ],
+      [
+        -1,
+        "ã "
+      ],
+      [
+        1,
+        "aũ"
+      ],
+      [
+        0,
+        "uos ere-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "claude-4-sonnet": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "turis etiam conſilijs diſſidentes, & difficultatibus nunquam uos ere-",
+    "wer": 33.33333333333333,
+    "cer": 7.352941176470589,
+    "accuracy": 92.7536231884058,
+    "time": 3.101389169692993,
+    "diffs": [
+      [
+        0,
+        "tu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "is etiam conſilijs di"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "identes, & difficultatibus nunqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        " uos ere-"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.202983856201172,
+    "diffs": [
+      [
+        0,
+        "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam confiliïs diffidentes, & difficultatibus nunquã uos cre.",
+    "wer": 33.33333333333333,
+    "cer": 8.823529411764707,
+    "accuracy": 91.30434782608695,
+    "time": 5.829256057739258,
+    "diffs": [
+      [
+        0,
+        "tutis etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ili"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ï"
+      ],
+      [
+        0,
+        "s diffidentes, & difficultatibus nunqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ã"
+      ],
+      [
+        0,
+        " uos "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "re"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        "."
+      ]
+    ],
+    "matches": 63,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "gemini-2.5-pro": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam confiliïs diffidentes, & difficultatibus nunquã uos ere",
+    "wer": 22.22222222222222,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 38.090049028396606,
+    "diffs": [
+      [
+        0,
+        "tutis etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ili"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "ï"
+      ],
+      [
+        0,
+        "s diffidentes, & difficultatibus nunquã uos ere"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 2
+  },
+  "o4-mini": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "futuris etiam conſiliiſ diffidentibus,& difficultaribus nunquam vos cre-",
+    "wer": 88.88888888888889,
+    "cer": 20.588235294117645,
+    "accuracy": 81.94444444444444,
+    "time": 39.41680121421814,
+    "diffs": [
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ut"
+      ],
+      [
+        1,
+        "ur"
+      ],
+      [
+        0,
+        "is etiam conſili"
+      ],
+      [
+        -1,
+        "js"
+      ],
+      [
+        1,
+        "iſ"
+      ],
+      [
+        0,
+        " diffident"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ibu"
+      ],
+      [
+        0,
+        "s,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficulta"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ibus nunqu"
+      ],
+      [
+        -1,
+        "ã u"
+      ],
+      [
+        1,
+        "am v"
+      ],
+      [
+        0,
+        "os "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "re-"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 10,
+    "insertions": 14
+  },
+  "gpt-5-mini": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "turis etiam conſiliis diſſidentes, & diſſicultaribus nunquam uos cre-",
+    "wer": 66.66666666666666,
+    "cer": 14.705882352941178,
+    "accuracy": 85.5072463768116,
+    "time": 24.74663996696472,
+    "diffs": [
+      [
+        0,
+        "tu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "is etiam conſili"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s di"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "identes, & di"
+      ],
+      [
+        -1,
+        "ff"
+      ],
+      [
+        1,
+        "ſſ"
+      ],
+      [
+        0,
+        "iculta"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ibus nunqu"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        " uos "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "re-"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 9,
+    "insertions": 10
+  },
+  "gpt-5": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere,",
+    "wer": 11.11111111111111,
+    "cer": 1.4705882352941175,
+    "accuracy": 98.52941176470588,
+    "time": 49.45054626464844,
+    "diffs": [
+      [
+        0,
+        "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere"
+      ],
+      [
+        -1,
+        "-"
+      ],
+      [
+        1,
+        ","
+      ]
+    ],
+    "matches": 67,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam confilijs diffidentes,& difficultatibus nunquãuos ere-",
+    "wer": 55.55555555555556,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 7.7655861377716064,
+    "diffs": [
+      [
+        0,
+        "tutis etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ilijs diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunquã"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uos ere-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam conſilijs differentes, & difficultatibus nunquã uoſ ere-",
+    "wer": 22.22222222222222,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 1.96323823928833,
+    "diffs": [
+      [
+        0,
+        "tutis etiam conſilijs diff"
+      ],
+      [
+        -1,
+        "id"
+      ],
+      [
+        1,
+        "er"
+      ],
+      [
+        0,
+        "entes, & difficultatibus nunquã uo"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " ere-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam coniilijs diffidentes,& difficultatibus nunquãuos ere-",
+    "wer": 55.55555555555556,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 2.2209410667419434,
+    "diffs": [
+      [
+        0,
+        "tutis etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "ilijs diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunquã"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uos ere-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "grok-4": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam conſliis diffidentes,& difficultatibus nunquã uos ere-",
+    "wer": 33.33333333333333,
+    "cer": 4.411764705882353,
+    "accuracy": 95.58823529411765,
+    "time": 66.58445310592651,
+    "diffs": [
+      [
+        0,
+        "tutis etiam conſ"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "li"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunquã uos ere-"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "turis etiam conſiliis diffidentes,& difficultatibus nunquãuos ere",
+    "wer": 77.77777777777779,
+    "cer": 7.352941176470589,
+    "accuracy": 92.64705882352942,
+    "time": 1.3636066913604736,
+    "diffs": [
+      [
+        0,
+        "tu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "is etiam conſili"
+      ],
+      [
+        -1,
+        "j"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "s diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunquã"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uos ere"
+      ],
+      [
+        -1,
+        "-"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tutis etiam conſilijs diffidentes, & difficultatibus nunquã uos ere-",
+    "response": "tutis etiam confilijs diffidentes,& difficultatibus nunquã uos ere-",
+    "wer": 33.33333333333333,
+    "cer": 2.941176470588235,
+    "accuracy": 97.05882352941177,
+    "time": 40.52696895599365,
+    "diffs": [
+      [
+        0,
+        "tutis etiam con"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ilijs diffidentes,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "& difficultatibus nunquã uos ere-"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 2,
+    "insertions": 1
+  }
+}

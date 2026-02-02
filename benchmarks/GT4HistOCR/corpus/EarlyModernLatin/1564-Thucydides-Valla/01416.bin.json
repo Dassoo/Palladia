@@ -1,0 +1,625 @@
+{
+  "mistral-small": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui eſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 9.090909090909092,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.283785104751587,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui e"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "ſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "llama-4-maverick-17b": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.4329030513763428,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "spotlight": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neso. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 9.090909090909092,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 1.7377901077270508,
+    "diffs": [
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "o. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-4.1": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.8740670680999756,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.0141289234161377,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo.Quietſi contra Medos tunc boni fuerunt,nunc quod erga",
+    "wer": 45.45454545454545,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 2.71671199798584,
+    "diffs": [
+      [
+        0,
+        "neſo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Qui"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "etſi contra Medos tunc boni fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nunc quod erga"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.450366973876953,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Quieſtí contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 18.181818181818183,
+    "cer": 6.557377049180328,
+    "accuracy": 95.08196721311475,
+    "time": 4.326786041259766,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui"
+      ],
+      [
+        -1,
+        " etſi"
+      ],
+      [
+        1,
+        "eſtí"
+      ],
+      [
+        0,
+        " contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "claude-4-opus": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.603754997253418,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Quí etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 9.090909090909092,
+    "cer": 1.639344262295082,
+    "accuracy": 98.36065573770492,
+    "time": 16.083280086517334,
+    "diffs": [
+      [
+        0,
+        "neſo. Qu"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        " etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Quieſti contra Medos nunc boni fuerunt,nunc quod erga",
+    "wer": 45.45454545454545,
+    "cer": 8.19672131147541,
+    "accuracy": 93.44262295081968,
+    "time": 20.09964895248413,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui"
+      ],
+      [
+        -1,
+        " etſ"
+      ],
+      [
+        1,
+        "eſt"
+      ],
+      [
+        0,
+        "i contra Medos "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "unc boni fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nunc quod erga"
+      ]
+    ],
+    "matches": 55,
+    "deletions": 6,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Quietſi contra Medos nunc boni fuerunt,nunc quod erga",
+    "wer": 45.45454545454545,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 10.226109981536865,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "etſi contra Medos "
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "unc boni fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nunc quod erga"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 26.571886777877808,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "glm-4.5v": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo.Quietfi contra Medos tunc boni fuerunt,nunc quod erga",
+    "wer": 45.45454545454545,
+    "cer": 6.557377049180328,
+    "accuracy": 93.44262295081968,
+    "time": 10.709593057632446,
+    "diffs": [
+      [
+        0,
+        "neſo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Qui"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "et"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "i contra Medos tunc boni fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nunc quod erga"
+      ]
+    ],
+    "matches": 57,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "mistral-medium-3.1": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo. Qui etſi contra Medos tunc bonî fuerunt, nunquod erga",
+    "wer": 27.27272727272727,
+    "cer": 4.918032786885246,
+    "accuracy": 95.08196721311475,
+    "time": 1.5682659149169922,
+    "diffs": [
+      [
+        0,
+        "neſo. Qui etſi contra Medos tunc bon"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "î"
+      ],
+      [
+        0,
+        " fuerunt, nun"
+      ],
+      [
+        -1,
+        "c "
+      ],
+      [
+        0,
+        "quod erga"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "nefo. Quietḷi contra Medos tunc boni fikkrent, nunc quod erga",
+    "wer": 36.36363636363637,
+    "cer": 11.475409836065573,
+    "accuracy": 90.1639344262295,
+    "time": 2.068343162536621,
+    "diffs": [
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o. Qui"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "et"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "ḷ"
+      ],
+      [
+        0,
+        "i contra Medos tunc boni f"
+      ],
+      [
+        -1,
+        "ueru"
+      ],
+      [
+        1,
+        "ikkre"
+      ],
+      [
+        0,
+        "nt, nunc quod erga"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "grok-4": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "nefo. Quiefi contra Medos tuncboni fuerunt,nunc quod erga",
+    "wer": 63.63636363636363,
+    "cer": 9.836065573770492,
+    "accuracy": 90.1639344262295,
+    "time": 172.84255599975586,
+    "diffs": [
+      [
+        0,
+        "ne"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "o. Qui"
+      ],
+      [
+        -1,
+        " etſ"
+      ],
+      [
+        1,
+        "ef"
+      ],
+      [
+        0,
+        "i contra Medos tunc"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "boni fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nunc quod erga"
+      ]
+    ],
+    "matches": 54,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "cogito-v2-109b": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo.Qui etſi contra Medos tunc boni fuerunt,nunc quod erga",
+    "wer": 36.36363636363637,
+    "cer": 3.278688524590164,
+    "accuracy": 96.72131147540983,
+    "time": 2.342499017715454,
+    "diffs": [
+      [
+        0,
+        "neſo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Qui etſi contra Medos tunc boni fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nunc quod erga"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "neſo. Qui etſi contra Medos tunc boni fuerunt, nunc quod erga",
+    "response": "neſo.Qui etſi contra Medos tunc boni fuerunt,nunc quod erga",
+    "wer": 36.36363636363637,
+    "cer": 3.278688524590164,
+    "accuracy": 96.72131147540983,
+    "time": 2.846479892730713,
+    "diffs": [
+      [
+        0,
+        "neſo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Qui etſi contra Medos tunc boni fuerunt,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nunc quod erga"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 2,
+    "insertions": 0
+  }
+}

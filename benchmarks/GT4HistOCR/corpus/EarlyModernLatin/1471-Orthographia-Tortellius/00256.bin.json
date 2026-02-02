@@ -1,0 +1,764 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus afpiratione: nec eam plenam poffidet: ut ſimili modo de b & d eſſe",
+    "wer": 14.285714285714285,
+    "cer": 4.054054054054054,
+    "accuracy": 95.94594594594594,
+    "time": 1.6270568370819092,
+    "diffs": [
+      [
+        0,
+        "penitus a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "piratione: nec eam plenam po"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "idet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-small": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſsidet: ut ſimili modo deb & deſse",
+    "wer": 35.714285714285715,
+    "cer": 5.405405405405405,
+    "accuracy": 94.5945945945946,
+    "time": 1.688425064086914,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "idet: ut ſimili modo de"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b & d"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "eſ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 4,
+    "insertions": 2
+  },
+  "spotlight": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aspiratione:nec eam plenam possidet:ut simili modo deb & deſſe",
+    "wer": 64.28571428571429,
+    "cer": 10.81081081081081,
+    "accuracy": 89.1891891891892,
+    "time": 2.366875171661377,
+    "diffs": [
+      [
+        0,
+        "penitus a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "piratione:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eam plenam po"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "idet:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "imili modo de"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b & d"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "eſſe"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 8,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.0085880756378174,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſsidet: ut ſimili modo de b & d eſſe",
+    "wer": 7.142857142857142,
+    "cer": 1.3513513513513513,
+    "accuracy": 98.64864864864865,
+    "time": 3.1815030574798584,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſ"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "idet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aspiratione:nec eam plenam possidet:ut simili modo de b & d esse",
+    "wer": 42.857142857142854,
+    "cer": 10.81081081081081,
+    "accuracy": 89.1891891891892,
+    "time": 4.245202302932739,
+    "diffs": [
+      [
+        0,
+        "penitus a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "piratione:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eam plenam po"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "idet:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "imili modo de b & d e"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.277139902114868,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 6.7560529708862305,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 7.4217259883880615,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & deſſe",
+    "wer": 14.285714285714285,
+    "cer": 1.3513513513513513,
+    "accuracy": 98.64864864864865,
+    "time": 7.841948986053467,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "eſſe"
+      ]
+    ],
+    "matches": 73,
+    "deletions": 1,
+    "insertions": 0
+  },
+  "gemini-2.5-pro": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione:nec eam plenam poſſidet:ut ſimili modo de b & d eſſe",
+    "wer": 28.57142857142857,
+    "cer": 2.7027027027027026,
+    "accuracy": 97.2972972972973,
+    "time": 34.44007420539856,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eam plenam poſſidet:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "gpt-5-mini": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 14.371330976486206,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-5": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam, poſſidet: ut ſimili modo de b & d eſſe",
+    "wer": 7.142857142857142,
+    "cer": 1.3513513513513513,
+    "accuracy": 98.66666666666667,
+    "time": 24.234052181243896,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam"
+      ],
+      [
+        1,
+        ","
+      ],
+      [
+        0,
+        " poſſidet: ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 0,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus afpiratione:nec eam plenam poffidet:ut fimili modo de b & d effe",
+    "wer": 42.857142857142854,
+    "cer": 10.81081081081081,
+    "accuracy": 89.1891891891892,
+    "time": 5.722455978393555,
+    "diffs": [
+      [
+        0,
+        "penitus a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "piratione:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eam plenam po"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "idet:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "imili modo de b & d e"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "mistral-medium-3.1": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo deb & deſſe",
+    "wer": 28.57142857142857,
+    "cer": 2.7027027027027026,
+    "accuracy": 97.2972972972973,
+    "time": 1.7090020179748535,
+    "diffs": [
+      [
+        0,
+        "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b & d"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "eſſe"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus aspiratione: nec eam plenam possidet: ut simili mododeb & deffe",
+    "wer": 57.14285714285714,
+    "cer": 12.162162162162163,
+    "accuracy": 87.83783783783784,
+    "time": 2.759816884994507,
+    "diffs": [
+      [
+        0,
+        "penitus a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "piratione: nec eam plenam po"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ss"
+      ],
+      [
+        0,
+        "idet: ut "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "imili modo"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "de"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "b & d"
+      ],
+      [
+        -1,
+        " eſſ"
+      ],
+      [
+        1,
+        "eff"
+      ],
+      [
+        0,
+        "e"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "cogito-v2-109b": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus afpiratione: nec cam plenam poſſidet: ut fimili modo de b & de eſſe",
+    "wer": 28.57142857142857,
+    "cer": 5.405405405405405,
+    "accuracy": 94.66666666666667,
+    "time": 2.5127358436584473,
+    "diffs": [
+      [
+        0,
+        "penitus a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "piratione: nec "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "am plenam poſſidet: ut "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "imili modo de b & d"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " eſſe"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "penitus aſpiratione: nec eam plenam poſſidet: ut ſimili modo de b & d eſſe",
+    "response": "penitus afpiratione:nec eam plenam poſſidet:ut ſimili modo de b & d eſſe",
+    "wer": 28.57142857142857,
+    "cer": 4.054054054054054,
+    "accuracy": 95.94594594594594,
+    "time": 2.5362601280212402,
+    "diffs": [
+      [
+        0,
+        "penitus a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "piratione:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eam plenam poſſidet:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ut ſimili modo de b & d eſſe"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 3,
+    "insertions": 1
+  }
+}

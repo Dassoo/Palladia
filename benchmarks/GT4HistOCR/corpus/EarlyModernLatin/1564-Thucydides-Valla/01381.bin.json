@@ -1,0 +1,841 @@
+{
+  "mistral-small": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec eos ultum ire differemus, cum ipforum non differatur iniū",
+    "wer": 27.27272727272727,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 1.3143599033355713,
+    "diffs": [
+      [
+        0,
+        "ria, nec eos ultum ire differemus, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "orum non differatur ini"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec cos ultum ire differemus, cùm ípsorum non differatur iniú",
+    "wer": 27.27272727272727,
+    "cer": 6.0606060606060606,
+    "accuracy": 93.93939393939394,
+    "time": 1.312363862991333,
+    "diffs": [
+      [
+        0,
+        "ria, nec "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "os ultum ire differemus, cùm "
+      ],
+      [
+        -1,
+        "ipſ"
+      ],
+      [
+        1,
+        "íps"
+      ],
+      [
+        0,
+        "orum non differatur ini"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ú"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniui-",
+    "wer": 9.090909090909092,
+    "cer": 3.0303030303030303,
+    "accuracy": 97.05882352941177,
+    "time": 1.588238000869751,
+    "diffs": [
+      [
+        0,
+        "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu"
+      ],
+      [
+        1,
+        "i-"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 0,
+    "insertions": 2
+  },
+  "gpt-4.1": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.6671087741851807,
+    "diffs": [
+      [
+        0,
+        "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec eos ultum ire differemus,cùm ípforum non differatur iniu",
+    "wer": 45.45454545454545,
+    "cer": 6.0606060606060606,
+    "accuracy": 93.93939393939394,
+    "time": 2.245880126953125,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eos ultum ire differemus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm "
+      ],
+      [
+        -1,
+        "ipſ"
+      ],
+      [
+        1,
+        "ípf"
+      ],
+      [
+        0,
+        "orum non differatur iniu"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "claude-4-sonnet": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec eos ultum ire differemus,cùm ipſorum non differatur iniu",
+    "wer": 36.36363636363637,
+    "cer": 3.0303030303030303,
+    "accuracy": 96.96969696969697,
+    "time": 3.5134220123291016,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eos ultum ire differemus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm ipſorum non differatur iniu"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec eos ultum ire differemus,cùm ipſorum non differatur iniu",
+    "wer": 36.36363636363637,
+    "cer": 3.0303030303030303,
+    "accuracy": 96.96969696969697,
+    "time": 4.149942874908447,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eos ultum ire differemus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm ipſorum non differatur iniu"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 2,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec eos ultum íre differemus, cúm ſpſorum non differatur iniù",
+    "wer": 54.54545454545454,
+    "cer": 7.575757575757576,
+    "accuracy": 92.42424242424242,
+    "time": 4.3730690479278564,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec eos ultum "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "re differemus, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        "m "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "pſorum non differatur ini"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ù"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 5,
+    "insertions": 4
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec cos ultum ire differemus,cùm ipſorum non differatur iniu",
+    "wer": 45.45454545454545,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 7.548137903213501,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "os ultum ire differemus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm ipſorum non differatur iniu"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "o4-mini": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec coſultum ire differemus,cùm ípſorum non differatur initium",
+    "wer": 72.72727272727273,
+    "cer": 13.636363636363635,
+    "accuracy": 90.9090909090909,
+    "time": 13.867545127868652,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec "
+      ],
+      [
+        -1,
+        "eos "
+      ],
+      [
+        1,
+        "coſ"
+      ],
+      [
+        0,
+        "ultum ire differemus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "pſorum non differatur ini"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "tium"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "gemini-2.5-pro": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec cos ultum íre differemus, cùm ípſorum non differatur iniu",
+    "wer": 27.27272727272727,
+    "cer": 4.545454545454546,
+    "accuracy": 95.45454545454545,
+    "time": 34.799736976623535,
+    "diffs": [
+      [
+        0,
+        "ria, nec "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "os ultum "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "re differemus, cùm "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "pſorum non differatur iniu"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "gpt-5-mini": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec conſultum ire differemus, cùm ipſorum non differatur iniū",
+    "wer": 27.27272727272727,
+    "cer": 6.0606060606060606,
+    "accuracy": 93.93939393939394,
+    "time": 23.147762775421143,
+    "diffs": [
+      [
+        0,
+        "ria, nec "
+      ],
+      [
+        -1,
+        "eos "
+      ],
+      [
+        1,
+        "conſ"
+      ],
+      [
+        0,
+        "ultum ire differemus, cùm ipſorum non differatur ini"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ū"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gpt-5": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec eos ultum ire differemus, cùm ípſorum non differatur iniu",
+    "wer": 9.090909090909092,
+    "cer": 1.5151515151515151,
+    "accuracy": 98.48484848484848,
+    "time": 85.01708436012268,
+    "diffs": [
+      [
+        0,
+        "ria, nec eos ultum ire differemus, cùm "
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "pſorum non differatur iniu"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec cosultum ire differemus,cùm ipſorum non differatur iniù",
+    "wer": 63.63636363636363,
+    "cer": 7.575757575757576,
+    "accuracy": 92.42424242424242,
+    "time": 9.097061157226562,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "os"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "ultum ire differemus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm ipſorum non differatur ini"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ù"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "mistral-medium-3.1": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec coſultum ire differemus, cùm ipſorum non differatur iniuri",
+    "wer": 27.27272727272727,
+    "cer": 7.575757575757576,
+    "accuracy": 94.02985074626866,
+    "time": 1.8159968852996826,
+    "diffs": [
+      [
+        0,
+        "ria, nec "
+      ],
+      [
+        -1,
+        "eos "
+      ],
+      [
+        1,
+        "coſ"
+      ],
+      [
+        0,
+        "ultum ire differemus, cùm ipſorum non differatur iniu"
+      ],
+      [
+        1,
+        "ri"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec coc ultum ire differemus,cüm ípforum non diſferatur iniu",
+    "wer": 63.63636363636363,
+    "cer": 12.121212121212121,
+    "accuracy": 87.87878787878788,
+    "time": 2.356200933456421,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec "
+      ],
+      [
+        -1,
+        "eos"
+      ],
+      [
+        1,
+        "coc"
+      ],
+      [
+        0,
+        " ultum ire differemus,"
+      ],
+      [
+        -1,
+        " cùm ipſ"
+      ],
+      [
+        1,
+        "cüm ípf"
+      ],
+      [
+        0,
+        "orum non di"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "feratur iniu"
+      ]
+    ],
+    "matches": 53,
+    "deletions": 13,
+    "insertions": 11
+  },
+  "grok-4": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec eos vltum ire differemus, cum ipſorum non differatur iniuria",
+    "wer": 27.27272727272727,
+    "cer": 7.575757575757576,
+    "accuracy": 92.7536231884058,
+    "time": 68.24722790718079,
+    "diffs": [
+      [
+        0,
+        "ria, nec eos "
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "ltum ire differemus, c"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m ipſorum non differatur iniu"
+      ],
+      [
+        1,
+        "ria"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 2,
+    "insertions": 5
+  },
+  "cogito-v2-109b": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria,nec cos ultum ire differemus,cùm ipforum non differaturiniu",
+    "wer": 72.72727272727273,
+    "cer": 7.575757575757576,
+    "accuracy": 92.42424242424242,
+    "time": 1.8193209171295166,
+    "diffs": [
+      [
+        0,
+        "ria,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "nec "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "os ultum ire differemus,"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "cùm ip"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "orum non differatur"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "iniu"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 5,
+    "insertions": 2
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ria, nec eos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "response": "ria, nec cos ultum ire differemus, cùm ipſorum non differatur iniu",
+    "wer": 9.090909090909092,
+    "cer": 1.5151515151515151,
+    "accuracy": 98.48484848484848,
+    "time": 4.273648262023926,
+    "diffs": [
+      [
+        0,
+        "ria, nec "
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "os ultum ire differemus, cùm ipſorum non differatur iniu"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

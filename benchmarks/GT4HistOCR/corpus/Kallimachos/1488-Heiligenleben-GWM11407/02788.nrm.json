@@ -1,0 +1,1022 @@
+{
+  "mistral-small": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "ſoltu nit vnreyn heysſen. Das gefiht ſah er zu",
+    "wer": 44.44444444444444,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 1.4342248439788818,
+    "diffs": [
+      [
+        0,
+        "ſoltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn hey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ſen. Das ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "iht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "spotlight": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "Soltu nit vnreyn heyffen. Das gesiht saher zu",
+    "wer": 77.77777777777779,
+    "cer": 17.391304347826086,
+    "accuracy": 82.6086956521739,
+    "time": 1.8218989372253418,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "oltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn hey"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ff"
+      ],
+      [
+        0,
+        "en. Das ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "iht "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ah"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 7
+  },
+  "gpt-4.1": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "Soſtu mit vnreyn heyſſen. Das geſicht ſah er zu",
+    "wer": 33.33333333333333,
+    "cer": 8.695652173913043,
+    "accuracy": 91.48936170212765,
+    "time": 2.0103201866149902,
+    "diffs": [
+      [
+        -1,
+        "ſol"
+      ],
+      [
+        1,
+        "Soſ"
+      ],
+      [
+        0,
+        "tu mit vnreyn heyſſen. Das geſi"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-4o": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "[Eſtu nit vnreyn heysſen. Das gefiht ſah er zu]",
+    "wer": 55.55555555555556,
+    "cer": 17.391304347826086,
+    "accuracy": 85.1063829787234,
+    "time": 2.5643351078033447,
+    "diffs": [
+      [
+        -1,
+        "ſol"
+      ],
+      [
+        1,
+        "[Eſ"
+      ],
+      [
+        0,
+        "tu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn hey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ſen. Das ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "iht ſah er "
+      ],
+      [
+        -1,
+        "ʒu"
+      ],
+      [
+        1,
+        "zu]"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 8,
+    "insertions": 9
+  },
+  "claude-4-sonnet": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "ſoltu nit vnreyn heyſſen. Das geſiht ſah er zu",
+    "wer": 22.22222222222222,
+    "cer": 4.3478260869565215,
+    "accuracy": 95.65217391304348,
+    "time": 4.187837839126587,
+    "diffs": [
+      [
+        0,
+        "ſoltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn heyſſen. Das geſiht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 44,
+    "deletions": 2,
+    "insertions": 2
+  },
+  "claude-4-opus": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "ſoltu nit vnreyn heyſſen. Das geſelhe ſah er zu",
+    "wer": 33.33333333333333,
+    "cer": 10.869565217391305,
+    "accuracy": 89.36170212765957,
+    "time": 10.891057968139648,
+    "diffs": [
+      [
+        0,
+        "ſoltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn heyſſen. Das geſ"
+      ],
+      [
+        -1,
+        "iht"
+      ],
+      [
+        1,
+        "elhe"
+      ],
+      [
+        0,
+        " ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "ſolſtu nit vnreyn heylſten. Das gefiht ſah er zu",
+    "wer": 55.55555555555556,
+    "cer": 13.043478260869565,
+    "accuracy": 87.5,
+    "time": 11.52174997329712,
+    "diffs": [
+      [
+        0,
+        "ſol"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "tu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn hey"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "lſt"
+      ],
+      [
+        0,
+        "en. Das ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "iht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 7
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "Soltu nit vnreyn heypſen. Das geſicht ſah er zu",
+    "wer": 55.55555555555556,
+    "cer": 10.869565217391305,
+    "accuracy": 89.36170212765957,
+    "time": 13.147938013076782,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "oltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn hey"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "p"
+      ],
+      [
+        0,
+        "ſen. Das geſi"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 5
+  },
+  "gpt-5-mini": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "Solltu nit onreyn heyſſen. Das geſicht sah er zu",
+    "wer": 66.66666666666666,
+    "cer": 15.217391304347828,
+    "accuracy": 85.41666666666666,
+    "time": 16.799538135528564,
+    "diffs": [
+      [
+        -1,
+        "ſo"
+      ],
+      [
+        1,
+        "Sol"
+      ],
+      [
+        0,
+        "ltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it "
+      ],
+      [
+        -1,
+        "v"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "nreyn heyſſen. Das geſi"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ht "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 6,
+    "insertions": 8
+  },
+  "gpt-5": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "Soltu mit vnreyn heyſſen. Das geſiht ſah er zů",
+    "wer": 22.22222222222222,
+    "cer": 6.521739130434782,
+    "accuracy": 93.47826086956522,
+    "time": 44.89335298538208,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "oltu mit vnreyn heyſſen. Das geſiht ſah er "
+      ],
+      [
+        -1,
+        "ʒu"
+      ],
+      [
+        1,
+        "zů"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "glm-4.5v": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "foltu mit vnreyn beſſen. Das geſiht faſer zu",
+    "wer": 55.55555555555556,
+    "cer": 15.217391304347828,
+    "accuracy": 84.78260869565217,
+    "time": 9.669206142425537,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "oltu mit vnreyn "
+      ],
+      [
+        -1,
+        "hey"
+      ],
+      [
+        1,
+        "be"
+      ],
+      [
+        0,
+        "ſſen. Das geſiht "
+      ],
+      [
+        -1,
+        "ſah "
+      ],
+      [
+        1,
+        "faſ"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "gemini-2.5-flash": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "ſoltu nit vmreyn Heyſſen. Das geſiht ſah er zu",
+    "wer": 44.44444444444444,
+    "cer": 8.695652173913043,
+    "accuracy": 91.30434782608695,
+    "time": 5.548147916793823,
+    "diffs": [
+      [
+        0,
+        "ſoltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it v"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "reyn "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "eyſſen. Das geſiht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "mistral-medium-3.1": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "ſoltu nit vnreyn heyſſen. Daſ geſiht ſah er zu",
+    "wer": 33.33333333333333,
+    "cer": 6.521739130434782,
+    "accuracy": 93.47826086956522,
+    "time": 1.484105110168457,
+    "diffs": [
+      [
+        0,
+        "ſoltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn heyſſen. Da"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        " geſiht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "溶ttu nit vnreyn ħeyßen. Das gesiħt ሳሬ zu",
+    "wer": 77.77777777777779,
+    "cer": 34.78260869565217,
+    "accuracy": 65.21739130434783,
+    "time": 2.910291910171509,
+    "diffs": [
+      [
+        -1,
+        "ſol"
+      ],
+      [
+        1,
+        "溶t"
+      ],
+      [
+        0,
+        "tu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "ħ"
+      ],
+      [
+        0,
+        "ey"
+      ],
+      [
+        -1,
+        "ſſ"
+      ],
+      [
+        1,
+        "ß"
+      ],
+      [
+        0,
+        "en. Das ge"
+      ],
+      [
+        -1,
+        "ſiht ſah er ʒ"
+      ],
+      [
+        1,
+        "siħt ሳሬ z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 26,
+    "deletions": 20,
+    "insertions": 14
+  },
+  "cogito-v2-109b": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "[f]oltu nit vnmreyn [f]eyf[ſ]ten. Das gefiht [ſ]ah er zu",
+    "wer": 77.77777777777779,
+    "cer": 34.78260869565217,
+    "accuracy": 71.42857142857143,
+    "time": 2.604426145553589,
+    "diffs": [
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "[f]"
+      ],
+      [
+        0,
+        "oltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vn"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "reyn "
+      ],
+      [
+        -1,
+        "heyſſ"
+      ],
+      [
+        1,
+        "[f]eyf[ſ]t"
+      ],
+      [
+        0,
+        "en. Das ge"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "iht "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "[ſ]"
+      ],
+      [
+        0,
+        "ah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 10,
+    "insertions": 20
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ſoltu mit vnreyn heyſſen. Das geſiht ſah er ʒu",
+    "response": "ſoltu nit vnreyn heÿffen. Das geſiht ſah er zu",
+    "wer": 33.33333333333333,
+    "cer": 10.869565217391305,
+    "accuracy": 89.13043478260869,
+    "time": 4.718167066574097,
+    "diffs": [
+      [
+        0,
+        "ſoltu "
+      ],
+      [
+        -1,
+        "m"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        "it vnreyn he"
+      ],
+      [
+        -1,
+        "yſſ"
+      ],
+      [
+        1,
+        "ÿff"
+      ],
+      [
+        0,
+        "en. Das geſiht ſah er "
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "u"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 5,
+    "insertions": 5
+  }
+}

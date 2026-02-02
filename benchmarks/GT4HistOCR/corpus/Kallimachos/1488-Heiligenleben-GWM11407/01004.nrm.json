@@ -1,0 +1,1446 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "mach für der feind in ſre Bertzogin in ſchrey",
+    "wer": 66.66666666666666,
+    "cer": 20.0,
+    "accuracy": 80.0,
+    "time": 1.0550520420074463,
+    "diffs": [
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "m"
+      ],
+      [
+        0,
+        "ach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der feind in "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "ſr"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        " ſch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "spotlight": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der Feind in die Hertzogin dy Schrey",
+    "wer": 55.55555555555556,
+    "cer": 15.555555555555555,
+    "accuracy": 84.44444444444444,
+    "time": 2.8188517093658447,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "eind in d"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "gpt-4o": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nachſur ſer Feindin Dre Hertzogen dy ſchzey",
+    "wer": 88.88888888888889,
+    "cer": 26.666666666666668,
+    "accuracy": 73.33333333333333,
+    "time": 2.717925786972046,
+    "diffs": [
+      [
+        0,
+        "nach"
+      ],
+      [
+        -1,
+        " fů"
+      ],
+      [
+        1,
+        "ſu"
+      ],
+      [
+        0,
+        "r "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "er "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "eind"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "Dr"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "n dy ſch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 12,
+    "insertions": 10
+  },
+  "gpt-4.1": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der Feindin der Hertzogin dy schrey",
+    "wer": 66.66666666666666,
+    "cer": 20.0,
+    "accuracy": 82.22222222222221,
+    "time": 2.063547134399414,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "eind"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in d"
+      ],
+      [
+        -1,
+        "ye h"
+      ],
+      [
+        1,
+        "er H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 35,
+    "deletions": 10,
+    "insertions": 9
+  },
+  "claude-4-sonnet": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für Der feind in Jre hertzogtin Jy ſchrey",
+    "wer": 66.66666666666666,
+    "cer": 17.77777777777778,
+    "accuracy": 82.6086956521739,
+    "time": 3.580274820327759,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "er feind in "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "Jr"
+      ],
+      [
+        0,
+        "e hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "J"
+      ],
+      [
+        0,
+        "y ſch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "claude-4-opus": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der feind in Ire hertzog in Iy ſchrey",
+    "wer": 66.66666666666666,
+    "cer": 15.555555555555555,
+    "accuracy": 84.78260869565217,
+    "time": 3.5690701007843018,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der feind in "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "Ir"
+      ],
+      [
+        0,
+        "e hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "I"
+      ],
+      [
+        0,
+        "y ſch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 7
+  },
+  "mistral-small": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der feind in ſre hertzogin ſy ſchrey",
+    "wer": 55.55555555555556,
+    "cer": 13.333333333333334,
+    "accuracy": 86.66666666666667,
+    "time": 1.2091798782348633,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der feind in "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "ſr"
+      ],
+      [
+        0,
+        "e hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "y ſch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 6,
+    "insertions": 6
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der Feind in Dye Hertzogin dy Schrey",
+    "wer": 55.55555555555556,
+    "cer": 15.555555555555555,
+    "accuracy": 84.44444444444444,
+    "time": 1.7088539600372314,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "eind in "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "D"
+      ],
+      [
+        0,
+        "ye "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "S"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "gpt-5-mini": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der feind in dye hertzogin dy schrey",
+    "wer": 33.33333333333333,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 18.875062942504883,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der feind in dye hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach fuͤr der feindin Jre Hertzogin dy ſchzey",
+    "wer": 66.66666666666666,
+    "cer": 17.77777777777778,
+    "accuracy": 84.44444444444444,
+    "time": 95.51962804794312,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "uͤ"
+      ],
+      [
+        0,
+        "r der feind"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "Jr"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy ſch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "glm-4.5v": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der feind in dye Hertzogin dy fchzey",
+    "wer": 33.33333333333333,
+    "cer": 11.11111111111111,
+    "accuracy": 88.88888888888889,
+    "time": 5.46947717666626,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der feind in dye "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 40,
+    "deletions": 5,
+    "insertions": 5
+  },
+  "gemini-2.5-flash": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach Für der Feindin Ihre Hertzogin Sv Schrey",
+    "wer": 77.77777777777779,
+    "cer": 28.888888888888886,
+    "accuracy": 73.33333333333333,
+    "time": 3.9173240661621094,
+    "diffs": [
+      [
+        0,
+        "nach "
+      ],
+      [
+        -1,
+        "fů"
+      ],
+      [
+        1,
+        "Fü"
+      ],
+      [
+        0,
+        "r der "
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "F"
+      ],
+      [
+        0,
+        "eind"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "dy"
+      ],
+      [
+        1,
+        "Ihr"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin "
+      ],
+      [
+        -1,
+        "dy ſ"
+      ],
+      [
+        1,
+        "Sv S"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 13,
+    "insertions": 13
+  },
+  "mistral-medium-3.1": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für ſeinen Feind in ſein Hertzogin ſey ſchrey",
+    "wer": 77.77777777777779,
+    "cer": 35.55555555555556,
+    "accuracy": 70.0,
+    "time": 1.4182238578796387,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r "
+      ],
+      [
+        -1,
+        "der f"
+      ],
+      [
+        1,
+        "ſeinen F"
+      ],
+      [
+        0,
+        "eind in "
+      ],
+      [
+        -1,
+        "dye h"
+      ],
+      [
+        1,
+        "ſein H"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin "
+      ],
+      [
+        -1,
+        "d"
+      ],
+      [
+        1,
+        "ſe"
+      ],
+      [
+        0,
+        "y ſch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 14,
+    "insertions": 19
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der feind in dere Bertzogen dy schrey",
+    "wer": 44.44444444444444,
+    "cer": 17.77777777777778,
+    "accuracy": 82.6086956521739,
+    "time": 4.055776119232178,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der feind in d"
+      ],
+      [
+        -1,
+        "y"
+      ],
+      [
+        1,
+        "er"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "B"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "og"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "n dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 7,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nachfür derfeindin 3reBertzogin dyfchxep",
+    "wer": 100.0,
+    "cer": 28.888888888888886,
+    "accuracy": 71.11111111111111,
+    "time": 1.7697627544403076,
+    "diffs": [
+      [
+        0,
+        "nach"
+      ],
+      [
+        -1,
+        " fů"
+      ],
+      [
+        1,
+        "fü"
+      ],
+      [
+        0,
+        "r der"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "feind"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "in "
+      ],
+      [
+        -1,
+        "dye h"
+      ],
+      [
+        1,
+        "3reB"
+      ],
+      [
+        0,
+        "ert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy"
+      ],
+      [
+        -1,
+        " ſchꝛey"
+      ],
+      [
+        1,
+        "fchxep"
+      ]
+    ],
+    "matches": 27,
+    "deletions": 18,
+    "insertions": 13
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "nach fůr der feind in dye hertʒogin dy ſchꝛey",
+    "response": "nach für der feind in dye hertzogin dy schrey",
+    "wer": 33.33333333333333,
+    "cer": 8.88888888888889,
+    "accuracy": 91.11111111111111,
+    "time": 3.7824718952178955,
+    "diffs": [
+      [
+        0,
+        "nach f"
+      ],
+      [
+        -1,
+        "ů"
+      ],
+      [
+        1,
+        "ü"
+      ],
+      [
+        0,
+        "r der feind in dye hert"
+      ],
+      [
+        -1,
+        "ʒ"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        0,
+        "ogin dy "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ch"
+      ],
+      [
+        -1,
+        "ꝛ"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "ey"
+      ]
+    ],
+    "matches": 41,
+    "deletions": 4,
+    "insertions": 4
+  }
+}

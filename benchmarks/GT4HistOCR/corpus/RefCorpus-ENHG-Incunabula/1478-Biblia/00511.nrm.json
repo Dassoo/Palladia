@@ -1,0 +1,1074 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xṗi beſcͦuē heft. vn̄ Marcus wert figūrett ím",
+    "wer": 77.77777777777779,
+    "cer": 29.78723404255319,
+    "accuracy": 74.46808510638297,
+    "time": 0.8683137893676758,
+    "diffs": [
+      [
+        0,
+        "x"
+      ],
+      [
+        -1,
+        "p̃"
+      ],
+      [
+        1,
+        "ṗ"
+      ],
+      [
+        0,
+        "i beſc"
+      ],
+      [
+        -1,
+        "reuẽ"
+      ],
+      [
+        1,
+        "ͦuē"
+      ],
+      [
+        0,
+        " heft"
+      ],
+      [
+        -1,
+        " · vñ"
+      ],
+      [
+        1,
+        ". vn̄"
+      ],
+      [
+        0,
+        " Marcus wert fig"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "re"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "in"
+      ],
+      [
+        1,
+        "ím"
+      ]
+    ],
+    "matches": 32,
+    "deletions": 15,
+    "insertions": 14
+  },
+  "mistral-small": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "ſi beſchreuë heſt vn Marcus wirt figurert in",
+    "wer": 66.66666666666666,
+    "cer": 21.27659574468085,
+    "accuracy": 80.85106382978722,
+    "time": 1.3271939754486084,
+    "diffs": [
+      [
+        -1,
+        "xp̃"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "i beſc"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "reu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        " he"
+      ],
+      [
+        -1,
+        "ft ·"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        " v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " Marcus w"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "rt figurert in"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 10,
+    "insertions": 7
+  },
+  "spotlight": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xpi bescreue heft vn Marcus wert figurett in",
+    "wer": 55.55555555555556,
+    "cer": 14.893617021276595,
+    "accuracy": 85.1063829787234,
+    "time": 1.453354835510254,
+    "diffs": [
+      [
+        0,
+        "xp"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "i be"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "creu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " heft "
+      ],
+      [
+        -1,
+        "· vñ"
+      ],
+      [
+        1,
+        "vn"
+      ],
+      [
+        0,
+        " Marcus wert figure"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "t in"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "gpt-4.1": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xpi beſchrib heſt· vñ Marcus wert figuͤrett in",
+    "wer": 66.66666666666666,
+    "cer": 23.404255319148938,
+    "accuracy": 82.97872340425532,
+    "time": 1.8813798427581787,
+    "diffs": [
+      [
+        0,
+        "xp"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "i beſc"
+      ],
+      [
+        -1,
+        "reuẽ heft "
+      ],
+      [
+        1,
+        "hrib heſt"
+      ],
+      [
+        0,
+        "· v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "ñ"
+      ],
+      [
+        0,
+        " Marcus wert figu"
+      ],
+      [
+        1,
+        "ͤ"
+      ],
+      [
+        0,
+        "re"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "t in"
+      ]
+    ],
+    "matches": 34,
+    "deletions": 13,
+    "insertions": 13
+  },
+  "gpt-4o": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xpi beſchüe heft· vn̄ Marcus wert figueret in",
+    "wer": 66.66666666666666,
+    "cer": 21.27659574468085,
+    "accuracy": 85.1063829787234,
+    "time": 2.1890671253204346,
+    "diffs": [
+      [
+        0,
+        "xp"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "i beſc"
+      ],
+      [
+        -1,
+        "reuẽ"
+      ],
+      [
+        1,
+        "hüe"
+      ],
+      [
+        0,
+        " heft"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n̄"
+      ],
+      [
+        0,
+        " Marcus wert figu"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        "er"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "t in"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 8,
+    "insertions": 6
+  },
+  "claude-4-sonnet": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "rꝑi beſerue heſt· vñ Marcus wert figurert in",
+    "wer": 44.44444444444444,
+    "cer": 17.02127659574468,
+    "accuracy": 82.97872340425532,
+    "time": 2.8188328742980957,
+    "diffs": [
+      [
+        -1,
+        "xp̃"
+      ],
+      [
+        1,
+        "rꝑ"
+      ],
+      [
+        0,
+        "i beſ"
+      ],
+      [
+        -1,
+        "creuẽ heft "
+      ],
+      [
+        1,
+        "erue heſt"
+      ],
+      [
+        0,
+        "· vñ Marcus wert figurert in"
+      ]
+    ],
+    "matches": 33,
+    "deletions": 14,
+    "insertions": 11
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xpi bescreue heft·vn Marcus wert figurert in",
+    "wer": 55.55555555555556,
+    "cer": 12.76595744680851,
+    "accuracy": 87.2340425531915,
+    "time": 3.260840892791748,
+    "diffs": [
+      [
+        0,
+        "xp"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "i be"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "creu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " heft"
+      ],
+      [
+        -1,
+        " · vñ"
+      ],
+      [
+        1,
+        "·vn"
+      ],
+      [
+        0,
+        " Marcus wert figurert in"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "claude-4-opus": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "rp̃i beſcwuẽ heſt · vñ Marcus wert figureert in",
+    "wer": 44.44444444444444,
+    "cer": 10.638297872340425,
+    "accuracy": 91.48936170212765,
+    "time": 7.004906892776489,
+    "diffs": [
+      [
+        -1,
+        "x"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "p̃i beſc"
+      ],
+      [
+        -1,
+        "re"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "uẽ he"
+      ],
+      [
+        -1,
+        "f"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t · vñ Marcus wert figure"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        "rt in"
+      ]
+    ],
+    "matches": 43,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gpt-5-mini": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "r̄pi beſcreue heſt· vn Marcus wert figuret in",
+    "wer": 66.66666666666666,
+    "cer": 17.02127659574468,
+    "accuracy": 85.1063829787234,
+    "time": 22.674556970596313,
+    "diffs": [
+      [
+        -1,
+        "xp̃"
+      ],
+      [
+        1,
+        "r̄p"
+      ],
+      [
+        0,
+        "i beſcreu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " he"
+      ],
+      [
+        -1,
+        "ft "
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        "· v"
+      ],
+      [
+        -1,
+        "ñ"
+      ],
+      [
+        1,
+        "n"
+      ],
+      [
+        0,
+        " Marcus wert figure"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        0,
+        "t in"
+      ]
+    ],
+    "matches": 38,
+    "deletions": 9,
+    "insertions": 7
+  },
+  "gpt-5": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xp̄i beſchriue heft· vñ Marcus wert figvrett in",
+    "wer": 55.55555555555556,
+    "cer": 14.893617021276595,
+    "accuracy": 87.2340425531915,
+    "time": 75.10524201393127,
+    "diffs": [
+      [
+        0,
+        "xp"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        1,
+        "̄"
+      ],
+      [
+        0,
+        "i beſc"
+      ],
+      [
+        -1,
+        "reuẽ"
+      ],
+      [
+        1,
+        "hriue"
+      ],
+      [
+        0,
+        " heft"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "· vñ Marcus wert fig"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "re"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "t in"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 8,
+    "insertions": 8
+  },
+  "glm-4.5v": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "rpī beforeuē heft·vñ Marcus wert figurett in",
+    "wer": 66.66666666666666,
+    "cer": 19.148936170212767,
+    "accuracy": 80.85106382978722,
+    "time": 6.898839712142944,
+    "diffs": [
+      [
+        -1,
+        "xp̃i"
+      ],
+      [
+        1,
+        "rpī"
+      ],
+      [
+        0,
+        " be"
+      ],
+      [
+        -1,
+        "ſc"
+      ],
+      [
+        1,
+        "fo"
+      ],
+      [
+        0,
+        "reu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        " heft"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "·"
+      ],
+      [
+        0,
+        "vñ Marcus wert figure"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "t in"
+      ]
+    ],
+    "matches": 36,
+    "deletions": 11,
+    "insertions": 8
+  },
+  "gemini-2.5-flash": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "rp̄i befœruē heﬀe vñ Marcus werlt figurertt in",
+    "wer": 66.66666666666666,
+    "cer": 25.53191489361702,
+    "accuracy": 78.72340425531915,
+    "time": 4.550957202911377,
+    "diffs": [
+      [
+        -1,
+        "xp̃"
+      ],
+      [
+        1,
+        "rp̄"
+      ],
+      [
+        0,
+        "i be"
+      ],
+      [
+        -1,
+        "ſcreuẽ heft ·"
+      ],
+      [
+        1,
+        "fœruē heﬀe"
+      ],
+      [
+        0,
+        " vñ Marcus wer"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "t figurert"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        " in"
+      ]
+    ],
+    "matches": 31,
+    "deletions": 16,
+    "insertions": 15
+  },
+  "mistral-medium-3.1": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xpi beſchreuë heft-vñ Marcus wert figurert in",
+    "wer": 55.55555555555556,
+    "cer": 12.76595744680851,
+    "accuracy": 89.36170212765957,
+    "time": 1.2947478294372559,
+    "diffs": [
+      [
+        0,
+        "xp"
+      ],
+      [
+        -1,
+        "̃"
+      ],
+      [
+        0,
+        "i beſc"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "reu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "ë"
+      ],
+      [
+        0,
+        " heft"
+      ],
+      [
+        -1,
+        " · "
+      ],
+      [
+        1,
+        "-"
+      ],
+      [
+        0,
+        "vñ Marcus wert figurert in"
+      ]
+    ],
+    "matches": 42,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "ꝑſi beskreuẽ beft vni Marcus wert figurert in",
+    "wer": 55.55555555555556,
+    "cer": 21.27659574468085,
+    "accuracy": 80.85106382978722,
+    "time": 1.9156889915466309,
+    "diffs": [
+      [
+        -1,
+        "xp̃"
+      ],
+      [
+        1,
+        "ꝑſ"
+      ],
+      [
+        0,
+        "i be"
+      ],
+      [
+        -1,
+        "ſc"
+      ],
+      [
+        1,
+        "sk"
+      ],
+      [
+        0,
+        "reuẽ "
+      ],
+      [
+        -1,
+        "h"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        0,
+        "eft "
+      ],
+      [
+        -1,
+        "· vñ"
+      ],
+      [
+        1,
+        "vni"
+      ],
+      [
+        0,
+        " Marcus wert figurert in"
+      ]
+    ],
+    "matches": 37,
+    "deletions": 10,
+    "insertions": 8
+  },
+  "cogito-v2-109b": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "xƿi befcrueū beft·wů̄ Marcus wertfigwrett m̵",
+    "wer": 88.88888888888889,
+    "cer": 34.04255319148936,
+    "accuracy": 68.08510638297872,
+    "time": 1.7893610000610352,
+    "diffs": [
+      [
+        0,
+        "x"
+      ],
+      [
+        -1,
+        "p̃"
+      ],
+      [
+        1,
+        "ƿ"
+      ],
+      [
+        0,
+        "i be"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "cr"
+      ],
+      [
+        -1,
+        "euẽ heft · vñ"
+      ],
+      [
+        1,
+        "ueū beft·wů̄"
+      ],
+      [
+        0,
+        " Marcus wert"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "fig"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "w"
+      ],
+      [
+        0,
+        "re"
+      ],
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "t"
+      ],
+      [
+        0,
+        "t "
+      ],
+      [
+        -1,
+        "in"
+      ],
+      [
+        1,
+        "m̵"
+      ]
+    ],
+    "matches": 26,
+    "deletions": 21,
+    "insertions": 18
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "xp̃i beſcreuẽ heft · vñ Marcus wert figurert in",
+    "response": "γρ̄πι beſchreue heſt· vñ Marcus wert figurert in",
+    "wer": 44.44444444444444,
+    "cer": 19.148936170212767,
+    "accuracy": 83.33333333333334,
+    "time": 3.0165319442749023,
+    "diffs": [
+      [
+        -1,
+        "xp̃i"
+      ],
+      [
+        1,
+        "γρ̄πι"
+      ],
+      [
+        0,
+        " beſc"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "reu"
+      ],
+      [
+        -1,
+        "ẽ"
+      ],
+      [
+        1,
+        "e"
+      ],
+      [
+        0,
+        " he"
+      ],
+      [
+        -1,
+        "ft "
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        "· vñ Marcus wert figurert in"
+      ]
+    ],
+    "matches": 39,
+    "deletions": 8,
+    "insertions": 9
+  }
+}

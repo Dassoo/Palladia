@@ -1,0 +1,553 @@
+{
+  "llama-4-maverick-17b": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea fociſtas, multum uelſtra refert ut",
+    "wer": 22.22222222222222,
+    "cer": 4.838709677419355,
+    "accuracy": 95.23809523809523,
+    "time": 1.2968449592590332,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "oci"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "tas, multum ue"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "ſtra refert ut"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 2,
+    "insertions": 3
+  },
+  "mistral-small": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum uestra refert ut",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 1.316236972808838,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tra refert ut"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "spotlight": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranca societas, multum uestra refert ut",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 1.5716328620910645,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterran"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ocietas, multum ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tra refert ut"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.8471949100494385,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4o": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.893583059310913,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gpt-4.1": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 1.9411840438842773,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-sonnet": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 2.9924380779266357,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "gemini-2.5-flash": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 3.25331711769104,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "claude-4-opus": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.244147062301636,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 62,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum uestra refert ut",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 15.442816019058228,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "tra refert ut"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranęa ſocietas, multum ueſtra refert ut",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 17.435348987579346,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterran"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ę"
+      ],
+      [
+        0,
+        "a ſocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5-mini": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueſtra refert ur",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 14.69403600692749,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert u"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "r"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſociétas, multum ueſtra refert ut",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 29.11335277557373,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſoci"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "é"
+      ],
+      [
+        0,
+        "tas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranca focietas, multum ueftra refert ut",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 6.556709051132202,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterran"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "a "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "ocietas, multum ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tra refert ut"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "mistral-medium-3.1": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea societas, multum ueſtra refert ut",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 1.2745189666748047,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterraneæ focietas, multum uehtra refert ut",
+    "wer": 33.33333333333333,
+    "cer": 4.838709677419355,
+    "accuracy": 95.16129032258065,
+    "time": 2.2725727558135986,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterrane"
+      ],
+      [
+        -1,
+        "a ſ"
+      ],
+      [
+        1,
+        "æ f"
+      ],
+      [
+        0,
+        "ocietas, multum ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "h"
+      ],
+      [
+        0,
+        "tra refert ut"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "grok-4": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "utur naualis non mediterranea ſocietas, multum ueſtra refert",
+    "wer": 22.22222222222222,
+    "cer": 6.451612903225806,
+    "accuracy": 95.16129032258065,
+    "time": 120.00169491767883,
+    "diffs": [
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ueſtra refert"
+      ],
+      [
+        -1,
+        " ut"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "cogito-v2-109b": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea ſocietas, multum ueftra refert ut",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 1.4257769584655762,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea ſocietas, multum ue"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "tra refert ut"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "tur naualis non mediterranea ſocietas, multum ueſtra refert ut",
+    "response": "tur naualis non mediterranea societas, multum ueſtra refert ut",
+    "wer": 11.11111111111111,
+    "cer": 1.6129032258064515,
+    "accuracy": 98.38709677419355,
+    "time": 4.234834909439087,
+    "diffs": [
+      [
+        0,
+        "tur naualis non mediterranea "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "ocietas, multum ueſtra refert ut"
+      ]
+    ],
+    "matches": 61,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

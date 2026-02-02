@@ -1,0 +1,1157 @@
+{
+  "mistral-small": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "critiæ tributū eſt. Itaque non licuit ei diutius preſſe populo. Primum enim",
+    "wer": 33.33333333333333,
+    "cer": 5.333333333333334,
+    "accuracy": 96.0,
+    "time": 1.3556079864501953,
+    "diffs": [
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ritiæ tribut"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " eſt. Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        0,
+        "eſſe populo. Prim"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m enim"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 3,
+    "insertions": 3
+  },
+  "spotlight": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "riciæ tributũ est. Itaque non licuit ei diutius præfīle populo. Primũm enim",
+    "wer": 33.33333333333333,
+    "cer": 9.333333333333334,
+    "accuracy": 90.66666666666666,
+    "time": 1.49245285987854,
+    "diffs": [
+      [
+        0,
+        "ri"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "iæ tributũ e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "t. Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ęeſſ"
+      ],
+      [
+        1,
+        "æfīl"
+      ],
+      [
+        0,
+        "e populo. Prim"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        "m enim"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 7,
+    "insertions": 7
+  },
+  "llama-4-maverick-17b": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ricia tributū eft.It aque non licuit ei diutius prēeſſe populo:Primū enim",
+    "wer": 58.333333333333336,
+    "cer": 14.666666666666666,
+    "accuracy": 86.66666666666667,
+    "time": 1.5730619430541992,
+    "diffs": [
+      [
+        0,
+        "ri"
+      ],
+      [
+        -1,
+        "tiæ"
+      ],
+      [
+        1,
+        "cia"
+      ],
+      [
+        0,
+        " tribut"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "It"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "aque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "eſſe populo"
+      ],
+      [
+        -1,
+        ". "
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        "Prim"
+      ],
+      [
+        -1,
+        "ùm"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " enim"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "gpt-4.1": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiaæ tributū eſt. Itaʠue non licuit ei diutius præeſſe populo. Primùm enim",
+    "wer": 33.33333333333333,
+    "cer": 5.333333333333334,
+    "accuracy": 94.73684210526315,
+    "time": 1.7095532417297363,
+    "diffs": [
+      [
+        0,
+        "riti"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "æ tribut"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " eſt. Ita"
+      ],
+      [
+        -1,
+        "q"
+      ],
+      [
+        1,
+        "ʠ"
+      ],
+      [
+        0,
+        "ue non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "eſſe populo. Primùm enim"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 3,
+    "insertions": 4
+  },
+  "gpt-4o": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "rtiæ tributuũ eſt. Itaſque non licuit ei diutius præſſe populo. Primum enim",
+    "wer": 41.66666666666667,
+    "cer": 8.0,
+    "accuracy": 94.66666666666667,
+    "time": 1.758329153060913,
+    "diffs": [
+      [
+        0,
+        "r"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        0,
+        "tiæ tribut"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "ũ eſt. Ita"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "que non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ęe"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "ſſe populo. Prim"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "m enim"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 4,
+    "insertions": 4
+  },
+  "gemini-2.5-flash": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ricia tribuũ eſt.Itaque non licuit ei diuinius pręſt populo: Primùm enim",
+    "wer": 58.333333333333336,
+    "cer": 13.333333333333334,
+    "accuracy": 88.0,
+    "time": 2.6408300399780273,
+    "diffs": [
+      [
+        0,
+        "ri"
+      ],
+      [
+        -1,
+        "tiæ"
+      ],
+      [
+        1,
+        "cia"
+      ],
+      [
+        0,
+        " tribu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "ũ eſt."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Itaque non licuit ei diu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "in"
+      ],
+      [
+        0,
+        "ius prę"
+      ],
+      [
+        -1,
+        "eſſe"
+      ],
+      [
+        1,
+        "ſt"
+      ],
+      [
+        0,
+        " populo"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " Primùm enim"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 11,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiæ tributũ eſt. Itaque non licuit ei diucius præeſſe populo.Primũ enim",
+    "wer": 33.33333333333333,
+    "cer": 6.666666666666667,
+    "accuracy": 93.33333333333333,
+    "time": 3.854404926300049,
+    "diffs": [
+      [
+        0,
+        "ritiæ tributũ eſt. Itaque non licuit ei diu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "ius pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "eſſe populo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Prim"
+      ],
+      [
+        -1,
+        "ùm"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " enim"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 5,
+    "insertions": 3
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritia tributũ eſt.Itaque non licuit ei diutius præſſe populo.Primũ enim",
+    "wer": 50.0,
+    "cer": 9.333333333333334,
+    "accuracy": 90.66666666666666,
+    "time": 4.666795015335083,
+    "diffs": [
+      [
+        0,
+        "riti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " tributũ eſt."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ęe"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "ſſe populo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Prim"
+      ],
+      [
+        -1,
+        "ùm"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " enim"
+      ]
+    ],
+    "matches": 68,
+    "deletions": 7,
+    "insertions": 3
+  },
+  "claude-4-opus": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "wer": 0.0,
+    "cer": 0.0,
+    "accuracy": 100.0,
+    "time": 4.801796913146973,
+    "diffs": [
+      [
+        0,
+        "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim"
+      ]
+    ],
+    "matches": 75,
+    "deletions": 0,
+    "insertions": 0
+  },
+  "o4-mini": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiæ tribuũ eſt. Itaque non licuit ei diutius præeſſe populo.Primùm enim",
+    "wer": 33.33333333333333,
+    "cer": 4.0,
+    "accuracy": 96.0,
+    "time": 23.360793113708496,
+    "diffs": [
+      [
+        0,
+        "ritiæ tribu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "ũ eſt. Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "eſſe populo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Primùm enim"
+      ]
+    ],
+    "matches": 72,
+    "deletions": 3,
+    "insertions": 1
+  },
+  "gemini-2.5-pro": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ricia tributũ eſt. Itaque non licuit ei díuius pręeſſe populo: Primùm ením",
+    "wer": 41.66666666666667,
+    "cer": 10.666666666666668,
+    "accuracy": 90.66666666666666,
+    "time": 49.0909469127655,
+    "diffs": [
+      [
+        0,
+        "ri"
+      ],
+      [
+        -1,
+        "tiæ"
+      ],
+      [
+        1,
+        "cia"
+      ],
+      [
+        0,
+        " tribut"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " eſt. Itaque non licuit ei d"
+      ],
+      [
+        -1,
+        "iut"
+      ],
+      [
+        1,
+        "íu"
+      ],
+      [
+        0,
+        "ius pręeſſe populo"
+      ],
+      [
+        -1,
+        "."
+      ],
+      [
+        1,
+        ":"
+      ],
+      [
+        0,
+        " Primùm en"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "í"
+      ],
+      [
+        0,
+        "m"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 9,
+    "insertions": 9
+  },
+  "gpt-5-mini": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiæ tribuũ eſt.Itaque non licuit ei diutius præeſſe populo.Primùm enim",
+    "wer": 50.0,
+    "cer": 5.333333333333334,
+    "accuracy": 94.66666666666667,
+    "time": 25.162083625793457,
+    "diffs": [
+      [
+        0,
+        "ritiæ tribu"
+      ],
+      [
+        -1,
+        "t"
+      ],
+      [
+        0,
+        "ũ eſt."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "eſſe populo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Primùm enim"
+      ]
+    ],
+    "matches": 71,
+    "deletions": 4,
+    "insertions": 1
+  },
+  "gpt-5": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiæ tributũ eſt. Itaque non licuit ei diutius præeſſe populo. Primùm enim",
+    "wer": 8.333333333333332,
+    "cer": 1.3333333333333335,
+    "accuracy": 98.66666666666667,
+    "time": 52.67259407043457,
+    "diffs": [
+      [
+        0,
+        "ritiæ tributũ eſt. Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "eſſe populo. Primùm enim"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 1,
+    "insertions": 1
+  },
+  "glm-4.5v": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiæ tributũ elt.Itaque non licuit ei diutius præſse populo.Primũm enim",
+    "wer": 41.66666666666667,
+    "cer": 9.333333333333334,
+    "accuracy": 90.66666666666666,
+    "time": 8.889098167419434,
+    "diffs": [
+      [
+        0,
+        "ritiæ tributũ e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ęeſſ"
+      ],
+      [
+        1,
+        "æſs"
+      ],
+      [
+        0,
+        "e populo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Prim"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        "m enim"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 8,
+    "insertions": 5
+  },
+  "mistral-medium-3.1": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "iurix tributú eſt. lque non licuit ei diutiùs præeſſe populo. Primùm enim",
+    "wer": 41.66666666666667,
+    "cer": 13.333333333333334,
+    "accuracy": 88.0,
+    "time": 1.760288953781128,
+    "diffs": [
+      [
+        -1,
+        "ritiæ"
+      ],
+      [
+        1,
+        "iurix"
+      ],
+      [
+        0,
+        " tribut"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ú"
+      ],
+      [
+        0,
+        " eſt. "
+      ],
+      [
+        -1,
+        "Ita"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        0,
+        "que non licuit ei diuti"
+      ],
+      [
+        -1,
+        "u"
+      ],
+      [
+        1,
+        "ù"
+      ],
+      [
+        0,
+        "s pr"
+      ],
+      [
+        -1,
+        "ę"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        "eſſe populo. Primùm enim"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 11,
+    "insertions": 9
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiæ tributũ eft. Itaque non licuit ei diutius præceffe populo. Primùm enim",
+    "wer": 16.666666666666664,
+    "cer": 6.666666666666667,
+    "accuracy": 93.42105263157895,
+    "time": 1.8294661045074463,
+    "diffs": [
+      [
+        0,
+        "ritiæ tributũ e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t. Itaque non licuit ei diutius pr"
+      ],
+      [
+        -1,
+        "ęeſſ"
+      ],
+      [
+        1,
+        "æceff"
+      ],
+      [
+        0,
+        "e populo. Primùm enim"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 5,
+    "insertions": 6
+  },
+  "grok-4": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "vitia tribuūt. Itáque non licuit ciūilius præfeße populo. Primùm enim",
+    "wer": 58.333333333333336,
+    "cer": 22.666666666666664,
+    "accuracy": 78.66666666666666,
+    "time": 197.32192587852478,
+    "diffs": [
+      [
+        -1,
+        "r"
+      ],
+      [
+        1,
+        "v"
+      ],
+      [
+        0,
+        "iti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " tribu"
+      ],
+      [
+        -1,
+        "tũ eſ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        "t. It"
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "que non licuit "
+      ],
+      [
+        -1,
+        "ei diut"
+      ],
+      [
+        1,
+        "ciūil"
+      ],
+      [
+        0,
+        "ius pr"
+      ],
+      [
+        -1,
+        "ęeſſ"
+      ],
+      [
+        1,
+        "æfeß"
+      ],
+      [
+        0,
+        "e populo. Primùm enim"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 19,
+    "insertions": 13
+  },
+  "cogito-v2-109b": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritiaæ tributũ eft.Itaque non licuit ei diürius pręeſſe populo.Primũm enim",
+    "wer": 50.0,
+    "cer": 9.333333333333334,
+    "accuracy": 92.0,
+    "time": 2.121654987335205,
+    "diffs": [
+      [
+        0,
+        "riti"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "æ tributũ e"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "t."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Itaque non licuit ei di"
+      ],
+      [
+        -1,
+        "ut"
+      ],
+      [
+        1,
+        "ür"
+      ],
+      [
+        0,
+        "ius pręeſſe populo."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "Prim"
+      ],
+      [
+        -1,
+        "ù"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        "m enim"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 6,
+    "insertions": 5
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "ritiæ tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "response": "ritia tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim",
+    "wer": 8.333333333333332,
+    "cer": 1.3333333333333335,
+    "accuracy": 98.66666666666667,
+    "time": 2.5058679580688477,
+    "diffs": [
+      [
+        0,
+        "riti"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " tributũ eſt. Itaque non licuit ei diutius pręeſſe populo. Primùm enim"
+      ]
+    ],
+    "matches": 74,
+    "deletions": 1,
+    "insertions": 1
+  }
+}

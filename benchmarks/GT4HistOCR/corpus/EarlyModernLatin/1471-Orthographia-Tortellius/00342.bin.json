@@ -1,0 +1,1940 @@
+{
+  "mistral-small": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratiōne adinunit: quæ quodámodo mollióre q.ps. uolubiliórem ſonũ habĕā:",
+    "wer": 80.0,
+    "cer": 17.94871794871795,
+    "accuracy": 84.61538461538461,
+    "time": 2.3508830070495605,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ōn"
+      ],
+      [
+        0,
+        "e adinu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "nit: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "modo molli"
+      ],
+      [
+        -1,
+        "orẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "óre q."
+      ],
+      [
+        0,
+        "ps. uolubili"
+      ],
+      [
+        -1,
+        "o"
+      ],
+      [
+        1,
+        "ó"
+      ],
+      [
+        0,
+        "rem"
+      ],
+      [
+        -1,
+        "q;"
+      ],
+      [
+        0,
+        " ſonũ hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ĕā"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 15,
+    "insertions": 12
+  },
+  "llama-4-maverick-17b": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "afpirarōe adinlicnit:quæ quoda mod o molliorē qu.ps.uolubılıoremq; fonū haıſ:",
+    "wer": 100.0,
+    "cer": 29.48717948717949,
+    "accuracy": 75.64102564102564,
+    "time": 2.9923598766326904,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pira"
+      ],
+      [
+        -1,
+        "tiõ"
+      ],
+      [
+        1,
+        "rō"
+      ],
+      [
+        0,
+        "e adin"
+      ],
+      [
+        -1,
+        "ue"
+      ],
+      [
+        1,
+        "lic"
+      ],
+      [
+        0,
+        "nit:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a "
+      ],
+      [
+        0,
+        "mod"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "o mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "ē qu."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolub"
+      ],
+      [
+        -1,
+        "ili"
+      ],
+      [
+        1,
+        "ılı"
+      ],
+      [
+        0,
+        "oremq; "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " ha"
+      ],
+      [
+        -1,
+        "b&"
+      ],
+      [
+        1,
+        "ıſ"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 56,
+    "deletions": 22,
+    "insertions": 22
+  },
+  "spotlight": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aspiratioe adiunctit: qua quodammodo molliore q.ps.uolubilioremq; sonu habat:",
+    "wer": 100.0,
+    "cer": 23.076923076923077,
+    "accuracy": 82.05128205128204,
+    "time": 3.193323850631714,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "e adi"
+      ],
+      [
+        -1,
+        "nuen"
+      ],
+      [
+        1,
+        "unct"
+      ],
+      [
+        0,
+        "it: qu"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        " quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "e q."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubilioremq; "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "at"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 60,
+    "deletions": 18,
+    "insertions": 17
+  },
+  "gpt-4.1": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aspiratione adinueniēt: quæ quodãmodo molliore ũ̄. ps. uolubilioremq; sonũ habẽ:",
+    "wer": 60.0,
+    "cer": 11.538461538461538,
+    "accuracy": 88.75,
+    "time": 3.606165885925293,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "pirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "on"
+      ],
+      [
+        0,
+        "e adinueni"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "t: quæ quodãmodo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "e ũ̄"
+      ],
+      [
+        0,
+        ". ps. uolubilioremq; "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "s"
+      ],
+      [
+        0,
+        "onũ hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ẽ"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 70,
+    "deletions": 8,
+    "insertions": 10
+  },
+  "qwen-2.5-vl-72b": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratiõe adiunçit:quæ quodámodo mollioreq.ps.uolubilioremq; ſonũ habã:",
+    "wer": 80.0,
+    "cer": 15.384615384615385,
+    "accuracy": 85.8974358974359,
+    "time": 4.424170017242432,
+    "diffs": [
+      [
+        0,
+        "aſpiratiõe adi"
+      ],
+      [
+        -1,
+        "nuen"
+      ],
+      [
+        1,
+        "unç"
+      ],
+      [
+        0,
+        "it:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "eq."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubilioremq; ſonũ hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ã"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 64,
+    "deletions": 14,
+    "insertions": 8
+  },
+  "claude-4-sonnet": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpirationẽ adiuuẽt: quæ quodãmodo molliores q̃.ps.uolubilioresq̃ ſonu habẽt:",
+    "wer": 80.0,
+    "cer": 23.076923076923077,
+    "accuracy": 80.76923076923077,
+    "time": 5.046285152435303,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õe"
+      ],
+      [
+        1,
+        "onẽ"
+      ],
+      [
+        0,
+        " adi"
+      ],
+      [
+        -1,
+        "nueni"
+      ],
+      [
+        1,
+        "uuẽ"
+      ],
+      [
+        0,
+        "t: quæ quodãmodo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "es q̃."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubiliore"
+      ],
+      [
+        -1,
+        "mq;"
+      ],
+      [
+        1,
+        "sq̃"
+      ],
+      [
+        0,
+        " ſon"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ẽt"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 59,
+    "deletions": 19,
+    "insertions": 18
+  },
+  "gpt-4o": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratione adinuenit: quæ quodámodo molliore ẏ. ps. uolubilioremqꝯ ſonu habit:",
+    "wer": 70.0,
+    "cer": 12.82051282051282,
+    "accuracy": 88.60759493670885,
+    "time": 6.392491102218628,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "on"
+      ],
+      [
+        0,
+        "e adinuenit: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "e ẏ"
+      ],
+      [
+        0,
+        ". ps. uolubilioremq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "ꝯ"
+      ],
+      [
+        0,
+        " ſon"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "it"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 10
+  },
+  "claude-4-opus": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratiōe adinuenit: quæ quodāmodo molliorem̃ q̃. ps. uolubilioremq̃ ſonũ habẽt.",
+    "wer": 60.0,
+    "cer": 14.102564102564102,
+    "accuracy": 86.41975308641975,
+    "time": 7.406173944473267,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "e adinuenit: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "em̃ q̃"
+      ],
+      [
+        0,
+        ". ps. uolubilioremq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "̃"
+      ],
+      [
+        0,
+        " ſonũ hab"
+      ],
+      [
+        -1,
+        "&:"
+      ],
+      [
+        1,
+        "ẽt."
+      ]
+    ],
+    "matches": 69,
+    "deletions": 9,
+    "insertions": 12
+  },
+  "gemini-2.5-flash": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratiõe adiunctü: quod quodamodo molliorē: q̃. ps. uolubilioremq; ſonū habē:",
+    "wer": 80.0,
+    "cer": 21.794871794871796,
+    "accuracy": 81.70731707317073,
+    "time": 12.699846744537354,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "õ"
+      ],
+      [
+        0,
+        "e adi"
+      ],
+      [
+        -1,
+        "nuenit"
+      ],
+      [
+        1,
+        "unctü"
+      ],
+      [
+        0,
+        ": qu"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "od"
+      ],
+      [
+        0,
+        " quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "ē: q̃"
+      ],
+      [
+        0,
+        ". ps. uolubilioremq; ſon"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 63,
+    "deletions": 15,
+    "insertions": 19
+  },
+  "gemini-2.5-pro": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratiöe adiuuerit: quæ quodámodo mollioréq́; ps.uolubilioremq́; ſonũ habet:",
+    "wer": 90.0,
+    "cer": 19.230769230769234,
+    "accuracy": 83.54430379746836,
+    "time": 31.684182167053223,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ö"
+      ],
+      [
+        0,
+        "e adi"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        "ue"
+      ],
+      [
+        -1,
+        "n"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        0,
+        "it: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "á"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ."
+      ],
+      [
+        1,
+        "éq́;"
+      ],
+      [
+        0,
+        " ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubilioremq"
+      ],
+      [
+        1,
+        "́"
+      ],
+      [
+        0,
+        "; ſon"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ũ"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "et"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 12,
+    "insertions": 13
+  },
+  "o4-mini": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratiōe adiunctionerit:quæ quodāmodo molliore q̄.ps.uolubiliorēmq̄, sonū habīs:",
+    "wer": 100.0,
+    "cer": 29.48717948717949,
+    "accuracy": 75.90361445783132,
+    "time": 74.39470624923706,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "e adi"
+      ],
+      [
+        -1,
+        "nuen"
+      ],
+      [
+        1,
+        "unctioner"
+      ],
+      [
+        0,
+        "it:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "e q̄."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubilior"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        "mq"
+      ],
+      [
+        -1,
+        "; ſ"
+      ],
+      [
+        1,
+        "̄, s"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "īs"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 58,
+    "deletions": 20,
+    "insertions": 25
+  },
+  "gpt-5-mini": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratione adinueniſt: quæ quodamodo molliore q̄. ps. uolubilioremq̄: sonu haud:",
+    "wer": 80.0,
+    "cer": 16.666666666666664,
+    "accuracy": 83.9506172839506,
+    "time": 23.319225072860718,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "on"
+      ],
+      [
+        0,
+        "e adinueni"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        "t: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "e q̄"
+      ],
+      [
+        0,
+        ". ps. uolubilioremq"
+      ],
+      [
+        -1,
+        "; ſ"
+      ],
+      [
+        1,
+        "̄: s"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        0,
+        " ha"
+      ],
+      [
+        -1,
+        "b&"
+      ],
+      [
+        1,
+        "ud"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 12,
+    "insertions": 15
+  },
+  "gpt-5": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratiōe adinuenit: quæ quodāmodo molliorēq; ipſ. uolubilioremq; ſonū habē:",
+    "wer": 70.0,
+    "cer": 14.102564102564102,
+    "accuracy": 87.17948717948718,
+    "time": 81.05183482170105,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "ō"
+      ],
+      [
+        0,
+        "e adinuenit: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. ps"
+      ],
+      [
+        1,
+        "ēq; ipſ"
+      ],
+      [
+        0,
+        ". uolubilioremq; ſon"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "ē"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 66,
+    "deletions": 12,
+    "insertions": 11
+  },
+  "glm-4.5v": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "afpiratioe adinucnit: quæ quodamodo molliore ſ. ps. uolubiliorem q; conū haib:",
+    "wer": 90.0,
+    "cer": 15.384615384615385,
+    "accuracy": 87.17948717948718,
+    "time": 4.908836841583252,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "e adinu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "nit: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "e ſ"
+      ],
+      [
+        0,
+        ". ps. uolubiliorem"
+      ],
+      [
+        1,
+        " "
+      ],
+      [
+        0,
+        "q; "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " ha"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "b"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 11
+  },
+  "mistral-medium-3.1": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratioe adinuncit: quæ quodamodo molliore ſ. pſ. uolubilioremq̀ ſonû habæ:",
+    "wer": 90.0,
+    "cer": 14.102564102564102,
+    "accuracy": 87.17948717948718,
+    "time": 1.629868984222412,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "e adinu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        0,
+        "n"
+      ],
+      [
+        1,
+        "c"
+      ],
+      [
+        0,
+        "it: quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "a"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ"
+      ],
+      [
+        1,
+        "e ſ"
+      ],
+      [
+        0,
+        ". p"
+      ],
+      [
+        -1,
+        "s"
+      ],
+      [
+        1,
+        "ſ"
+      ],
+      [
+        0,
+        ". uolubilioremq"
+      ],
+      [
+        -1,
+        ";"
+      ],
+      [
+        1,
+        "̀"
+      ],
+      [
+        0,
+        " ſon"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "û"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "æ"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 67,
+    "deletions": 11,
+    "insertions": 10
+  },
+  "ernie-4.5-vl-28b-a3b": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "afpiratìoe ïdinuīcnīt: quȩ quodāmodo molliorē ȳ.ps.uolubilīoremq; ṣōnū habet.",
+    "wer": 100.0,
+    "cer": 26.923076923076923,
+    "accuracy": 75.64102564102564,
+    "time": 3.5243802070617676,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pirat"
+      ],
+      [
+        -1,
+        "iõ"
+      ],
+      [
+        1,
+        "ìo"
+      ],
+      [
+        0,
+        "e "
+      ],
+      [
+        -1,
+        "a"
+      ],
+      [
+        1,
+        "ï"
+      ],
+      [
+        0,
+        "dinu"
+      ],
+      [
+        -1,
+        "eni"
+      ],
+      [
+        1,
+        "īcnī"
+      ],
+      [
+        0,
+        "t: qu"
+      ],
+      [
+        -1,
+        "æ"
+      ],
+      [
+        1,
+        "ȩ"
+      ],
+      [
+        0,
+        " quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "ā"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "ē ȳ."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubil"
+      ],
+      [
+        -1,
+        "i"
+      ],
+      [
+        1,
+        "ī"
+      ],
+      [
+        0,
+        "oremq; "
+      ],
+      [
+        -1,
+        "ſonũ"
+      ],
+      [
+        1,
+        "ṣōnū"
+      ],
+      [
+        0,
+        " hab"
+      ],
+      [
+        -1,
+        "&:"
+      ],
+      [
+        1,
+        "et."
+      ]
+    ],
+    "matches": 55,
+    "deletions": 23,
+    "insertions": 22
+  },
+  "cogito-v2-109b": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "afpirarione adinlicit:q; ux quodammodo mollioré 4.ps.uolubiliioremq; fonū haibí:",
+    "wer": 100.0,
+    "cer": 29.48717948717949,
+    "accuracy": 76.25,
+    "time": 2.755789041519165,
+    "diffs": [
+      [
+        0,
+        "a"
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "pira"
+      ],
+      [
+        -1,
+        "tiõ"
+      ],
+      [
+        1,
+        "rion"
+      ],
+      [
+        0,
+        "e adin"
+      ],
+      [
+        -1,
+        "uenit: quæ"
+      ],
+      [
+        1,
+        "licit:q; ux"
+      ],
+      [
+        0,
+        " quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "é 4."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubili"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        "oremq; "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "on"
+      ],
+      [
+        -1,
+        "ũ"
+      ],
+      [
+        1,
+        "ū"
+      ],
+      [
+        0,
+        " ha"
+      ],
+      [
+        -1,
+        "b&"
+      ],
+      [
+        1,
+        "ibí"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 52,
+    "deletions": 26,
+    "insertions": 28
+  },
+  "qwen3-vl-235b-instruct": {
+    "gt": "aſpiratiõe adinuenit: quæ quodãmodo molliorẽ ꝗᷓ. ps. uolubilioremq; ſonũ hab&:",
+    "response": "aſpiratioe adinuicinit:quæ quodammodo mollioré q.ps.uolubilioremq; fonũ habi:",
+    "wer": 100.0,
+    "cer": 17.94871794871795,
+    "accuracy": 85.8974358974359,
+    "time": 2.5073421001434326,
+    "diffs": [
+      [
+        0,
+        "aſpirati"
+      ],
+      [
+        -1,
+        "õ"
+      ],
+      [
+        1,
+        "o"
+      ],
+      [
+        0,
+        "e adinu"
+      ],
+      [
+        -1,
+        "e"
+      ],
+      [
+        1,
+        "ici"
+      ],
+      [
+        0,
+        "nit:"
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "quæ quod"
+      ],
+      [
+        -1,
+        "ã"
+      ],
+      [
+        1,
+        "am"
+      ],
+      [
+        0,
+        "modo mollior"
+      ],
+      [
+        -1,
+        "ẽ ꝗᷓ. "
+      ],
+      [
+        1,
+        "é q."
+      ],
+      [
+        0,
+        "ps."
+      ],
+      [
+        -1,
+        " "
+      ],
+      [
+        0,
+        "uolubilioremq; "
+      ],
+      [
+        -1,
+        "ſ"
+      ],
+      [
+        1,
+        "f"
+      ],
+      [
+        0,
+        "onũ hab"
+      ],
+      [
+        -1,
+        "&"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        0,
+        ":"
+      ]
+    ],
+    "matches": 65,
+    "deletions": 13,
+    "insertions": 12
+  }
+}
