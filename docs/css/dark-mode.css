@@ -214,7 +214,6 @@ body[data-theme="dark"] {
 
 [data-theme="dark"] .diff-view {
     background: #343a40;
-    border: 1px solid #495057;
     color: #e9ecef;
 }
 
